@@ -26,12 +26,14 @@ jobs:
             ${{ runner.os }}-gatsby-alexhyett-site-build-
       - name: Install dependencies
         run: npm install
+      - name: install gatsby cli
+        run: npm install -g gatsby-cli@4.6.1
       # - name: Run Lint
       #   run: yarn run lint
-      - name: Build Gatsby Site
-        uses: jzweifel/gatsby-cli-github-action@master
-        with:
-          gatsby-arg: build
+      - name: Build
+        run: gatsby build
+      - name: verify build
+        run: ls -la public
       # - name: Set AWS credentials
       #   uses: aws-actions/configure-aws-credentials@v1
       #   with:
