@@ -13,7 +13,7 @@ First we need an AWS IAM policy.
             "Sid": "VisualEditor0",
             "Effect": "Allow",
             "Action": "cloudfront:CreateInvalidation",
-            "Resource": "arn:aws:cloudfront::693172545856:distribution/E2498U24MEPPE"
+            "Resource": "*"
         },
         {
             "Sid": "VisualEditor1",
