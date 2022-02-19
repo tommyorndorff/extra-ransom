@@ -1,5 +1,5 @@
 ---
-title: hi world
+title: hi world; first post.
 date: "2022-02-17T04:31:00.000Z"
 description: "getting github actions to build"
 ---
