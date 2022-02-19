@@ -1,7 +1,30 @@
 ---
-title: A lot of template content!
-date: "2022-02-16T23:46:37.121Z"
+title: Now that it builds...
+date: "2022-02-19T15:10:10Z"
 ---
+
+First we need an AWS IAM policy.
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "s3:*",
+            "Resource": [
+                "arn:aws:s3:::www.hostname.com",
+                "arn:aws:s3:::www.hostname.com/*",
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": "s3:ListAllMyBuckets",
+            "Resource": "arn:aws:s3:::*"
+        }
+    ]
+}
+```
 
 You can also write code blocks here!
 

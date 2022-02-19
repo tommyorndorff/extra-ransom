@@ -21,24 +21,26 @@ jobs:
             public
             .cache
             node_modules
-          key: ${{ runner.os }}-gatsby-alexhyett-site-build-${{ github.run_id }}
+          key: ${{ runner.os }}-gatsby-tommyorndorff-site-build-${{ github.run_id }}
           restore-keys: |
-            ${{ runner.os }}-gatsby-alexhyett-site-build-
+            ${{ runner.os }}-gatsby-tommyorndorff-site-build-
       - name: Install dependencies
         run: npm install
       - name: install gatsby cli
         run: npm install -g gatsby-cli@4.6.1
-      # - name: Run Lint
-      #   run: yarn run lint
       - name: Build
         run: gatsby build
       - name: verify build
         run: ls -la public
-      # - name: Set AWS credentials
-      #   uses: aws-actions/configure-aws-credentials@v1
-      #   with:
-      #     aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      #     aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      #     aws-region: eu-west-1
-      # - name: Deploy to S3
-      #   run: yarn run deploy
+      - name: set aws credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+      - name: sync to s3 bucket
+        run: |
+          aws s3 sync ./public/ s3://www.extra-ransom.net/
+      - name: invalidate cloudfront
+        run: |
+          aws cloudfront create-invalidation --distribution-id E2498U24MEPPED --paths "/"
