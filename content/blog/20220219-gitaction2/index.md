@@ -10,14 +10,24 @@ First we need an AWS IAM policy.
     "Version": "2012-10-17",
     "Statement": [
         {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": "cloudfront:CreateInvalidation",
+            "Resource": "arn:aws:cloudfront::693172545856:distribution/E2498U24MEPPE"
+        },
+        {
+            "Sid": "VisualEditor1",
             "Effect": "Allow",
             "Action": "s3:*",
             "Resource": [
-                "arn:aws:s3:::www.hostname.com",
-                "arn:aws:s3:::www.hostname.com/*",
+                "arn:aws:s3:::www.extra-ransom.net",
+                "arn:aws:s3:::www.folklorerods.com",
+                "arn:aws:s3:::www.extra-ransom.net/*",
+                "arn:aws:s3:::www.folklorerods.com/*"
             ]
         },
         {
+            "Sid": "VisualEditor2",
             "Effect": "Allow",
             "Action": "s3:ListAllMyBuckets",
             "Resource": "arn:aws:s3:::*"
