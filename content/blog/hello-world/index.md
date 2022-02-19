@@ -1,7 +1,7 @@
 ---
 title: hi world
 date: "2022-02-17T04:31:00.000Z"
-description: "hi."
+description: "getting github actions to build"
 ---
 
 alrighty, new/first post on my potentially useless blog.
