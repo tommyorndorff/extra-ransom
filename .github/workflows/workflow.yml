@@ -40,7 +40,7 @@ jobs:
           aws-region: us-east-1
       - name: sync to s3 bucket
         run: |
-          aws s3 sync ./public/ s3://www.extra-ransom.net/
+          aws s3 sync ./public/ s3://www.extra-ransom.net/ --delete
       - name: invalidate cloudfront
         run: |
           aws cloudfront create-invalidation --distribution-id E2498U24MEPPED --paths "/"
