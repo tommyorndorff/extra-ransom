@@ -9,38 +9,82 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 14
-      - name: Caching Gatsby
-        id: gatsby-cache-build
-        uses: actions/cache@v2
-        with:
-          path: |
-            public
-            .cache
-            node_modules
-          key: ${{ runner.os }}-gatsby-tommyorndorff-site-build-${{ github.run_id }}
-          restore-keys: |
-            ${{ runner.os }}-gatsby-tommyorndorff-site-build-
-      - name: Install dependencies
-        run: npm install
-      - name: install gatsby cli
-        run: npm install -g gatsby-cli@4.6.1
-      - name: Build
-        run: gatsby build
-      - name: verify build
-        run: ls -la public
-      - name: set aws credentials
-        uses: aws-actions/configure-aws-credentials@v1
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: us-east-1
-      - name: sync to s3 bucket
-        run: |
-          aws s3 sync ./public/ s3://www.extra-ransom.net/ --delete
-      - name: invalidate cloudfront
-        run: |
+    # Step 1 - Checks-out your repository under $GITHUB_WORKSPACE
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+          submodules: true  # Fetch Hugo themes
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+    # Step 2 - Sets up the latest version of Hugo
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+          hugo-version: 'latest'
+
+    # Step 3 - Clean and don't fail
+    - name: Clean public directory
+      run: rm -rf public
+
+    # Step 4 - Builds the site using the latest version of Hugo
+    # Also specifies the theme we want to use
+    - name: Build
+      run: hugo --theme=hugo-books
+
+    # Step 5 - Create name file
+    - name: Create cname file
+      run: echo 'extra-ransom.net' > public/CNAME
+
+    # Step 6 - Push our generated site to our gh-pages branch
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+
+    - name: Set AWS credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-east-1
+
+    - name: sync to s3 bucket
+      run: |
+        aws s3 sync ./public/ s3://www.extra-ransom.net/ --delete
+
+    - name: Invalidate Cloudfront Cache
+      run: |
           aws cloudfront create-invalidation --distribution-id E2498U24MEPPED --paths "/"
+
+      # - name: Caching Gatsby
+      #   id: gatsby-cache-build
+      #   uses: actions/cache@v2
+      #   with:
+      #     path: |
+      #       public
+      #       .cache
+      #       node_modules
+      #     key: ${{ runner.os }}-gatsby-tommyorndorff-site-build-${{ github.run_id }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-gatsby-tommyorndorff-site-build-
+      # - name: Install dependencies
+      #   run: npm install
+      # - name: install gatsby cli
+      #   run: npm install -g gatsby-cli@4.6.1
+      # - name: Build
+      #   run: gatsby build
+      # - name: verify build
+      #   run: ls -la public
+      # - name: set aws credentials
+      #   uses: aws-actions/configure-aws-credentials@v1
+      #   with:
+      #     aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      #     aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      #     aws-region: us-east-1
+      # - name: sync to s3 bucket
+      #   run: |
+      #     aws s3 sync ./public/ s3://www.extra-ransom.net/ --delete
+      # - name: invalidate cloudfront
+      #   run: |
+      #     aws cloudfront create-invalidation --distribution-id E2498U24MEPPED --paths "/"

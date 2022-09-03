@@ -1,0 +1,8 @@
+baseURL = 'https://www.extra-ransom.net/'
+languageCode = 'en-us'
+title = 'super-chainsaw'
+theme = "hugo-book"
+
+[params]
+    BookTheme = 'auto'
+    BookRepo = 'https://github.com/tommyorndorff/extra-ransom'
