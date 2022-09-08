@@ -1,0 +1,81 @@
+---
+title: "Rod 001: Sir D 7' 2pc 4wt"
+date: 2022-09-07
+menu:
+  main:
+    parent: projects
+bookFlatSection: false
+# bookToc: true
+# bookHidden: false
+# bookCollapseSection: false
+# bookComments: false
+# bookSearchExclude: false
+# author: "Michael Henderson"
+# date: 2014-09-28
+# linktitle: Creating a New Theme
+# menu:
+#   main:
+#     parent: tutorials
+# next: /tutorials/github-pages-blog
+# prev: /tutorials/automated-deployments
+# title: Creating a New Theme
+# weight: 10
+---
+
+# Morgan Hand Mill Settings
+## Cattanach 7ft 2pc 4wt
+Wayne Cattanach's 7ft 2pc 4wt.
+This rod was praised on the Rodmaker's list
+by Darryl Hashiyada, and it has become a
+popular ''first rod'' for many of us.
+Note the ''Cattanach hinge'' on the stress
+curve.
+
+* Rod is 12.339/64 (0.193 Inch) at 42.00 in from tip
+* Outside diameter (around apexes): 14.248/64 (0.223 Inch)
+* (Wt 0.225 oz.)
+
+|key          |value             |
+|-------------|------------------|
+|geometry     |hex (6)           |
+|rod length   |7 ft 0 in (84")   |
+|action length|6 ft 2 in (64")   |
+|line type    |standard          |
+|line weight  |4 DT              |
+|light fished |40 ft             |
+|pieces       |2                 |
+|tip factor   |1.550             |
+|ferrule type |standard          |
+|ferrule 1    |12/64             |
+
+## Tip Section
+__0 to 42.00 Inches__
+|Inches  |Rod Dim |Half Dim|MHM Setting|Station|
+|:-------|:-------|:-------|----------:|------:|
+|35      |0.166   |0.0830  |0.0840     |13     |
+|40      |0.184   |0.0920  |0.0750     |12     |
+|45      |0.206   |0.1030  |0.0640     |11     |
+|50      |0.214   |0.1070  |0.0600     |10     |
+|55      |0.220   |0.1100  |0.0570     |9      |
+|60      |0.244   |0.1220  |0.0450     |8      |
+|65      |0.258   |0.1290  |0.0380     |7      |
+|70      |0.272   |0.1360  |0.0310     |6      |
+|75      |0.298   |0.1490  |0.0180     |5      |
+|80      |0.316   |0.1580  |0.0090     |4      |
+|85      |0.334   |0.1670  |0.0000     |3      | 
+ 
+## Butt Section
+__42.00 to 84 Inches__
+|Inches  |Rod Dim |Half Dim|MHM Setting|Station|
+|:-------|:-------|:-------|----------:|------:|
+|35      |0.166   |0.0830  |0.0840     |13     |
+|40      |0.184   |0.0920  |0.0750     |12     |
+|45      |0.206   |0.1030  |0.0640     |11     |
+|50      |0.214   |0.1070  |0.0600     |10     |
+|55      |0.220   |0.1100  |0.0570     |9      |
+|60      |0.244   |0.1220  |0.0450     |8      |
+|65      |0.258   |0.1290  |0.0380     |7      |
+|70      |0.272   |0.1360  |0.0310     |6      |
+|75      |0.298   |0.1490  |0.0180     |5      |
+|80      |0.316   |0.1580  |0.0090     |4      |
+|85      |0.334   |0.1670  |0.0000     |3      |
