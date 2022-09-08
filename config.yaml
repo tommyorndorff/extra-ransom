@@ -1,0 +1,25 @@
+baseURL: 'https://www.extra-ransom.net/'
+languageCode: en-us
+title: super-chainsaw
+theme: hugo-book
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+sectionPagesMenu: main
+
+menu:
+  main: 
+    - identifier: projects
+      name: projects 
+      url: /projects/
+      weight: 50
+  after:
+    - name: Github
+      url: 'https://github.com/tommyorndorff/extra-ransom'
+      weight: 10
+params:
+  BookTheme: auto
+  BookRepo: 'https://github.com/tommyorndorff/extra-ransom'
