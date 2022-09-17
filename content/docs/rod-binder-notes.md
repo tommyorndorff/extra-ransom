@@ -8,6 +8,14 @@ weight: 55
 # bookComments: false
 # bookSearchExclude: false
 ---
+# Notes on Rod Binders 
+Because my brain isn't the lint catch that it used to be, here are some notes for reference.  Preference toward Internet Archive and ensuring they're cataloged in the Wayback Machine.
+
+## Smithwick Rod Binder
+From [Canerod.com](http://canerod.com/Tools/Index.html), there's a [PDF referenced](/static/rod-binder/SmithwickEZBinder.pdf).   
+
+![Smithwick Hand Drawing](/static/rod-binder/smithwick-hand-drawing.png)
+
 ## Fantastic Gallery of Binders on bamboorodmaking.com
 
 [Wayback Machine](https://web.archive.org/web/20220915195923/https://www.bamboorodmaking.com/Contraptions-files/Binders.html)
