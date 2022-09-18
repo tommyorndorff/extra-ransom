@@ -23,3 +23,19 @@ menu:
 params:
   BookTheme: auto
   BookRepo: 'https://github.com/tommyorndorff/extra-ransom'
+
+deployment:
+
+  targets:
+    name: s3-extra-ransom
+    cloudFrontDistributionID: E2498U24MEPPED
+    URL: "s3://www.extra-ransom.net?region=us-east-1"
+    matchers:
+      - pattern: "^.+\\.(html|xml|json)$"
+        gzip: true
+      - pattern: "^.+\\.(js|css|svg|ttf)$"
+        cacheControl: "max-age=31536000, no-transform, public"
+        gzip: true
+      - pattern: "^.+\\.(png|jpg)$"
+        cacheControl: "max-age=31536000, no-transform, public"
+        gzip: false
