@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Voice synthesis test</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+        .button {
+          background-color: #4CAF50;
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+        </style>
+    <script>
+      function testVoiceSynth(){
+        var synth = window.speechSynthesis;
+        var voices = synth.getVoices();
+        var utterThis = new SpeechSynthesisUtterance('hello world');
+        utterThis.onstart = function(event) {
+          console.log('We have started uttering this speech: ' + event.utterance.text);
+        }
+        for(i = 0; i < voices.length ; i++) {
+            console.log('found: ',voices[i]);
+            utterThis.voice = voices[i];
+            synth.speak(utterThis);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <button class="button" onclick="testVoiceSynth()">Test Voice Synth</button>
+  </body>
+</html>
+
