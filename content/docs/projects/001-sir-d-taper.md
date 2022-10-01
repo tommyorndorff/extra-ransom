@@ -5,21 +5,6 @@ menu:
   main:
     parent: projects
 bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
-# author: "Michael Henderson"
-# date: 2014-09-28
-# linktitle: Creating a New Theme
-# menu:
-#   main:
-#     parent: tutorials
-# next: /tutorials/github-pages-blog
-# prev: /tutorials/automated-deployments
-# title: Creating a New Theme
-# weight: 10
 ---
 
 # Morgan Hand Mill Settings
@@ -50,20 +35,20 @@ curve.
 
 ## Tip Section
 __0 to 42.00 Inches__
-|Inches  |Rod Dim |Half Dim|MHM Setting|Station|
-|:-------|:-------|:-------|----------:|------:|
-|-5      |0.060   |0.0300  |0.0730     |13     |
-| 0      |0.067   |0.0335  |0.0695     |12     |
-| 5      |0.072   |0.0360  |0.0670     |11     |
-|10      |0.084   |0.0420  |0.0610     |10     |
-|15      |0.104   |0.0520  |0.0510     |9      |
-|20      |0.123   |0.0615  |0.0415     |8      |
-|25      |0.137   |0.0685  |0.0345     |7      |
-|30      |0.152   |0.0760  |0.0270     |6      |
-|35      |0.166   |0.0830  |0.0200     |5      |
-|40      |0.184   |0.0920  |0.0110     |4      |
-|45      |0.206   |0.1030  |0.0000     |3      | 
- 
+|Inches  |Rod Dim |Half Dim|Rougher Oversize|MHM Oversize|Finish Oversize|MHM Setting|Station|
+|:-------|:-------|:-------|:---------------|:-----------|:--------------|----------:|------:|
+|-5      |0.060   |0.0300  |0.1000          |0.0600      |0.0330         |0.0730     |13     |
+| 0      |0.067   |0.0335  |0.1035          |0.0635      |0.0365         |0.0695     |12     |
+| 5      |0.072   |0.0360  |0.1060          |0.0660      |0.0390         |0.0670     |11     |
+|10      |0.084   |0.0420  |0.1120          |0.0720      |0.0450         |0.0610     |10     |
+|15      |0.104   |0.0520  |0.1220          |0.0820      |0.0550         |0.0510     |9      |
+|20      |0.123   |0.0615  |0.1315          |0.0915      |0.0645         |0.0415     |8      |
+|25      |0.137   |0.0685  |0.1385          |0.0985      |0.0715         |0.0345     |7      |
+|30      |0.152   |0.0760  |0.1460          |0.1060      |0.0790         |0.0270     |6      |
+|35      |0.166   |0.0830  |0.1530          |0.1130      |0.0860         |0.0200     |5      |
+|40      |0.184   |0.0920  |0.1620          |0.1220      |0.0950         |0.0110     |4      |
+|45      |0.206   |0.1030  |0.1730          |0.1330      |0.1060         |0.0000     |3      | 
+
 ## Butt Section
 __42.00 to 84 Inches__
 |Inches  |Rod Dim |Half Dim|Rougher Oversize|MHM Oversize|Finish Oversize|MHM Setting|Station|
