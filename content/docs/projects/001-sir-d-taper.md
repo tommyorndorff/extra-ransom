@@ -1,10 +1,11 @@
 ---
 title: "Rod 001: Sir D 7' 2pc 4wt"
 date: 2022-09-07
+weight: 100
 menu:
   main:
     parent: projects
-bookFlatSection: false
+# bookFlatSection: false
 ---
 
 # Morgan Hand Mill Settings
