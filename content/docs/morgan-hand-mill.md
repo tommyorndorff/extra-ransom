@@ -63,6 +63,10 @@ Repeat for the tip sections.
 * Check for and repair curves using heat gun as needed
 * Choose 6 best strips and continue.  Shelve the rest for future use
 
+{{< hint info >}}
+Here's a hint.
+{{< /hint >}}
+
 ## Rough Cut & Bevel __Tip__ Sections
 * Set up tip-roughing anvil
 * Check for trueness
@@ -73,9 +77,9 @@ Repeat for the tip sections.
 
 ## Heat Treat Strips
 * Bundle strips and place in 325 degrees oven for 45 minutes
-    ** 45 minutes at 325 produces a "blond" color
-    ** 20 minutes at 350 can also be used
-    ** Reference needed for results of this
+    * 45 minutes at 325 produces a "blond" color
+    * 20 minutes at 350 can also be used
+    * Reference needed for results of this
 * If using a forced air oven[^3], flip end-to-end after approx 20 minutes
 
 ## Plane Butt & Tip Strips to 0.30 Over

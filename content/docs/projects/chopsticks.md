@@ -1,6 +1,6 @@
 ---
-title: "miscellany"
-weight: 100
+title: "Miscellaneous"
+weight: 400
 menu:
   main:
     parent: projects
