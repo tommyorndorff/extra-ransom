@@ -63,10 +63,6 @@ Repeat for the tip sections.
 * Check for and repair curves using heat gun as needed
 * Choose 6 best strips and continue.  Shelve the rest for future use
 
-{{< hint info >}}
-Here's a hint.
-{{< /hint >}}
-
 ## Rough Cut & Bevel __Tip__ Sections
 * Set up tip-roughing anvil
 * Check for trueness
