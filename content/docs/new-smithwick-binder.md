@@ -20,4 +20,5 @@ Primarily used the Groth [binderplan PDF](/static/new-smithwick-rod-binder/Groth
 ![Groth PDF](/static/new-smithwick-rod-binder/Groth_Smithwick_binderplan.png)
 
 ## Improvements
-The arms need to be open at the top.  
+* The arms need to be open at the top.  
+* Move to all wood construction

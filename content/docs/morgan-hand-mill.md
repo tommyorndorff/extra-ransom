@@ -108,6 +108,15 @@ The gap (eventualyl will be a glue seam) exists because there is a "scoop" in th
 
 This 0.003 over is to allow for enamel removal in a future step, plus moisture
 
+## Optional: Hollow Fluting
+If hollow fluting, zero out the planing form.  Place stop block (clamp, etc.) 5" from location of ferrule so that below the ferrule isnt hollowed in order to maintain strength.
+
+Use micrometer w/ included tip to measure for thickness.  For butts, TMR goes to 0.075 then to 0.070 for butts; tips are 0.060 and 0.065.
+
+Make sure to "scoop" the transition with some type of tool so that the transition from fluted to non-fluted is smooth.  Then plane the apex from the strips to keep the glue-up tidy.
+
+Reference youtube video from [Tom Morgan Rodsmiths](https://youtu.be/lcJCI4eqGbQ?t=480).
+
 ## Glue Up Section
 * Lay butt sections in order (1-6) on tape.  Place tape at both ends of strips
 * Spread glue with toothbrush on all surfaces of strips.  Work from right to left spreading glue but skip the portions above the tape.  After glue is spread everywhere, also spread onto the strips over the taped sections.  Goal is to keep the tape dry enough for it to stick
