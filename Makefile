@@ -1,10 +1,10 @@
 .PHONY: build serve clean
 
 build:
-	hugo --theme=hugo-book
+	hugo
 
 serve:
-	hugo server --theme=hugo-book --buildDrafts
+	hugo server --buildDrafts
 
 clean:
 	rm -rf public resources/_gen
