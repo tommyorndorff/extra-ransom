@@ -7,6 +7,7 @@ yarn-error.log*
 lerna-debug.log*
 
 public/
+resources/_gen/
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -106,3 +107,8 @@ dist
 .tern-port
 
 .DS_Store
+
+# Ensure Claude Code config is tracked
+!.claude/
+!.claude/CLAUDE.md
+!.claude/settings.json

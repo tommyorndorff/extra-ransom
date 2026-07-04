@@ -1,31 +1,48 @@
 baseURL: 'https://www.extra-ransom.net/'
-languageCode: en-us
+locale: en-us
 title: super-chainsaw
-theme: hugo-book
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
 markup:
   goldmark:
     renderer:
       unsafe: true
   tableOfContents:
     startLevel: 1
-sectionPagesMenu: main
+  highlight:
+    noClasses: false
 
 menu:
-  main: 
-    - identifier: projects
-      name: projects 
-      url: /projects/
-      weight: 50
-  after:
-    - name: Github
-      url: 'https://github.com/tommyorndorff/extra-ransom'
+  main:
+    - name: Projects
+      url: /docs/projects/
       weight: 10
+    - name: GitHub
+      url: https://github.com/tommyorndorff/extra-ransom
+      weight: 20
+      params:
+        type: icon
+        icon: github
+
 params:
-  BookTheme: auto
-  BookRepo: 'https://github.com/tommyorndorff/extra-ransom'
+  navbar:
+    displayTitle: true
+    displayLogo: false
+  sidebar:
+    width: 320
+  page:
+    width: normal
+  theme:
+    default: system
+    displayToggle: true
+  editURL:
+    enable: true
+    base: https://github.com/tommyorndorff/extra-ransom/edit/main/
 
 deployment:
-
   targets:
     name: s3-extra-ransom
     cloudFrontDistributionID: E2498U24MEPPED
