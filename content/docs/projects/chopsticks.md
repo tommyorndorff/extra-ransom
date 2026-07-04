@@ -1,15 +1,6 @@
 ---
 title: "Miscellaneous"
 weight: 400
-menu:
-  main:
-    parent: projects
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
 ---
 # Chopsticks, Why Not
 I'm going to have a load of extra bamboo strips, so why not use them.

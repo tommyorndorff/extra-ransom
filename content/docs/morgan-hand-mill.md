@@ -117,9 +117,6 @@ This 0.003 over is to allow for enamel removal in a future step, plus moisture
 * When working on tip section, measure sanding strokes on each facet to ensure even removal on all sides
 * In class we were using Norton ProSand sandpaper in either 200 and 320 grit 
 
-## 
-
-
 [^1]: Common node spacings are Garrison-style, 3x3, and 2x2x2.  See pg. 71 of Maurer & Elser's _Fundamentals of Building a Bamboo Fly-Rod_
 
 [^2]: An easy solution is vinyl gutters.  Lowes items [#279187](https://www.lowes.com/pd/Amerimax-Traditional-4-5-in-x-120-in-White-K-Style-Gutter/1000246309) & [#279191](https://www.lowes.com/pd/Amerimax-Traditional-Vinyl-K-Style-Left-Gutter-End-Cap/1000246317) combined with silicone or similar.

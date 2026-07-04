@@ -1,12 +1,6 @@
 ---
 title: "Rod Binder Notes"
 weight: 55
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
 ---
 # Notes on Rod Binders 
 Because my brain isn't the lint catch that it used to be, here are some notes for reference.  Preference toward Internet Archive and ensuring they're cataloged in the Wayback Machine.
