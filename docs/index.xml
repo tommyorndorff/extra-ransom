@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>super-chainsaw – Docs</title><link>https://www.extra-ransom.net/docs/</link><description>Recent content in Docs on super-chainsaw</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 07 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.extra-ransom.net/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Morgan Hand Mill</title><link>https://www.extra-ransom.net/docs/morgan-hand-mill/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/morgan-hand-mill/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>super-chainsaw – Notes</title><link>https://www.extra-ransom.net/docs/</link><description>Recent content in Notes on super-chainsaw</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 07 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.extra-ransom.net/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Morgan Hand Mill</title><link>https://www.extra-ransom.net/docs/morgan-hand-mill/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/morgan-hand-mill/</guid><description>
 &lt;h1&gt;Tom Morgan Bamboo Build Class&lt;/h1&gt;&lt;p&gt;These are the notes from the class. They were given out on sheets of paper. I&amp;rsquo;ve re-written them here and amended them where I needed additional notes.&lt;/p&gt;
 &lt;h2&gt;Split Culms&lt;span class="hx:absolute hx:-mt-20" id="split-culms"&gt;&lt;/span&gt;
 &lt;a href="#split-culms" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
@@ -14,26 +14,21 @@
 &lt;a href="#strip-selection--node-spacing" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Lay out &lt;strong&gt;butt strips&lt;/strong&gt; with lowest part of culm to the right&lt;/li&gt;
 &lt;li&gt;Stagger nodes into 3/3 configuration&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-&lt;li&gt;Mark 8 strips to cut off (4 for each stagger). Thats 3 + 1 extra&lt;/li&gt;
+&lt;li&gt;Mark 8 strips to cut off (4 for each stagger). That&amp;rsquo;s 3 + 1 extra&lt;/li&gt;
 &lt;li&gt;Cut strips to length with chop saw or with hack saw&lt;/li&gt;
 &lt;li&gt;Lay out strips again in same node spacing config&lt;/li&gt;
 &lt;li&gt;Mark right ends in 2 different colors, one for each node alignment&lt;/li&gt;
 &lt;li&gt;Mark right end of each strip as butt section (B)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
-&lt;div&gt;&lt;pre&gt;&lt;code&gt;.---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---.
-| | | | | | | red B|
-&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;
-| | | | | | | blue B|
-&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;
-| | | | | | | red B|
-&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;
-| | | | | | | blue B|
-&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;
-| | | | | | | red B|
-&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;
-| | | | | | | blue B|
-&amp;#39;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#43;---&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt; tip end butt end
+1 --*-----------*-----------*-----------*-----------*-- red
+2 ------*-----------*-----------*-----------*----------- blue
+3 --*-----------*-----------*-----------*-----------*-- red
+4 ------*-----------*-----------*-----------*----------- blue
+5 --*-----------*-----------*-----------*-----------*-- red
+6 ------*-----------*-----------*-----------*----------- blue
+* = node (node spacing tightens toward the butt end)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
@@ -68,8 +63,8 @@ data-copied-label="Copied!"
 &lt;a href="#rough-cut--bevel-tip-sections" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Set up tip-roughing anvil&lt;/li&gt;
 &lt;li&gt;Check for trueness&lt;/li&gt;
-&lt;li&gt;Set butt taper from spreadsheet&lt;/li&gt;
-&lt;li&gt;Plane all butt strips to rough dimensions 0.070 over&lt;/li&gt;
+&lt;li&gt;Set tip taper from spreadsheet&lt;/li&gt;
+&lt;li&gt;Plane all tip strips to rough dimensions 0.070 over&lt;/li&gt;
 &lt;li&gt;Check for and repair curves using heat gun as needed&lt;/li&gt;
 &lt;li&gt;Choose 6 best strips and continue. Shelve the rest for future use&lt;/li&gt;
 &lt;/ul&gt;
@@ -106,15 +101,15 @@ data-copied-label="Copied!"
 &lt;a href="#check-sections-for-fit" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This step is to remove glue seams (gaps) twists, and bends&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Mark gaps and irregularities with a pencil&lt;/li&gt;
-&lt;li&gt;Sand and straighten and strips at gaps using a sanding jig&lt;/li&gt;
+&lt;li&gt;Sand and straighten strips at gaps using a sanding jig&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This step consists of slowly working down each of the strips, starting at the butt-end of the strip, and looking for gaps surrounding the nodes. If there was a gap at the node, place arrows on the enamel-side around the node. After all nodes are inspected, place the non-enamel side up in the sanding jig and sand this side. The gap&lt;/p&gt;
-&lt;p&gt;The gap (eventualyl will be a glue seam) exists because there is a &amp;ldquo;scoop&amp;rdquo; in the planed face. The intent of sanding is to lengthen that scoop so that when bound again, the strip can interface properly with its neighbor strip.&lt;/p&gt;
+&lt;p&gt;The gap (eventually will be a glue seam) exists because there is a &amp;ldquo;scoop&amp;rdquo; in the planed face. The intent of sanding is to lengthen that scoop so that when bound again, the strip can interface properly with its neighbor strip.&lt;/p&gt;
 &lt;h2&gt;Final Planing of Strips&lt;span class="hx:absolute hx:-mt-20" id="final-planing-of-strips"&gt;&lt;/span&gt;
 &lt;a href="#final-planing-of-strips" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Plane butt strips to 0.003 over final taper dimensions&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;This 0.003 over is to allow for enamel removal in a future step, plus moisture&lt;/p&gt;
+&lt;p&gt;This 0.003 over is to allow for enamel removal in a future step, plus moisture.&lt;/p&gt;
 &lt;h2&gt;Glue Up Section&lt;span class="hx:absolute hx:-mt-20" id="glue-up-section"&gt;&lt;/span&gt;
 &lt;a href="#glue-up-section" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;Lay butt sections in order (1-6) on tape. Place tape at both ends of strips&lt;/li&gt;
