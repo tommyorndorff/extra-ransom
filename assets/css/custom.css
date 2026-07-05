@@ -1,0 +1,69 @@
+/*
+ * Site palette + type. Hextra's primary color is HSL-driven (see the
+ * theme's styles.css @theme block) - overriding the hue/saturation/
+ * lightness vars here re-themes every primary-* shade the compiled
+ * Tailwind build already generated, without touching the theme.
+ *
+ * Palette: a river-water teal (--primary-*) on a cool off-white/near-
+ * black page background instead of the theme's stock white/#111.
+ */
+
+:root {
+  --primary-hue: 174deg;
+  --primary-saturation: 39%;
+  --primary-lightness: 40%;
+
+  --hx-color-dark: #0d1917;
+
+  --hx-font-sans: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  --hx-font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.dark {
+  --primary-hue: 174deg;
+  --primary-saturation: 32%;
+  --primary-lightness: 56%;
+}
+
+body {
+  background-color: #f6faf9;
+}
+
+.content h1,
+.content h2,
+.content h3 {
+  font-family: "Fraunces", ui-serif, Georgia, serif;
+}
+
+/* Homepage hero headline: hand-rolled instead of the hero-headline
+ * shortcode's default gray gradient, because the gradient needs
+ * different stops per color scheme and the shortcode's `style` param
+ * can't reach inside the `dark:` variant. */
+.hero-title {
+  font-family: "Fraunces", ui-serif, Georgia, serif;
+  background-image: linear-gradient(120deg, #142420 15%, #3e8e86 85%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.dark .hero-title {
+  background-image: linear-gradient(120deg, #bfe3de 10%, #6bb3ab 90%);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero-fade-in {
+    animation: hero-fade-in 0.6s ease-out both;
+  }
+
+  @keyframes hero-fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
