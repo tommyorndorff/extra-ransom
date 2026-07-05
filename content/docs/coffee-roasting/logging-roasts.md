@@ -5,6 +5,22 @@ weight: 20
 
 How to export a roast from Artisan and add it as a page on this site.
 
+## Roast Phase Buttons
+
+Artisan's toolbar has one button per roast phase — press each the instant it happens. Use the trier (the little sampling scoop on the roaster) to judge color for Dry End, and listen for the cracks:
+
+| Button | Press it when... |
+|---|---|
+| **CHARGE** | Beans go into the roaster. This is the zero point everything else is measured from — no CHARGE, no ∆BT curve. |
+| **DRY END** | The beans finish drying and start browning (Maillard) — pull a sample with the trier and watch the color shift from green to tan/yellow. |
+| **FC START** | First crack audibly begins — a popcorn-like popping. |
+| **FC END** | First crack's popping tapers off. |
+| **SC START** | Second crack begins, if roasting past first crack — a faster, higher-pitched crackle than first crack. |
+| **SC END** | Second crack's crackling tapers off. |
+| **DROP** | Beans come out of the roaster into the cooling tray. |
+
+**Turning Point isn't a button.** Artisan auto-detects it as the lowest bean-temp reading shortly after Charge — the moment the cold beans stop dragging the temperature down and it starts climbing. That makes it the one phase mark that can go wrong even when you press every button correctly: if the probe glitches right after Charge, like on [the first roast logged here](/docs/coffee-roasting/2026-07-05-honduras-finca-el-conejo-catuai-organic/), the auto-detected TP is meaningless even though every button-marked event on the same roast is fine.
+
 ## What to Capture Per Roast
 
 At minimum, record:
