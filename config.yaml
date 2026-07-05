@@ -20,9 +20,15 @@ menu:
     - name: Rod Builds
       url: /docs/rod-builds/
       weight: 10
+    - name: Woodworking
+      url: /docs/woodworking/
+      weight: 20
+    - name: Coffee Roasting
+      url: /docs/coffee-roasting/
+      weight: 30
     - name: GitHub
       url: https://github.com/tommyorndorff/extra-ransom
-      weight: 20
+      weight: 40
       params:
         type: icon
         icon: github
