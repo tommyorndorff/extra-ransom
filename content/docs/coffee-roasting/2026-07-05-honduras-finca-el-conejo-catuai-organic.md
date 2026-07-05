@@ -9,16 +9,7 @@ weight: 20260705
 **Batch**: #1
 **Green weight**: 220g | **Roast out**: not yet weighed
 
-First run of the FreshRoast SR800 logged through Artisan.
-
-## Equipment
-
-- Roaster: FreshRoast SR800
-- Evolution Sensors 1/8 NPT stainless steel compression fitting, for 1/16" (0.0625") diameter thermocouple probes
-- Evolution Sensors PTFE ferrule, for 1/16" diameter RTD/thermocouple compression fittings
-- MECCANIXITY K-type thermocouple probe, 1.5×100mm, 9.8 ft wire, 0–1100°C (32–2012°F), stainless steel
-- Phidgets HUB0002_0 VINT hub
-- Phidgets TMP1101_1-4x thermocouple Phidget
+First run of the FreshRoast SR800 logged through Artisan — see the [Coffee Roasting overview](/docs/coffee-roasting/) for the full equipment list.
 
 ## Roast
 
