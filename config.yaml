@@ -1,6 +1,6 @@
 baseURL: 'https://www.extra-ransom.net/'
 locale: en-us
-title: super-chainsaw
+title: extra-ransom, super-chainsaw
 
 module:
   imports:
