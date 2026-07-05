@@ -3,6 +3,7 @@ name: Deploy
 on:
   push:
     branches: [main]
+  workflow_dispatch: 
 
 permissions:
   contents: write
@@ -32,10 +33,18 @@ jobs:
           publish_dir: ./public
           cname: extra-ransom.net
 
-      - uses: aws-actions/configure-aws-credentials@v4
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: arn:aws:iam::693172545856:role/extra-ransom-github-deploy
           aws-region: us-east-1
 
       - name: Deploy to S3 and invalidate CloudFront
         run: hugo deploy --maxDeletes -1
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          cname: extra-ransom.net
