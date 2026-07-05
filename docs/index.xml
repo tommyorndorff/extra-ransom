@@ -1,67 +1,1202 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Docs on super-chainsaw</title>
-    <link>https://www.extra-ransom.net/docs/</link>
-    <description>Recent content in Docs on super-chainsaw</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 09 Jan 2023 23:25:10 -0500</lastBuildDate><atom:link href="https://www.extra-ransom.net/docs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Morgan Hand Mill</title>
-      <link>https://www.extra-ransom.net/docs/morgan-hand-mill/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.extra-ransom.net/docs/morgan-hand-mill/</guid>
-      <description>Tom Morgan Bamboo Build Class # These are the notes from the class. They were given out on sheets of paper. I&amp;rsquo;ve re-written them here and amended them where I needed additional notes.
-Split Culms # Choose culms. Bottom of the culms are used for the butts. Top of the culms are used for tips Nodes are spaced closer together at the bottom. They&amp;rsquo;re wider at the top The goal is for more power fibers at the bottom of the rod blank Cut culms to 5-6&amp;rsquo; sections: one for bottom &amp;amp; one for top Inspect for depth of power fibers Split into strip with star splitter, mallet &amp;amp; pipe.</description>
-    </item>
-    
-    <item>
-      <title>Rod Tapers &amp; Tools</title>
-      <link>https://www.extra-ransom.net/docs/rod-tapers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.extra-ransom.net/docs/rod-tapers/</guid>
-      <description> RodLab # Windows software that does many complex rod form tasks. I need to eval this.
-Two Handed Software&amp;rsquo;s RodLab HexRod # Documentation seems wordy but promising. Will need to review further.
-David Ray&amp;rsquo;s Taper Library # Originally at http://www.uwm.edu/~stetzer/Tapers/drtapers/index.html per some forums, this is found at David Ray&amp;rsquo;s Taper Library on 09/04/2022.
-Original: http://www.uwm.edu/~stetzer/Tapers/drtapers/index.html (expect a 404) Archive: Wayback Machine Original: David Ray&amp;rsquo;s Taper Library Archive: Wayback Machine link </description>
-    </item>
-    
-    <item>
-      <title>&#39;New&#39; Smithwick Binder</title>
-      <link>https://www.extra-ransom.net/docs/new-smithwick-binder/</link>
-      <pubDate>Mon, 09 Jan 2023 23:25:10 -0500</pubDate>
-      
-      <guid>https://www.extra-ransom.net/docs/new-smithwick-binder/</guid>
-      <description>&amp;lsquo;New&amp;rsquo; Smithwick Binder # My first attempt at a binder is this Smithwick. Initial build was successful and I was able to bind bamboo.
-Primarily used the Groth binderplan PDF and should have used the photo as well.
-Improvements # The arms need to be open at the top.</description>
-    </item>
-    
-    <item>
-      <title>Garrison Binder</title>
-      <link>https://www.extra-ransom.net/docs/garrison-binder/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.extra-ransom.net/docs/garrison-binder/</guid>
-      <description>I&amp;rsquo;ve copied this content from http://www.canerod.com/rodmakers/tips/binder.html (Wayback Machine). I&amp;rsquo;ve reformatted it for reading and placed the images in-line after each paragraph.
-Unlocking the Mysteries of the Garrison Binder # by Chris Bogart
-Hiding this ramble. Did you ever wonder why (to quote Andy Rooney) the Garrison binder is for many rodmakers the source of contentious problems while other rodmakers never seem to have problems. One of the primary reasons for the mystery the Garrison binder presents is that rodmakers often built it by following a diagram in a book and then hoped for the best.</description>
-    </item>
-    
-    <item>
-      <title>Rod Binder Notes</title>
-      <link>https://www.extra-ransom.net/docs/rod-binder-notes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.extra-ransom.net/docs/rod-binder-notes/</guid>
-      <description>Notes on Rod Binders # Because my brain isn&amp;rsquo;t the lint catch that it used to be, here are some notes for reference. Preference toward Internet Archive and ensuring they&amp;rsquo;re cataloged in the Wayback Machine.
-Smithwick Rod Binder # From Canerod.com, there&amp;rsquo;s a PDF referenced.
-Fantastic Gallery of Binders on bamboorodmaking.com # Wayback Machine
-Pulleys for Belt Drive # I have a couple of questions regarding building a binder. I&amp;rsquo;ve located some pulleys at the hardware store with ~ 1/4&amp;quot; channel in them, is this too wide or doesn&amp;rsquo;t it matter?</description>
-    </item>
-    
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>super-chainsaw – Docs</title><link>https://www.extra-ransom.net/docs/</link><description>Recent content in Docs on super-chainsaw</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 07 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.extra-ransom.net/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Morgan Hand Mill</title><link>https://www.extra-ransom.net/docs/morgan-hand-mill/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/morgan-hand-mill/</guid><description>
+&lt;h1&gt;Tom Morgan Bamboo Build Class&lt;/h1&gt;&lt;p&gt;These are the notes from the class. They were given out on sheets of paper. I&amp;rsquo;ve re-written them here and amended them where I needed additional notes.&lt;/p&gt;
+&lt;h2&gt;Split Culms&lt;span class="hx:absolute hx:-mt-20" id="split-culms"&gt;&lt;/span&gt;
+&lt;a href="#split-culms" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Choose culms. Bottom of the culms are used for the butts. Top of the culms are used for tips&lt;/li&gt;
+&lt;li&gt;Nodes are spaced closer together at the bottom. They&amp;rsquo;re wider at the top&lt;/li&gt;
+&lt;li&gt;The goal is for more &lt;strong&gt;power fibers&lt;/strong&gt; at the bottom of the rod blank&lt;/li&gt;
+&lt;li&gt;Cut culms to &lt;strong&gt;5-6&amp;rsquo;&lt;/strong&gt; sections: one for bottom &amp;amp; one for top&lt;/li&gt;
+&lt;li&gt;Inspect for depth of power fibers&lt;/li&gt;
+&lt;li&gt;Split into strip with star splitter, mallet &amp;amp; pipe. Put the tip of the culm up&lt;/li&gt;
+&lt;li&gt;Mark butt strips (B) and tip strips (T)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Strip Selection &amp;amp; Node Spacing&lt;span class="hx:absolute hx:-mt-20" id="strip-selection--node-spacing"&gt;&lt;/span&gt;
+&lt;a href="#strip-selection--node-spacing" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Lay out &lt;strong&gt;butt strips&lt;/strong&gt; with lowest part of culm to the right&lt;/li&gt;
+&lt;li&gt;Stagger nodes into 3/3 configuration&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Mark 8 strips to cut off (4 for each stagger). Thats 3 + 1 extra&lt;/li&gt;
+&lt;li&gt;Cut strips to length with chop saw or with hack saw&lt;/li&gt;
+&lt;li&gt;Lay out strips again in same node spacing config&lt;/li&gt;
+&lt;li&gt;Mark right ends in 2 different colors, one for each node alignment&lt;/li&gt;
+&lt;li&gt;Mark right end of each strip as butt section (B)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="goat svg-container "&gt;
+&lt;svg
+xmlns="http://www.w3.org/2000/svg"
+font-family="Menlo,Lucida Console,monospace"
+viewBox="0 0 816 217"
+&gt;
+&lt;g transform='translate(8,16)'&gt;
+&lt;path d='M 0,0 L 32,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 32,0 L 64,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 64,0 L 96,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 96,0 L 128,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 128,0 L 160,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 160,0 L 192,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 192,0 L 224,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 224,0 L 256,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 256,0 L 288,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 288,0 L 320,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 320,0 L 352,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 352,0 L 384,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 384,0 L 416,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 416,0 L 448,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 448,0 L 480,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 480,0 L 512,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 512,0 L 544,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 544,0 L 576,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 576,0 L 608,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 608,0 L 640,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 640,0 L 672,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 672,0 L 704,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 704,0 L 736,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 736,0 L 768,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 768,0 L 800,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 0,32 L 32,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 32,32 L 64,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 64,32 L 96,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 96,32 L 128,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 128,32 L 160,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 160,32 L 192,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 192,32 L 224,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 224,32 L 256,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 256,32 L 288,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 288,32 L 320,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 320,32 L 352,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 352,32 L 384,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 384,32 L 416,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 416,32 L 448,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 448,32 L 480,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 480,32 L 512,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 512,32 L 544,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 544,32 L 576,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 576,32 L 608,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 608,32 L 640,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 640,32 L 672,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 672,32 L 704,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 704,32 L 736,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 736,32 L 768,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 768,32 L 800,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 0,64 L 32,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 32,64 L 64,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 64,64 L 96,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 96,64 L 128,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 128,64 L 160,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 160,64 L 192,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 192,64 L 224,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 224,64 L 256,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 256,64 L 288,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 288,64 L 320,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 320,64 L 352,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 352,64 L 384,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 384,64 L 416,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 416,64 L 448,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 448,64 L 480,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 480,64 L 512,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 512,64 L 544,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 544,64 L 576,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 576,64 L 608,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 608,64 L 640,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 640,64 L 672,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 672,64 L 704,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 704,64 L 736,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 736,64 L 768,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 768,64 L 800,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 0,96 L 32,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 32,96 L 64,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 64,96 L 96,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 96,96 L 128,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 128,96 L 160,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 160,96 L 192,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 192,96 L 224,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 224,96 L 256,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 256,96 L 288,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 288,96 L 320,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 320,96 L 352,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 352,96 L 384,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 384,96 L 416,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 416,96 L 448,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 448,96 L 480,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 480,96 L 512,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 512,96 L 544,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 544,96 L 576,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 576,96 L 608,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 608,96 L 640,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 640,96 L 672,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 672,96 L 704,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 704,96 L 736,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 736,96 L 768,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 768,96 L 800,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 0,128 L 32,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 32,128 L 64,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 64,128 L 96,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 96,128 L 128,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 128,128 L 160,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 160,128 L 192,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 192,128 L 224,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 224,128 L 256,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 256,128 L 288,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 288,128 L 320,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 320,128 L 352,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 352,128 L 384,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 384,128 L 416,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 416,128 L 448,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 448,128 L 480,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 480,128 L 512,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 512,128 L 544,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 544,128 L 576,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 576,128 L 608,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 608,128 L 640,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 640,128 L 672,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 672,128 L 704,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 704,128 L 736,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 736,128 L 768,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 768,128 L 800,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 0,160 L 32,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 32,160 L 64,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 64,160 L 96,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 96,160 L 128,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 128,160 L 160,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 160,160 L 192,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 192,160 L 224,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 224,160 L 256,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 256,160 L 288,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 288,160 L 320,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 320,160 L 352,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 352,160 L 384,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 384,160 L 416,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 416,160 L 448,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 448,160 L 480,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 480,160 L 512,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 512,160 L 544,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 544,160 L 576,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 576,160 L 608,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 608,160 L 640,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 640,160 L 672,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 672,160 L 704,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 704,160 L 736,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 736,160 L 768,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 768,160 L 800,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 0,192 L 32,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 32,192 L 64,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 64,192 L 96,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 96,192 L 128,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 128,192 L 160,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 160,192 L 192,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 192,192 L 224,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 224,192 L 256,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 256,192 L 288,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 288,192 L 320,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 320,192 L 352,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 352,192 L 384,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 384,192 L 416,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 416,192 L 448,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 448,192 L 480,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 480,192 L 512,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 512,192 L 544,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 544,192 L 576,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 576,192 L 608,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 608,192 L 640,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 640,192 L 672,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 672,192 L 704,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 704,192 L 736,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 736,192 L 768,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 768,192 L 800,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 0,0 L 0,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 0,32 L 0,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 0,64 L 0,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 0,96 L 0,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 0,128 L 0,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 0,160 L 0,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 64,0 L 64,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 64,64 L 64,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 64,128 L 64,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 96,32 L 96,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 96,96 L 96,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 96,160 L 96,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 192,0 L 192,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 192,64 L 192,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 192,128 L 192,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 224,32 L 224,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 224,96 L 224,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 224,160 L 224,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 320,0 L 320,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 320,64 L 320,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 320,128 L 320,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 352,32 L 352,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 352,96 L 352,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 352,160 L 352,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 448,0 L 448,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 448,64 L 448,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 448,128 L 448,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 480,32 L 480,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 480,96 L 480,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 480,160 L 480,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 576,0 L 576,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 576,64 L 576,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 576,128 L 576,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 608,32 L 608,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 608,96 L 608,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 608,160 L 608,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 704,0 L 704,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 704,64 L 704,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 704,128 L 704,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 736,32 L 736,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 736,96 L 736,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 736,160 L 736,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 800,0 L 800,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 800,32 L 800,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 800,64 L 800,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 800,96 L 800,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 800,128 L 800,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 800,160 L 800,192' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;text text-anchor='middle' x='752' y='52' fill='currentColor' style='font-size:1em'&gt;b&lt;/text&gt;
+&lt;text text-anchor='middle' x='752' y='116' fill='currentColor' style='font-size:1em'&gt;b&lt;/text&gt;
+&lt;text text-anchor='middle' x='752' y='180' fill='currentColor' style='font-size:1em'&gt;b&lt;/text&gt;
+&lt;text text-anchor='middle' x='760' y='20' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
+&lt;text text-anchor='middle' x='760' y='52' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
+&lt;text text-anchor='middle' x='760' y='84' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
+&lt;text text-anchor='middle' x='760' y='116' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
+&lt;text text-anchor='middle' x='760' y='148' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
+&lt;text text-anchor='middle' x='760' y='180' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
+&lt;text text-anchor='middle' x='768' y='20' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
+&lt;text text-anchor='middle' x='768' y='52' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
+&lt;text text-anchor='middle' x='768' y='84' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
+&lt;text text-anchor='middle' x='768' y='116' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
+&lt;text text-anchor='middle' x='768' y='148' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
+&lt;text text-anchor='middle' x='768' y='180' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
+&lt;text text-anchor='middle' x='776' y='20' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
+&lt;text text-anchor='middle' x='776' y='52' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
+&lt;text text-anchor='middle' x='776' y='84' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
+&lt;text text-anchor='middle' x='776' y='116' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
+&lt;text text-anchor='middle' x='776' y='148' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
+&lt;text text-anchor='middle' x='776' y='180' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
+&lt;text text-anchor='middle' x='792' y='20' fill='currentColor' style='font-size:1em'&gt;B&lt;/text&gt;
+&lt;text text-anchor='middle' x='792' y='52' fill='currentColor' style='font-size:1em'&gt;B&lt;/text&gt;
+&lt;text text-anchor='middle' x='792' y='84' fill='currentColor' style='font-size:1em'&gt;B&lt;/text&gt;
+&lt;text text-anchor='middle' x='792' y='116' fill='currentColor' style='font-size:1em'&gt;B&lt;/text&gt;
+&lt;text text-anchor='middle' x='792' y='148' fill='currentColor' style='font-size:1em'&gt;B&lt;/text&gt;
+&lt;text text-anchor='middle' x='792' y='180' fill='currentColor' style='font-size:1em'&gt;B&lt;/text&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+&lt;/div&gt;
+&lt;p&gt;Repeat for the tip sections.&lt;/p&gt;
+&lt;h2&gt;Prepare Strips for Planing&lt;span class="hx:absolute hx:-mt-20" id="prepare-strips-for-planing"&gt;&lt;/span&gt;
+&lt;a href="#prepare-strips-for-planing" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Use froe to split &amp;amp; shave strips to consistent width and straightness&lt;/li&gt;
+&lt;li&gt;Sand dams with disc sander&lt;/li&gt;
+&lt;li&gt;Sand nodes on disc sander until flat &amp;amp; flush w/ enamel. Use a fancy sanding jig if you have one&lt;/li&gt;
+&lt;li&gt;Drill anchor screw hole 1&amp;quot; from right end&lt;/li&gt;
+&lt;li&gt;Separate butts and tips for separate planing&lt;/li&gt;
+&lt;li&gt;Soak strips in water overnight&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Rough Cut &amp;amp; Bevel &lt;strong&gt;Butt&lt;/strong&gt; Sections&lt;span class="hx:absolute hx:-mt-20" id="rough-cut--bevel-butt-sections"&gt;&lt;/span&gt;
+&lt;a href="#rough-cut--bevel-butt-sections" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Set up butt-roughing anvil&lt;/li&gt;
+&lt;li&gt;Check for trueness&lt;/li&gt;
+&lt;li&gt;Set butt taper from spreadsheet&lt;/li&gt;
+&lt;li&gt;Plane all butt strips to rough dimensions 0.070 over&lt;/li&gt;
+&lt;li&gt;Check for and repair curves using heat gun as needed&lt;/li&gt;
+&lt;li&gt;Choose 6 best strips and continue. Shelve the rest for future use&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Rough Cut &amp;amp; Bevel &lt;strong&gt;Tip&lt;/strong&gt; Sections&lt;span class="hx:absolute hx:-mt-20" id="rough-cut--bevel-tip-sections"&gt;&lt;/span&gt;
+&lt;a href="#rough-cut--bevel-tip-sections" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Set up tip-roughing anvil&lt;/li&gt;
+&lt;li&gt;Check for trueness&lt;/li&gt;
+&lt;li&gt;Set butt taper from spreadsheet&lt;/li&gt;
+&lt;li&gt;Plane all butt strips to rough dimensions 0.070 over&lt;/li&gt;
+&lt;li&gt;Check for and repair curves using heat gun as needed&lt;/li&gt;
+&lt;li&gt;Choose 6 best strips and continue. Shelve the rest for future use&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Heat Treat Strips&lt;span class="hx:absolute hx:-mt-20" id="heat-treat-strips"&gt;&lt;/span&gt;
+&lt;a href="#heat-treat-strips" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Bundle strips and place in 325 degrees oven for 45 minutes
+&lt;ul&gt;
+&lt;li&gt;45 minutes at 325 produces a &amp;ldquo;blond&amp;rdquo; color&lt;/li&gt;
+&lt;li&gt;20 minutes at 350 can also be used&lt;/li&gt;
+&lt;li&gt;Reference needed for results of this&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;If using a forced air oven&lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;, flip end-to-end after approx 20 minutes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Plane Butt &amp;amp; Tip Strips to 0.30 Over&lt;span class="hx:absolute hx:-mt-20" id="plane-butt--tip-strips-to-030-over"&gt;&lt;/span&gt;
+&lt;a href="#plane-butt--tip-strips-to-030-over" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Soak butt strips in water&lt;/li&gt;
+&lt;li&gt;Set up butt-finishing anvil&lt;/li&gt;
+&lt;li&gt;Zero out each station&lt;/li&gt;
+&lt;li&gt;True the anvil if necessary&lt;/li&gt;
+&lt;li&gt;Set butt taper from spreadsheet&lt;/li&gt;
+&lt;li&gt;Plane butt strips to 0.030 over final taper dimensions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Dry Bind Strips&lt;span class="hx:absolute hx:-mt-20" id="dry-bind-strips"&gt;&lt;/span&gt;
+&lt;a href="#dry-bind-strips" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This should be done at least once. Do this twice if time allows.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lay out butt strips using alternating color coded ends&lt;/li&gt;
+&lt;li&gt;Number the strips from 1 to 6. This is the order for the strips for the rest of the build&lt;/li&gt;
+&lt;li&gt;Lay out strips on tape in order, 1 to 6&lt;/li&gt;
+&lt;li&gt;Roll strip 6 to strip 1 then work the strips together&lt;/li&gt;
+&lt;li&gt;Bind butt once in a binder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Check Sections for Fit&lt;span class="hx:absolute hx:-mt-20" id="check-sections-for-fit"&gt;&lt;/span&gt;
+&lt;a href="#check-sections-for-fit" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This step is to remove glue seams (gaps) twists, and bends&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mark gaps and irregularities with a pencil&lt;/li&gt;
+&lt;li&gt;Sand and straighten and strips at gaps using a sanding jig&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This step consists of slowly working down each of the strips, starting at the butt-end of the strip, and looking for gaps surrounding the nodes. If there was a gap at the node, place arrows on the enamel-side around the node. After all nodes are inspected, place the non-enamel side up in the sanding jig and sand this side. The gap&lt;/p&gt;
+&lt;p&gt;The gap (eventualyl will be a glue seam) exists because there is a &amp;ldquo;scoop&amp;rdquo; in the planed face. The intent of sanding is to lengthen that scoop so that when bound again, the strip can interface properly with its neighbor strip.&lt;/p&gt;
+&lt;h2&gt;Final Planing of Strips&lt;span class="hx:absolute hx:-mt-20" id="final-planing-of-strips"&gt;&lt;/span&gt;
+&lt;a href="#final-planing-of-strips" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Plane butt strips to 0.003 over final taper dimensions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This 0.003 over is to allow for enamel removal in a future step, plus moisture&lt;/p&gt;
+&lt;h2&gt;Glue Up Section&lt;span class="hx:absolute hx:-mt-20" id="glue-up-section"&gt;&lt;/span&gt;
+&lt;a href="#glue-up-section" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Lay butt sections in order (1-6) on tape. Place tape at both ends of strips&lt;/li&gt;
+&lt;li&gt;Spread glue with toothbrush on all surfaces of strips. Work from right to left spreading glue but skip the portions above the tape. After glue is spread everywhere, also spread onto the strips over the taped sections. Goal is to keep the tape dry enough for it to stick&lt;/li&gt;
+&lt;li&gt;Roll strip 6 to strip 1&lt;/li&gt;
+&lt;li&gt;Bind butt twice in binder (once in both directions)&lt;/li&gt;
+&lt;li&gt;Roll out blank on marble slab with palms, checking and correcting gaps and twists&lt;/li&gt;
+&lt;li&gt;Roll out blank on marble slab with tape roller, gentle pressure down rod&lt;/li&gt;
+&lt;li&gt;Hang vertically until dry, tip-side up, with a weight at the bottom to encourage straightness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Sand Enamel from Blank&lt;span class="hx:absolute hx:-mt-20" id="sand-enamel-from-blank"&gt;&lt;/span&gt;
+&lt;a href="#sand-enamel-from-blank" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Cut off base of butt section&lt;/li&gt;
+&lt;li&gt;Sand each facet with rough and fine sanding blocks&lt;/li&gt;
+&lt;li&gt;When working on tip section, measure sanding strokes on each facet to ensure even removal on all sides&lt;/li&gt;
+&lt;li&gt;In class we were using Norton ProSand sandpaper in either 200 and 320 grit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Common node spacings are Garrison-style, 3x3, and 2x2x2. See pg. 71 of Maurer &amp;amp; Elser&amp;rsquo;s &lt;em&gt;Fundamentals of Building a Bamboo Fly-Rod&lt;/em&gt;&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;An easy solution is vinyl gutters. Lowes items &lt;a href="https://www.lowes.com/pd/Amerimax-Traditional-4-5-in-x-120-in-White-K-Style-Gutter/1000246309"target="_blank" rel="noopener"&gt;#279187&lt;/a&gt; &amp;amp; &lt;a href="https://www.lowes.com/pd/Amerimax-Traditional-Vinyl-K-Style-Left-Gutter-End-Cap/1000246317"target="_blank" rel="noopener"&gt;#279191&lt;/a&gt; combined with silicone or similar.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;Check out &lt;a href="http://www.fneunemann.com/index.php?id=40"target="_blank" rel="noopener"&gt;Frank&amp;rsquo;s Personal Waste of Time Website&lt;/a&gt;. If that page goes down, try the &lt;a href="https://web.archive.org/web/20210803011042/http://www.fneunemann.com/index.php?id=40"target="_blank" rel="noopener"&gt;Wayback Machine archive&lt;/a&gt;&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description></item><item><title>Rod Tapers &amp; Tools</title><link>https://www.extra-ransom.net/docs/rod-tapers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/rod-tapers/</guid><description>
+&lt;h2&gt;RodLab&lt;span class="hx:absolute hx:-mt-20" id="rodlab"&gt;&lt;/span&gt;
+&lt;a href="#rodlab" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Windows software that does many complex rod form tasks. I need to eval this.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://sites.google.com/view/two-handed-software-rodlab/home"target="_blank" rel="noopener"&gt;Two Handed Software&amp;rsquo;s RodLab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;HexRod&lt;span class="hx:absolute hx:-mt-20" id="hexrod"&gt;&lt;/span&gt;
+&lt;a href="#hexrod" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href="https://www.hexrod.net/Hexrod_doc/hexrod-doc.html"target="_blank" rel="noopener"&gt;Documentation&lt;/a&gt; seems wordy but promising. Will need to review further.&lt;/p&gt;
+&lt;h2&gt;David Ray&amp;rsquo;s Taper Library&lt;span class="hx:absolute hx:-mt-20" id="david-rays-taper-library"&gt;&lt;/span&gt;
+&lt;a href="#david-rays-taper-library" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Originally at &lt;a href="http://www.uwm.edu/~stetzer/Tapers/drtapers/index.html"target="_blank" rel="noopener"&gt;http://www.uwm.edu/~stetzer/Tapers/drtapers/index.html&lt;/a&gt; per some forums, this is found at &lt;a href="https://www.hexrod.net/Tapers/drtapers/index.html"target="_blank" rel="noopener"&gt;David Ray&amp;rsquo;s Taper Library&lt;/a&gt; on 09/04/2022.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Original&lt;/strong&gt;: &lt;a href="http://www.uwm.edu/~stetzer/Tapers/drtapers/index.html"target="_blank" rel="noopener"&gt;http://www.uwm.edu/~stetzer/Tapers/drtapers/index.html&lt;/a&gt; (expect a 404)
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Archive&lt;/strong&gt;: &lt;a href="https://web.archive.org/web/20090507063422/http://www.uwm.edu/~stetzer/Tapers/drtapers/index.html"target="_blank" rel="noopener"&gt;Wayback Machine&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Original&lt;/strong&gt;: &lt;a href="https://www.hexrod.net/Tapers/drtapers/index.html"target="_blank" rel="noopener"&gt;David Ray&amp;rsquo;s Taper Library&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Archive&lt;/strong&gt;: &lt;a href="https://web.archive.org/web/20180718082039/http://hexrod.net/Tapers/drtapers/index.html"target="_blank" rel="noopener"&gt;Wayback Machine link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Artisan on Headless Linux</title><link>https://www.extra-ransom.net/docs/coffee-roasting/artisan-linux-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/coffee-roasting/artisan-linux-setup/</guid><description>
+&lt;p&gt;How to set up a headless Ubuntu server as a Phidget sensor hub, so that
+&lt;a href="https://artisan-scope.org/"target="_blank" rel="noopener"&gt;Artisan&lt;/a&gt; running on your Mac can read the
+VINT thermocouples as if they were plugged in locally.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Architecture&lt;/strong&gt;: the Ubuntu server runs the &lt;strong&gt;Phidget Network Server&lt;/strong&gt; — a
+lightweight daemon that makes all attached Phidget devices available over the
+LAN via WebSockets on port 5661. The Mac&amp;rsquo;s Phidget22 library discovers it
+automatically, and Artisan sees the remote sensors transparently. No Artisan
+instance, no virtual display, and no VNC needed on the server.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;[Phidget VINT Hub] --USB--&amp;gt; [Ubuntu server]
+|
+phidget22networkserver
+(WebSocket, port 5661)
+|
+LAN/WiFi
+|
+[MacBook]
+Artisan &amp;#43; Phidget22
+(reads sensors as local)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Hardware&lt;span class="hx:absolute hx:-mt-20" id="hardware"&gt;&lt;/span&gt;
+&lt;a href="#hardware" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Ubuntu server (22.04 or 24.04 LTS, headless)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.phidgets.com/?tier=3&amp;amp;catid=2&amp;amp;pcid=1&amp;amp;prodid=1202"target="_blank" rel="noopener"&gt;Phidget VINT Hub&lt;/a&gt; (e.g. HUB0000_0) connected via USB&lt;/li&gt;
+&lt;li&gt;Thermocouple module(s) in VINT ports — e.g. &lt;a href="https://www.phidgets.com/?tier=3&amp;amp;catid=14&amp;amp;pcid=12&amp;amp;prodid=726"target="_blank" rel="noopener"&gt;TMP1101&lt;/a&gt; (4-input K-type) or &lt;a href="https://www.phidgets.com/?tier=3&amp;amp;catid=14&amp;amp;pcid=12&amp;amp;prodid=725"target="_blank" rel="noopener"&gt;TMP1100&lt;/a&gt; (single)&lt;/li&gt;
+&lt;li&gt;Mac on the same local network&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;1. Install the Phidget22 Library and Network Server&lt;span class="hx:absolute hx:-mt-20" id="1-install-the-phidget22-library-and-network-server"&gt;&lt;/span&gt;
+&lt;a href="#1-install-the-phidget22-library-and-network-server" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Phidgets provides an apt repository for Ubuntu.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Add the Phidget repo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;curl -fsSL https://www.phidgets.com/downloads/setup_linux &lt;span class="p"&gt;|&lt;/span&gt; sudo bash
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Install the library and the network server daemon&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt-get install -y libphidget22 libphidget22extra phidget22networkserver&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If you prefer not to run the setup script, download the packages directly
+from &lt;a href="https://www.phidgets.com/downloads/phidget22/libraries/linux/"target="_blank" rel="noopener"&gt;phidgets.com/downloads&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;2. USB Permissions (udev Rule)&lt;span class="hx:absolute hx:-mt-20" id="2-usb-permissions-udev-rule"&gt;&lt;/span&gt;
+&lt;a href="#2-usb-permissions-udev-rule" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;By default, USB devices are only accessible to root. Add a udev rule so the
+network server process can reach the Phidget Hub without running as root.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo tee /etc/udev/rules.d/99-phidgets.rules &lt;span class="s"&gt;&amp;lt;&amp;lt;&amp;#39;EOF&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="s"&gt;SUBSYSTEM==&amp;#34;usb&amp;#34;, ACTION==&amp;#34;add&amp;#34;, ATTR{idVendor}==&amp;#34;06c2&amp;#34;, MODE=&amp;#34;0664&amp;#34;, GROUP=&amp;#34;plugdev&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="s"&gt;EOF&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo udevadm control --reload-rules
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Add the user that will run phidget22networkserver to plugdev&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo usermod -aG plugdev &lt;span class="nv"&gt;$USER&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Log out and back in (or reboot) for the group change to take effect.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;3. Confirm the Phidget Hub is Visible&lt;span class="hx:absolute hx:-mt-20" id="3-confirm-the-phidget-hub-is-visible"&gt;&lt;/span&gt;
+&lt;a href="#3-confirm-the-phidget-hub-is-visible" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Plug in the VINT Hub, then verify USB enumeration and permissions:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Device should appear&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;lsusb &lt;span class="p"&gt;|&lt;/span&gt; grep -i phidget
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Expected: Bus 00X Device 00X: ID 06c2:XXXX Phidgets Inc.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Your user should be in plugdev&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;groups &lt;span class="nv"&gt;$USER&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; grep plugdev
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Quick permission check — should print the device file with group rw&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ls -la /dev/bus/usb/&lt;span class="k"&gt;$(&lt;/span&gt;lsusb &lt;span class="p"&gt;|&lt;/span&gt; grep 06c2 &lt;span class="p"&gt;|&lt;/span&gt; awk &lt;span class="s1"&gt;&amp;#39;{print $2,$4}&amp;#39;&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; awk &lt;span class="s1"&gt;&amp;#39;{printf &amp;#34;%s/%03d\n&amp;#34;, $1, $2+0}&amp;#39;&lt;/span&gt; 2&amp;gt;/dev/null&lt;span class="k"&gt;)&lt;/span&gt; 2&amp;gt;/dev/null &lt;span class="o"&gt;||&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;check dmesg | tail -20 if device not found&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If &lt;code&gt;lsusb&lt;/code&gt; doesn&amp;rsquo;t show a Phidget, try a different USB port, check
+&lt;code&gt;dmesg | tail -20&lt;/code&gt; immediately after plugging in, or try a different cable.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;4. Run the Phidget Network Server&lt;span class="hx:absolute hx:-mt-20" id="4-run-the-phidget-network-server"&gt;&lt;/span&gt;
+&lt;a href="#4-run-the-phidget-network-server" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The &lt;code&gt;phidget22networkserver&lt;/code&gt; package installs a systemd unit. Enable and start
+it, open the firewall port, then verify the server is listening:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo systemctl &lt;span class="nb"&gt;enable&lt;/span&gt; phidget22networkserver
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo systemctl start phidget22networkserver
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo ufw allow 5661/tcp
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo ufw reload
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo systemctl status phidget22networkserver
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ss -tlnp &lt;span class="p"&gt;|&lt;/span&gt; grep &lt;span class="m"&gt;5661&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Expected: LISTEN 0 ... 0.0.0.0:5661&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The server listens on &lt;strong&gt;port 5661&lt;/strong&gt; and publishes all connected Phidget devices
+over a WebSocket interface. It also advertises itself via mDNS/Bonjour so the
+Mac&amp;rsquo;s Phidget22 library can discover it without needing a static IP.&lt;/p&gt;
+&lt;h3&gt;Server IP&lt;span class="hx:absolute hx:-mt-20" id="server-ip"&gt;&lt;/span&gt;
+&lt;a href="#server-ip" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Note the server&amp;rsquo;s LAN IP — you&amp;rsquo;ll need it if mDNS discovery doesn&amp;rsquo;t work on
+your network:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ip addr show &lt;span class="p"&gt;|&lt;/span&gt; grep &lt;span class="s1"&gt;&amp;#39;inet &amp;#39;&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; grep -v 127.0.0.1&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;5. Configure Artisan on macOS&lt;span class="hx:absolute hx:-mt-20" id="5-configure-artisan-on-macos"&gt;&lt;/span&gt;
+&lt;a href="#5-configure-artisan-on-macos" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Install the Phidget22 drivers on your Mac&lt;span class="hx:absolute hx:-mt-20" id="install-the-phidget22-drivers-on-your-mac"&gt;&lt;/span&gt;
+&lt;a href="#install-the-phidget22-drivers-on-your-mac" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The Mac needs the Phidget22 library to talk to the network server. Download
+and install the macOS package from
+&lt;a href="https://www.phidgets.com/downloads/phidget22/libraries/macos/"target="_blank" rel="noopener"&gt;phidgets.com/downloads&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You do &lt;strong&gt;not&lt;/strong&gt; need to physically attach any Phidget to the Mac.&lt;/p&gt;
+&lt;h3&gt;Open Artisan and configure the device&lt;span class="hx:absolute hx:-mt-20" id="open-artisan-and-configure-the-device"&gt;&lt;/span&gt;
+&lt;a href="#open-artisan-and-configure-the-device" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Launch Artisan on your Mac.&lt;/li&gt;
+&lt;li&gt;Go to &lt;strong&gt;Config &amp;gt; Device&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;In the device list, select the Phidget module that matches your
+thermocouple board — e.g. &lt;strong&gt;Phidget TMP1101&lt;/strong&gt; for a 4-input K-type board.&lt;/li&gt;
+&lt;li&gt;Set the channel assignments for ET (environmental/drum temp) and BT
+(bean temperature) to match how your thermocouples are wired to the VINT ports.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Auto-discovery (same LAN, mDNS)&lt;span class="hx:absolute hx:-mt-20" id="auto-discovery-same-lan-mdns"&gt;&lt;/span&gt;
+&lt;a href="#auto-discovery-same-lan-mdns" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If your Mac and the Ubuntu server are on the same subnet, the Phidget22 library
+discovers the network server automatically via Bonjour. No further config
+needed — just press &lt;strong&gt;ON&lt;/strong&gt; in Artisan&amp;rsquo;s toolbar and you should see live ET/BT
+readings within a few seconds.&lt;/p&gt;
+&lt;h3&gt;Manual server address (if mDNS doesn&amp;rsquo;t work)&lt;span class="hx:absolute hx:-mt-20" id="manual-server-address-if-mdns-doesnt-work"&gt;&lt;/span&gt;
+&lt;a href="#manual-server-address-if-mdns-doesnt-work" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If auto-discovery fails (e.g. across VLANs, or mDNS is blocked), set the
+server address explicitly. Open a terminal on your Mac and add the server:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Run once — registers the server address persistently with the Phidget22 library&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;/usr/local/bin/phidget22admin -a &amp;lt;server-ip&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Or set it within Artisan: &lt;strong&gt;Config &amp;gt; Device&lt;/strong&gt;, look for a &lt;strong&gt;Server&lt;/strong&gt; or
+&lt;strong&gt;Remote&lt;/strong&gt; field and enter &lt;code&gt;&amp;lt;server-ip&amp;gt;:5661&lt;/code&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Confirming Everything Works&lt;span class="hx:absolute hx:-mt-20" id="confirming-everything-works"&gt;&lt;/span&gt;
+&lt;a href="#confirming-everything-works" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;On the Ubuntu server:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 1. Phidget hub is enumerated&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;lsusb &lt;span class="p"&gt;|&lt;/span&gt; grep 06c2
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 2. Network server is running and listening&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;systemctl is-active phidget22networkserver
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ss -tlnp &lt;span class="p"&gt;|&lt;/span&gt; grep &lt;span class="m"&gt;5661&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;From the Mac:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 3. Port is reachable from the Mac&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;nc -zv &amp;lt;server-ip&amp;gt; &lt;span class="m"&gt;5661&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Expected: Connection to &amp;lt;server-ip&amp;gt; port 5661 [tcp] succeeded!&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;In Artisan (Mac):&lt;/strong&gt;&lt;/p&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;Press &lt;strong&gt;ON&lt;/strong&gt; — ET and BT should populate within a few seconds.&lt;/li&gt;
+&lt;li&gt;The status bar should show the Phidget device name without an error icon.&lt;/li&gt;
+&lt;li&gt;Wiggle a thermocouple gently — the temperature reading should respond.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Troubleshooting:&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Symptom&lt;/th&gt;
+&lt;th&gt;Check&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;lsusb&lt;/code&gt; shows no Phidget&lt;/td&gt;
+&lt;td&gt;`dmesg&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;networkserver fails to start&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;journalctl -u phidget22networkserver&lt;/code&gt; — likely a permissions issue; verify &lt;code&gt;plugdev&lt;/code&gt; group&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Port 5661 not reachable from Mac&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;sudo ufw status&lt;/code&gt;; confirm server IP is correct&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Artisan shows no readings&lt;/td&gt;
+&lt;td&gt;Confirm Phidget22 drivers installed on Mac; try &lt;code&gt;phidget22admin -a &amp;lt;ip&amp;gt;&lt;/code&gt; to force address&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ET/BT swapped&lt;/td&gt;
+&lt;td&gt;Swap channel assignments in &lt;strong&gt;Config &amp;gt; Device&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description></item><item><title>Logging Roasts to This Site</title><link>https://www.extra-ransom.net/docs/coffee-roasting/logging-roasts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/coffee-roasting/logging-roasts/</guid><description>
+&lt;p&gt;How to export a roast from Artisan and add it as a page on this site.&lt;/p&gt;
+&lt;h2&gt;What to Capture Per Roast&lt;span class="hx:absolute hx:-mt-20" id="what-to-capture-per-roast"&gt;&lt;/span&gt;
+&lt;a href="#what-to-capture-per-roast" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;At minimum, record:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Date and batch number&lt;/li&gt;
+&lt;li&gt;Bean origin, variety, and processing (e.g. Ethiopia Yirgacheffe, washed)&lt;/li&gt;
+&lt;li&gt;Green weight (grams) and roast weight out (for calculating roast loss %)&lt;/li&gt;
+&lt;li&gt;Charge temp, first crack time and temp, drop time and temp&lt;/li&gt;
+&lt;li&gt;Artisan roast curve (exported as image)&lt;/li&gt;
+&lt;li&gt;Notes on the roast and cup result&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Exporting from Artisan&lt;span class="hx:absolute hx:-mt-20" id="exporting-from-artisan"&gt;&lt;/span&gt;
+&lt;a href="#exporting-from-artisan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Roast Curve Image&lt;span class="hx:absolute hx:-mt-20" id="roast-curve-image"&gt;&lt;/span&gt;
+&lt;a href="#roast-curve-image" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;After the roast completes (or during):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;File &amp;gt; Save Graph&lt;/strong&gt; — saves the roast curve as a &lt;code&gt;.png&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Alternatively: &lt;strong&gt;File &amp;gt; Print&lt;/strong&gt; and print to PDF, then screenshot the curve.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For a clean export, use &lt;strong&gt;View &amp;gt; Full Screen&lt;/strong&gt; first so the graph fills the window before saving.&lt;/p&gt;
+&lt;h3&gt;Roast Data (Artisan JSON)&lt;span class="hx:absolute hx:-mt-20" id="roast-data-artisan-json"&gt;&lt;/span&gt;
+&lt;a href="#roast-data-artisan-json" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;File &amp;gt; Save&lt;/strong&gt; — saves the full roast as an Artisan &lt;code&gt;.alog&lt;/code&gt; file (JSON format).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This file contains every temperature sample, event marker, and setting from the roast. Keep it alongside the page as a data archive even if you don&amp;rsquo;t embed it in the site.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Where to Store Files&lt;span class="hx:absolute hx:-mt-20" id="where-to-store-files"&gt;&lt;/span&gt;
+&lt;a href="#where-to-store-files" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;static/static/coffee-roasting/
+└── YYYY-MM-DD-bean-name/
+├── roast-curve.png ← exported graph image
+└── roast.alog ← Artisan data file (optional, for archiving)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;static/static/coffee-roasting/2026-07-04-ethiopia-yirgacheffe/roast-curve.png&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The file will be served at:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;/static/coffee-roasting/2026-07-04-ethiopia-yirgacheffe/roast-curve.png&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;Creating a Roast Page&lt;span class="hx:absolute hx:-mt-20" id="creating-a-roast-page"&gt;&lt;/span&gt;
+&lt;a href="#creating-a-roast-page" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Each roast gets its own Markdown file under &lt;code&gt;content/docs/coffee-roasting/&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo new docs/coffee-roasting/2026-07-04-ethiopia-yirgacheffe.md&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;Page Template&lt;span class="hx:absolute hx:-mt-20" id="page-template"&gt;&lt;/span&gt;
+&lt;a href="#page-template" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;title: &amp;#34;2026-07-04 Ethiopia Yirgacheffe&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;date: 2026-07-04
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;weight: 200
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**Bean**&lt;/span&gt;: Ethiopia Yirgacheffe, washed
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**Source**&lt;/span&gt;: [Roaster name]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**Green weight**&lt;/span&gt;: 250g | &lt;span class="gs"&gt;**Roast out**&lt;/span&gt;: 210g (16% loss)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gu"&gt;## Roast
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;| | Temp | Time |
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;|---|---|---|
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;| Charge | 195°C | 0:00 |
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;| Turning point | 92°C | 1:45 |
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;| First crack | 196°C | 9:30 |
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;| Drop | 207°C | 11:00 |
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;![&lt;span class="nt"&gt;Roast curve&lt;/span&gt;](&lt;span class="na"&gt;/static/coffee-roasting/2026-07-04-ethiopia-yirgacheffe/roast-curve.png&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gu"&gt;## Notes
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Notes on the roast — airflow adjustments, gas changes, anything that
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;went well or needs adjustment next time.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gu"&gt;## Cup
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Tasting notes after resting 5–7 days.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;Keeping Pages Ordered&lt;span class="hx:absolute hx:-mt-20" id="keeping-pages-ordered"&gt;&lt;/span&gt;
+&lt;a href="#keeping-pages-ordered" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Use &lt;code&gt;weight&lt;/code&gt; in front matter to control sidebar order. Lower numbers appear first. A convention that works well:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Section &lt;code&gt;_index.md&lt;/code&gt;: &lt;code&gt;weight: 100&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Individual roast pages: use the date as a weight, e.g. &lt;code&gt;weight: 20260704&lt;/code&gt; for 2026-07-04&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This keeps roasts sorted chronologically from oldest (top) to newest (bottom). Reverse it by assigning descending weights.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Publishing&lt;span class="hx:absolute hx:-mt-20" id="publishing"&gt;&lt;/span&gt;
+&lt;a href="#publishing" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Add the new page and static files, then push to &lt;code&gt;main&lt;/code&gt; — CI deploys automatically.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git add content/docs/coffee-roasting/ static/static/coffee-roasting/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git commit -m &lt;span class="s2"&gt;&amp;#34;roast: 2026-07-04 Ethiopia Yirgacheffe&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git push&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>'New' Smithwick Binder</title><link>https://www.extra-ransom.net/docs/new-smithwick-binder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/new-smithwick-binder/</guid><description>
+&lt;h1&gt;&amp;lsquo;New&amp;rsquo; Smithwick Binder&lt;/h1&gt;&lt;p&gt;My first attempt at a binder is this Smithwick. Initial build was successful and I was able to bind bamboo.&lt;/p&gt;
+&lt;p&gt;Primarily used the Groth &lt;a href="https://www.extra-ransom.net/static/new-smithwick-rod-binder/Groth_Smithwick_binderplan.pdf"&gt;binderplan PDF&lt;/a&gt; and should have used the photo as well.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://www.extra-ransom.net/static/new-smithwick-rod-binder/Groth_Darrol_binder.jpg" alt="Groth Photo" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://www.extra-ransom.net/static/new-smithwick-rod-binder/Groth_Smithwick_binderplan.png" alt="Groth PDF" loading="lazy" /&gt;&lt;/p&gt;
+&lt;h2&gt;Improvements&lt;span class="hx:absolute hx:-mt-20" id="improvements"&gt;&lt;/span&gt;
+&lt;a href="#improvements" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The arms need to be open at the top.&lt;/p&gt;</description></item><item><title>Garrison Binder</title><link>https://www.extra-ransom.net/docs/garrison-binder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/garrison-binder/</guid><description>
+&lt;p&gt;I&amp;rsquo;ve copied this content from &lt;a href="http://www.canerod.com/rodmakers/tips/binder.html"target="_blank" rel="noopener"&gt;http://www.canerod.com/rodmakers/tips/binder.html&lt;/a&gt; (&lt;a href="https://web.archive.org/web/20151005173756/http://www.canerod.com/rodmakers/tips/binder.html"target="_blank" rel="noopener"&gt;Wayback Machine&lt;/a&gt;). I&amp;rsquo;ve reformatted it for reading and placed the images in-line after each paragraph.&lt;/p&gt;
+&lt;h1&gt;Unlocking the Mysteries of the Garrison Binder&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;by Chris Bogart&lt;/strong&gt;&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;
+&lt;pre&gt;&lt;code&gt;Hiding this ramble.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/summary&gt;
+&lt;p&gt;Did you ever wonder why (to quote Andy Rooney) the &lt;a href="http://www.canerod.com/rodmakers/tips/chrisgifs/binder/cbinder.gif"target="_blank" rel="noopener"&gt;Garrison binder&lt;/a&gt; is for many rodmakers the source of contentious problems while other rodmakers never seem to have problems. One of the primary reasons for the mystery the Garrison binder presents is that rodmakers often built it by following a diagram in a book and then hoped for the best. As a result, some binders worked as desired because of dumb luck and others didn&amp;rsquo;t because of bad luck. When the binder did not behave and was cantankerous to use, it was assumed that it worked that way for the master himself. I have since learned that when properly constructed and adjusted (tuned) the Garrison binder is a pleasure to operate and does a great job with little problems.&lt;/p&gt;
+&lt;p&gt;This article will discuss the how and why of constructing the Garrison binder and then how to tune it to perform at it&amp;rsquo;s best. Like most people, I first blindly followed a diagram in a book and did some things right and did some things wrong. It was initially hard for me to tell what was important and critical to its operation and what wasn&amp;rsquo;t. I have since looked at numerous other rodmakers&amp;rsquo; binders and discussed their operation and their solutions to traditional problems. I have applied the lessons learned to my binder with great success. I have come to the following conclusions on how the Garrison binder should be constructed and why.&lt;/p&gt;
+&lt;p&gt;The Garrison binder is essentially an incredibly simple but clever device. What makes it mysterious is that there are very subtle things that are sometimes not obvious that have impact upon performance. The heart of the binder is the cradle that holds the rod, the drive belt that wraps around the rod applying pressure and the string that binds the segments together. It is here where we will analyze the binder.&lt;/p&gt;
+&lt;/details&gt;
+&lt;p&gt;&lt;img src="https://www.extra-ransom.net/static/cbinder.gif" alt="Garrison binder" loading="lazy" /&gt;&lt;/p&gt;
+&lt;h2&gt;The Cradle&lt;span class="hx:absolute hx:-mt-20" id="the-cradle"&gt;&lt;/span&gt;
+&lt;a href="#the-cradle" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href="http://www.canerod.com/rodmakers/tips/chrisgifs/binder/cradle.gif"target="_blank" rel="noopener"&gt;The cradle is the starting point&lt;/a&gt; from which to build the rest of the binder. Everything else is aligned relative to the cradle. The point from which all this alignment is done is the bottom of the trough (half circle) that holds the rod. The size of the trough is not important. I find a larger diameter (approximately 1&amp;quot; or larger) trough is easier to use than a small one (5/8&amp;quot;). Too small and it constrains the rod on larger sections. The space left between the two sections determines the spacing of wraps of the binding cord. &lt;a href="http://www.canerod.com/rodmakers/tips/chrisgifs/binder/offset.gif"target="_blank" rel="noopener"&gt;This space is usually just wide enough (3/16 - 1/4&amp;quot;)&lt;/a&gt; so the drive belt fits but doesn&amp;rsquo;t constrain it. This distance needs to be adjusted until you get a good working distance. This is why there are slots so it can be adjusted by sliding the cradle back and forth. I recommend only adjusting the left side since all other alignments and positioning is done from the right side. Once the cradle is in place, then all other parts of the binder will be aligned to it referenced to the trough bottom of the forward side of the cradle. This is where the drive belt comes out.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://www.extra-ransom.net/static/rod-binder/cradle.gif" alt="Cradle" loading="lazy" /&gt; &lt;img src="https://www.extra-ransom.net/static/rod-binder/offset.gif" alt="Offset" loading="lazy" /&gt;&lt;/p&gt;
+&lt;h2&gt;Feed Supports&lt;span class="hx:absolute hx:-mt-20" id="feed-supports"&gt;&lt;/span&gt;
+&lt;a href="#feed-supports" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The in-feed and out-feed supports can be aligned using a wooden dowel. The out feed supports have troughs that are of a larger diameter (1 and 3/4 inches). The centers of the bottom of the support troughs need to be the same distance from the binder as the cradle trough is. On the parallel plane to the &lt;a href="http://www.canerod.com/rodmakers/tips/chrisgifs/binder/align.gif"target="_blank" rel="noopener"&gt;binder face centered on our reference point all guide wheels and the drive wheel&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://www.extra-ransom.net/static/rod-binder/align.gif" alt="Align" loading="lazy" /&gt;&lt;/p&gt;
+&lt;h2&gt;Drive Wheels&lt;span class="hx:absolute hx:-mt-20" id="drive-wheels"&gt;&lt;/span&gt;
+&lt;a href="#drive-wheels" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Word about drive wheels. Most wheels are too shallow and the drive belt easily jumps out of it. This is also true concerning the pulley that holds the weight. I have switched from a small one to a larger one that has a good deep wheel. I found a ready source for these at my local hardware store. I disassemble two wheeled pulleys for my guide wheels. These wheels have a standard 5/16 ID holes that fits the bolts I use as an axle.&lt;/p&gt;
+&lt;p&gt;Now for the placement of the first guide whose position is very important and its misplacement will cause problems. It should be positioned so the drive belt does not drag on the cradle. This means the angle of the drive belt to it should not be equal or greater than 180 degrees. It should be approximately 170 degrees or less, or if you prefer a clock reference, about 25 minutes pass the hour. On most diagrams of binders this point is not clear. I feel that when diagrams of the binder where made the graphic artist did not appreciate this fact and aligned the wheels to make it look neat. Wrong, this neatness has caused many problems. &lt;a href="http://www.canerod.com/rodmakers/tips/chrisgifs/binder/frontclup.gif"target="_blank" rel="noopener"&gt;On my binder the angle is the maximum it could be (29 minutes pass the hour)&lt;/a&gt; without causing problems (dumb luck). I have seen other rodmakers who have bought binders that where made with this wheel too far left and it causes drag. This drag is one cause of problems that can cause twists in the rod. I know of one modification that uses a rod to push the belt out away from the cradle that some rodmakers use to try and correct this problem. Easiest way to remedy the problem is to move the wheel to the right.&lt;/p&gt;
+&lt;p&gt;Now for the good news, &lt;a href="http://www.canerod.com/rodmakers/tips/chrisgifs/binder/frntvu.gif"target="_blank" rel="noopener"&gt;the placement of the other wheels and drive wheel are not critical&lt;/a&gt;. They just guide the belt. On the left side of the cradle the cord usually doesn&amp;rsquo;t drag and most rodmakers don&amp;rsquo;t have it close to the cradle.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://www.extra-ransom.net/static/rod-binder/frntvu.gif" alt="Frontvu" loading="lazy" /&gt;&lt;/p&gt;
+&lt;h2&gt;Binding Cord&lt;span class="hx:absolute hx:-mt-20" id="binding-cord"&gt;&lt;/span&gt;
+&lt;a href="#binding-cord" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The last part of constructing the binder is the components for holding the binding cord, its guide path, and a tensioning device. The binding cord usually comes on a spool or bobbin depending on the rodmaker&amp;rsquo;s source. I have the large industrial spool. The trick here is to let the cord come off the spool with no drag. I previously let the spool turn as I pulled the cord off. After a lot of use, the spool did not turn easily and caused drag. This increased tension on the cord and would cause the rod to twist. &lt;a href="http://www.canerod.com/rodmakers/tips/chrisgifs/binder/spooler.gif"target="_blank" rel="noopener"&gt;I solved this problem by using a 1/8 brass rod with a loop&lt;/a&gt; in the end that is long enough to allow the cord to freely come off the spool upwards. The rod also serves as shock absorber (like the tip of your fly rod with a delicate tippet) even if the cord drags a bit it does not cause excess tension. The cord then flows through the guides and tensioner to the last guide that allows the cord to come from behind into the drive belt and rod at approximately 45 degree angle. You do not want the cord to come directly down to where it is being bound. It must come from the same direction the rod that is being bound.&lt;/p&gt;
+&lt;h2&gt;Drive Belt&lt;span class="hx:absolute hx:-mt-20" id="drive-belt"&gt;&lt;/span&gt;
+&lt;a href="#drive-belt" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;How to make a knotless drive belt is easy. I use braided chalk and mason line for my drive belt. It can be found in most hardware stores. Do not choose twisted line for this purpose. &lt;a href="http://www.canerod.com/rodmakers/tips/chrisgifs/binder/bcord.gif"target="_blank" rel="noopener"&gt;To make a make the knotless drive belt&lt;/a&gt; you will need a large sewing needle whose eye is big enough for the line. Once you cut the line to approximate length, thread the line through the eye of the needle for about 2 - 3 inches. Because the line is braided, you can take the needle and stick it into the hollow core or the other end of the line for about 1 and 1/2 inches and then out through the line. You can now remove the needle and pull the line back until the end just goes back into the line. I now take a regular needle and thread and make a few stitches to hold the line in place with a few extras where it comes out to keep the braid from unraveling. The is just like a snake eating itself. No glue or knots are needed and you will never know when the spliced area goes around the rod. The splice is very flexible and never binds. Making this knotless belt takes very little time and requires very little effort or skill.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://www.extra-ransom.net/static/rod-binder/bcord.gif" alt="Bcord" loading="lazy" /&gt;&lt;/p&gt;
+&lt;h2&gt;Weight&lt;span class="hx:absolute hx:-mt-20" id="weight"&gt;&lt;/span&gt;
+&lt;a href="#weight" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Now for the last part of tuning your binder, adjusting weights and tension. First, adjust the weight you have on the pulley that rides on the drive belt. This is the mechanism for applying pressure to the glued up rod. More weight is not necessarily better. I feel that the weight should be a little as necessary to give satisfactory results. &lt;a href="http://www.canerod.com/rodmakers/tips/chrisgifs/binder/weight.gif"target="_blank" rel="noopener"&gt;I use a coffee jar that has old nuts and bolts in it&lt;/a&gt; as a weight . I can add and subtract weight easily. The first sign of excess weight is the rod will drag on the cradle. Look carefully at the rod to see if you have rounded or chipped the corners of the rod. Look also at the bottom of the cradle. I used a soft metal (Aluminum) for my binder and the bamboo will actually shave off metal if there is too much weight. So play with the weight so that you are not destroying your rod or binder. I have found that about 1 - 1.5 pounds is more than enough. This weight is based upon the glue (epoxy) I use. You may want to have one weight for butts and one for tips depending on the type of rods you build. I use the same weight for both and have had no ill effects.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://www.extra-ransom.net/static/rod-binder/weight.gif" alt="Weight" loading="lazy" /&gt;&lt;/p&gt;
+&lt;h2&gt;Tension&lt;span class="hx:absolute hx:-mt-20" id="tension"&gt;&lt;/span&gt;
+&lt;a href="#tension" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href="http://www.canerod.com/rodmakers/tips/chrisgifs/binder/topvu.gif"target="_blank" rel="noopener"&gt;You now need to tension the binding cord&lt;/a&gt;. You now need to tension the binding cord. The binding cord does not apply any clamping pressure to the rod. It just holds the pressure that has been &lt;a href="http://www.canerod.com/rodmakers/tips/chrisgifs/binder/wrap.gif"target="_blank" rel="noopener"&gt;applied by thedrive belt&lt;/a&gt;. It wraps the rod maintaining the pressure. Too much tension on the drive cord will cause a twist. Normally this will happen on the first pass and cannot be corrected on the second. What happens is the excess tension starts to pull the rod segments and this causes them to rotate them. The tension should be adjusted to allow a firm even pull on the binding cord. A good way to check to see if there is too much tension is to tie a loop in the cord and hang the weight on it. If the binding cord holds the weight, then there is too much tension. The weight should pull the binding cord easily. I know other rodmakers that use a small spring scale to measure and adjust the tension so weight and tension are even. I believe that tension should be slightly less than the weight.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://www.extra-ransom.net/static/rod-binder/topvu.gif" alt="Tpvu" loading="lazy" /&gt; &lt;img src="https://www.extra-ransom.net/static/rod-binder/wrap.gif" alt="Wrap" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;With a properly tuned and adjusted Garrison binder you achieve excellent results. The only problem I have had is when the binding cord has had too much tension on it. That problem is now solved. I now have now had numerous rods that come out of gluing straight and true, requiring little or no straightening. Understanding your Garrison binder and making some subtle changes can allow you to get maximum performance out of it.&lt;/p&gt;</description></item><item><title>Rod Binder Notes</title><link>https://www.extra-ransom.net/docs/rod-binder-notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/rod-binder-notes/</guid><description>
+&lt;h1&gt;Notes on Rod Binders&lt;/h1&gt;&lt;p&gt;Because my brain isn&amp;rsquo;t the lint catch that it used to be, here are some notes for reference. Preference toward Internet Archive and ensuring they&amp;rsquo;re cataloged in the Wayback Machine.&lt;/p&gt;
+&lt;h2&gt;Smithwick Rod Binder&lt;span class="hx:absolute hx:-mt-20" id="smithwick-rod-binder"&gt;&lt;/span&gt;
+&lt;a href="#smithwick-rod-binder" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;From &lt;a href="http://canerod.com/Tools/Index.html"target="_blank" rel="noopener"&gt;Canerod.com&lt;/a&gt;, there&amp;rsquo;s a &lt;a href="https://www.extra-ransom.net/static/rod-binder/SmithwickEZBinder.pdf"&gt;PDF referenced&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://www.extra-ransom.net/static/rod-binder/smithwick-hand-drawing.png" alt="Smithwick Hand Drawing" loading="lazy" /&gt;&lt;/p&gt;
+&lt;h2&gt;Fantastic Gallery of Binders on bamboorodmaking.com&lt;span class="hx:absolute hx:-mt-20" id="fantastic-gallery-of-binders-on-bamboorodmakingcom"&gt;&lt;/span&gt;
+&lt;a href="#fantastic-gallery-of-binders-on-bamboorodmakingcom" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href="https://web.archive.org/web/20220915195923/https://www.bamboorodmaking.com/Contraptions-files/Binders.html"target="_blank" rel="noopener"&gt;Wayback Machine&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Pulleys for Belt Drive&lt;span class="hx:absolute hx:-mt-20" id="pulleys-for-belt-drive"&gt;&lt;/span&gt;
+&lt;a href="#pulleys-for-belt-drive" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I have a couple of questions regarding building a binder. I&amp;rsquo;ve located some pulleys at the hardware store with ~ 1/4&amp;quot; channel in them, is this too wide or doesn&amp;rsquo;t it matter? What should I use for a belt? (Mark Pohl)&lt;/p&gt;
+&lt;p&gt;You can use either a round leather, or round urethane drive belt. The 1/4&amp;quot; wide groove shouldn&amp;rsquo;t be a problem, and you can get the belting in 1/4&amp;quot;, too. (Martin-Darrell)&lt;/p&gt;
+&lt;p&gt;I used something similar, rollers from a patio door - got them at Lowes, brass with bushings about 1/4 inch groove. I built my binder ALA Garrison design, but have modified it per a suggestion on the list. Make a second main drive pulley and stack them together. Wind one pulley full of 50# braided nylon masons twine - I anchored the twine by drilling a small hole for a screw, sticking the end of the drive belt/string in the hole and screwing the screw in. Do the same think with the end of the belt on the empty drive pulley. Crank the pulleys backwards to rewind all of the belt onto the other pulley. Thread the belt through your pulleys and around a 1/4 test dowel, hang your weight on the belt and away you go. The benefit is NO slipping of the belt, and NO bump as the splice or knot in the belt traverses the rod. I use Polyurethane glue and run the belt back and forth through a cloth dampened with paint thinner after glue up. Use the appropriate solvent for your glue for cleanup. (Kurt Clement)&lt;/p&gt;</description></item><item><title>Rod 001: Sir D 7' 2pc 4wt</title><link>https://www.extra-ransom.net/docs/projects/001-sir-d-taper/</link><pubDate>Wed, 07 Sep 2022 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/projects/001-sir-d-taper/</guid><description>
+&lt;h1&gt;Morgan Hand Mill Settings&lt;/h1&gt;&lt;h2&gt;Cattanach 7ft 2pc 4wt&lt;span class="hx:absolute hx:-mt-20" id="cattanach-7ft-2pc-4wt"&gt;&lt;/span&gt;
+&lt;a href="#cattanach-7ft-2pc-4wt" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Wayne Cattanach&amp;rsquo;s 7ft 2pc 4wt.
+This rod was praised on the Rodmaker&amp;rsquo;s list
+by Darryl Hashiyada, and it has become a
+popular &amp;lsquo;&amp;lsquo;first rod&amp;rsquo;&amp;rsquo; for many of us.
+Note the &amp;lsquo;&amp;lsquo;Cattanach hinge&amp;rsquo;&amp;rsquo; on the stress
+curve.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rod is 12.339/64 (0.193 Inch) at 42.00 in from tip&lt;/li&gt;
+&lt;li&gt;Outside diameter (around apexes): 14.248/64 (0.223 Inch)&lt;/li&gt;
+&lt;li&gt;(Wt 0.225 oz.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;key&lt;/th&gt;
+&lt;th&gt;value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;geometry&lt;/td&gt;
+&lt;td&gt;hex (6)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;rod length&lt;/td&gt;
+&lt;td&gt;7 ft 0 in (84&amp;quot;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;action length&lt;/td&gt;
+&lt;td&gt;6 ft 2 in (64&amp;quot;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;line type&lt;/td&gt;
+&lt;td&gt;standard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;line weight&lt;/td&gt;
+&lt;td&gt;4 DT&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;light fished&lt;/td&gt;
+&lt;td&gt;40 ft&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;pieces&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tip factor&lt;/td&gt;
+&lt;td&gt;1.550&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ferrule type&lt;/td&gt;
+&lt;td&gt;standard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ferrule 1&lt;/td&gt;
+&lt;td&gt;12/64&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Tip Section&lt;span class="hx:absolute hx:-mt-20" id="tip-section"&gt;&lt;/span&gt;
+&lt;a href="#tip-section" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;0 to 42.00 Inches&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Inches&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Rod Dim&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Half Dim&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Rougher Oversize&lt;/th&gt;
+&lt;th style="text-align: left"&gt;MHM Oversize&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Finish Oversize&lt;/th&gt;
+&lt;th style="text-align: right"&gt;MHM Setting&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Station&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;-5&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.060&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0300&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1000&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0600&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0330&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0730&lt;/td&gt;
+&lt;td style="text-align: right"&gt;13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;0&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.067&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0335&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1035&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0635&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0365&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0695&lt;/td&gt;
+&lt;td style="text-align: right"&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;5&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.072&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0360&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1060&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0660&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0390&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0670&lt;/td&gt;
+&lt;td style="text-align: right"&gt;11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;10&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.084&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0420&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1120&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0720&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0450&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0610&lt;/td&gt;
+&lt;td style="text-align: right"&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;15&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.104&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0520&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1220&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0820&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0550&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0510&lt;/td&gt;
+&lt;td style="text-align: right"&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;20&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.123&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0615&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1315&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0915&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0645&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0415&lt;/td&gt;
+&lt;td style="text-align: right"&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;25&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.137&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0685&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1385&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0985&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0715&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0345&lt;/td&gt;
+&lt;td style="text-align: right"&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;30&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.152&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0760&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1460&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1060&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0790&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0270&lt;/td&gt;
+&lt;td style="text-align: right"&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;35&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.166&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0830&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1530&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1130&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0860&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0200&lt;/td&gt;
+&lt;td style="text-align: right"&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;40&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.184&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0920&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1620&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1220&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0950&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0110&lt;/td&gt;
+&lt;td style="text-align: right"&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;45&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.206&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1030&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1730&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1330&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1060&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0000&lt;/td&gt;
+&lt;td style="text-align: right"&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Butt Section&lt;span class="hx:absolute hx:-mt-20" id="butt-section"&gt;&lt;/span&gt;
+&lt;a href="#butt-section" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;42.00 to 84 Inches&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;Inches&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Rod Dim&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Half Dim&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Rougher Oversize&lt;/th&gt;
+&lt;th style="text-align: left"&gt;MHM Oversize&lt;/th&gt;
+&lt;th style="text-align: left"&gt;Finish Oversize&lt;/th&gt;
+&lt;th style="text-align: right"&gt;MHM Setting&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Station&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;35&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.166&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0830&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1430&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1130&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0860&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0840&lt;/td&gt;
+&lt;td style="text-align: right"&gt;13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;40&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.184&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0920&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1620&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1220&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.0950&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0750&lt;/td&gt;
+&lt;td style="text-align: right"&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;45&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.206&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1030&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1730&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1330&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1060&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0640&lt;/td&gt;
+&lt;td style="text-align: right"&gt;11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;50&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.214&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1070&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1770&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1370&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1100&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0600&lt;/td&gt;
+&lt;td style="text-align: right"&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;55&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.220&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1100&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1800&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1400&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1130&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0570&lt;/td&gt;
+&lt;td style="text-align: right"&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;60&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.244&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1220&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1920&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1520&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1250&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0450&lt;/td&gt;
+&lt;td style="text-align: right"&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;65&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.258&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1290&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1990&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1590&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1320&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0380&lt;/td&gt;
+&lt;td style="text-align: right"&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;70&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.272&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1360&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.2060&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1660&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1390&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0310&lt;/td&gt;
+&lt;td style="text-align: right"&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;75&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.298&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1490&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.2190&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1790&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1520&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0180&lt;/td&gt;
+&lt;td style="text-align: right"&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;80&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.316&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1580&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.2280&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1880&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1610&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0090&lt;/td&gt;
+&lt;td style="text-align: right"&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;85&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.334&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1670&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.2370&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1970&lt;/td&gt;
+&lt;td style="text-align: left"&gt;0.1700&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0000&lt;/td&gt;
+&lt;td style="text-align: right"&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description></item><item><title>Miscellaneous</title><link>https://www.extra-ransom.net/docs/projects/chopsticks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/projects/chopsticks/</guid><description>
+&lt;h1&gt;Chopsticks, Why Not&lt;/h1&gt;&lt;p&gt;I&amp;rsquo;m going to have a load of extra bamboo strips, so why not use them.&lt;/p&gt;
+&lt;h2&gt;Peak Bamboo&lt;span class="hx:absolute hx:-mt-20" id="peak-bamboo"&gt;&lt;/span&gt;
+&lt;a href="#peak-bamboo" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href="https://peakbamboo.com/"target="_blank" rel="noopener"&gt;Peak Bamboo&lt;/a&gt; has a PDF published about how to make &lt;a href="https://peakbamboo.com/wp-content/uploads/2017/05/Making-Bamboo-Chopsticks.pdf"target="_blank" rel="noopener"&gt;bamboo chopsticks&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m going to give this a shape, marking out a taper and building it.&lt;/p&gt;</description></item></channel></rss>

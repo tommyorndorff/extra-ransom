@@ -1,0 +1,426 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>super-chainsaw – Coffee Roasting</title><link>https://www.extra-ransom.net/docs/coffee-roasting/</link><description>Recent content in Coffee Roasting on super-chainsaw</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://www.extra-ransom.net/docs/coffee-roasting/index.xml" rel="self" type="application/rss+xml"/><item><title>Artisan on Headless Linux</title><link>https://www.extra-ransom.net/docs/coffee-roasting/artisan-linux-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/coffee-roasting/artisan-linux-setup/</guid><description>
+&lt;p&gt;How to set up a headless Ubuntu server as a Phidget sensor hub, so that
+&lt;a href="https://artisan-scope.org/"target="_blank" rel="noopener"&gt;Artisan&lt;/a&gt; running on your Mac can read the
+VINT thermocouples as if they were plugged in locally.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Architecture&lt;/strong&gt;: the Ubuntu server runs the &lt;strong&gt;Phidget Network Server&lt;/strong&gt; — a
+lightweight daemon that makes all attached Phidget devices available over the
+LAN via WebSockets on port 5661. The Mac&amp;rsquo;s Phidget22 library discovers it
+automatically, and Artisan sees the remote sensors transparently. No Artisan
+instance, no virtual display, and no VNC needed on the server.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;[Phidget VINT Hub] --USB--&amp;gt; [Ubuntu server]
+|
+phidget22networkserver
+(WebSocket, port 5661)
+|
+LAN/WiFi
+|
+[MacBook]
+Artisan &amp;#43; Phidget22
+(reads sensors as local)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;Hardware&lt;span class="hx:absolute hx:-mt-20" id="hardware"&gt;&lt;/span&gt;
+&lt;a href="#hardware" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Ubuntu server (22.04 or 24.04 LTS, headless)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.phidgets.com/?tier=3&amp;amp;catid=2&amp;amp;pcid=1&amp;amp;prodid=1202"target="_blank" rel="noopener"&gt;Phidget VINT Hub&lt;/a&gt; (e.g. HUB0000_0) connected via USB&lt;/li&gt;
+&lt;li&gt;Thermocouple module(s) in VINT ports — e.g. &lt;a href="https://www.phidgets.com/?tier=3&amp;amp;catid=14&amp;amp;pcid=12&amp;amp;prodid=726"target="_blank" rel="noopener"&gt;TMP1101&lt;/a&gt; (4-input K-type) or &lt;a href="https://www.phidgets.com/?tier=3&amp;amp;catid=14&amp;amp;pcid=12&amp;amp;prodid=725"target="_blank" rel="noopener"&gt;TMP1100&lt;/a&gt; (single)&lt;/li&gt;
+&lt;li&gt;Mac on the same local network&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;1. Install the Phidget22 Library and Network Server&lt;span class="hx:absolute hx:-mt-20" id="1-install-the-phidget22-library-and-network-server"&gt;&lt;/span&gt;
+&lt;a href="#1-install-the-phidget22-library-and-network-server" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Phidgets provides an apt repository for Ubuntu.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Add the Phidget repo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;curl -fsSL https://www.phidgets.com/downloads/setup_linux &lt;span class="p"&gt;|&lt;/span&gt; sudo bash
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Install the library and the network server daemon&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt-get install -y libphidget22 libphidget22extra phidget22networkserver&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If you prefer not to run the setup script, download the packages directly
+from &lt;a href="https://www.phidgets.com/downloads/phidget22/libraries/linux/"target="_blank" rel="noopener"&gt;phidgets.com/downloads&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;2. USB Permissions (udev Rule)&lt;span class="hx:absolute hx:-mt-20" id="2-usb-permissions-udev-rule"&gt;&lt;/span&gt;
+&lt;a href="#2-usb-permissions-udev-rule" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;By default, USB devices are only accessible to root. Add a udev rule so the
+network server process can reach the Phidget Hub without running as root.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo tee /etc/udev/rules.d/99-phidgets.rules &lt;span class="s"&gt;&amp;lt;&amp;lt;&amp;#39;EOF&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="s"&gt;SUBSYSTEM==&amp;#34;usb&amp;#34;, ACTION==&amp;#34;add&amp;#34;, ATTR{idVendor}==&amp;#34;06c2&amp;#34;, MODE=&amp;#34;0664&amp;#34;, GROUP=&amp;#34;plugdev&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="s"&gt;EOF&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo udevadm control --reload-rules
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Add the user that will run phidget22networkserver to plugdev&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo usermod -aG plugdev &lt;span class="nv"&gt;$USER&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Log out and back in (or reboot) for the group change to take effect.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;3. Confirm the Phidget Hub is Visible&lt;span class="hx:absolute hx:-mt-20" id="3-confirm-the-phidget-hub-is-visible"&gt;&lt;/span&gt;
+&lt;a href="#3-confirm-the-phidget-hub-is-visible" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Plug in the VINT Hub, then verify USB enumeration and permissions:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Device should appear&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;lsusb &lt;span class="p"&gt;|&lt;/span&gt; grep -i phidget
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Expected: Bus 00X Device 00X: ID 06c2:XXXX Phidgets Inc.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Your user should be in plugdev&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;groups &lt;span class="nv"&gt;$USER&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; grep plugdev
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Quick permission check — should print the device file with group rw&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ls -la /dev/bus/usb/&lt;span class="k"&gt;$(&lt;/span&gt;lsusb &lt;span class="p"&gt;|&lt;/span&gt; grep 06c2 &lt;span class="p"&gt;|&lt;/span&gt; awk &lt;span class="s1"&gt;&amp;#39;{print $2,$4}&amp;#39;&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; awk &lt;span class="s1"&gt;&amp;#39;{printf &amp;#34;%s/%03d\n&amp;#34;, $1, $2+0}&amp;#39;&lt;/span&gt; 2&amp;gt;/dev/null&lt;span class="k"&gt;)&lt;/span&gt; 2&amp;gt;/dev/null &lt;span class="o"&gt;||&lt;/span&gt; &lt;span class="se"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;check dmesg | tail -20 if device not found&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If &lt;code&gt;lsusb&lt;/code&gt; doesn&amp;rsquo;t show a Phidget, try a different USB port, check
+&lt;code&gt;dmesg | tail -20&lt;/code&gt; immediately after plugging in, or try a different cable.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;4. Run the Phidget Network Server&lt;span class="hx:absolute hx:-mt-20" id="4-run-the-phidget-network-server"&gt;&lt;/span&gt;
+&lt;a href="#4-run-the-phidget-network-server" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The &lt;code&gt;phidget22networkserver&lt;/code&gt; package installs a systemd unit. Enable and start
+it, open the firewall port, then verify the server is listening:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo systemctl &lt;span class="nb"&gt;enable&lt;/span&gt; phidget22networkserver
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo systemctl start phidget22networkserver
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo ufw allow 5661/tcp
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo ufw reload
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo systemctl status phidget22networkserver
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ss -tlnp &lt;span class="p"&gt;|&lt;/span&gt; grep &lt;span class="m"&gt;5661&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Expected: LISTEN 0 ... 0.0.0.0:5661&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The server listens on &lt;strong&gt;port 5661&lt;/strong&gt; and publishes all connected Phidget devices
+over a WebSocket interface. It also advertises itself via mDNS/Bonjour so the
+Mac&amp;rsquo;s Phidget22 library can discover it without needing a static IP.&lt;/p&gt;
+&lt;h3&gt;Server IP&lt;span class="hx:absolute hx:-mt-20" id="server-ip"&gt;&lt;/span&gt;
+&lt;a href="#server-ip" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Note the server&amp;rsquo;s LAN IP — you&amp;rsquo;ll need it if mDNS discovery doesn&amp;rsquo;t work on
+your network:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ip addr show &lt;span class="p"&gt;|&lt;/span&gt; grep &lt;span class="s1"&gt;&amp;#39;inet &amp;#39;&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; grep -v 127.0.0.1&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;5. Configure Artisan on macOS&lt;span class="hx:absolute hx:-mt-20" id="5-configure-artisan-on-macos"&gt;&lt;/span&gt;
+&lt;a href="#5-configure-artisan-on-macos" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Install the Phidget22 drivers on your Mac&lt;span class="hx:absolute hx:-mt-20" id="install-the-phidget22-drivers-on-your-mac"&gt;&lt;/span&gt;
+&lt;a href="#install-the-phidget22-drivers-on-your-mac" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The Mac needs the Phidget22 library to talk to the network server. Download
+and install the macOS package from
+&lt;a href="https://www.phidgets.com/downloads/phidget22/libraries/macos/"target="_blank" rel="noopener"&gt;phidgets.com/downloads&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You do &lt;strong&gt;not&lt;/strong&gt; need to physically attach any Phidget to the Mac.&lt;/p&gt;
+&lt;h3&gt;Open Artisan and configure the device&lt;span class="hx:absolute hx:-mt-20" id="open-artisan-and-configure-the-device"&gt;&lt;/span&gt;
+&lt;a href="#open-artisan-and-configure-the-device" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Launch Artisan on your Mac.&lt;/li&gt;
+&lt;li&gt;Go to &lt;strong&gt;Config &amp;gt; Device&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;In the device list, select the Phidget module that matches your
+thermocouple board — e.g. &lt;strong&gt;Phidget TMP1101&lt;/strong&gt; for a 4-input K-type board.&lt;/li&gt;
+&lt;li&gt;Set the channel assignments for ET (environmental/drum temp) and BT
+(bean temperature) to match how your thermocouples are wired to the VINT ports.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Auto-discovery (same LAN, mDNS)&lt;span class="hx:absolute hx:-mt-20" id="auto-discovery-same-lan-mdns"&gt;&lt;/span&gt;
+&lt;a href="#auto-discovery-same-lan-mdns" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If your Mac and the Ubuntu server are on the same subnet, the Phidget22 library
+discovers the network server automatically via Bonjour. No further config
+needed — just press &lt;strong&gt;ON&lt;/strong&gt; in Artisan&amp;rsquo;s toolbar and you should see live ET/BT
+readings within a few seconds.&lt;/p&gt;
+&lt;h3&gt;Manual server address (if mDNS doesn&amp;rsquo;t work)&lt;span class="hx:absolute hx:-mt-20" id="manual-server-address-if-mdns-doesnt-work"&gt;&lt;/span&gt;
+&lt;a href="#manual-server-address-if-mdns-doesnt-work" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;If auto-discovery fails (e.g. across VLANs, or mDNS is blocked), set the
+server address explicitly. Open a terminal on your Mac and add the server:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Run once — registers the server address persistently with the Phidget22 library&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;/usr/local/bin/phidget22admin -a &amp;lt;server-ip&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Or set it within Artisan: &lt;strong&gt;Config &amp;gt; Device&lt;/strong&gt;, look for a &lt;strong&gt;Server&lt;/strong&gt; or
+&lt;strong&gt;Remote&lt;/strong&gt; field and enter &lt;code&gt;&amp;lt;server-ip&amp;gt;:5661&lt;/code&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Confirming Everything Works&lt;span class="hx:absolute hx:-mt-20" id="confirming-everything-works"&gt;&lt;/span&gt;
+&lt;a href="#confirming-everything-works" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;On the Ubuntu server:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 1. Phidget hub is enumerated&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;lsusb &lt;span class="p"&gt;|&lt;/span&gt; grep 06c2
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 2. Network server is running and listening&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;systemctl is-active phidget22networkserver
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ss -tlnp &lt;span class="p"&gt;|&lt;/span&gt; grep &lt;span class="m"&gt;5661&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;From the Mac:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# 3. Port is reachable from the Mac&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;nc -zv &amp;lt;server-ip&amp;gt; &lt;span class="m"&gt;5661&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Expected: Connection to &amp;lt;server-ip&amp;gt; port 5661 [tcp] succeeded!&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;In Artisan (Mac):&lt;/strong&gt;&lt;/p&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;Press &lt;strong&gt;ON&lt;/strong&gt; — ET and BT should populate within a few seconds.&lt;/li&gt;
+&lt;li&gt;The status bar should show the Phidget device name without an error icon.&lt;/li&gt;
+&lt;li&gt;Wiggle a thermocouple gently — the temperature reading should respond.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Troubleshooting:&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Symptom&lt;/th&gt;
+&lt;th&gt;Check&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;lsusb&lt;/code&gt; shows no Phidget&lt;/td&gt;
+&lt;td&gt;`dmesg&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;networkserver fails to start&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;journalctl -u phidget22networkserver&lt;/code&gt; — likely a permissions issue; verify &lt;code&gt;plugdev&lt;/code&gt; group&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Port 5661 not reachable from Mac&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;sudo ufw status&lt;/code&gt;; confirm server IP is correct&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Artisan shows no readings&lt;/td&gt;
+&lt;td&gt;Confirm Phidget22 drivers installed on Mac; try &lt;code&gt;phidget22admin -a &amp;lt;ip&amp;gt;&lt;/code&gt; to force address&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ET/BT swapped&lt;/td&gt;
+&lt;td&gt;Swap channel assignments in &lt;strong&gt;Config &amp;gt; Device&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description></item><item><title>Logging Roasts to This Site</title><link>https://www.extra-ransom.net/docs/coffee-roasting/logging-roasts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/coffee-roasting/logging-roasts/</guid><description>
+&lt;p&gt;How to export a roast from Artisan and add it as a page on this site.&lt;/p&gt;
+&lt;h2&gt;What to Capture Per Roast&lt;span class="hx:absolute hx:-mt-20" id="what-to-capture-per-roast"&gt;&lt;/span&gt;
+&lt;a href="#what-to-capture-per-roast" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;At minimum, record:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Date and batch number&lt;/li&gt;
+&lt;li&gt;Bean origin, variety, and processing (e.g. Ethiopia Yirgacheffe, washed)&lt;/li&gt;
+&lt;li&gt;Green weight (grams) and roast weight out (for calculating roast loss %)&lt;/li&gt;
+&lt;li&gt;Charge temp, first crack time and temp, drop time and temp&lt;/li&gt;
+&lt;li&gt;Artisan roast curve (exported as image)&lt;/li&gt;
+&lt;li&gt;Notes on the roast and cup result&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Exporting from Artisan&lt;span class="hx:absolute hx:-mt-20" id="exporting-from-artisan"&gt;&lt;/span&gt;
+&lt;a href="#exporting-from-artisan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Roast Curve Image&lt;span class="hx:absolute hx:-mt-20" id="roast-curve-image"&gt;&lt;/span&gt;
+&lt;a href="#roast-curve-image" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;After the roast completes (or during):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;File &amp;gt; Save Graph&lt;/strong&gt; — saves the roast curve as a &lt;code&gt;.png&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Alternatively: &lt;strong&gt;File &amp;gt; Print&lt;/strong&gt; and print to PDF, then screenshot the curve.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For a clean export, use &lt;strong&gt;View &amp;gt; Full Screen&lt;/strong&gt; first so the graph fills the window before saving.&lt;/p&gt;
+&lt;h3&gt;Roast Data (Artisan JSON)&lt;span class="hx:absolute hx:-mt-20" id="roast-data-artisan-json"&gt;&lt;/span&gt;
+&lt;a href="#roast-data-artisan-json" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;File &amp;gt; Save&lt;/strong&gt; — saves the full roast as an Artisan &lt;code&gt;.alog&lt;/code&gt; file (JSON format).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This file contains every temperature sample, event marker, and setting from the roast. Keep it alongside the page as a data archive even if you don&amp;rsquo;t embed it in the site.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Where to Store Files&lt;span class="hx:absolute hx:-mt-20" id="where-to-store-files"&gt;&lt;/span&gt;
+&lt;a href="#where-to-store-files" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;static/static/coffee-roasting/
+└── YYYY-MM-DD-bean-name/
+├── roast-curve.png ← exported graph image
+└── roast.alog ← Artisan data file (optional, for archiving)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;static/static/coffee-roasting/2026-07-04-ethiopia-yirgacheffe/roast-curve.png&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;The file will be served at:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;/static/coffee-roasting/2026-07-04-ethiopia-yirgacheffe/roast-curve.png&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;Creating a Roast Page&lt;span class="hx:absolute hx:-mt-20" id="creating-a-roast-page"&gt;&lt;/span&gt;
+&lt;a href="#creating-a-roast-page" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Each roast gets its own Markdown file under &lt;code&gt;content/docs/coffee-roasting/&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo new docs/coffee-roasting/2026-07-04-ethiopia-yirgacheffe.md&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;Page Template&lt;span class="hx:absolute hx:-mt-20" id="page-template"&gt;&lt;/span&gt;
+&lt;a href="#page-template" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;title: &amp;#34;2026-07-04 Ethiopia Yirgacheffe&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;date: 2026-07-04
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;weight: 200
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**Bean**&lt;/span&gt;: Ethiopia Yirgacheffe, washed
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**Source**&lt;/span&gt;: [Roaster name]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gs"&gt;**Green weight**&lt;/span&gt;: 250g | &lt;span class="gs"&gt;**Roast out**&lt;/span&gt;: 210g (16% loss)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gu"&gt;## Roast
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;| | Temp | Time |
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;|---|---|---|
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;| Charge | 195°C | 0:00 |
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;| Turning point | 92°C | 1:45 |
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;| First crack | 196°C | 9:30 |
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;| Drop | 207°C | 11:00 |
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;![&lt;span class="nt"&gt;Roast curve&lt;/span&gt;](&lt;span class="na"&gt;/static/coffee-roasting/2026-07-04-ethiopia-yirgacheffe/roast-curve.png&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gu"&gt;## Notes
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Notes on the roast — airflow adjustments, gas changes, anything that
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;went well or needs adjustment next time.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gu"&gt;## Cup
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Tasting notes after resting 5–7 days.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;Keeping Pages Ordered&lt;span class="hx:absolute hx:-mt-20" id="keeping-pages-ordered"&gt;&lt;/span&gt;
+&lt;a href="#keeping-pages-ordered" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Use &lt;code&gt;weight&lt;/code&gt; in front matter to control sidebar order. Lower numbers appear first. A convention that works well:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Section &lt;code&gt;_index.md&lt;/code&gt;: &lt;code&gt;weight: 100&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Individual roast pages: use the date as a weight, e.g. &lt;code&gt;weight: 20260704&lt;/code&gt; for 2026-07-04&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This keeps roasts sorted chronologically from oldest (top) to newest (bottom). Reverse it by assigning descending weights.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Publishing&lt;span class="hx:absolute hx:-mt-20" id="publishing"&gt;&lt;/span&gt;
+&lt;a href="#publishing" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Add the new page and static files, then push to &lt;code&gt;main&lt;/code&gt; — CI deploys automatically.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git add content/docs/coffee-roasting/ static/static/coffee-roasting/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git commit -m &lt;span class="s2"&gt;&amp;#34;roast: 2026-07-04 Ethiopia Yirgacheffe&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git push&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>
