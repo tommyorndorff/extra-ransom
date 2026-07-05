@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>super-chainsaw – Coffee Roasting</title><link>https://www.extra-ransom.net/docs/coffee-roasting/</link><description>Recent content in Coffee Roasting on super-chainsaw</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.extra-ransom.net/docs/coffee-roasting/index.xml" rel="self" type="application/rss+xml"/><item><title>Artisan on Headless Linux</title><link>https://www.extra-ransom.net/docs/coffee-roasting/artisan-linux-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/coffee-roasting/artisan-linux-setup/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>extra-ransom, super-chainsaw – Coffee Roasting</title><link>https://www.extra-ransom.net/docs/coffee-roasting/</link><description>Recent content in Coffee Roasting on extra-ransom, super-chainsaw</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.extra-ransom.net/docs/coffee-roasting/index.xml" rel="self" type="application/rss+xml"/><item><title>Artisan on Headless Linux</title><link>https://www.extra-ransom.net/docs/coffee-roasting/artisan-linux-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/coffee-roasting/artisan-linux-setup/</guid><description>
 &lt;p&gt;How to set up a headless Ubuntu server as a Phidget sensor hub, so that
 &lt;a href="https://artisan-scope.org/"target="_blank" rel="noopener"&gt;Artisan&lt;/a&gt; running on your Mac can read the
 VINT thermocouples as if they were plugged in locally.&lt;/p&gt;
@@ -312,29 +312,27 @@ data-copied-label="Copied!"
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;Turning Point isn&amp;rsquo;t a button.&lt;/strong&gt; Artisan auto-detects it as the lowest bean-temp reading shortly after Charge — the moment the cold beans stop dragging the temperature down and it starts climbing. That makes it the one phase mark that can go wrong even when you press every button correctly: if the probe glitches right after Charge, like on &lt;a href="https://www.extra-ransom.net/docs/coffee-roasting/2026-07-05-honduras-finca-el-conejo-catuai-organic/"&gt;the first roast logged here&lt;/a&gt;, the auto-detected TP is meaningless even though every button-marked event on the same roast is fine.&lt;/p&gt;
 &lt;h2&gt;What to Capture Per Roast&lt;span class="hx:absolute hx:-mt-20" id="what-to-capture-per-roast"&gt;&lt;/span&gt;
-&lt;a href="#what-to-capture-per-roast" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;At minimum, record:&lt;/p&gt;
+&lt;a href="#what-to-capture-per-roast" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Enter bean and weight data straight into Artisan&amp;rsquo;s own &lt;strong&gt;Roast Properties&lt;/strong&gt; dialog (&lt;code&gt;Roast&lt;/code&gt; menu, or click the roast title above the graph) as you go — it&amp;rsquo;s saved into the &lt;code&gt;.alog&lt;/code&gt; file automatically, so there&amp;rsquo;s nothing to transcribe later:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Date and batch number&lt;/li&gt;
-&lt;li&gt;Bean origin, variety, and processing (e.g. Ethiopia Yirgacheffe, washed)&lt;/li&gt;
-&lt;li&gt;Green weight (grams) and roast weight out (for calculating roast loss %)&lt;/li&gt;
-&lt;li&gt;Charge temp, first crack time and temp, drop time and temp&lt;/li&gt;
-&lt;li&gt;Artisan roast curve (exported as image)&lt;/li&gt;
-&lt;li&gt;Notes on the roast and cup result&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Roast tab&lt;/strong&gt;: &lt;code&gt;Beans&lt;/code&gt; (origin, variety, processing — e.g. &amp;ldquo;Ethiopia Yirgacheffe, washed&amp;rdquo;), &lt;code&gt;Green Weight&lt;/code&gt;, &lt;code&gt;Roasted Weight&lt;/code&gt; (Artisan computes weight loss % from these two)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Title&lt;/strong&gt;: batch identifier, shown on the graph itself&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Notes tab&lt;/strong&gt;: roasting notes during the session, cupping notes once it&amp;rsquo;s rested&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Charge, turning point, first crack, and drop don&amp;rsquo;t need writing down either — mark each one live with Artisan&amp;rsquo;s phase buttons/hotkeys as it happens, and the exact time and temp land on the graph and in the saved profile on their own.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Exporting from Artisan&lt;span class="hx:absolute hx:-mt-20" id="exporting-from-artisan"&gt;&lt;/span&gt;
 &lt;a href="#exporting-from-artisan" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Roast Curve Image&lt;span class="hx:absolute hx:-mt-20" id="roast-curve-image"&gt;&lt;/span&gt;
 &lt;a href="#roast-curve-image" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;After the roast completes (or during):&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;File &amp;gt; Save Graph&lt;/strong&gt; — saves the roast curve as a &lt;code&gt;.png&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Alternatively: &lt;strong&gt;File &amp;gt; Print&lt;/strong&gt; and print to PDF, then screenshot the curve.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;File &amp;gt; Save Graph&lt;/strong&gt; — saves the roast curve as a &lt;code&gt;.png&lt;/code&gt; (also offers PDF and social-media-sized exports).&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;For a clean export, use &lt;strong&gt;View &amp;gt; Full Screen&lt;/strong&gt; first so the graph fills the window before saving.&lt;/p&gt;
-&lt;h3&gt;Roast Data (Artisan JSON)&lt;span class="hx:absolute hx:-mt-20" id="roast-data-artisan-json"&gt;&lt;/span&gt;
-&lt;a href="#roast-data-artisan-json" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;File &amp;gt; Save&lt;/strong&gt; — saves the full roast as an Artisan &lt;code&gt;.alog&lt;/code&gt; file (JSON format).&lt;/li&gt;
+&lt;h3&gt;Roast Data (Artisan &lt;code&gt;.alog&lt;/code&gt;)&lt;span class="hx:absolute hx:-mt-20" id="roast-data-artisan-alog"&gt;&lt;/span&gt;
+&lt;a href="#roast-data-artisan-alog" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;File &amp;gt; Save As&lt;/strong&gt; — saves the full roast as an Artisan &lt;code&gt;.alog&lt;/code&gt; file (JSON format), including every temperature sample, event marker, and the Roast Properties entered above.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;This file contains every temperature sample, event marker, and setting from the roast. Keep it alongside the page as a data archive even if you don&amp;rsquo;t embed it in the site.&lt;/p&gt;
+&lt;p&gt;Keep this file alongside the page as a data archive even if you don&amp;rsquo;t embed it in the site — it&amp;rsquo;s the only copy of the raw curve data, and it&amp;rsquo;s what &lt;a href="https://artisan-scope.org/"target="_blank" rel="noopener"&gt;ArtisanViewer&lt;/a&gt; or a future Artisan version would need to re-open the roast.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Optional:&lt;/strong&gt; Artisan&amp;rsquo;s &lt;a href="https://artisan-scope.org/docs/autosave/"target="_blank" rel="noopener"&gt;Autosave&lt;/a&gt; feature (&lt;code&gt;Config &amp;gt; Autosave&lt;/code&gt;) can write both the &lt;code&gt;.alog&lt;/code&gt; and a rendered image/PDF automatically at the end of every roast, using a filename template built from the roast date and bean name — worth setting up once instead of doing the File &amp;gt; Save Graph / File &amp;gt; Save As dance by hand every time.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Where to Store Files&lt;span class="hx:absolute hx:-mt-20" id="where-to-store-files"&gt;&lt;/span&gt;
 &lt;a href="#where-to-store-files" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
@@ -355,7 +353,7 @@ data-copied-label="Copied!"
 &lt;/div&gt;
 &lt;p&gt;Example:&lt;/p&gt;
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
-&lt;div&gt;&lt;pre&gt;&lt;code&gt;static/static/coffee-roasting/2026-07-04-ethiopia-yirgacheffe/roast-curve.png&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;static/static/coffee-roasting/2025-01-15-ethiopia-yirgacheffe/roast-curve.png&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
@@ -369,7 +367,7 @@ data-copied-label="Copied!"
 &lt;/div&gt;
 &lt;p&gt;The file will be served at:&lt;/p&gt;
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
-&lt;div&gt;&lt;pre&gt;&lt;code&gt;/static/coffee-roasting/2026-07-04-ethiopia-yirgacheffe/roast-curve.png&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;/static/coffee-roasting/2025-01-15-ethiopia-yirgacheffe/roast-curve.png&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
@@ -385,7 +383,7 @@ data-copied-label="Copied!"
 &lt;h2&gt;Creating a Roast Page&lt;span class="hx:absolute hx:-mt-20" id="creating-a-roast-page"&gt;&lt;/span&gt;
 &lt;a href="#creating-a-roast-page" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Each roast gets its own Markdown file under &lt;code&gt;content/docs/coffee-roasting/&lt;/code&gt;.&lt;/p&gt;
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
-&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo new docs/coffee-roasting/2026-07-04-ethiopia-yirgacheffe.md&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo new docs/coffee-roasting/2025-01-15-ethiopia-yirgacheffe.md&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
 title="Copy code"
@@ -400,8 +398,8 @@ data-copied-label="Copied!"
 &lt;h3&gt;Page Template&lt;span class="hx:absolute hx:-mt-20" id="page-template"&gt;&lt;/span&gt;
 &lt;a href="#page-template" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
 &lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;---
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;title: &amp;#34;2026-07-04 Ethiopia Yirgacheffe&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;date: 2026-07-04
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;title: &amp;#34;2025-01-15 Ethiopia Yirgacheffe&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;date: 2025-01-15
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;weight: 200
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;---
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
@@ -418,7 +416,7 @@ data-copied-label="Copied!"
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;| First crack | 196°C | 9:30 |
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;| Drop | 207°C | 11:00 |
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;![&lt;span class="nt"&gt;Roast curve&lt;/span&gt;](&lt;span class="na"&gt;/static/coffee-roasting/2026-07-04-ethiopia-yirgacheffe/roast-curve.png&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;![&lt;span class="nt"&gt;Roast curve&lt;/span&gt;](&lt;span class="na"&gt;/static/coffee-roasting/2025-01-15-ethiopia-yirgacheffe/roast-curve.png&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="gu"&gt;## Notes
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
@@ -444,7 +442,7 @@ data-copied-label="Copied!"
 &lt;a href="#keeping-pages-ordered" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Use &lt;code&gt;weight&lt;/code&gt; in front matter to control sidebar order. Lower numbers appear first. A convention that works well:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Section &lt;code&gt;_index.md&lt;/code&gt;: &lt;code&gt;weight: 100&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Individual roast pages: use the date as a weight, e.g. &lt;code&gt;weight: 20260704&lt;/code&gt; for 2026-07-04&lt;/li&gt;
+&lt;li&gt;Individual roast pages: use the date as a weight, e.g. &lt;code&gt;weight: 20250115&lt;/code&gt; for 2025-01-15&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This keeps roasts sorted chronologically from oldest (top) to newest (bottom). Reverse it by assigning descending weights.&lt;/p&gt;
 &lt;hr&gt;
@@ -452,7 +450,7 @@ data-copied-label="Copied!"
 &lt;a href="#publishing" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Add the new page and static files, then push to &lt;code&gt;main&lt;/code&gt; — CI deploys automatically.&lt;/p&gt;
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
 &lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git add content/docs/coffee-roasting/ static/static/coffee-roasting/
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git commit -m &lt;span class="s2"&gt;&amp;#34;roast: 2026-07-04 Ethiopia Yirgacheffe&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git commit -m &lt;span class="s2"&gt;&amp;#34;roast: 2025-01-15 Ethiopia Yirgacheffe&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git push&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
 class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
