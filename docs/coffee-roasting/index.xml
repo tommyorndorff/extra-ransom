@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>super-chainsaw – Coffee Roasting</title><link>https://www.extra-ransom.net/docs/coffee-roasting/</link><description>Recent content in Coffee Roasting on super-chainsaw</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://www.extra-ransom.net/docs/coffee-roasting/index.xml" rel="self" type="application/rss+xml"/><item><title>Artisan on Headless Linux</title><link>https://www.extra-ransom.net/docs/coffee-roasting/artisan-linux-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/coffee-roasting/artisan-linux-setup/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>super-chainsaw – Coffee Roasting</title><link>https://www.extra-ransom.net/docs/coffee-roasting/</link><description>Recent content in Coffee Roasting on super-chainsaw</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.extra-ransom.net/docs/coffee-roasting/index.xml" rel="self" type="application/rss+xml"/><item><title>Artisan on Headless Linux</title><link>https://www.extra-ransom.net/docs/coffee-roasting/artisan-linux-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/coffee-roasting/artisan-linux-setup/</guid><description>
 &lt;p&gt;How to set up a headless Ubuntu server as a Phidget sensor hub, so that
 &lt;a href="https://artisan-scope.org/"target="_blank" rel="noopener"&gt;Artisan&lt;/a&gt; running on your Mac can read the
 VINT thermocouples as if they were plugged in locally.&lt;/p&gt;
@@ -270,6 +270,47 @@ data-copied-label="Copied!"
 &lt;/tbody&gt;
 &lt;/table&gt;</description></item><item><title>Logging Roasts to This Site</title><link>https://www.extra-ransom.net/docs/coffee-roasting/logging-roasts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/coffee-roasting/logging-roasts/</guid><description>
 &lt;p&gt;How to export a roast from Artisan and add it as a page on this site.&lt;/p&gt;
+&lt;h2&gt;Roast Phase Buttons&lt;span class="hx:absolute hx:-mt-20" id="roast-phase-buttons"&gt;&lt;/span&gt;
+&lt;a href="#roast-phase-buttons" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Artisan&amp;rsquo;s toolbar has one button per roast phase — press each the instant it happens. Use the trier (the little sampling scoop on the roaster) to judge color for Dry End, and listen for the cracks:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Button&lt;/th&gt;
+&lt;th&gt;Press it when&amp;hellip;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;CHARGE&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Beans go into the roaster. This is the zero point everything else is measured from — no CHARGE, no ∆BT curve.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;DRY END&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;The beans finish drying and start browning (Maillard) — pull a sample with the trier and watch the color shift from green to tan/yellow.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;FC START&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;First crack audibly begins — a popcorn-like popping.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;FC END&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;First crack&amp;rsquo;s popping tapers off.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;SC START&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Second crack begins, if roasting past first crack — a faster, higher-pitched crackle than first crack.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;SC END&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Second crack&amp;rsquo;s crackling tapers off.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;DROP&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Beans come out of the roaster into the cooling tray.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Turning Point isn&amp;rsquo;t a button.&lt;/strong&gt; Artisan auto-detects it as the lowest bean-temp reading shortly after Charge — the moment the cold beans stop dragging the temperature down and it starts climbing. That makes it the one phase mark that can go wrong even when you press every button correctly: if the probe glitches right after Charge, like on &lt;a href="https://www.extra-ransom.net/docs/coffee-roasting/2026-07-05-honduras-finca-el-conejo-catuai-organic/"&gt;the first roast logged here&lt;/a&gt;, the auto-detected TP is meaningless even though every button-marked event on the same roast is fine.&lt;/p&gt;
 &lt;h2&gt;What to Capture Per Roast&lt;span class="hx:absolute hx:-mt-20" id="what-to-capture-per-roast"&gt;&lt;/span&gt;
 &lt;a href="#what-to-capture-per-roast" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;At minimum, record:&lt;/p&gt;
 &lt;ul&gt;
@@ -423,4 +464,46 @@ data-copied-label="Copied!"
 &lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item></channel></rss>
+&lt;/div&gt;</description></item><item><title>2026-07-05 Honduras Finca El Conejo, Catuaí (Organic)</title><link>https://www.extra-ransom.net/docs/coffee-roasting/2026-07-05-honduras-finca-el-conejo-catuai-organic/</link><pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/coffee-roasting/2026-07-05-honduras-finca-el-conejo-catuai-organic/</guid><description>
+&lt;p&gt;&lt;strong&gt;Bean&lt;/strong&gt;: Honduras, Finca El Conejo, Catuaí, organic
+&lt;strong&gt;Source&lt;/strong&gt;: [Roaster name]
+&lt;strong&gt;Batch&lt;/strong&gt;: #1
+&lt;strong&gt;Green weight&lt;/strong&gt;: 220g | &lt;strong&gt;Roast out&lt;/strong&gt;: not yet weighed&lt;/p&gt;
+&lt;p&gt;First run of the FreshRoast SR800 logged through Artisan — see the &lt;a href="https://www.extra-ransom.net/docs/coffee-roasting/"&gt;Coffee Roasting overview&lt;/a&gt; for the full equipment list.&lt;/p&gt;
+&lt;h2&gt;Roast&lt;span class="hx:absolute hx:-mt-20" id="roast"&gt;&lt;/span&gt;
+&lt;a href="#roast" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Temp&lt;/th&gt;
+&lt;th&gt;Time&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Charge&lt;/td&gt;
+&lt;td&gt;62.7°F&lt;/td&gt;
+&lt;td&gt;0:00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;First crack&lt;/td&gt;
+&lt;td&gt;422.8°F&lt;/td&gt;
+&lt;td&gt;9:34&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Drop&lt;/td&gt;
+&lt;td&gt;476.6°F&lt;/td&gt;
+&lt;td&gt;11:42&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Development time (first crack → drop): 2:08.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Turning point isn&amp;rsquo;t listed, and the first ~3 minutes of the curve below are noise: the bean-temp probe dipped to &lt;em&gt;negative&lt;/em&gt; readings right after charge (clipped off this chart — its y-axis starts at 100°F) and then spiked to 350–370°F twice, both too fast to be real bean-mass heating. Artisan&amp;rsquo;s computed TP (4.7°F) comes from that dip, not a real reading. The curve settles into a normal profile from about 3:00 on, and first crack / drop below are solid. Worth checking the thermocouple connection or seating before the next roast.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src="https://www.extra-ransom.net/static/coffee-roasting/2026-07-05-honduras-finca-el-conejo-catuai-organic/roast.png" alt="Roast curve" loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;Raw Artisan export: &lt;a href="https://www.extra-ransom.net/static/coffee-roasting/2026-07-05-honduras-finca-el-conejo-catuai-organic/roast.alog.json"&gt;roast.alog.json&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Notes&lt;span class="hx:absolute hx:-mt-20" id="notes"&gt;&lt;/span&gt;
+&lt;a href="#notes" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Final roast came out far too dark. Chaff clogged at the top and didn&amp;rsquo;t pass into the lid — hopefully the chaff collector extension that&amp;rsquo;s coming will fix that. Also check/reseat the bean-temp probe before the next roast — see the turning-point glitch above.&lt;/p&gt;
+&lt;h2&gt;Cup&lt;span class="hx:absolute hx:-mt-20" id="cup"&gt;&lt;/span&gt;
+&lt;a href="#cup" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Not resting this one — drinking it immediately.&lt;/p&gt;</description></item></channel></rss>
