@@ -112,3 +112,5 @@ dist
 !.claude/
 !.claude/CLAUDE.md
 !.claude/settings.json
+# Python
+__pycache__/
