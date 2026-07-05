@@ -30,7 +30,7 @@ __by Chris Bogart__
 
 
 
-![Garrison binder](/static/cbinder.gif)
+![Garrison binder](/static/rod-binder/cbinder.gif)
 
 
 
