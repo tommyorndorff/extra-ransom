@@ -1,6 +1,8 @@
 ---
 title: "'New' Smithwick Binder"
 weight: 50
+aliases:
+  - /docs/new-smithwick-binder/
 ---
 
 # 'New' Smithwick Binder

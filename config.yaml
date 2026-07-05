@@ -1,6 +1,6 @@
 baseURL: 'https://www.extra-ransom.net/'
 locale: en-us
-title: super-chainsaw
+title: extra-ransom, super-chainsaw
 
 module:
   imports:
@@ -17,8 +17,8 @@ markup:
 
 menu:
   main:
-    - name: Projects
-      url: /docs/projects/
+    - name: Rod Builds
+      url: /docs/rod-builds/
       weight: 10
     - name: GitHub
       url: https://github.com/tommyorndorff/extra-ransom

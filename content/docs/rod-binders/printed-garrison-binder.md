@@ -1,9 +1,11 @@
 ---
 title: "3D-Printed Garrison Binder"
 weight: 45
+aliases:
+  - /docs/printed-garrison-binder/
 ---
 
-A Garrison-style rod binder built almost entirely from 3D-printed parts. The architecture follows E. Garrison's original — vertical face board, cradle on the top edge with a belt gap, guide wheels and drive wheel on the face, a weight riding the belt's slack loop, and a disc-drag cord tensioner — as documented in detail on the [Garrison Binder](/docs/garrison-binder/) page. Read that page first; all of its tuning guidance applies directly to this build.
+A Garrison-style rod binder built almost entirely from 3D-printed parts. The architecture follows E. Garrison's original — vertical face board, cradle on the top edge with a belt gap, guide wheels and drive wheel on the face, a weight riding the belt's slack loop, and a disc-drag cord tensioner — as documented in detail on the [Garrison Binder](/docs/rod-binders/garrison-binder/) page. Read that page first; all of its tuning guidance applies directly to this build.
 
 Every wheel runs on two 608 skateboard bearings. All bolt holes, counterbores, captive-nut pockets, and adjustment slots are printed in place — **the only drilling in this project is a handful of holes in the wooden face board**.
 
@@ -141,7 +143,7 @@ The trough axis sits 12 mm in front of the board face — the same plane as the 
 
 ### 4. Drive belt
 
-Make a knotless loop from the mason line (this is the same splice described in the [Garrison Binder](/docs/garrison-binder/) article):
+Make a knotless loop from the mason line (this is the same splice described in the [Garrison Binder](/docs/rod-binders/garrison-binder/) article):
 
 1. Thread one end 50 mm into the eye of a large needle.
 2. Push the needle into the hollow braided core of the other end, run it 40 mm inside, and out.
@@ -165,7 +167,7 @@ Cut two 1" dowels to length: measure **H** = bench top to the bottom of the crad
 
 ## Tuning
 
-All of the [Garrison Binder](/docs/garrison-binder/) tuning advice applies. The short version:
+All of the [Garrison Binder](/docs/rod-binders/garrison-binder/) tuning advice applies. The short version:
 
 - **Weight**: start at ~450 g (1 lb). More is not better — if the rod drags in the cradle or the corners chip, remove weight.
 - **Cord tension**: must be *less* than the belt weight. Test per the article — tie a loop in the cord and hang the weight on it; the weight should pull cord off the spool easily. Too much cord tension twists the rod on the first pass.
@@ -177,6 +179,6 @@ All of the [Garrison Binder](/docs/garrison-binder/) tuning advice applies. The 
 
 ## Related
 
-- [Garrison Binder](/docs/garrison-binder/) — the reference article: theory, tuning, and troubleshooting
-- [Rod Binder Notes](/docs/rod-binder-notes/) — Smithwick binder and a gallery of other designs
-- ['New' Smithwick Binder](/docs/new-smithwick-binder/) — my first (wooden) binder build
+- [Garrison Binder](/docs/rod-binders/garrison-binder/) — the reference article: theory, tuning, and troubleshooting
+- [Rod Binder Notes](/docs/rod-binders/rod-binder-notes/) — Smithwick binder and a gallery of other designs
+- ['New' Smithwick Binder](/docs/rod-binders/new-smithwick-binder/) — my first (wooden) binder build

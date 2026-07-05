@@ -1,6 +1,8 @@
 ---
 title: "3D-Printed Rodmaking Tools"
 weight: 300
+aliases:
+  - /docs/projects/printable-rod-tools/
 ---
 
 Small shop tools for the bamboo build process. The blank-making tools tie to steps of the [Morgan Hand Mill workflow](/docs/morgan-hand-mill/); the grip, ferrule, and finishing tools serve the later stages the class notes stop short of. All are FDM-printable in PETG or PLA, generated parametrically, and validated watertight. STLs export in print orientation.
@@ -45,7 +47,7 @@ A 250 mm plate with a 60° V-channel down its length. The strip drops in point-d
 
 **For:** cord payoff during binding — implements the Garrison article's spool fix.
 
-The bulk cord spool rides an M8 axle that drops into open cradle slots in the two uprights. The Ø3.5 socket in the base takes a 1/8" brass rod bent into an overhead loop: cord comes off the spool up through the loop, and the springy rod absorbs tension spikes instead of passing them into the wrap — the exact shock-absorber trick from the [Garrison Binder](/docs/garrison-binder/) article.
+The bulk cord spool rides an M8 axle that drops into open cradle slots in the two uprights. The Ø3.5 socket in the base takes a 1/8" brass rod bent into an overhead loop: cord comes off the spool up through the loop, and the springy rod absorbs tension spikes instead of passing them into the wrap — the exact shock-absorber trick from the [Garrison Binder](/docs/rod-binders/garrison-binder/) article.
 
 [`spool_caddy.stl`](/static/rod-tools-3d/spool_caddy.stl) · print 1 · hardware: M8 × 120 bolt (or M8 rod) + washers, ~300 mm of 1/8" brass rod, 4 wood screws
 
@@ -98,5 +100,5 @@ PETG or PLA, 0.2 mm layers, 3–4 perimeters, 30–40% infill. No supports on an
 ## Related
 
 - [Morgan Hand Mill](/docs/morgan-hand-mill/) — the build process these tools serve
-- [3D-Printed Garrison Binder](/docs/printed-garrison-binder/) — the binder these support
-- [Ring-Flyer Orbit Binder](/docs/projects/ring-flyer-binder/) — design study for an orbiting-spool binder
+- [3D-Printed Garrison Binder](/docs/rod-binders/printed-garrison-binder/) — the binder these support
+- [Ring-Flyer Orbit Binder](/docs/rod-binders/ring-flyer-binder/) — design study for an orbiting-spool binder
