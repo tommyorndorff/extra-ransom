@@ -1,13 +1,6 @@
 ---
 title: "'New' Smithwick Binder"
 weight: 50
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
-date: 2023-01-09T23:25:10-05:00
 ---
 
 # 'New' Smithwick Binder
