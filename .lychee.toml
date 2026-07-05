@@ -4,6 +4,9 @@ exclude = [
   # Documented as intentionally dead in rod-tapers.md ("expect a 404") -
   # kept alongside its Wayback Machine archive for historical reference.
   '^http://www\.uwm\.edu/~stetzer/',
+  # peakbamboo.com is offline (connection failures, not a 404) - kept in
+  # chopsticks.md alongside its Wayback Machine archive for reference.
+  '^https://peakbamboo\.com',
 ]
 
 max_retries = 3
