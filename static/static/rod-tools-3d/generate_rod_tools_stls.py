@@ -180,6 +180,29 @@ def part_dip_cap():
 
 
 # ──────────────────────────────────────────────────────────────────────────
+# 8. Strip-sanding plate: a 60-deg V-channel the length of the plate. The
+# strip's beveled (pith-side) point drops into the channel; the enamel
+# face sits proud above the rails on either side. Run a flat sanding
+# board over the top - once it rides the rails flush, the enamel face is
+# level along the full length. Regenerate GROOVE_D for wider strips.
+# ──────────────────────────────────────────────────────────────────────────
+
+def part_strip_sanding_plate():
+    length, width, thick = 250.0, 32.0, 14.0
+    groove_d = 9.0                        # vertical channel depth
+    half_angle = math.radians(30)         # half of the 60-deg included angle
+    m = box(0, length, -width / 2, width / 2, 0, thick)
+    vertex_z = thick - groove_d
+    overshoot = 2.0                       # pokes through the top face for a clean cut
+    top_z = thick + overshoot
+    top_half = (top_z - vertex_z) * math.tan(half_angle)
+    prof = CrossSection([[(-top_z, -top_half), (-vertex_z, 0), (-top_z, top_half)]])
+    vg = prof.extrude(length + 4).rotate((0, 90, 0)).translate((-2, 0, 0))
+    m -= vg
+    return m
+
+
+# ──────────────────────────────────────────────────────────────────────────
 
 PARTS = {
     "depth_gauge_base":    (part_depth_gauge_base,    1),
@@ -191,6 +214,7 @@ PARTS = {
     "finishing_v_stand":   (part_finishing_v_stand,   2),
     "ferrule_slit_collar": (part_ferrule_slit_collar, 1),
     "dip_cap":             (part_dip_cap,             1),
+    "strip_sanding_plate": (part_strip_sanding_plate, 1),
 }
 
 

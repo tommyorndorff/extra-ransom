@@ -29,6 +29,16 @@ A 90 mm block with an 8.2 mm channel: the strip lies enamel-down with the node p
 
 [`node_sanding_jig.stl`](/static/rod-tools-3d/node_sanding_jig.stl) + [`node_jig_wedge.stl`](/static/rod-tools-3d/node_jig_wedge.stl) · print 1 each · no hardware
 
+## Strip-sanding plate
+
+<img src="/static/rod-tools-3d/previews/strip_sanding_plate.png" width="180" align="right">
+
+**For:** flattening/leveling the enamel face along a strip's full length — the hand-sanding counterpart to the node jig above.
+
+A 250 mm plate with a 60° V-channel down its length. The strip drops in point-down on its beveled (pith-side) edge; the enamel face sits proud above the flat rails on either side. Run a flat sanding board over the top — once the board rides the rails flush, the enamel face is level for the whole length, and the rails stop you from sanding past it.
+
+[`strip_sanding_plate.stl`](/static/rod-tools-3d/strip_sanding_plate.stl) · print 1 · no hardware
+
 ## Binding-cord spool caddy
 
 <img src="/static/rod-tools-3d/previews/spool_caddy.png" width="180" align="right">
