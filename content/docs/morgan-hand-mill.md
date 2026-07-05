@@ -18,25 +18,22 @@ These are the notes from the class. They were given out on sheets of paper. I've
 ## Strip Selection & Node Spacing
 * Lay out __butt strips__ with lowest part of culm to the right
 * Stagger nodes into 3/3 configuration[^1]
-* Mark 8 strips to cut off (4 for each stagger). Thats 3 + 1 extra
+* Mark 8 strips to cut off (4 for each stagger). That's 3 + 1 extra
 * Cut strips to length with chop saw or with hack saw
 * Lay out strips again in same node spacing config
 * Mark right ends in 2 different colors, one for each node alignment
 * Mark right end of each strip as butt section (B)
 ```goat
-.---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---.
-|       |               |               |               |               |               |      red B|
-+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+
-|           |               |               |               |               |               | blue B|
-+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+
-|       |               |               |               |               |               |      red B|
-+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+
-|           |               |               |               |               |               | blue B|
-+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+
-|       |               |               |               |               |               |      red B|
-+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+
-|           |               |               |               |               |               | blue B|
-'---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---+---'
+   tip end                                                      butt end
+
+   1  --*-----------*-----------*-----------*-----------*--   red
+   2  ------*-----------*-----------*-----------*-----------   blue
+   3  --*-----------*-----------*-----------*-----------*--   red
+   4  ------*-----------*-----------*-----------*-----------   blue
+   5  --*-----------*-----------*-----------*-----------*--   red
+   6  ------*-----------*-----------*-----------*-----------   blue
+
+      * = node   (node spacing tightens toward the butt end)
 ```
 
 Repeat for the tip sections.
@@ -60,10 +57,10 @@ Repeat for the tip sections.
 ## Rough Cut & Bevel __Tip__ Sections
 * Set up tip-roughing anvil
 * Check for trueness
-* Set butt taper from spreadsheet
-* Plane all butt strips to rough dimensions 0.070 over
+* Set tip taper from spreadsheet
+* Plane all tip strips to rough dimensions 0.070 over
 * Check for and repair curves using heat gun as needed
-* Choose 6 best strips and continue.  Shelve the rest for future use 
+* Choose 6 best strips and continue.  Shelve the rest for future use
 
 ## Heat Treat Strips
 * Bundle strips and place in 325 degrees oven for 45 minutes
@@ -91,16 +88,16 @@ This should be done at least once.  Do this twice if time allows.
 ## Check Sections for Fit
 This step is to remove glue seams (gaps) twists, and bends
 * Mark gaps and irregularities with a pencil
-* Sand and straighten and strips at gaps using a sanding jig
+* Sand and straighten strips at gaps using a sanding jig
 
 This step consists of slowly working down each of the strips, starting at the butt-end of the strip, and looking for gaps surrounding the nodes.  If there was a gap at the node, place arrows on the enamel-side around the node.  After all nodes are inspected, place the non-enamel side up in the sanding jig and sand this side.  The gap
 
-The gap (eventualyl will be a glue seam) exists because there is a "scoop" in the planed face.  The intent of sanding is to lengthen that scoop so that when bound again, the strip can interface properly with its neighbor strip.
+The gap (eventually will be a glue seam) exists because there is a "scoop" in the planed face.  The intent of sanding is to lengthen that scoop so that when bound again, the strip can interface properly with its neighbor strip.
 
 ## Final Planing of Strips
 * Plane butt strips to 0.003 over final taper dimensions
 
-This 0.003 over is to allow for enamel removal in a future step, plus moisture
+This 0.003 over is to allow for enamel removal in a future step, plus moisture.
 
 ## Glue Up Section
 * Lay butt sections in order (1-6) on tape.  Place tape at both ends of strips
@@ -115,7 +112,7 @@ This 0.003 over is to allow for enamel removal in a future step, plus moisture
 * Cut off base of butt section
 * Sand each facet with rough and fine sanding blocks
 * When working on tip section, measure sanding strokes on each facet to ensure even removal on all sides
-* In class we were using Norton ProSand sandpaper in either 200 and 320 grit 
+* In class we were using Norton ProSand sandpaper in either 200 and 320 grit
 
 [^1]: Common node spacings are Garrison-style, 3x3, and 2x2x2.  See pg. 71 of Maurer & Elser's _Fundamentals of Building a Bamboo Fly-Rod_
 
