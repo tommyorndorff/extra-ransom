@@ -3,34 +3,59 @@ title: "Artisan on Headless Linux"
 weight: 10
 ---
 
-How to install and run [Artisan](https://artisan-scope.org/) on a headless Ubuntu server with a Phidget VINT Hub connected over USB, and control it remotely from a Mac on the same LAN.
+How to set up a headless Ubuntu server as a Phidget sensor hub, so that
+[Artisan](https://artisan-scope.org/) running on your Mac can read the
+VINT thermocouples as if they were plugged in locally.
+
+**Architecture**: the Ubuntu server runs the **Phidget Network Server** — a
+lightweight daemon that makes all attached Phidget devices available over the
+LAN via WebSockets on port 5661. The Mac's Phidget22 library discovers it
+automatically, and Artisan sees the remote sensors transparently. No Artisan
+instance, no virtual display, and no VNC needed on the server.
+
+```
+[Phidget VINT Hub] --USB--> [Ubuntu server]
+                                  |
+                          phidget22networkserver
+                          (WebSocket, port 5661)
+                                  |
+                              LAN/WiFi
+                                  |
+                            [MacBook]
+                          Artisan + Phidget22
+                          (reads sensors as local)
+```
 
 ## Hardware
 
-- Ubuntu server (22.04 or 24.04 LTS, headless — no monitor attached)
+- Ubuntu server (22.04 or 24.04 LTS, headless)
 - [Phidget VINT Hub](https://www.phidgets.com/?tier=3&catid=2&pcid=1&prodid=1202) (e.g. HUB0000_0) connected via USB
-- Thermocouple module(s) plugged into VINT ports, e.g. [TMP1101](https://www.phidgets.com/?tier=3&catid=14&pcid=12&prodid=726) (4-input K-type) or [TMP1100](https://www.phidgets.com/?tier=3&catid=14&pcid=12&prodid=725) (single)
+- Thermocouple module(s) in VINT ports — e.g. [TMP1101](https://www.phidgets.com/?tier=3&catid=14&pcid=12&prodid=726) (4-input K-type) or [TMP1100](https://www.phidgets.com/?tier=3&catid=14&pcid=12&prodid=725) (single)
 - Mac on the same local network
 
 ---
 
-## 1. Install the Phidget22 Library
+## 1. Install the Phidget22 Library and Network Server
 
 Phidgets provides an apt repository for Ubuntu.
 
 ```bash
-# Add the Phidget repo and install the library
+# Add the Phidget repo
 curl -fsSL https://www.phidgets.com/downloads/setup_linux | sudo bash
-sudo apt-get install -y libphidget22 libphidget22-dev libphidget22extra
+
+# Install the library and the network server daemon
+sudo apt-get install -y libphidget22 libphidget22extra phidget22networkserver
 ```
 
-If you prefer not to run the setup script, download the `.deb` directly from [phidgets.com/downloads](https://www.phidgets.com/downloads/phidget22/libraries/linux/).
+If you prefer not to run the setup script, download the packages directly
+from [phidgets.com/downloads](https://www.phidgets.com/downloads/phidget22/libraries/linux/).
 
 ---
 
 ## 2. USB Permissions (udev Rule)
 
-By default, USB devices are only accessible to root. Add a udev rule so your user account can reach the Phidget Hub without sudo.
+By default, USB devices are only accessible to root. Add a udev rule so the
+network server process can reach the Phidget Hub without running as root.
 
 ```bash
 sudo tee /etc/udev/rules.d/99-phidgets.rules <<'EOF'
@@ -38,6 +63,8 @@ SUBSYSTEM=="usb", ACTION=="add", ATTR{idVendor}=="06c2", MODE="0664", GROUP="plu
 EOF
 
 sudo udevadm control --reload-rules
+
+# Add the user that will run phidget22networkserver to plugdev
 sudo usermod -aG plugdev $USER
 ```
 
@@ -47,170 +74,133 @@ Log out and back in (or reboot) for the group change to take effect.
 
 ## 3. Confirm the Phidget Hub is Visible
 
-Plug in the VINT Hub via USB, then:
+Plug in the VINT Hub, then verify USB enumeration and permissions:
 
 ```bash
-# Check USB device is enumerated
+# Device should appear
 lsusb | grep -i phidget
-# Expected: Bus 00X Device 00X: ID 06c2:XXXX Phidgets Inc. ...
+# Expected: Bus 00X Device 00X: ID 06c2:XXXX Phidgets Inc.
 
-# Check permissions — should NOT require sudo
-ls -la /dev/bus/usb/$(lsusb | grep 06c2 | awk '{print $2}')/ 2>/dev/null | grep $(lsusb | grep 06c2 | awk '{print $4}' | tr -d :)
-# Look for rw- for group plugdev, and that your user is in that group:
+# Your user should be in plugdev
 groups $USER | grep plugdev
+
+# Quick permission check — should print the device file with group rw
+ls -la /dev/bus/usb/$(lsusb | grep 06c2 | awk '{print $2,$4}' | awk '{printf "%s/%03d\n", $1, $2+0}' 2>/dev/null) 2>/dev/null || \
+  echo "check dmesg | tail -20 if device not found"
 ```
 
-If `lsusb` doesn't show a Phidget device, try a different USB port or cable, or check `dmesg | tail -20` after plugging in.
+If `lsusb` doesn't show a Phidget, try a different USB port, check
+`dmesg | tail -20` immediately after plugging in, or try a different cable.
 
 ---
 
-## 4. Install a Virtual Display
+## 4. Run the Phidget Network Server
 
-Artisan is a Qt GUI app — it needs a display even on a headless server. `Xvfb` provides a virtual framebuffer that satisfies this requirement without any physical screen.
+The `phidget22networkserver` package installs a systemd unit. Enable and start
+it, open the firewall port, then verify the server is listening:
 
 ```bash
-sudo apt-get install -y xvfb
+sudo systemctl enable phidget22networkserver
+sudo systemctl start phidget22networkserver
+
+sudo ufw allow 5661/tcp
+sudo ufw reload
+
+sudo systemctl status phidget22networkserver
+ss -tlnp | grep 5661
+# Expected: LISTEN  0  ... 0.0.0.0:5661
 ```
 
----
+The server listens on **port 5661** and publishes all connected Phidget devices
+over a WebSocket interface. It also advertises itself via mDNS/Bonjour so the
+Mac's Phidget22 library can discover it without needing a static IP.
 
-## 5. Install Artisan
+### Server IP
 
-Download the latest `.deb` package from the [Artisan releases page](https://github.com/artisan-roaster-scope/artisan/releases). Look for the file ending in `_amd64.deb` (or `_arm64.deb` for ARM servers like a Raspberry Pi).
+Note the server's LAN IP — you'll need it if mDNS discovery doesn't work on
+your network:
 
-```bash
-# Example — replace with the actual latest version number
-ARTISAN_VERSION=2.10.5
-wget "https://github.com/artisan-roaster-scope/artisan/releases/download/v${ARTISAN_VERSION}/artisan-linux-${ARTISAN_VERSION}_amd64.deb"
-sudo apt-get install -y "./artisan-linux-${ARTISAN_VERSION}_amd64.deb"
-```
-
-Artisan installs to `/usr/bin/artisan`.
-
----
-
-## 6. First Launch and Phidget Configuration
-
-Start Artisan with a virtual display:
-
-```bash
-Xvfb :1 -screen 0 1280x800x24 &
-export DISPLAY=:1
-artisan
-```
-
-Artisan's window is now running on the virtual display. To interact with it from your Mac, see [Remote Access from macOS](#remote-access-from-macos) below.
-
-Once you can see the UI (via VNC or the web interface):
-
-1. Go to **Config > Device** and set the device to **Phidget**.
-2. Select the appropriate module type for your thermocouple board (e.g. TMP1101).
-3. Assign channels to ET (environmental temperature) and BT (bean temperature).
-4. Click **OK** and then **ON** in the main toolbar — you should see live temperature readings.
-
----
-
-## 7. Confirm Artisan Sees the Phidget
-
-If Artisan connects successfully, the main toolbar will show live ET and BT readings and the status bar will show "PHIDGET" without error.
-
-If it fails:
-- Check `dmesg | grep -i phidget` for USB errors
-- Verify `groups $USER` includes `plugdev`
-- Try running `artisan` with `sudo` temporarily to confirm it's a permissions issue, not a hardware one
-- Check Artisan's log: **Help > Errors**
-
----
-
-## 8. Run as a Systemd Service
-
-To have Artisan start automatically at boot:
-
-```bash
-sudo tee /etc/systemd/system/artisan.service <<'EOF'
-[Unit]
-Description=Artisan Roaster Scope
-After=network.target
-
-[Service]
-User=YOUR_USERNAME
-Environment=DISPLAY=:1
-ExecStartPre=/usr/bin/Xvfb :1 -screen 0 1280x800x24
-ExecStart=/usr/bin/artisan
-Restart=on-failure
-
-[Install]
-WantedBy=multi-user.target
-EOF
-
-sudo systemctl daemon-reload
-sudo systemctl enable artisan
-sudo systemctl start artisan
-```
-
-Replace `YOUR_USERNAME` with the account that has `plugdev` access.
-
-Check status:
-```bash
-sudo systemctl status artisan
-journalctl -u artisan -f
-```
-
----
-
-## Remote Access from macOS
-
-### Option A: Artisan WebServer (browser-based, recommended)
-
-Artisan has a built-in HTTP server that serves a live roast view.
-
-1. In Artisan, go to **Config > WebServer**.
-2. Enable the web server and note the port (default: **8080**).
-3. From your Mac, open a browser and navigate to:
-
-```
-http://<server-ip>:8080
-```
-
-You'll see a live roast graph and temperature readings. This is read-only — you can monitor but not control the roast from the browser.
-
-To find your server's IP:
 ```bash
 ip addr show | grep 'inet ' | grep -v 127.0.0.1
 ```
 
-### Option B: VNC (full remote desktop control)
+---
 
-Install a VNC server on the Ubuntu machine to get full control of Artisan's UI.
+## 5. Configure Artisan on macOS
+
+### Install the Phidget22 drivers on your Mac
+
+The Mac needs the Phidget22 library to talk to the network server. Download
+and install the macOS package from
+[phidgets.com/downloads](https://www.phidgets.com/downloads/phidget22/libraries/macos/).
+
+You do **not** need to physically attach any Phidget to the Mac.
+
+### Open Artisan and configure the device
+
+1. Launch Artisan on your Mac.
+2. Go to **Config > Device**.
+3. In the device list, select the Phidget module that matches your
+   thermocouple board — e.g. **Phidget TMP1101** for a 4-input K-type board.
+4. Set the channel assignments for ET (environmental/drum temp) and BT
+   (bean temperature) to match how your thermocouples are wired to the VINT ports.
+5. Click **OK**.
+
+### Auto-discovery (same LAN, mDNS)
+
+If your Mac and the Ubuntu server are on the same subnet, the Phidget22 library
+discovers the network server automatically via Bonjour. No further config
+needed — just press **ON** in Artisan's toolbar and you should see live ET/BT
+readings within a few seconds.
+
+### Manual server address (if mDNS doesn't work)
+
+If auto-discovery fails (e.g. across VLANs, or mDNS is blocked), set the
+server address explicitly. Open a terminal on your Mac and add the server:
 
 ```bash
-sudo apt-get install -y tigervnc-standalone-server
-
-# Start VNC on display :1 (same display Artisan is running on)
-vncserver :1 -geometry 1280x800 -depth 24
+# Run once — registers the server address persistently with the Phidget22 library
+/usr/local/bin/phidget22admin -a <server-ip>
 ```
 
-Connect from your Mac using **Screen Sharing** (built-in) or [RealVNC Viewer](https://www.realvnc.com/en/connect/download/viewer/):
-
-- Host: `<server-ip>:5901`
-
-### Option C: SSH X11 Forwarding
-
-If you have XQuartz installed on your Mac:
-
-```bash
-ssh -X user@server-ip artisan
-```
-
-Artisan's window will appear on your Mac. Useful for occasional config changes, but VNC is more practical for active roasting.
+Or set it within Artisan: **Config > Device**, look for a **Server** or
+**Remote** field and enter `<server-ip>:5661`.
 
 ---
 
-## Confirming Everything Works End-to-End
+## Confirming Everything Works
 
-1. **Phidget visible**: `lsusb | grep 06c2` shows the hub
-2. **Group permissions**: `groups $USER` includes `plugdev`
-3. **Artisan running**: `systemctl status artisan` shows active, or `ps aux | grep artisan`
-4. **Live data**: Xvfb display shows ET/BT readings in Artisan toolbar (check via VNC)
-5. **WebServer**: `curl http://localhost:8080` returns HTML from the server machine itself
-6. **Remote access**: From Mac, browser opens `http://<server-ip>:8080` and shows a live roast display
+**On the Ubuntu server:**
+
+```bash
+# 1. Phidget hub is enumerated
+lsusb | grep 06c2
+
+# 2. Network server is running and listening
+systemctl is-active phidget22networkserver
+ss -tlnp | grep 5661
+```
+
+**From the Mac:**
+
+```bash
+# 3. Port is reachable from the Mac
+nc -zv <server-ip> 5661
+# Expected: Connection to <server-ip> port 5661 [tcp] succeeded!
+```
+
+**In Artisan (Mac):**
+
+4. Press **ON** — ET and BT should populate within a few seconds.
+5. The status bar should show the Phidget device name without an error icon.
+6. Wiggle a thermocouple gently — the temperature reading should respond.
+
+**Troubleshooting:**
+
+| Symptom | Check |
+|---|---|
+| `lsusb` shows no Phidget | `dmesg | tail -20` after plugging in; try different USB port |
+| networkserver fails to start | `journalctl -u phidget22networkserver` — likely a permissions issue; verify `plugdev` group |
+| Port 5661 not reachable from Mac | `sudo ufw status`; confirm server IP is correct |
+| Artisan shows no readings | Confirm Phidget22 drivers installed on Mac; try `phidget22admin -a <ip>` to force address |
+| ET/BT swapped | Swap channel assignments in **Config > Device** |
