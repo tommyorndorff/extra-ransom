@@ -4,10 +4,13 @@ on:
   push:
     branches: [main]
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
@@ -21,14 +24,12 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Create CNAME
-        run: echo 'extra-ransom.net' > public/CNAME
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          cname: extra-ransom.net
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
@@ -37,11 +38,5 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
 
-      - name: Sync to S3
-        run: aws s3 sync ./public/ s3://www.extra-ransom.net/ --delete
-
-      - name: Invalidate CloudFront cache
-        run: |
-          aws cloudfront create-invalidation \
-            --distribution-id E2498U24MEPPED \
-            --paths "/*"
+      - name: Deploy to S3 and invalidate CloudFront
+        run: hugo deploy --maxDeletes -1
