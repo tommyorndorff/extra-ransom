@@ -1,6 +1,8 @@
 ---
 title: "Miscellaneous"
 weight: 400
+aliases:
+  - /docs/projects/chopsticks/
 ---
 # Chopsticks, Why Not
 I'm going to have a load of extra bamboo strips, so why not use them.

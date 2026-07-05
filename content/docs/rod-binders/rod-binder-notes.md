@@ -1,6 +1,8 @@
 ---
 title: "Rod Binder Notes"
 weight: 55
+aliases:
+  - /docs/rod-binder-notes/
 ---
 # Notes on Rod Binders 
 Because my brain isn't the lint catch that it used to be, here are some notes for reference.  Preference toward Internet Archive and ensuring they're cataloged in the Wayback Machine.

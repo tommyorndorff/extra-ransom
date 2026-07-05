@@ -29,15 +29,15 @@ A personal build log — bamboo fly rods, woodworking, coffee roasting, and what
   icon="trending-down"
 >}}
 {{< hextra/feature-card
-  title="Binder notes"
-  subtitle="Garrison and Smithwick binder references, plus the 3D-printed builds here."
-  link="/docs/rod-binder-notes/"
+  title="Rod Binders"
+  subtitle="Garrison and Smithwick binder references, plus the 3D-printed and design-study builds here."
+  link="/docs/rod-binders/"
   icon="refresh"
 >}}
 {{< hextra/feature-card
-  title="Projects"
+  title="Rod Builds"
   subtitle="Per-rod build logs, start to finish."
-  link="/docs/projects/"
+  link="/docs/rod-builds/"
   icon="book-open"
 >}}
 {{< hextra/feature-card

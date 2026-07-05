@@ -1,9 +1,11 @@
 ---
 title: "Ring-Flyer Orbit Binder (Design Study)"
 weight: 200
+aliases:
+  - /docs/projects/ring-flyer-binder/
 ---
 
-A **hypothetical** rod binder that inverts the Garrison principle: instead of a belt spinning the rod while the cord stands still, **the rod never rotates — the cord spool orbits around it**, the way a cable-serving machine or coil winder lays wire. This page is a design study: the parts are fully engineered and printable, but the machine has not been built yet. Read it alongside the [Garrison Binder](/docs/garrison-binder/) article and the [printed Garrison binder](/docs/printed-garrison-binder/) build, which this design deliberately argues with.
+A **hypothetical** rod binder that inverts the Garrison principle: instead of a belt spinning the rod while the cord stands still, **the rod never rotates — the cord spool orbits around it**, the way a cable-serving machine or coil winder lays wire. This page is a design study: the parts are fully engineered and printable, but the machine has not been built yet. Read it alongside the [Garrison Binder](/docs/rod-binders/garrison-binder/) article and the [printed Garrison binder](/docs/rod-binders/printed-garrison-binder/) build, which this design deliberately argues with.
 
 This concept won a three-way design comparison against a counter-rotating twin-cord binder (fatal flaw: the wrap zone between the rotors can't be hand-steadied, and its twist cancellation silently drifts as the friction drags wear) and a rotisserie chuck-and-leadscrew machine (fatal flaw: driving a wet 2 mm tip section from one end winds radians of torsion into it — the exact defect a binder exists to prevent).
 
@@ -161,6 +163,6 @@ Print PETG throughout; the ring and pinion want 5 perimeters and 40–50% infill
 
 ## Related
 
-- [3D-Printed Garrison Binder](/docs/printed-garrison-binder/) — the conventional build this argues with
-- [Garrison Binder](/docs/garrison-binder/) — the reference article
-- [Rod Binder Notes](/docs/rod-binder-notes/) — more binder designs
+- [3D-Printed Garrison Binder](/docs/rod-binders/printed-garrison-binder/) — the conventional build this argues with
+- [Garrison Binder](/docs/rod-binders/garrison-binder/) — the reference article
+- [Rod Binder Notes](/docs/rod-binders/rod-binder-notes/) — more binder designs

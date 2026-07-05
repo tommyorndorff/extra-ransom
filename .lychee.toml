@@ -1,0 +1,17 @@
+# Config for the pre-merge link check (.github/workflows/link-check.yml).
+
+exclude = [
+  # Documented as intentionally dead in rod-tapers.md ("expect a 404") -
+  # kept alongside its Wayback Machine archive for historical reference.
+  '^http://www\.uwm\.edu/~stetzer/',
+]
+
+max_retries = 3
+retry_wait_time = 5
+timeout = 20
+
+# 403 is accepted alongside the normal 2xx/3xx range: a few referenced
+# vendor/retail sites (e.g. Lowe's) bot-block plain HTTP clients even
+# though the page is fine in a real browser - without this, those read
+# as false-positive breakage on every run.
+accept = [200, 201, 202, 203, 204, 206, 301, 302, 303, 307, 308, 403]
