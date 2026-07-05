@@ -6,9 +6,41 @@ Configures short-lived AWS credentials for the deploy workflow via OpenID Connec
 
 GitHub Actions mints a signed JWT for each job run. AWS verifies the token against GitHub's OIDC provider and issues temporary STS credentials scoped to the IAM role's permissions. The token expires when the job ends.
 
+## Manual setup in the AWS console (learning exercise)
+
+Worth doing by hand once, to see what the CloudFormation template below actually automates. If you just want a working deploy, skip to [CloudFormation](#cloudformation).
+
+### 1. Create the OIDC identity provider
+
+1. IAM console → **Identity providers** (left nav) → **Add provider**.
+2. Provider type: **OpenID Connect**.
+3. Provider URL: `https://token.actions.githubusercontent.com` (lowercase, exactly as shown). AWS fetches the TLS certificate thumbprint itself now — you won't be prompted to paste one in.
+4. Audience: `sts.amazonaws.com`.
+5. **Add provider**.
+
+This provider is one-per-account, shared across every repo that federates through GitHub's OIDC issuer. If it already exists (from another project), reuse it and skip straight to step 2.
+
+### 2. Create the IAM role
+
+1. From the **Identity providers** list, open `token.actions.githubusercontent.com` and choose **Assign role** → **Create a new role** (or start from **Roles** → **Create role** and pick the provider there).
+2. Trusted entity type: **Web identity**.
+3. Identity provider: `token.actions.githubusercontent.com`. Audience: `sts.amazonaws.com`.
+4. The console now exposes GitHub-specific fields right on this screen — fill them in instead of hand-editing trust policy JSON afterward:
+   - **GitHub organization**: `tommyorndorff`
+   - **GitHub repository** (optional): `extra-ransom`
+   - **GitHub branch** (optional): `main`
+
+   These map directly onto the `sub` claim condition (`repo:tommyorndorff/extra-ransom:ref:refs/heads/main`). IAM enforces that this condition can't be left as a bare wildcard for GitHub's OIDC provider — a trust policy that doesn't scope it will be rejected outright, not just flagged as a bad practice.
+5. **Next**, then attach a permissions policy. Choose **Create policy** to open the JSON editor in a new tab and paste the `HugoDeploy` statement from the CloudFormation template below (S3 object/list access on the bucket, `cloudfront:CreateInvalidation` on the distribution). Return to this tab and select the policy you just created.
+6. **Next.** Role name: `extra-ransom-github-deploy`. Review the summary — confirm the trust policy shows the scoped `sub` condition — then **Create role**.
+
+### 3. Grab the role ARN
+
+Open the role's summary page; the ARN is at the top (`arn:aws:iam::ACCOUNT_ID:role/extra-ransom-github-deploy`). Use it in [Update the workflow](#update-the-workflow) below.
+
 ## CloudFormation
 
-The template below creates:
+The template below creates the same three resources by hand — useful for reuse or a second account once you've seen how the pieces fit together:
 - The GitHub OIDC identity provider in your AWS account (one per account, shared across all repos)
 - An IAM role trusted only by the `main` branch of this repo
 - An inline policy with the minimum permissions `hugo deploy` requires
@@ -156,3 +188,27 @@ Assuming role arn:aws:iam::ACCOUNT_ID:role/extra-ransom-github-deploy
 ```
 
 If the trust condition is wrong (e.g. branch mismatch), the step fails with `AccessDenied` on `sts:AssumeRoleWithWebIdentity`. Double-check the `sub` claim matches the branch the workflow runs on.
+
+## Hypothetical: hosting on Cloudflare instead (free tier)
+
+Purely exploratory — not a recommendation to migrate, just answering "could this whole pipeline run for free on Cloudflare instead?" Short answer: yes, comfortably, at this site's scale.
+
+**What it would replace**
+
+- **Cloudflare Pages** (or **Workers with static assets** — Cloudflare's current default recommendation for *new* projects since Workers reached feature parity with Pages in 2026; Pages itself remains fully supported, no forced migration) replaces S3, CloudFront, and the OIDC role above entirely.
+- Connect the GitHub repo, set the build command to `hugo --minify`, output directory `public`, and set a `HUGO_VERSION` build environment variable — Cloudflare's build image defaults to an old Hugo version otherwise.
+- Cloudflare's git integration builds and deploys on every push by itself; the GitHub Actions workflow could shrink to nothing, or stay for unrelated checks.
+
+**Why free covers this**
+
+- Free plan: 500 builds/month (this repo pushes nowhere near 16/day), up to 100 custom domains per project, no published bandwidth cap for standard Pages/Workers hosting.
+- The site serves from `www.extra-ransom.net` — a subdomain, not the bare apex `extra-ransom.net`. Cloudflare only requires delegating nameservers for the account when hosting an *apex* domain; a subdomain can be wired up with a single CNAME record, leaving the rest of the domain's DNS wherever it is today.
+
+**What you'd give up**
+
+- The CloudFront distribution (`E2498U24MEPPED`), the S3 bucket, and this entire OIDC setup become dead weight — including any AWS-specific familiarity gained from setting it up.
+- Vendor lock-in shifts rather than disappears: AWS-shaped config (IAM policies, `hugo deploy` targets) gets replaced by Cloudflare-shaped config (build env vars, `_headers`/`_redirects` files).
+
+**Smallest reversible way to test it**
+
+Point a throwaway subdomain (e.g. `cf-test.extra-ransom.net`) at a Cloudflare Pages deployment of this same repo, without touching the live `www` CNAME or removing anything from AWS. That validates the build and hosting actually work before any real cutover decision.
