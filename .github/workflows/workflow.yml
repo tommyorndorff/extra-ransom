@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches: [main]
-  workflow_dispatch: 
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -26,21 +26,40 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          cname: extra-ransom.net
-
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: arn:aws:iam::693172545856:role/extra-ransom-github-deploy
           aws-region: us-east-1
 
-      - name: Deploy to S3 and invalidate CloudFront
-        run: hugo deploy --maxDeletes -1
+      # The Hugo binary from peaceiris/actions-hugo isn't built with the
+      # 'withdeploy' tag, so `hugo deploy` isn't available in CI (it works
+      # fine locally via the Homebrew build - see AGENTS.md manual deploy).
+      # Sync + invalidate directly with the AWS CLI instead: two sync passes
+      # give long-lived assets a 1-year immutable cache and everything else
+      # (html/xml/json/...) a must-revalidate cache, matching the intent of
+      # the `deployment.targets.matchers` block in config.yaml.
+      - name: Deploy to S3
+        run: |
+          aws s3 sync ./public/ s3://www.extra-ransom.net/ \
+            --delete \
+            --cache-control "public, max-age=31536000, immutable" \
+            --exclude "*" \
+            --include "*.css" --include "*.js" --include "*.svg" \
+            --include "*.png" --include "*.jpg" --include "*.jpeg" --include "*.gif" --include "*.webp" \
+            --include "*.woff" --include "*.woff2" --include "*.ttf" --include "*.ico"
+          aws s3 sync ./public/ s3://www.extra-ransom.net/ \
+            --delete \
+            --cache-control "public, max-age=0, must-revalidate" \
+            --exclude "*.css" --exclude "*.js" --exclude "*.svg" \
+            --exclude "*.png" --exclude "*.jpg" --exclude "*.jpeg" --exclude "*.gif" --exclude "*.webp" \
+            --exclude "*.woff" --exclude "*.woff2" --exclude "*.ttf" --exclude "*.ico"
+
+      # "/*" (not "/") so deep paths actually get invalidated - see the
+      # "Known Limitations" note in AGENTS.md. Still just 1 of the 1000
+      # free invalidation paths per month.
+      - name: Invalidate CloudFront
+        run: aws cloudfront create-invalidation --distribution-id E2498U24MEPPED --paths "/*"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
