@@ -10,7 +10,7 @@
 
 :root {
   --primary-hue: 174deg;
-  --primary-saturation: 39%;
+  --primary-saturation: 44%;
   --primary-lightness: 40%;
 
   --hx-color-dark: #0d1917;
@@ -21,7 +21,7 @@
 
 .dark {
   --primary-hue: 174deg;
-  --primary-saturation: 32%;
+  --primary-saturation: 37%;
   --primary-lightness: 56%;
 }
 
