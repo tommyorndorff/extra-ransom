@@ -104,6 +104,23 @@ Not a competition sector, but close by and worth a session. Two rivers in one: a
 - BWO & mahogany duns (#16–18)
 - Pheasant Tail & rubber legs subsurface; small streamers for browns
 
+### Quick confidence box (tie regardless of venue)
+
+| Category | Patterns | Sizes |
+|---|---|---|
+| Euro/comp nymphs | Tungsten Perdigon, Frenchie, jig PT | 12–18 |
+| Big nymph | Pat's Rubber Legs / Girdle Bug | 6–10 |
+| Fall mayfly dries | CDC BWO, Sparkle Dun, Mahogany dun | 16–22 |
+| Trico / Callibaetis | Spinner, cripple | 14–22 |
+| Caddis emergers | X-Caddis, Micro Beeley soft-hackle | 14–18 |
+| Terrestrials | Chubby, hopper, foam ant, beetle | 8–16 |
+| Attractors | Royal Wulff, Stimulator, Purple Haze | 10–14 |
+| Streamers | Sex Dungeon, Zoo Cougar, bugger | 4–8 |
+| Stillwater (Hebgen, Sheridan) | Chironomid, damsel, Callibaetis nymph, leech | 6–18 |
+| October caddis (late) | Pupa & adult | 8–10 |
+
+**Weather read:** grey/drizzle lights up BWO dry fishing on the rivers but kills the calm-morning gulper window on the lakes (Hebgen, Sheridan). Warm bluebird afternoons favor terrestrials/attractors on the rivers. Any day, the streamer bite for browns is worth a session — best on Hebgen.
+
 ## Bonus info: the Firehole soft-hackle swing
 
 Inside Yellowstone NP, the **Firehole River** is the classic home of the **downstream soft-hackle swing** for caddis — a technique worth having in the bag even though the Firehole isn't a competition sector. You fish a soft-hackled caddis emerger (or wet fly) down-and-across through a riffle, letting the current swing it up on a tight line; the rising, hanging fly imitates a pupa swimming to the surface to hatch, and trout hammer it on the swing. It's a centuries-old British-Isles wet-fly method that fishes beautifully here.
@@ -192,7 +209,10 @@ Beyond the fly patterns noted above, Craig Mathews' conservation footprint is a 
 Beyond Slide Inn and Blue Ribbon Flies (see above), this circuit runs through an unusual concentration of fly-fishing industry history — worth a stop or at least a nod.
 
 - **Simms Fishing Products** — founded 1980 in Jackson, WY by guide John Simms to build better waders; sold to Life-Link, then bought by K.C. Walsh in 1992 and moved to Bozeman, MT, where it pioneered Gore-Tex breathable waders and still manufactures in the US. Not on this exact loop, but its wader/wading-boot lineage traces straight back to Jackson.
-- **TroutHunter** — Last Chance, ID, right on the Henry's Fork; open since 1999, co-founded by local legend **René Harrop**, whose "House of Harrop" flies (over 250 patterns refined on this exact river) are the shop's signature. Also doubles as the lodge/restaurant covered in the Eating section above — one-stop for flies, a room, and dinner. See below for more on Harrop specifically.
+- **RIO Products** — headquartered in Idaho Falls since 1997; started in nearby Blackfoot in 1990 by Jim and Kitty Vincent making hand-tied leaders, invented the first purpose-built Spey line (the WindCutter), and every RIO fly line is still made in the Idaho Falls plant, tested a short drive from where the comp is happening. Sold in 2005 to the parent company of Sage/Redington.
+- **Bud Lilly's Trout Shop** — West Yellowstone, opened 1952, the shop widely credited with putting West Yellowstone on the fly-fishing map; Bud Lilly ran it into the 1980s before selling, and the name persisted at the corner of Madison and Canyon until 2020, when it became **Big Sky Anglers**, still trading at the same corner.
+- **Jacklin's Fly Shop** — also West Yellowstone; Bob Jacklin worked for Bud Lilly before opening his own shop in 1974, now the town's oldest continuously owned fly shop and guide service, run by a Fly Fishing Hall of Famer (inducted 2004).
+- **TroutHunter** — Last Chance, ID, right on the Henry's Fork; open since 1999, co-founded by local legend **René Harrop**, whose "House of Harrop" flies (over 250 patterns refined on this exact river) are the shop's signature. Also doubles as the lodge/restaurant covered in the Eating section below — one-stop for flies, a room, and dinner. See below for more on Harrop specifically.
 
 ### René Harrop and the House of Harrop
 
@@ -211,9 +231,6 @@ Harrop is worth a section of his own — he's arguably the single most influenti
 - CDC Biot Emerger (#16–20)
 - CDC Transitional Midge (#18–22) — designed specifically for Henry's Fork midge activity
 - Harrop CDC caddis patterns (#14–18) — the caddis-side counterpart to Blue Ribbon Flies' X-Caddis, both solving the same Henry's Fork refusal problem from different angles
-- **RIO Products** — headquartered in Idaho Falls since 1997; started in nearby Blackfoot in 1990 by Jim and Kitty Vincent making hand-tied leaders, invented the first purpose-built Spey line (the WindCutter), and every RIO fly line is still made in the Idaho Falls plant, tested a short drive from where the comp is happening. Sold in 2005 to the parent company of Sage/Redington.
-- **Bud Lilly's Trout Shop** — West Yellowstone, opened 1952, the shop widely credited with putting West Yellowstone on the fly-fishing map; Bud Lilly ran it into the 1980s before selling, and the name persisted at the corner of Madison and Canyon until 2020, when it became **Big Sky Anglers**, still trading at the same corner.
-- **Jacklin's Fly Shop** — also West Yellowstone; Bob Jacklin worked for Bud Lilly before opening his own shop in 1974, now the town's oldest continuously owned fly shop and guide service, run by a Fly Fishing Hall of Famer (inducted 2004).
 
 > The short version: within a two-hour drive of the comp you can buy the waders (Simms lineage), the fly line (RIO), and the actual flies (Harrop patterns at TroutHunter, or the Lilly/Jacklin lineage in West Yellowstone) from the people who invented them.
 
@@ -280,20 +297,3 @@ Small talk / trivia for the truck rides between sectors.
 - **Cell coverage:** patchy to nonexistent in the canyon stretches (Henry's Fork/Cardiac Canyon, Greys River Road, Teton canyon) — download offline maps (onX, Google Maps offline areas) before you leave cell range.
 - **Greys River Road (FS Rd 10138):** unpaved Forest Service road for most of its length; fine in a normal car in dry conditions but can wash out or wash-board after rain — check current Forest Service road status before committing to the drive.
 - **Fire/smoke season:** September can bring regional wildfire smoke that changes both air quality and fishing (overcast-from-smoke can extend a gulper window or kill visibility) — worth a quick smoke-forecast check each morning alongside the weather.
-
-## Quick confidence box (tie regardless of venue)
-
-| Category | Patterns | Sizes |
-|---|---|---|
-| Euro/comp nymphs | Tungsten Perdigon, Frenchie, jig PT | 12–18 |
-| Big nymph | Pat's Rubber Legs / Girdle Bug | 6–10 |
-| Fall mayfly dries | CDC BWO, Sparkle Dun, Mahogany dun | 16–22 |
-| Trico / Callibaetis | Spinner, cripple | 14–22 |
-| Caddis emergers | X-Caddis, Micro Beeley soft-hackle | 14–18 |
-| Terrestrials | Chubby, hopper, foam ant, beetle | 8–16 |
-| Attractors | Royal Wulff, Stimulator, Purple Haze | 10–14 |
-| Streamers | Sex Dungeon, Zoo Cougar, bugger | 4–8 |
-| Stillwater (Hebgen, Sheridan) | Chironomid, damsel, Callibaetis nymph, leech | 6–18 |
-| October caddis (late) | Pupa & adult | 8–10 |
-
-**Weather read:** grey/drizzle lights up BWO dry fishing on the rivers but kills the calm-morning gulper window on the lakes (Hebgen, Sheridan). Warm bluebird afternoons favor terrestrials/attractors on the rivers. Any day, the streamer bite for browns is worth a session — best on Hebgen.
