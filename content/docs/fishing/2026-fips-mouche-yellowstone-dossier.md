@@ -131,6 +131,138 @@ Flies with real history here that are worth knowing about, even where they're no
 - **Improved Sofa Pillow** and **Madam X** — classic regional salmonfly (Pteronarcys) dries, tied for the big June/early-July stonefly hatch on the Madison and Henry's Fork. **Not a September pattern for this trip** — the hatch will be long over; listed here only because guides will bring them up as "the" local fly.
 - **Bitch Creek Nymph** and **Girdle Bug** — [Bitch Creek tying notes](https://www.johnkreft.com/stonefly-fly-patterns/bitch-creek-nymph/) — the classic stonefly-nymph pair for this whole region, woven chenille bodies with rubber legs. **Do not tie or fish the traditional version as-is**: both are conventionally weighted with lead wire under the body, which is (a) illegal added-leader/fly weight under FIPS-Mouche rules and (b) lead tackle is banned outright in Yellowstone-area park waters regardless of format. If you want the profile, re-tie on a tungsten bead or with tungsten underwire instead of lead — same silhouette, competition- and park-legal.
 
+## Auxiliary info: base camp, logistics, side trips, conservation
+
+Background for anyone camped in the area for the full ~2-week window (Sept 12–19 comp, plus practice days either side), not just rod-and-reel notes.
+
+### Idaho Falls — the base
+
+Idaho Falls is the host town and the obvious hub: it sits on the Snake River itself, with a dam-created cascade (~20 ft drop, ~1,200 ft wide) right downtown and a paved **Snake River Greenbelt** path along both banks — a good easy walk/run on an off day, not a fishing spot (urban water, dam-controlled). It's a real town (population in the 60,000s) with normal grocery/pharmacy/gear infrastructure, which matters for a multi-week stay:
+
+- **Fly shops in town:** worth calling ahead for current Henry's Fork / Teton / South Fork conditions and any last-minute tippet or tungsten-bead restocks — shop rosters change year to year, so check current listings rather than relying on a name here.
+- **Museum of Idaho** (downtown, on the Greenbelt) — a Smithsonian-affiliate science/history museum, a fine rainy/smoky-air-day option.
+- Idaho Falls is the drive hub for the western sectors (Henry's Fork, Warm River, Teton River are 45–75 min northeast) and a longer haul to the Wyoming sectors (Sheridan Lake, Greys River, both nearer Jackson/Alpine) and to Hebgen Lake (near West Yellowstone, MT) — expect 1.5–2.5 hr one-way drives to the outer sectors, so factor that into any single-day sector-hopping.
+
+### Amazon lockers for travel restocks
+
+For a two-week trip, gear gets lost or breaks (leaders, boot laces, a specific tippet spool, batteries, a rain shell). Amazon Hub Lockers/Counters let you ship to a fixed pickup point instead of a hotel front desk:
+
+1. Order as normal, but at checkout choose **"Amazon Hub Locker/Counter"** as the delivery address — you pick from lockers near your route, not just near home.
+2. You get a 6-digit pickup code by email/app once it arrives; codes are typically valid for a **few days** (currently ~3 business days) before the package is returned, so don't order something to a locker near a sector you won't pass again soon.
+3. Use the **Amazon app → account → "Find a locker"** map to check what's actually near West Yellowstone / Idaho Falls / Jackson right now — locker locations (often inside Whole Foods, convenience stores, or an Amazon Hub Counter at a local retailer) change over time, so don't trust a specific address beyond what the app shows on the day.
+4. In small mountain towns (West Yellowstone, Alpine WY) locker density is thin — Idaho Falls will have the most reliable options, so it's the better place to route "need it in 1–2 days" orders even if you're fishing elsewhere that day.
+
+### Side trips near the sectors
+
+- **National Museum of Wildlife Art** — just north of Jackson, WY on US-89/191, overlooking the National Elk Refuge. Strong wildlife-art collection (Bierstadt, Remington, Rungius) and a good half-day if you're already up near Sheridan Lake or staging for the Greys River side of the circuit.
+- **Grand Teton National Park** — the Sheridan Lake / Jackson leg puts you within a short drive of the park; even a quick pass along the Teton Park Road / Snake River overlooks is worth the detour if the light's good in the evening.
+- **Upper & Lower Mesa Falls, Mesa Falls Scenic Byway (ID-47)** — right above the Henry's Fork canyon sector; two big waterfalls with easy viewpoints, a natural break between a canyon session and the drive out.
+- **West Yellowstone, MT** — base for the Hebgen sector; the **Yellowstone Historic Center** (old train depot museum) and the **Grizzly & Wolf Discovery Center** (a rescue/education facility, not a zoo in the traditional sense) are both walkable in town, good for a non-fishing companion or a smoky/windy morning.
+- **Yellowstone National Park itself** — the Firehole (bonus water, see above), Old Faithful, and the general park loop are all within range of Hebgen/West Yellowstone; a timed-entry or reservation system may apply in peak season, so check current park entry rules before planning a park day.
+
+### 4-hour park loops after a practice session
+
+Short enough to bolt onto the end of a fishing day without eating the evening. Both parks charge an entrance fee/pass — bring it even for a quick pass-through.
+
+- **Yellowstone, from West Yellowstone / Hebgen** (~30 min to the entrance)
+  - Madison River corridor + Firehole Canyon Drive — pull-offs, waterfall, easy
+  - Fountain Paint Pot + Midway Geyser Basin (Grand Prismatic) — short boardwalk loops, high payoff for the time
+  - Old Faithful — check the eruption prediction board on arrival, grab a viewing seat, budget an extra 30–90 min of slack for the wait
+  - All three fit in a ~4-hr round trip from West Yellowstone if you skip Old Faithful's crowds/parking in peak midday
+- **Grand Teton, from Jackson / Sheridan Lake** (~15–30 min to the valley)
+  - Mormon Row + the T.A. Moulton Barn — classic barn-and-Tetons shot, 5-min stop
+  - Schwabacher Landing — beaver ponds, reflection shots, easy walk
+  - Snake River Overlook — the Ansel Adams view, quick pull-off
+  - Jenny Lake — the anchor stop if time allows; skip the boat shuttle to keep the loop under 4 hours
+  - All four string together along US-89/191 and Teton Park Road as one loop back into Jackson
+
+> Best light for both is the last 2 hours before sunset — also when wildlife (elk, bison, moose) is most active, so budget slower driving through animal jams.
+
+### Craig Mathews and regional conservation
+
+Beyond the fly patterns noted above, Craig Mathews' conservation footprint is a bigger deal locally than the shop history alone suggests:
+
+- Mathews and Patagonia founder Yvon Chouinard co-founded **1% for the Planet** in 2002, seeded by Blue Ribbon Flies' and Patagonia's pledge to give 1% of sales to environmental causes — now a network of thousands of member businesses. Mathews later sold his stake in the shop to focus on conservation work.
+- Regional cutthroat conservation is a live issue, not historical: **Yellowstone Lake's native cutthroat population collapsed after illegally introduced lake trout** (an invasive predator) took hold in the 1990s; Yellowstone National Park runs an ongoing lake trout suppression/gillnetting program, and native cutthroat recovery is a headline conservation story across the ecosystem — including the fine-spotted Snake River cutthroat you'll be casting to on the Greys.
+- The **Henry's Fork Foundation** (linked above for maps) is the standing conservation/advocacy group for that watershed — water rights, flow management, and habitat work on the exact river the Mesa Falls and Warm River sectors sit on.
+- Practical translation for the trip: handle fish quickly and wet-handed, and don't be surprised if guides bring up lake trout removal or whirling disease when talking about "why the fishing looks the way it does" — it's not idle chat, it's the reason the fishery is shaped the way it is.
+
+### Fishing-industry landmarks in the area
+
+Beyond Slide Inn and Blue Ribbon Flies (see above), this circuit runs through an unusual concentration of fly-fishing industry history — worth a stop or at least a nod.
+
+- **Simms Fishing Products** — founded 1980 in Jackson, WY by guide John Simms to build better waders; sold to Life-Link, then bought by K.C. Walsh in 1992 and moved to Bozeman, MT, where it pioneered Gore-Tex breathable waders and still manufactures in the US. Not on this exact loop, but its wader/wading-boot lineage traces straight back to Jackson.
+- **TroutHunter** — Last Chance, ID, right on the Henry's Fork; open since 1999, co-founded by local legend **René Harrop**, whose "House of Harrop" flies (over 250 patterns refined on this exact river) are the shop's signature. Also doubles as the lodge/restaurant covered in the Eating section above — one-stop for flies, a room, and dinner.
+- **RIO Products** — headquartered in Idaho Falls since 1997; started in nearby Blackfoot in 1990 by Jim and Kitty Vincent making hand-tied leaders, invented the first purpose-built Spey line (the WindCutter), and every RIO fly line is still made in the Idaho Falls plant, tested a short drive from where the comp is happening. Sold in 2005 to the parent company of Sage/Redington.
+- **Bud Lilly's Trout Shop** — West Yellowstone, opened 1952, the shop widely credited with putting West Yellowstone on the fly-fishing map; Bud Lilly ran it into the 1980s before selling, and the name persisted at the corner of Madison and Canyon until 2020, when it became **Big Sky Anglers**, still trading at the same corner.
+- **Jacklin's Fly Shop** — also West Yellowstone; Bob Jacklin worked for Bud Lilly before opening his own shop in 1974, now the town's oldest continuously owned fly shop and guide service, run by a Fly Fishing Hall of Famer (inducted 2004).
+
+> The short version: within a two-hour drive of the comp you can buy the waders (Simms lineage), the fly line (RIO), and the actual flies (Harrop patterns at TroutHunter, or the Lilly/Jacklin lineage in West Yellowstone) from the people who invented them.
+
+### Eating: Idaho Falls, West Yellowstone, Island Park, Jackson
+
+Small-town rosters turn over fast — confirm hours before relying on any of these. Three tiers per town.
+
+- **Idaho Falls**
+  - Premium: [Sandpiper Restaurant](https://www.sandpiperidaho.com/) (steak/seafood, riverfront); Copper Rill (newer, chef-driven)
+  - Mid-tier: Idaho Rib and Chophouse; The Celt Pub & Grill
+  - Budget: Dixie's Diner (breakfast)
+- **West Yellowstone, MT**
+  - Premium: Madison Crossing Lounge; Serenity Bistro; Bar N Ranch Restaurant (6 mi out, warm-season only)
+  - Mid-tier: Slippery Otter Pub & Eatery; The Buffalo Bar
+  - Budget: Running Bear Pancake House; Ernie's (breakfast)
+- **Island Park, ID**
+  - Premium: The Last Chance Bar & Grill at TroutHunter (Henry's Fork view)
+  - Mid-tier: Connie's Restaurant & Saloon (prime rib Fri/Sat); Lakeside Lodge (boat-in option)
+  - Budget: The Parlor at Mack's Inn (pizza); Café Sabor (Mexican, at Big Springs)
+- **Jackson, WY**
+  - Premium: [Palate](https://palatejh.com/) at the National Museum of Wildlife Art (~$100+/person)
+  - Mid-tier: Liberty Burger; Snake River Brewing (~$40–80/person)
+  - Budget: Pinky G's Pizzeria; The Virginian (~$12 breakfast); Bubba's BBQ (opens 6am)
+
+> Jackson runs well above the other three towns — budget accordingly, and treat a Jackson dinner as a planned splurge day rather than a nightly default.
+
+> **Jackson price note:** it's the most expensive town on this circuit by a wide margin — a casual dinner for two with drinks can run $100–150, fine dining $200–400. Worth timing the Jackson museum/dinner combo as a single splurge day rather than a nightly default if the trip's running two weeks.
+
+### Sights and entertainment: Idaho Falls, West Yellowstone, Island Park, Jackson
+
+Same three-tier logic — a splurge/half-day activity, a solid everyday option, and a free-or-cheap fallback for a rest day or a rained-off session.
+
+- **Idaho Falls**
+  - Premium: East Idaho Aquarium (shark swims, sloth encounters, ray touch tanks)
+  - Mid-tier: Tautphaus Park Zoo (~130 species); Museum of Idaho (Smithsonian-affiliate)
+  - Budget/free: Snake River Greenbelt + falls; Japanese Friendship Garden; Saturday Farmers Market (May–Oct)
+- **West Yellowstone, MT**
+  - Premium: Yellowstone Zipline Adventure; guided snowcoach/scenic tour into the park
+  - Mid-tier: Grizzly & Wolf Discovery Center (year-round); Playmill Theatre (summer stock)
+  - Budget/free: Yellowstone Historic Center; boardwalk shops; Rendezvous/Boundary Trail system
+- **Island Park, ID**
+  - Premium: Big Springs + hike to Upper Mesa Falls
+  - Mid-tier: Playmill/Mack's Inn Playhouse; Island Park Golf Course
+  - Budget/free: Henry's Lake State Park; the drive along ID-20/ID-87
+- **Jackson, WY**
+  - Premium: Jackson Hole Aerial Tram; guided wildlife safari into Grand Teton/Yellowstone (~$300/person)
+  - Mid-tier: National Museum of Wildlife Art (pair with Palate for lunch); Snow King Mountain summer activities (mini golf, alpine slide, ropes course, zip line)
+  - Budget/free: Town Square evening walk; Teton Park Road at golden hour
+
+### Weird and odd facts
+
+Small talk / trivia for the truck rides between sectors.
+
+- **Idaho Falls** has the world's largest lava lamp — 13.5 ft tall, 1,000 lb, downtown. The word "Idaho" itself has no real Native American etymology — it was reportedly just made up and pitched (unsuccessfully) as a territory name before sticking to this one instead.
+- **West Yellowstone** is a tourist town in the most literal sense: it has roughly 5x more hotel rooms than year-round residents. It also sits on the boundary of Yellowstone's active caldera system, so the "ghost of Truman Everts" story — a lost 1870 expedition member who claimed a spectral guide helped him survive weeks alone near what's now Old Faithful — is a real piece of local park lore, not just a campfire tale.
+- **Island Park** is itself the flat, spring-riddled floor of the **Island Park Caldera**, an 18-by-23-mile supervolcano crater roughly 2.1 million years old — one of the largest well-preserved calderas on Earth, and part of the same Yellowstone hotspot system as the park itself. That eruption is why the valley is so flat and so full of cold springs: the caldera floor is a porous sponge of volcanic ash and rhyolite holding enormous groundwater reserves. **Big Springs** (the true source of the Henry's Fork) discharges roughly 120 million gallons a day at a constant 52°F — which is also why the Warm River sector fishes so consistently. In short: you'll be nymphing inside a supervolcano crater all week and it'll feel like an ordinary meadow.
+- **Jackson, WY** elected the country's **first all-female town council** in 1920 — Wyoming was already the first state/territory to grant women the vote (1869), decades ahead of the 19th Amendment. Jackson Hole Airport is the only U.S. airport located entirely inside a national park (Grand Teton). The town square's four antler arches use roughly 2,000 elk antlers apiece — each arch weighs somewhere in the 10,000–12,000 lb range on its own — largely resupplied every May at the **only public elk-antler auction in the world**, run by local Boy Scouts using antlers shed on the National Elk Refuge over the winter.
+
+### Compact odds and ends
+
+- **Time zone:** all five sectors and Idaho Falls are Mountain Time; mid-September is still Mountain **Daylight** Time (DST doesn't end until early November).
+- **Licenses:** Idaho, Montana, and Wyoming each require their own non-resident fishing license — there's no interstate reciprocity, so budget for three separate licenses (plus a park permit if you fish the Firehole).
+- **Bear country:** grizzlies are present across this whole ecosystem, not just inside the park boundary — carry bear spray on foot approaches, especially on the Greys River and Teton canyon water, and follow food-storage rules at any campground.
+- **Cell coverage:** patchy to nonexistent in the canyon stretches (Henry's Fork/Cardiac Canyon, Greys River Road, Teton canyon) — download offline maps (onX, Google Maps offline areas) before you leave cell range.
+- **Greys River Road (FS Rd 10138):** unpaved Forest Service road for most of its length; fine in a normal car in dry conditions but can wash out or wash-board after rain — check current Forest Service road status before committing to the drive.
+- **Fire/smoke season:** September can bring regional wildfire smoke that changes both air quality and fishing (overcast-from-smoke can extend a gulper window or kill visibility) — worth a quick smoke-forecast check each morning alongside the weather.
+
 ## Quick confidence box (tie regardless of venue)
 
 | Category | Patterns | Sizes |
