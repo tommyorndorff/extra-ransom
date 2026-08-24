@@ -88,6 +88,41 @@ Warmest, most drought-affected water on this trip; treat as a last resort unless
 
 Standard 9' 5wt covers everything. Add a 6wt or a beefier leader/tippet setup (3x–4x) if leaning into streamer fishing for staging browns on the Fork in the back half of the stay. No lake-specific gear needed on this leg.
 
+## Auxiliary info: shops, towns, and eating
+
+### Fishing-industry figures and shops
+
+- **Frying Pan Anglers** (Basalt) — founded 1986 by Roy Palm on the bank of the Fryingpan; 2026 is its 40th season. One of the oldest full-service shops in the region, with one of the largest fly selections in Colorado (6,000+ patterns) and a weekly Monday river report worth checking before this leg. Ownership passed to Taylor Thackston in 2023.
+- **Taylor Creek Fly Shops** (Basalt) — also on the Fryingpan, marketed as western Colorado's oldest guide service/fly shop (~50 years running).
+- **Cutthroat Anglers** (Silverthorne, on the Blue River) — opened 1999 by the late Trapper Rudd, known locally as "The Clubhouse"; now run by Ben McCormick, carries 100,000+ flies, and has been voted Summit County's best fishing outfitter for a decade running. The obvious stop for current Blue River / Dillon Reservoir intel on Leg 1/3.
+- **Roaring Fork Conservancy** (Basalt, founded 1996) — the watershed's standing advocacy/conservation group, born from a Roaring Fork Club and Town of Basalt partnership; runs water-quality monitoring and fishery studies on the Fryingpan and Roaring Fork specifically — the Henry's Fork Foundation equivalent for this valley.
+- Both the **Fryingpan** and **Roaring Fork** carry Colorado Gold Medal Water designation; the Fryingpan's 14-mile Gold Medal stretch runs from Ruedi Dam (built 1968, the reason the tailwater exists) down to the Basalt confluence.
+- Colorado fly-fishing writer **John Gierach** (based in Lyons, CO, not local to this valley) has written about the Fryingpan among many Colorado waters — worth knowing the name if a guide brings it up, though he's not a Roaring Fork Valley local the way Harrop is to the Henry's Fork.
+
+### Local town notes
+
+- **Frisco** (Leg 1/3 base, on Dillon Reservoir) — founded 1873 as a mining town, nicknamed "Main Street to the Rockies"; Frisco Historic Park & Museum has original 1880s buildings. Hub for six ski resorts within 30 minutes and 55 miles of paved rec path circling the reservoir — good for an off-day bike/walk.
+- **Silverthorne** (adjacent to Frisco, across I-70) — home to Cutthroat Anglers and the Silverthorne outlet malls; the practical grocery/gear/pharmacy stop for the Heaton Bay leg.
+- **Carbondale** (Leg 2 base) — Ute land into the 1880s, then a ranching and coal-mining town (13 saloons at its peak); now a certified Colorado Creative District with 200+ local artists. The Mountain Fair (running since 1971) and the 1899 Coke Ovens along Hwy 133 are the local landmarks. Funky, artsy, unhurried — a contrast to the Aspen glitz just up-valley.
+- **Basalt** (fishing hub for Leg 2, at the Fryingpan/Roaring Fork confluence) — started as a silver-mining-era railroad town; the historic district has well-preserved late-1800s/early-1900s architecture. The Rio Grande Trail (42 mi, Aspen to Glenwood Springs) runs through town, and the Sunday farmers market runs June–September.
+
+### Eating: mid-tier and budget
+
+- **Frisco**
+  - Mid-tier: Tavern West (New American, craft beer); Ollie's Pub & Grub
+  - Budget: Butterhorn Bakery & Cafe (breakfast institution, 40+ years)
+- **Silverthorne**
+  - Mid-tier: Bamboo Garden (Thai/Chinese/sushi, running since 1997); Windy City Pizza & Pub
+  - Budget: Sunshine Cafe (breakfast/lunch); Bluebird Marketplace (food-hall counter service)
+- **Carbondale**
+  - Mid-tier: Izakaya Carbondale; Village Smithy Restaurant
+  - Budget: 502 Diner (burgers); Dos Gringos Burritos; White House Pizza
+- **Basalt**
+  - Mid-tier: The Tipsy Trout (Fryingpan River view); The Brick Pony Pub
+  - Budget: Two Rivers Cafe (diner); CC's Cafe (breakfast/coffee)
+
+> Small-town rosters here turn over as fast as the Yellowstone-circuit towns — confirm hours before counting on any of these, especially off-season.
+
 ## Quick confidence box
 
 | Category | Patterns | Sizes |
