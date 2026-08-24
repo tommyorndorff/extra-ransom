@@ -94,7 +94,7 @@ For the pre-spawn brown window on Hebgen and the Teton:
 
 Flies with real history here that are worth knowing about, even where they're not this trip's top picks.
 
-- **Turck's Tarantula** — [background & recipe](https://www.yellowstoneangler.com/turck-s-tarantula.html) — Jack Dennis–era Jackson Hole attractor, still a solid searching dry on the Greys and Teton canyon water.
+- **Turck's Tarantula** — [background & recipe](https://rangeleyflyshop.com/blogs/fly-of-the-month-maine-fly-shop/75811973-turck-s-tarantula) — Guy Turck's Jackson Hole attractor (a buggier take on the Madam X), still a solid searching dry on the Greys and Teton canyon water.
 - **Improved Sofa Pillow** and **Madam X** — classic regional salmonfly (Pteronarcys) dries, tied for the big June/early-July stonefly hatch on the Madison and Henry's Fork. **Not a September pattern for this trip** — the hatch will be long over; listed here only because guides will bring them up as "the" local fly.
 - **Bitch Creek Nymph** and **Girdle Bug** — [Bitch Creek tying notes](https://www.johnkreft.com/stonefly-fly-patterns/bitch-creek-nymph/) — the classic stonefly-nymph pair for this whole region, woven chenille bodies with rubber legs. **Do not tie or fish the traditional version as-is**: both are conventionally weighted with lead wire under the body, which is (a) illegal added-leader/fly weight under FIPS-Mouche rules and (b) lead tackle is banned outright in Yellowstone-area park waters regardless of format. If you want the profile, re-tie on a tungsten bead or with tungsten underwire instead of lead — same silhouette, competition- and park-legal.
 
