@@ -204,7 +204,7 @@ Beyond Slide Inn and Blue Ribbon Flies (see above), this circuit runs through an
 Small-town rosters turn over fast — confirm hours before relying on any of these. Three tiers per town.
 
 - **Idaho Falls**
-  - Premium: [Sandpiper Restaurant](https://www.sandpiperrestaurant.com/) (steak/seafood, riverfront); Copper Rill (newer, chef-driven)
+  - Premium: [Sandpiper Restaurant](https://www.sandpiperidaho.com/) (steak/seafood, riverfront); Copper Rill (newer, chef-driven)
   - Mid-tier: Idaho Rib and Chophouse; The Celt Pub & Grill
   - Budget: Dixie's Diner (breakfast)
 - **West Yellowstone, MT**
@@ -216,7 +216,7 @@ Small-town rosters turn over fast — confirm hours before relying on any of the
   - Mid-tier: Connie's Restaurant & Saloon (prime rib Fri/Sat); Lakeside Lodge (boat-in option)
   - Budget: The Parlor at Mack's Inn (pizza); Café Sabor (Mexican, at Big Springs)
 - **Jackson, WY**
-  - Premium: [Palate](https://wildlifeart.org/visit/palate-restaurant/) at the National Museum of Wildlife Art (~$100+/person)
+  - Premium: [Palate](https://palatejh.com/) at the National Museum of Wildlife Art (~$100+/person)
   - Mid-tier: Liberty Burger; Snake River Brewing (~$40–80/person)
   - Budget: Pinky G's Pizzeria; The Virginian (~$12 breakfast); Bubba's BBQ (opens 6am)
 
@@ -249,7 +249,7 @@ Same three-tier logic — a splurge/half-day activity, a solid everyday option, 
 
 Small talk / trivia for the truck rides between sectors.
 
-- **Idaho Falls** has the [world's largest lava lamp](https://www.atlasobscura.com/places/idaho-falls-lava-lamp) — 13.5 ft tall, 1,000 lb, downtown. The word "Idaho" itself has no real Native American etymology — it was reportedly just made up and pitched (unsuccessfully) as a territory name before sticking to this one instead.
+- **Idaho Falls** has the world's largest lava lamp — 13.5 ft tall, 1,000 lb, downtown. The word "Idaho" itself has no real Native American etymology — it was reportedly just made up and pitched (unsuccessfully) as a territory name before sticking to this one instead.
 - **West Yellowstone** is a tourist town in the most literal sense: it has roughly 5x more hotel rooms than year-round residents. It also sits on the boundary of Yellowstone's active caldera system, so the "ghost of Truman Everts" story — a lost 1870 expedition member who claimed a spectral guide helped him survive weeks alone near what's now Old Faithful — is a real piece of local park lore, not just a campfire tale.
 - **Island Park** is itself the flat, spring-riddled floor of the **Island Park Caldera**, an 18-by-23-mile supervolcano crater roughly 2.1 million years old — one of the largest well-preserved calderas on Earth, and part of the same Yellowstone hotspot system as the park itself. That eruption is why the valley is so flat and so full of cold springs: the caldera floor is a porous sponge of volcanic ash and rhyolite holding enormous groundwater reserves. **Big Springs** (the true source of the Henry's Fork) discharges roughly 120 million gallons a day at a constant 52°F — which is also why the Warm River sector fishes so consistently. In short: you'll be nymphing inside a supervolcano crater all week and it'll feel like an ordinary meadow.
 - **Jackson, WY** elected the country's **first all-female town council** in 1920 — Wyoming was already the first state/territory to grant women the vote (1869), decades ahead of the 19th Amendment. Jackson Hole Airport is the only U.S. airport located entirely inside a national park (Grand Teton). The town square's four antler arches use roughly 2,000 elk antlers apiece — each arch weighs somewhere in the 10,000–12,000 lb range on its own — largely resupplied every May at the **only public elk-antler auction in the world**, run by local Boy Scouts using antlers shed on the National Elk Refuge over the winter.
