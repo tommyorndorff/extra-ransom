@@ -192,7 +192,25 @@ Beyond the fly patterns noted above, Craig Mathews' conservation footprint is a 
 Beyond Slide Inn and Blue Ribbon Flies (see above), this circuit runs through an unusual concentration of fly-fishing industry history — worth a stop or at least a nod.
 
 - **Simms Fishing Products** — founded 1980 in Jackson, WY by guide John Simms to build better waders; sold to Life-Link, then bought by K.C. Walsh in 1992 and moved to Bozeman, MT, where it pioneered Gore-Tex breathable waders and still manufactures in the US. Not on this exact loop, but its wader/wading-boot lineage traces straight back to Jackson.
-- **TroutHunter** — Last Chance, ID, right on the Henry's Fork; open since 1999, co-founded by local legend **René Harrop**, whose "House of Harrop" flies (over 250 patterns refined on this exact river) are the shop's signature. Also doubles as the lodge/restaurant covered in the Eating section above — one-stop for flies, a room, and dinner.
+- **TroutHunter** — Last Chance, ID, right on the Henry's Fork; open since 1999, co-founded by local legend **René Harrop**, whose "House of Harrop" flies (over 250 patterns refined on this exact river) are the shop's signature. Also doubles as the lodge/restaurant covered in the Eating section above — one-stop for flies, a room, and dinner. See below for more on Harrop specifically.
+
+### René Harrop and the House of Harrop
+
+Harrop is worth a section of his own — he's arguably the single most influential fly designer on the exact water this trip fishes.
+
+- He's tied flies from his home on the Henry's Fork bank since 1968, starting as a boy in the mid-1950s out of economic necessity, and has fished the greater Yellowstone region for five-plus decades. TroutHunter (1999, see above) grew out of that career; the Henry's Fork is described as his "principal test facility" — patterns get proven or scrapped on this specific river before going anywhere else.
+- He's also a conservation figure in his own right: founding president of the **Upper Snake River Fly Fishers** (1972) and a founding member of the **Henry's Fork Foundation** (1984) — the same watershed group already noted above for access maps and advocacy.
+- His signature is CDC (cul de canard) — using the feather's natural buoyancy to build flies that ride low and imitate an insect's actual behavior (half-emerged, stuck in the shuck, drowning) rather than just its shape. That's the technical answer to why Henry's Fork trout, notoriously picky on slow, glassy flat water, will still eat a size-18 fly repeatedly refused if it's tied "wrong."
+- Longtime friend and neighbor **Mike Lawson** (Henry's Fork Anglers, St. Anthony) ran in the same circle and developed the No-Hackle style alongside him — reportedly after Harrop first asked Lawson to tie two dozen No-Hackle Hendricksons for his own use. The two shops' pattern families cross-pollinated for decades on this same stretch of river.
+- He's published two books on the water and its flies: *Trout Hunter* (2004) and *Learning from the Water* (2010, Stackpole) — both go deep on Henry's Fork hatches (midges, caddis, PMDs, Callibaetis, Tricos, Flavs, Baetis) and the patterns built to match them.
+
+**Harrop patterns worth carrying on the Henry's Fork / Warm River sectors:**
+
+- CDC Hairwing Dun / UV2 Trigger Point Hairwing Dun (#16–20) — his template mayfly emerger, adaptable to PMDs, BWOs, and mahogany duns
+- Harrop's Last Chance Cripple (#16–20) — named for Last Chance, ID; a stuck-in-the-shuck cripple pattern for the exact flat water this trip covers
+- CDC Biot Emerger (#16–20)
+- CDC Transitional Midge (#18–22) — designed specifically for Henry's Fork midge activity
+- Harrop CDC caddis patterns (#14–18) — the caddis-side counterpart to Blue Ribbon Flies' X-Caddis, both solving the same Henry's Fork refusal problem from different angles
 - **RIO Products** — headquartered in Idaho Falls since 1997; started in nearby Blackfoot in 1990 by Jim and Kitty Vincent making hand-tied leaders, invented the first purpose-built Spey line (the WindCutter), and every RIO fly line is still made in the Idaho Falls plant, tested a short drive from where the comp is happening. Sold in 2005 to the parent company of Sage/Redington.
 - **Bud Lilly's Trout Shop** — West Yellowstone, opened 1952, the shop widely credited with putting West Yellowstone on the fly-fishing map; Bud Lilly ran it into the 1980s before selling, and the name persisted at the corner of Madison and Canyon until 2020, when it became **Big Sky Anglers**, still trading at the same corner.
 - **Jacklin's Fly Shop** — also West Yellowstone; Bob Jacklin worked for Bud Lilly before opening his own shop in 1974, now the town's oldest continuously owned fly shop and guide service, run by a Fly Fishing Hall of Famer (inducted 2004).
