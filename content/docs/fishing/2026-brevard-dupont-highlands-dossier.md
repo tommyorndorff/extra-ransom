@@ -230,6 +230,66 @@ The "Land of Waterfalls" tag is earned — pair a bluebird afternoon with a driv
 
 > Plateau towns (Cashiers/Highlands) are heavily seasonal — a lot closes or goes limited-hours outside summer/leaf season. Confirm hours before counting on any of these.
 
+## Fly-tying bench: recipes and video
+
+The Southern Appalachian canon rewards tying your own — most of these are homespun regional patterns you won't find pre-binned outside WNC. Below are the ones worth tying before the trip: the regional classics that anchor the fly boxes here, plus the Davidson's two technical-water staples. Each has a hook, the standard recipe, and a video link (all verified live at time of writing). Several of these are folk patterns with no single canonical dressing — where that's the case, the recipe below is one well-documented version, noted as such.
+
+### Yallarhammer
+
+The most storied mountain fly — a swung/drifted wet (also tied as a nymph) whose origin is genuine Appalachian lore, with no verifiable single inventor. Named for the "yellowhammer," the local word for the yellow-shafted flicker whose golden quills were the original wing. That bird is now protected under the Migratory Bird Treaty Act, so its feathers are illegal to use.
+
+- **Hook:** #10–14, 2XL–3XL nymph (e.g. TMC 5262 for the wet version); model is tyer-dependent
+- **Materials:** brown or black thread; golden-pheasant-tippet or yellow-grizzly tail; yellow floss or wool body (weighted with lead-free wire for the nymph); **the wing/hackle is a mourning-dove or bobwhite-quail primary feather dyed golden-yellow** (the legal flicker substitute), soaked, stem split and pith scraped, then palmered forward so the barbs spin in the current
+- **Video:** [Ronnie McKee — "Fly Tying the Yallar Hammer Fly"](https://www.youtube.com/watch?v=N08SPm1WK8I)
+
+### Thunderhead
+
+Fred Hall of Bryson City's high-floating dry — essentially an Adams color scheme given a bushy divided calf-hair wing for buoyancy in bubbly plunge pools. The go-to high-country brook-trout dry.
+
+- **Hook:** standard dry-fly, #12–16
+- **Materials:** gray or black 6/0–8/0 thread; **white calf-tail wing, upright and divided** (Wulff-style); mixed brown + grizzly hackle-fiber tail; medium-gray dubbing body (muskrat / Adams gray); mixed brown-and-grizzly rooster hackle, Adams-style
+- **Video:** [Savage Flies — "Thunderhead Dry Fly"](https://www.youtube.com/watch?v=IBfjqCLkNT0)
+
+### Tellico Nymph
+
+Named for the Tellico River on the Tennessee side of the range — the one homegrown Appalachian nymph that went national. Originator is anonymous; a "Blackburn Tellico" variant is also common.
+
+- **Hook:** 1X–3XL nymph, commonly Tiemco TMC 3761, #12–16, weighted with a wire underbody
+- **Materials:** black 6/0–8/0 thread; brown/ginger/furnace hackle-fiber tail; **bright yellow floss body**; **peacock-herl rib** wound over the body (counter-rib with fine gold wire for durability); ringneck pheasant-tail shellback/wingcase; brown hen hackle collar
+- **Video:** [Mad River Outfitters — "Fly Tying the Tellico Nymph (w/ Ian Rutter)"](https://www.youtube.com/watch?v=HRBfKMr08vc)
+
+### Sheep Fly
+
+The local Brevard classic: created by **Newland Saunders of Lenoir, NC** in the 1950s and made a signature fly by **Don Howell** — championed today by his son **Kevin Howell** at Davidson River Outfitters, the anchor shop for this leg. The recipe is semi-standardized; the gray-body / brown-hackle / grizzly-tip-wing character is consistent across tyers.
+
+- **Hook:** Kevin Howell's version uses a Mustad 79580 (4XL) #8; commonly tied #6–14 on a 2XL nymph hook
+- **Materials:** brown hackle-fiber tail; gray dubbing body (Adams gray / muskrat) palmered with brown hackle; grizzly hackle-tip wings
+- **Video:** [Davidson River Outfitters — "Fly Tying with Kevin Howell: Sheep Fly"](https://www.youtube.com/watch?v=btN2LW3o0AY)
+
+### Green Weenie
+
+The modern outlier — a dead-simple chartreuse inchworm/caddis-larva imitation that's a region-wide confidence fly, especially in summer. (Actually a Pennsylvania invention, credited to Ken Igo and Russ Mowry on Loyalhanna Creek, but long since adopted as WNC's own.) Deliberately a one-material fly.
+
+- **Hook:** standard 1X–2X nymph or curved scud hook, #12–14 (jig-hook/bead versions are common)
+- **Materials:** fluorescent-chartreuse 6/0–8/0 thread; optional gold/brass or chartreuse tungsten bead; **chartreuse Ultra Chenille / vernille** wrapped full-length, with a short burnt or looped tail-tag for the inchworm silhouette. No rib, hackle, or wing.
+- **Video:** [Dark Skies Fly Fishing — "Fly Tying the Green Weenie, With and Without a Tail"](https://www.youtube.com/watch?v=shonq3SBKPA)
+
+### Sulphur Comparadun
+
+For the Davidson's signature late-spring Sulphur hatch (*Ephemerella invaria / dorothea*). The Comparadun — Al Caucci and Bob Nastasi's flush-floating no-hackle dun — is the canonical way to tie it; it's a national style, not a Davidson original, but it's the right tool for that glassy hatch water.
+
+- **Hook:** standard dry-fly, Tiemco TMC 100 / 100SP-BL, #16–18
+- **Materials:** pale-yellow/cream thread; **fine deer-hair wing, stacked and fanned ~180° upright** over the thorax; split hackle-fiber or Microfibbett tails (sulphur/dun); slim pale-yellow/sulphur dry-fly dubbing body (Superfine Sulphur/PMD); **no hackle** (the defining Comparadun feature)
+- **Video:** [Tightline Productions — "Sulphur Comparadun"](https://www.youtube.com/watch?v=Gp4rV1PYPHM)
+
+### WD-40
+
+Mark Engler's emerging-midge/Baetis pattern — a technical-tailwater staple that earns its keep on the Davidson's picky, pellet-conditioned fish. A "loose" pattern: hook and whether you add thorax dubbing vary by tyer.
+
+- **Hook:** short-emerger or standard nymph, #18–22 (Dai-Riki 125 or TMC 2487/2488)
+- **Materials:** light-olive (or gray/brown) 70-denier thread forming a slim tapered abdomen; **one bunch of mallard or wood-duck flank does double duty** — tips left short as the tail, butts pulled forward over the thorax as the wingcase/flared collar (the pattern's signature move); fine dubbing thorax behind the collar
+- **Video:** [Charlie's Fly Box — "WD-40 Fly Tying Instructions by Charlie Craven"](https://www.youtube.com/watch?v=d4NPmDzLCSE)
+
 ## Quick confidence box
 
 | Category | Patterns | Sizes |
