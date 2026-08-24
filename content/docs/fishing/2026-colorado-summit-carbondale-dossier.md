@@ -144,6 +144,66 @@ The Roaring Fork/Crystal River valley sits on a real hot-springs belt — worth 
 
 > Small-town rosters here turn over as fast as the Yellowstone-circuit towns — confirm hours before counting on any of these, especially off-season.
 
+## Fly-tying bench: recipes and video
+
+The tailwater game here (Blue below Dillon, Fryingpan below Ruedi) rewards a handful of small, well-tied confidence flies over a big fly box. These are the ones worth tying yourself before the trip — each with a hook, the standard recipe, and a video link (all verified live at time of writing). Sizes below lean to the small end for the low, clear 2026 water.
+
+### Mayer's Mysis Shrimp
+
+Landon Mayer's flagship mysis imitation — *the* fly for the Blue and the Fryingpan, where mysis shrimp flush through the dams out of the reservoirs above. Tie it translucent to imitate a live shrimp; opaque white imitates a dead one drifting in the current.
+
+- **Hook:** Tiemco TMC 200R, #16–18 (3XL, for the long slim mysis profile); commercial range #14–20
+- **Materials:** white 8/0 thread; pearl flat tinsel/mylar abdomen over the white base, sealed with head cement for translucency; white ostrich-herl thorax/wing; fine clear rubber-leg antennae
+- **Video:** [Trident Fly Fishing — "Mayer's Mysis Fly Pattern"](https://www.youtube.com/watch?v=go1NlrIa6Es)
+
+### Zebra Midge (black / red)
+
+Ted Welling's Lees Ferry midge-pupa staple — the most universal tailwater nymph there is. A "change the thread color" family: tie it black and red, drop a size on the selective Fryingpan flats.
+
+- **Hook:** Tiemco TMC 2487/2488 or Dai-Riki #125 (2X-short curved emerger), #18–22
+- **Materials:** silver tungsten bead (1/16"/2mm for #18–20, 5/64"/1.5mm for #22); black (or red) 70-denier / 8/0 thread forming a slim tapered body; small silver Ultra Wire rib
+- **Video:** [Tightline Productions — "Zebra Midge"](https://www.youtube.com/watch?v=QFAlXG_78Z4)
+
+### Pat Dorsey's Mercury Midge
+
+Pat Dorsey's defining South Platte tailwater pattern, built on his signature silver-lined glass "mercury" bead, which imitates the gas bubble of an emerging pupa. Minimalist — no hackle, wing, or tail.
+
+- **Hook:** Tiemco TMC 2487 (2X-short curved emerger/scud), #20–24
+- **Materials:** extra-small clear silver-lined glass "mercury" bead; cream/white Danville 6/0 (or 8/0) thread forming a tapered translucent abdomen; small/extra-small copper Ultra Wire rib (often reverse-ribbed). A black-thread variant overlaps the Black Beauty look.
+- **Video:** [Tightline Productions — "Mercury Midge"](https://www.youtube.com/watch?v=-_sDmUHduQQ)
+
+### RS2 (Refuse to Sink)
+
+Rim Chung's Colorado classic — fishes as nymph, emerger, or dry. Gray for midges and BWO, olive for BWO; a must on both tailwaters in #20–22.
+
+- **Hook:** Tiemco TMC 101 (or 100/2487 styles), #20–22 (recipe range #16–24)
+- **Materials:** gray (or olive) 8/0 thread; split white Microfibbett tails; thin segmented gray Superfine dubbing abdomen; short emergent post of white Antron yarn (Chung's original used dun saddle-hackle web); gray Superfine thorax
+- **Video:** [Tightline Productions — "RS2"](https://www.youtube.com/watch?v=4-1A656P3wQ)
+
+### Beadhead Flashback Pheasant Tail
+
+The Americanized flashback beadhead lineage of the pheasant tail (peacock thorax, pearl-flash wingcase) — Charlie Craven's canonical tie. General searching nymph that covers mayfly nymphs on every water this trip touches.
+
+- **Hook:** Tiemco TMC 5262 (2XL nymph), #16–20 (recipe range #12–18)
+- **Materials:** rusty-brown 8/0 thread; brass/copper or tungsten bead sized to hook; lead-free wire underweight; ringneck pheasant-tail tail and abdomen; fine copper wire rib (counter-wrapped); pheasant-tail wingcase topped with pearl Flashabou; peacock-herl thorax; wingcase butts folded back for legs
+- **Video:** [Charlie's Fly Box — "Flashback Pheasant Tail"](https://www.youtube.com/watch?v=RJlpaqIZgY0)
+
+### Barr's BWO Emerger
+
+John Barr's Blue-Winged Olive emerger (documented with Charlie Craven in *Barr Flies*) — the go-to for the overcast-day BWO windows on both tailwaters.
+
+- **Hook:** Tiemco TMC 2487 or a 2X-short emerger (Dai-Riki #125), #20–22 (range #18–24)
+- **Materials:** olive or dark-brown 8/0 thread; brown/ginger hen-hackle-fiber tail and trailing shuck; olive-brown Superfine dubbing abdomen; wood-duck flank wingcase and legs; gray or gray-olive Superfine thorax
+- **Video:** [Tightline Productions — "Barr's Emerger BWO"](https://www.youtube.com/watch?v=JmJXuEvogMU)
+
+### Corn-fed Caddis (tan / olive)
+
+Lance Egan's high-floating CDC caddis — the dry to reach for on the caddis-heavy Fryingpan. Tan is the default; tie olive to match darker bugs.
+
+- **Hook:** Tiemco TMC 100 (standard dry-fly), #14–16 (range #12–18)
+- **Materials:** tan (or olive) UTC 70 thread; white/tan Antron trailing shuck; tan (or olive) Superfine dubbing abdomen; natural dun CDC underwing; white poly-yarn overwing (high-float indicator); natural CDC collar/head
+- **Video:** [In the Riffle — "Corn Fed Caddis"](https://www.youtube.com/watch?v=j227YqMxPjU)
+
 ## Quick confidence box
 
 | Category | Patterns | Sizes |
