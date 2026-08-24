@@ -84,6 +84,16 @@ Warmest, most drought-affected water on this trip; treat as a last resort unless
 - Streamers early/late if fishing
 - Hopper-dropper if flows come back up
 
+### Bonus water: Maroon Bells (Maroon Lake / Maroon Creek)
+
+Not part of the core plan, but a worthwhile side trip out of Carbondale (Maroon Bells sits above Aspen, roughly 45 min–1 hr from Carbondale) if you want a high-alpine session alongside the scenery — the Maroon Bells are among the most photographed peaks in the country, so this doubles as the trip's best non-fishing sight.
+
+- **Access requires a reservation.** Private vehicles need a timed parking permit; otherwise it's the RFTA shuttle bus from the Aspen Highlands Welcome Center (~15 min each way). Book ahead at [visitmaroonbells.com](https://www.visitmaroonbells.com/) — walk-up access during the day is not guaranteed in season.
+- **Maroon Lake:** stocked rainbow and brook trout, with native cutthroat also possible. Bank fishing only — wading and boats/float tubes are not allowed in the lake. Standard Colorado license and bag limits apply.
+- **Maroon Creek**, below the lake, is the better dedicated-fishing option if you want to actually work water rather than just sight-cast the lake edge.
+- **Crater Lake** — a 1.8-mile (one-way) hike above Maroon Lake — adds a second, quieter high-alpine lake if you want to turn the visit into a half-day hike-and-fish. Overnight camping past this point (Crater Lake, Four Pass Loop) needs a separate wilderness permit from recreation.gov; day fishing doesn't.
+- Given this is high alpine water (starts around 9,600 ft), expect a short season and cold mornings even in September — pair it with a bluebird-afternoon day rather than dawn patrol.
+
 ### Gear for this leg
 
 Standard 9' 5wt covers everything. Add a 6wt or a beefier leader/tippet setup (3x–4x) if leaning into streamer fishing for staging browns on the Fork in the back half of the stay. No lake-specific gear needed on this leg.
@@ -105,6 +115,17 @@ Standard 9' 5wt covers everything. Add a 6wt or a beefier leader/tippet setup (3
 - **Silverthorne** (adjacent to Frisco, across I-70) — home to Cutthroat Anglers and the Silverthorne outlet malls; the practical grocery/gear/pharmacy stop for the Heaton Bay leg.
 - **Carbondale** (Leg 2 base) — Ute land into the 1880s, then a ranching and coal-mining town (13 saloons at its peak); now a certified Colorado Creative District with 200+ local artists. The Mountain Fair (running since 1971) and the 1899 Coke Ovens along Hwy 133 are the local landmarks. Funky, artsy, unhurried — a contrast to the Aspen glitz just up-valley.
 - **Basalt** (fishing hub for Leg 2, at the Fryingpan/Roaring Fork confluence) — started as a silver-mining-era railroad town; the historic district has well-preserved late-1800s/early-1900s architecture. The Rio Grande Trail (42 mi, Aspen to Glenwood Springs) runs through town, and the Sunday farmers market runs June–September.
+
+### Hot springs: natural and developed
+
+The Roaring Fork/Crystal River valley sits on a real hot-springs belt — worth a soak on a rest day, and a good use of the Crystal River drive even while it's on the closure watch-list for fishing.
+
+- **Penny Hot Springs** (natural, undeveloped) — a free, unpermitted soak right on the Crystal River along Hwy 133, ~3 miles north of Redstone (roughly 30 min from Carbondale). Named for Dan Penny, who ran a small hotel/bathhouse on the rail line here. Natural pools run ~100–106°F with no changing rooms or real facilities — bring a robe/towel and expect a rustic, riverside experience. Can flood out during spring runoff; low-water years like this one make it more reliably soakable.
+- **Avalanche Ranch Cabins & Hot Springs** (natural spring, human-developed pools) — also on the Crystal near Redstone. Three tiered, naturally spring-fed pools (two around 103–105°F, one larger ~88–94°F with a small waterfall) on a 36-acre cabin property. Day-use requires a reservation; closed Wednesdays for cleaning.
+- **Glenwood Hot Springs Pool** (Glenwood Springs, ~40 min from Carbondale) — the big, fully developed option. The Ute called the spring Yampah ("big medicine"); the pool and bathhouse opened in 1888 as a Gilded Age resort and it's billed as one of the largest hot-springs pools in the world — a different experience entirely from Penny/Avalanche, more water park than backcountry soak.
+- **Iron Mountain Hot Springs** (Glenwood Springs, on the Colorado River) — a modern (2015) multi-pool soaking facility built on a site with soaking history back to 1897 (originally the West Glenwood Health Spa). More adult/soaking-focused than the family-pool scene at Glenwood Hot Springs Pool proper.
+
+> If you're already driving Hwy 133 to check Crystal River flows/closure status, Penny or Avalanche Ranch is a 5-minute detour off the same road.
 
 ### Eating: mid-tier and budget
 
