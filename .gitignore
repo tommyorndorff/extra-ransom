@@ -114,3 +114,6 @@ dist
 !.claude/settings.json
 # Python
 __pycache__/
+
+# sf CLI cache
+.sf/
