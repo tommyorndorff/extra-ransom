@@ -26,9 +26,9 @@ All content lives under `content/docs/`. Each `.md` file becomes a page in the s
 hugo new docs/my-page.md
 ```
 
-**New rod build log** (appears under the Projects section):
+**New rod build log** (appears under the Rod Builds section):
 ```bash
-hugo new docs/projects/my-rod.md
+hugo new docs/rod-builds/my-rod.md
 ```
 
 Both commands use `archetypes/default.md` to pre-fill front matter. Key fields:
