@@ -7,6 +7,10 @@ exclude = [
   # peakbamboo.com is offline (connection failures, not a 404) - kept in
   # chopsticks.md alongside its Wayback Machine archive for reference.
   '^https://peakbamboo\.com',
+  # roddna.com serves a TLS cert valid only for wh06.cal.net, so HTTPS
+  # fails cert validation - kept in morgan-hand-mill-manual.md as a named
+  # taper-software reference (the site itself, not our page, is broken).
+  '^https://www\.roddna\.com',
 ]
 
 max_retries = 3

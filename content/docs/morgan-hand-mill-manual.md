@@ -14,8 +14,7 @@ Carlson, Manhattan, MT).
 > **Note.** This page is a **derived, factual digest** — specs, procedures, and
 > the taper-setting model summarized in my own words for reference and education.
 > The manual itself is copyrighted and is **not** reproduced here. Source machine
-> and maker contact: [troutrods.com](https://www.troutrods.com)
-> ([archive](https://web.archive.org/web/2024/https://www.troutrods.com)).
+> and maker contact: [troutrods.com](https://www.troutrods.com).
 >
 > It is the human-readable companion to the caneDNA `mhm_kb.json` knowledge base,
 > which grounds caneDNA's Mill Settings and anvil-position visualizer in the
@@ -264,10 +263,8 @@ No book covers the Hand Mill itself. The manual recommends:
 Tom Morgan runs a private owners' list server (join by email via
 [troutrods.com](https://www.troutrods.com)). Free taper sources with Hand Mill
 station settings (including quads and pentas):
-[RodDNA.com](https://www.roddna.com)
-([archive](https://web.archive.org/web/2024/https://www.roddna.com)) and
-[hexrod.net](https://www.hexrod.net)
-([archive](https://web.archive.org/web/2024/https://www.hexrod.net)).
+[RodDNA.com](https://www.roddna.com) and
+[hexrod.net](https://www.hexrod.net).
 
 ---
 
