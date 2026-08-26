@@ -11,6 +11,10 @@ exclude = [
   # fails cert validation - kept in morgan-hand-mill-manual.md as a named
   # taper-software reference (the site itself, not our page, is broken).
   '^https://www\.roddna\.com',
+  # fneunemann.com returns a 500 Internal Server Error (site-side, not a
+  # 404) - kept in morgan-hand-mill.md alongside its Wayback Machine
+  # archive for historical reference.
+  '^http://www\.fneunemann\.com/',
 ]
 
 max_retries = 3

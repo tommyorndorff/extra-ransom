@@ -196,6 +196,22 @@ John Barr's Blue-Winged Olive emerger (documented with Charlie Craven in *Barr F
 - **Materials:** olive or dark-brown 8/0 thread; brown/ginger hen-hackle-fiber tail and trailing shuck; olive-brown Superfine dubbing abdomen; wood-duck flank wingcase and legs; gray or gray-olive Superfine thorax
 - **Video:** [Tightline Productions — "Barr's Emerger BWO"](https://www.youtube.com/watch?v=JmJXuEvogMU)
 
+### Egan's Frenchie (pink / hot orange hot-spot)
+
+Lance Egan's competition-born jig nymph — basically a pheasant tail on a jig hook with a hot-spot collar, and a fine general-searching pattern for the tailwaters and freestones alike on this trip.
+
+- **Hook:** Firehole 315 or TMC 2499SP-BL (barbless jig hook), #14–18
+- **Materials:** slotted tungsten bead sized to hook (black nickel or copper); tan or brown UTC 70 thread; ringneck pheasant-tail fibers for tail and abdomen; small copper Ultra Wire rib; pink or hot-orange Ice Dub hot-spot collar; peacock herl thorax
+- **Video:** [Fly Fish Food — "Fly Tying Tutorial: Egan's Frenchie"](https://www.youtube.com/watch?v=PMnx_Hz-oG8)
+
+### Tungsten jig nymph staples (Perdigon-style)
+
+Your general jig-nymph slot — slick, sparse, UV-resin-coated bodies that sink fast and ride hook-point-up, good for both tailwater seams and faster freestone pockets. Tie 2–3 color variants rather than one pattern; body color is the only thing that changes.
+
+- **Hook:** barbless jig hook (Firehole 315/318 or Hends BL 454), #14–18
+- **Materials:** slotted tungsten bead (silver, black nickel, or copper); 8/0 thread to match body (olive, brown/UV-red, or pearl/gray for a "euro" attractor); fine holographic tinsel or Ultra Wire rib; 2–3 fibers of coq de leon or similar for a short tail (optional — many Perdigons skip it); thin UV resin coat cured over the abdomen for the signature slick shell; small contrasting thread or dubbing collar as a hot-spot behind the bead
+- **Video:** [Devin Olsen — "Pliva Perdigon Nymph"](https://www.youtube.com/watch?v=D-tuKpwbrX0)
+
 ### Corn-fed Caddis (tan / olive)
 
 Lance Egan's high-floating CDC caddis — the dry to reach for on the caddis-heavy Fryingpan. Tan is the default; tie olive to match darker bugs.
@@ -204,6 +220,64 @@ Lance Egan's high-floating CDC caddis — the dry to reach for on the caddis-hea
 - **Materials:** tan (or olive) UTC 70 thread; white/tan Antron trailing shuck; tan (or olive) Superfine dubbing abdomen; natural dun CDC underwing; white poly-yarn overwing (high-float indicator); natural CDC collar/head
 - **Video:** [In the Riffle — "Corn Fed Caddis"](https://www.youtube.com/watch?v=j227YqMxPjU)
 
+## Fly-tying travel kit: consolidated packing list
+
+Everything below covers all 9 bench patterns. Consolidated by overlap — e.g. one curved-emerger hook style covers three flies, one Superfine dubbing dispenser (if it comes in multi-color wallets) covers four colors. Pack this, not a full bench.
+
+**Hooks (7 sizes/styles total)**
+- TMC 200R, #16–18 — Mysis Shrimp only
+- TMC 2487/2488 (2X-short curved emerger; Dai-Riki #125 is the same niche) — Zebra Midge #18–22, Mercury Midge #20–24, Barr's BWO Emerger #20–22 (covers 3 patterns — buy the widest size range, #18–24, in this one style)
+- TMC 101, #20–22 — RS2
+- TMC 5262 (2XL nymph), #16–20 — Pheasant Tail
+- TMC 100 (standard dry), #14–16 — Corn-fed Caddis
+- Firehole 315 or TMC 2499SP-BL (barbless jig), #14–18 — Frenchie (same hook style also fits the jig Perdigons below — one jig-hook size run covers both)
+- Firehole 315/318 or Hends BL 454 (barbless jig), #14–18 — Perdigon-style jig nymphs
+
+**Beads**
+- Silver tungsten, 1/16" (2mm) and 5/64" (1.5mm) — Zebra Midge
+- Extra-small clear silver-lined glass "mercury" bead — Mercury Midge
+- Brass/copper or tungsten, sized to hook — Pheasant Tail
+- Slotted tungsten (silver, black nickel, copper) — Frenchie and Perdigon jig nymphs (same bead size run covers both; buy slotted, not round, since both are jig-hook ties)
+
+**Thread (9 colors — the one category that won't compress much)**
+- White 8/0 — Mysis Shrimp, RS2 (gray/olive variant not needed if skipping)
+- Black 8/0 and red 8/0 — Zebra Midge
+- Cream/white 6/0 or 8/0 — Mercury Midge
+- Gray 8/0 — RS2 (also doubles for BWO Emerger thorax color if you skip dark-brown)
+- Rusty-brown 8/0 — Pheasant Tail
+- Olive or dark-brown 8/0 — Barr's BWO Emerger
+- Tan UTC 70 — Corn-fed Caddis (olive as a second color only if tying the darker variant); Frenchie reuses this same tan spool
+- Olive/brown/UV-red 8/0 — Perdigon body colors (pick 2 of 3 to stay light; olive spool already in kit for BWO Emerger covers one)
+
+**Dubbing (one multi-color Superfine wallet covers all of this)**
+- Gray Superfine — RS2
+- Olive-brown Superfine — Barr's BWO Emerger
+- Tan (or olive) Superfine — Corn-fed Caddis
+- Peacock herl — Pheasant Tail thorax, Frenchie thorax (same pack covers both)
+
+**Wire/tinsel**
+- Small silver Ultra Wire — Zebra Midge rib
+- Small/extra-small copper Ultra Wire — Mercury Midge rib, Frenchie rib (same spool covers both)
+- Fine copper wire — Pheasant Tail rib
+- Pearl flat tinsel/mylar — Mysis Shrimp abdomen
+- Pearl Flashabou — Pheasant Tail wingcase flash
+- Fine holographic tinsel — Perdigon rib
+- UV resin (thin, brush-on) — Perdigon shell coat only; the one non-thread/wire item to add to the kit
+
+**Natural/synthetic materials (single small pack each)**
+- White ostrich herl + fine clear rubber-leg — Mysis Shrimp
+- Split white Microfibbett + white Antron yarn — RS2
+- Ringneck pheasant tail fibers + lead-free wire underweight — Pheasant Tail, Frenchie tail/abdomen (one pack of pheasant tail fibers covers both)
+- Brown/ginger hen-hackle fiber + wood-duck flank — Barr's BWO Emerger
+- White/tan Antron + natural dun CDC + white poly yarn — Corn-fed Caddis
+- Pink and hot-orange Ice Dub — Frenchie hot-spot collar
+- A few coq de leon (or similar) fibers — optional Perdigon tail; skip entirely if packing light, most Perdigons are tied tailless
+
+**Tools (don't forget)**
+- Bobbin, whip finisher, sharp scissors, hackle pliers, bodkin, head cement (for the Mysis Shrimp's translucent seal), small UV light (to cure the Perdigon resin)
+
+**What to leave home:** skip duplicate thread colors by tying the single-color version of each optional variant (e.g. black-only Zebra Midge, tan-only Corn-fed Caddis, one Perdigon color instead of three) if space is really tight — cuts thread count from 9 spools to 6–7.
+
 ## Quick confidence box
 
 | Category | Patterns | Sizes |
@@ -211,7 +285,8 @@ Lance Egan's high-floating CDC caddis — the dry to reach for on the caddis-hea
 | Tailwater nymphs | Mysis shrimp, Zebra Midge, RS2 | 16–22 |
 | Fall mayfly | BWO dry/emerger, PMD | 16–20 |
 | Attractor/terrestrial | Corn-fed Caddis, Bionic Hopper, Bionic Ant | 8–18 |
-| Nymphs (general) | Pheasant Tail, tungsten split-case | 14–20 |
+| Nymphs (general) | Pheasant Tail, tungsten split-case, Egan's Frenchie | 14–20 |
+| Jig nymphs | Perdigon-style (tungsten jig) | 14–18 |
 | Streamers | Woolly Bugger, leech, small sculpin | 6–10 |
 | Stillwater (Dillon) | Leech, Woolly Bugger, midge pupa | 6–10 |
 
