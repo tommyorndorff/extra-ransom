@@ -48,6 +48,17 @@ Small, roadside/easy-access water for an evening session; expect low, clear, tec
 
 No need for a dedicated lake rod. A 9' 5–6wt with a spare **intermediate or slow-sink line** covers Dillon Reservoir bank/float-tube work; the same 9' 5wt with a floating line handles the Blue and Tenmile. Only worth adding a heavier trolling/lake-specific outfit if you're fishing from a boat with downriggers — a different game from fly fishing.
 
+### Trout spey pickup (optional, this leg)
+
+The Blue's long, even tailwater glides below Dillon Dam are well suited to a trout spey rig for swinging streamers and soft-hackles — worth it if kokanee are staging up from the reservoir or browns are moving.
+
+- **Rod:** Winston Micro Spey, 10'6"–11', 2–3wt — or, leaning custom, C.F. Burkheimer's trout-spey lineup (built to order, similar 10'6"–11' / 2–4wt range).
+- **Reel:** A mid-arbor click-and-pawl or cassette reel sized to balance the rod; Ross Colorado LT (made in Montrose, CO) is a fun in-state pairing.
+- **Line:** RIO Elite Trout Spey floating shooting head with a compact sink-tip kit for depth control, or an OPST Commando Head/Micro Skagit setup for a heavier swing.
+- **Shop:** **Cutthroat Anglers** (Silverthorne) — already the go-to for Blue River intel on this leg; ask to handle demo rods before buying, since trout spey preferences vary a lot by caster and this isn't an impulse purchase.
+
+*(Verify current stock/model years with the shop — spey model lineups change often.)*
+
 ## Leg 2: Carbondale (Roaring Fork valley)
 
 ### Fryingpan River, Basalt (tailwater below Ruedi Reservoir) — anchor fishery
