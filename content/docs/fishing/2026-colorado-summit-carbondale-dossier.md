@@ -6,13 +6,13 @@ weight: 20260825
 
 Trip prep for Sept 7–25, 2026: **Heaton Bay Campground, Frisco (Sept 7–10 and 21–25)**, with **Carbondale (Sept 10–21)** in between. Heaton Bay sits on **Dillon Reservoir** in Summit County — not Lake Granby/Grand Lake, easy to confuse by name.
 
-> **The headline: 2026 is a historic drought year.** Colorado's water-year snowpack ranked 45th of 46 years on record, and as of mid-August exceptional drought — the worst category — is centered on **Pitkin, Eagle, Summit, Lake, and Park counties**, which covers both legs of this trip. Statewide rivers were running ~59% of normal in August. CPW has active **voluntary noon–midnight closures** on the Colorado, Eagle, and Crystal rivers; the Roaring Fork's closure was lifted Aug 19 after cooler temps and increased Ruedi Reservoir releases. September's seasonal outlook leans above-normal temps and below-normal precip, so don't assume normal fall cooling fixes this fast. **Re-check the [CPW weather and drought closures page](https://cpw.state.co.us/fishing) in the days before departure** — it's the one live variable that changes this plan.
+> **The headline: 2026 is a historic drought year.** Colorado's water-year snowpack ranked 45th of 46 years on record, and as of mid-August exceptional drought — the worst category — is centered on **Pitkin, Eagle, Summit, Lake, and Park counties**, which covers both legs of this trip. Statewide rivers were running ~59% of normal in August. CPW has active **full-day voluntary closures** (not just noon–midnight — upgraded from partial-day back in July) on the Colorado, Eagle, and Crystal rivers, in effect since July 17 with no lift date; the Roaring Fork's afternoon-only closure was lifted Aug 20 after cooler temps and increased Ruedi Reservoir releases. September's seasonal outlook leans above-normal temps and below-normal precip, so don't assume normal fall cooling fixes this fast. **Re-check the [CPW weather and drought closures page](https://cpw.state.co.us/fishing) in the days before departure** — it's the one live variable that changes this plan.
 
 ## The adjustment
 
 - Low, clear, technical water almost everywhere except the tailwaters — dawn patrol, long fine leaders, downsized flies.
 - **Tailwaters are the safe bet**: the Blue River (below Dillon Dam) and the Fryingpan River (below Ruedi Reservoir) run cold and clear regardless of the drought, and are largely immune to the closures hitting freestones.
-- **Freestones are the risk**: Crystal, Colorado, and Eagle rivers are under voluntary closure as of late August; treat them as backup water only, and check status before fishing.
+- **Freestones are the risk**: Crystal, Colorado, and Eagle rivers are under **full-day** voluntary closure as of early September; treat them as backup water only, and check status before fishing.
 - Pre-spawn brown trout start staging toward the back half of September — streamer window opens on the Fryingpan and Roaring Fork.
 
 ## Leg 1 & 3: Frisco / Heaton Bay (Dillon Reservoir, Summit County)
@@ -152,7 +152,7 @@ The tailwater game here (Blue below Dillon, Fryingpan below Ruedi) rewards a han
 
 Landon Mayer's flagship mysis imitation — *the* fly for the Blue and the Fryingpan, where mysis shrimp flush through the dams out of the reservoirs above. Tie it translucent to imitate a live shrimp; opaque white imitates a dead one drifting in the current.
 
-- **Hook:** Tiemco TMC 200R, #16–18 (3XL, for the long slim mysis profile); commercial range #14–20
+- **Hook:** Tiemco TMC 200R (3XL, standard wire, straight eye — for the long slim mysis profile), #16–18; commercial range #14–20. Daiichi equivalent: **Daiichi 1270** (3XL, standard wire) — a length/wire match, not a curved-shank match; 200R has a slight curve the 1270 doesn't.
 - **Materials:** white 8/0 thread; pearl flat tinsel/mylar abdomen over the white base, sealed with head cement for translucency; white ostrich-herl thorax/wing; fine clear rubber-leg antennae
 - **Video:** [Trident Fly Fishing — "Mayer's Mysis Fly Pattern"](https://www.youtube.com/watch?v=go1NlrIa6Es)
 
@@ -160,7 +160,7 @@ Landon Mayer's flagship mysis imitation — *the* fly for the Blue and the Fryin
 
 Ted Welling's Lees Ferry midge-pupa staple — the most universal tailwater nymph there is. A "change the thread color" family: tie it black and red, drop a size on the selective Fryingpan flats.
 
-- **Hook:** Tiemco TMC 2487/2488 or Dai-Riki #125 (2X-short curved emerger), #18–22
+- **Hook:** Tiemco TMC 2487/2488 or Dai-Riki #125 (2X-short curved emerger), #18–22. Daiichi equivalent: **Daiichi 1130** (down eye, fine wire, 2X-wide, 2X-short, curved — the classic "scud hook" shape)
 - **Materials:** silver tungsten bead (1/16"/2mm for #18–20, 5/64"/1.5mm for #22); black (or red) 70-denier / 8/0 thread forming a slim tapered body; small silver Ultra Wire rib
 - **Video:** [Tightline Productions — "Zebra Midge"](https://www.youtube.com/watch?v=QFAlXG_78Z4)
 
@@ -168,7 +168,7 @@ Ted Welling's Lees Ferry midge-pupa staple — the most universal tailwater nymp
 
 Pat Dorsey's defining South Platte tailwater pattern, built on his signature silver-lined glass "mercury" bead, which imitates the gas bubble of an emerging pupa. Minimalist — no hackle, wing, or tail.
 
-- **Hook:** Tiemco TMC 2487 (2X-short curved emerger/scud), #20–24
+- **Hook:** Tiemco TMC 2487 (2X-short curved emerger/scud), #20–24. Daiichi equivalent: **Daiichi 1130** (down eye, fine wire, 2X-wide, 2X-short, curved)
 - **Materials:** extra-small clear silver-lined glass "mercury" bead; cream/white Danville 6/0 (or 8/0) thread forming a tapered translucent abdomen; small/extra-small copper Ultra Wire rib (often reverse-ribbed). A black-thread variant overlaps the Black Beauty look.
 - **Video:** [Tightline Productions — "Mercury Midge"](https://www.youtube.com/watch?v=-_sDmUHduQQ)
 
@@ -176,7 +176,7 @@ Pat Dorsey's defining South Platte tailwater pattern, built on his signature sil
 
 Rim Chung's Colorado classic — fishes as nymph, emerger, or dry. Gray for midges and BWO, olive for BWO; a must on both tailwaters in #20–22.
 
-- **Hook:** Tiemco TMC 101 (or 100/2487 styles), #20–22 (recipe range #16–24)
+- **Hook:** Tiemco TMC 101 (wide gape, straight eye, 1X-fine — or 100/2487 styles), #20–22 (recipe range #16–24). Daiichi equivalent: **Daiichi 1110** (wide gape, straight eye, 1X-fine)
 - **Materials:** gray (or olive) 8/0 thread; split white Microfibbett tails; thin segmented gray Superfine dubbing abdomen; short emergent post of white Antron yarn (Chung's original used dun saddle-hackle web); gray Superfine thorax
 - **Video:** [Tightline Productions — "RS2"](https://www.youtube.com/watch?v=4-1A656P3wQ)
 
@@ -184,7 +184,7 @@ Rim Chung's Colorado classic — fishes as nymph, emerger, or dry. Gray for midg
 
 The Americanized flashback beadhead lineage of the pheasant tail (peacock thorax, pearl-flash wingcase) — Charlie Craven's canonical tie. General searching nymph that covers mayfly nymphs on every water this trip touches.
 
-- **Hook:** Tiemco TMC 5262 (2XL nymph), #16–20 (recipe range #12–18)
+- **Hook:** Tiemco TMC 5262 (down eye, 2X-heavy, 2X-long nymph), #16–20 (recipe range #12–18). Daiichi equivalent: **Daiichi 1710** (down eye, 2X-heavy, 2X-long)
 - **Materials:** rusty-brown 8/0 thread; brass/copper or tungsten bead sized to hook; lead-free wire underweight; ringneck pheasant-tail tail and abdomen; fine copper wire rib (counter-wrapped); pheasant-tail wingcase topped with pearl Flashabou; peacock-herl thorax; wingcase butts folded back for legs
 - **Video:** [Charlie's Fly Box — "Flashback Pheasant Tail"](https://www.youtube.com/watch?v=RJlpaqIZgY0)
 
@@ -192,7 +192,7 @@ The Americanized flashback beadhead lineage of the pheasant tail (peacock thorax
 
 John Barr's Blue-Winged Olive emerger (documented with Charlie Craven in *Barr Flies*) — the go-to for the overcast-day BWO windows on both tailwaters.
 
-- **Hook:** Tiemco TMC 2487 or a 2X-short emerger (Dai-Riki #125), #20–22 (range #18–24)
+- **Hook:** Tiemco TMC 2487 or a 2X-short emerger (Dai-Riki #125), #20–22 (range #18–24). Daiichi equivalent: **Daiichi 1130** (down eye, fine wire, 2X-wide, 2X-short, curved)
 - **Materials:** olive or dark-brown 8/0 thread; brown/ginger hen-hackle-fiber tail and trailing shuck; olive-brown Superfine dubbing abdomen; wood-duck flank wingcase and legs; gray or gray-olive Superfine thorax
 - **Video:** [Tightline Productions — "Barr's Emerger BWO"](https://www.youtube.com/watch?v=JmJXuEvogMU)
 
@@ -200,7 +200,7 @@ John Barr's Blue-Winged Olive emerger (documented with Charlie Craven in *Barr F
 
 Lance Egan's competition-born jig nymph — basically a pheasant tail on a jig hook with a hot-spot collar, and a fine general-searching pattern for the tailwaters and freestones alike on this trip.
 
-- **Hook:** Firehole 315 or TMC 2499SP-BL (barbless jig hook), #14–18
+- **Hook:** Firehole 315 or TMC 2499SP-BL (barbless jig hook, standard length, wide gape), #14–18. No confirmed Daiichi cross-reference for this jig style — Daiichi's closest barbless jig options are the **1120** (curved nymph/jig wire) or the newer **1920** series, but match gape/wire specs yourself before buying rather than trusting an equivalence here.
 - **Materials:** slotted tungsten bead sized to hook (black nickel or copper); tan or brown UTC 70 thread; ringneck pheasant-tail fibers for tail and abdomen; small copper Ultra Wire rib; pink or hot-orange Ice Dub hot-spot collar; peacock herl thorax
 - **Video:** [Fly Fish Food — "Fly Tying Tutorial: Egan's Frenchie"](https://www.youtube.com/watch?v=PMnx_Hz-oG8)
 
@@ -208,7 +208,7 @@ Lance Egan's competition-born jig nymph — basically a pheasant tail on a jig h
 
 Your general jig-nymph slot — slick, sparse, UV-resin-coated bodies that sink fast and ride hook-point-up, good for both tailwater seams and faster freestone pockets. Tie 2–3 color variants rather than one pattern; body color is the only thing that changes.
 
-- **Hook:** barbless jig hook (Firehole 315/318 or Hends BL 454), #14–18
+- **Hook:** barbless jig hook (Firehole 315/318 or Hends BL 454), #14–18. Same caveat as the Frenchie above — no confirmed Daiichi jig equivalent; check the 1120/1920 series specs against the hook's actual gape/wire before substituting.
 - **Materials:** slotted tungsten bead (silver, black nickel, or copper); 8/0 thread to match body (olive, brown/UV-red, or pearl/gray for a "euro" attractor); fine holographic tinsel or Ultra Wire rib; 2–3 fibers of coq de leon or similar for a short tail (optional — many Perdigons skip it); thin UV resin coat cured over the abdomen for the signature slick shell; small contrasting thread or dubbing collar as a hot-spot behind the bead
 - **Video:** [Devin Olsen — "Pliva Perdigon Nymph"](https://www.youtube.com/watch?v=D-tuKpwbrX0)
 
@@ -216,9 +216,33 @@ Your general jig-nymph slot — slick, sparse, UV-resin-coated bodies that sink 
 
 Lance Egan's high-floating CDC caddis — the dry to reach for on the caddis-heavy Fryingpan. Tan is the default; tie olive to match darker bugs.
 
-- **Hook:** Tiemco TMC 100 (standard dry-fly), #14–16 (range #12–18)
+- **Hook:** Tiemco TMC 100 (wide gape, down eye, 1X-fine standard dry-fly), #14–16 (range #12–18). Daiichi equivalent: **Daiichi 1100** (wide gape, down eye, 1X-fine)
 - **Materials:** tan (or olive) UTC 70 thread; white/tan Antron trailing shuck; tan (or olive) Superfine dubbing abdomen; natural dun CDC underwing; white poly-yarn overwing (high-float indicator); natural CDC collar/head
 - **Video:** [In the Riffle — "Corn Fed Caddis"](https://www.youtube.com/watch?v=j227YqMxPjU)
+
+## Tie vs. buy: minimize the packing list
+
+With Crystal/Colorado/Eagle now **full-day** closed (not partial), weight this trip even harder toward the two tailwaters. Ranking by real necessity, not just "would be nice to have tied":
+
+**Tie these — core, reused materials, needed in volume:**
+- **Zebra Midge** (black/red) — the single most-fished fly on both tailwaters; #18–22 in bulk.
+- **RS2** (gray/olive) — same story, and shares the TMC 101/thread-and-Superfine kit with other ties.
+- **Beadhead Flashback Pheasant Tail** — general searching nymph, fishes everywhere on the trip, not just tailwaters.
+- **Egan's Frenchie** and the **Perdigon-style jig nymphs** — share hooks, beads, and wire with the Pheasant Tail; tying the shared hardware once covers all three.
+
+These four/five patterns justify hauling thread, beads, and wire because the same spools and packs get reused across multiple flies — the marginal cost of tying one more pattern with kit you already packed is near zero.
+
+**Tie these too — you already own the one exotic material each needs:**
+- **Mercury Midge** — the mercury bead was the only single-use item; you have it, so just add cream/white thread and copper wire (both cheap/shared-adjacent) and tie a batch.
+- **Barr's BWO Emerger** — wood-duck flank was the single-use item; you have it. Add hen-hackle fiber and olive/brown thread.
+- **Corn-fed Caddis** — CDC was the single-use item; you have it. Still need poly yarn and Antron trailing-shuck material, but those are cheap, small, and reusable across other dry patterns if you ever tie more.
+
+**Still buy — single-use material you don't have on hand:**
+- **Mysis Shrimp** — needs white ostrich herl + fine clear rubber-leg antennae, neither owned nor reused elsewhere in this kit. Buying 3–6 tied shrimp for the Blue/Fryingpan is cheaper and lighter than sourcing a herl pack + rubber-leg card for one pattern.
+
+**Skip entirely if packing light:** the Perdigon tail (coq de leon) — most Perdigons are tied tailless anyway, and it's a single-use material for an optional detail.
+
+Net effect: with mercury beads, CDC, and wood duck already in hand, only the Mysis Shrimp is worth buying pre-tied — everything else on the bench is now tie-it-yourself.
 
 ## Fly-tying travel kit: consolidated packing list
 
@@ -226,15 +250,15 @@ Everything below covers all 9 bench patterns. Consolidated by overlap — e.g. o
 
 **Hooks (7 sizes/styles total)**
 
-| ☐ | Hook | Size | Used for |
-|---|------|------|----------|
-| ☐ | TMC 200R | #16–18 | Mysis Shrimp only |
-| ☐ | TMC 2487/2488 (2X-short curved emerger; Dai-Riki #125 same niche) | #18–24 | Zebra Midge, Mercury Midge, Barr's BWO Emerger — covers 3 patterns, buy the widest range in this one style |
-| ☐ | TMC 101 | #20–22 | RS2 |
-| ☐ | TMC 5262 (2XL nymph) | #16–20 | Pheasant Tail |
-| ☐ | TMC 100 (standard dry) | #14–16 | Corn-fed Caddis |
-| ☐ | Firehole 315 or TMC 2499SP-BL (barbless jig) | #14–18 | Frenchie — same hook style also fits the jig Perdigons below, one size run covers both |
-| ☐ | Firehole 315/318 or Hends BL 454 (barbless jig) | #14–18 | Perdigon-style jig nymphs |
+| ☐ | Hook | Daiichi equivalent | Description | Size | Used for |
+|---|------|---------------------|--------------|------|----------|
+| ☐ | TMC 200R | 1270 (length/wire match only — not curved) | 3XL, standard wire, straight eye | #16–18 | Mysis Shrimp only |
+| ☐ | TMC 2487/2488 (Dai-Riki #125 same niche) | 1130 | Down eye, fine wire, 2X-wide, 2X-short, curved ("scud hook" shape) | #18–24 | Zebra Midge, Mercury Midge, Barr's BWO Emerger — covers 3 patterns, buy the widest range in this one style |
+| ☐ | TMC 101 | 1110 | Wide gape, straight eye, 1X-fine | #20–22 | RS2 |
+| ☐ | TMC 5262 | 1710 | Down eye, 2X-heavy, 2X-long nymph | #16–20 | Pheasant Tail |
+| ☐ | TMC 100 | 1100 | Wide gape, down eye, 1X-fine standard dry | #14–16 | Corn-fed Caddis |
+| ☐ | Firehole 315 or TMC 2499SP-BL | No confirmed match — closest is 1120 or the newer 1920 barbless series; verify gape/wire before buying | Barbless jig, standard length, wide gape | #14–18 | Frenchie — same hook style also fits the jig Perdigons below, one size run covers both |
+| ☐ | Firehole 315/318 or Hends BL 454 | Same caveat as above | Barbless jig | #14–18 | Perdigon-style jig nymphs |
 
 **Beads**
 
