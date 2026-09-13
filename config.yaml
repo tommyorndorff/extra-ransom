@@ -29,6 +29,9 @@ menu:
     - name: Fishing
       url: /docs/fishing/
       weight: 35
+    - name: Miscellany
+      url: /docs/miscellany/
+      weight: 37
     - name: GitHub
       url: https://github.com/tommyorndorff/extra-ransom
       weight: 40
