@@ -218,6 +218,7 @@ One real addition: **binoculars, 8x42** — the handheld sweet spot, and dual-us
 - **Oct 4 and Oct 5 mornings — the dolphin slots:** these are the weakest surf mornings (low has drifted off sunrise) and the two strongest marsh-side windows, entirely in daylight. Spend one of them on the boardwalk or the crabbing dock instead of the beach.
 - **Oct 1 evening:** only strong evening window for either objective — low at 6:26p on the beach, 6:39p on the Harbor River, with light until ~7:07p. Fish it or watch it, not both.
 - **Wind contingency:** beach blown out → the marsh side or, if the Harbor River access question above resolves favorably, sheltered water and oyster edges there instead. A blown-out beach is also a fine excuse to go sit on the marsh boardwalk.
+- **Every night, non-negotiable:** hose both reels with fresh water and back the drags off. The Pursuit IV is not a sealed reel — this five-minute habit is the whole reason the cheaper reels are the right call (see the reel note above).
 
 ## Gear checklist
 
@@ -228,15 +229,32 @@ Oct 1–5, 2026 · shore fishing, conventional · neap tides. Organized by *when
 Custom build is off the table (no time). Two-piece for the drive down. Two rods, deliberately **not identical**, so two people can fish the north end at the same time without both being tied to the same rig — one heavy outfit for the bull-red/inlet-seam work, one lighter outfit for trough and pier fishing.
 
 - **Rod A — bull reds, inlet seam (PRIMARY):** Penn Prevail III, 10' Medium-Heavy, 2-piece — 1–5 oz, 15–30 lb. The 9' Medium caps at 3 oz, too light for a 4 oz Sputnik plus a fist-sized mullet chunk, and no 9' MH exists in the Prevail III or Airwave Elite lineups.
-- **Reel A:** Penn Spinfisher VII, 6500 — IPX5 sealed body, spool, and drag; brass main gear. Matched to Rod A for bulls.
+- **Reel A:** Penn Pursuit IV, **6000** — ~$70. Graphite body, HT-100 drag, **20 lb max drag**, 490 yds of 30 lb braid, 5.6:1, 21.4 oz, 5 bearings. Matched to Rod A for bulls. (Penn sizes these 6000/5000 rather than the Spinfisher's 6500/5500 — same class of reel.)
 - **Rod B — whiting/pompano/sheepshead, lighter work:** Penn Prevail III, 9' Medium, 2-piece — 3/4–3 oz, 10–20 lb. This is the same rod family/spec that was previously rejected as a second rod for one person to carry — it's the right call now that it belongs to a second angler instead of doubling one person's load. Doubles as the Hunting Island pier rod.
-- **Reel B:** Penn Spinfisher VII, 5500 — same sealed platform, better balance on the lighter blank.
+- **Reel B:** Penn Pursuit IV, **5000** — ~$70. Same body and drag, 20 lb max, 300 yds of 30 lb braid, 19.7 oz (4 sealed bearings + instant anti-reverse); better balance on the lighter blank.
 - Braid, 30 lb, **two spools** — Power Pro or Suffix 832
 - Two hard rod tubes, if the rods ride on a roof rack or in a truck bed
 
-Fallbacks for Rod/Reel A if the Prevail III 10' MH is out of stock: Tsunami Airwave Elite 10'6" MH, Ugly Stik Bigwater 9' MH (composite, heavier, near-unbreakable), or the Bass Pro house brands (Offshore Angler Breakwater / Ocean Master) on a budget. Fallbacks for Rod/Reel B: Tsunami Airwave Elite 9' M, or an Ugly Stik Bigwater 7' MH sized down.
+Rod fallbacks if the Prevail III 10' MH is out of stock: Tsunami Airwave Elite 10'6" MH, Ugly Stik Bigwater 9' MH (composite, heavier, near-unbreakable), or the Bass Pro house brands (Offshore Angler Breakwater / Ocean Master) on a budget. For Rod B: Tsunami Airwave Elite 9' M, or an Ugly Stik Bigwater 7' MH sized down.
+
+Reel fallbacks if Pursuit IV sizes are out: **Penn Fierce IV 6000/5000** (~$108 each, metal frame — see below), **Okuma Avenger B**, or **Daiwa BG 5000**. **Penn Battle III 6000** (~$145+) is the ceiling worth considering and still well under the Spinfisher.
 
 **Explicitly rejected:** the MHX SU1088F-2 custom build (an exact spec match, but no time before Oct 1 and Mud Hole has reported component stock problems).
+
+> **Why not the Spinfisher VII.** An earlier draft of this list specced the Spinfisher VII 6500 and 5500 — roughly $240 and $226, about **$466 for the pair**. What that premium actually buys is **IPX5 sealing** of the body, spool, and drag. That is the right call for someone in the salt 40+ days a year. At **one or two trips a year** it's insurance you'll never collect on. The Pursuit IV pair lands around **$140** — call it **$326 saved** — and the things it gives up are mostly things this trip doesn't use:
+>
+> - **Drag was never the constraint.** A bull red gets fought at 8–12 lb of drag. The Pursuit IV's 20 lb is still roughly double anything you'd set; the Spinfisher's 30 lb was pure headroom.
+> - **Neither was capacity.** The 6000 carries 490 yds of 30 lb braid — identical to the metal-bodied Fierce IV, and far more than a red is going to take off the reel at the inlet.
+> - **Weight is the least of it here.** 21.4 oz is heavy for a spinning reel, but these sit in sand spikes most of the morning rather than getting cast continuously.
+>
+> **Two real tradeoffs, stated plainly:**
+>
+> 1. **Graphite body, not metal.** This is the actual compromise. A graphite frame flexes under heavy static load in a way a metal one doesn't, and repeated flex is what walks gear alignment out of true. The practical rule that follows: **never crank a buried Sputnik out of the sand with the reel.** Point the rod at it and pull the braid by hand, or break it off — that dead-weight load, not a fish, is what kills budget reels.
+> 2. **It is not a sealed reel.** The "sealed stainless ball bearings" refers to the *bearings*. So the nightly fresh-water rinse stops being optional — it's in the day plan for that reason. That five-minute habit is what the $326 buys back.
+
+**If the metal frame turns out to matter:** **Penn Fierce IV 6000 and 5000**, ~$108 each (~$216 the pair) — full metal body and sideplates, HT-100 carbon-fiber drag, 25 lb max, same 490/30 capacity on the 6000. It's the cheapest metal-bodied reel in the Penn line and the honest step up from here, at roughly $76 more for the pair. Worth it if these reels are going to see more than the one or two trips a year they're being bought for. Either way, do **not** substitute the Penn Wrath II 6000 ($79.99) — it costs *more* than the Pursuit IV and runs 3 bearings to the Pursuit's 5.
+
+Prices are mid-September 2026 street, not list — Penn's own list across the Pursuit IV range runs $84.99–$109.99, so the ~$70 figure assumes a normal retailer discount. Re-check before ordering, and buy the pair from one retailer to save on shipping.
 
 ### Buy before leaving — terminal tackle
 
@@ -286,9 +304,9 @@ Links are Amazon search results, not a single guessed product page — pick the 
 | Item | Qty | Link |
 |---|---|---|
 | Penn Prevail III 10' MH, 2-pc (Rod A) | 1 | [Amazon search](https://www.amazon.com/s?k=Penn+Prevail+III+10ft+Medium+Heavy+2-piece+surf+rod) |
-| Penn Spinfisher VII 6500 (Reel A) | 1 | [Amazon search](https://www.amazon.com/s?k=Penn+Spinfisher+VII+6500) |
+| Penn Pursuit IV 6000 (Reel A) | 1 | [Amazon search](https://www.amazon.com/s?k=Penn+Pursuit+IV+6000+spinning+reel) |
 | Penn Prevail III 9' M, 2-pc (Rod B) | 1 | [Amazon search](https://www.amazon.com/s?k=Penn+Prevail+III+9ft+Medium+2-piece+surf+rod) |
-| Penn Spinfisher VII 5500 (Reel B) | 1 | [Amazon search](https://www.amazon.com/s?k=Penn+Spinfisher+VII+5500) |
+| Penn Pursuit IV 5000 (Reel B) | 1 | [Amazon search](https://www.amazon.com/s?k=Penn+Pursuit+IV+5000+spinning+reel) |
 | Power Pro or Suffix 832 braid, 30 lb | 2 spools | [Amazon search](https://www.amazon.com/s?k=Power+Pro+braid+30lb+surf) |
 | Hard rod tube | 2 | [Amazon search](https://www.amazon.com/s?k=hard+fishing+rod+tube+travel+case) |
 
