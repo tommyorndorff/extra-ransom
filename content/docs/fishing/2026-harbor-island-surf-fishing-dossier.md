@@ -115,7 +115,7 @@ Source: [SC DNR crustacean/shellfish regulations, via eRegulations](https://www.
 ## Day plan
 
 - **Day 1, dead low:** walk the north end with no gear — map troughs, cuts, and bar edges. Polarized sunglasses, wading shoes, water, phone. Worth more than any tackle decision made in advance. Crab off the dock that afternoon.
-- **Each morning, low near sunrise (strongest Oct 1–3):** north-end point, big rod, cut mullet in the current seam.
+- **Each morning, low near sunrise (strongest Oct 1–3):** north-end point, both anglers — Rod A working cut mullet in the current seam, Rod B working the trough with shrimp/FishBites for whiting and pompano.
 - **One session:** Hunting Island — pier for guaranteed variety, plus a look at Boneyard Beach.
 - **Wind contingency:** beach blown out → the marsh side or, if the Harbor River access question above resolves favorably, sheltered water and oyster edges there instead.
 
@@ -123,18 +123,20 @@ Source: [SC DNR crustacean/shellfish regulations, via eRegulations](https://www.
 
 Oct 1–5, 2026 · shore fishing, conventional · neap tides. Organized by *when you need to act*: buy before leaving → pack → buy on the way in → do before you go.
 
-### Buy before leaving — rod, reel, line
+### Buy before leaving — rod, reel, line (two anglers, two different outfits)
 
-Custom build is off the table (no time). Two-piece for the drive down.
+Custom build is off the table (no time). Two-piece for the drive down. Two rods, deliberately **not identical**, so two people can fish the north end at the same time without both being tied to the same rig — one heavy outfit for the bull-red/inlet-seam work, one lighter outfit for trough and pier fishing.
 
-- **Rod:** Penn Prevail III, 10' Medium-Heavy, 2-piece — 1–5 oz, 15–30 lb. The 9' Medium caps at 3 oz, too light for a 4 oz Sputnik plus a fist-sized mullet chunk, and no 9' MH exists in the Prevail III or Airwave Elite lineups.
-- **Reel:** Penn Spinfisher VII, 5500 or 6500 — IPX5 sealed body, spool, and drag. Battle IV and Daiwa BG aren't sealed; Spinfisher's brass main gear starts at 6500 (aluminum below that). 6500 for bulls, 5500 for better balance. Slammer IV (IPX6 + Dura-Drag) only if "zero maintenance" is the real goal.
-- Braid, 30 lb — Power Pro or Suffix 832
-- Hard rod tube, if the rod rides on a roof rack or in a truck bed
+- **Rod A — bull reds, inlet seam (PRIMARY):** Penn Prevail III, 10' Medium-Heavy, 2-piece — 1–5 oz, 15–30 lb. The 9' Medium caps at 3 oz, too light for a 4 oz Sputnik plus a fist-sized mullet chunk, and no 9' MH exists in the Prevail III or Airwave Elite lineups.
+- **Reel A:** Penn Spinfisher VII, 6500 — IPX5 sealed body, spool, and drag; brass main gear. Matched to Rod A for bulls.
+- **Rod B — whiting/pompano/sheepshead, lighter work:** Penn Prevail III, 9' Medium, 2-piece — 3/4–3 oz, 10–20 lb. This is the same rod family/spec that was previously rejected as a second rod for one person to carry — it's the right call now that it belongs to a second angler instead of doubling one person's load. Doubles as the Hunting Island pier rod.
+- **Reel B:** Penn Spinfisher VII, 5500 — same sealed platform, better balance on the lighter blank.
+- Braid, 30 lb, **two spools** — Power Pro or Suffix 832
+- Two hard rod tubes, if the rods ride on a roof rack or in a truck bed
 
-Fallbacks if the Prevail III 10' MH is out of stock: Tsunami Airwave Elite 10'6" MH, Ugly Stik Bigwater 9' MH (composite, heavier, near-unbreakable), or the Bass Pro house brands (Offshore Angler Breakwater / Ocean Master) on a budget.
+Fallbacks for Rod/Reel A if the Prevail III 10' MH is out of stock: Tsunami Airwave Elite 10'6" MH, Ugly Stik Bigwater 9' MH (composite, heavier, near-unbreakable), or the Bass Pro house brands (Offshore Angler Breakwater / Ocean Master) on a budget. Fallbacks for Rod/Reel B: Tsunami Airwave Elite 9' M, or an Ugly Stik Bigwater 7' MH sized down.
 
-**Explicitly rejected:** the MHX SU1088F-2 custom build (an exact spec match, but no time before Oct 1 and Mud Hole has reported component stock problems); the two-combo plan of a 10'6" MH plus a light 7'/3000 for pompano (more to carry on the walk to the north end — revisit the light rod only for dedicated pompano work on a future trip).
+**Explicitly rejected:** the MHX SU1088F-2 custom build (an exact spec match, but no time before Oct 1 and Mud Hole has reported component stock problems).
 
 ### Buy before leaving — terminal tackle
 
@@ -174,6 +176,70 @@ Nothing is available on Harbor Island itself — buy on St. Helena Island or in 
 ### Day-one carry (north end, dead-low recon)
 
 Deliberately minimal — the recon walk is worth more than any tackle decision: polarized sunglasses, wading shoes, water, phone for marking troughs, cuts, and seams. No rods.
+
+## Purchase list
+
+Links are Amazon search results, not a single guessed product page — pick the in-stock listing that matches the spec, since exact SKUs come and go. Two of each rod/reel/braid line for the two-angler setup; terminal tackle and tools follow the "buy ~3x" note above.
+
+### Rod, reel, line
+
+| Item | Qty | Link |
+|---|---|---|
+| Penn Prevail III 10' MH, 2-pc (Rod A) | 1 | [Amazon search](https://www.amazon.com/s?k=Penn+Prevail+III+10ft+Medium+Heavy+2-piece+surf+rod) |
+| Penn Spinfisher VII 6500 (Reel A) | 1 | [Amazon search](https://www.amazon.com/s?k=Penn+Spinfisher+VII+6500) |
+| Penn Prevail III 9' M, 2-pc (Rod B) | 1 | [Amazon search](https://www.amazon.com/s?k=Penn+Prevail+III+9ft+Medium+2-piece+surf+rod) |
+| Penn Spinfisher VII 5500 (Reel B) | 1 | [Amazon search](https://www.amazon.com/s?k=Penn+Spinfisher+VII+5500) |
+| Power Pro or Suffix 832 braid, 30 lb | 2 spools | [Amazon search](https://www.amazon.com/s?k=Power+Pro+braid+30lb+surf) |
+| Hard rod tube | 2 | [Amazon search](https://www.amazon.com/s?k=hard+fishing+rod+tube+travel+case) |
+
+### Terminal tackle
+
+| Item | Link |
+|---|---|
+| Fluorocarbon leader, 20/30/50 lb | [Amazon search](https://www.amazon.com/s?k=fluorocarbon+leader+line+20+30+50lb) |
+| Mono, 50 lb | [Amazon search](https://www.amazon.com/s?k=monofilament+fishing+line+50lb) |
+| Circle hooks, non-offset non-stainless, 6/0–8/0 | [Amazon search](https://www.amazon.com/s?k=non-offset+circle+hooks+6%2F0+8%2F0+red+drum) |
+| Circle hooks, non-offset non-stainless, 2/0–3/0 | [Amazon search](https://www.amazon.com/s?k=non-offset+circle+hooks+2%2F0+3%2F0) |
+| Circle hooks, non-offset non-stainless, #1–1/0 | [Amazon search](https://www.amazon.com/s?k=non-offset+circle+hooks+size+1+1%2F0) |
+| Sputnik sinkers, 3 oz & 4 oz | [Amazon search](https://www.amazon.com/s?k=sputnik+sinkers+surf+fishing+3oz+4oz) |
+| Pyramid sinkers, 3 oz | [Amazon search](https://www.amazon.com/s?k=pyramid+sinkers+3oz) |
+| Egg sinkers, 1/2–2 oz | [Amazon search](https://www.amazon.com/s?k=egg+sinkers+assortment+1%2F2oz+2oz) |
+| Split shot assortment | [Amazon search](https://www.amazon.com/s?k=split+shot+sinker+assortment) |
+| Pre-tied two-hook pompano rigs (6+) | [Amazon search](https://www.amazon.com/s?k=pompano+rig+pre-tied+two+hook) |
+| Sinker sliders, beads, barrel swivels | [Amazon search](https://www.amazon.com/s?k=fishing+sinker+slider+bead+barrel+swivel+kit) |
+| Jigheads, 1/8 & 1/4 oz | [Amazon search](https://www.amazon.com/s?k=jig+heads+1%2F8+oz+1%2F4+oz) |
+| Popping corks (Cajun Thunder style) | [Amazon search](https://www.amazon.com/s?k=cajun+thunder+popping+cork) |
+| Gulp shrimp, new penny | [Amazon search](https://www.amazon.com/s?k=gulp+shrimp+new+penny) |
+
+### Tools
+
+| Item | Qty | Link |
+|---|---|---|
+| Sand spikes | 2 | [Amazon search](https://www.amazon.com/s?k=surf+fishing+sand+spike+rod+holder) |
+| Long-nose pliers | 1 | [Amazon search](https://www.amazon.com/s?k=fishing+long+nose+pliers) |
+| Dehooker | 1 | [Amazon search](https://www.amazon.com/s?k=fish+dehooker+tool) |
+| Braid scissors / line clippers | 1 | [Amazon search](https://www.amazon.com/s?k=braid+fishing+line+scissors+clippers) |
+| Fish grippers | 1 | [Amazon search](https://www.amazon.com/s?k=fish+lip+gripper) |
+| Bump board or tape measure | 1 | [Amazon search](https://www.amazon.com/s?k=fish+bump+board+measuring) |
+| Tackle backpack or 5-gal bucket w/ lid seat | 1 | [Amazon search](https://www.amazon.com/s?k=tackle+backpack+surf+fishing) |
+| Headlamp, red mode | 1 | [Amazon search](https://www.amazon.com/s?k=headlamp+red+light+mode) |
+| Collapsible crab trap or hand lines | 1 | [Amazon search](https://www.amazon.com/s?k=collapsible+blue+crab+trap) |
+| Small cooler + ice | 1 | [Amazon search](https://www.amazon.com/s?k=small+cooler+fishing) |
+| Flow-through / aerated bait bucket | 1 | [Amazon search](https://www.amazon.com/s?k=aerated+bait+bucket+minnow) |
+
+### Clothing and comfort
+
+| Item | Link |
+|---|---|
+| Polarized sunglasses | [Amazon search](https://www.amazon.com/s?k=polarized+fishing+sunglasses) |
+| Long-sleeve sun shirt | [Amazon search](https://www.amazon.com/s?k=long+sleeve+fishing+sun+shirt+UPF) |
+| Wide-brim hat | [Amazon search](https://www.amazon.com/s?k=wide+brim+fishing+hat) |
+| High-SPF sunscreen | [Amazon search](https://www.amazon.com/s?k=high+spf+sunscreen) |
+| Quick-dry pants/shorts | [Amazon search](https://www.amazon.com/s?k=quick+dry+fishing+pants) |
+| Wading shoes | [Amazon search](https://www.amazon.com/s?k=wading+shoes+surf+fishing) |
+| Picaridin or DEET insect repellent | [Amazon search](https://www.amazon.com/s?k=picaridin+insect+repellent) |
+| Light rain shell | [Amazon search](https://www.amazon.com/s?k=packable+rain+jacket) |
+| Dry bag/case for phone | [Amazon search](https://www.amazon.com/s?k=waterproof+phone+dry+bag) |
 
 ## Maps
 
