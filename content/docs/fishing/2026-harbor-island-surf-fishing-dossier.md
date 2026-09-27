@@ -165,7 +165,7 @@ Prices are mid-September 2026 street, not list — Penn's own list across the (n
 
 Buy ~3x what seems reasonable — inlet current and oyster bottom eat tackle.
 
-- Fluorocarbon leader: 20 lb, 30 lb, 50 lb (bulls and toothy fish)
+- Fluorocarbon leader: **20 lb** (Rod B — whiting/pompano/sheepshead finesse work) and **50 lb** (Rod A — bulls, oyster abrasion, incidental toothy fish). Dropped the 30 lb tier — it sits right on top of the 30 lb braid mainline on both rods and doesn't buy meaningfully more abrasion resistance or shock absorption than the running line itself.
 - Mono 50 lb, for fishfinder rig components
 - Hooks — **non-offset, non-stainless circle only**, required by law with natural bait at 4/0+ (see the red drum rule above). Consolidated to two sizes so you're not carrying three boxes: **6/0** for bull reds and drum/slot reds (slightly oversized for the low end of the slot-red range, but workable with a smaller cut-bait chunk), **1/0** for whiting/pompano/sheepshead (top of that range — trades a little finesse on the smallest bites for one less size to stock).
 - Sputnik sinkers, 3 oz and 4 oz — wire legs grip and release; the 10' MH handles both. 4 oz for the inlet seam, 3 oz for the beach — and with this trip landing near neap, 3 oz will usually hold on its own.
@@ -218,7 +218,8 @@ Links are Amazon search results, not a single guessed product page — pick the 
 
 | Item | Link |
 |---|---|
-| Fluorocarbon leader, 20/30/50 lb | [Amazon search](https://www.amazon.com/s?k=fluorocarbon+leader+line+20+30+50lb) |
+| Fluorocarbon leader, 20 lb (Rod B) | [Amazon search](https://www.amazon.com/s?k=fluorocarbon+leader+line+20lb) |
+| Fluorocarbon leader, 50 lb (Rod A) | [Amazon search](https://www.amazon.com/s?k=fluorocarbon+leader+line+50lb) |
 | Mono, 50 lb | [Amazon search](https://www.amazon.com/s?k=monofilament+fishing+line+50lb) |
 | Circle hooks, non-offset non-stainless, 6/0 (bull reds + drum/slot reds) | [Amazon search](https://www.amazon.com/s?k=non-offset+circle+hooks+6%2F0+red+drum) |
 | Circle hooks, non-offset non-stainless, 1/0 (whiting/pompano/sheepshead) | [Amazon search](https://www.amazon.com/s?k=non-offset+circle+hooks+size+1%2F0) |
