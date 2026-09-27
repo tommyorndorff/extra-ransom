@@ -85,7 +85,7 @@ Realistic table fare from this whole trip, not just the north end: whiting, croa
 **The pier.** 950 ft into Fripp Inlet on Hunting Island's south end near the lighthouse, ~28 ft of water at the end. Rebuilt/reopened September 2021 after Hurricane Matthew damage — currently in good condition as of 2026, no known outstanding closures.
 
 - **License:** none needed — the park's commercial license covers all pier anglers, the one exemption to the saltwater license requirement on this whole trip.
-- **Species:** redfish, speckled trout, flounder, sheepshead (work it vertically on the pilings), black drum.
+- **Species:** redfish, speckled trout, flounder, black drum. (Sheepshead are around the pilings here too, but working them vertically is a different rig/bait than what's packed for this trip — see the rigging note below — so treat any sheepshead as incidental, not a target.)
 - **Park hours:** 6am–6pm (extended to 9pm during Daylight Saving Time — still in effect Oct 1–5).
 - **Entrance fee:** confirmed via the [official park FAQ](https://southcarolinaparks.com/hunting-island/faqs) as **$8/adult** (16+); gate opens 6am.
 - Contact: 843-838-2011, [southcarolinaparks.com/hunting-island](https://southcarolinaparks.com/hunting-island).
@@ -125,6 +125,34 @@ Source: [SC DNR crustacean/shellfish regulations, via eRegulations](https://www.
 - **Wind contingency:** beach blown out → the marsh side or, if the Harbor River access question above resolves favorably, sheltered water and oyster edges there instead.
 - **Every night, non-negotiable:** hose both reels with fresh water and back the drags off. The Pursuit V is not a sealed reel — this five-minute habit is the whole reason the cheaper reels are the right call (see the reel note above).
 
+## Rigging
+
+Two rigs cover the whole trip — one per rod. (A third option, working sheepshead vertically on the Hunting Island pier pilings with split shot, is skipped this trip — the gear list below doesn't carry split shot as a result.)
+
+**Rod A — fish-finder rig (bull reds, inlet seam):**
+
+1. Mainline (30 lb braid) threads through a plastic sinker slider, which rides free on the line.
+2. Clip a Sputnik sinker (3 oz beach / 4 oz inlet seam) onto the slider.
+3. Tie a barrel swivel onto the mainline below the slider — this stops the slider from sliding off and is your connection point.
+4. Tie the 50 lb fluoro leader (12–24") to the swivel, then a 6/0 non-offset circle hook to the leader.
+5. Bait with cut mullet or shrimp.
+
+The sinker rides free on the slider so a red can pick up the bait and start swimming before feeling any weight; the circle hook self-sets once the line comes tight against the swivel. The Sputnik's wire legs hold in the inlet current but release cleanly on the retrieve.
+
+**Rod B — Carolina rig (whiting/pompano, surf trough and dock):**
+
+1. Mainline (30 lb braid) threads through an egg sinker (1/2–2 oz), which rides free on the line.
+2. Add a bead below the egg sinker — this protects your knot from the sliding sinker.
+3. Tie a barrel swivel onto the mainline below the bead.
+4. Tie the 20 lb fluoro leader to the swivel, then a 1/0 non-offset circle hook to the leader.
+5. Bait with shrimp, FishBites, or sand fleas/mole crabs.
+
+Same free-sliding principle as the fish-finder rig, just lighter and simpler — the right build for calmer trough or dock water rather than inlet current.
+
+**Artificial option (either rod, when bait isn't producing):** tie the leader straight to a jighead (1/8, 1/6, or 1/4 oz), thread on a Gulp Shrimp (New Penny, with Nuclear Chicken as a stained-water backup), and drag it slowly along the bottom. No slider, swivel, or separate sinker needed — the jighead is the terminal tackle. On the marsh side, this same jig-and-Gulp combo also works suspended under a popping cork (Cajun Thunder) instead of dragged: cork on the mainline, 18–24" leader below it to the jig, twitch the rod to pop the cork and draw fish in off the grass edges.
+
+Barrel swivels and sinker sliders/beads show up in both rig builds — they're the shared hardware that lets the Sputnik and egg sinkers ride free without chewing through your knot.
+
 ## Gear checklist
 
 Oct 1–5, 2026 · shore fishing, conventional · neap tides. Organized by *when you need to act*: buy before leaving → pack → buy on the way in → do before you go.
@@ -135,7 +163,7 @@ Custom build is off the table (no time). Two-piece for the drive down. Two rods,
 
 - **Rod A — bull reds, inlet seam (PRIMARY):** Penn Prevail III, 10' Medium-Heavy, 2-piece — 1–5 oz, 15–30 lb. The 9' Medium caps at 3 oz, too light for a 4 oz Sputnik plus a fist-sized mullet chunk, and no 9' MH exists in the Prevail III or Airwave Elite lineups.
 - **Reel A:** Penn Pursuit V, **6000** — ~$70. Graphite body, HT-100 drag, **20 lb max drag**, 490 yds of 30 lb braid, 5.6:1, 5 bearings. Matched to Rod A for bulls. (Penn sizes these 6000/5000 rather than the Spinfisher's 6500/5500 — same class of reel.) The V replaced the IV in Penn's lineup with the same core specs — treat this as a straight substitution, not an upgrade decision.
-- **Rod B — whiting/pompano/sheepshead, lighter work:** Penn Prevail III, 8' Medium, 2-piece — 3/4–3 oz, 12–20 lb. Same lure-weight ceiling as the 9' M (shorter length just costs some casting distance/leverage, no downside for this role), and the shorter length is easier to manage on the pier and around the crabbing dock. Doubles as the Hunting Island pier rod.
+- **Rod B — whiting/pompano, lighter work:** Penn Prevail III, 8' Medium, 2-piece — 3/4–3 oz, 12–20 lb. Same lure-weight ceiling as the 9' M (shorter length just costs some casting distance/leverage, no downside for this role), and the shorter length is easier to manage on the pier and around the crabbing dock. Doubles as the Hunting Island pier rod.
 - **Reel B:** Penn Pursuit V, **5000** — ~$70. Same body and drag, 20 lb max, 300 yds of 30 lb braid, 5 bearings; better balance on the lighter blank.
 - Braid, 30 lb, **two spools** — Power Pro or Suffix 832
 - Two hard rod tubes, if the rods ride on a roof rack or in a truck bed
@@ -165,11 +193,11 @@ Prices are mid-September 2026 street, not list — Penn's own list across the (n
 
 Buy ~3x what seems reasonable — inlet current and oyster bottom eat tackle.
 
-- Fluorocarbon leader: **20 lb** (Rod B — whiting/pompano/sheepshead finesse work) and **50 lb** (Rod A — bulls, oyster abrasion, incidental toothy fish). Dropped the 30 lb tier — it sits right on top of the 30 lb braid mainline on both rods and doesn't buy meaningfully more abrasion resistance or shock absorption than the running line itself.
+- Fluorocarbon leader: **20 lb** (Rod B — whiting/pompano finesse work) and **50 lb** (Rod A — bulls, oyster abrasion, incidental toothy fish). Dropped the 30 lb tier — it sits right on top of the 30 lb braid mainline on both rods and doesn't buy meaningfully more abrasion resistance or shock absorption than the running line itself.
 - Mono 50 lb, for fishfinder rig components
-- Hooks — **non-offset, non-stainless circle only**, required by law with natural bait at 4/0+ (see the red drum rule above). Consolidated to two sizes so you're not carrying three boxes: **6/0** for bull reds and drum/slot reds (slightly oversized for the low end of the slot-red range, but workable with a smaller cut-bait chunk), **1/0** for whiting/pompano/sheepshead (top of that range — trades a little finesse on the smallest bites for one less size to stock).
+- Hooks — **non-offset, non-stainless circle only**, required by law with natural bait at 4/0+ (see the red drum rule above). Consolidated to two sizes so you're not carrying three boxes: **6/0** for bull reds and drum/slot reds (slightly oversized for the low end of the slot-red range, but workable with a smaller cut-bait chunk), **1/0** for whiting/pompano (top of that range — trades a little finesse on the smallest bites for one less size to stock).
 - Sputnik sinkers, 3 oz and 4 oz — wire legs grip and release; the 10' MH handles both. 4 oz for the inlet seam, 3 oz for the beach — and with this trip landing near neap, 3 oz will usually hold on its own.
-- Pyramid sinkers, 3 oz (backup); egg sinkers, 1/2–2 oz (Carolina rigs on the dock); split shot (vertical sheepshead on the pier pilings)
+- Pyramid sinkers, 3 oz (backup); egg sinkers, 1/2–2 oz (Carolina rigs on the dock)
 - Pre-tied two-hook pompano rigs (6+) — cheaper than components
 - Plastic sinker sliders, beads, barrel swivels; jigheads, 1/8 and 1/4 oz
 - Popping corks (Cajun Thunder style) for the marsh side; Gulp shrimp, new penny
@@ -184,7 +212,7 @@ Sand spikes (2), long-nose pliers, dehooker, braid scissors/line clippers, fish 
 
 ### Buy on the way in — bait
 
-Nothing is available on Harbor Island itself — buy on St. Helena Island or in Beaufort: fresh or frozen shrimp (the universal bait here); cut mullet (bulls and sharks — fresh substantially outperforms frozen); mud minnows (flounder and reds); FishBites, sand-flea flavor (won't spoil — whiting and pompano); chicken necks from a grocery store (crabbing); fiddler crabs if available (sheepshead off the Hunting Island pier).
+Nothing is available on Harbor Island itself — buy on St. Helena Island or in Beaufort: fresh or frozen shrimp (the universal bait here); cut mullet (bulls and sharks — fresh substantially outperforms frozen); mud minnows (flounder and reds); FishBites, sand-flea flavor (won't spoil — whiting and pompano); chicken necks from a grocery store (crabbing).
 
 ### Before you go — admin
 
@@ -222,7 +250,7 @@ Links are Amazon search results, not a single guessed product page — pick the 
 | Fluorocarbon leader, 50 lb (Rod A) | [Amazon search](https://www.amazon.com/s?k=fluorocarbon+leader+line+50lb) |
 | Mono, 50 lb | [Amazon search](https://www.amazon.com/s?k=monofilament+fishing+line+50lb) |
 | Circle hooks, non-offset non-stainless, 6/0 (bull reds + drum/slot reds) | [Amazon search](https://www.amazon.com/s?k=non-offset+circle+hooks+6%2F0+red+drum) |
-| Circle hooks, non-offset non-stainless, 1/0 (whiting/pompano/sheepshead) | [Amazon search](https://www.amazon.com/s?k=non-offset+circle+hooks+size+1%2F0) |
+| Circle hooks, non-offset non-stainless, 1/0 (whiting/pompano) | [Amazon search](https://www.amazon.com/s?k=non-offset+circle+hooks+size+1%2F0) |
 | Sputnik sinkers, 3 oz & 4 oz | [Amazon search](https://www.amazon.com/s?k=sputnik+sinkers+surf+fishing+3oz+4oz) |
 | Pyramid sinkers, 3 oz | [Amazon search](https://www.amazon.com/s?k=pyramid+sinkers+3oz) |
 | Egg sinkers, 1/2–2 oz | [Amazon search](https://www.amazon.com/s?k=egg+sinkers+assortment+1%2F2oz+2oz) |
