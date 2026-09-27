@@ -123,7 +123,7 @@ Source: [SC DNR crustacean/shellfish regulations, via eRegulations](https://www.
 - **One session:** Hunting Island — pier for guaranteed variety, plus a look at Boneyard Beach.
 - **Oct 4 and Oct 5 mornings:** these are the weakest surf mornings of the trip (low has drifted off sunrise by then) — see the dolphin dossier, since this is exactly when the marsh-side dolphin windows peak. Good mornings to swap the beach for the boardwalk or the crabbing dock.
 - **Wind contingency:** beach blown out → the marsh side or, if the Harbor River access question above resolves favorably, sheltered water and oyster edges there instead.
-- **Every night, non-negotiable:** hose both reels with fresh water and back the drags off. The Pursuit IV is not a sealed reel — this five-minute habit is the whole reason the cheaper reels are the right call (see the reel note above).
+- **Every night, non-negotiable:** hose both reels with fresh water and back the drags off. The Pursuit V is not a sealed reel — this five-minute habit is the whole reason the cheaper reels are the right call (see the reel note above).
 
 ## Gear checklist
 
@@ -134,40 +134,40 @@ Oct 1–5, 2026 · shore fishing, conventional · neap tides. Organized by *when
 Custom build is off the table (no time). Two-piece for the drive down. Two rods, deliberately **not identical**, so two people can fish the north end at the same time without both being tied to the same rig — one heavy outfit for the bull-red/inlet-seam work, one lighter outfit for trough and pier fishing.
 
 - **Rod A — bull reds, inlet seam (PRIMARY):** Penn Prevail III, 10' Medium-Heavy, 2-piece — 1–5 oz, 15–30 lb. The 9' Medium caps at 3 oz, too light for a 4 oz Sputnik plus a fist-sized mullet chunk, and no 9' MH exists in the Prevail III or Airwave Elite lineups.
-- **Reel A:** Penn Pursuit IV, **6000** — ~$70. Graphite body, HT-100 drag, **20 lb max drag**, 490 yds of 30 lb braid, 5.6:1, 21.4 oz, 5 bearings. Matched to Rod A for bulls. (Penn sizes these 6000/5000 rather than the Spinfisher's 6500/5500 — same class of reel.)
+- **Reel A:** Penn Pursuit V, **6000** — ~$70. Graphite body, HT-100 drag, **20 lb max drag**, 490 yds of 30 lb braid, 5.6:1, 5 bearings. Matched to Rod A for bulls. (Penn sizes these 6000/5000 rather than the Spinfisher's 6500/5500 — same class of reel.) The V replaced the IV in Penn's lineup with the same core specs — treat this as a straight substitution, not an upgrade decision.
 - **Rod B — whiting/pompano/sheepshead, lighter work:** Penn Prevail III, 8' Medium, 2-piece — 3/4–3 oz, 12–20 lb. Same lure-weight ceiling as the 9' M (shorter length just costs some casting distance/leverage, no downside for this role), and the shorter length is easier to manage on the pier and around the crabbing dock. Doubles as the Hunting Island pier rod.
-- **Reel B:** Penn Pursuit IV, **5000** — ~$70. Same body and drag, 20 lb max, 300 yds of 30 lb braid, 19.7 oz (4 sealed bearings + instant anti-reverse); better balance on the lighter blank.
+- **Reel B:** Penn Pursuit V, **5000** — ~$70. Same body and drag, 20 lb max, 300 yds of 30 lb braid, 5 bearings; better balance on the lighter blank.
 - Braid, 30 lb, **two spools** — Power Pro or Suffix 832
 - Two hard rod tubes, if the rods ride on a roof rack or in a truck bed
 
 Rod fallbacks if the Prevail III 10' MH is out of stock: Tsunami Airwave Elite 10'6" MH, Ugly Stik Bigwater 9' MH (composite, heavier, near-unbreakable), or the Bass Pro house brands (Offshore Angler Breakwater / Ocean Master) on a budget. For Rod B: Tsunami Airwave Elite 8' M if it's in the lineup, otherwise the 9' M is a fine stand-in (loses nothing but a bit of handiness), or an Ugly Stik Bigwater 7' MH sized down.
 
-Reel fallbacks if Pursuit IV sizes are out: **Penn Fierce IV 6000/5000** (~$108 each, metal frame — see below), **Okuma Avenger B**, or **Daiwa BG 5000**. **Penn Battle III 6000** (~$145+) is the ceiling worth considering and still well under the Spinfisher.
+Reel fallbacks if Pursuit V sizes are out: **Penn Fierce IV 6000/5000** (~$108 each, metal frame — see below), **Okuma Avenger B**, or **Daiwa BG 5000**. **Penn Battle III 6000** (~$145+) is the ceiling worth considering and still well under the Spinfisher.
 
 **Explicitly rejected:** the MHX SU1088F-2 custom build (an exact spec match, but no time before Oct 1 and Mud Hole has reported component stock problems).
 
-> **Why not the Spinfisher VII.** An earlier draft of this list specced the Spinfisher VII 6500 and 5500 — roughly $240 and $226, about **$466 for the pair**. What that premium actually buys is **IPX5 sealing** of the body, spool, and drag. That is the right call for someone in the salt 40+ days a year. At **one or two trips a year** it's insurance you'll never collect on. The Pursuit IV pair lands around **$140** — call it **$326 saved** — and the things it gives up are mostly things this trip doesn't use:
+> **Why not the Spinfisher VII.** An earlier draft of this list specced the Spinfisher VII 6500 and 5500 — roughly $240 and $226, about **$466 for the pair**. What that premium actually buys is **IPX5 sealing** of the body, spool, and drag. That is the right call for someone in the salt 40+ days a year. At **one or two trips a year** it's insurance you'll never collect on. The Pursuit V pair lands around **$140** — call it **$326 saved** — and the things it gives up are mostly things this trip doesn't use:
 >
-> - **Drag was never the constraint.** A bull red gets fought at 8–12 lb of drag. The Pursuit IV's 20 lb is still roughly double anything you'd set; the Spinfisher's 30 lb was pure headroom.
+> - **Drag was never the constraint.** A bull red gets fought at 8–12 lb of drag. The Pursuit V's 20 lb is still roughly double anything you'd set; the Spinfisher's 30 lb was pure headroom.
 > - **Neither was capacity.** The 6000 carries 490 yds of 30 lb braid — identical to the metal-bodied Fierce IV, and far more than a red is going to take off the reel at the inlet.
-> - **Weight is the least of it here.** 21.4 oz is heavy for a spinning reel, but these sit in sand spikes most of the morning rather than getting cast continuously.
+> - **Weight is the least of it here.** These graphite-body reels run heavy for a spinning reel (the IV's 6000 was 21.4 oz; the V doesn't publish weight but is the same class), but they sit in sand spikes most of the morning rather than getting cast continuously.
 >
 > **Two real tradeoffs, stated plainly:**
 >
 > 1. **Graphite body, not metal.** This is the actual compromise. A graphite frame flexes under heavy static load in a way a metal one doesn't, and repeated flex is what walks gear alignment out of true. The practical rule that follows: **never crank a buried Sputnik out of the sand with the reel.** Point the rod at it and pull the braid by hand, or break it off — that dead-weight load, not a fish, is what kills budget reels.
 > 2. **It is not a sealed reel.** The "sealed stainless ball bearings" refers to the *bearings*. So the nightly fresh-water rinse stops being optional — it's in the day plan for that reason. That five-minute habit is what the $326 buys back.
 
-**If the metal frame turns out to matter:** **Penn Fierce IV 6000 and 5000**, ~$108 each (~$216 the pair) — full metal body and sideplates, HT-100 carbon-fiber drag, 25 lb max, same 490/30 capacity on the 6000. It's the cheapest metal-bodied reel in the Penn line and the honest step up from here, at roughly $76 more for the pair. Worth it if these reels are going to see more than the one or two trips a year they're being bought for. Either way, do **not** substitute the Penn Wrath II 6000 ($79.99) — it costs *more* than the Pursuit IV and runs 3 bearings to the Pursuit's 5.
+**If the metal frame turns out to matter:** **Penn Fierce IV 6000 and 5000**, ~$108 each (~$216 the pair) — full metal body and sideplates, HT-100 carbon-fiber drag, 25 lb max, same 490/30 capacity on the 6000. It's the cheapest metal-bodied reel in the Penn line and the honest step up from here, at roughly $76 more for the pair. Worth it if these reels are going to see more than the one or two trips a year they're being bought for. Either way, do **not** substitute the Penn Wrath II 6000 ($79.99) — it costs *more* than the Pursuit V and runs 3 bearings to the Pursuit's 5.
 
-Prices are mid-September 2026 street, not list — Penn's own list across the Pursuit IV range runs $84.99–$109.99, so the ~$70 figure assumes a normal retailer discount. Re-check before ordering, and buy the pair from one retailer to save on shipping.
+Prices are mid-September 2026 street, not list — Penn's own list across the (now-discontinued) Pursuit IV range ran $84.99–$109.99, so the ~$70 figure assumes a normal retailer discount off a similar list price for the V. Re-check before ordering, and buy the pair from one retailer to save on shipping.
 
 ### Buy before leaving — terminal tackle
 
 Buy ~3x what seems reasonable — inlet current and oyster bottom eat tackle.
 
-- Fluorocarbon leader: 20 lb, 30 lb, 50 lb (bulls and toothy fish)
+- Fluorocarbon leader: **20 lb** (Rod B — whiting/pompano/sheepshead finesse work) and **50 lb** (Rod A — bulls, oyster abrasion, incidental toothy fish). Dropped the 30 lb tier — it sits right on top of the 30 lb braid mainline on both rods and doesn't buy meaningfully more abrasion resistance or shock absorption than the running line itself.
 - Mono 50 lb, for fishfinder rig components
-- Hooks — **non-offset, non-stainless circle only**, required by law with natural bait at 4/0+ (see the red drum rule above): 6/0–8/0 for bull reds, 2/0–3/0 for drum and slot reds, #1–1/0 for whiting/pompano/sheepshead
+- Hooks — **non-offset, non-stainless circle only**, required by law with natural bait at 4/0+ (see the red drum rule above). Consolidated to two sizes so you're not carrying three boxes: **6/0** for bull reds and drum/slot reds (slightly oversized for the low end of the slot-red range, but workable with a smaller cut-bait chunk), **1/0** for whiting/pompano/sheepshead (top of that range — trades a little finesse on the smallest bites for one less size to stock).
 - Sputnik sinkers, 3 oz and 4 oz — wire legs grip and release; the 10' MH handles both. 4 oz for the inlet seam, 3 oz for the beach — and with this trip landing near neap, 3 oz will usually hold on its own.
 - Pyramid sinkers, 3 oz (backup); egg sinkers, 1/2–2 oz (Carolina rigs on the dock); split shot (vertical sheepshead on the pier pilings)
 - Pre-tied two-hook pompano rigs (6+) — cheaper than components
@@ -208,9 +208,9 @@ Links are Amazon search results, not a single guessed product page — pick the 
 | Item | Qty | Link |
 |---|---|---|
 | Penn Prevail III 10' MH, 2-pc (Rod A) | 1 | [Amazon search](https://www.amazon.com/s?k=Penn+Prevail+III+10ft+Medium+Heavy+2-piece+surf+rod) |
-| Penn Pursuit IV 6000 (Reel A) | 1 | [Amazon search](https://www.amazon.com/s?k=Penn+Pursuit+IV+6000+spinning+reel) |
+| Penn Pursuit V 6000 (Reel A) | 1 | [Amazon search](https://www.amazon.com/s?k=Penn+Pursuit+V+6000+spinning+reel) |
 | Penn Prevail III 8' M, 2-pc (Rod B) | 1 | [Amazon search](https://www.amazon.com/s?k=Penn+Prevail+III+8ft+Medium+2-piece+surf+rod) |
-| Penn Pursuit IV 5000 (Reel B) | 1 | [Amazon search](https://www.amazon.com/s?k=Penn+Pursuit+IV+5000+spinning+reel) |
+| Penn Pursuit V 5000 (Reel B) | 1 | [Amazon search](https://www.amazon.com/s?k=Penn+Pursuit+V+5000+spinning+reel) |
 | Power Pro or Suffix 832 braid, 30 lb | 2 spools | [Amazon search](https://www.amazon.com/s?k=Power+Pro+braid+30lb+surf) |
 | Hard rod tube | 2 | [Amazon search](https://www.amazon.com/s?k=hard+fishing+rod+tube+travel+case) |
 
@@ -218,11 +218,11 @@ Links are Amazon search results, not a single guessed product page — pick the 
 
 | Item | Link |
 |---|---|
-| Fluorocarbon leader, 20/30/50 lb | [Amazon search](https://www.amazon.com/s?k=fluorocarbon+leader+line+20+30+50lb) |
+| Fluorocarbon leader, 20 lb (Rod B) | [Amazon search](https://www.amazon.com/s?k=fluorocarbon+leader+line+20lb) |
+| Fluorocarbon leader, 50 lb (Rod A) | [Amazon search](https://www.amazon.com/s?k=fluorocarbon+leader+line+50lb) |
 | Mono, 50 lb | [Amazon search](https://www.amazon.com/s?k=monofilament+fishing+line+50lb) |
-| Circle hooks, non-offset non-stainless, 6/0–8/0 | [Amazon search](https://www.amazon.com/s?k=non-offset+circle+hooks+6%2F0+8%2F0+red+drum) |
-| Circle hooks, non-offset non-stainless, 2/0–3/0 | [Amazon search](https://www.amazon.com/s?k=non-offset+circle+hooks+2%2F0+3%2F0) |
-| Circle hooks, non-offset non-stainless, #1–1/0 | [Amazon search](https://www.amazon.com/s?k=non-offset+circle+hooks+size+1+1%2F0) |
+| Circle hooks, non-offset non-stainless, 6/0 (bull reds + drum/slot reds) | [Amazon search](https://www.amazon.com/s?k=non-offset+circle+hooks+6%2F0+red+drum) |
+| Circle hooks, non-offset non-stainless, 1/0 (whiting/pompano/sheepshead) | [Amazon search](https://www.amazon.com/s?k=non-offset+circle+hooks+size+1%2F0) |
 | Sputnik sinkers, 3 oz & 4 oz | [Amazon search](https://www.amazon.com/s?k=sputnik+sinkers+surf+fishing+3oz+4oz) |
 | Pyramid sinkers, 3 oz | [Amazon search](https://www.amazon.com/s?k=pyramid+sinkers+3oz) |
 | Egg sinkers, 1/2–2 oz | [Amazon search](https://www.amazon.com/s?k=egg+sinkers+assortment+1%2F2oz+2oz) |
