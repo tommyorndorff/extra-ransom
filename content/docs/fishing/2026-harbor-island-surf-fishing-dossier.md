@@ -4,11 +4,11 @@ date: 2026-09-13
 weight: 20261001
 ---
 
-Trip prep for **Oct 1–5, 2026**, based at Harbor Island, SC (Beaufort County) — a gated community on St. Helena Sound between St. Helena Island and Hunting Island. Driving down from North Carolina. **Shore only: conventional bait and lure, no fly rod, no boat.** Primary goal is bull redfish at the **north-end point and sandbar**, with the pier at Hunting Island, the marsh/creek spots on the island, and the freshwater lagoons as secondary options, and blue crabbing off the community dock as a side quest.
+Trip prep for **Oct 1–5, 2026**, based at Harbor Island, SC (Beaufort County) — a gated community on St. Helena Sound between St. Helena Island and Hunting Island. Driving down from North Carolina. **Shore only: conventional bait and lure, no fly rod, no boat.** Primary goal is bull redfish at the **north-end point and sandbar**, with the marsh/creek spots on the island and the freshwater lagoons as secondary options, and blue crabbing off the community dock as a side quest.
 
 For dolphin watching and strand-feeding on the same trip — including the marsh-side tide windows, since they run on a different clock than the fishing tides below — see the [companion dolphin dossier](../2026-harbor-island-dolphin-watching-dossier).
 
-> **License:** non-residents need a SC saltwater recreational fishing license for anything off the Hunting Island pier — $10/day, $35/7-day, or $75/annual. The pier itself is covered by the park's commercial license, so no individual license is needed to fish from it. Buy online at [dnr.sc.gov](https://www.dnr.sc.gov/) before the trip.
+> **License:** non-residents need a SC saltwater recreational fishing license — $10/day, $35/7-day, or $75/annual. Buy online at [dnr.sc.gov](https://www.dnr.sc.gov/) before the trip.
 
 ## Tides: Fripp Inlet (NOAA Station 8668498)
 
@@ -47,7 +47,6 @@ Morning lows overlap sunrise cleanly through Oct 1–3, then drift later and los
 2. **Community crabbing dock** (marsh side) — blue crabs on chicken necks; also flounder, reds, and trout on a Carolina rig with live shrimp or mud minnow on a moving tide.
 3. **Harbor River corridor** — sheepshead/black drum on structure, reds/trout on channel edges, but see the caveat below: the accessible piling structure this depends on may no longer exist.
 4. **Freshwater lagoons** (5 on the island) — check community rules first; alligator habitat; needs a separate freshwater license.
-5. **Hunting Island** (2 mi away, worth one session) — the pier, and Boneyard Beach at the south end.
 
 ## Harbor Island: north end surf fishing (primary goal)
 
@@ -71,30 +70,12 @@ Realistic table fare from this whole trip, not just the north end: whiting, croa
 
 **Access notes**
 - Walk the beach north from Harbor Island toward the inlet; no marked public access point beyond the island's own beach access — treat it as a beach walk, not a trailhead.
-- Non-resident saltwater license required (see above) — the pier exemption does not apply to open-beach surf fishing.
+- Non-resident saltwater license required (see above).
 
 **Red drum rules (changed July 1, 2026 — confirmed current for this trip):**
 - Slot limit is now **18–25"**, tightened from the old 15–23" slot.
 - **1 fish per person per day** (down from 2), and boats are capped at 2/day (down from 6).
 - Any natural-bait hook 4/0 or larger — which covers the bull-red rig above — must be **non-offset, non-stainless circle hook**, for red drum, cobia, and tarpon alike.
-
-## Hunting Island: pier and Boneyard Beach (ranked #5, one session)
-
-2 miles from Harbor Island — worth a single dedicated session rather than a daily rotation.
-
-**The pier.** 950 ft into Fripp Inlet on Hunting Island's south end near the lighthouse, ~28 ft of water at the end. Rebuilt/reopened September 2021 after Hurricane Matthew damage — currently in good condition as of 2026, no known outstanding closures.
-
-- **License:** none needed — the park's commercial license covers all pier anglers, the one exemption to the saltwater license requirement on this whole trip.
-- **Species:** redfish, speckled trout, flounder, black drum. (Sheepshead are around the pilings here too, but working them vertically is a different rig/bait than what's packed for this trip — see the rigging note below — so treat any sheepshead as incidental, not a target.)
-- **Park hours:** 6am–6pm (extended to 9pm during Daylight Saving Time — still in effect Oct 1–5).
-- **Entrance fee:** confirmed via the [official park FAQ](https://southcarolinaparks.com/hunting-island/faqs) as **$8/adult** (16+); gate opens 6am.
-- Contact: 843-838-2011, [southcarolinaparks.com/hunting-island](https://southcarolinaparks.com/hunting-island).
-
-**Boneyard Beach**, on Little Hunting Island at the *south* end — the famous stand of submerged/downed trees on the beach, fronting an offshore sandbar with its own trough. Same bull-red potential as the Harbor Island north end (reported fish to 48"), same low-tide logic applies. Good pairing with the pier session since they're both on the south end of the park, a short walk apart.
-
-Good rainy-day or dawn-window-missed backup to the north-end plan — fishes fine outside the tight low-tide window that matters most on the open beach.
-
-Worth pairing this session with the **marsh boardwalk**, on the same end of the park — see the dolphin dossier for that vantage.
 
 ## Harbor River corridor and freshwater lagoons (ranked #3 and #4)
 
@@ -120,14 +101,13 @@ Source: [SC DNR crustacean/shellfish regulations, via eRegulations](https://www.
 
 - **Day 1, dead low:** walk the north end with no gear — map troughs, cuts, and bar edges. Polarized sunglasses, wading shoes, water, phone. Worth more than any tackle decision made in advance. Crab off the dock that afternoon.
 - **Each morning, low near sunrise (strongest Oct 1–3):** north-end point, both anglers — Rod A working cut mullet in the current seam, Rod B working the trough with shrimp/FishBites for whiting and pompano.
-- **One session:** Hunting Island — pier for guaranteed variety, plus a look at Boneyard Beach.
 - **Oct 4 and Oct 5 mornings:** these are the weakest surf mornings of the trip (low has drifted off sunrise by then) — see the dolphin dossier, since this is exactly when the marsh-side dolphin windows peak. Good mornings to swap the beach for the boardwalk or the crabbing dock.
 - **Wind contingency:** beach blown out → the marsh side or, if the Harbor River access question above resolves favorably, sheltered water and oyster edges there instead.
 - **Every night, non-negotiable:** hose both reels with fresh water and back the drags off. The Pursuit V is not a sealed reel — this five-minute habit is the whole reason the cheaper reels are the right call (see the reel note above).
 
 ## Rigging
 
-Two rigs cover the whole trip — one per rod. (A third option, working sheepshead vertically on the Hunting Island pier pilings with split shot, is skipped this trip — the gear list below doesn't carry split shot as a result.)
+Two rigs cover the whole trip — one per rod. (A third option, working sheepshead vertically on structure with split shot, is skipped this trip — the gear list below doesn't carry split shot as a result.)
 
 **Rod A — fish-finder rig (bull reds, inlet seam):**
 
@@ -159,11 +139,11 @@ Oct 1–5, 2026 · shore fishing, conventional · neap tides. Organized by *when
 
 ### Buy before leaving — rod, reel, line (two anglers, two different outfits)
 
-Custom build is off the table (no time). Two-piece for the drive down. Two rods, deliberately **not identical**, so two people can fish the north end at the same time without both being tied to the same rig — one heavy outfit for the bull-red/inlet-seam work, one lighter outfit for trough and pier fishing.
+Two-piece for the drive down. Two rods, deliberately **not identical**, so two people can fish the north end at the same time without both being tied to the same rig — one heavy outfit for the bull-red/inlet-seam work, one lighter outfit for trough fishing.
 
 - **Rod A — bull reds, inlet seam (PRIMARY):** Penn Prevail III, 10' Medium-Heavy, 2-piece — 1–5 oz, 15–30 lb. The 9' Medium caps at 3 oz, too light for a 4 oz Sputnik plus a fist-sized mullet chunk, and no 9' MH exists in the Prevail III or Airwave Elite lineups.
 - **Reel A:** Penn Pursuit V, **6000** — ~$70. Graphite body, HT-100 drag, **20 lb max drag**, 490 yds of 30 lb braid, 5.6:1, 5 bearings. Matched to Rod A for bulls. (Penn sizes these 6000/5000 rather than the Spinfisher's 6500/5500 — same class of reel.) The V replaced the IV in Penn's lineup with the same core specs — treat this as a straight substitution, not an upgrade decision.
-- **Rod B — whiting/pompano, lighter work:** Penn Prevail III, 8' Medium, 2-piece — 3/4–3 oz, 12–20 lb. Same lure-weight ceiling as the 9' M (shorter length just costs some casting distance/leverage, no downside for this role), and the shorter length is easier to manage on the pier and around the crabbing dock. Doubles as the Hunting Island pier rod.
+- **Rod B — whiting/pompano, lighter work:** Penn Prevail III, 8' Medium, 2-piece — 3/4–3 oz, 12–20 lb. Same lure-weight ceiling as the 9' M (shorter length just costs some casting distance/leverage, no downside for this role), and the shorter length is easier to manage around the crabbing dock.
 - **Reel B:** Penn Pursuit V, **5000** — ~$70. Same body and drag, 20 lb max, 300 yds of 30 lb braid, 5 bearings; better balance on the lighter blank.
 - Braid, 30 lb, **two spools** — Power Pro or Suffix 832
 - Two hard rod tubes, if the rods ride on a roof rack or in a truck bed
@@ -171,8 +151,6 @@ Custom build is off the table (no time). Two-piece for the drive down. Two rods,
 Rod fallbacks if the Prevail III 10' MH is out of stock: Tsunami Airwave Elite 10'6" MH, Ugly Stik Bigwater 9' MH (composite, heavier, near-unbreakable), or the Bass Pro house brands (Offshore Angler Breakwater / Ocean Master) on a budget. For Rod B: Tsunami Airwave Elite 8' M if it's in the lineup, otherwise the 9' M is a fine stand-in (loses nothing but a bit of handiness), or an Ugly Stik Bigwater 7' MH sized down.
 
 Reel fallbacks if Pursuit V sizes are out: **Penn Fierce IV 6000/5000** (~$108 each, metal frame — see below), **Okuma Avenger B**, or **Daiwa BG 5000**. **Penn Battle III 6000** (~$145+) is the ceiling worth considering and still well under the Spinfisher.
-
-**Explicitly rejected:** the MHX SU1088F-2 custom build (an exact spec match, but no time before Oct 1 and Mud Hole has reported component stock problems).
 
 > **Why not the Spinfisher VII.** An earlier draft of this list specced the Spinfisher VII 6500 and 5500 — roughly $240 and $226, about **$466 for the pair**. What that premium actually buys is **IPX5 sealing** of the body, spool, and drag. That is the right call for someone in the salt 40+ days a year. At **one or two trips a year** it's insurance you'll never collect on. The Pursuit V pair lands around **$140** — call it **$326 saved** — and the things it gives up are mostly things this trip doesn't use:
 >
@@ -216,12 +194,11 @@ Nothing is available on Harbor Island itself — buy on St. Helena Island or in 
 
 ### Before you go — admin
 
-- SC nonresident saltwater license, 7-day $35 — buy via Go Outdoors South Carolina, save to phone (not required on the Hunting Island pier — see above)
+- SC nonresident saltwater license, 7-day $35 — buy via Go Outdoors South Carolina, save to phone
 - Freshwater license, $11/14-day, only if the island's lagoons turn out to be fishable
 - Verify red drum limits on SCDNR before the trip in case the July 1, 2026 rules get revised further
 - Call the gatehouse: beach/dock fishing rules, north-end parking and access, lagoon rules
 - Look up bait shop hours on St. Helena Island
-- Cash for Hunting Island park entry — **$8/adult**, gates open 6am
 
 ### Day-one carry (north end, dead-low recon)
 
@@ -249,8 +226,8 @@ Links are Amazon search results, not a single guessed product page — pick the 
 | Fluorocarbon leader, 20 lb (Rod B) | [Amazon search](https://www.amazon.com/s?k=fluorocarbon+leader+line+20lb) |
 | Fluorocarbon leader, 50 lb (Rod A) | [Amazon search](https://www.amazon.com/s?k=fluorocarbon+leader+line+50lb) |
 | Mono, 50 lb | [Amazon search](https://www.amazon.com/s?k=monofilament+fishing+line+50lb) |
-| Circle hooks, non-offset non-stainless, 6/0 (bull reds + drum/slot reds) | [Amazon search](https://www.amazon.com/s?k=non-offset+circle+hooks+6%2F0+red+drum) |
-| Circle hooks, non-offset non-stainless, 1/0 (whiting/pompano) | [Amazon search](https://www.amazon.com/s?k=non-offset+circle+hooks+size+1%2F0) |
+| Circle hooks, Gamakatsu Octopus Circle Inline Point, 6/0 (bull reds + drum/slot reds) | [Amazon search](https://www.amazon.com/s?k=Gamakatsu+Octopus+Circle+Inline+Point+6%2F0) |
+| Circle hooks, Gamakatsu Octopus Circle Inline Point, 1/0 (whiting/pompano) | [Amazon search](https://www.amazon.com/s?k=Gamakatsu+Octopus+Circle+Inline+Point+1%2F0) |
 | Sputnik sinkers, 3 oz & 4 oz | [Amazon search](https://www.amazon.com/s?k=sputnik+sinkers+surf+fishing+3oz+4oz) |
 | Pyramid sinkers, 3 oz | [Amazon search](https://www.amazon.com/s?k=pyramid+sinkers+3oz) |
 | Egg sinkers, 1/2–2 oz | [Amazon search](https://www.amazon.com/s?k=egg+sinkers+assortment+1%2F2oz+2oz) |
@@ -298,7 +275,6 @@ No API-keyed embeds — plain links to OpenStreetMap, plus a rough ASCII layout 
 | Place | Approx. coordinates | OpenStreetMap |
 |---|---|---|
 | Harbor Island north end / Fripp Inlet (primary) | 32.404, -80.437 | [osm.org](https://www.openstreetmap.org/?mlat=32.404&mlon=-80.437#map=14/32.404/-80.437) |
-| Hunting Island pier + Boneyard Beach (south end, near the lighthouse) | 32.366, -80.444 | [osm.org](https://www.openstreetmap.org/?mlat=32.366&mlon=-80.444#map=15/32.366/-80.444) |
 | Harbor River US-21 bridge (access uncertain — see caveat above) | 32.396, -80.478 | [osm.org](https://www.openstreetmap.org/?mlat=32.396&mlon=-80.478#map=14/32.396/-80.478) |
 | Roger Pinckney Park, Pigeon Point Rd (Beaufort River/Brickyard Creek — a fallback, not on-island) | 32.4297, -80.6704 | [osm.org](https://www.openstreetmap.org/?mlat=32.4297&mlon=-80.6704#map=15/32.4297/-80.6704) |
 | St. Helena Sound / Morgan River (off-plan fallback, needs a boat) | 32.42, -80.53 | [osm.org](https://www.openstreetmap.org/?mlat=32.42&mlon=-80.53#map=12/32.42/-80.53) |
@@ -311,7 +287,7 @@ St. Helena Island — Harbor Island (north end → Fripp Inlet) — Fripp Island
 St. Helena Sound / Morgan River |          Fripp Inlet
    (inland leg, marsh/creek)    |               |
                     Johnson Creek /      Hunting Island
-                    Harbor River          (pier, south end)
+                    Harbor River
                     (marsh side:
                      crab dock)
 ```
