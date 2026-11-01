@@ -251,7 +251,7 @@ Small-town rosters turn over fast — confirm hours before relying on any of the
   - Mid-tier: Connie's Restaurant & Saloon (prime rib Fri/Sat); Lakeside Lodge (boat-in option)
   - Budget: The Parlor at Mack's Inn (pizza); Café Sabor (Mexican, at Big Springs)
 - **Jackson, WY**
-  - Premium: [Palate](https://palatejh.com/) at the National Museum of Wildlife Art (~$100+/person)
+  - Premium: [Palate](https://palatejh.com/) ([Wayback Machine](https://web.archive.org/web/20261021101432/https://palatejh.com/)) at the National Museum of Wildlife Art (~$100+/person)
   - Mid-tier: Liberty Burger; Snake River Brewing (~$40–80/person)
   - Budget: Pinky G's Pizzeria; The Virginian (~$12 breakfast); Bubba's BBQ (opens 6am)
 

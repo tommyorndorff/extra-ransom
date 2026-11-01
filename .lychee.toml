@@ -19,6 +19,10 @@ exclude = [
   # browser and from local curl, but consistently times out from GitHub
   # Actions runners - linked from static/salamanders/methods.html.
   '^https://salamanderfungus\.org',
+  # palatejh.com (Palate restaurant, Jackson WY) is unreachable (connection
+  # failures, Nov 2026) - kept in the Yellowstone dossier alongside its
+  # Wayback Machine archive for reference.
+  '^https://palatejh\.com',
 ]
 
 max_retries = 3
