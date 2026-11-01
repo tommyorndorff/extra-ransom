@@ -24,7 +24,9 @@ extra-ransom/
 │       ├── coffee-roasting/  # (menu: Coffee Roasting)
 │       └── fishing/          # trip dossiers (menu: Fishing)
 ├── static/
-│   └── static/               # Binary assets (photos, PDFs, STLs) — served at /static/<topic>/…
+│   ├── static/               # Binary assets (photos, PDFs, STLs) — served at /static/<topic>/…
+│   ├── warbirds/             # Standalone page "Mustang & Company" (plain HTML/CSS/JS) — /warbirds/
+│   └── salamanders/          # Standalone page "Salamanders of Western North Carolina" — /salamanders/
 └── .github/
     └── workflows/
         └── workflow.yml      # CI "Deploy": build → S3 sync + CloudFront invalidation + gh-pages
@@ -68,6 +70,7 @@ AWS_PROFILE=extra-ransom hugo deploy --maxDeletes -1 --force
 - Tapers are stored as Markdown tables within page content.
 - Static assets (images, PDFs, STL previews) go in `static/static/<topic>/` and are referenced as `/static/<topic>/filename`.
 - New pages: `hugo new docs/<section>/<name>.md` uses `archetypes/default.md` (sets `draft: true`).
+- **Standalone pages** live in `static/<name>/` as self-contained `index.html` + `css/` + `js/` + `assets/` (no build step, relative paths, no Hextra). Hugo copies them verbatim and they're linked from the "Standalone pages" grid on `content/_index.md`. Because CI gives `*.css`/`*.js`/images a 1-year immutable cache, their CSS/JS references carry a `?v=YYYYMMDD` query — bump it whenever those files change. Salamander data lives in `static/salamanders/js/data.js`; photo credits in `assets/img/credits.json`, mirrored to `js/credits.js`.
 
 ## CI/CD
 
