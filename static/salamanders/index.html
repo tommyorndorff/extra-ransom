@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M6 20c3-1 5-5 9-6s7 1 9-1 2-5 4-5-1 5-3 7-6 2-9 4-6 6-10 5' fill='none' stroke='%23e8741e' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+  <title>Salamanders of Western North Carolina</title>
+  <meta name="description" content="A field reference to the salamanders of the North Carolina Blue Ridge: current taxonomy, elevation and microhabitat ranges, mountain-range distributions, the eastern hellbender, and conservation status as of 2026.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..600&family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/hero-stream.jpg">
+  <link rel="stylesheet" href="css/styles.css?v=20261031">
+</head>
+<body>
+  <a class="skip" href="#hotspot">Skip to content</a>
+
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Back to top">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 21c3-1 5-5 9-6s7 1 9-1 2-5 4-5-1 5-3 7-6 2-9 4-6 6-10 5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><circle cx="26.5" cy="9" r="1.3" fill="currentColor"/></svg>
+      <span>Salamanders of Western North Carolina</span>
+    </a>
+    <nav aria-label="Sections">
+      <ul class="navlinks">
+        <li><a href="#hotspot">Hotspot</a></li>
+        <li><a href="#elevation">Elevation</a></li>
+        <li><a href="#ranges">Ranges</a></li>
+        <li><a href="#hellbender">Hellbender</a></li>
+        <li><a href="#catalog">Catalog</a></li>
+        <li><a href="#status">Status</a></li>
+        <li><a href="#fieldwork">Fieldwork</a></li>
+        <li><a href="#references">References</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-media"><img src="assets/img/hero-stream.jpg" alt="A dark, clear mountain river running under a closed hardwood canopy" fetchpriority="high"></div>
+      <p class="hero-caption">Davidson River, Pisgah National Forest, Transylvania County</p>
+      <div class="hero-copy">
+        <h1 id="heroTitle" class="hero-title">Salamanders of <span class="place">Western North Carolina</span></h1>
+        <p class="hero-lede">The Southern Blue Ridge holds more salamander species than any comparable area on Earth. This is a working reference to them: current names, where each lives along the stream-to-ridge gradient, which mountain blocks hold which taxa, and where each stands legally as of October 2026.</p>
+        <ul class="hero-facts" id="heroFacts"></ul>
+      </div>
+    </section>
+
+    <!-- HOTSPOT -->
+    <section class="section" id="hotspot" aria-labelledby="hotspotTitle">
+      <div class="wrap cols">
+        <div class="prose" id="hotspotProse">
+          <h2 id="hotspotTitle" style="font-size:var(--step-2);margin-bottom:14px">Why here</h2>
+          <p>AmphibiaWeb currently recognizes 846 salamander species worldwide, and 523 of them (62%) belong to Plethodontidae, the lungless salamanders. The 56 species treated on this page, 51 of them plethodontids, occur in roughly two dozen mountain counties. That is about one in fifteen of the world&rsquo;s salamanders and one in ten of its plethodontids.</p>
+          <p>Lunglessness is the key. Plethodontids breathe through moist skin and the lining of the mouth, so they need cool, wet, thermally stable habitats, and the Southern Blue Ridge supplies them at every elevation. High, isolated ridges separated by warm valleys fragment those habitats. Climatic-niche evolution here has been fast (Kozak &amp; Wiens 2010), and much of the <i>Plethodon</i> radiation is non-adaptive: similar species sorted onto different mountain blocks rather than into different niches.</p>
+          <p>The region has never been glaciated, and it has been a center of plethodontid diversification since long before the Pleistocene. Many lineages here are old, narrowly distributed, and only recently recognized as species.</p>
+        </div>
+        <div>
+          <h3 class="sans" style="font-size:1rem;font-weight:700;margin-bottom:4px">Species treated on this page, by family</h3>
+          <div class="family-bar" id="familyBar" role="img" aria-label="Species count by family"></div>
+          <ul class="family-key" id="familyKey"></ul>
+          <div class="callout" id="hotspotCallout">
+            <p><b>The names have changed.</b> Between 2020 and 2023, Pyron, Beamer and colleagues revised nearly every Southern Appalachian <i>Desmognathus</i> complex. <i>D. quadramaculatus</i> is no longer a valid name: Holbrook&rsquo;s type proved to be a dusky salamander, so the name falls into the synonymy of <i>D. fuscus</i>. The black-bellied, shovel-nosed, Ocoee, seal and dusky complexes now account for more than a dozen species in WNC alone. The SSAR 9th edition (2025) adopts all of these changes. Older field guides, the NC Herp Atlas and some state databases still use the earlier names, so each species account here lists what it was formerly called.</p>
+          </div>
+          <p class="note">Not treated as WNC species here, pending vouchers or confirmation: <i>D. aureatus</i> (&ldquo;small portions of nearby NC&rdquo;; a related mtDNA lineage has been found in the Smokies), <i>D. conanti</i> s.s. (&ldquo;likely&rdquo; in extreme western NC), <i>D. planiceps</i> (confirmed only in the NC Piedmont), <i>D. kanawha</i> (upper Yadkin and Roanoke; New River headwaters inferred), <i>P. glutinosus</i> s.s. (older NC records belong to segregate species), <i>Ambystoma jeffersonianum</i> (known from adjacent Virginia only), and <i>A. talpoideum</i>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ELEVATION -->
+    <section class="section" id="elevation" aria-labelledby="elevTitleH">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 id="elevTitleH">From the channel to the ridgeline</h2>
+          <p>Each bar is the approximate elevational range a species occupies in Western North Carolina. Grouped by microhabitat, the chart reads like a hillside: big aquatic species at the bottom, the streamside <i>Desmognathus</i> ladder in the middle, and the terrestrial <i>Plethodon</i> on the slopes and summits. Colored bars carry NC protected status. Select a species to open its account.</p>
+        </header>
+        <div class="chart-controls">
+          <div class="seg" role="radiogroup" aria-label="Group species by" id="groupSeg">
+            <button type="button" role="radio" data-g="habitat" aria-checked="true">By microhabitat</button>
+            <button type="button" role="radio" data-g="family" aria-checked="false">By family</button>
+          </div>
+          <label class="chk"><input type="checkbox" id="endemicToggle"> Highlight Southern Appalachian endemics</label>
+        </div>
+        <div class="elev-chart" id="elevChart"></div>
+        <ul class="legend">
+          <li><i style="background:var(--stream-2)"></i>Not state listed</li>
+          <li><i style="background:var(--st-sc)"></i>NC Special Concern</li>
+          <li><i style="background:var(--st-t)"></i>NC Threatened</li>
+          <li><i style="background:var(--st-e)"></i>NC Endangered</li>
+          <li><i style="background:var(--zone-spruce);border:1px solid var(--rule)"></i>Background: approximate forest zone</li>
+        </ul>
+        <p class="note" id="elevNote">Elevations are generalized from regional accounts and vary with aspect, latitude and local relief; treat them as a guide to where to look, not as range limits.</p>
+        <div class="cols" style="margin-top:48px" id="gradientProse">
+          <div class="prose">
+            <h3>The <i>Desmognathus</i> ladder</h3>
+            <p>Walk a transect up from a Blue Ridge stream and the dusky salamanders change in a predictable order. First come the shovel-nosed species in the riffles, then the black-bellied species at the channel edge and seal salamanders on the banks. The duskies hold the seeps. The mountain duskies (<i>ocoee</i>, <i>carolinensis</i>, <i>orestes</i>, <i>imitator</i> and relatives) range out onto the forest floor, and the pygmy and seepage salamanders, which develop directly, live in the litter well away from water. Body size, age at maturity and fecundity fall along the same gradient (Hairston 1949; Bruce 1996, 2013).</p>
+            <p>The phylogeny complicates the tidy picture. The shovel-nosed form evolved at least twice, once in the Nantahala clade (<i>aureatus</i> with <i>folkertsi</i>) and once in the Pisgah clade (<i>intermedius</i>). The black-bellied form also spans two distant clades. Ecomorphs that look like a single adaptive radiation are partly repeated convergence, possibly helped by ancient introgression (Kozak et al. 2005; Pyron &amp; Beamer 2023).</p>
+          </div>
+          <div class="prose">
+            <h3>Hairston&rsquo;s salamanders</h3>
+            <p>In the Smokies, <i>Plethodon jordani</i> holds the high slopes and the large slimy salamander (<i>P. glutinosus</i> then, <i>P. teyahalee</i> now) the lower ones, with a narrow band of overlap. In the Balsams the overlap is wide (Hairston 1951). Removal experiments in both ranges found competition much stronger in the Smokies (Hairston 1980). Reciprocal transplants were asymmetric, and the evolved response was interference, through aggression, rather than partitioning of food or microhabitat (Hairston, Nishikawa &amp; Stenhouse 1987). Under current taxonomy, Hairston&rsquo;s Balsam &ldquo;<i>jordani</i>&rdquo; are probably <i>P. metcalfi</i>.</p>
+            <p>In the Nantahalas, <i>P. shermani</i> and <i>P. teyahalee</i> meet in an elevational hybrid zone (Hairston et al. 1992). Reanalysis of 16 years of Coweeta data found that the zone moved upslope and the share of pure <i>shermani</i> at high elevation fell as mean annual temperature rose (Walls 2009). Resurveys of Hairston&rsquo;s 1940s transects found something less expected: montane species&rsquo; lower limits moved down as forests recovered (Moskwik 2014).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RANGES -->
+    <section class="section" id="ranges" aria-labelledby="rangesTitle">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 id="rangesTitle">Mountain blocks and drainages</h2>
+          <p>Narrow-range Southern Appalachian salamanders sort by isolated high-elevation blocks and by the Eastern Continental Divide. The matrix shows which species occur in each block; the diagram below shows which side of the divide each river runs to.</p>
+        </header>
+        <div class="matrix-wrap"><table class="matrix" id="matrix"></table></div>
+        <ul class="legend">
+          <li><span style="display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--stream)"></span>Present</li>
+          <li><span style="display:inline-block;width:12px;height:12px;border-radius:50%;border:2px solid var(--stream)"></span>Marginal, peripheral, or only at the edge of the block</li>
+        </ul>
+        <p class="note">Blocks are coarse, and boundaries between them are drawn for this chart. Distributions are summarized from Beane et al. (2010), species descriptions and recent revisions; check the primary literature for locality-level questions.</p>
+
+        <figure class="basins" style="margin:56px 0 0">
+          <svg viewBox="0 0 1100 330" role="img" aria-labelledby="basinTitle">
+            <title id="basinTitle">Schematic of Western North Carolina river basins on either side of the Eastern Continental Divide</title>
+            <rect x="0" y="0" width="1100" height="330" fill="var(--card)" rx="8"/>
+            <path d="M30 250 C 180 120, 300 210, 420 120 S 640 60, 760 140 S 960 120, 1070 60" fill="none" stroke="var(--eft)" stroke-width="3" stroke-dasharray="8 6"/>
+            <text x="1062" y="48" text-anchor="end" font-size="13" font-weight="700" fill="var(--eft-ink)">Eastern Continental Divide</text>
+            <text x="40" y="36" font-size="14" font-weight="700" fill="var(--ink)">West of the divide: Mississippi basin</text>
+            <text x="40" y="54" font-size="12" fill="var(--ink-3)">Hellbender and mudpuppy range</text>
+            <g font-size="13" fill="var(--stream)" font-weight="600">
+              <text x="60" y="100">Hiwassee</text>
+              <text x="170" y="84">Little Tennessee</text>
+              <text x="320" y="72">French Broad</text>
+              <text x="310" y="90" font-size="11" font-weight="400" fill="var(--ink-3)">incl. Pigeon, Nolichucky headwaters</text>
+              <text x="560" y="58">Watauga</text>
+              <text x="760" y="62">New</text>
+              <text x="738" y="78" font-size="11" font-weight="400" fill="var(--ink-3)">to the Ohio via the Kanawha</text>
+            </g>
+            <text x="40" y="300" font-size="14" font-weight="700" fill="var(--ink)">East of the divide: Atlantic slope</text>
+            <text x="40" y="318" font-size="12" fill="var(--ink-3)">No hellbenders; Blue Ridge Escarpment gorges hold the green salamander complex</text>
+            <g font-size="13" fill="var(--moss)" font-weight="600">
+              <text x="120" y="250">Savannah</text>
+              <text x="118" y="266" font-size="11" font-weight="400" fill="var(--ink-3)">Chattooga, Horsepasture</text>
+              <text x="380" y="232">Broad</text>
+              <text x="346" y="248" font-size="11" font-weight="400" fill="var(--ink-3)">Hickory Nut Gorge, Green River</text>
+              <text x="600" y="210">Catawba</text>
+              <text x="590" y="226" font-size="11" font-weight="400" fill="var(--ink-3)">Linville Gorge, South Mountains</text>
+              <text x="880" y="196">Yadkin&ndash;Pee Dee</text>
+            </g>
+          </svg>
+          <figcaption class="note">Schematic only; not to scale. The French Broad, Little Tennessee and Hiwassee rise on the Atlantic-facing Blue Ridge front and cut west through the mountains, so the divide sits close to the escarpment across most of the region.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- HELLBENDER -->
+    <section class="section hellbender" id="hellbender" aria-labelledby="hbTitle">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 id="hbTitle">The eastern hellbender</h2>
+          <p><i>Cryptobranchus alleganiensis alleganiensis</i> (Sonnini de Manoncourt &amp; Latreille, 1801) is North America&rsquo;s largest salamander and the region&rsquo;s indicator of a working river. In North Carolina it lives only in the Tennessee and New River drainages, and more than half of the occupied reaches fall within Hurricane Helene&rsquo;s September 2024 flood extent. Phylogeographic work recovers several deep lineages. The New&ndash;Kanawha animals of northwestern North Carolina belong to one that has no name yet (Hime 2017; SSAR 2025).</p>
+        </header>
+
+        <div class="hb-grid">
+          <div class="hb-photo">
+            <figure>
+              <img src="assets/img/hellbender.jpg" alt="An eastern hellbender resting on a gravel and cobble stream bed, seen underwater" data-lightbox="Eastern hellbender in its stream. Photo: Gary Peeples, USFWS (public domain)." loading="lazy">
+              <figcaption>Flattened head, lateral skin folds, tiny lidless eyes. Photo: Gary Peeples, USFWS.</figcaption>
+            </figure>
+            <dl class="facts">
+              <dt>Size</dt><dd>Adults typically 40&ndash;45 cm total length; can exceed 60 cm and 1.4 kg</dd>
+              <dt>Maturity</dt><dd>About 5&ndash;8 years, at roughly 30 cm</dd>
+              <dt>Longevity</dt><dd>At least 25&ndash;30 years in the wild</dd>
+              <dt>Respiration</dt><dd>Mostly cutaneous; the wrinkled lateral folds add surface area. Adults have lungs but use them little.</dd>
+              <dt>Breeding (NC)</dt><dd>Late August through September. External fertilization in a cavity under a large rock.</dd>
+              <dt>Clutch</dt><dd>200&ndash;500 eggs in strands, about 6 mm each; hatch in 10&ndash;12 weeks</dd>
+              <dt>Larvae</dt><dd>Keep external gills for about 1.5&ndash;2 years; use unembedded cobble and gravel interstices</dd>
+              <dt>Diet</dt><dd>Mostly crayfish; also small fish, insects, frogs, and carrion</dd>
+              <dt>Home range</dt><dd>About 30&ndash;2,212 m&sup2;; individual movements up to 12.9 km recorded</dd>
+            </dl>
+            <p class="note">Sources: NCWRC species profile; USFWS proposed rule, 89 FR 100934 (13 Dec 2024).</p>
+          </div>
+
+          <div class="prose">
+            <h3>Habitat</h3>
+            <p>Perennial, swift, cool, well-oxygenated, low-conductivity streams and rivers, usually below about 900 m in North Carolina. Adults need large, flat, partly embedded rocks (at least 30 cm across) with a single downstream-facing opening, and suitable patches no more than about a kilometre apart without barriers. In Pennsylvania, specific conductance was the strongest single predictor of persistence (Pitt et al. 2017).</p>
+            <h3>The denmaster</h3>
+            <p>The male excavates a nest cavity, admits one or more females, then guards the clutch and larvae for months. Cameras on the French Broad in 2018&ndash;19 showed resident males spending 82% of recorded time at the entrance and driving off other hellbenders (Unger et al. 2020). Guarding males also eat eggs, and whole-clutch filial cannibalism increases with upstream forest loss: in 182 nests across 10 Virginia sites, nest failure rose as riparian forest cover fell (Hopkins et al. 2023).</p>
+            <h3>What is pushing them down</h3>
+            <p>USFWS ranks sedimentation first, followed by water quality, impoundments and channelization, disease, collection and persecution, small isolated populations, and climate change. In Western North Carolina, occupancy at headwater sites tracks both land cover and local physicochemistry (Pugh et al. 2016). Moving rocks also kills them: in-stream rock moving and dam-building have killed adults and larvae (Unger et al. 2017), and in September 2025 Great Smoky Mountains National Park reported a hellbender crushed under a visitor-built rock stack.</p>
+            <p>Range-wide, the 2024 proposal counts 626 historical populations. Of those, 371 are extant and 255 (41%) are extirpated or functionally extirpated. Of the extant populations, 218 (59%) are declining and only 45 (12%) are stable and recruiting.</p>
+          </div>
+        </div>
+
+        <div class="cols hb-sub">
+          <div>
+            <h3>Federal listing history</h3>
+            <ol class="timeline">
+              <li><time>Apr 2010</time>CBD petitions to list 404 southeastern aquatic species, the hellbender among them.</li>
+              <li><time>6 Oct 2011</time>Ozark hellbender (<i>C. a. bishopi</i>) listed Endangered; both subspecies added to CITES Appendix III.</li>
+              <li><time>4 Apr 2019</time>Range-wide listing of the eastern hellbender found not warranted; Missouri DPS proposed Endangered (84 FR 13223).</li>
+              <li><time>9 Mar 2021</time>Missouri DPS listed Endangered (86 FR 13465). It does not occur in NC.</li>
+              <li><time>5 Sep 2023</time><i>CBD v. USFWS</i> (S.D.N.Y.) vacates and remands the 2019 finding for relying on conservation measures not yet implemented or shown effective.</li>
+              <li><time>13 Dec 2024</time>Eastern hellbender proposed Endangered range-wide; critical habitat ruled &ldquo;not prudent&rdquo; because maps would aid collectors (89 FR 100934).</li>
+              <li><time>13 Dec 2025</time>Statutory deadline for a final rule passes; USFWS moves the action to its long-term list.</li>
+              <li><time>17 Feb 2026</time>CBD sues in D. Ariz. (No. 4:26-cv-00093) to compel a final rule. As of October 2026 no ruling or settlement has been reported.</li>
+            </ol>
+          </div>
+          <div class="prose">
+            <h3>After Helene</h3>
+            <p>Hurricane Helene hit in late September 2024, during peak nesting. Of the 49 hellbender-occupied stream segments in Western North Carolina, 28 overlap the mapped flood extent, 22 overlap failed infrastructure and 12 overlap landslides. At two Nolichucky sites, fine sediment rose from pre-storm averages of 26% and 21% to 35% and 41% (Southeast CASC final report, July 2026).</p>
+            <p>In the second quarter of 2026, NCWRC surveys on an upper French Broad tributary in Transylvania County found adults still below pre-storm numbers but larvae at two of three sites. Substrate there worsened after in-stream debris removal.</p>
+            <h3>Who is working on it</h3>
+            <p>NCWRC has run hellbender inventory and monitoring since 2007 and an eDNA program that found the species at nine previously unrecorded sites in its first season (Spear et al. 2015). The NC Zoo surveys monthly with NCWRC and has tested concrete nest boxes north of Asheville since 2017. The Amphibian and Reptile Conservancy has an Asheville-based Hellbender Recovery Coordinator, and the Watauga Riverkeeper and MountainTrue relocated animals ahead of the Shull&rsquo;s Mill dam removal.</p>
+            <p><b>Report a hellbender or mudpuppy:</b> NCWRC Western Region Amphibian Biologist, <a href="mailto:lori.williams@ncwildlife.gov">lori.williams@ncwildlife.gov</a>, or the NC Wildlife Helpline at 866-318-2401. A photo and the stream name are enough. Leave the animal and its rock where they are.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATALOG -->
+    <section class="section" id="catalog" aria-labelledby="catTitle">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 id="catTitle">Species accounts</h2>
+          <p>Every species on this page, in taxonomic order. Filter by family, microhabitat, drainage or status, or search by scientific name, common name, or an older name.</p>
+        </header>
+        <div class="filters">
+          <label>Search<input type="search" id="fQuery" placeholder="e.g. Desmognathus, seal, quadramaculatus"></label>
+          <label>Family<select id="fFamily"></select></label>
+          <label>Microhabitat<select id="fHabitat"></select></label>
+          <label>Drainage<select id="fBasin"></select></label>
+          <label>Status
+            <select id="fStatus">
+              <option value="all">Any status</option>
+              <option value="listed">Any NC or federal listing</option>
+              <option value="E">NC Endangered</option>
+              <option value="T">NC Threatened</option>
+              <option value="SC">NC Special Concern</option>
+              <option value="endemic">Endemic</option>
+            </select>
+          </label>
+          <label>Sort
+            <select id="fSort">
+              <option value="tax">Taxonomic</option>
+              <option value="sci">Scientific name</option>
+              <option value="common">Common name</option>
+              <option value="high">Highest elevation first</option>
+              <option value="low">Lowest elevation first</option>
+            </select>
+          </label>
+        </div>
+        <p class="result-count" id="resultCount" aria-live="polite"></p>
+        <ul class="catalog" id="catalogList"></ul>
+        <div class="empty" id="emptyState" hidden>
+          <p>No species match those filters.</p>
+          <button type="button" class="btn" id="clearFilters">Clear filters</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATUS -->
+    <section class="section" id="status" aria-labelledby="statusTitle">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 id="statusTitle">Conservation status</h2>
+          <p>North Carolina&rsquo;s protected-animal list is 15A NCAC 10I .0103&ndash;.0105, readopted 1 October 2021 and amended 1 February 2023 and 1 October 2024. An amendment opened for comment on 1 September 2026, with comments due by 2 November 2026; it does not change any amphibian entry. The ranks below come from the NC Natural Heritage Program&rsquo;s 2024 rare animal list.</p>
+        </header>
+        <div class="table-wrap">
+          <table class="status">
+            <thead><tr><th scope="col">Taxon</th><th scope="col">NC legal status</th><th scope="col">Federal (ESA)</th><th scope="col">NatureServe G / NC S rank</th><th scope="col">IUCN</th><th scope="col">Notes</th></tr></thead>
+            <tbody id="statusBody"></tbody>
+          </table>
+        </div>
+        <p class="note">Species ranked or watch-listed by NCNHP but without legal status are included where the rank is S1&ndash;S3. NCNHP watch-list codes carry no legal protection. IUCN categories are from the most recent assessment found; several date from 2004 and are overdue for review.</p>
+
+        <div class="threats">
+          <div>
+            <h3><i>Batrachochytrium salamandrivorans</i></h3>
+            <p>Bsal has not been detected in North America; a national survey of 11,189 samples from 594 sites found none (Waddle et al. 2020). Risk models rank the Southern Appalachians among the three most vulnerable US regions (Richgels et al. 2016). The Lacey Act injurious-wildlife listing grew from 20 genera in 2016 to 36 in January 2025 (90 FR 2170). The list now includes the native genera <i>Cryptobranchus</i>, <i>Desmognathus</i>, <i>Eurycea</i>, <i>Aneides</i>, <i>Pseudotriton</i> and <i>Ambystoma</i>. Live shipment within the continental US is not barred (<i>USARK v. Zinke</i>, 2017), so the pet trade remains the main pathway.</p>
+          </div>
+          <div>
+            <h3>Bd and ranavirus</h3>
+            <p><i>B. dendrobatidis</i> is confirmed in North Carolina hellbenders. In the Smokies, only 1 of 665 <i>Plethodon</i> swabs tested positive in 2009, even though counts had fallen at 22 of 35 historic sites, which argues against Bd as the driver of those declines (Caruso &amp; Lips 2013). Bd and ranavirus co-infection has been recorded in East Tennessee hellbenders (Souza et al. 2012).</p>
+          </div>
+          <div>
+            <h3>Climate and the summits</h3>
+            <p>Bioclimatic models project that much of the Appalachian Highlands&rsquo; salamander climate space will be lost by 2080 (Milanovich et al. 2010). Museum series from 1957&ndash;2012 show adults about 8% smaller after 1980 (Caruso et al. 2014), though alternative explanations have been argued (Connette et al. 2015). Resurveys of Hairston&rsquo;s 1940s transects found montane species&rsquo; lower limits moving <em>down</em> as forests regrew (Moskwik 2014). Simple upslope-retreat models do not capture that.</p>
+          </div>
+          <div>
+            <h3>Collection, rocks and storms</h3>
+            <p>Collection is a documented concern for crevice-dwelling green salamanders; a screwdriver found wedged in a Jackson County crevice was read as evidence of pet collecting. After Helene, 25 Hickory Nut Gorge green salamanders were rescued into a captive program at the NC Zoo, from a pre-storm population estimated at 200&ndash;500. Rock stacking and in-stream rock moving kill hellbenders and stream <i>Desmognathus</i>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FIELDWORK -->
+    <section class="section practice" id="fieldwork" aria-labelledby="fieldTitle">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 id="fieldTitle">Working in the field</h2>
+          <p>Western North Carolina is a patchwork of national park, national forest, state, tribal and private land, and each needs its own permission on top of the state license.</p>
+        </header>
+        <div class="cols">
+          <div>
+            <figure style="margin:0 0 32px">
+              <img src="assets/img/hellbender-2.jpg" alt="A survey biologist holding an eastern hellbender in a mesh net beside a mountain stream" loading="lazy" style="border-radius:6px;cursor:zoom-in" data-lightbox="Eastern hellbender in hand during a 2013 multi-agency survey of North Carolina mountain streams. Photo: Gary Peeples, USFWS (public domain).">
+              <figcaption class="fig-cap">Hellbender in hand during a 2013 multi-agency survey of NC mountain streams. Photo: Gary Peeples, USFWS.</figcaption>
+            </figure>
+            <h3 style="font-size:var(--step-1);margin-bottom:14px">Permits</h3>
+            <dl class="kv">
+              <dt>NCWRC collection license</dt><dd>Scientific Wildlife Collection License through Go Outdoors NC. Apply at least three months ahead with a research proposal and IACUC approval where applicable. It is renewed every year and expires 31 December. <a href="https://www.ncwildlife.gov/node/270">NCWRC</a></dd>
+              <dt>NCWRC endangered species permit</dt><dd>Required in addition to the license for any E, T or SC species, including hellbender, mudpuppy and both green salamanders. Data must be reported before renewal.</dd>
+              <dt>Smokies and Blue Ridge Parkway</dt><dd>NPS Research Permit and Reporting System (<a href="https://irma.nps.gov/RPRS">irma.nps.gov/RPRS</a>); collecting falls under 36 CFR 2.5.</dd>
+              <dt>NC State Parks</dt><dd>Research Activity Permit for any research, including Chimney Rock, Gorges, Grandfather Mountain, Mount Mitchell and South Mountains.</dd>
+              <dt>National Forests in NC</dt><dd>Contact the ranger district (Pisgah, Grandfather, Appalachian, Nantahala, Cheoah, Tusquitee). Removing rocks from streams on national forest land is illegal.</dd>
+              <dt>Qualla Boundary</dt><dd>Eastern Band of Cherokee Indians lands need tribal authorization.</dd>
+            </dl>
+          </div>
+          <div class="prose">
+            <h3>Decontamination</h3>
+            <p>Follow the Northeast and national PARC guidance (Bletz et al. 2023, <i>Herpetological Review</i> 54:200&ndash;203), which is set to kill Bsal, not just Bd. Use one of these, and allow five minutes of contact in the field:</p>
+            <ul>
+              <li>Virkon Aquatic at 1%, 2 minutes minimum.</li>
+              <li>Sodium hypochlorite at 1.6%, 5 minutes. That is about 7 cups of 5.25% household bleach per gallon, roughly ten times the old Bd-only strength.</li>
+              <li>Ethanol at 70%, 1 minute, for calipers and small tools.</li>
+            </ul>
+            <p>Mix and use bleach at least 50 m from water. Change gloves between animals, and bag animals separately.</p>
+            <h3>Rocks, nests and locations</h3>
+            <ul>
+              <li>Leave known or likely hellbender nest rocks alone from August through December (nesting starts late August; eggs take 10&ndash;12 weeks). Use snorkel surveys, cameras, eDNA or nest boxes instead. Any rock you lift goes back exactly as it was, ideally with the animal released beside it rather than underneath.</li>
+              <li>Do not publish point localities for green salamanders, hellbenders, Weller&rsquo;s or the narrow endemics. NCNHP data terms require sensitive records to be generalized. iNaturalist obscures to a 0.2&deg; cell, but open records nearby can give the site away.</li>
+              <li>Follow the ASIH/HL/SSAR <i>Guidelines for Use of Live Amphibians and Reptiles in Field and Laboratory Research</i>.</li>
+            </ul>
+            <h3>Long-term sites</h3>
+            <p>Highlands Biological Station, administered by Western Carolina University, has hosted plethodontid research for generations (Bruce 2017 gives the history). Coweeta Hydrologic Laboratory in Macon County has been an experimental forest since 1934 and an LTER site from 1980 to 2020. The Smokies&rsquo; All Taxa Biodiversity Inventory, run with Discover Life in America, produced the first new vertebrate from that inventory, <i>Desmognathus gvnigeusgwotli</i>, described in 2022.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REFERENCES -->
+    <section class="section" id="references" aria-labelledby="refTitle">
+      <div class="wrap">
+        <header class="section-head">
+          <h2 id="refTitle">References</h2>
+          <p>Primary literature, regulatory actions and agency sources behind this page.</p>
+        </header>
+        <ol class="refs" id="refs"></ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>Compiled October 2026 from the cited literature and agency sources. Taxonomy in <i>Desmognathus</i> in particular is moving quickly. Where SSAR standard names and recent revisions disagree, the species accounts say so. Corrections are welcome through the <a href="https://github.com/tommyorndorff/extra-ransom">site repository</a>.</p>
+      <details class="credits">
+        <summary>Photo credits</summary>
+        <ul id="creditList"></ul>
+      </details>
+      <p style="margin-top:24px"><a href="/">&larr; Back to extra-ransom</a></p>
+    </div>
+  </footer>
+
+  <dialog class="dossier" id="dossier" aria-labelledby="dossierTitle">
+    <div id="dossierInner"></div>
+  </dialog>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Photo viewer">
+    <button type="button" class="lb-close" id="lbClose" aria-label="Close photo">&times;</button>
+    <img id="lbImg" alt="">
+    <p id="lbCap"></p>
+  </dialog>
+
+  <script src="js/data.js?v=20261031"></script>
+  <script src="js/credits.js?v=20261031"></script>
+  <script src="js/app.js?v=20261031"></script>
+</body>
+</html>

@@ -58,6 +58,27 @@ A personal build log — bamboo fly rods, woodworking, coffee roasting, and what
 >}}
 {{< /hextra/feature-grid >}}
 
+<h2 class="not-prose hx:text-2xl hx:font-bold hx:tracking-tight hx:mt-16 hx:mb-2">Standalone pages</h2>
+
+<p class="not-prose hx:text-gray-600 hx:dark:text-gray-400 hx:mb-6">
+Self-contained interactive pages that live outside the docs tree.
+</p>
+
+{{< hextra/feature-grid cols="2" >}}
+{{< hextra/feature-card
+  title="Mustang & Company"
+  subtitle="The P-51 and nine other WWII aircraft — anatomy, a working cockpit, escort range, and a filterable hangar."
+  link="/warbirds/"
+  icon="paper-airplane"
+>}}
+{{< hextra/feature-card
+  title="Salamanders of Western North Carolina"
+  subtitle="Hellbenders to pygmy salamanders — taxonomy, ranges, elevation and stream gradients, and conservation status for the world's salamander hotspot."
+  link="/salamanders/"
+  icon="beaker"
+>}}
+{{< /hextra/feature-grid >}}
+
 <hr class="hx:mt-16 hx:mb-6 hx:border-gray-200 hx:dark:border-neutral-800" />
 
 <p class="hx:text-sm hx:text-gray-500 hx:dark:text-gray-400 hx:mb-8">
