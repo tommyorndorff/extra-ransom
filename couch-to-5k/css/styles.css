@@ -199,3 +199,8 @@ table.log tr.skipped td { color: var(--muted); }
 .trow.head .tot { visibility: hidden; }
 @media (max-width: 600px) { .trow { grid-template-columns: 24px repeat(12, minmax(0, 1fr)); } .trow .tot { grid-column: 2 / -1; text-align: left; padding: 0 0 8px; } .trow.head .tot { display: none; } }
 .panel .hint { margin-top: 10px; }
+
+/* Garmin file import */
+.import { background: color-mix(in srgb, var(--walk) 12%, var(--card)); border: 1px dashed var(--walk); border-radius: 12px; padding: 10px 12px; display: flex; flex-direction: column; gap: 6px; align-items: flex-start; }
+.importmsg { margin: 0; font-size: 13px; color: var(--muted); }
+.importmsg.bad { color: var(--accent); font-weight: 600; }
