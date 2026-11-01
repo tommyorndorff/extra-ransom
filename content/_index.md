@@ -52,6 +52,24 @@ A personal build log — bamboo fly rods, woodworking, coffee roasting, and what
   link="/docs/coffee-roasting/"
   icon="fire"
 >}}
+{{< hextra/feature-card
+  title="Hydroponics"
+  subtitle="A 3D-printed tower in the garage — parts, pump and pot, pH/EC targets, seed starting, and grow-light setup."
+  link="/docs/hydroponics/"
+  icon="sun"
+>}}
+{{< hextra/feature-card
+  title="Fishing"
+  subtitle="Trip dossiers — Western NC, Colorado, Yellowstone, and the South Carolina coast."
+  link="/docs/fishing/"
+  icon="map"
+>}}
+{{< hextra/feature-card
+  title="Miscellany"
+  subtitle="Mocktails, a CO2 tank conversion, and whatever else doesn't fit elsewhere."
+  link="/docs/miscellany/"
+  icon="collection"
+>}}
 {{< /hextra/feature-grid >}}
 
 <h2 class="not-prose hx:text-2xl hx:font-bold hx:tracking-tight hx:mt-16 hx:mb-2">Standalone pages</h2>

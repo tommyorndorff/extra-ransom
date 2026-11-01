@@ -1,5 +1,5 @@
 ---
-title: "Miscellaneous"
+title: "Bamboo Chopsticks"
 weight: 400
 aliases:
   - /docs/projects/chopsticks/
