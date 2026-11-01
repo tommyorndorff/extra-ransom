@@ -1,21 +1,24 @@
 ---
-title: "Rod 002: 6'6\" 1pc Light Spinning (French Broad)"
+title: "Rod 002: 6'6\" 2pc Light Spinning (French Broad)"
 date: 2026-10-31
 weight: 200
 ---
 
-A one-piece split-cane **spinning** rod for winter fishing on the French Broad
-around **Hap Simpson Park in Brevard**, late November through December. It's
-milled full-length on the Morgan Hand Mill's extension bed. This is my first
-spinning rod, so the page also covers the spinning basics a fly-rod builder
-doesn't already know: power classes, the reel seat, guides, the reel, and lures.
+A two-piece split-cane **spinning** rod for winter fishing on the French Broad
+around **Hap Simpson Park in Brevard**, late November through December. The
+joint is a **spliced (scarf) joint**, with a ferrule as the fallback, and
+both sections are milled on the standard Morgan Hand Mill bed. This is my
+first spinning rod, so the page also covers the spinning basics a fly-rod
+builder doesn't already know: power classes, the reel seat, guides, the
+reel, and lures.
 
-> **The spec in one line:** 6'6", one piece, hex, **light power / moderate-fast
-> action**, 4–6 lb line, lures **1/16–1/4 oz** (designed around 1/8 oz),
-> sliding-ring cork grip, a 1000-size reel.
+> **The spec in one line:** 6'6", two piece (splice or 12/64 ferrule), hex,
+> **light power / moderate-fast action**, 4–6 lb line, lures **1/16–1/4 oz**
+> (designed around 1/8 oz), sliding-ring cork grip, a 1000-size reel.
 >
-> **Status:** design only. The taper below hasn't been cut yet. Check it in
-> Hexrod before planing (see [Taper](#taper)).
+> **Status:** design only. The taper below hasn't been cut yet. It's been
+> checked against the library's spinning rods in caneDNA (see
+> [Taper](#taper)).
 
 ## The water: French Broad at Hap Simpson, Nov–Dec
 
@@ -78,49 +81,66 @@ the hand. That's the feel I'm after here.
 |---------------|-------------------------------------------------------|
 |geometry       |hex (6)                                                |
 |rod length     |6 ft 6 in (78")                                        |
-|pieces         |1 (no ferrule)                                         |
+|pieces         |2, joint at **39"** (spliced, or a 12/64 ferrule)      |
 |power / action |light / moderate-fast                                  |
 |line           |4–6 lb mono                                            |
 |lure weight    |1/16–1/4 oz (design point 1/8 oz)                      |
 |tip            |0.080" → tiptop tube **6/64**                          |
-|butt (grip)    |0.268–0.270"                                           |
+|butt (grip)    |0.279–0.281"                                           |
 |handle         |12" full cork, two sliding rings                       |
 |guides         |6 single-foot + tiptop (16 mm stripper)                |
-|strip length   |**89"** (78 + 4 tip + 5 butt + 2 hold-down)            |
+|strip length   |~50" per section (incl. splice overlap and cut-offs)   |
 
-## Building it one piece
+## Two pieces: splice or ferrule
 
-The Morgan Hand Mill's **extension bed** (a 36" bolt-on) handles one-piece rods
-up to about **7'6"**, so a 6'6" rod fits with a foot to spare and **doesn't
-need a splice**. Per the [manual notes](/docs/morgan-hand-mill-manual/):
+The rod is two 39" sections, and the joint is chosen **after glue-up**: a
+spliced (scarf) joint or a 12/64 ferrule. Both sections fit the **standard
+Morgan bed**, so there's no extension bed, no 89" strips, and no long
+heat-treating oven. The class routine (5–6' culm sections, normal oven)
+applies as-is.
 
-- Each strip is cut on **both finishing anvils, switching once**. The tip-to-butt
-  anvil changeover lands between bed stations **#7 and #8**.
-- Mill-stop **hole B** for rough and finish butt; **hole A** for finish tip.
-- Strip length = rod + 4" tip + 5" butt + 2" hold-down = **89"**.
+**Mill both sections long through the joint.** The tip section runs to about
+44" from the tip, and the butt section starts at about 34". That covers half a
+4.5" splice on each side of 39", plus cut-offs. Then pick the joint:
 
-What changes compared with the 2-piece class build:
+- **Splice (preferred).** Cut matching **4.5" scarf bevels** on opposite
+  faces, across the flats, from 36.75" to 41.25". 4.5" is about 23 times the
+  0.193" dimension. Joined, the two bevels restore the full cross-section, so
+  the rod bends like a one-piece and adds **no weight**. Whip each feather
+  end with a few turns of thread so it can't lift or split. At the river, lay
+  the bevels together, line up the guides, and wrap the joint tightly with
+  tape (cloth friction tape or self-amalgamating tape).
+- **Ferrule (fallback).** Trim both sections square at 39" and fit a **12/64
+  ferrule**. The 0.193" flats there are 12.4/64, the same fit as
+  [Rod 001](/docs/rod-builds/001-sir-d-taper/)'s 12/64 at 0.193". It's
+  convenient, but on a light spinner the ferrule outweighs the lure: a 12/64
+  is roughly 0.2 oz (my estimate) against a 1/8 oz lure.
 
-- **Culms.** The class method cuts culms into 5–6' sections. A one-piece needs
-  **~7'6"+ of clean culm** per strip. Take the strips from the lower 8' of a
-  12' culm so the butt gets the dense power fibers. Expect 5–6 nodes per strip.
-  Keep the 3×3 stagger, and keep nodes out of the top 6" (tiptop) and out of
-  the reel-ring area.
-- **Heat treating is the real constraint.** An 89" strip won't fit a kitchen
-  oven. Options, best first:
-  1. A **long tube oven**: an 8' steel or aluminum tube, heat gun, and a
-     thermometer at each end. Flip the strips end for end halfway through,
-     same as the forced-air note in the class sheet.
-  2. **Flame the culm** before splitting. This is period-correct: Paul Young's
-     1953 *Spin-Caster* was "medium flamed."
-  3. **Splice.** Scarf-join a butt strip and a tip strip with a long (3–4")
-     bevel. Stagger the six splices so no two land within ~6" of each other,
-     and keep them out of the top 30" where the rod flexes most. This
-     triples the glue-line risk, so use it only if 1 and 2 are out.
-- **Handling.** A 7'+ strip whips around on the bench and in the binder. Support
-  it on both ends while planing, and bind in one pass end to end.
-- **Hanging to dry and storage.** You need a clear 8' vertical drop to hang the
-  blank. A finished rod in a 6'10" tube rides diagonally in most cars.
+```goat
+ -----------------------------------------------------------------------
+   tip section                           /                  butt section
+                                        /
+                                       /
+                                      /
+                                     /
+ -----------------------------------------------------------------------
+   scarf runs 36.75" -> 41.25" from the tip (4.5"); not to scale
+   whip both feather ends; tape the whole joint each outing
+```
+
+| | Splice | 12/64 ferrule |
+|---|---|---|
+| Weight at mid-rod | none | ~0.2 oz, more than the lure |
+| Action (caneDNA) | same as a one-piece | butt works ~6–10% harder at 45–60" |
+| Setup at the river | tape it, ~1 minute | push it together |
+| Failure modes | feather edges chip if not whipped; align by eye | stiff spot ~2.5" long; ferrule fit |
+
+Other notes:
+
+- **Culms and nodes:** a 3×3 stagger per section, as in the class build. Keep
+  nodes out of the scarf (36–42"), the top 6" (tiptop), and the reel-ring area.
+- **Guides near the joint:** put one guide just outside each end of the
+  splice. They double as alignment marks when you tape up.
 
 ## Taper
 
@@ -132,10 +152,12 @@ bamboo spinning tapers on
 - the **T&T Classic 5'6"** (2–4 lb, to 1/4 oz): tip 0.072
 - **Paul H. Young's 6'4" Spin-Caster**: tip 0.096, a heavier tip
 
-My taper scales Tyree's rod to 78" with a nearly straight taper (the method
-most of those builders describe: ~0.014–0.016" per 5" station) and a flat,
-slightly thickened butt under the grip. A tip at 0.080 follows Ian Kearney's
-advice that a light open-face rod "needs to come down to closer to .075."
+The starting point scaled Tyree's rod to 78" with a nearly straight taper
+(~0.014–0.016" per 5" station). A tip at 0.080 follows Ian Kearney's advice
+that a light open-face rod "needs to come down to closer to .075." I then
+ran the taper through **caneDNA**, my RodDNA-style taper engine, and
+stiffened it **+4% from 10" to 60"**, with the tip left as-is. That's the
+"variant D" in the table below.
 
 | Inches from tip | Dimension (flats) | Notes |
 |---:|---:|---|
@@ -144,82 +166,95 @@ advice that a light open-face rod "needs to come down to closer to .075."
 | 5  | 0.088 | |
 | 10 | 0.104 | |
 | 15 | 0.120 | |
-| 20 | 0.135 | |
-| 25 | 0.150 | |
-| 30 | 0.164 | |
-| 35 | 0.178 | |
-| 40 | 0.191 | |
-| 45 | 0.205 | |
-| 50 | 0.219 | |
-| 55 | 0.233 | |
-| 60 | 0.247 | |
-| 65 | 0.261 | |
+| 20 | 0.136 | |
+| 25 | 0.152 | |
+| 30 | 0.167 | |
+| 35 | 0.182 | |
+| 39 | 0.193 | **joint** (splice center / 12/64 ferrule) |
+| 40 | 0.196 | |
+| 45 | 0.211 | |
+| 50 | 0.226 | |
+| 55 | 0.241 | |
+| 60 | 0.257 | |
+| 65 | 0.271 | |
 | 66 | — | front of cork |
-| 70 | 0.268 | under grip |
-| 75 | 0.270 | under grip |
-| 78 | 0.270 | butt |
-| 80–85 | 0.270 | extension (cut off) |
+| 70 | 0.279 | under grip |
+| 75 | 0.281 | under grip |
+| 78 | 0.281 | butt |
 
-> **Sanity check, not a substitute for Hexrod.** I ran a rough static-stress
-> comparison: a point lure load at the tip plus the cane's own weight,
-> stress = M / (0.1203·d³). At **1/8 oz** this taper's stress curve is
-> **flat from 15" to the grip** and sits at the same level as Tyree's proven
-> 6' rod, with a slightly protected tip.
-> - At **1/4 oz** the load moves toward the tip.
-> - At **1/16 oz** the rod's own weight dominates and the butt does more of
->   the work.
->
-> That's the moderate-fast behavior I want, centered on 1/8 oz. **Before
-> cutting, run it through [Hexrod](https://www.hexrod.net/Hexrod_doc/hexrod-doc.html)**
-> (it models casting load and gives stress at each 5" station) and compare it
-> against Tyree's 6'.
+### caneDNA results
+
+caneDNA uses RodDNA's casting-load model. I compared this taper against the
+16 bamboo spinning rods in its library, including "Spin Rod 6' 1 pc.", which
+is essentially Tyree's 6'. For the lures, each lure was modeled as a weight
+at the tip with a 4× impact factor. Stress is averaged from 10" to the grip;
+lower stress means a stiffer rod.
+
+| Taper | Stress @ 1/16 oz | @ 1/8 oz | @ 1/4 oz | Recovery (RodDNA load) |
+|---|---:|---:|---:|---:|
+| First draft (straight Tyree scale-up) | 54k | 67k | 92k | 1.87 Hz |
+| **Variant D (this taper)** | 51k | **63k** | 87k | **2.00 Hz** |
+| Tyree 6' 1pc (reference) | 52k | 65k | 91k | 2.42 Hz |
+
+- **Stress level:** per lure weight, the rod loads like Tyree's proven 6'.
+  It sits between the ultralight T&T (higher stress) and the 6–10 lb 7'
+  spinners (lower), which fits the light rating.
+- **Recovery:** the first draft was the slowest-recovering rod of any 6'+
+  spinner in the library. Scaling Tyree's 2.42 Hz to 78" predicts about 2.06,
+  and variant D recovers at 2.00. So D is Tyree's rod at 6'6".
+- **Shape:** stress rises toward the butt with light lures, because the
+  cane's own weight dominates. It flattens at 1/4 oz.
+- **Ferrule:** a ~0.2 oz 12/64 ferrule at 39" raises butt stress 6–10%
+  between 45" and 60". That's within the variation from one culm to the next,
+  so the taper doesn't change. With RodDNA's own heavier default ferrule
+  weight (0.53 oz) it's about +30%.
+- **Caveats:** the frequencies assume a cane stiffness (E) of 2.4 million psi,
+  so compare them between rods rather than as absolutes. This isn't Hexrod;
+  [Hexrod](https://www.hexrod.net/Hexrod_doc/hexrod-doc.html) only models fly
+  lines.
 
 ### Morgan Hand Mill settings
 
 Oversize columns follow the class sheet: rough **+0.070**, Hand Mill
 **+0.030**, finish **+0.003** (all per strip, i.e. added to the half
-dimension). **Bed rise** is the cumulative raise from the thickest station in
-each half, the same convention as [Rod 001](/docs/rod-builds/001-sir-d-taper/).
-The largest change between adjacent stations is 0.008", well under the bed's
-0.020" limit.
+dimension). The **MHM Setting** is the bed rise from the thickest station
+in each section, the same convention and station layout as
+[Rod 001](/docs/rod-builds/001-sir-d-taper/). Each section's thin end sits
+at #12 with the extension at #13. The largest change between adjacent
+stations is 0.008", well under the bed's 0.020" limit. caneDNA estimates
+hold-down **hole E** for the tip and **hole D** for the butt.
 
-> **TODO before setting the bed:** map these 5" positions onto the
-> extension-bed station numbers from the manual's extension-bed chapter. The
-> tip/butt switch lands between #7 and #8. My notes don't record the
-> extension stations' numbering, so the station column is left blank on
-> purpose.
+__Tip section: −5 to 45 in__ (finished 0–39"; long to 44" for the splice)
 
-__Tip anvil: −5 to 45 in__
-
-|Inches|Rod Dim|Half Dim|Rougher Oversize|MHM Oversize|Finish Oversize|Bed rise|Station|
+|Inches|Rod Dim|Half Dim|Rougher Oversize|MHM Oversize|Finish Oversize|MHM Setting|Station|
 |-----:|------:|-------:|-------:|-------:|-------:|-------:|---:|
-|−5|0.076|0.0380|0.1080|0.0680|0.0410|0.0645| |
-|0 |0.080|0.0400|0.1100|0.0700|0.0430|0.0625| |
-|5 |0.088|0.0440|0.1140|0.0740|0.0470|0.0585| |
-|10|0.104|0.0520|0.1220|0.0820|0.0550|0.0505| |
-|15|0.120|0.0600|0.1300|0.0900|0.0630|0.0425| |
-|20|0.135|0.0675|0.1375|0.0975|0.0705|0.0350| |
-|25|0.150|0.0750|0.1450|0.1050|0.0780|0.0275| |
-|30|0.164|0.0820|0.1520|0.1120|0.0850|0.0205| |
-|35|0.178|0.0890|0.1590|0.1190|0.0920|0.0135| |
-|40|0.191|0.0955|0.1655|0.1255|0.0985|0.0070| |
-|45|0.205|0.1025|0.1725|0.1325|0.1055|0.0000| |
+|−5|0.076|0.0380|0.1080|0.0680|0.0410|0.0675|13|
+|0|0.080|0.0400|0.1100|0.0700|0.0430|0.0655|12|
+|5|0.088|0.0440|0.1140|0.0740|0.0470|0.0615|11|
+|10|0.104|0.0520|0.1220|0.0820|0.0550|0.0535|10|
+|15|0.120|0.0600|0.1300|0.0900|0.0630|0.0455|9|
+|20|0.136|0.0680|0.1380|0.0980|0.0710|0.0375|8|
+|25|0.152|0.0760|0.1460|0.1060|0.0790|0.0295|7|
+|30|0.167|0.0835|0.1535|0.1135|0.0865|0.0220|6|
+|35|0.182|0.0910|0.1610|0.1210|0.0940|0.0145|5|
+|40|0.196|0.0980|0.1680|0.1280|0.1010|0.0075|4|
+|45|0.211|0.1055|0.1755|0.1355|0.1085|0.0000|3|
 
-__Butt anvil: 35 to 85 in__
+__Butt section: 30 to 80 in__ (finished 39–78"; long to 34" for the splice)
 
-|Inches|Rod Dim|Half Dim|Rougher Oversize|MHM Oversize|Finish Oversize|Bed rise|Station|
+|Inches|Rod Dim|Half Dim|Rougher Oversize|MHM Oversize|Finish Oversize|MHM Setting|Station|
 |-----:|------:|-------:|-------:|-------:|-------:|-------:|---:|
-|35|0.178|0.0890|0.1590|0.1190|0.0920|0.0460| |
-|40|0.191|0.0955|0.1655|0.1255|0.0985|0.0395| |
-|45|0.205|0.1025|0.1725|0.1325|0.1055|0.0325| |
-|50|0.219|0.1095|0.1795|0.1395|0.1125|0.0255| |
-|55|0.233|0.1165|0.1865|0.1465|0.1195|0.0185| |
-|60|0.247|0.1235|0.1935|0.1535|0.1265|0.0115| |
-|65|0.261|0.1305|0.2005|0.1605|0.1335|0.0045| |
-|70|0.268|0.1340|0.2040|0.1640|0.1370|0.0010| |
-|75|0.270|0.1350|0.2050|0.1650|0.1380|0.0000| |
-|80|0.270|0.1350|0.2050|0.1650|0.1380|0.0000| |
-|85|0.270|0.1350|0.2050|0.1650|0.1380|0.0000| |
+|30|0.167|0.0835|0.1535|0.1135|0.0865|0.0570|13|
+|35|0.182|0.0910|0.1610|0.1210|0.0940|0.0495|12|
+|40|0.196|0.0980|0.1680|0.1280|0.1010|0.0425|11|
+|45|0.211|0.1055|0.1755|0.1355|0.1085|0.0350|10|
+|50|0.226|0.1130|0.1830|0.1430|0.1160|0.0275|9|
+|55|0.241|0.1205|0.1905|0.1505|0.1235|0.0200|8|
+|60|0.257|0.1285|0.1985|0.1585|0.1315|0.0120|7|
+|65|0.271|0.1355|0.2055|0.1655|0.1385|0.0050|6|
+|70|0.279|0.1395|0.2095|0.1695|0.1425|0.0010|5|
+|75|0.281|0.1405|0.2105|0.1705|0.1435|0.0000|4|
+|80|0.281|0.1405|0.2105|0.1705|0.1435|0.0000|3|
 
 ## Handle and reel seat
 
@@ -314,8 +349,8 @@ of rod, plus one.
 | 11" | 6 mm | |
 | 18" | 7 mm | |
 | 26" | 8 mm | |
-| 35.5" | 10 mm | |
-| 47" | **16 mm**, high frame | stripper, about 22" ahead of the reel foot |
+| 35" | 10 mm | just tip-side of the splice (36.75–41.25"), so it doubles as an alignment mark |
+| 47" | **16 mm**, high frame | stripper, about 22" ahead of the reel foot; butt-side alignment mark |
 
 **These are starting positions.** Tape the guides on, mount the reel, and run
 the line through. Then do a **static load test**: tie the line off and bend the
@@ -394,13 +429,14 @@ finished, so **stay off redds**: the clean, light-colored gravel patches.
 
 ## Build checklist
 
-1. Run the taper in Hexrod and compare it against Tyree's 6'. Adjust before
-   cutting.
-2. Map the 5" positions to extension-bed station numbers (TODO above).
-3. Solve heat treating for 89" strips: tube oven, flamed culm, or splice.
-4. Select 12' culms, take strips from the lower 8', and stagger nodes 3×3.
-5. Rough → heat-treat → finish (both anvils, switching once) → dry bind →
-   glue.
+1. ~~Check the taper~~: done in caneDNA (variant D, see [Taper](#taper)).
+2. Split culms into 5–6' sections as in the class build. Stagger nodes 3×3,
+   and keep them out of the 36–42" splice zone.
+3. Rough → heat-treat → finish each section on the standard bed. Mill the tip
+   to 44" and the butt from 34" so both joints stay possible.
+4. Dry bind, then glue both sections.
+5. Choose the joint: cut and whip the 4.5" scarf bevels (36.75–41.25"), or
+   trim square at 39" and fit a 12/64 ferrule.
 6. Shape the 12" cork; fit the reel foot and rings at about 8.5" from the butt.
 7. Tape the guides and do the static load test, then a casting test. Then wrap
    and finish.
