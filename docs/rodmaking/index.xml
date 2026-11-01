@@ -1,0 +1,578 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>extra-ransom, super-chainsaw – Rodmaking</title><link>https://www.extra-ransom.net/docs/rodmaking/</link><description>Recent content in Rodmaking on extra-ransom, super-chainsaw</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.extra-ransom.net/docs/rodmaking/index.xml" rel="self" type="application/rss+xml"/><item><title>Morgan Hand Mill</title><link>https://www.extra-ransom.net/docs/rodmaking/morgan-hand-mill/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/rodmaking/morgan-hand-mill/</guid><description>
+&lt;h1&gt;Tom Morgan Bamboo Build Class&lt;/h1&gt;&lt;p&gt;These are the notes from the class. They were given out on sheets of paper. I&amp;rsquo;ve re-written them here and amended them where I needed additional notes.&lt;/p&gt;
+&lt;h2&gt;Split Culms&lt;span class="hx:absolute hx:-mt-20" id="split-culms"&gt;&lt;/span&gt;
+&lt;a href="#split-culms" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Choose culms. Bottom of the culms are used for the butts. Top of the culms are used for tips&lt;/li&gt;
+&lt;li&gt;Nodes are spaced closer together at the bottom. They&amp;rsquo;re wider at the top&lt;/li&gt;
+&lt;li&gt;The goal is for more &lt;strong&gt;power fibers&lt;/strong&gt; at the bottom of the rod blank&lt;/li&gt;
+&lt;li&gt;Cut culms to &lt;strong&gt;5-6&amp;rsquo;&lt;/strong&gt; sections: one for bottom &amp;amp; one for top&lt;/li&gt;
+&lt;li&gt;Inspect for depth of power fibers&lt;/li&gt;
+&lt;li&gt;Split into strip with star splitter, mallet &amp;amp; pipe. Put the tip of the culm up&lt;/li&gt;
+&lt;li&gt;Mark butt strips (B) and tip strips (T)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Strip Selection &amp;amp; Node Spacing&lt;span class="hx:absolute hx:-mt-20" id="strip-selection--node-spacing"&gt;&lt;/span&gt;
+&lt;a href="#strip-selection--node-spacing" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Lay out &lt;strong&gt;butt strips&lt;/strong&gt; with lowest part of culm to the right&lt;/li&gt;
+&lt;li&gt;Stagger nodes into 3/3 configuration&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;Mark 8 strips to cut off (4 for each stagger). That&amp;rsquo;s 3 + 1 extra&lt;/li&gt;
+&lt;li&gt;Cut strips to length with chop saw or with hack saw&lt;/li&gt;
+&lt;li&gt;Lay out strips again in same node spacing config&lt;/li&gt;
+&lt;li&gt;Mark right ends in 2 different colors, one for each node alignment&lt;/li&gt;
+&lt;li&gt;Mark right end of each strip as butt section (B)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt; tip end butt end
+1 --*-----------*-----------*-----------*-----------*-- red
+2 ------*-----------*-----------*-----------*----------- blue
+3 --*-----------*-----------*-----------*-----------*-- red
+4 ------*-----------*-----------*-----------*----------- blue
+5 --*-----------*-----------*-----------*-----------*-- red
+6 ------*-----------*-----------*-----------*----------- blue
+* = node (node spacing tightens toward the butt end)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Repeat for the tip sections.&lt;/p&gt;
+&lt;h2&gt;Prepare Strips for Planing&lt;span class="hx:absolute hx:-mt-20" id="prepare-strips-for-planing"&gt;&lt;/span&gt;
+&lt;a href="#prepare-strips-for-planing" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Use froe to split &amp;amp; shave strips to consistent width and straightness&lt;/li&gt;
+&lt;li&gt;Sand dams with disc sander&lt;/li&gt;
+&lt;li&gt;Sand nodes on disc sander until flat &amp;amp; flush w/ enamel. Use a fancy sanding jig if you have one&lt;/li&gt;
+&lt;li&gt;Drill anchor screw hole 1&amp;quot; from right end&lt;/li&gt;
+&lt;li&gt;Separate butts and tips for separate planing&lt;/li&gt;
+&lt;li&gt;Soak strips in water overnight&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref"&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Rough Cut &amp;amp; Bevel &lt;strong&gt;Butt&lt;/strong&gt; Sections&lt;span class="hx:absolute hx:-mt-20" id="rough-cut--bevel-butt-sections"&gt;&lt;/span&gt;
+&lt;a href="#rough-cut--bevel-butt-sections" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Set up butt-roughing anvil&lt;/li&gt;
+&lt;li&gt;Check for trueness&lt;/li&gt;
+&lt;li&gt;Set butt taper from spreadsheet&lt;/li&gt;
+&lt;li&gt;Plane all butt strips to rough dimensions 0.070 over&lt;/li&gt;
+&lt;li&gt;Check for and repair curves using heat gun as needed&lt;/li&gt;
+&lt;li&gt;Choose 6 best strips and continue. Shelve the rest for future use&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Rough Cut &amp;amp; Bevel &lt;strong&gt;Tip&lt;/strong&gt; Sections&lt;span class="hx:absolute hx:-mt-20" id="rough-cut--bevel-tip-sections"&gt;&lt;/span&gt;
+&lt;a href="#rough-cut--bevel-tip-sections" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Set up tip-roughing anvil&lt;/li&gt;
+&lt;li&gt;Check for trueness&lt;/li&gt;
+&lt;li&gt;Set tip taper from spreadsheet&lt;/li&gt;
+&lt;li&gt;Plane all tip strips to rough dimensions 0.070 over&lt;/li&gt;
+&lt;li&gt;Check for and repair curves using heat gun as needed&lt;/li&gt;
+&lt;li&gt;Choose 6 best strips and continue. Shelve the rest for future use&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Heat Treat Strips&lt;span class="hx:absolute hx:-mt-20" id="heat-treat-strips"&gt;&lt;/span&gt;
+&lt;a href="#heat-treat-strips" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Bundle strips and place in 325 degrees oven for 45 minutes
+&lt;ul&gt;
+&lt;li&gt;45 minutes at 325 produces a &amp;ldquo;blond&amp;rdquo; color&lt;/li&gt;
+&lt;li&gt;20 minutes at 350 can also be used&lt;/li&gt;
+&lt;li&gt;Reference needed for results of this&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;If using a forced air oven&lt;sup id="fnref:3"&gt;&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref"&gt;3&lt;/a&gt;&lt;/sup&gt;, flip end-to-end after approx 20 minutes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Plane Butt &amp;amp; Tip Strips to 0.30 Over&lt;span class="hx:absolute hx:-mt-20" id="plane-butt--tip-strips-to-030-over"&gt;&lt;/span&gt;
+&lt;a href="#plane-butt--tip-strips-to-030-over" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Soak butt strips in water&lt;/li&gt;
+&lt;li&gt;Set up butt-finishing anvil&lt;/li&gt;
+&lt;li&gt;Zero out each station&lt;/li&gt;
+&lt;li&gt;True the anvil if necessary&lt;/li&gt;
+&lt;li&gt;Set butt taper from spreadsheet&lt;/li&gt;
+&lt;li&gt;Plane butt strips to 0.030 over final taper dimensions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Dry Bind Strips&lt;span class="hx:absolute hx:-mt-20" id="dry-bind-strips"&gt;&lt;/span&gt;
+&lt;a href="#dry-bind-strips" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This should be done at least once. Do this twice if time allows.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lay out butt strips using alternating color coded ends&lt;/li&gt;
+&lt;li&gt;Number the strips from 1 to 6. This is the order for the strips for the rest of the build&lt;/li&gt;
+&lt;li&gt;Lay out strips on tape in order, 1 to 6&lt;/li&gt;
+&lt;li&gt;Roll strip 6 to strip 1 then work the strips together&lt;/li&gt;
+&lt;li&gt;Bind butt once in a binder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Check Sections for Fit&lt;span class="hx:absolute hx:-mt-20" id="check-sections-for-fit"&gt;&lt;/span&gt;
+&lt;a href="#check-sections-for-fit" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This step is to remove glue seams (gaps) twists, and bends&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mark gaps and irregularities with a pencil&lt;/li&gt;
+&lt;li&gt;Sand and straighten strips at gaps using a sanding jig&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This step consists of slowly working down each of the strips, starting at the butt-end of the strip, and looking for gaps surrounding the nodes. If there was a gap at the node, place arrows on the enamel-side around the node. After all nodes are inspected, place the non-enamel side up in the sanding jig and sand this side. The gap&lt;/p&gt;
+&lt;p&gt;The gap (eventually will be a glue seam) exists because there is a &amp;ldquo;scoop&amp;rdquo; in the planed face. The intent of sanding is to lengthen that scoop so that when bound again, the strip can interface properly with its neighbor strip.&lt;/p&gt;
+&lt;h2&gt;Final Planing of Strips&lt;span class="hx:absolute hx:-mt-20" id="final-planing-of-strips"&gt;&lt;/span&gt;
+&lt;a href="#final-planing-of-strips" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Plane butt strips to 0.003 over final taper dimensions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This 0.003 over is to allow for enamel removal in a future step, plus moisture.&lt;/p&gt;
+&lt;h2&gt;Glue Up Section&lt;span class="hx:absolute hx:-mt-20" id="glue-up-section"&gt;&lt;/span&gt;
+&lt;a href="#glue-up-section" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Lay butt sections in order (1-6) on tape. Place tape at both ends of strips&lt;/li&gt;
+&lt;li&gt;Spread glue with toothbrush on all surfaces of strips. Work from right to left spreading glue but skip the portions above the tape. After glue is spread everywhere, also spread onto the strips over the taped sections. Goal is to keep the tape dry enough for it to stick&lt;/li&gt;
+&lt;li&gt;Roll strip 6 to strip 1&lt;/li&gt;
+&lt;li&gt;Bind butt twice in binder (once in both directions)&lt;/li&gt;
+&lt;li&gt;Roll out blank on marble slab with palms, checking and correcting gaps and twists&lt;/li&gt;
+&lt;li&gt;Roll out blank on marble slab with tape roller, gentle pressure down rod&lt;/li&gt;
+&lt;li&gt;Hang vertically until dry, tip-side up, with a weight at the bottom to encourage straightness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Sand Enamel from Blank&lt;span class="hx:absolute hx:-mt-20" id="sand-enamel-from-blank"&gt;&lt;/span&gt;
+&lt;a href="#sand-enamel-from-blank" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Cut off base of butt section&lt;/li&gt;
+&lt;li&gt;Sand each facet with rough and fine sanding blocks&lt;/li&gt;
+&lt;li&gt;When working on tip section, measure sanding strokes on each facet to ensure even removal on all sides&lt;/li&gt;
+&lt;li&gt;In class we were using Norton ProSand sandpaper in either 200 and 320 grit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="footnotes" role="doc-endnotes"&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;Common node spacings are Garrison-style, 3x3, and 2x2x2. See pg. 71 of Maurer &amp;amp; Elser&amp;rsquo;s &lt;em&gt;Fundamentals of Building a Bamboo Fly-Rod&lt;/em&gt;&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:2"&gt;
+&lt;p&gt;An easy solution is vinyl gutters. Lowes items &lt;a href="https://www.lowes.com/pd/Amerimax-Traditional-4-5-in-x-120-in-White-K-Style-Gutter/1000246309"target="_blank" rel="noopener"&gt;#279187&lt;/a&gt; &amp;amp; &lt;a href="https://www.lowes.com/pd/Amerimax-Traditional-Vinyl-K-Style-Left-Gutter-End-Cap/1000246317"target="_blank" rel="noopener"&gt;#279191&lt;/a&gt; combined with silicone or similar.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:3"&gt;
+&lt;p&gt;Check out &lt;a href="http://www.fneunemann.com/index.php?id=40"target="_blank" rel="noopener"&gt;Frank&amp;rsquo;s Personal Waste of Time Website&lt;/a&gt;. If that page goes down, try the &lt;a href="https://web.archive.org/web/20210803011042/http://www.fneunemann.com/index.php?id=40"target="_blank" rel="noopener"&gt;Wayback Machine archive&lt;/a&gt;&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description></item><item><title>Morgan Hand Mill Manual</title><link>https://www.extra-ransom.net/docs/rodmaking/morgan-hand-mill-manual/</link><pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/rodmaking/morgan-hand-mill-manual/</guid><description>
+&lt;h1&gt;The Morgan Hand Mill — Manual Reference&lt;/h1&gt;&lt;p&gt;A re-written, factual reference for the &lt;strong&gt;Morgan Hand Mill&lt;/strong&gt; — the machine, its
+parts, and the taper-setting model — distilled from the Morgan Hand Mill Manual
+(chapters A–R, rev. 2005–2013) by &lt;strong&gt;Tom Morgan Rodsmiths&lt;/strong&gt; (Tom Morgan &amp;amp; Gerri
+Carlson, Manhattan, MT).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note.&lt;/strong&gt; This page is a &lt;strong&gt;derived, factual digest&lt;/strong&gt; — specs, procedures, and
+the taper-setting model summarized in my own words for reference and education.
+The manual itself is copyrighted and is &lt;strong&gt;not&lt;/strong&gt; reproduced here. Source machine
+and maker contact: &lt;a href="https://www.troutrods.com"target="_blank" rel="noopener"&gt;troutrods.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It is the human-readable companion to the caneDNA &lt;code&gt;mhm_kb.json&lt;/code&gt; knowledge base,
+which grounds caneDNA&amp;rsquo;s Mill Settings and anvil-position visualizer in the
+actual machine.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;What the Machine Is&lt;span class="hx:absolute hx:-mt-20" id="what-the-machine-is"&gt;&lt;/span&gt;
+&lt;a href="#what-the-machine-is" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The Hand Mill is two self-aligning parts: an &lt;strong&gt;adjustable plane&lt;/strong&gt; that holds the
+cutters, and an &lt;strong&gt;adjustable bed&lt;/strong&gt; that holds the strip. The cutters shave both
+sides of a strip at once at a fixed bevel; the &lt;strong&gt;taper is set by the bed&lt;/strong&gt;, which
+raises the strip into the cutters station by station. The plane follows the
+grain rather than fighting it.&lt;/p&gt;
+&lt;p&gt;The redesigned plane (2004, developed with Dennis Detloff) has shipped since late
+2005 and adds an adjustable hard stop (from Joe Byrd) that repeats the finish
+depth for every strip.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt; plane (holds cutters, rides the base) hard stop
+&amp;#43;-----------------------------------&amp;#43; |
+| o o cutter head o o |=========[|]
+&amp;#43;-----------------------------------&amp;#43;
+====================================================== &amp;lt;- strip on anvil
+| anvil (supports strip only) |
+&amp;#43;----------------------------------------------------&amp;#43;
+| adjustable bed (push/pull screws set the taper) |
+&amp;#43;----------------------------------------------------&amp;#43;
+| base (chrome-plated reference bar) |
+&amp;#43;----------------------------------------------------&amp;#43;
+^ ^
+bed raised at each 5-in station bolted to aluminum angle&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;The Base&lt;span class="hx:absolute hx:-mt-20" id="the-base"&gt;&lt;/span&gt;
+&lt;a href="#the-base" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;key&lt;/th&gt;
+&lt;th&gt;value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;what&lt;/td&gt;
+&lt;td&gt;Chrome-plated cold-rolled steel bar the plane rides on — the taper reference surface&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;dimensions&lt;/td&gt;
+&lt;td&gt;5/8 × 1¾ × 72¾ in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mounting&lt;/td&gt;
+&lt;td&gt;Bolts to a 2 × 2 × 3/8 in, 75 in aluminum angle at &lt;strong&gt;7 points&lt;/strong&gt; (idea from John Miller) so accuracy doesn&amp;rsquo;t depend on bench flatness&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;capacity&lt;/td&gt;
+&lt;td&gt;Two-piece rods up to ~9 ft and various three-piece rods&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Install the aluminum angle with a slight &lt;strong&gt;~1/8 in upward bow&lt;/strong&gt; so the plane
+doesn&amp;rsquo;t dip in the middle; check by rocking the plane along the base. The
+vertical face has 7 slots on 12-in centers for the anchor screws.&lt;/p&gt;
+&lt;h2&gt;The Adjustable Bed&lt;span class="hx:absolute hx:-mt-20" id="the-adjustable-bed"&gt;&lt;/span&gt;
+&lt;a href="#the-adjustable-bed" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A steel bar sitting on top of the base, raised above it by push/pull screws every
+5 in to set the taper. The anvil sits on the bed; the strip sits on the anvil.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;key&lt;/th&gt;
+&lt;th&gt;value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;dimensions&lt;/td&gt;
+&lt;td&gt;5/8 × 3/4 × 68 in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;stations&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;#0 through #13&lt;/strong&gt; (14 stations) on 5-in centers, spanning 0–60 in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;station #0&lt;/td&gt;
+&lt;td&gt;No adjusting screw, only a locking screw — always held tight against the base&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;push screw&lt;/td&gt;
+&lt;td&gt;5/16-18 flat-head set screws&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;pull/lock&lt;/td&gt;
+&lt;td&gt;1/4-20 cap-head screws (bed attaches to base with 14 of these)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;To set a taper: loosen the cap-head (pull) screw, turn the hex-head (push) set
+screw in or out to change the bar gap. &lt;strong&gt;Do not over-tighten&lt;/strong&gt; — it warps the
+bed. Never adjust the bed by more than &lt;strong&gt;0.020 in between adjacent 5-in
+stations&lt;/strong&gt; or you may permanently damage it (matters for 3-piece / spey shim
+setups).&lt;/p&gt;
+&lt;h2&gt;The Anvils&lt;span class="hx:absolute hx:-mt-20" id="the-anvils"&gt;&lt;/span&gt;
+&lt;a href="#the-anvils" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Anvils are white &lt;strong&gt;HDPE&lt;/strong&gt; with embedded brass inserts. Critically, &lt;strong&gt;anvils only
+&lt;em&gt;support&lt;/em&gt; the strip — they do not set the taper&lt;/strong&gt; (the bed does), so they don&amp;rsquo;t
+wear as the taper changes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;5 anvils shipped:&lt;/strong&gt; butt-roughing, tip-roughing, butt-finishing, and two
+tip-finishing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hold-down stations:&lt;/strong&gt; finishing anvils have &lt;strong&gt;11 lettered (A–K)&lt;/strong&gt; positions;
+roughing anvils have &lt;strong&gt;3&lt;/strong&gt; (long / medium / short — short is for ~3-piece rods).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Top widths (finishing):&lt;/strong&gt; tip ~0.150 in, butt ~0.225 in.
+&lt;strong&gt;Top widths (roughing):&lt;/strong&gt; tip ~0.175 in, butt ~0.225 in.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Truing:&lt;/strong&gt; finishing anvils must be shaved flat between stations (with a
+carbide insert in the dial-holder/shaver) before use — target ±0.001 in
+(0.002 in TIR). &lt;strong&gt;Never recut the factory-installed reference anvil.&lt;/strong&gt; Never
+mill an anvil narrower than the smallest strip.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;The A–K Hold-Down Letters &amp;amp; the Mill Stop&lt;span class="hx:absolute hx:-mt-20" id="the-ak-hold-down-letters--the-mill-stop"&gt;&lt;/span&gt;
+&lt;a href="#the-ak-hold-down-letters--the-mill-stop" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The base has tapped holes on its right front labeled &lt;strong&gt;A–K&lt;/strong&gt;; matching letters
+are stamped on the bed just below the finishing anvils&amp;rsquo; 11 hold-down screws. A
+movable &lt;strong&gt;mill stop&lt;/strong&gt; screws into one lettered hole and does two jobs: it stops
+the plane so the cutters can&amp;rsquo;t hit the strip&amp;rsquo;s hold-down screw, and it gives an
+automatic plane stop matched to the rod section&amp;rsquo;s length.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Selection rule.&lt;/strong&gt; The strip&amp;rsquo;s &lt;strong&gt;tip always anchors between bed stations #12 and
+#13&lt;/strong&gt; (as close to #13 as possible) so the anvil stays widest at its tip. Choose
+the mill-stop letter from the bamboo hold-down screw&amp;rsquo;s position: set the mill so
+the cutters just clear the hold-down screw, then mount the stop just behind it —
+&lt;strong&gt;in most cases the mill-stop letter equals the hold-down letter.&lt;/strong&gt; Untapered
+rough cutting uses &lt;strong&gt;hole A&lt;/strong&gt; (rightmost).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Worked example (7 ft rod).&lt;/strong&gt; The strip is fastened in &lt;strong&gt;hole D&lt;/strong&gt; (4th from the
+right), putting the ferrule/tiptop point at station #12 with ~3 in of strip past
+it; the butt taper is set from station #3 (stations #2/#1/#0 left at zero).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For one-piece rods on the extension bed, use &lt;strong&gt;hole B&lt;/strong&gt; for rough/finish butt and
+&lt;strong&gt;hole A&lt;/strong&gt; for finish tip. Short (3-piece) sections may anchor farther up the
+anvil for support.&lt;/p&gt;
+&lt;h2&gt;Cutter Heads&lt;span class="hx:absolute hx:-mt-20" id="cutter-heads"&gt;&lt;/span&gt;
+&lt;a href="#cutter-heads" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Swappable heads for 8-, 6-, 5-, or 4-strip rods (&lt;strong&gt;6-strip is standard&lt;/strong&gt;).&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;head&lt;/th&gt;
+&lt;th style="text-align: right"&gt;included angle&lt;/th&gt;
+&lt;th style="text-align: right"&gt;hold-down shoe angle&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;8-strip&lt;/td&gt;
+&lt;td style="text-align: right"&gt;46°&lt;/td&gt;
+&lt;td style="text-align: right"&gt;—&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6-strip&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;strong&gt;61.5°&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: right"&gt;61.5°&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5-strip&lt;/td&gt;
+&lt;td style="text-align: right"&gt;73.5°&lt;/td&gt;
+&lt;td style="text-align: right"&gt;73.5°&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4-strip&lt;/td&gt;
+&lt;td style="text-align: right"&gt;92°&lt;/td&gt;
+&lt;td style="text-align: right"&gt;91.5°&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Morgan uses &lt;strong&gt;61.5°&lt;/strong&gt; for 6-strip (not the traditional 60°), per Winston
+practice, to reduce visible glue seams.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Inserts.&lt;/strong&gt; Two carbide inserts, 3 edges each; a set planes ~3–5 rods. Cut depth
+≤ 0.010 in/pass green, 0.001–0.003 in/pass heat-treated. Regular inserts are
+TPGW-321, 3/8 in inscribed circle, 0.015 in tip radius; since July 2011 supplied
+inserts are C5 carbide (harder), 15% relief, TiN-coated relief edge, diamond-lapped
+top. Install with tops parallel to the pocket; rotate/pair inserts to double edge
+life.&lt;/p&gt;
+&lt;h2&gt;The Measuring Block&lt;span class="hx:absolute hx:-mt-20" id="the-measuring-block"&gt;&lt;/span&gt;
+&lt;a href="#the-measuring-block" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A caliper-mounted 6061-T6 aluminum block that reads strip &lt;strong&gt;height&lt;/strong&gt; in
+per-geometry grooves. Calibrate with a &lt;strong&gt;#38 drill blank (0.100 in)&lt;/strong&gt;.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;groove&lt;/th&gt;
+&lt;th style="text-align: right"&gt;constant (drill height)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;61+ (6-strip)&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.152 in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;73+ (5-strip)&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.140 in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;91+ (4-strip)&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.123 in&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Add 0.100 / 0.200 in when a strip exceeds 0.100 in. Glue up ~6 measured sections
+to verify your own constants, since glue and pressure shift results slightly.&lt;/p&gt;
+&lt;h2&gt;The Taper-Setting Model&lt;span class="hx:absolute hx:-mt-20" id="the-taper-setting-model"&gt;&lt;/span&gt;
+&lt;a href="#the-taper-setting-model" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This is the heart of the machine, and the part most often confused.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Two separate steps.&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Set the taper.&lt;/strong&gt; Using the plane&amp;rsquo;s dial indicator, raise the bed at each
+5-in station to the correct height above the base.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mill.&lt;/strong&gt; Measure the &lt;strong&gt;strip height&lt;/strong&gt; with calipers / the measuring block
+as you cut, and stop at target. The hard stop then repeats that depth for
+every strip.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The station &amp;ldquo;setting&amp;rdquo; is&lt;/strong&gt; the cumulative rise of the bed at each station
+relative to a chosen reference (typically &lt;strong&gt;#2 = 0.000&lt;/strong&gt;). It equals
+&lt;em&gt;(half-dimension at reference) − (half-dimension at that station)&lt;/em&gt; =
+caneDNA&amp;rsquo;s &lt;code&gt;total_increase&lt;/code&gt;. &lt;strong&gt;It is not the strip height.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The strip height is&lt;/strong&gt; half the flat-to-flat rod dimension at that station
+(one strip). It is &lt;strong&gt;measured during milling, never set by the bed&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reference station.&lt;/strong&gt; Register the taper so the strip tip is near the anvil
+tip; for shorter rods start the taper at station #2 (or higher), not #0/#1, to
+avoid cutting the anvil too narrow at its tip.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Extend past length.&lt;/strong&gt; Continue the taper one or more stations past the rod&amp;rsquo;s
+end so strips have extra length for straight gluing (Morgan likes ≥ 5–6 in
+extra; min 3 in on tips).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;The Plane&amp;rsquo;s Dial&lt;span class="hx:absolute hx:-mt-20" id="the-planes-dial"&gt;&lt;/span&gt;
+&lt;a href="#the-planes-dial" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Calibrated dial reads 0–50 in 0.002-in steps; &lt;strong&gt;one revolution = 0.050 in of cut
+depth&lt;/strong&gt; (clockwise lowers). Dial indicator travel is 0–1 in at 0.001 in accuracy.
+A dovetail slide + gib runs the plane; backlash is removed by a spring-loaded
+Teflon plug (&lt;strong&gt;never remove it&lt;/strong&gt;). Nylon side pads (moly-impregnated) let it
+slide — set them 0.628–0.629 in apart with the supplied jig.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;RodDNA caveat (from manual chapter J).&lt;/strong&gt; Of RodDNA&amp;rsquo;s MHM Settings Report, use
+the &lt;strong&gt;Station #, Increment, Rod Dim, and Increase&lt;/strong&gt; columns; &lt;strong&gt;disregard &amp;ldquo;Form
+Depth&amp;rdquo;&lt;/strong&gt; (should be strip height) &lt;strong&gt;and &amp;ldquo;Settings&amp;rdquo;&lt;/strong&gt; (wrong on some tapers).
+This is why caneDNA computes &lt;code&gt;strip_depth&lt;/code&gt; + &lt;code&gt;total_increase&lt;/code&gt; itself rather
+than porting RodDNA&amp;rsquo;s report. Free taper sources with Hand Mill station
+settings: &lt;a href="https://www.roddna.com"target="_blank" rel="noopener"&gt;RodDNA.com&lt;/a&gt; and
+&lt;a href="https://www.hexrod.net"target="_blank" rel="noopener"&gt;hexrod.net&lt;/a&gt; (Frank Stetzer, with Chris Obuchowski).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Workflow, End to End&lt;span class="hx:absolute hx:-mt-20" id="workflow-end-to-end"&gt;&lt;/span&gt;
+&lt;a href="#workflow-end-to-end" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Split → prep / straighten nodes → drill anvil hole → rough cut (taper preset) →
+swap anvil → finish anvil, set taper, finish cut in many light passes.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Always mill &lt;strong&gt;butt → tip&lt;/strong&gt;, and mark the butt end. Grip &lt;em&gt;behind&lt;/em&gt; the adjusting
+head (never on it) with centered downward pressure; take many light passes and
+re-cut the first 2–3 in of each pass to full depth.&lt;/p&gt;
+&lt;h3&gt;Strip Preparation&lt;span class="hx:absolute hx:-mt-20" id="strip-preparation"&gt;&lt;/span&gt;
+&lt;a href="#strip-preparation" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Buy ≥ 10 poles (ideally 20+). Reject deep cuts, big dark splotches, and node
+heat marks; power fibers must run the full glued-section depth.&lt;/li&gt;
+&lt;li&gt;Wall thickness: &lt;strong&gt;butt 5/16–1/2 in, tip 3/16–5/16 in.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Node spacing: &lt;strong&gt;butt 9–14 in, tip 14–20 in.&lt;/strong&gt; Common three/three node match;
+avoid nodes at cut ends, ferrules, and tiptop.&lt;/li&gt;
+&lt;li&gt;Straighten with heat (gun 350–450 °F) and remove twist, especially the first
+18 in of butts; square or slightly inward-taper the strip sides.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Heat-treat to light brown&lt;/strong&gt; (raises MOE, resists set); &lt;em&gt;black = brittle.&lt;/em&gt;
+Remove maximum material before treating (harder afterward); rest treated
+strips ≥ 1 week to regain moisture.&lt;/li&gt;
+&lt;li&gt;Rough sections &lt;strong&gt;≥ 6 in over finish&lt;/strong&gt; (+~2 in on the butt for the anvil screw);
+split ~1/8 in wide.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Milling&lt;span class="hx:absolute hx:-mt-20" id="milling"&gt;&lt;/span&gt;
+&lt;a href="#milling" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rough&lt;/strong&gt; on a wide roughing anvil (strip + mill stop in hole A) to a 61.5°
+bevel just wider than the anvil; mount the hold-down shoe once an apex forms.
+The stainless, spring-loaded &lt;strong&gt;hold-down shoe&lt;/strong&gt; mounts in the head&amp;rsquo;s center
+hole and rides &lt;em&gt;ahead&lt;/em&gt; of the cutters, so it doesn&amp;rsquo;t affect accuracy — critical
+for slender tips and stiff quad strips. Clean it with alcohol / dry graphite
+only (never oil).&lt;/li&gt;
+&lt;li&gt;Then switch to a &lt;strong&gt;finishing anvil&lt;/strong&gt; and set the taper.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Measure strip height&lt;/strong&gt; three ways: micrometer + height/width chart,
+thread-wrapped strips, or the aluminum measuring block (most accurate). Don&amp;rsquo;t
+measure the apex directly (leftover &amp;ldquo;fuzz&amp;rdquo;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Finish in two stages:&lt;/strong&gt; cut ~0.015 in oversize, then install fresh sharp
+cutters and finish at &lt;strong&gt;0.001–0.002 in/pass&lt;/strong&gt;. Remove apex fuzz before gluing
+and saw off the thick held-down butt.&lt;/li&gt;
+&lt;li&gt;Minimum strip width: &lt;strong&gt;tip 0.200 in / butt 0.250 in.&lt;/strong&gt; Tip hold-down 2-56 (#43
+drill), butt hold-down 4-40 (1/8 in), hole ~1 in from the butt.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;7 ft #4 wt example (#12 ferrule):&lt;/strong&gt; strip height 0.096 in at the ferrule
+(station #12), 0.033 in at the tiptop.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Accessories&lt;span class="hx:absolute hx:-mt-20" id="accessories"&gt;&lt;/span&gt;
+&lt;a href="#accessories" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;accessory&lt;/th&gt;
+&lt;th&gt;what it does&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Hollow fluting cutter&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Hollows strip centers to cut weight (Stoner/Winston cross-section). Rollers 64/76/94° (64 std for 6-strip). Suggested wall 0.070 in (trout) / 0.085 in (steelhead-salmon). Leave the rod &lt;strong&gt;solid under ferrules&lt;/strong&gt; with a ~2.5 in transition; hollow after finish-cutting, butt→tip. Hollowing loses stiffness — increase section area ~2–5% to compensate.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Swelled butt kit&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Shims to raise the finishing anvil for a swelled butt. &lt;strong&gt;Max swell 0.060 in per strip / 0.120 in finished — do not exceed&lt;/strong&gt; (anvil damage). 100 shims (0.060/0.030/0.020/0.010 in) combine in 0.020-in steps; initial rise over 2.5 in.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Magic star cutter&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Alternate hollowing — an inverted-T with central support spokes (width 0.030–0.065 in). Square inserts remove more but leave ~80% of the triangle&amp;rsquo;s glue seam (weaker). Suggested wall 0.060–0.070 in (trout) / 0.075–0.085 in (steelhead-salmon).&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Extension bed&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;36 in bolt-on bed for &lt;strong&gt;one-piece rods up to ~7 ft 6 in&lt;/strong&gt;. The strip is cut on &lt;em&gt;both&lt;/em&gt; finishing anvils, switching once; the tip-butt transition lands between stations #7–#8. Strip length = rod + 4 in tip + 5 in butt + 2 in hold-down (e.g., 7 ft → 95 in).&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Enamel scraper&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;60°-groove anvils (with the dial-holder/shaver) to scrape enamel off beveled strips. The bed must have &lt;strong&gt;no taper&lt;/strong&gt; when shaving.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Reference &amp;amp; Further Reading&lt;span class="hx:absolute hx:-mt-20" id="reference--further-reading"&gt;&lt;/span&gt;
+&lt;a href="#reference--further-reading" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;No book covers the Hand Mill itself. The manual recommends:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Garrison &amp;amp; Carmichael, &lt;em&gt;A Master&amp;rsquo;s Guide to Building a Bamboo Fly Rod&lt;/em&gt; — the
+amateur&amp;rsquo;s &amp;ldquo;bible&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Howell, &lt;em&gt;The Lovely Reed&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Maurer &amp;amp; Elser, &lt;em&gt;Fundamentals of Building a Bamboo Fly-Rod&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Ray Gould; and the Stoner / McLane encyclopedias&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tom Morgan runs a private owners&amp;rsquo; list server (join by email via
+&lt;a href="https://www.troutrods.com"target="_blank" rel="noopener"&gt;troutrods.com&lt;/a&gt;). Free taper sources with Hand Mill
+station settings (including quads and pentas):
+&lt;a href="https://www.roddna.com"target="_blank" rel="noopener"&gt;RodDNA.com&lt;/a&gt; and
+&lt;a href="https://www.hexrod.net"target="_blank" rel="noopener"&gt;hexrod.net&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Source: The Morgan Hand Mill Manual (chapters A–R, rev. 2005–2013), Tom Morgan
+Rodsmiths. This is a factual reference re-written in my own words; the manual is
+copyrighted and not reproduced here.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Rod Tapers &amp; Tools</title><link>https://www.extra-ransom.net/docs/rodmaking/tapers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/rodmaking/tapers/</guid><description>
+&lt;h2&gt;RodLab&lt;span class="hx:absolute hx:-mt-20" id="rodlab"&gt;&lt;/span&gt;
+&lt;a href="#rodlab" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Windows software that does many complex rod form tasks. I need to eval this.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://sites.google.com/view/two-handed-software-rodlab/home"target="_blank" rel="noopener"&gt;Two Handed Software&amp;rsquo;s RodLab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;HexRod&lt;span class="hx:absolute hx:-mt-20" id="hexrod"&gt;&lt;/span&gt;
+&lt;a href="#hexrod" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href="https://www.hexrod.net/Hexrod_doc/hexrod-doc.html"target="_blank" rel="noopener"&gt;Documentation&lt;/a&gt; seems wordy but promising. Will need to review further.&lt;/p&gt;
+&lt;h2&gt;David Ray&amp;rsquo;s Taper Library&lt;span class="hx:absolute hx:-mt-20" id="david-rays-taper-library"&gt;&lt;/span&gt;
+&lt;a href="#david-rays-taper-library" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Originally at &lt;a href="http://www.uwm.edu/~stetzer/Tapers/drtapers/index.html"target="_blank" rel="noopener"&gt;http://www.uwm.edu/~stetzer/Tapers/drtapers/index.html&lt;/a&gt; per some forums, this is found at &lt;a href="https://www.hexrod.net/Tapers/drtapers/index.html"target="_blank" rel="noopener"&gt;David Ray&amp;rsquo;s Taper Library&lt;/a&gt; on 09/04/2022.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Original&lt;/strong&gt;: &lt;a href="http://www.uwm.edu/~stetzer/Tapers/drtapers/index.html"target="_blank" rel="noopener"&gt;http://www.uwm.edu/~stetzer/Tapers/drtapers/index.html&lt;/a&gt; (expect a 404)
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Archive&lt;/strong&gt;: &lt;a href="https://web.archive.org/web/20090507063422/http://www.uwm.edu/~stetzer/Tapers/drtapers/index.html"target="_blank" rel="noopener"&gt;Wayback Machine&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Original&lt;/strong&gt;: &lt;a href="https://www.hexrod.net/Tapers/drtapers/index.html"target="_blank" rel="noopener"&gt;David Ray&amp;rsquo;s Taper Library&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Archive&lt;/strong&gt;: &lt;a href="https://web.archive.org/web/20180718082039/http://hexrod.net/Tapers/drtapers/index.html"target="_blank" rel="noopener"&gt;Wayback Machine link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Rod Builds</title><link>https://www.extra-ransom.net/docs/rodmaking/builds/</link><pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/rodmaking/builds/</guid><description>
+&lt;p&gt;Build logs for individual rods.&lt;/p&gt;</description></item><item><title>Rod Binders</title><link>https://www.extra-ransom.net/docs/rodmaking/binders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/rodmaking/binders/</guid><description>
+&lt;p&gt;Binder designs and reference notes — the machines that wind the wraps on, not the rods themselves.&lt;/p&gt;
+&lt;h2&gt;Pages&lt;span class="hx:absolute hx:-mt-20" id="pages"&gt;&lt;/span&gt;
+&lt;a href="#pages" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="garrison-binder"&gt;Garrison Binder&lt;/a&gt; — the reference article: theory, tuning, and troubleshooting&lt;/li&gt;
+&lt;li&gt;&lt;a href="printed-garrison-binder"&gt;3D-Printed Garrison Binder&lt;/a&gt; — a Garrison-style binder built from printed parts&lt;/li&gt;
+&lt;li&gt;&lt;a href="new-smithwick-binder"&gt;&amp;lsquo;New&amp;rsquo; Smithwick Binder&lt;/a&gt; — my first (wooden) binder build&lt;/li&gt;
+&lt;li&gt;&lt;a href="rod-binder-notes"&gt;Rod Binder Notes&lt;/a&gt; — Smithwick binder and a gallery of other designs&lt;/li&gt;
+&lt;li&gt;&lt;a href="ring-flyer-binder"&gt;Ring-Flyer Orbit Binder&lt;/a&gt; — design study for an orbiting-spool binder&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>3D-Printed Rodmaking Tools</title><link>https://www.extra-ransom.net/docs/rodmaking/printable-rod-tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/rodmaking/printable-rod-tools/</guid><description>
+&lt;p&gt;Small shop tools for the bamboo build process. The blank-making tools tie to steps of the &lt;a href="https://www.extra-ransom.net/docs/rodmaking/morgan-hand-mill/"&gt;Morgan Hand Mill workflow&lt;/a&gt;; the grip, ferrule, and finishing tools serve the later stages the class notes stop short of. All are FDM-printable in PETG or PLA, generated parametrically, and validated watertight. STLs export in print orientation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Parametric source:&lt;/strong&gt; &lt;a href="https://www.extra-ransom.net/static/rod-tools-3d/generate_rod_tools_stls.py"&gt;&lt;code&gt;generate_rod_tools_stls.py&lt;/code&gt;&lt;/a&gt; — edit the parameter block (indicator stem size, ferrule bore, PVC diameter) and re-run to fit your hardware.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Depth-gauge base&lt;span class="hx:absolute hx:-mt-20" id="depth-gauge-base"&gt;&lt;/span&gt;
+&lt;a href="#depth-gauge-base" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;img src="https://www.extra-ransom.net/static/rod-tools-3d/previews/depth_gauge_base.png" width="180" align="right"&gt;
+&lt;p&gt;&lt;strong&gt;For:&lt;/strong&gt; checking strip dimensions over steel planing forms — the &amp;ldquo;set taper from spreadsheet&amp;rdquo; and final-planing steps.&lt;/p&gt;
+&lt;p&gt;A 70 × 40 base that rides the flats of the planing form on two end pads (the middle is relieved so bamboo dust doesn&amp;rsquo;t tilt it). A 3/8&amp;quot;-stem dial indicator drops through the centre bore and a printed pinch slit with an M4 cross-bolt clamps it: the socket-head bolt drives through a deep access tunnel on one side, and the nut drops into a top-loaded hex track on the other. Fit a 60° contact point to the indicator and it reads strip depth in the form groove directly.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.extra-ransom.net/static/rod-tools-3d/depth_gauge_base.stl"&gt;&lt;code&gt;depth_gauge_base.stl&lt;/code&gt;&lt;/a&gt; · print 1 · hardware: M4 × 35 socket-head bolt + nut, dial indicator with 3/8&amp;quot; stem and 60° point&lt;/p&gt;
+&lt;h2&gt;Node-sanding jig&lt;span class="hx:absolute hx:-mt-20" id="node-sanding-jig"&gt;&lt;/span&gt;
+&lt;a href="#node-sanding-jig" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;img src="https://www.extra-ransom.net/static/rod-tools-3d/previews/node_sanding_jig.png" width="180" align="right"&gt;
+&lt;p&gt;&lt;strong&gt;For:&lt;/strong&gt; &amp;ldquo;sand nodes on disc sander until flat &amp;amp; flush with enamel&amp;rdquo; — the fancy sanding jig the class notes tell you to use if you have one.&lt;/p&gt;
+&lt;p&gt;A 90 mm block with an 8.2 mm channel: the strip lies enamel-down with the node proud of the face, and the printed tapered wedge presses in alongside to friction-lock it — no hardware at all. Present the jig face to the disc sander and the node sands dead flush without dishing the strip on either side.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.extra-ransom.net/static/rod-tools-3d/node_sanding_jig.stl"&gt;&lt;code&gt;node_sanding_jig.stl&lt;/code&gt;&lt;/a&gt; + &lt;a href="https://www.extra-ransom.net/static/rod-tools-3d/node_jig_wedge.stl"&gt;&lt;code&gt;node_jig_wedge.stl&lt;/code&gt;&lt;/a&gt; · print 1 each · no hardware&lt;/p&gt;
+&lt;h2&gt;Strip-sanding plate&lt;span class="hx:absolute hx:-mt-20" id="strip-sanding-plate"&gt;&lt;/span&gt;
+&lt;a href="#strip-sanding-plate" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;img src="https://www.extra-ransom.net/static/rod-tools-3d/previews/strip_sanding_plate.png" width="180" align="right"&gt;
+&lt;p&gt;&lt;strong&gt;For:&lt;/strong&gt; flattening/leveling the enamel face along a strip&amp;rsquo;s full length — the hand-sanding counterpart to the node jig above.&lt;/p&gt;
+&lt;p&gt;A 250 mm plate with a 60° V-channel down its length. The strip drops in point-down on its beveled (pith-side) edge; the enamel face sits proud above the flat rails on either side. Run a flat sanding board over the top — once the board rides the rails flush, the enamel face is level for the whole length, and the rails stop you from sanding past it.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.extra-ransom.net/static/rod-tools-3d/strip_sanding_plate.stl"&gt;&lt;code&gt;strip_sanding_plate.stl&lt;/code&gt;&lt;/a&gt; · print 1 · no hardware&lt;/p&gt;
+&lt;h2&gt;Binding-cord spool caddy&lt;span class="hx:absolute hx:-mt-20" id="binding-cord-spool-caddy"&gt;&lt;/span&gt;
+&lt;a href="#binding-cord-spool-caddy" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;img src="https://www.extra-ransom.net/static/rod-tools-3d/previews/spool_caddy.png" width="180" align="right"&gt;
+&lt;p&gt;&lt;strong&gt;For:&lt;/strong&gt; cord payoff during binding — implements the Garrison article&amp;rsquo;s spool fix.&lt;/p&gt;
+&lt;p&gt;The bulk cord spool rides an M8 axle that drops into open cradle slots in the two uprights. The Ø3.5 socket in the base takes a 1/8&amp;quot; brass rod bent into an overhead loop: cord comes off the spool up through the loop, and the springy rod absorbs tension spikes instead of passing them into the wrap — the exact shock-absorber trick from the &lt;a href="https://www.extra-ransom.net/docs/rodmaking/binders/garrison-binder/"&gt;Garrison Binder&lt;/a&gt; article.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.extra-ransom.net/static/rod-tools-3d/spool_caddy.stl"&gt;&lt;code&gt;spool_caddy.stl&lt;/code&gt;&lt;/a&gt; · print 1 · hardware: M8 × 120 bolt (or M8 rod) + washers, ~300 mm of 1/8&amp;quot; brass rod, 4 wood screws&lt;/p&gt;
+&lt;h2&gt;Cork press&lt;span class="hx:absolute hx:-mt-20" id="cork-press"&gt;&lt;/span&gt;
+&lt;a href="#cork-press" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;img src="https://www.extra-ransom.net/static/rod-tools-3d/previews/cork_press_knob.png" width="180" align="right"&gt;
+&lt;p&gt;&lt;strong&gt;For:&lt;/strong&gt; gluing up a grip from cork rings.&lt;/p&gt;
+&lt;p&gt;Two Ø60 pressure discs and two six-lobed knobs with captive M8 nuts. Stack glued cork rings on a length of M8 threaded rod between the discs, spin the knobs down, and leave it to cure. Press the grip off-rod, then ream to the blank and glue it on.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.extra-ransom.net/static/rod-tools-3d/cork_press_disc.stl"&gt;&lt;code&gt;cork_press_disc.stl&lt;/code&gt;&lt;/a&gt; ×2 · &lt;a href="https://www.extra-ransom.net/static/rod-tools-3d/cork_press_knob.stl"&gt;&lt;code&gt;cork_press_knob.stl&lt;/code&gt;&lt;/a&gt; ×2 · hardware: M8 threaded rod ~300 mm&lt;/p&gt;
+&lt;h2&gt;Finishing V-stands&lt;span class="hx:absolute hx:-mt-20" id="finishing-v-stands"&gt;&lt;/span&gt;
+&lt;a href="#finishing-v-stands" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;img src="https://www.extra-ransom.net/static/rod-tools-3d/previews/finishing_v_stand.png" width="180" align="right"&gt;
+&lt;p&gt;&lt;strong&gt;For:&lt;/strong&gt; supporting and hand-turning a blank during wrap finishing and varnish work.&lt;/p&gt;
+&lt;p&gt;120 mm-tall stands with a deep 90° V. Glue felt into the V so the blank turns without marking. Print two (or three for long butt sections) and screw them to a board at whatever spacing the section needs.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.extra-ransom.net/static/rod-tools-3d/finishing_v_stand.stl"&gt;&lt;code&gt;finishing_v_stand.stl&lt;/code&gt;&lt;/a&gt; ×2 · hardware: felt strip, 4 wood screws&lt;/p&gt;
+&lt;h2&gt;Ferrule slitting collar&lt;span class="hx:absolute hx:-mt-20" id="ferrule-slitting-collar"&gt;&lt;/span&gt;
+&lt;a href="#ferrule-slitting-collar" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;img src="https://www.extra-ransom.net/static/rod-tools-3d/previews/ferrule_slit_collar.png" width="180" align="right"&gt;
+&lt;p&gt;&lt;strong&gt;For:&lt;/strong&gt; cutting even serrations in ferrule tangs.&lt;/p&gt;
+&lt;p&gt;A collar that slips over the ferrule with six 0.7 mm saw-guide slots. The slots stop 4 mm above the base, so the jeweler&amp;rsquo;s saw bottoms out at a consistent depth and the cuts land at exactly 60° spacing. The bore is parametric — regenerate for each ferrule size you use (the included STL is Ø7.0).&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.extra-ransom.net/static/rod-tools-3d/ferrule_slit_collar.stl"&gt;&lt;code&gt;ferrule_slit_collar.stl&lt;/code&gt;&lt;/a&gt; · print per ferrule size · hardware: jeweler&amp;rsquo;s saw&lt;/p&gt;
+&lt;h2&gt;Varnish dip-tube cap&lt;span class="hx:absolute hx:-mt-20" id="varnish-dip-tube-cap"&gt;&lt;/span&gt;
+&lt;a href="#varnish-dip-tube-cap" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;img src="https://www.extra-ransom.net/static/rod-tools-3d/previews/dip_cap.png" width="180" align="right"&gt;
+&lt;p&gt;&lt;strong&gt;For:&lt;/strong&gt; dust-free drying after dip-varnishing in a 1.5&amp;quot; PVC tube.&lt;/p&gt;
+&lt;p&gt;Caps the tube; the Ø10 centre hole passes the hanging wire so the freshly dipped section can drip and dry inside, sealed from shop dust. It prints pocket-up with zero overhang — flip it over to fit the tube. Regenerate &lt;code&gt;PVC_OD&lt;/code&gt; if your tube measures differently.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.extra-ransom.net/static/rod-tools-3d/dip_cap.stl"&gt;&lt;code&gt;dip_cap.stl&lt;/code&gt;&lt;/a&gt; · print 1&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Print settings&lt;span class="hx:absolute hx:-mt-20" id="print-settings"&gt;&lt;/span&gt;
+&lt;a href="#print-settings" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;PETG or PLA, 0.2 mm layers, 3–4 perimeters, 30–40% infill. No supports on any part. The depth-gauge base benefits from a dead-flat first layer — print it alone on a clean bed.&lt;/p&gt;
+&lt;h2&gt;Related&lt;span class="hx:absolute hx:-mt-20" id="related"&gt;&lt;/span&gt;
+&lt;a href="#related" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.extra-ransom.net/docs/rodmaking/morgan-hand-mill/"&gt;Morgan Hand Mill&lt;/a&gt; — the build process these tools serve&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.extra-ransom.net/docs/rodmaking/binders/printed-garrison-binder/"&gt;3D-Printed Garrison Binder&lt;/a&gt; — the binder these support&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.extra-ransom.net/docs/rodmaking/binders/ring-flyer-binder/"&gt;Ring-Flyer Orbit Binder&lt;/a&gt; — design study for an orbiting-spool binder&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
