@@ -1,0 +1,17 @@
+{
+  "name": "couch-to-5k-worker",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Cloudflare Worker + D1 backend for the Couch to Turkey Trot page",
+  "scripts": {
+    "dev": "wrangler dev --local --persist-to .wrangler/state",
+    "migrate:local": "wrangler d1 migrations apply c25k --local --persist-to .wrangler/state",
+    "migrate:remote": "wrangler d1 migrations apply c25k --remote",
+    "deploy": "wrangler deploy",
+    "test": "/opt/homebrew/bin/node --test test/"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  },
+  "type": "module"
+}
