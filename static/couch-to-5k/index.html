@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>Couch to Turkey Trot</title>
+  <meta name="description" content="A compressed couch-to-5K plan from November 2 to the Thanksgiving 2026 turkey trot: a checklist calendar with a guided run/walk interval timer.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=20261101">
+</head>
+<body>
+  <a class="skip" href="#plan">Skip to the plan</a>
+
+  <header class="hero">
+    <p class="eyebrow">Thanksgiving 2026 &middot; Thursday, November 26</p>
+    <h1>Couch to Turkey&nbsp;Trot</h1>
+    <p class="lede">Eleven short run/walk sessions, then 3.1 miles. Check them off as you go.</p>
+
+    <div class="stats">
+      <div class="ring" role="img" aria-label="Sessions completed" id="ring">
+        <svg viewBox="0 0 120 120" aria-hidden="true">
+          <circle class="track" cx="60" cy="60" r="52"/>
+          <circle class="bar" id="ringBar" cx="60" cy="60" r="52" transform="rotate(-90 60 60)"/>
+        </svg>
+        <div class="ring-text"><strong id="doneCount">0</strong><span id="doneOf">of 12</span></div>
+      </div>
+      <div class="countdown">
+        <strong id="days">&ndash;</strong>
+        <span id="daysLabel">days to go</span>
+      </div>
+    </div>
+
+    <div class="next" id="next" hidden></div>
+  </header>
+
+  <main id="plan">
+    <section class="calendar" aria-labelledby="calH">
+      <h2 id="calH">The plan</h2>
+      <p class="hint">Mon / Wed / Fri run days. Every session starts and ends with a 5-minute brisk walk. Tap a day for the interval breakdown and a guided timer.</p>
+      <div class="legend" aria-hidden="true"><span><i class="sw run"></i> Run</span><span><i class="sw walk"></i> Walk</span></div>
+      <div id="weeks"></div>
+    </section>
+
+    <section class="notes" aria-labelledby="notesH">
+      <h2 id="notesH">Read this first</h2>
+      <div class="cards">
+        <article>
+          <h3>This plan is compressed</h3>
+          <p>The standard Couch to 5K takes nine weeks. This one fits in under four, so the ramp is steeper. The realistic goal is to <strong>finish 3.1 miles</strong> mixing running and walking, and run most of it if the build goes well. Plenty of people walk turkey trots.</p>
+        </article>
+        <article>
+          <h3>If a session feels too hard</h3>
+          <p>Repeat it instead of moving on, or swap in the previous session. Skipping a day costs nothing; adding extra running to catch up is how shins and knees get hurt. Easy pace: you can speak in short sentences.</p>
+        </article>
+        <article>
+          <h3>Cold-weather basics</h3>
+          <p>Dress for about 15&nbsp;&deg;F warmer than the thermometer says. Wear layers you can tie around your waist, a hat and gloves, and shoes with some grip for wet leaves. Walk the warm-up even if you feel fine.</p>
+        </article>
+        <article>
+          <h3>Race day</h3>
+          <p>Run/walk from the start: try 9 minutes running, 1 minute walking, or walk through every water stop. Start slower than feels necessary. Eat something light 2 hours before and don't try new shoes or gear.</p>
+        </article>
+      </div>
+      <p class="fine">Not medical advice. If you've been inactive for a long time, have a health condition, or feel chest pain, dizziness, or sharp pain while exercising, check with a doctor first.</p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <button class="link" id="reset" type="button">Reset my progress</button>
+    <span>Progress is saved in this browser only.</span>
+    <a href="/">extra-ransom.net</a>
+  </footer>
+
+  <dialog id="detail" aria-labelledby="dTitle">
+    <form method="dialog"><button class="close" aria-label="Close">&times;</button></form>
+    <div id="detailBody"></div>
+  </dialog>
+
+  <script src="js/plan.js?v=20261101"></script>
+  <script src="js/app.js?v=20261101"></script>
+</body>
+</html>
