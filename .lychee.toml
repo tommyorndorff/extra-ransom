@@ -27,6 +27,10 @@ exclude = [
   # HTTP 429 (Retry-After: 60) even at low request rates - pages load fine
   # in a browser. Linked from the Rod 002 graphite-alternative BOM.
   '^https://mudhole\.com',
+  # hydrofarm.com serves an incomplete TLS chain (UnknownIssuer from the
+  # Actions runner) - pages load fine in a browser. Linked from the timer
+  # rows of hydroponics/garage-grow-setup.md.
+  '^https://www\.hydrofarm\.com',
 ]
 
 max_retries = 3
