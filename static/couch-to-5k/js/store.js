@@ -30,10 +30,13 @@
   function openRemote(token) {
     var store = { mode: 'remote', token: token, canEdit: false, name: '', level: 'beginner', entries: {}, error: null };
     return request('GET', '/me', token).then(function (j) {
-      store.name = j.person.name; store.level = j.person.level; store.canEdit = j.person.can_edit;
+      store.name = j.person.name; store.level = j.person.level; store.color = j.person.color; store.canEdit = j.person.can_edit;
       j.entries.forEach(function (e) { store.entries[e.plan_id] = e; });
       store.setLevel = function (level) {
         return request('PATCH', '/me', token, { level: level }).then(function () { store.level = level; });
+      };
+      store.setColor = function (color) {
+        return request('PATCH', '/me', token, { color: color }).then(function (r) { store.color = r.color; });
       };
       store.save = function (planId, entry) {
         return request('PUT', '/entries/' + planId, token, entry).then(function (r) {
@@ -47,7 +50,7 @@
     }).catch(function (e) {
       store.error = e.status === 401 ? 'unknown' : 'network';
       store.canEdit = false;
-      store.setLevel = store.save = store.remove = function () { return Promise.reject(e); };
+      store.setLevel = store.setColor = store.save = store.remove = function () { return Promise.reject(e); };
       return store;
     });
   }
@@ -77,8 +80,19 @@
     return Promise.resolve(store);
   }
 
+  // Public, anonymous view of everyone: [{color, level, sessions, distance_mi, duration_min, run_pct}]
+  function team() {
+    return fetch(apiBase + '/team').then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    }).then(function (j) { return j.people; });
+  }
+
   window.C25K = {
     token: qs('p'),
+    team: team,
+    // Dot colors people can pick from (they can also choose any color).
+    palette: ['#d9591f', '#2f7fb8', '#3f9e5b', '#b04fb4', '#e0a31b', '#d6456b', '#2fa7a0', '#7a5cc8', '#8a6a3b', '#5b6b7a'],
     open: function () { var t = qs('p'); return t ? openRemote(t) : openLocal(); }
   };
 })();

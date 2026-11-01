@@ -52,6 +52,8 @@
     sel.disabled = !store.canEdit;
     var link = document.getElementById('summaryLink');
     if (store.mode === 'remote') {
+      var dot = document.getElementById('whoDot'); dot.hidden = false; dot.style.background = store.color;
+      if (store.canEdit) colorPicker();
       name.textContent = store.name + (store.canEdit ? '' : ' (view only)');
       link.href = 'summary/?p=' + encodeURIComponent(store.token);
       note.textContent = store.canEdit ? 'Your log is saved to the shared server. Keep this link private: anyone with it can edit your log.' : 'This is a read-only link.';
@@ -66,6 +68,29 @@
       var lvl = sel.value;
       store.setLevel(lvl).then(function () { reload(); }).catch(function () { sel.value = store.level; banner('Could not save the plan level. Try again.'); });
     };
+  }
+
+  // Color swatches plus a free color input. Changing it updates the dot others see on the team page.
+  function colorPicker() {
+    document.getElementById('colorRow').hidden = false;
+    var box = document.getElementById('swatches'); box.innerHTML = '';
+    function choose(c) {
+      store.setColor(c).then(function () { banner(''); paint(); }).catch(function () { banner('Could not save your color. Try again.'); });
+    }
+    function paint() {
+      document.getElementById('whoDot').style.background = store.color;
+      Array.prototype.forEach.call(box.querySelectorAll('button'), function (b) { b.setAttribute('aria-pressed', String(b.dataset.c === store.color)); });
+      custom.value = store.color;
+    }
+    C25K.palette.forEach(function (c) {
+      var b = el('button', 'sw-btn'); b.type = 'button'; b.dataset.c = c; b.style.background = c; b.setAttribute('aria-label', 'Use color ' + c);
+      b.addEventListener('click', function () { choose(c); });
+      box.appendChild(b);
+    });
+    var custom = el('input', 'sw-custom'); custom.type = 'color'; custom.setAttribute('aria-label', 'Pick any color');
+    custom.addEventListener('change', function () { choose(custom.value.toLowerCase()); });
+    box.appendChild(custom);
+    paint();
   }
 
   function reload() {

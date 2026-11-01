@@ -178,3 +178,24 @@ table.log tr.skipped td { color: var(--muted); }
 .inline { display: flex; gap: 8px; flex-wrap: wrap; align-items: end; }
 .inline label { display: flex; flex-direction: column; gap: 4px; font-size: 14px; font-weight: 600; }
 @media (max-width: 720px) { .row2 { grid-template-columns: 1fr; } }
+
+/* colored dots + team page */
+.dot { display: inline-block; width: 14px; height: 14px; border-radius: 50%; margin-right: 8px; vertical-align: middle; box-shadow: inset 0 0 0 2px rgba(0,0,0,.12); background: var(--run); }
+.dot.big { width: 26px; height: 26px; margin-right: 12px; }
+.dot[hidden] { display: none; }
+.colorrow { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-top: 10px; font-size: 14px; color: var(--muted); }
+.colorrow[hidden] { display: none; }
+.swatches { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.sw-btn { width: 30px; height: 30px; border-radius: 50%; border: 3px solid transparent; cursor: pointer; padding: 0; box-shadow: inset 0 0 0 2px rgba(0,0,0,.12); }
+.sw-btn[aria-pressed="true"] { border-color: var(--ink); }
+.sw-custom { width: 36px; height: 34px; padding: 0; border: 1.5px solid var(--line); border-radius: 8px; background: none; cursor: pointer; min-height: 0; }
+.team { display: grid; gap: 6px; }
+.trow { display: grid; grid-template-columns: 28px repeat(12, minmax(0, 1fr)) auto; gap: 4px; align-items: center; }
+.trow .c { aspect-ratio: 1; border-radius: 6px; border: 1.5px dashed var(--line); }
+.trow .c.on { border: 0; }
+.trow .c.race.on { box-shadow: 0 0 0 2px var(--card), 0 0 0 4px currentColor; }
+.trow .tot { font-size: 12px; color: var(--muted); text-align: right; white-space: nowrap; padding-left: 6px; }
+.trow.head { font-size: 11px; color: var(--muted); text-align: center; }
+.trow.head .tot { visibility: hidden; }
+@media (max-width: 600px) { .trow { grid-template-columns: 24px repeat(12, minmax(0, 1fr)); } .trow .tot { grid-column: 2 / -1; text-align: left; padding: 0 0 8px; } .trow.head .tot { display: none; } }
+.panel .hint { margin-top: 10px; }

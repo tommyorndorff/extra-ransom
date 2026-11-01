@@ -5,6 +5,7 @@ Cloudflare Worker + D1 (SQLite) backend for `/couch-to-5k/`. It stores each pers
 - Runs on `www.extra-ransom.net/api/c25k/*` (same origin as the page, so no CORS setup in production).
 - **Edit link** (`?p=<edit_token>`): log, change, and remove sessions; change plan level.
 - **View link** (`summary/?p=<view_token>`): read-only.
+- **Everyone** (`/couch-to-5k/team/`, public): one colored dot per person with which sessions are logged and totals. No names, notes or links; each person picks their own dot color on the main page.
 - **Admin** (`/couch-to-5k/admin/`): create and delete people and copy their links. Needs the `ADMIN_KEY` secret.
 - Tokens are random 32-character strings stored in D1. Anyone holding a link has that access, so treat edit links like passwords. Store first names or nicknames only.
 
@@ -17,7 +18,7 @@ cd workers/couch-to-5k
 npm install
 npx wrangler login
 npx wrangler d1 create c25k            # copy the printed database_id into wrangler.toml
-npm run migrate:remote                  # creates the tables
+npm run migrate:remote                  # creates the tables (and applies any later migrations)
 npx wrangler secret put ADMIN_KEY       # choose a long random string
 npm run deploy
 ```
@@ -47,8 +48,9 @@ Unit tests for the validation helpers: `npm test`.
 | GET | `/api/c25k/people` | `X-Admin-Key` | list people with links' tokens |
 | POST | `/api/c25k/people` | `X-Admin-Key` | create `{name, level}` |
 | DELETE | `/api/c25k/people/:id` | `X-Admin-Key` | delete a person and their entries |
+| GET | `/api/c25k/team` | none (public) | anonymous dots: color, level, logged sessions, totals |
 | GET | `/api/c25k/me` | `X-Token` | person + all entries |
-| PATCH | `/api/c25k/me` | edit token | `{level}`: beginner, intermediate, runner |
+| PATCH | `/api/c25k/me` | edit token | `{level?, color?}`: level is beginner, intermediate or runner; color is `#rrggbb` |
 | PUT | `/api/c25k/entries/:planId` | edit token | upsert `{date, distance_mi, duration_min, run_pct, note}` |
 | DELETE | `/api/c25k/entries/:planId` | edit token | remove a logged session |
 
