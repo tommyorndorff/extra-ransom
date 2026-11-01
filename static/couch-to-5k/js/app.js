@@ -242,6 +242,9 @@
     var f = el('form', 'logform');
     var plannedRunPct = Math.round(100 * runTotal(s) / total(s));
     f.innerHTML =
+      '<div class="import"><button type="button" class="btn small" id="importBtn">Import from Garmin (.tcx or .gpx)</button>' +
+        '<input type="file" id="importFile" accept=".tcx,.gpx,.xml,text/xml,application/xml,application/gpx+xml" hidden>' +
+        '<p class="importmsg" role="status" id="importMsg">Export the activity from Garmin Connect on the web (gear icon, Export to TCX or GPX). The file is read on this device and not uploaded.</p></div>' +
       '<label>Date <input type="date" name="date" required></label>' +
       '<div class="row2">' +
         '<label>Distance (miles) <input type="number" name="distance" min="0" max="50" step="0.01" inputmode="decimal" placeholder="e.g. 2.1"></label>' +
@@ -264,6 +267,33 @@
     }
     function showPct() { out.textContent = use.checked ? pct.value + '% running · ' + (100 - pct.value) + '% walking' : 'Not set'; }
     use.addEventListener('change', function () { pct.disabled = !use.checked; showPct(); });
+
+    var impBtn = f.querySelector('#importBtn'), impFile = f.querySelector('#importFile'), impMsg = f.querySelector('#importMsg');
+    impBtn.addEventListener('click', function () { impFile.click(); });
+    impFile.addEventListener('change', function () {
+      var file = impFile.files && impFile.files[0];
+      impFile.value = '';
+      if (!file) return;
+      function say(m, bad) { impMsg.textContent = m; impMsg.classList.toggle('bad', !!bad); }
+      if (file.size > 8 * 1024 * 1024) return say('That file is too large. Export a single activity.', true);
+      file.text().then(function (txt) {
+        var r = C25K_IMPORT.parseText(txt, file.name);
+        if (r.date) date.value = r.date;
+        dist.value = r.distance_mi;
+        dur.value = r.duration_min;
+        var bits = [r.distance_mi + ' mi in ' + r.duration_min + ' min'];
+        if (r.run_pct != null) {
+          use.checked = true; pct.disabled = false; pct.value = r.run_pct; showPct();
+          bits.push('running share estimated at ' + r.run_pct + '% from ' + (r.basis === 'cadence' ? 'cadence and speed' : 'speed'));
+        } else {
+          bits.push('not enough movement to estimate running share');
+        }
+        var warn = !r.sport || /run|walk|hik|other|trail|treadmill|track|street/i.test(r.sport) ? '' : ' This looks like a ' + r.sport + ' activity.';
+        say('Imported ' + file.name + ': ' + bits.join('; ') + '. Check the numbers, then save.' + warn, false);
+      }).catch(function (er) {
+        say(er && er.friendly ? er.message : 'Could not read that file. Try exporting it as TCX or GPX.', true);
+      });
+    });
     pct.addEventListener('input', showPct);
     showPct();
 
