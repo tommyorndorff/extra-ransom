@@ -172,6 +172,7 @@
         } else {
           li.appendChild(el('span', 'restlbl', key === PLAN.raceDate ? '' : 'Rest'));
         }
+        li.appendChild(dayChips(key, d, t));
         list.appendChild(li);
       }
       sec.appendChild(el('h3', 'wh', 'Week ' + weekNo + ' <small>' + done7 + '/' + tot7 + '</small>'));
@@ -179,6 +180,41 @@
       wrap.appendChild(sec);
     }
     summary();
+  }
+
+  // Yes/no checks for strength training and sauna, on any day (not just run days).
+  var CHIPS = [['strength', '\ud83c\udfcb\ufe0f', 'Strength training'], ['sauna', '\ud83e\uddd6', 'Sauna']];
+  var BIKE_NEXT = { '': 'indoor', indoor: 'outdoor', outdoor: '' };   // tap to cycle: off, indoor, outdoor, off
+  function dayChips(key, d, t) {
+    var box = el('div', 'chips'), cur = store.days[key] || {};
+    CHIPS.forEach(function (c) {
+      var b = el('button', 'chip'); b.type = 'button';
+      var on = !!cur[c[0]], future = key > t;
+      b.setAttribute('aria-pressed', on ? 'true' : 'false');
+      b.setAttribute('aria-label', c[2] + ', ' + fmt(d));
+      b.title = future ? c[2] + ' (not yet)' : c[2];
+      b.disabled = !store.canEdit || future;
+      b.innerHTML = '<span aria-hidden="true">' + c[1] + '</span><span class="chiplbl">' + (c[0] === 'strength' ? 'Strength' : 'Sauna') + '</span>';
+      b.addEventListener('click', function () {
+        var patch = {}; patch[c[0]] = !on;
+        store.setDay(key, patch).then(function () { banner(''); render(); })
+          .catch(function () { banner('Could not save. Check your connection and try again.'); });
+      });
+      box.appendChild(b);
+    });
+    // Bike: one chip that cycles off -> indoor -> outdoor -> off
+    var bike = cur.bike || '', bb = el('button', 'chip'); bb.type = 'button';
+    bb.setAttribute('aria-pressed', bike ? 'true' : 'false');
+    bb.setAttribute('aria-label', 'Bike ride, ' + fmt(d) + ': ' + (bike || 'none') + '. Press to change.');
+    bb.title = key > t ? 'Bike ride (not yet)' : 'Bike ride: tap to cycle indoor, outdoor, off';
+    bb.disabled = !store.canEdit || key > t;
+    bb.innerHTML = '<span aria-hidden="true">\ud83d\udeb4</span><span class="chiplbl">' + (bike ? 'Bike \u00b7 ' + (bike === 'indoor' ? 'in' : 'out') : 'Bike') + '</span>';
+    bb.addEventListener('click', function () {
+      store.setDay(key, { bike: BIKE_NEXT[bike] || null }).then(function () { banner(''); render(); })
+        .catch(function () { banner('Could not save. Check your connection and try again.'); });
+    });
+    box.appendChild(bb);
+    return box;
   }
 
   function defaultDate(s) { var t = iso(today()); return s.date <= t ? s.date : t; }

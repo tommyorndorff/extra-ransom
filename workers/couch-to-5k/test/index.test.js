@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { parseEntry, safeEqual, cleanName, newToken, cleanColor, colorOf, PALETTE } from '../src/index.js';
+import { parseEntry, safeEqual, cleanName, newToken, cleanColor, colorOf, PALETTE, parseDay } from '../src/index.js';
 
 test('parseEntry accepts a full entry and rounds run_pct', () => {
   const r = parseEntry({ date: '2026-11-02', distance_mi: '2.1', duration_min: 32, run_pct: 59.6, note: '  felt good ' });
@@ -57,4 +57,17 @@ test('colorOf prefers the chosen color and otherwise cycles the palette', () => 
   assert.equal(colorOf({ id: 3, color: '#112233' }), '#112233');
   assert.equal(colorOf({ id: 1, color: null }), PALETTE[0]);
   assert.equal(colorOf({ id: PALETTE.length + 1, color: null }), PALETTE[0]);
+});
+
+test('parseDay needs a plan-period date and two booleans', () => {
+  assert.deepEqual(parseDay('2026-11-05', { strength: true, sauna: false }).value, { strength: true, sauna: false, bike: null });
+  assert.equal(parseDay('2026-11-05', { strength: false, sauna: false, bike: 'indoor' }).value.bike, 'indoor');
+  assert.equal(parseDay('2026-11-05', { strength: false, sauna: false, bike: 'outdoor' }).value.bike, 'outdoor');
+  assert.ok(parseDay('2026-11-05', { strength: false, sauna: false, bike: 'treadmill' }).error);
+  assert.ok(parseDay('2026-11-5', { strength: true, sauna: true }).error);
+  assert.ok(parseDay('2026-02-30', { strength: true, sauna: true }).error);
+  assert.ok(parseDay('2025-01-01', { strength: true, sauna: true }).error);
+  assert.ok(parseDay('2026-11-05', { strength: 'yes', sauna: true }).error);
+  assert.ok(parseDay('2026-11-05', { strength: true }).error);
+  assert.ok(parseDay('2026-11-05', null).error);
 });
