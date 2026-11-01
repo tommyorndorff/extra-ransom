@@ -9,6 +9,9 @@
 const LEVELS = ['beginner', 'intermediate', 'runner'];
 const PLAN_ID = /^(s(0[1-9]|1[01])|race)$/;
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
+const COLOR = /^#[0-9a-f]{6}$/;
+// Default dot colors, handed out by person id until someone picks their own.
+export const PALETTE = ['#d9591f', '#2f7fb8', '#3f9e5b', '#b04fb4', '#e0a31b', '#d6456b', '#2fa7a0', '#7a5cc8', '#8a6a3b', '#5b6b7a'];
 const PROD_ORIGIN = 'https://www.extra-ransom.net';
 const LOCAL_ORIGIN = /^http:\/\/(localhost|127\.0\.0\.1):\d+$/; // local development against `wrangler dev`
 
@@ -36,6 +39,13 @@ export function safeEqual(a, b) {
   for (let i = 0; i < n; i++) diff |= (x[i] ?? 0) ^ (y[i] ?? 0);
   return diff === 0;
 }
+
+export function cleanColor(v) {
+  if (typeof v !== 'string') return null;
+  const s = v.trim().toLowerCase();
+  return COLOR.test(s) ? s : null;
+}
+export function colorOf(row) { return row.color || PALETTE[(row.id - 1) % PALETTE.length]; }
 
 export function cleanName(v) {
   if (typeof v !== 'string') return null;
@@ -99,7 +109,7 @@ function isAdmin(request, env) {
 async function personByToken(env, token) {
   if (!token || token.length > 64) return null;
   const row = await env.DB
-    .prepare('SELECT id, name, level, edit_token, view_token FROM people WHERE edit_token = ?1 OR view_token = ?1')
+    .prepare('SELECT id, name, level, color, edit_token, view_token FROM people WHERE edit_token = ?1 OR view_token = ?1')
     .bind(token).first();
   if (!row) return null;
   return { ...row, canEdit: safeEqual(row.edit_token, token) };
@@ -110,15 +120,40 @@ async function handle(request, env) {
   const path = url.pathname.replace(/^\/api\/c25k/, '') || '/';
   const method = request.method;
 
+  // ---- public team view: colored dots only, no names, ids, tokens or notes ----
+  if (path === '/team' && method === 'GET') {
+    const { results } = await env.DB.prepare(
+      `SELECT p.id, p.level, p.color, e.plan_id, e.distance_mi, e.duration_min, e.run_pct
+         FROM people p LEFT JOIN entries e ON e.person_id = p.id ORDER BY p.id, e.date`).all();
+    const byId = new Map();
+    for (const r of results) {
+      let t = byId.get(r.id);
+      if (!t) { t = { color: colorOf(r), level: r.level, sessions: [], distance_mi: 0, duration_min: 0, pcts: [] }; byId.set(r.id, t); }
+      if (r.plan_id) {
+        t.sessions.push(r.plan_id);
+        if (r.distance_mi != null) t.distance_mi += r.distance_mi;
+        if (r.duration_min != null) t.duration_min += r.duration_min;
+        if (r.run_pct != null) t.pcts.push(r.run_pct);
+      }
+    }
+    const people = [...byId.values()].map((t) => ({
+      color: t.color, level: t.level, sessions: t.sessions,
+      distance_mi: Math.round(t.distance_mi * 100) / 100,
+      duration_min: Math.round(t.duration_min * 10) / 10,
+      run_pct: t.pcts.length ? Math.round(t.pcts.reduce((a, b) => a + b, 0) / t.pcts.length) : null,
+    }));
+    return json({ people }, 200, { 'cache-control': 'public, max-age=30' });
+  }
+
   // ---- admin ----
   if (path === '/people' || /^\/people\/\d+$/.test(path)) {
     if (!isAdmin(request, env)) return err(401, 'admin key required');
     if (path === '/people' && method === 'GET') {
       const { results } = await env.DB.prepare(
-        `SELECT p.id, p.name, p.level, p.edit_token, p.view_token, p.created_at,
+        `SELECT p.id, p.name, p.level, p.color, p.edit_token, p.view_token, p.created_at,
                 (SELECT COUNT(*) FROM entries e WHERE e.person_id = p.id) AS entries
            FROM people p ORDER BY p.id`).all();
-      return json({ people: results });
+      return json({ people: results.map((r) => ({ ...r, color: colorOf(r) })) });
     }
     if (path === '/people' && method === 'POST') {
       const b = await readJson(request);
@@ -126,10 +161,13 @@ async function handle(request, env) {
       if (!name) return err(400, 'name is required (1-40 characters)');
       const level = b.level === undefined ? 'beginner' : b.level;
       if (!LEVELS.includes(level)) return err(400, 'level must be one of ' + LEVELS.join(', '));
+      const color = b.color === undefined ? null : cleanColor(b.color);
+      if (b.color !== undefined && !color) return err(400, 'color must look like #d9591f');
       const edit = newToken(), view = newToken();
-      const r = await env.DB.prepare('INSERT INTO people (name, level, edit_token, view_token) VALUES (?1, ?2, ?3, ?4)')
-        .bind(name, level, edit, view).run();
-      return json({ id: r.meta.last_row_id, name, level, edit_token: edit, view_token: view }, 201);
+      const r = await env.DB.prepare('INSERT INTO people (name, level, color, edit_token, view_token) VALUES (?1, ?2, ?3, ?4, ?5)')
+        .bind(name, level, color, edit, view).run();
+      const id = r.meta.last_row_id;
+      return json({ id, name, level, color: colorOf({ id, color }), edit_token: edit, view_token: view }, 201);
     }
     if (method === 'DELETE') {
       const id = Number(path.split('/')[2]);
@@ -151,7 +189,7 @@ async function handle(request, env) {
       'SELECT plan_id, date, distance_mi, duration_min, run_pct, note, updated_at FROM entries WHERE person_id = ?1 ORDER BY date, plan_id')
       .bind(person.id).all();
     return json({
-      person: { name: person.name, level: person.level, can_edit: person.canEdit },
+      person: { name: person.name, level: person.level, color: colorOf(person), can_edit: person.canEdit },
       entries: results,
     });
   }
@@ -159,9 +197,14 @@ async function handle(request, env) {
   if (path === '/me' && method === 'PATCH') {
     if (!person.canEdit) return err(403, 'this link is read-only');
     const b = await readJson(request);
-    if (!b || !LEVELS.includes(b.level)) return err(400, 'level must be one of ' + LEVELS.join(', '));
-    await env.DB.prepare('UPDATE people SET level = ?1 WHERE id = ?2').bind(b.level, person.id).run();
-    return json({ ok: true, level: b.level });
+    if (!b || typeof b !== 'object' || (b.level === undefined && b.color === undefined)) return err(400, 'send a level and/or a color');
+    if (b.level !== undefined && !LEVELS.includes(b.level)) return err(400, 'level must be one of ' + LEVELS.join(', '));
+    const color = b.color === undefined ? undefined : cleanColor(b.color);
+    if (b.color !== undefined && !color) return err(400, 'color must look like #d9591f');
+    const level = b.level === undefined ? person.level : b.level;
+    const chosen = color === undefined ? person.color : color;
+    await env.DB.prepare('UPDATE people SET level = ?1, color = ?2 WHERE id = ?3').bind(level, chosen, person.id).run();
+    return json({ ok: true, level, color: colorOf({ id: person.id, color: chosen }) });
   }
 
   const m = path.match(/^\/entries\/([a-z0-9]+)$/);

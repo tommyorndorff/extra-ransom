@@ -41,6 +41,7 @@
     var sessions = PLAN.sessionsFor(store.level), entries = store.entries;
     document.getElementById('title').textContent = store.mode === 'remote' ? store.name + "'s progress" : 'Your progress';
     document.getElementById('lede').textContent = LEVEL_NAMES[store.level] + ' plan' + (store.mode === 'local' ? ' · saved on this device only' : '') + (store.mode === 'remote' && !store.canEdit ? ' · view only' : '');
+    if (store.color) { var dt = document.getElementById('dot'); dt.hidden = false; dt.style.background = store.color; }
     if (store.mode === 'remote') document.getElementById('back').href = '../?p=' + encodeURIComponent(store.token);
 
     var logged = sessions.filter(function (s) { return entries[s.id]; });

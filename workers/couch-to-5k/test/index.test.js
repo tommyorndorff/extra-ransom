@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { parseEntry, safeEqual, cleanName, newToken } from '../src/index.js';
+import { parseEntry, safeEqual, cleanName, newToken, cleanColor, colorOf, PALETTE } from '../src/index.js';
 
 test('parseEntry accepts a full entry and rounds run_pct', () => {
   const r = parseEntry({ date: '2026-11-02', distance_mi: '2.1', duration_min: 32, run_pct: 59.6, note: '  felt good ' });
@@ -41,4 +41,20 @@ test('newToken is url-safe and unique', () => {
   const a = newToken(), b = newToken();
   assert.match(a, /^[A-Za-z0-9_-]{32}$/);
   assert.notEqual(a, b);
+});
+
+test('cleanColor accepts #rrggbb only and lowercases it', () => {
+  assert.equal(cleanColor('#D9591F'), '#d9591f');
+  assert.equal(cleanColor(' #2f7fb8 '), '#2f7fb8');
+  assert.equal(cleanColor('red'), null);
+  assert.equal(cleanColor('#fff'), null);
+  assert.equal(cleanColor('#12345g'), null);
+  assert.equal(cleanColor('url(javascript:1)'), null);
+  assert.equal(cleanColor(7), null);
+});
+
+test('colorOf prefers the chosen color and otherwise cycles the palette', () => {
+  assert.equal(colorOf({ id: 3, color: '#112233' }), '#112233');
+  assert.equal(colorOf({ id: 1, color: null }), PALETTE[0]);
+  assert.equal(colorOf({ id: PALETTE.length + 1, color: null }), PALETTE[0]);
 });

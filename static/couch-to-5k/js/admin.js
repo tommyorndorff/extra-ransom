@@ -33,7 +33,7 @@
       if (!j.people.length) list.appendChild(Object.assign(document.createElement('p'), { textContent: 'Nobody yet. Add the first person above.' }));
       j.people.forEach(function (p) {
         var row = document.createElement('div'); row.className = 'adminrow';
-        row.innerHTML = '<div><strong>' + esc(p.name) + '</strong><small>' + esc(p.level) + ' · ' + p.entries + ' sessions logged</small></div><div class="linkbtns"></div>';
+        row.innerHTML = '<div><i class="dot" style="background:' + esc(p.color) + '"></i><strong>' + esc(p.name) + '</strong><small>' + esc(p.level) + ' · ' + p.entries + ' sessions logged</small></div><div class="linkbtns"></div>';
         var box = row.querySelector('.linkbtns');
         [['Copy edit link', function (b) { copy(editUrl(p.edit_token), b); }],
          ['Copy view link', function (b) { copy(viewUrl(p.view_token), b); }],
