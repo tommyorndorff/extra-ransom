@@ -6,99 +6,126 @@
 &lt;/ul&gt;</description></item><item><title>3D-Printed Shop Tools</title><link>https://www.extra-ransom.net/docs/woodworking/printed-tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/woodworking/printed-tools/</guid><description>
 &lt;p&gt;Printable jigs and shop tools for woodworking projects — the woodworking counterpart to the &lt;a href="https://www.extra-ransom.net/docs/rod-builds/printable-rod-tools/"&gt;rodmaking tool set&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>DW745 Mobile Saw Cart (Proposed)</title><link>https://www.extra-ransom.net/docs/woodworking/dw745-mobile-saw-cart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/woodworking/dw745-mobile-saw-cart/</guid><description>
 &lt;p&gt;A &lt;strong&gt;proposed&lt;/strong&gt; build: a small plywood cart on locking casters for a DeWalt
-DW745 10&amp;quot; jobsite table saw. The cart is also a &lt;strong&gt;sealed dust cabinet&lt;/strong&gt; for
-my Rockler 650 CFM dust collector. The saw sits on a gasket over a cutout in
-the top, so everything it drops falls into a sealed box. A steep ramp inside
-slides it into a full-width slotted pickup at the back. It&amp;rsquo;s deliberately
-compact: the footprint is just over the saw&amp;rsquo;s table, and the plywood comes
-out of one sheet. The saw lifts off with four knobs when it needs to go to a
-jobsite.&lt;/p&gt;
+DW745 10&amp;quot; jobsite table saw, designed so the saw can live in the garage
+with &lt;strong&gt;as little dust as possible&lt;/strong&gt;. A jobsite saw&amp;rsquo;s body is an open frame,
+with holes on every side and an open bottom. A box under it would only
+catch what falls straight down, so this cart &lt;strong&gt;encloses the saw body on all
+four sides&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a &lt;strong&gt;½&amp;quot; plywood skirt&lt;/strong&gt; stands on the cart top and rises to a brush seal
+under the table;&lt;/li&gt;
+&lt;li&gt;everything the saw throws out its sides lands inside the enclosure;&lt;/li&gt;
+&lt;li&gt;a steep &lt;strong&gt;V-hopper&lt;/strong&gt; below feeds a full-width &lt;strong&gt;slotted 4&amp;quot; manifold&lt;/strong&gt; to
+my Rockler 650 CFM collector.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The footprint is still just over the saw&amp;rsquo;s table. The saw still lifts out
+with four knobs.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Footprint:&lt;/strong&gt; 28&amp;quot; W × 24&amp;quot; D. The DW745&amp;rsquo;s table is about 630 × 570 mm
-(24.8&amp;quot; × 22.4&amp;quot;, per a retailer listing), so the cart is ~1.6&amp;quot; bigger on
-each side and ~0.8&amp;quot; front and back.&lt;/li&gt;
+(24.8&amp;quot; × 22.4&amp;quot;, per a retailer listing).&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Saw table height:&lt;/strong&gt; &lt;strong&gt;34&amp;quot;&lt;/strong&gt; from the floor, a standard bench height, so
-a workbench can serve as outfeed. Some shops prefer ~35.5&amp;quot; (900 mm); pick
-yours and plug it into the formula below.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Dust:&lt;/strong&gt; a sealed plenum with a &lt;strong&gt;~37° ramp&lt;/strong&gt; down to a &lt;strong&gt;slotted 4&amp;quot;
-PVC manifold&lt;/strong&gt;. The manifold runs the full width of the back and exits the
-left side, so the cart can sit against a wall. The saw&amp;rsquo;s own rear port is
-hosed into the same box, and one hose runs to the collector.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Storage:&lt;/strong&gt; an 8&amp;quot;-deep drawer under the ramp, outside the sealed space.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Casters:&lt;/strong&gt; 4 of my &lt;strong&gt;step-stop locking casters&lt;/strong&gt;, one at each corner,
-plus ~25 lb of ballast sealed in under the ramp.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Material:&lt;/strong&gt; ¾&amp;quot; plywood, a ¼&amp;quot; hardboard ramp, and a 28&amp;quot; length of 4&amp;quot;
-PVC. Glue, screws, and caulk on every plenum seam.&lt;/li&gt;
+a workbench can serve as outfeed. Plug your preferred height into the
+formula below.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enclosure:&lt;/strong&gt; the skirt&amp;rsquo;s outside is 24&amp;quot; × 21&amp;quot;. That&amp;rsquo;s inside the table&amp;rsquo;s
+footprint, so its top edge sits under the table, where a nylon brush
+strip seals it. Inside, it&amp;rsquo;s 23&amp;quot; × 20&amp;quot; for the saw body.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Below:&lt;/strong&gt; two ~50° ramps form a V that meets over a slotted 4&amp;quot; PVC
+manifold. The manifold exits the left side, so the cart can sit against a
+wall.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Storage:&lt;/strong&gt; a small drawer under the front ramp. The saw&amp;rsquo;s onboard
+fence and miter-gauge storage ends up inside the skirt, so hang those on
+hooks on the cart&amp;rsquo;s right side.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Casters:&lt;/strong&gt; 4 of my &lt;strong&gt;step-stop locking casters&lt;/strong&gt;, plus ~25 lb of
+ballast sealed in under the back ramp.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;How the dust gets out&lt;span class="hx:absolute hx:-mt-20" id="how-the-dust-gets-out"&gt;&lt;/span&gt;
 &lt;a href="#how-the-dust-gets-out" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;figure&gt;
-&lt;svg id="cart-sec" viewBox="-70 -10 480 420" role="img" aria-labelledby="cart-section-title" style="width:100%;max-width:760px;height:auto;color:inherit" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="currentColor"&gt;&lt;title id="cart-section-title"&gt;Side section of the DW745 dust cabinet cart, to scale: the saw on a gasketed top over a cutout, a sealed plenum with a 37 degree hardboard ramp down to a full-width slotted 4 inch PVC manifold at the back that exits the side to the dust collector, the saw rear port hosed into the back panel, a drawer and ballast under the ramp, and casters.&lt;/title&gt;&lt;style&gt;#cart-sec .o{fill:none;stroke:currentColor;stroke-width:1.2}#cart-sec .p{fill:currentColor;fill-opacity:.25;stroke:currentColor}#cart-sec .r{fill:currentColor;fill-opacity:.55;stroke:currentColor;stroke-width:.5}#cart-sec .h{fill:none;stroke:currentColor;stroke-dasharray:4 2}#cart-sec .b{fill:currentColor;fill-opacity:.12;stroke:currentColor;stroke-dasharray:2 2}#cart-sec .k{fill:currentColor}#cart-sec .d{fill:none;stroke:currentColor;stroke-dasharray:2 2}#cart-sec .hose{fill:none;stroke:currentColor;stroke-width:3;stroke-opacity:.5}#cart-sec .air{fill:none;stroke:currentColor;stroke-width:1.2;stroke-dasharray:5 3}&lt;/style&gt;&lt;defs&gt;&lt;marker id="cart-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"&gt;&lt;path d="M0 0L10 5L0 10z" fill="currentColor"/&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;line class="o" x1="-60" y1="360" x2="400" y2="360"/&gt;&lt;text x="-60.0" y="374.0" font-size="9" text-anchor="start"&gt;floor&lt;/text&gt;&lt;rect class="o" x="0.0" y="315.0" width="24.0" height="6.0"/&gt;&lt;circle class="o" cx="12.0" cy="345.0" r="15"/&gt;&lt;rect class="o" x="216.0" y="315.0" width="24.0" height="6.0"/&gt;&lt;circle class="o" cx="228.0" cy="345.0" r="15"/&gt;&lt;text x="248.0" y="342.0" font-size="9" text-anchor="start"&gt;step-stop casters (c)&lt;/text&gt;&lt;rect class="p" x="0.0" y="307.5" width="240.0" height="7.5"/&gt;&lt;rect class="p" x="232.5" y="162.5" width="7.5" height="145.0"/&gt;&lt;rect class="p" x="0.0" y="162.5" width="7.5" height="62.5"/&gt;&lt;rect class="p" x="0.0" y="155.0" width="45.0" height="7.5"/&gt;&lt;rect class="p" x="195.0" y="155.0" width="45.0" height="7.5"/&gt;&lt;polygon class="r" points="45.0,162.5 193.5,273.5 192.0,275.5 43.5,164.5"/&gt;&lt;circle class="o" cx="211.4" cy="286.4" r="21.1"/&gt;&lt;circle class="k" cx="196.5" cy="271.5" r="3.2"/&gt;&lt;polygon class="p" points="107.5,307.5 115.0,307.5 115.0,217.9 107.5,212.3"/&gt;&lt;rect class="h" x="10.0" y="227.5" width="95.0" height="78.5"/&gt;&lt;text x="32.0" y="265.5" font-size="9" text-anchor="start"&gt;drawer&lt;/text&gt;&lt;rect class="b" x="120.0" y="287.5" width="55.0" height="20.0"/&gt;&lt;text x="123.0" y="281.5" font-size="8" text-anchor="start"&gt;ballast (~25 lb)&lt;/text&gt;&lt;rect class="o" x="8.0" y="20.0" width="224.0" height="10.0"/&gt;&lt;text x="120.0" y="15.0" font-size="9" text-anchor="middle"&gt;DW745 table (34″)&lt;/text&gt;&lt;rect class="o" x="40.0" y="30.0" width="160.0" height="125.0"/&gt;&lt;text x="120.0" y="80.0" font-size="9" text-anchor="middle"&gt;DW745 body&lt;/text&gt;&lt;text x="120.0" y="92.0" font-size="8" text-anchor="middle"&gt;open underside drops dust&lt;/text&gt;&lt;rect class="d" x="45.0" y="149.0" width="150.0" height="6"/&gt;&lt;text x="75.0" y="171.0" font-size="8" text-anchor="start"&gt;cutout ½″ inside the base · foam gasket&lt;/text&gt;&lt;rect class="o" x="200.0" y="85.0" width="14.0" height="14.0"/&gt;&lt;path class="hose" d="M214.0 92.0 C 260.0 92.0, 270.0 185.0, 246.0 195.0"/&gt;&lt;rect class="o" x="240.0" y="182.5" width="9.0" height="25.0"/&gt;&lt;text x="256.0" y="84.0" font-size="9" text-anchor="start"&gt;saw rear port&lt;/text&gt;&lt;text x="256.0" y="96.0" font-size="8" text-anchor="start"&gt;2½″ hose to back panel&lt;/text&gt;&lt;text x="175.0" y="185.0" font-size="9" text-anchor="middle"&gt;sealed plenum&lt;/text&gt;&lt;text x="131.6" y="206.8" font-size="8" text-anchor="middle" transform="rotate(36.8 131.6 206.8)"&gt;ramp, ¼″ hardboard, ~37°&lt;/text&gt;&lt;text x="250.0" y="289.4" font-size="9" text-anchor="start"&gt;4″ slotted manifold →&lt;/text&gt;&lt;text x="250.0" y="301.4" font-size="8" text-anchor="start"&gt;out the left side to the collector&lt;/text&gt;&lt;path class="air" d="M90.0 60.0 C 90.0 140.0, 120.0 190.0, 155.0 230.0 S 182.0 264.0, 196.5 271.5" marker-end="url(#cart-arrow)"/&gt;&lt;line class="o" x1="-30" y1="155.0" x2="-30" y2="315.0" marker-start="url(#cart-arrow)" marker-end="url(#cart-arrow)"/&gt;&lt;text x="-62.0" y="235.0" font-size="9" text-anchor="start"&gt;H = 16″&lt;/text&gt;&lt;text x="-62.0" y="245.0" font-size="8" text-anchor="start"&gt;(example)&lt;/text&gt;&lt;line class="o" x1="0" y1="386" x2="240" y2="386" marker-start="url(#cart-arrow)" marker-end="url(#cart-arrow)"/&gt;&lt;text x="120.0" y="382.0" font-size="9" text-anchor="middle"&gt;24″ deep&lt;/text&gt;&lt;text x="0.0" y="109.0" font-size="8" text-anchor="start"&gt;front&lt;/text&gt;&lt;text x="240.0" y="109.0" font-size="8" text-anchor="end"&gt;back&lt;/text&gt;&lt;text x="16.0" y="283.5" font-size="8" text-anchor="start"&gt;8¼″ opening&lt;/text&gt;&lt;/svg&gt;
-&lt;figcaption&gt;Side section, to scale for the H = 16″ example (front at left). The dashed arrow shows the airflow.&lt;/figcaption&gt;
+&lt;svg id="cart-sec" viewBox="-80 -10 500 430" role="img" aria-labelledby="cart-section-title" style="width:100%;max-width:780px;height:auto;color:inherit" font-family="ui-sans-serif, system-ui, sans-serif" font-size="9" fill="currentColor"&gt;&lt;title id="cart-section-title"&gt;Side section of the DW745 dust cabinet cart, to scale: a half-inch plywood skirt on all four sides of the saw body rises from the cart top to a brush seal under the table; the saw sits on support rails over a full-size opening; below, a V-hopper of two 50 degree ramps feeds a slotted 4 inch PVC manifold that exits the side to the dust collector; a small drawer and ballast sit under the ramps.&lt;/title&gt;&lt;style&gt;#cart-sec .o{fill:none;stroke:currentColor;stroke-width:1.2}#cart-sec .p{fill:currentColor;fill-opacity:.25;stroke:currentColor}#cart-sec .r{fill:currentColor;fill-opacity:.55;stroke:currentColor;stroke-width:.5}#cart-sec .h{fill:none;stroke:currentColor;stroke-dasharray:4 2}#cart-sec .g{fill:currentColor;fill-opacity:.06;stroke:currentColor;stroke-dasharray:6 3}#cart-sec .b{fill:currentColor;fill-opacity:.12;stroke:currentColor;stroke-dasharray:2 2}#cart-sec .k{fill:currentColor}#cart-sec .hose{fill:none;stroke:currentColor;stroke-width:3;stroke-opacity:.5}#cart-sec .air{fill:none;stroke:currentColor;stroke-width:1.2;stroke-dasharray:5 3}&lt;/style&gt;&lt;defs&gt;&lt;marker id="cart-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"&gt;&lt;path d="M0 0L10 5L0 10z" fill="currentColor"/&gt;&lt;/marker&gt;&lt;/defs&gt;&lt;line class="o" x1="-60" y1="370" x2="410" y2="370"/&gt;&lt;text x="-60.0" y="384.0" font-size="9" text-anchor="start"&gt;floor&lt;/text&gt;&lt;rect class="o" x="0.0" y="325.0" width="24.0" height="6.0"/&gt;&lt;circle class="o" cx="12.0" cy="355.0" r="15"/&gt;&lt;rect class="o" x="216.0" y="325.0" width="24.0" height="6.0"/&gt;&lt;circle class="o" cx="228.0" cy="355.0" r="15"/&gt;&lt;text x="248.0" y="352.0" font-size="9" text-anchor="start"&gt;step-stop casters (c)&lt;/text&gt;&lt;rect class="p" x="0.0" y="317.5" width="240.0" height="7.5"/&gt;&lt;rect class="p" x="232.5" y="172.5" width="7.5" height="145.0"/&gt;&lt;rect class="p" x="0.0" y="172.5" width="7.5" height="70.0"/&gt;&lt;rect class="p" x="0.0" y="165.0" width="30.0" height="7.5"/&gt;&lt;rect class="p" x="210.0" y="165.0" width="30.0" height="7.5"/&gt;&lt;polygon class="r" points="30.0,172.5 116.2,275.9 116.2,279.8 30.0,176.4"/&gt;&lt;polygon class="r" points="210.0,172.5 123.8,275.9 123.8,279.8 210.0,176.4"/&gt;&lt;circle class="o" cx="120.0" cy="296.4" r="21.1"/&gt;&lt;rect class="k" x="116.2" y="274.4" width="7.5" height="3.0"/&gt;&lt;polygon class="p" points="67.5,317.5 75.0,317.5 75.0,230.3 67.5,221.3"/&gt;&lt;rect class="h" x="10.0" y="247.5" width="55.0" height="68.5"/&gt;&lt;text x="15.0" y="279.5" font-size="8" text-anchor="start"&gt;drawer&lt;/text&gt;&lt;rect class="b" x="150.0" y="297.5" width="55.0" height="20.0"/&gt;&lt;text x="153.0" y="309.5" font-size="8" text-anchor="start"&gt;ballast&lt;/text&gt;&lt;rect class="p" x="15.0" y="55.0" width="5.0" height="110.0"/&gt;&lt;rect class="p" x="220.0" y="55.0" width="5.0" height="110.0"/&gt;&lt;line class="o" x1="15.0" y1="55.0" x2="15.0" y2="46.0" stroke-width="0.6"/&gt;&lt;line class="o" x1="16.0" y1="55.0" x2="16.0" y2="46.0" stroke-width="0.6"/&gt;&lt;line class="o" x1="17.0" y1="55.0" x2="17.0" y2="46.0" stroke-width="0.6"/&gt;&lt;line class="o" x1="18.0" y1="55.0" x2="18.0" y2="46.0" stroke-width="0.6"/&gt;&lt;line class="o" x1="19.0" y1="55.0" x2="19.0" y2="46.0" stroke-width="0.6"/&gt;&lt;line class="o" x1="20.0" y1="55.0" x2="20.0" y2="46.0" stroke-width="0.6"/&gt;&lt;line class="o" x1="220.0" y1="55.0" x2="220.0" y2="46.0" stroke-width="0.6"/&gt;&lt;line class="o" x1="221.0" y1="55.0" x2="221.0" y2="46.0" stroke-width="0.6"/&gt;&lt;line class="o" x1="222.0" y1="55.0" x2="222.0" y2="46.0" stroke-width="0.6"/&gt;&lt;line class="o" x1="223.0" y1="55.0" x2="223.0" y2="46.0" stroke-width="0.6"/&gt;&lt;line class="o" x1="224.0" y1="55.0" x2="224.0" y2="46.0" stroke-width="0.6"/&gt;&lt;line class="o" x1="225.0" y1="55.0" x2="225.0" y2="46.0" stroke-width="0.6"/&gt;&lt;rect class="h" x="20.0" y="150.0" width="200.0" height="15.0"/&gt;&lt;text x="120.0" y="159.5" font-size="7" text-anchor="middle"&gt;support rails (left and right) · knobs&lt;/text&gt;&lt;rect class="o" x="8.0" y="36.0" width="224.0" height="10.0"/&gt;&lt;text x="120.0" y="31.0" font-size="9" text-anchor="middle"&gt;DW745 table (34″)&lt;/text&gt;&lt;rect class="g" x="26.0" y="46.0" width="188.0" height="104.0"/&gt;&lt;text x="120.0" y="84.0" font-size="9" text-anchor="middle"&gt;DW745 body: open frame&lt;/text&gt;&lt;text x="120.0" y="96.0" font-size="8" text-anchor="middle"&gt;dust exits every side → stays inside the skirt&lt;/text&gt;&lt;line class="o" x1="2.0" y1="110.0" x2="26.0" y2="110.0"/&gt;&lt;rect class="o" x="-4.0" y="94.0" width="6.0" height="32.0"/&gt;&lt;text x="-62.0" y="134.0" font-size="8" text-anchor="start"&gt;handwheel shaft&lt;/text&gt;&lt;text x="-62.0" y="144.0" font-size="8" text-anchor="start"&gt;in a brushed arc slot&lt;/text&gt;&lt;rect class="o" x="202.0" y="110.0" width="12.0" height="12.0"/&gt;&lt;path class="hose" d="M214.0 116.0 q 6 0 6 14"/&gt;&lt;text x="248.0" y="108.0" font-size="8" text-anchor="start"&gt;rear port turned down,&lt;/text&gt;&lt;text x="248.0" y="118.0" font-size="8" text-anchor="start"&gt;dumps inside&lt;/text&gt;&lt;text x="248.0" y="75.0" font-size="8" text-anchor="start"&gt;½″ ply skirt, all 4 sides&lt;/text&gt;&lt;text x="248.0" y="64.0" font-size="8" text-anchor="start"&gt;&lt;/text&gt;&lt;text x="248.0" y="48.0" font-size="8" text-anchor="start"&gt;brush seal to table&lt;/text&gt;&lt;text x="120.0" y="214.0" font-size="8" text-anchor="middle"&gt;V-hopper (~50°)&lt;/text&gt;&lt;text x="248.0" y="299.4" font-size="9" text-anchor="start"&gt;4″ slotted manifold →&lt;/text&gt;&lt;text x="248.0" y="311.4" font-size="8" text-anchor="start"&gt;out the left side to the collector&lt;/text&gt;&lt;path class="air" d="M120.0 36.0 L 120.0 271.3" marker-end="url(#cart-arrow)"/&gt;&lt;path class="air" d="M40.0 100.0 Q 40.0 170.0 90.0 230.0" marker-end="url(#cart-arrow)"/&gt;&lt;path class="air" d="M200.0 100.0 Q 200.0 170.0 150.0 230.0" marker-end="url(#cart-arrow)"/&gt;&lt;line class="o" x1="-70" y1="165.0" x2="-70" y2="325.0" marker-start="url(#cart-arrow)" marker-end="url(#cart-arrow)"/&gt;&lt;text x="-62.0" y="245.0" font-size="9" text-anchor="start"&gt;H = 16″&lt;/text&gt;&lt;text x="-62.0" y="255.0" font-size="8" text-anchor="start"&gt;(example)&lt;/text&gt;&lt;line class="o" x1="-70" y1="55.0" x2="-70" y2="165.0" marker-start="url(#cart-arrow)" marker-end="url(#cart-arrow)"/&gt;&lt;text x="-62.0" y="68.0" font-size="8" text-anchor="start"&gt;skirt 11″&lt;/text&gt;&lt;text x="-62.0" y="78.0" font-size="8" text-anchor="start"&gt;(example)&lt;/text&gt;&lt;line class="o" x1="0" y1="396" x2="240" y2="396" marker-start="url(#cart-arrow)" marker-end="url(#cart-arrow)"/&gt;&lt;text x="120.0" y="392.0" font-size="9" text-anchor="middle"&gt;24″ deep&lt;/text&gt;&lt;text x="0.0" y="18.0" font-size="8" text-anchor="start"&gt;front&lt;/text&gt;&lt;text x="240.0" y="18.0" font-size="8" text-anchor="end"&gt;back&lt;/text&gt;&lt;/svg&gt;
+&lt;figcaption&gt;Side section, to scale for the example (front at left). Dashed arrows show the airflow; the saw body is drawn as a dashed outline.&lt;/figcaption&gt;
 &lt;/figure&gt;
-&lt;p&gt;&lt;strong&gt;Sealed plenum.&lt;/strong&gt; The plenum is a closed box under the saw. Its walls are
-the top, sides, back, ramp, and the upper face of the manifold pipe. The
-only openings are:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What&amp;rsquo;s enclosed.&lt;/strong&gt; The skirt, cart top, hopper and manifold make one
+sealed volume of about &lt;strong&gt;4.4 ft³&lt;/strong&gt; around and under the saw. The saw&amp;rsquo;s
+side vents, bevel slot, open bottom and rear dust port all empty into it.
+The rear port can simply be turned to point down. Air gets in only from
+above the table:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;the &lt;strong&gt;cutout&lt;/strong&gt; under the saw&amp;rsquo;s open bottom, sealed to the saw base with
-foam weatherstrip;&lt;/li&gt;
-&lt;li&gt;a &lt;strong&gt;2½&amp;quot; flange&lt;/strong&gt; high in the back panel, which the saw&amp;rsquo;s rear port is
-hosed into;&lt;/li&gt;
-&lt;li&gt;the &lt;strong&gt;slot&lt;/strong&gt; in the manifold.&lt;/li&gt;
+&lt;li&gt;the blade slot and the throat-plate gap;&lt;/li&gt;
+&lt;li&gt;a little leakage through the brush seals;&lt;/li&gt;
+&lt;li&gt;the brushed openings in the front skirt.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Every interior seam gets caulk, including the ramp-to-top joint at the
-ramp&amp;rsquo;s head and the ramp-to-pipe joint at its foot.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Ramp.&lt;/strong&gt; ¼&amp;quot; hardboard, its smooth face up, starts at the &lt;strong&gt;front edge of
-the cutout&lt;/strong&gt;, since dust can&amp;rsquo;t fall anywhere ahead of it. It runs down to
-the pipe, landing just in front of the slot. That&amp;rsquo;s 11.1&amp;quot; of drop over 14.85&amp;quot;
-of run, about &lt;strong&gt;37°&lt;/strong&gt;. Sawdust&amp;rsquo;s angle of repose is roughly 35–45°, so
-steeper is better: a 17&amp;quot; box gives 39°. Wax the ramp.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Slotted manifold, not a single port.&lt;/strong&gt; A 4&amp;quot; port only pulls hard within
-about 4&amp;quot; of itself, and a 26½&amp;quot;-wide ramp would leave chips piled in the
-corners. Instead, a piece of &lt;strong&gt;4&amp;quot; PVC sewer &amp;amp; drain pipe&lt;/strong&gt; lies along the
-back-bottom corner, sealed against the back panel and bottom.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s the point: &lt;strong&gt;every path for air runs into the enclosure, not out of
+it.&lt;/strong&gt; At 350–450 CFM the enclosure&amp;rsquo;s air is replaced 80–100 times a minute.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Openings in the front skirt.&lt;/strong&gt; The DW745&amp;rsquo;s controls are on the front, so
+the front panel gets two brushed openings:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Slot:&lt;/strong&gt; about 22&amp;quot; long, cut along the pipe facing front-up at roughly
-45°, where the ramp delivers. Taper it from &lt;strong&gt;½&amp;quot; wide at the exit end to
-¾&amp;quot; at the closed end&lt;/strong&gt; so the pull is even along its length. That&amp;rsquo;s about
-13¾ in², similar to the 4&amp;quot; duct&amp;rsquo;s 12½ in².&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ends:&lt;/strong&gt; the far end butts the right side panel, which caps it (caulk the
-joint). The other end passes through the &lt;strong&gt;left side&lt;/strong&gt; panel and sticks
-out ~1½&amp;quot; for the collector hose.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Handwheel arc slot.&lt;/strong&gt; The blade-height handwheel moves along an arc as
+the blade bevels. Template the slot by taping cardboard over the front of
+the saw, running the bevel from 0° to 45°, and tracing the shaft&amp;rsquo;s path.
+Cut the slot about ½&amp;quot; wider than the shaft, then close it with two strips
+of brush seal facing each other. Take the handwheel off to fit the panel,
+then put it back on outside.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Switch window.&lt;/strong&gt; A cutout around the paddle switch, edged with brush or
+foam, so it stays reachable. A clear acrylic window over the bevel scale
+is optional.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Hopper and manifold.&lt;/strong&gt; Two ¼&amp;quot; hardboard ramps run from the edges of the
+cart-top opening down to the crown of a &lt;strong&gt;4&amp;quot; PVC sewer &amp;amp; drain pipe&lt;/strong&gt; lying
+across the bottom at mid-depth. They&amp;rsquo;re about &lt;strong&gt;50°&lt;/strong&gt;, well past sawdust&amp;rsquo;s
+35–45° angle of repose.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Slot:&lt;/strong&gt; about 22&amp;quot; long, cut along the pipe&amp;rsquo;s top between the two ramp
+feet. Taper it from ½&amp;quot; wide at the exit end to ¾&amp;quot; at the closed end so
+the pull is even.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ends:&lt;/strong&gt; the pipe&amp;rsquo;s far end butts the right side panel, which caps it.
+The other end passes through the left side and sticks out ~1½&amp;quot; for the
+collector hose.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Offcut guard:&lt;/strong&gt; the slot is too narrow for an offcut to reach the
 single-stage collector&amp;rsquo;s impeller.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Makeup air.&lt;/strong&gt; A collector moves air, not dust. Air comes in through the
-saw&amp;rsquo;s blade slot, bevel slot and vents, sweeps down through the cutout, and
-leaves through the slot. Don&amp;rsquo;t seal those saw openings. If an incense test
-shows a weak draw at the blade throat, add a &lt;strong&gt;1½&amp;quot; bleed hole with a
-sliding cover&lt;/strong&gt; high in one side panel. A zero-clearance throat insert helps
-both suction and offcuts.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The numbers.&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Airflow:&lt;/strong&gt; the collector is rated at 650 CFM free air. With a short
-hose and this box it should realistically move &lt;strong&gt;350–450 CFM&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Duct speed:&lt;/strong&gt; that&amp;rsquo;s &lt;strong&gt;4,000–5,200 ft/min&lt;/strong&gt; in the 4&amp;quot; line, above the
-~3,500 ft/min that keeps chips moving in a duct.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Slot speed:&lt;/strong&gt; about 3,700–4,700 ft/min at that flow. The plenum
-itself (~1.9 ft³) sees only a few hundred ft/min, so chips get to the slot
-by &lt;strong&gt;sliding down the ramp&lt;/strong&gt;, not by being blown.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Hose:&lt;/strong&gt; keep the hose to the collector short (≤ 10 ft) and smooth-walled.&lt;/li&gt;
+hose and this box, expect &lt;strong&gt;350–450 CFM&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Duct and slot speed:&lt;/strong&gt; that&amp;rsquo;s &lt;strong&gt;4,000–5,200 ft/min&lt;/strong&gt; in the 4&amp;quot; duct and
+about 3,700–4,700 ft/min through the slot, both above the ~3,500 ft/min
+that keeps chips moving.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hose:&lt;/strong&gt; keep the hose to the collector short (≤ 10 ft) and
+smooth-walled.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Rear port.&lt;/strong&gt; The saw&amp;rsquo;s 2½&amp;quot; hose ends in the plenum, which is under
-suction, so it does draw some air. But it&amp;rsquo;s a weaker pull than a direct
-duct. If the incense test shows the blade shroud isn&amp;rsquo;t clearing, run that
-hose to a &lt;strong&gt;4 × 4 × 2½&amp;quot; wye&lt;/strong&gt; on the collector line instead.&lt;/p&gt;
-&lt;h2&gt;Set the height first&lt;span class="hx:absolute hx:-mt-20" id="set-the-height-first"&gt;&lt;/span&gt;
-&lt;a href="#set-the-height-first" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Two measurements decide the carcass height. Take them before cutting
-anything:&lt;/p&gt;
+&lt;h2&gt;Above the table: the part a cabinet can&amp;rsquo;t catch&lt;span class="hx:absolute hx:-mt-20" id="above-the-table-the-part-a-cabinet-cant-catch"&gt;&lt;/span&gt;
+&lt;a href="#above-the-table-the-part-a-cabinet-cant-catch" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;For &lt;strong&gt;truly minimal&lt;/strong&gt; garage dust, plan on four more things. The enclosure
+handles everything below the table, but the top of the blade still throws
+fine dust toward you.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;s&lt;/strong&gt;: from the bottom of the saw&amp;rsquo;s base (where it&amp;rsquo;ll sit on the cart)
-to the top of the saw table.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;c&lt;/strong&gt;: from the caster&amp;rsquo;s mounting plate to the floor.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Over-blade collection.&lt;/strong&gt; A blade guard with a dust port, or an
+overarm guard, run on a 2½&amp;quot; line to a &lt;strong&gt;4 × 4 × 2½&amp;quot; wye&lt;/strong&gt; on the collector
+hose. Check that one fits the DW745 before buying; the stock guard has no
+port.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A fine filter on the collector.&lt;/strong&gt; Single-stage bag collectors often pass
+the finest dust straight back into the room. Check your bag&amp;rsquo;s micron
+rating, and upgrade to a 1-micron bag or canister if it&amp;rsquo;s coarser.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;An ambient air filter&lt;/strong&gt; running during and after cutting.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;A respirator&lt;/strong&gt; for long sessions. Collection reduces dust; it doesn&amp;rsquo;t
+eliminate the fine fraction.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Carcass height H = 34&amp;quot; − s − c.&lt;/strong&gt; That&amp;rsquo;s the outside height of the box,
-top and bottom panels included. The weatherstrip compresses to about ⅛&amp;quot;,
-which is close enough to ignore.&lt;/p&gt;
+&lt;h2&gt;Measure first&lt;span class="hx:absolute hx:-mt-20" id="measure-first"&gt;&lt;/span&gt;
+&lt;a href="#measure-first" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Three measurements set the build. Take them all before cutting:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Body clearance:&lt;/strong&gt; the saw body&amp;rsquo;s footprint below the table must fit
+inside &lt;strong&gt;23&amp;quot; × 20&amp;quot;&lt;/strong&gt; (the skirt&amp;rsquo;s inside) &lt;strong&gt;through full blade-height
+and 0–45° bevel travel&lt;/strong&gt;. If it doesn&amp;rsquo;t, enlarge the skirt. Its outside
+still has to stay inside the table&amp;rsquo;s footprint.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;s:&lt;/strong&gt; from the saw&amp;rsquo;s feet to the top of the table.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;g:&lt;/strong&gt; from the saw&amp;rsquo;s feet to the lowest point under the table&amp;rsquo;s
+perimeter, which is usually the fence rails. The skirt&amp;rsquo;s top goes ¼&amp;quot;
+below that, and the brush closes the gap.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Then:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Carcass height H = 34&amp;quot; − s − c − 1½&amp;quot;&lt;/strong&gt;, where c is the caster height
+(mounting plate to floor) and 1½&amp;quot; is the saw&amp;rsquo;s support rails.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Skirt height = g + 1½&amp;quot; − ¼&amp;quot;&lt;/strong&gt;, measured from the cart top.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -106,304 +133,73 @@ which is close enough to ignore.&lt;/p&gt;
 &lt;th style="text-align: right"&gt;s&lt;/th&gt;
 &lt;th style="text-align: right"&gt;c&lt;/th&gt;
 &lt;th style="text-align: right"&gt;&lt;strong&gt;H&lt;/strong&gt;&lt;/th&gt;
-&lt;th style="text-align: right"&gt;Interior (H − 1½&amp;quot;)&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Interior&lt;/th&gt;
 &lt;th style="text-align: right"&gt;Ramp angle&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;3&amp;quot; casters&lt;/td&gt;
-&lt;td style="text-align: right"&gt;13.5&amp;quot;&lt;/td&gt;
+&lt;td style="text-align: right"&gt;12&amp;quot;&lt;/td&gt;
 &lt;td style="text-align: right"&gt;3.5&amp;quot;&lt;/td&gt;
 &lt;td style="text-align: right"&gt;&lt;strong&gt;17&amp;quot;&lt;/strong&gt;&lt;/td&gt;
 &lt;td style="text-align: right"&gt;15.5&amp;quot;&lt;/td&gt;
-&lt;td style="text-align: right"&gt;~39°&lt;/td&gt;
+&lt;td style="text-align: right"&gt;~53°&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;4&amp;quot; casters&lt;/td&gt;
-&lt;td style="text-align: right"&gt;13.5&amp;quot;&lt;/td&gt;
+&lt;td style="text-align: right"&gt;12&amp;quot;&lt;/td&gt;
 &lt;td style="text-align: right"&gt;4.5&amp;quot;&lt;/td&gt;
 &lt;td style="text-align: right"&gt;&lt;strong&gt;16&amp;quot;&lt;/strong&gt;&lt;/td&gt;
 &lt;td style="text-align: right"&gt;14.5&amp;quot;&lt;/td&gt;
-&lt;td style="text-align: right"&gt;~37°&lt;/td&gt;
+&lt;td style="text-align: right"&gt;~50°&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;5&amp;quot; casters&lt;/td&gt;
-&lt;td style="text-align: right"&gt;13.5&amp;quot;&lt;/td&gt;
+&lt;td style="text-align: right"&gt;12&amp;quot;&lt;/td&gt;
 &lt;td style="text-align: right"&gt;5.5&amp;quot;&lt;/td&gt;
 &lt;td style="text-align: right"&gt;&lt;strong&gt;15&amp;quot;&lt;/strong&gt;&lt;/td&gt;
 &lt;td style="text-align: right"&gt;13.5&amp;quot;&lt;/td&gt;
-&lt;td style="text-align: right"&gt;~34°&lt;/td&gt;
+&lt;td style="text-align: right"&gt;~47°&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;The s = 13.5&amp;quot; here is only a placeholder; I don&amp;rsquo;t have a published
-base-to-table height for the DW745. Measure your saw. Ramp angle =
-atan((interior − 3.4&amp;quot;) ÷ 14.85&amp;quot;). The 3.4&amp;quot; is where the ramp lands on the
-pipe; 14.85&amp;quot; is the run from the cutout&amp;rsquo;s front edge to the pipe.&lt;/p&gt;
-&lt;div class="goat svg-container "&gt;
-&lt;svg
-xmlns="http://www.w3.org/2000/svg"
-font-family="Menlo,Lucida Console,monospace"
-viewBox="0 0 592 249"
+&lt;p&gt;The s = 12&amp;quot; and the 11&amp;quot; skirt in the example are placeholders; I don&amp;rsquo;t have
+published DW745 figures. Ramp angle = atan((interior − 4.2&amp;quot;) ÷ 8.6&amp;quot;). The
+4.2&amp;quot; is the pipe crown; 8.6&amp;quot; is each ramp&amp;rsquo;s run.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt; .--------------------------------------.
+| DW745 table (34″) |
+&amp;#39;--------------------------------------&amp;#39;
+| brush seal strip |
+&amp;#43;------------------------------------&amp;#43; skirt, ½″ ply,
+| switch .-- arc slot --. | all four sides
+| window ( handwheel ) |
+| &amp;#39;--------------&amp;#39; |
+&amp;#43;---------&amp;#43;------------------------------------&amp;#43;-------&amp;#43; cart top
+| |
+| front panel; V-hopper and manifold behind |
+&amp;#43;-&amp;#43;--------------------------------------------------&amp;#43;-&amp;#43;
+| | drawer (25″ opening) | |
+&amp;#43;-&amp;#43;--------------------------------------------------&amp;#43;-&amp;#43; bottom
+(o) (o) c = caster
+=========================================================== floor
+|&amp;lt;----------------------- 28″ -----------------------&amp;gt;|
+front view (manifold exits the left side)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;g transform='translate(8,16)'&gt;
-&lt;path d='M 80,0 L 392,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 80,32 L 120,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 120,32 L 352,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 352,32 L 392,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 16,64 L 120,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 120,64 L 352,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 352,64 L 456,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 16,128 L 32,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 32,128 L 440,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 440,128 L 456,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 16,160 L 24,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 40,160 L 432,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 448,160 L 456,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 24,208 L 208,208' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 256,208 L 440,208' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 16,64 L 16,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 16,128 L 16,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 16,200 L 16,216' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 32,128 L 32,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 80,0 L 80,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 120,32 L 120,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 352,32 L 352,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 392,0 L 392,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 440,128 L 440,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 448,200 L 448,216' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 456,64 L 456,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 456,128 L 456,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;polygon points='32.000000,208.000000 20.000000,202.399994 20.000000,213.600006' fill='currentColor' transform='rotate(180.000000, 24.000000, 208.000000)'&gt;&lt;/polygon&gt;
-&lt;polygon points='448.000000,208.000000 436.000000,202.399994 436.000000,213.600006' fill='currentColor' transform='rotate(0.000000, 440.000000, 208.000000)'&gt;&lt;/polygon&gt;
-&lt;path d='M 24,160 A 16,16 0 0,1 40,176' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 448,160 A 16,16 0 0,0 432,176' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;circle cx='40' cy='176' r='6' stroke='currentColor' fill='#fff'&gt;&lt;/circle&gt;
-&lt;circle cx='432' cy='176' r='6' stroke='currentColor' fill='#fff'&gt;&lt;/circle&gt;
-&lt;text text-anchor='middle' x='8' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='16' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='24' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='32' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='40' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='48' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='56' y='100' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
-&lt;text text-anchor='middle' x='56' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='64' y='100' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='64' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='72' y='100' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='72' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='80' y='100' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='80' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='88' y='100' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='88' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='96' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='104' y='100' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='104' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='104' y='228' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
-&lt;text text-anchor='middle' x='112' y='100' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='112' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='112' y='228' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='120' y='100' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='120' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='120' y='228' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='128' y='100' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='128' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='128' y='228' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='136' y='100' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
-&lt;text text-anchor='middle' x='136' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='136' y='228' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='144' y='100' fill='currentColor' style='font-size:1em'&gt;;&lt;/text&gt;
-&lt;text text-anchor='middle' x='144' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='152' y='52' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
-&lt;text text-anchor='middle' x='152' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='152' y='228' fill='currentColor' style='font-size:1em'&gt;v&lt;/text&gt;
-&lt;text text-anchor='middle' x='160' y='52' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='160' y='100' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
-&lt;text text-anchor='middle' x='160' y='148' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
-&lt;text text-anchor='middle' x='160' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='160' y='228' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='168' y='52' fill='currentColor' style='font-size:1em'&gt;w&lt;/text&gt;
-&lt;text text-anchor='middle' x='168' y='100' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='168' y='148' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='168' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='168' y='228' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='176' y='20' fill='currentColor' style='font-size:1em'&gt;D&lt;/text&gt;
-&lt;text text-anchor='middle' x='176' y='100' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='176' y='148' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='176' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='176' y='228' fill='currentColor' style='font-size:1em'&gt;w&lt;/text&gt;
-&lt;text text-anchor='middle' x='184' y='20' fill='currentColor' style='font-size:1em'&gt;W&lt;/text&gt;
-&lt;text text-anchor='middle' x='184' y='52' fill='currentColor' style='font-size:1em'&gt;b&lt;/text&gt;
-&lt;text text-anchor='middle' x='184' y='100' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
-&lt;text text-anchor='middle' x='184' y='148' fill='currentColor' style='font-size:1em'&gt;w&lt;/text&gt;
-&lt;text text-anchor='middle' x='184' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='192' y='20' fill='currentColor' style='font-size:1em'&gt;7&lt;/text&gt;
-&lt;text text-anchor='middle' x='192' y='52' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='192' y='100' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='192' y='148' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='192' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='192' y='228' fill='currentColor' style='font-size:1em'&gt;(&lt;/text&gt;
-&lt;text text-anchor='middle' x='200' y='20' fill='currentColor' style='font-size:1em'&gt;4&lt;/text&gt;
-&lt;text text-anchor='middle' x='200' y='52' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
-&lt;text text-anchor='middle' x='200' y='100' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
-&lt;text text-anchor='middle' x='200' y='148' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='200' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='200' y='228' fill='currentColor' style='font-size:1em'&gt;m&lt;/text&gt;
-&lt;text text-anchor='middle' x='208' y='20' fill='currentColor' style='font-size:1em'&gt;5&lt;/text&gt;
-&lt;text text-anchor='middle' x='208' y='52' fill='currentColor' style='font-size:1em'&gt;y&lt;/text&gt;
-&lt;text text-anchor='middle' x='208' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='208' y='228' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='216' y='100' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='216' y='148' fill='currentColor' style='font-size:1em'&gt;(&lt;/text&gt;
-&lt;text text-anchor='middle' x='216' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='216' y='228' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='224' y='20' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='224' y='52' fill='currentColor' style='font-size:1em'&gt;(&lt;/text&gt;
-&lt;text text-anchor='middle' x='224' y='100' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
-&lt;text text-anchor='middle' x='224' y='148' fill='currentColor' style='font-size:1em'&gt;2&lt;/text&gt;
-&lt;text text-anchor='middle' x='224' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='224' y='212' fill='currentColor' style='font-size:1em'&gt;2&lt;/text&gt;
-&lt;text text-anchor='middle' x='224' y='228' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='232' y='20' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='232' y='52' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
-&lt;text text-anchor='middle' x='232' y='100' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='232' y='148' fill='currentColor' style='font-size:1em'&gt;5&lt;/text&gt;
-&lt;text text-anchor='middle' x='232' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='232' y='212' fill='currentColor' style='font-size:1em'&gt;8&lt;/text&gt;
-&lt;text text-anchor='middle' x='232' y='228' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
-&lt;text text-anchor='middle' x='240' y='20' fill='currentColor' style='font-size:1em'&gt;b&lt;/text&gt;
-&lt;text text-anchor='middle' x='240' y='52' fill='currentColor' style='font-size:1em'&gt;,&lt;/text&gt;
-&lt;text text-anchor='middle' x='240' y='100' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='240' y='148' fill='currentColor' style='font-size:1em'&gt;″&lt;/text&gt;
-&lt;text text-anchor='middle' x='240' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='240' y='212' fill='currentColor' style='font-size:1em'&gt;″&lt;/text&gt;
-&lt;text text-anchor='middle' x='240' y='228' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='248' y='20' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
-&lt;text text-anchor='middle' x='248' y='100' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
-&lt;text text-anchor='middle' x='248' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='248' y='228' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
-&lt;text text-anchor='middle' x='256' y='20' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='256' y='52' fill='currentColor' style='font-size:1em'&gt;m&lt;/text&gt;
-&lt;text text-anchor='middle' x='256' y='100' fill='currentColor' style='font-size:1em'&gt;m&lt;/text&gt;
-&lt;text text-anchor='middle' x='256' y='148' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='256' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='256' y='228' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
-&lt;text text-anchor='middle' x='264' y='52' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='264' y='148' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='264' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='272' y='20' fill='currentColor' style='font-size:1em'&gt;(&lt;/text&gt;
-&lt;text text-anchor='middle' x='272' y='52' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='272' y='100' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='272' y='148' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='272' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='272' y='228' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='280' y='20' fill='currentColor' style='font-size:1em'&gt;3&lt;/text&gt;
-&lt;text text-anchor='middle' x='280' y='52' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
-&lt;text text-anchor='middle' x='280' y='100' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='280' y='148' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='280' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='280' y='228' fill='currentColor' style='font-size:1em'&gt;x&lt;/text&gt;
-&lt;text text-anchor='middle' x='288' y='20' fill='currentColor' style='font-size:1em'&gt;4&lt;/text&gt;
-&lt;text text-anchor='middle' x='288' y='52' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
-&lt;text text-anchor='middle' x='288' y='100' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
-&lt;text text-anchor='middle' x='288' y='148' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='288' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='288' y='228' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='296' y='20' fill='currentColor' style='font-size:1em'&gt;″&lt;/text&gt;
-&lt;text text-anchor='middle' x='296' y='52' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='296' y='148' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='296' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='296' y='228' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='304' y='20' fill='currentColor' style='font-size:1em'&gt;)&lt;/text&gt;
-&lt;text text-anchor='middle' x='304' y='52' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='304' y='100' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='304' y='148' fill='currentColor' style='font-size:1em'&gt;g&lt;/text&gt;
-&lt;text text-anchor='middle' x='304' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='304' y='228' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
-&lt;text text-anchor='middle' x='312' y='52' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
-&lt;text text-anchor='middle' x='312' y='100' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='312' y='148' fill='currentColor' style='font-size:1em'&gt;)&lt;/text&gt;
-&lt;text text-anchor='middle' x='312' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='320' y='52' fill='currentColor' style='font-size:1em'&gt;)&lt;/text&gt;
-&lt;text text-anchor='middle' x='320' y='100' fill='currentColor' style='font-size:1em'&gt;m&lt;/text&gt;
-&lt;text text-anchor='middle' x='320' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='320' y='228' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='328' y='100' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='328' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='328' y='228' fill='currentColor' style='font-size:1em'&gt;h&lt;/text&gt;
-&lt;text text-anchor='middle' x='336' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='336' y='228' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='344' y='100' fill='currentColor' style='font-size:1em'&gt;b&lt;/text&gt;
-&lt;text text-anchor='middle' x='344' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='352' y='100' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='352' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='352' y='228' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
-&lt;text text-anchor='middle' x='360' y='100' fill='currentColor' style='font-size:1em'&gt;h&lt;/text&gt;
-&lt;text text-anchor='middle' x='360' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='360' y='228' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='368' y='100' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='368' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='368' y='228' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
-&lt;text text-anchor='middle' x='376' y='100' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='376' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='376' y='228' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='384' y='100' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
-&lt;text text-anchor='middle' x='384' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='392' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='392' y='228' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
-&lt;text text-anchor='middle' x='400' y='100' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='400' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='400' y='228' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='408' y='100' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='408' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='408' y='228' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
-&lt;text text-anchor='middle' x='416' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='416' y='228' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='424' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='424' y='228' fill='currentColor' style='font-size:1em'&gt;)&lt;/text&gt;
-&lt;text text-anchor='middle' x='432' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='440' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='448' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='456' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='464' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='472' y='196' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='488' y='68' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='488' y='164' fill='currentColor' style='font-size:1em'&gt;b&lt;/text&gt;
-&lt;text text-anchor='middle' x='488' y='180' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
-&lt;text text-anchor='middle' x='496' y='68' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='496' y='164' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='496' y='196' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
-&lt;text text-anchor='middle' x='504' y='68' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='504' y='164' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='504' y='180' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='504' y='196' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
-&lt;text text-anchor='middle' x='512' y='164' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='512' y='196' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='520' y='68' fill='currentColor' style='font-size:1em'&gt;+&lt;/text&gt;
-&lt;text text-anchor='middle' x='520' y='164' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='520' y='180' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
-&lt;text text-anchor='middle' x='520' y='196' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='528' y='164' fill='currentColor' style='font-size:1em'&gt;m&lt;/text&gt;
-&lt;text text-anchor='middle' x='528' y='180' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='528' y='196' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='536' y='68' fill='currentColor' style='font-size:1em'&gt;g&lt;/text&gt;
-&lt;text text-anchor='middle' x='536' y='180' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
-&lt;text text-anchor='middle' x='544' y='68' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='544' y='180' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='552' y='68' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
-&lt;text text-anchor='middle' x='552' y='180' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='560' y='68' fill='currentColor' style='font-size:1em'&gt;k&lt;/text&gt;
-&lt;text text-anchor='middle' x='560' y='180' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='568' y='68' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='576' y='68' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;/g&gt;
-&lt;/svg&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;h2&gt;Cut list&lt;span class="hx:absolute hx:-mt-20" id="cut-list"&gt;&lt;/span&gt;
-&lt;a href="#cut-list" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sizes are for the example &lt;strong&gt;H = 16″&lt;/strong&gt; (interior 14.5″, 26.5″ wide,
-22.5″ deep). If your H is different, change the 14.5″ heights and recompute
-the ramp with the formula above.&lt;/p&gt;
+&lt;a href="#cut-list" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Sizes are for the example &lt;strong&gt;H = 16″&lt;/strong&gt; and an &lt;strong&gt;11″ skirt&lt;/strong&gt;. Adjust the
+heights to your measurements.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;¾″ plywood (one 4×8 sheet):&lt;/strong&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -419,7 +215,7 @@ the ramp with the formula above.&lt;/p&gt;
 &lt;td&gt;Top&lt;/td&gt;
 &lt;td style="text-align: right"&gt;1&lt;/td&gt;
 &lt;td&gt;28″ × 24″&lt;/td&gt;
-&lt;td&gt;Saw mounts here. Cutout from 4½″ to 19½″ back from the front edge, sized to your saw&lt;/td&gt;
+&lt;td&gt;21″ × 18″ opening, centered, leaving a 1″ ledge inside the skirt for the support rails&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Bottom&lt;/td&gt;
@@ -431,41 +227,47 @@ the ramp with the formula above.&lt;/p&gt;
 &lt;td&gt;Sides&lt;/td&gt;
 &lt;td style="text-align: right"&gt;2&lt;/td&gt;
 &lt;td&gt;14.5″ × 24″&lt;/td&gt;
-&lt;td&gt;Captured between top and bottom. Left side gets the 4¼″ manifold hole&lt;/td&gt;
+&lt;td&gt;Captured between top and bottom. Left side gets the 4¼″ manifold hole, centered 12″ back from the front and ~2⅛″ up from the side&amp;rsquo;s bottom edge&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Back&lt;/td&gt;
 &lt;td style="text-align: right"&gt;1&lt;/td&gt;
 &lt;td&gt;14.5″ × 26.5″&lt;/td&gt;
-&lt;td&gt;Between the sides. 2½″ flange hole ~3″ below the top&lt;/td&gt;
+&lt;td&gt;Between the sides&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Front&lt;/td&gt;
 &lt;td style="text-align: right"&gt;1&lt;/td&gt;
 &lt;td&gt;14.5″ × 26.5″&lt;/td&gt;
-&lt;td&gt;Between the sides. 25″ × 8¼″ drawer opening at the bottom&lt;/td&gt;
+&lt;td&gt;Between the sides. 25″ × 7½″ drawer opening at the bottom&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Drawer-bay back&lt;/td&gt;
 &lt;td style="text-align: right"&gt;1&lt;/td&gt;
 &lt;td&gt;~9.5″ × 26.5″&lt;/td&gt;
-&lt;td&gt;10″ behind the front panel. Top edge beveled ~37° to meet the ramp&lt;/td&gt;
+&lt;td&gt;6″ behind the front panel. Top edge beveled ~50° to meet the front ramp&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Ramp cleats&lt;/td&gt;
+&lt;td style="text-align: right"&gt;4&lt;/td&gt;
+&lt;td&gt;¾″ × 1½″ × ~13″&lt;/td&gt;
+&lt;td&gt;Two per ramp, on the side walls&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Saw support rails&lt;/td&gt;
 &lt;td style="text-align: right"&gt;2&lt;/td&gt;
-&lt;td&gt;¾″ × 1½″ × ~18″&lt;/td&gt;
-&lt;td&gt;One on each side wall, set at the ramp angle&lt;/td&gt;
+&lt;td&gt;1½″ × 1½″ × 20″ hardwood&lt;/td&gt;
+&lt;td&gt;Front-to-back on the ledges, under the saw&amp;rsquo;s feet. ¼″-20 T-nuts for the knobs&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Drawer box&lt;/td&gt;
 &lt;td style="text-align: right"&gt;1 set&lt;/td&gt;
-&lt;td&gt;24½″ W × 9½″ D × 7¾″ H&lt;/td&gt;
-&lt;td&gt;Sides, front and back from offcuts. Slideless: waxed, runs on the bottom panel&lt;/td&gt;
+&lt;td&gt;24½″ W × 5½″ D × 7″ H&lt;/td&gt;
+&lt;td&gt;From offcuts. Slideless and waxed&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;¼″ hardboard (a 2×4 handy panel is enough now):&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;½″ plywood (a 2×4 handy panel):&lt;/strong&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -477,16 +279,47 @@ the ramp with the formula above.&lt;/p&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;Ramp&lt;/td&gt;
-&lt;td style="text-align: right"&gt;1&lt;/td&gt;
-&lt;td&gt;26.5″ × 18.6″&lt;/td&gt;
-&lt;td&gt;Head and foot beveled ~37°. Smooth face up&lt;/td&gt;
+&lt;td&gt;Skirt front and back&lt;/td&gt;
+&lt;td style="text-align: right"&gt;2&lt;/td&gt;
+&lt;td&gt;24″ × 11″&lt;/td&gt;
+&lt;td&gt;Front gets the handwheel arc slot and switch window&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Skirt sides&lt;/td&gt;
+&lt;td style="text-align: right"&gt;2&lt;/td&gt;
+&lt;td&gt;20″ × 11″&lt;/td&gt;
+&lt;td&gt;Between front and back&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Skirt cleats&lt;/td&gt;
+&lt;td style="text-align: right"&gt;4&lt;/td&gt;
+&lt;td&gt;¾″ × ¾″ × ~20″&lt;/td&gt;
+&lt;td&gt;Screw the skirt to the cart top; caulk the joint&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;¼″ hardboard (a 4×4 panel):&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Part&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Qty&lt;/th&gt;
+&lt;th&gt;Size&lt;/th&gt;
+&lt;th&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Ramps&lt;/td&gt;
+&lt;td style="text-align: right"&gt;2&lt;/td&gt;
+&lt;td&gt;26.5″ × 13.5″&lt;/td&gt;
+&lt;td&gt;Edges beveled ~50°. Smooth face up&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Drawer bottom&lt;/td&gt;
 &lt;td style="text-align: right"&gt;1&lt;/td&gt;
-&lt;td&gt;23¾″ × 9″&lt;/td&gt;
-&lt;td&gt;In a groove, or glued and nailed&lt;/td&gt;
+&lt;td&gt;23¾″ × 5″&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -505,19 +338,10 @@ the ramp with the formula above.&lt;/p&gt;
 &lt;td&gt;4″ PVC S&amp;amp;D pipe (4.215″ OD)&lt;/td&gt;
 &lt;td style="text-align: right"&gt;1&lt;/td&gt;
 &lt;td&gt;28.75″&lt;/td&gt;
-&lt;td&gt;Slotted manifold. 26.5″ inside plus 0.75″ through the left side plus 1.5″ stub&lt;/td&gt;
+&lt;td&gt;Slotted manifold. 26.5″ inside plus 0.75″ through the side plus 1.5″ stub&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;Ramp length&lt;/strong&gt; = √(run² + drop²) = √(14.85² + 11.1²) ≈ 18.5″.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Plywood layout:&lt;/strong&gt; rip the sheet into two 24″ strips. The second strip is
-really 23⅞″ after the kerf, and that still fits.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Strip 1:&lt;/strong&gt; top, bottom, and both sides (28 + 28 + 14.5 + 14.5 = 85″,
-plus kerfs).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Strip 2:&lt;/strong&gt; back, front, the drawer-bay back, then the drawer parts and
-ramp cleats from the rest.&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h2&gt;Hardware&lt;span class="hx:absolute hx:-mt-20" id="hardware"&gt;&lt;/span&gt;
 &lt;a href="#hardware" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
 &lt;thead&gt;
@@ -536,135 +360,111 @@ ramp cleats from the rest.&lt;/li&gt;
 &lt;tr&gt;
 &lt;td style="text-align: right"&gt;16&lt;/td&gt;
 &lt;td&gt;5/16″ carriage bolts, 1½″, with washers and nylock nuts&lt;/td&gt;
-&lt;td&gt;caster plates. Fit them &lt;strong&gt;before assembly&lt;/strong&gt;, heads inside, and counterbore the front ones so the drawer clears&lt;/td&gt;
+&lt;td&gt;caster plates. Fit them &lt;strong&gt;before assembly&lt;/strong&gt;, heads inside, and counterbore the front ones under the drawer&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style="text-align: right"&gt;4&lt;/td&gt;
-&lt;td&gt;¼″-20 T-nuts&lt;/td&gt;
-&lt;td&gt;in the top, under the saw&amp;rsquo;s base holes. Fit them &lt;strong&gt;before the top goes on&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;¼″-20 T-nuts + star knobs (2″) + fender washers&lt;/td&gt;
+&lt;td&gt;saw feet to the support rails&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style="text-align: right"&gt;4&lt;/td&gt;
-&lt;td&gt;¼″-20 star knobs (2″ studs) + fender washers&lt;/td&gt;
-&lt;td&gt;hold the saw down; removable without tools&lt;/td&gt;
+&lt;td style="text-align: right"&gt;~9 ft&lt;/td&gt;
+&lt;td&gt;Nylon brush seal strip, ~½″ bristle, adhesive or screw-on&lt;/td&gt;
+&lt;td&gt;skirt top edge (~7½ ft) plus the handwheel slot&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style="text-align: right"&gt;1&lt;/td&gt;
-&lt;td&gt;2½″ dust-port flange&lt;/td&gt;
-&lt;td&gt;high in the back panel&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: right"&gt;1&lt;/td&gt;
-&lt;td&gt;2½″ hose, ~2′, plus a rubber/tapered adapter&lt;/td&gt;
-&lt;td&gt;saw rear port to the back flange. The port measured about 64.5 mm OD on one Type 4 saw, so fit it to yours&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: right"&gt;1&lt;/td&gt;
-&lt;td&gt;4 × 4 × 2½″ wye (optional)&lt;/td&gt;
-&lt;td&gt;only if the rear port needs direct suction&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: right"&gt;~2 rolls&lt;/td&gt;
-&lt;td&gt;Closed-cell foam weatherstrip, ¼″ × ½″&lt;/td&gt;
-&lt;td&gt;under the saw base&lt;/td&gt;
+&lt;td style="text-align: right"&gt;~3 ft&lt;/td&gt;
+&lt;td&gt;Closed-cell foam weatherstrip&lt;/td&gt;
+&lt;td&gt;switch window, skirt-to-top joints&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style="text-align: right"&gt;1 tube&lt;/td&gt;
 &lt;td&gt;Paintable acrylic caulk or silicone&lt;/td&gt;
-&lt;td&gt;every plenum seam&lt;/td&gt;
+&lt;td&gt;every hopper and skirt seam&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style="text-align: right"&gt;~25 lb&lt;/td&gt;
-&lt;td&gt;Ballast (a sealed sandbag, or pavers ≤ 7″ front-to-back)&lt;/td&gt;
-&lt;td&gt;sealed in the dead space under the ramp&lt;/td&gt;
+&lt;td&gt;Ballast (a sealed sandbag, or pavers ≤ 8″ front-to-back)&lt;/td&gt;
+&lt;td&gt;sealed under the back ramp&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style="text-align: right"&gt;~50&lt;/td&gt;
-&lt;td&gt;1⅝″ coarse wood screws&lt;/td&gt;
-&lt;td&gt;carcass&lt;/td&gt;
+&lt;td style="text-align: right"&gt;2–3&lt;/td&gt;
+&lt;td&gt;Hooks&lt;/td&gt;
+&lt;td&gt;fence and miter gauge on the cart&amp;rsquo;s right side&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;~60&lt;/td&gt;
+&lt;td&gt;1⅝″ and 1¼″ coarse screws&lt;/td&gt;
+&lt;td&gt;carcass and skirt&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style="text-align: right"&gt;—&lt;/td&gt;
-&lt;td&gt;Wood glue, paste wax&lt;/td&gt;
+&lt;td&gt;Wood glue, paste wax, drawer pull&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: right"&gt;1&lt;/td&gt;
-&lt;td&gt;Drawer pull&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: right"&gt;2&lt;/td&gt;
-&lt;td&gt;Cord cleats or hooks (offcut)&lt;/td&gt;
-&lt;td&gt;right side, for the cord&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2&gt;Build&lt;span class="hx:absolute hx:-mt-20" id="build"&gt;&lt;/span&gt;
-&lt;a href="#build" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The order matters. Three parts get sealed in early: the caster bolts, the
-top&amp;rsquo;s T-nuts, and the parts under the ramp.&lt;/p&gt;
+&lt;a href="#build" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The order matters: several parts get sealed in early.&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Size the cutout.&lt;/strong&gt; Turn the saw over and check what&amp;rsquo;s open on its
-underside. Trace its base onto the top, then cut the hole &lt;strong&gt;½″ inside&lt;/strong&gt;
-the base outline so the base sits on solid wood all the way around. Note
-where the cutout&amp;rsquo;s front edge lands, because that&amp;rsquo;s where the ramp&amp;rsquo;s head
-goes.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Bottom panel first:&lt;/strong&gt; bolt the four caster plates on with the bolt
-heads inside. Counterbore the front pair so the drawer slides over them.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Top panel:&lt;/strong&gt; drill the saw&amp;rsquo;s four mounting holes and install the
-¼″-20 T-nuts from underneath.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Slot and fit the manifold.&lt;/strong&gt; Cut the tapered slot in the PVC, either a
-series of overlapping holes cleaned up with a jigsaw, or a router guided
-by a fence. Bore the 4¼″ hole in the left side panel low at the back
-corner.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Box:&lt;/strong&gt; glue and screw the sides to the bottom. Slide the pipe through
-the left side and seat it in the back-bottom corner. Fit the back, then
-caulk the pipe to the back panel, the bottom, and the right side, which
-caps its end.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Under the ramp:&lt;/strong&gt; set the ballast in the space between the drawer bay
-and the pipe. Fit the drawer-bay back 10″ behind where the front panel
-goes, then the ramp cleats.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ramp:&lt;/strong&gt; glue and screw the ramp onto the cleats, its foot just in front
-of the slot. Caulk all four edges and the foot-to-pipe joint.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Front panel, then the top:&lt;/strong&gt; fit the front panel. Caulk the top edges
-of every wall and the ramp head, then glue and screw the top on. Run
-weatherstrip around the cutout so the saw base presses down on it.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ports and hoses:&lt;/strong&gt; install the 2½″ flange in the back. Set the saw on
-the gasket and knob it down. Connect its rear port to the flange, and
-connect the manifold stub to the collector.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Smoke test:&lt;/strong&gt; run the collector and hold a stick of incense around the
-seams. Caulk anything that draws. Then check the draw at the blade
-throat, and add the bleed hole or the wye if it&amp;rsquo;s weak.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Drawer:&lt;/strong&gt; build it slideless, wax its bottom edges and the bottom
-panel, and fit the pull.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Measure&lt;/strong&gt; (see above) and adjust the drawings to your saw.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bottom panel:&lt;/strong&gt; bolt the caster plates on with the heads inside.
+Counterbore the front pair.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Manifold:&lt;/strong&gt; cut the tapered slot along the pipe, then bore the 4¼″
+hole in the left side.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Box:&lt;/strong&gt; glue and screw the sides to the bottom. Slide the pipe in, at
+mid-depth with its slot facing up, and fit the back. Caulk the pipe to the
+bottom and to the right side, which caps its end.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Under the ramps:&lt;/strong&gt; set the ballast behind the pipe. Fit the drawer-bay
+back 6″ behind the front panel&amp;rsquo;s position, then the ramp cleats.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ramps:&lt;/strong&gt; glue and screw them onto the cleats so their feet land on the
+slot&amp;rsquo;s two edges. Caulk every edge.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Front panel, then the top:&lt;/strong&gt; caulk the wall tops and the ramp heads, then
+glue and screw on the top with its 21″ × 18″ opening.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Support rails:&lt;/strong&gt; place the saw upside down on cardboard and mark its
+feet. Set the two rails on the ledges under those marks and fit the
+T-nuts. Screw the rails down.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Skirt:&lt;/strong&gt; cut the four panels and fit the back and sides with cleats to
+the cart top. Set the saw on its rails and knob it down. &lt;strong&gt;Template the
+front panel&lt;/strong&gt; (arc slot and switch window) against the actual saw. Then
+remove the handwheel, fit the front panel, and refit the handwheel
+outside it. Caulk the skirt to the top inside.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Brush seal:&lt;/strong&gt; run brush strip along the skirt&amp;rsquo;s top edges so the
+bristles just press against the table&amp;rsquo;s underside and fence rails, and
+line the arc slot and switch window. Turn the saw&amp;rsquo;s rear port to point
+down, or remove its adapter.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Test:&lt;/strong&gt; run the collector. Check that incense held at the blade throat
+and around the brush seals is pulled &lt;strong&gt;in&lt;/strong&gt;, then run the blade through
+full bevel and height and confirm nothing rubs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Drawer and hooks:&lt;/strong&gt; build the drawer slideless and wax it, then hang
+the fence and miter gauge on the right side.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;Using it safely&lt;span class="hx:absolute hx:-mt-20" id="using-it-safely"&gt;&lt;/span&gt;
 &lt;a href="#using-it-safely" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Never run the saw with the collector off.&lt;/strong&gt; The DW745&amp;rsquo;s motor cools
+itself with air, and inside a closed skirt it would recirculate its own
+heat. Start the collector first, and run it 10–15 seconds after the saw
+stops.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Lock all four casters before you turn the saw on.&lt;/strong&gt; Point the swivels
 outward as you lock them, which widens the stance. Step-stop casters
-that lock both the wheel and the swivel are what you want. A cart that
-creeps during a rip is a kickback risk.&lt;/li&gt;
+that lock both the wheel and the swivel are what you want.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Mind the tipping point.&lt;/strong&gt; Loaded and ballasted, the cart weighs about
-120 lb. A push of roughly &lt;strong&gt;37 lb front-to-back&lt;/strong&gt; or &lt;strong&gt;44 lb sideways&lt;/strong&gt;
-at table height would tip it.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Support long stock.&lt;/strong&gt; At 34″ a workbench or roller stand works as infeed
-and outfeed support. Don&amp;rsquo;t rip sheet goods without it.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Start the collector before the saw, and run it 10–15 seconds after
-the saw stops.&lt;/strong&gt; That way there&amp;rsquo;s airflow before the dust arrives, and
-the plenum and hose clear afterward.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Offcuts:&lt;/strong&gt; the slot stops them, but they&amp;rsquo;ll collect on the ramp.
-Unplug the saw, lift it off (four knobs), and clear them every so often.
-Never reach in through the blade opening.&lt;/li&gt;
+125 lb. A push of roughly &lt;strong&gt;38 lb front-to-back&lt;/strong&gt; or &lt;strong&gt;46 lb sideways&lt;/strong&gt;
+at table height would tip it. Support long stock with a workbench or
+roller stand.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Offcuts and blade changes:&lt;/strong&gt; offcuts that fall through the throat land
+on the hopper. Unplug the saw, lift it off (four knobs), and clear them.
+Blade changes happen from above, through the throat plate, as usual. Never
+reach in through the blade opening.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Check your collector&amp;rsquo;s specs.&lt;/strong&gt; Rockler lists its 650 CFM Dust Right
 wall-mount (TADC-34WN) as ¾ hp. Measure your inlet and size the manifold
-stub to match rather than adding a reducer.&lt;/li&gt;
+stub to match.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Buy instead?&lt;span class="hx:absolute hx:-mt-20" id="buy-instead"&gt;&lt;/span&gt;
-&lt;a href="#buy-instead" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;DeWalt&amp;rsquo;s &lt;strong&gt;DW7451&lt;/strong&gt; compact stand is listed for the DW745. It folds, it&amp;rsquo;s
-quick, and it&amp;rsquo;s often cheaper than this cart&amp;rsquo;s parts, but it has no dust
-control. It&amp;rsquo;s the better choice if the saw travels a lot. This cart wins in
-the shop: dust collection, storage, a solid base, and casters you already
-own.&lt;/p&gt;</description></item><item><title>Adjustable Scarf Jig (Proposed)</title><link>https://www.extra-ransom.net/docs/woodworking/scarf-jig/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/woodworking/scarf-jig/</guid><description>
+&lt;a href="#buy-instead" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;DeWalt&amp;rsquo;s &lt;strong&gt;DW7451&lt;/strong&gt; compact stand is listed for the DW745. It folds and it&amp;rsquo;s
+quick, but it has no dust control at all. It&amp;rsquo;s the better choice if the saw
+travels a lot. This cart is built for one job: a jobsite saw in a garage
+with the least dust that a saw like this can practically manage.&lt;/p&gt;</description></item><item><title>Adjustable Scarf Jig (Proposed)</title><link>https://www.extra-ransom.net/docs/woodworking/scarf-jig/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/woodworking/scarf-jig/</guid><description>
 &lt;p&gt;A &lt;strong&gt;proposed&lt;/strong&gt; shop jig for cutting long, accurate scarf bevels in strip
 stock: the 4½&amp;quot; splice on &lt;a href="https://www.extra-ransom.net/docs/rod-builds/002-french-broad-spinning-rod/"&gt;Rod 002&lt;/a&gt;&amp;rsquo;s
 bamboo sections, and also scarfed trim, bow and paddle laminations, and
