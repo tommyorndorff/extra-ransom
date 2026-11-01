@@ -27,6 +27,9 @@ extra-ransom/
 │   ├── static/               # Binary assets (photos, PDFs, STLs) — served at /static/<topic>/…
 │   ├── warbirds/             # Standalone page "Mustang & Company" (plain HTML/CSS/JS) — /warbirds/
 │   └── salamanders/          # Standalone page "Salamanders of Western North Carolina" — /salamanders/
+│                             #   (+ methods.html: research methods & re-run workbook)
+├── tools/
+│   └── salamanders/photos.py # iNaturalist photo fetch/review/install + credits.js sync (not deployed)
 └── .github/
     └── workflows/
         └── workflow.yml      # CI "Deploy": build → S3 sync + CloudFront invalidation + gh-pages
@@ -70,7 +73,7 @@ AWS_PROFILE=extra-ransom hugo deploy --maxDeletes -1 --force
 - Tapers are stored as Markdown tables within page content.
 - Static assets (images, PDFs, STL previews) go in `static/static/<topic>/` and are referenced as `/static/<topic>/filename`.
 - New pages: `hugo new docs/<section>/<name>.md` uses `archetypes/default.md` (sets `draft: true`).
-- **Standalone pages** live in `static/<name>/` as self-contained `index.html` + `css/` + `js/` + `assets/` (no build step, relative paths, no Hextra). Hugo copies them verbatim and they're linked from the "Standalone pages" grid on `content/_index.md`. Because CI gives `*.css`/`*.js`/images a 1-year immutable cache, their CSS/JS references carry a `?v=YYYYMMDD` query — bump it whenever those files change. Salamander data lives in `static/salamanders/js/data.js`; photo credits in `assets/img/credits.json`, mirrored to `js/credits.js`.
+- **Standalone pages** live in `static/<name>/` as self-contained `index.html` + `css/` + `js/` + `assets/` (no build step, relative paths, no Hextra). Hugo copies them verbatim and they're linked from the "Standalone pages" grid on `content/_index.md`. Because CI gives `*.css`/`*.js`/images a 1-year immutable cache, their CSS/JS references carry a `?v=YYYYMMDD` query — bump it whenever those files change. Salamander data lives in `static/salamanders/js/data.js`; photo credits in `assets/img/credits.json`, mirrored to `js/credits.js` by `tools/salamanders/photos.py credits`. **Before changing salamander content, read `static/salamanders/methods.html`** — it records the source hierarchy, deliberate naming/scope decisions, unverified items, and the recurring-checks workbook; keep it in sync when you change data or prose. The warbirds page was built in a separate session and has no methods record; its README-level notes (photo sources, specs caveat) are in the page footer.
 
 ## CI/CD
 

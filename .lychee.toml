@@ -15,6 +15,10 @@ exclude = [
   # 404) - kept in morgan-hand-mill.md alongside its Wayback Machine
   # archive for historical reference.
   '^http://www\.fneunemann\.com/',
+  # salamanderfungus.org (North American Bsal Task Force) loads fine in a
+  # browser and from local curl, but consistently times out from GitHub
+  # Actions runners - linked from static/salamanders/methods.html.
+  '^https://salamanderfungus\.org',
 ]
 
 max_retries = 3
