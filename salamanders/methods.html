@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M6 20c3-1 5-5 9-6s7 1 9-1 2-5 4-5-1 5-3 7-6 2-9 4-6 6-10 5' fill='none' stroke='%23e8741e' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+  <title>Salamander Page Methods</title>
+  <meta name="description" content="How the Salamanders of Western North Carolina page was researched, what was synthesized or left unverified, and a workbook for re-running and updating it.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..600&family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=20261101b">
+  <style>
+    .method-hero { padding: clamp(48px, 8vw, 96px) 0 32px; border-bottom: 1px solid var(--rule); }
+    .method-hero h1 { font-size: var(--step-3); font-weight: 400; letter-spacing: -.02em; max-width: 16ch; }
+    .method-hero p { font-size: var(--step-1); line-height: 1.45; color: var(--ink-2); max-width: 40rem; margin-top: 18px; }
+    .steps { counter-reset: step; list-style: none; padding: 0; margin: 0; max-width: var(--measure); }
+    .steps > li { counter-increment: step; position: relative; padding: 0 0 20px 44px; }
+    .steps > li::before { content: counter(step); position: absolute; left: 0; top: .1em; width: 28px; height: 28px; border-radius: 50%; background: var(--ink); color: var(--paper); font-family: var(--sans); font-weight: 700; font-size: .85rem; display: grid; place-items: center; }
+    .steps h3 { font-size: 1.15rem; margin-bottom: 4px; }
+    code, pre { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: .86em; }
+    code { background: var(--paper-2); padding: 1px 5px; border-radius: 4px; }
+    pre { background: var(--card); border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; overflow-x: auto; white-space: pre-wrap; line-height: 1.5; max-width: 52rem; }
+    details.prompt { border: 1px solid var(--rule); border-radius: 8px; background: var(--card); padding: 12px 16px; margin: 0 0 12px; max-width: 52rem; }
+    details.prompt summary { cursor: pointer; font-family: var(--sans); font-weight: 600; }
+    details.prompt pre { border: 0; padding: 12px 0 0; background: transparent; }
+    .gaps li { margin-bottom: .5em; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="Back to Salamanders of Western North Carolina">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 21c3-1 5-5 9-6s7 1 9-1 2-5 4-5-1 5-3 7-6 2-9 4-6 6-10 5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><circle cx="26.5" cy="9" r="1.3" fill="currentColor"/></svg>
+      <span>Salamanders of Western North Carolina</span>
+    </a>
+    <nav aria-label="Sections">
+      <ul class="navlinks">
+        <li><a href="#process">Process</a></li>
+        <li><a href="#sources">Sources</a></li>
+        <li><a href="#judgement">Judgement calls</a></li>
+        <li><a href="#gaps">Unverified</a></li>
+        <li><a href="#workbook">Re-run workbook</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="method-hero">
+      <h1>How this page was made, and how to update it</h1>
+      <p>The species page was compiled on 31 October 2026. This companion page records how the research was done, which source won when sources disagreed, what was synthesized rather than taken from a source, what could not be verified, and the exact steps for re-running each part when the science or the regulations change.</p>
+      <p class="note"><a href="./">&larr; Back to the species page</a></p>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section" id="process" aria-labelledby="procTitle">
+      <header class="section-head">
+        <h2 id="procTitle">Process</h2>
+        <p>The page was researched and built by Claude, an AI model from Anthropic, working in Claude Code under the site owner's direction. Claude used live web search and fetched primary sources. It did not draw on its own background knowledge for anything time-sensitive. Read the page with that in mind: every substantive claim traces to a cited source, but the synthesis has not been peer-reviewed.</p>
+      </header>
+      <ol class="steps">
+        <li><h3>Three parallel research passes</h3>
+          <p>Three independent research agents ran at the same time, each with a narrow brief. Their prompts are reproduced in the <a href="#workbook">workbook</a>.</p>
+          <ul>
+            <li><b>Taxonomy and species accounts:</b> the current checklist, recent revisions, ranges, elevations, microhabitats, sizes, reproduction and ID notes.</li>
+            <li><b>Conservation and regulation:</b> the NC protected list, NCNHP and NatureServe ranks, ESA and IUCN status, the hellbender listing history, threats, permits and decontamination.</li>
+            <li><b>Photographs:</b> freely licensed images with full attribution.</li>
+            <li><b>Places</b> (added 1 Nov 2026): DuPont State Recreational Forest, Transylvania County and the NC Blue Ridge Parkway. Covers documented species, habitat, rules, permits and post-Helene closures. This pass also corrected two earlier statements: the national-forest rock-collection rule and the <i>D. marmoratus</i> type locality.</li>
+          </ul>
+          <p>Each agent was told to cite a URL for every non-obvious claim and to mark anything it could not verify.</p></li>
+        <li><h3>Source reconciliation</h3><p>The reports were merged using the source hierarchy below. Where they conflicted, the regulatory text or the primary taxonomic paper won over secondary summaries. Items still flagged as unverified were dropped, softened to match what the source supports, or listed under <a href="#gaps">Unverified</a>.</p></li>
+        <li><h3>Synthesis</h3><p>The elevation chart, the mountain-block matrix and the microhabitat grouping are the compiler's synthesis of the species accounts, not values copied from any one source. See <a href="#judgement">Judgement calls</a>.</p></li>
+        <li><h3>Photo review</h3><p>Every candidate photo was reviewed by eye on a contact sheet. Photos were rejected when they did not show diagnostic features, such as a mudpuppy without visible gills, or when they suggested a different taxon, such as a Cheoah Bald candidate with red legs. An egg mass was kept only when captioned as an egg mass. Captions give the state only, never a finer locality.</p></li>
+        <li><h3>Render check</h3><p>The built page was screenshotted in headless Chrome at desktop and narrow widths, and the chart, matrix, catalog, dossier and tables were inspected before publishing.</p></li>
+      </ol>
+    </section>
+
+    <!-- SOURCES -->
+    <section class="section" id="sources" aria-labelledby="srcTitle">
+      <header class="section-head">
+        <h2 id="srcTitle">Source hierarchy</h2>
+        <p>When sources disagreed, the higher row won. Check the &ldquo;Changes&rdquo; column first when re-running.</p>
+      </header>
+      <div class="table-wrap">
+        <table class="status">
+          <thead><tr><th scope="col">Topic</th><th scope="col">Authority used</th><th scope="col">Cross-checks</th><th scope="col">Changes</th></tr></thead>
+          <tbody>
+            <tr><td>Scientific and common names</td><td>SSAR <i>Standard Names</i>, 9th ed. (Nicholson ed., 2025)</td><td>Amphibian Species of the World 6.2; AmphibiaWeb; the original descriptions (Pyron &amp; Beamer 2022&ndash;2023 on Zenodo/Plazi)</td><td>SSAR: about every 5 years. ASW and AmphibiaWeb: continuously.</td></tr>
+            <tr><td>NC legal status (E / T / SC)</td><td>15A NCAC 10I .0103&ndash;.0105 (NCWRC rule text)</td><td>NCWRC species profiles</td><td>By rulemaking. An amendment opened for comment 1 Sep 2026, with comments due 2 Nov 2026.</td></tr>
+            <tr><td>State and global ranks</td><td>NCNHP <i>List of Rare Animal Species of North Carolina</i> (2024)</td><td>NatureServe Explorer</td><td>NCNHP: every 2 years (next edition expected around Dec 2026).</td></tr>
+            <tr><td>Federal status</td><td>Federal Register final and proposed rules</td><td>USFWS species pages (ECOS); court dockets</td><td>Event-driven</td></tr>
+            <tr><td>Priority and SGCN</td><td>NC Wildlife Action Plan 2025 (Appendix 3 spreadsheets)</td><td>&mdash;</td><td>About every 10 years</td></tr>
+            <tr><td>IUCN category</td><td>IUCN Red List assessment DOIs</td><td>Read through citing pages; iucnredlist.org blocks automated access</td><td>Irregular; several assessments date from 2004</td></tr>
+            <tr><td>Hellbender biology and threats</td><td>89 FR 100934 (2024 proposed rule) and the NCWRC profile</td><td>Primary papers cited on the page</td><td>&mdash;</td></tr>
+            <tr><td>Post-Helene status</td><td>SE CASC final report (Jul 2026); NCWRC Wildlife Diversity quarterly reports</td><td>Press coverage only for context</td><td>Quarterly</td></tr>
+            <tr><td>Places: species present</td><td>Agency checklists (NPS 2018 Parkway checklist; NPSpecies); NCNHP significant-area descriptions; type descriptions</td><td>iNaturalist research-grade species counts by place (community IDs; obscured taxa drop out of small places)</td><td>iNat: continuously</td></tr>
+            <tr><td>Places: rules and closures</td><td>02 NCAC 60B (state forests); 36 CFR 2.1 and the Parkway compendium; USFS Helene and alerts pages; NPS road-closure page; DuPont closures page</td><td>Local news for reopening dates</td><td>Weekly to monthly through Helene recovery</td></tr>
+            <tr><td>Photos</td><td>Wikimedia Commons, then iNaturalist research-grade observations; CC0, CC BY and CC BY-SA only</td><td>Visual review</td><td>On demand</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- JUDGEMENT -->
+    <section class="section" id="judgement" aria-labelledby="jTitle">
+      <header class="section-head"><h2 id="jTitle">Judgement calls</h2></header>
+      <div class="cols">
+        <div class="prose">
+          <h3>Synthesized, not sourced</h3>
+          <ul>
+            <li><b>Elevation bars</b> are generalized for Western North Carolina from the species accounts, descriptions and regional literature. Where a description gave a range (e.g. <i>P. shermani</i> 853&ndash;1,494 m, <i>P. cheoah</i> 855&ndash;1,543 m, <i>P. meridianus</i> 543&ndash;823 m) it was used. Otherwise the bar is an informed generalization. Treat them as guidance, not range limits.</li>
+            <li><b>The mountain-block matrix</b> uses 12 blocks drawn for this page. Presence is coded from county and range statements in the accounts. &ldquo;Marginal&rdquo; marks the edge of a range, a peripheral occurrence, or a range statement that does not clearly include the whole block.</li>
+            <li><b>Microhabitat groups</b> put each species in its primary adult microhabitat along the stream-to-ridge gradient. Many species use more than one.</li>
+            <li><b>Forest-zone shading</b> on the chart is approximate: about 1,000 m and 1,400 m as the boundaries between oak/cove hardwoods, northern hardwoods and spruce&ndash;fir. These boundaries vary with aspect and latitude.</li>
+          </ul>
+        </div>
+        <div class="prose">
+          <h3>Naming and scope decisions</h3>
+          <ul>
+            <li><b>Mudpuppy:</b> kept as <i>Necturus maculosus</i> (SSAR, NCWRC) instead of <i>N. louisianensis</i> (ASW). The conflict is explained in the species account.</li>
+            <li><b>Crevice salamander:</b> treated within <i>Plethodon yonahlossee</i> (Highton et al. 2012), with the NC Special Concern listing of the Hickory Nut Gorge population noted.</li>
+            <li><b><i>P. jacksoni</i></b> is used for NC animals that NCWRC still lists as Wehrle's salamander.</li>
+            <li><b>Excluded pending vouchers:</b> <i>D. aureatus</i>, <i>D. conanti</i> s.s., <i>D. planiceps</i>, <i>D. kanawha</i>, <i>P. glutinosus</i> s.s., <i>A. jeffersonianum</i> and <i>A. talpoideum</i>.</li>
+            <li><b>Photo IDs</b> for cryptic <i>Desmognathus</i> rely on iNaturalist community identification. That is largely locality-based, so a photo illustrates the habitus, not a diagnosis.</li>
+            <li><b>Location data:</b> the page gives no point localities or site directions. Ranges are stated at the level of mountain ranges, counties and drainages, and photo captions give only the state.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- GAPS -->
+    <section class="section" id="gaps" aria-labelledby="gTitle">
+      <header class="section-head">
+        <h2 id="gTitle">Could not be verified</h2>
+        <p>These items were flagged during research. Where they touch the page, the wording is cautious. They are the first things to check on a re-run.</p>
+      </header>
+      <div class="cols">
+        <ul class="gaps prose">
+          <li>Post-revision count of NC salamander species. NCWRC has not published one; the estimated 72&ndash;76 is not used on the page.</li>
+          <li>County-level NC ranges for <i>P. richmondi</i>, <i>P. jacksoni</i>, <i>D. aeneus</i> and <i>E. longicauda</i>. For <i>E. longicauda</i>, sources disagree between the extreme west and the extreme northwest.</li>
+          <li>Whether <i>D. mavrokoilius</i> reaches Atlantic-slope drainages, and whether <i>D. kanawha</i> is in the NC New River.</li>
+          <li>Sizes given as &ldquo;about&rdquo; are standard field-guide values (Petranka 1998; Beane et al. 2010) that were not re-verified for each species after the revisions. The size of <i>D. folkertsi</i> is unverified.</li>
+          <li>The elevation range ASW gives for <i>P. amplus</i> (1,109&ndash;1,116 m) appears to be wrong, and its <i>D. imitator</i> range text is wrong.</li>
+        </ul>
+        <ul class="gaps prose">
+          <li>IUCN categories were read through pages that cite the assessment DOIs. Junaluska (2004) and Weller's (2004) may have newer assessments.</li>
+          <li>Court activity in <i>CBD v. USFWS</i>, No. 4:26-cv-00093 (D. Ariz.) after the complaint was filed.</li>
+          <li>Whether the January 2025 second interim Lacey Act salamander rule has been finalized.</li>
+          <li>Effect sizes in Pugh et al. (2016) (paywalled), and the authors of the 2023 <i>Freshwater Science</i> TN/NC hellbender paper, which is therefore not cited.</li>
+          <li>Research and collection permit rules for the National Forests in North Carolina and for Eastern Band of Cherokee Indians lands.</li>
+          <li>No published herpetofaunal inventory exists for DuPont State Recreational Forest, and there are no site-level salamander lists for Richland Balsam, Graveyard Fields or Doughton Park. The Places section relies on iNaturalist counts for these.</li>
+          <li>Holotype vs. lectotype for <i>D. marmoratus</i>: Amphibian Species of the World was offline, so the page gives only the type locality.</li>
+          <li>2026 status of the Pisgah Ranger District designated-camping order, the Gorges State Park backcountry and DuPont&rsquo;s Grassy Creek bridge.</li>
+          <li>No source was found for a Zoo Knoxville hellbender head-starting program, &ldquo;Hellbender Local&rdquo; or a &ldquo;Hellbender Day&rdquo;; none is mentioned on the page.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- WORKBOOK -->
+    <section class="section" id="workbook" aria-labelledby="wTitle">
+      <header class="section-head">
+        <h2 id="wTitle">Re-run workbook</h2>
+        <p>Everything on the species page comes from three files in <a href="https://github.com/tommyorndorff/extra-ransom/tree/main/static/salamanders">static/salamanders/</a>, which are edited by hand. The photo steps are scripted.</p>
+      </header>
+
+      <div class="cols">
+        <div class="prose">
+          <h3>Where things live</h3>
+          <dl class="kv">
+            <dt><code>js/data.js</code></dt><dd>Families, microhabitats, basins, mountain blocks, forest zones, the 56 species records, and the reference list. Per-species fields: <code>sci</code>, <code>auth</code>, <code>common</code>, <code>family</code>, <code>habitat</code>, <code>elev</code> [min, max] in metres, <code>basins</code>, <code>ranges</code> (2 = present, 1 = marginal), <code>range</code>, <code>microhabitat</code>, <code>size</code>, <code>repro</code>, <code>id_notes</code>, <code>notes</code>, <code>tax</code>, <code>formerly</code>, <code>endemic</code> (&ldquo;NC&rdquo; or &ldquo;SA&rdquo;), <code>nc</code> (E/T/SC), <code>fed</code>/<code>fedShort</code>, <code>grank</code>, <code>srank</code>, <code>iucn</code>, <code>statusNote</code>, <code>watch</code>, <code>photo</code>.</dd>
+            <dt><code>index.html</code></dt><dd>All prose: hotspot, gradients, the hellbender section and listing timeline, threats, fieldwork.</dd>
+            <dt><code>assets/img/credits.json</code></dt><dd>Photo attribution; mirrored to <code>js/credits.js</code> by the photo tool.</dd>
+            <dt><code>tools/salamanders/photos.py</code></dt><dd>Fetches, reviews and installs photos (repo root; not deployed).</dd>
+          </dl>
+        </div>
+        <div class="prose">
+          <h3>Publishing a change</h3>
+          <ol>
+            <li>Edit <code>js/data.js</code> or <code>index.html</code>, and update the &ldquo;as of&rdquo; dates in the hero, status section and footer.</li>
+            <li>Bump every <code>?v=YYYYMMDD</code> query string in <code>index.html</code> and <code>methods.html</code>. CSS, JS and images get a one-year immutable browser cache, so without this, returning visitors keep the old files.</li>
+            <li>Run <code>make serve</code> and check <code>localhost:1313/salamanders/</code> at desktop and phone widths.</li>
+            <li>Open a PR and wait for <b>PR Checks</b> and <b>Link Check</b>. Merging to <code>main</code> runs <b>Deploy</b> (S3, CloudFront invalidation, gh-pages).</li>
+          </ol>
+        </div>
+      </div>
+
+      <h3 style="font-size:var(--step-1);margin:48px 0 14px">Recurring checks</h3>
+      <div class="table-wrap">
+        <table class="status">
+          <thead><tr><th scope="col">Check</th><th scope="col">Where</th><th scope="col">If it changed, edit</th><th scope="col">When</th></tr></thead>
+          <tbody>
+            <tr><td>2026 NC protected-list amendment adopted?</td><td><a href="https://www.ncwildlife.gov/hunting/regulations/proposed-regulations/endangered-threatened-and-special-concern-species-rule-changes-and-public-comments">NCWRC rule page</a></td><td><code>nc</code> fields; status-section intro in <code>index.html</code></td><td>After comments close (2 Nov 2026); then yearly</td></tr>
+            <tr><td>New NCNHP rare animal list</td><td><a href="https://www.ncnhp.org/">ncnhp.org</a> publications</td><td><code>srank</code>, <code>grank</code>, <code>watch</code>, <code>statusNote</code></td><td>Every 2 years (next expected around Dec 2026)</td></tr>
+            <tr><td>Hellbender final listing rule</td><td>Federal Register, docket FWS-R3-ES-2024-0152; <a href="https://www.fws.gov/species/eastern-hellbender-cryptobranchus-alleganiensis-alleganiensis">FWS species page</a></td><td>Hellbender <code>fed</code>/<code>fedShort</code>; timeline in <code>index.html</code></td><td>Monthly while pending</td></tr>
+            <tr><td><i>CBD v. USFWS</i> (D. Ariz. 4:26-cv-00093)</td><td>CourtListener / PACER; CBD press releases</td><td>Timeline entry for 17 Feb 2026</td><td>Monthly while pending</td></tr>
+            <tr><td>Hickory Nut Gorge green salamander 12-month finding</td><td>Federal Register; ECOS</td><td><code>caryaensis</code> <code>fed</code>/<code>fedShort</code></td><td>Quarterly</td></tr>
+            <tr><td>Bsal detected in North America?</td><td>USGS National Wildlife Health Center; <a href="https://salamanderfungus.org/">Bsal Task Force</a></td><td>Bsal threat paragraph</td><td>Quarterly; immediately if reported</td></tr>
+            <tr><td>Lacey Act salamander rule finalized</td><td>Federal Register (follow-up to 90 FR 2170)</td><td>Bsal threat paragraph; references</td><td>Yearly</td></tr>
+            <tr><td>New <i>Desmognathus</i> / <i>Plethodon</i> descriptions or synonymies</td><td>AmphibiaWeb lists; ASW &ldquo;recent changes&rdquo;; Zootaxa / Bionomina</td><td>Add or modify species records; hotspot callout; counts in prose</td><td>Every 6 months</td></tr>
+            <tr><td>New SSAR names edition</td><td>SSAR Herpetological Circulars</td><td>Common names; methods source table</td><td>On release</td></tr>
+            <tr><td>Post-Helene hellbender and green salamander updates</td><td>NCWRC Wildlife Diversity quarterly report; SE CASC; NC Zoo / TNC</td><td>&ldquo;After Helene&rdquo; and threats paragraphs</td><td>Quarterly through 2027</td></tr>
+            <tr><td>Helene closures: Parkway, Pisgah RD, DuPont, Gorges</td><td><a href="https://www.nps.gov/blri/planyourvisit/roadclosures.htm">NPS road closures</a>; <a href="https://www.fs.usda.gov/r08/northcarolina/about-area/helene">USFS Helene page</a>; <a href="https://www.ncagr.gov/divisions/nc-forest-service/state-forests/dupont-state-recreational-forest/closures">DuPont closures</a></td><td>&ldquo;Access&rdquo; and &ldquo;Conditions&rdquo; entries and the Parkway rules note in the Places section</td><td>Monthly until the Parkway fully reopens (target end of 2026)</td></tr>
+            <tr><td>Dead links</td><td>The repo's Link Check workflow</td><td>Replace with a Wayback Machine URL</td><td>Every PR</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="cols" style="margin-top:48px">
+        <div class="prose">
+          <h3>Photos</h3>
+          <p>From the repository root (requires Python 3 with Pillow):</p>
+<pre># candidates for every species without a photo (NC first, then range-wide)
+python3 -I tools/salamanders/photos.py fetch
+
+# look at .salamander-photos/sheet*.jpg, then install picks by index
+python3 -I tools/salamanders/photos.py install maculosus=2 lycos=0
+
+# after hand-editing assets/img/credits.json
+python3 -I tools/salamanders/photos.py credits</pre>
+          <p>Only CC0, CC BY and CC BY-SA photos are fetched. Before installing, check that the diagnostic features are visible and the taxon looks right. Pass <code>--all</code> to look for better photos for species that already have one. Only the mudpuppy has no photo as of this compile.</p>
+        </div>
+        <div class="prose">
+          <h3>Re-running the research with an AI agent</h3>
+          <p>The briefs below are condensed versions of the prompts used for the October 2026 compile. Run them in parallel with an agent that has web search. Tell it today's date, and require a source URL for every claim plus an explicit list of unverified items. Then diff the results against <code>js/data.js</code> instead of regenerating the page from scratch: the existing judgement calls are deliberate.</p>
+        </div>
+      </div>
+
+      <details class="prompt">
+        <summary>Brief 1: taxonomy and species accounts</summary>
+<pre>Build a structured brief on the salamanders of Western North Carolina (NC Blue Ridge
+mountain counties). Audience: professional herpetologists. Today is &lt;DATE&gt;; verify with
+web search, do not rely on memory for anything changed since ~2020.
+
+1. Complete checklist under current taxonomy, by family. Verify and explain recent
+   revisions (Desmognathus complexes: seal, black-bellied, shovel-nosed, Ocoee, dusky,
+   pygmy; the Plethodon gray-cheeked complex; Aneides caryaensis vs A. aeneus). Flag where
+   SSAR standard names differ from the primary literature or ASW.
+2. Per species: name + authority, common name, WNC range (ranges/counties/drainages;
+   Tennessee basin vs Atlantic slope), elevation range, microhabitat, adult size,
+   reproductive mode, 1-2 field-relevant facts.
+3. Ecological patterns: Desmognathus stream-to-upland gradient, Plethodon elevational
+   segregation and Hairston's experiments, shermani x teyahalee hybrid zone, why the
+   region is a global hotspot (with sourced numbers).
+4. 15-25 key references with DOIs.
+Cite a URL for every non-obvious claim; list everything you could not verify.
+Compare against the current static/salamanders/js/data.js and report only differences.</pre>
+      </details>
+      <details class="prompt">
+        <summary>Brief 2: conservation status, threats, field practice</summary>
+<pre>For the same WNC salamander fauna, as of &lt;DATE&gt;:
+1. Status table: current NC legal status (15A NCAC 10I; find the latest effective version
+   and any pending amendment), NCNHP S-rank and NatureServe G-rank (latest NCNHP list),
+   ESA status, IUCN category, NC Wildlife Action Plan priority.
+2. Eastern hellbender: full federal ESA history with Federal Register citations and dates
+   (2019 finding, litigation, 2024 proposed rule, any final rule or court ruling since);
+   NC distribution by basin; life history; threats; current NC programs; recent NC
+   research; post-Hurricane Helene survey results.
+3. Threats: Bsal detection status in North America and Lacey Act rule status; Bd;
+   ranavirus; climate (including counter-evidence); collection; storms.
+4. Field practice: NCWRC, NPS, State Parks, National Forests in NC and EBCI permits;
+   current decontamination guidance; sensitive-location data handling; reporting.
+Cite a URL for every claim; list everything you could not verify.
+Report only what differs from the current page.</pre>
+      </details>
+      <details class="prompt">
+        <summary>Brief 3: photographs</summary>
+<pre>Prefer running tools/salamanders/photos.py. If delegating instead: find one photo per
+species from Wikimedia Commons or iNaturalist research-grade observations, licensed CC0,
+CC BY or CC BY-SA only (no NC/ND). Prefer NC localities. Download ~1280px JPEGs under
+400 KB; record title, page URL, artist, license and license URL, species, and a caption
+with locality no finer than state. Do not open downloaded files except to check type;
+the compiler reviews every image visually before use.</pre>
+      </details>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>Corrections and re-run results are welcome as issues or pull requests on the <a href="https://github.com/tommyorndorff/extra-ransom">site repository</a>.</p>
+      <p style="margin-top:16px"><a href="./">&larr; Salamanders of Western North Carolina</a> &nbsp; <a href="/">extra-ransom home</a></p>
+    </div>
+  </footer>
+</body>
+</html>
