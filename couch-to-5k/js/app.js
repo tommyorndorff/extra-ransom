@@ -1,12 +1,9 @@
 (function () {
-  var plan = window.PLAN, sessions = plan.sessions;
-  var STORE = 'c25k-trot-2026';
   var WD = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
   var MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  var LEVEL_NAMES = { beginner: 'Starting from the couch', intermediate: 'Can run ~5 minutes', runner: 'Already running 20+ min' };
 
-  var done = {};
-  try { done = JSON.parse(localStorage.getItem(STORE) || '{}') || {}; } catch (e) { done = {}; }
-  function save() { try { localStorage.setItem(STORE, JSON.stringify(done)); } catch (e) {} }
+  var store, sessions = [], byDate = {}, current = null, timer = null;
 
   function parse(s) { var p = s.split('-'); return new Date(+p[0], +p[1] - 1, +p[2]); }
   function iso(d) { return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }
@@ -16,15 +13,21 @@
   function runTotal(s) { return s.segs.reduce(function (t, g) { return t + (g.type === 'run' ? g.sec : 0); }, 0); }
   function mmss(sec) { var m = Math.floor(sec / 60), s = sec % 60; return m + ':' + String(s).padStart(2, '0'); }
   function minLabel(sec) { return Math.round(sec / 60) + ' min'; }
+  function fmt(d) { return WD[d.getDay()] + ', ' + MON[d.getMonth()] + ' ' + d.getDate(); }
   function el(tag, cls, html) { var e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; }
-
-  var byDate = {};
-  sessions.forEach(function (s) { byDate[s.date] = s; });
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function done(id) { return !!store.entries[id]; }
+  function logLine(e) {
+    var parts = [];
+    if (e.distance_mi != null) parts.push(+(+e.distance_mi).toFixed(2) + ' mi');
+    if (e.duration_min != null) parts.push(+(+e.duration_min).toFixed(1) + ' min');
+    if (e.run_pct != null) parts.push(e.run_pct + '% run');
+    return parts.join(' · ');
+  }
 
   function bar(s) {
     var b = el('div', 'seg');
     b.setAttribute('aria-hidden', 'true');
-    var t = total(s);
     s.segs.forEach(function (g) {
       var i = el('i', g.type);
       i.style.flexGrow = g.sec;
@@ -34,17 +37,55 @@
     return b;
   }
 
-  // ---- summary -------------------------------------------------------
+  // ---- header ---------------------------------------------------------
+  function banner(msg) {
+    var b = document.getElementById('banner');
+    b.hidden = !msg; b.textContent = msg || '';
+  }
+  function who() {
+    var w = document.getElementById('who');
+    w.hidden = false;
+    var name = document.getElementById('whoName'), note = document.getElementById('whoNote'), sel = document.getElementById('levelSel');
+    sel.innerHTML = '';
+    PLAN.levels.forEach(function (l) { var o = el('option', null, esc(LEVEL_NAMES[l])); o.value = l; sel.appendChild(o); });
+    sel.value = store.level;
+    sel.disabled = !store.canEdit;
+    var link = document.getElementById('summaryLink');
+    if (store.mode === 'remote') {
+      name.textContent = store.name + (store.canEdit ? '' : ' (view only)');
+      link.href = 'summary/?p=' + encodeURIComponent(store.token);
+      note.textContent = store.canEdit ? 'Your log is saved to the shared server. Keep this link private: anyone with it can edit your log.' : 'This is a read-only link.';
+      document.getElementById('saveNote').textContent = 'Saved to the server for ' + store.name + '.';
+      document.getElementById('reset').hidden = true;
+    } else {
+      name.textContent = 'Just you, on this device';
+      link.href = 'summary/';
+      note.textContent = 'Saved in this browser only. Ask for a personal link to keep your log across devices.';
+    }
+    sel.onchange = function () {
+      var lvl = sel.value;
+      store.setLevel(lvl).then(function () { reload(); }).catch(function () { sel.value = store.level; banner('Could not save the plan level. Try again.'); });
+    };
+  }
+
+  function reload() {
+    sessions = PLAN.sessionsFor(store.level);
+    byDate = {};
+    sessions.forEach(function (s) { byDate[s.date] = s; });
+    render();
+  }
+
+  // ---- summary strip --------------------------------------------------
   function summary() {
-    var n = sessions.filter(function (s) { return done[s.id]; }).length;
+    var n = sessions.filter(function (s) { return done(s.id); }).length;
     document.getElementById('doneCount').textContent = n;
     document.getElementById('doneOf').textContent = 'of ' + sessions.length;
-    var r = 52, c = 2 * Math.PI * r, bar = document.getElementById('ringBar');
-    bar.style.strokeDasharray = c;
-    bar.style.strokeDashoffset = c * (1 - n / sessions.length);
+    var r = 52, c = 2 * Math.PI * r, ring = document.getElementById('ringBar');
+    ring.style.strokeDasharray = c;
+    ring.style.strokeDashoffset = c * (1 - n / sessions.length);
     document.getElementById('ring').setAttribute('aria-label', n + ' of ' + sessions.length + ' sessions completed');
 
-    var d = dayDiff(parse(plan.raceDate), today());
+    var d = dayDiff(parse(PLAN.raceDate), today());
     var days = document.getElementById('days'), lab = document.getElementById('daysLabel');
     if (d > 1) { days.textContent = d; lab.textContent = 'days to the Turkey Trot'; }
     else if (d === 1) { days.textContent = '1'; lab.textContent = 'day to go: shakeout day'; }
@@ -52,31 +93,27 @@
     else { days.textContent = 'Done'; lab.textContent = 'The Turkey Trot is behind you'; }
 
     var nx = document.getElementById('next'), t = iso(today());
-    var up = sessions.filter(function (s) { return !done[s.id] && s.date >= t; })[0];
+    var up = sessions.filter(function (s) { return !done(s.id) && s.date >= t; })[0];
     nx.hidden = !up;
     if (up) {
       nx.innerHTML = '';
       var when = up.date === t ? 'Today' : (dayDiff(parse(up.date), today()) === 1 ? 'Tomorrow' : fmt(parse(up.date)));
       nx.appendChild(el('span', 'next-k', 'Next up'));
-      nx.appendChild(el('strong', null, when + ': ' + up.title));
+      nx.appendChild(el('strong', null, esc(when + ': ' + up.title)));
       var b = el('button', 'btn', 'Open'); b.type = 'button';
       b.addEventListener('click', function () { openDetail(up); });
       nx.appendChild(b);
     }
   }
-  function fmt(d) { return WD[d.getDay()] + ', ' + MON[d.getMonth()] + ' ' + d.getDate(); }
 
-  // ---- calendar ------------------------------------------------------
+  // ---- calendar -------------------------------------------------------
   function render() {
     var wrap = document.getElementById('weeks');
     wrap.innerHTML = '';
-    var start = parse(plan.firstMonday), end = parse(plan.lastDay), t = iso(today());
-    var weekNo = 0;
+    var start = parse(PLAN.firstMonday), end = parse(PLAN.lastDay), t = iso(today()), weekNo = 0;
     for (var wk = new Date(start); wk <= end; wk.setDate(wk.getDate() + 7)) {
       weekNo++;
-      var sec = el('section', 'week');
-      var done7 = 0, tot7 = 0;
-      var list = el('ol', 'days');
+      var sec = el('section', 'week'), done7 = 0, tot7 = 0, list = el('ol', 'days');
       for (var k = 0; k < 7; k++) {
         var d = new Date(wk.getFullYear(), wk.getMonth(), wk.getDate() + k);
         var key = iso(d), s = byDate[key];
@@ -84,48 +121,59 @@
         li.appendChild(el('div', 'dh', '<span class="wd">' + WD[d.getDay()] + '</span><span class="dn">' + MON[d.getMonth()] + ' ' + d.getDate() + '</span>'));
         if (s) {
           tot7++;
-          if (done[s.id]) { done7++; li.classList.add('is-done'); }
+          if (done(s.id)) { done7++; li.classList.add('is-done'); }
           else if (key < t) li.classList.add('is-missed');
           if (s.race) li.classList.add('is-race');
           var card = el('button', 'card');
           card.type = 'button';
           card.setAttribute('aria-haspopup', 'dialog');
-          card.appendChild(el('strong', null, s.title));
-          card.appendChild(el('span', 'meta', s.race ? '3.1 miles' : minLabel(total(s)) + ' &middot; ' + minLabel(runTotal(s)) + ' running'));
+          card.appendChild(el('strong', null, esc(s.title)));
+          var meta = s.race ? '3.1 miles' : minLabel(total(s)) + ' &middot; ' + minLabel(runTotal(s)) + ' running';
+          card.appendChild(el('span', 'meta', meta));
+          if (done(s.id) && logLine(store.entries[s.id])) card.appendChild(el('span', 'logged', esc(logLine(store.entries[s.id]))));
           card.appendChild(bar(s));
           (function (sx) { card.addEventListener('click', function () { openDetail(sx); }); })(s);
           li.appendChild(card);
           var chk = el('button', 'check');
           chk.type = 'button';
-          chk.setAttribute('aria-pressed', done[s.id] ? 'true' : 'false');
-          chk.setAttribute('aria-label', 'Mark "' + s.title + '" ' + fmt(d) + ' as done');
+          chk.disabled = !store.canEdit;
+          chk.setAttribute('aria-pressed', done(s.id) ? 'true' : 'false');
+          chk.setAttribute('aria-label', 'Mark ' + s.title + ', ' + fmt(d) + ', as done');
           chk.innerHTML = '<svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4.5 10.5l3.5 3.5 7.5-8"/></svg>';
-          (function (sx) { chk.addEventListener('click', function () { toggle(sx.id); }); })(s);
+          (function (sx) { chk.addEventListener('click', function () { quickToggle(sx); }); })(s);
           li.appendChild(chk);
-        } else if (key > plan.raceDate) {
+        } else if (key > PLAN.raceDate) {
           li.appendChild(el('span', 'restlbl', 'Recover'));
         } else {
-          li.appendChild(el('span', 'restlbl', key === plan.raceDate ? '' : 'Rest'));
+          li.appendChild(el('span', 'restlbl', key === PLAN.raceDate ? '' : 'Rest'));
         }
         list.appendChild(li);
       }
-      var head = el('h3', 'wh', 'Week ' + weekNo + ' <small>' + done7 + '/' + tot7 + '</small>');
-      sec.appendChild(head);
+      sec.appendChild(el('h3', 'wh', 'Week ' + weekNo + ' <small>' + done7 + '/' + tot7 + '</small>'));
       sec.appendChild(list);
       wrap.appendChild(sec);
     }
     summary();
   }
 
-  function toggle(id) {
-    if (done[id]) delete done[id]; else done[id] = true;
-    save(); render();
-    if (dlg.open && current && current.id === id) fillDetail(current);
+  function defaultDate(s) { var t = iso(today()); return s.date <= t ? s.date : t; }
+  function hasDetails(e) { return e && (e.distance_mi != null || e.duration_min != null || e.run_pct != null || e.note); }
+
+  function quickToggle(s) {
+    if (!store.canEdit) return;
+    var p;
+    if (done(s.id)) {
+      if (hasDetails(store.entries[s.id]) && !confirm('Remove the log for "' + s.title + '"? Its distance, time and notes will be deleted.')) return;
+      p = store.remove(s.id);
+    } else {
+      p = store.save(s.id, { date: defaultDate(s), distance_mi: null, duration_min: null, run_pct: null, note: null });
+    }
+    p.then(function () { banner(''); render(); if (dlg.open && current && current.id === s.id) fillDetail(current); })
+     .catch(function () { banner('Could not save. Check your connection and try again.'); });
   }
 
-  // ---- detail dialog + guided timer ---------------------------------
-  var dlg = document.getElementById('detail'), body = document.getElementById('detailBody'), current = null;
-  var timer = null;
+  // ---- detail dialog + log form ---------------------------------------
+  var dlg = document.getElementById('detail'), body = document.getElementById('detailBody');
 
   function openDetail(s) {
     current = s;
@@ -133,36 +181,99 @@
     if (typeof dlg.showModal === 'function') dlg.showModal(); else dlg.setAttribute('open', '');
   }
   dlg.addEventListener('close', function () { stopTimer(); });
+  dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
 
   function fillDetail(s) {
     stopTimer();
     body.innerHTML = '';
-    var d = parse(s.date);
-    body.appendChild(el('p', 'eyebrow', fmt(d) + (s.race ? ' &middot; Race day' : ' &middot; Week ' + s.week)));
-    var h = el('h2', null, s.title); h.id = 'dTitle'; body.appendChild(h);
+    body.appendChild(el('p', 'eyebrow', fmt(parse(s.date)) + (s.race ? ' &middot; Race day' : ' &middot; Week ' + s.week)));
+    var h = el('h2', null, esc(s.title)); h.id = 'dTitle'; body.appendChild(h);
     body.appendChild(el('p', 'meta', minLabel(total(s)) + ' total &middot; ' + minLabel(runTotal(s)) + ' of running'));
     body.appendChild(bar(s));
-
     var ol = el('ol', 'steps');
-    s.segs.forEach(function (g) {
-      ol.appendChild(el('li', g.type, '<b>' + (g.type === 'run' ? 'Run' : 'Walk') + '</b> ' + mmss(g.sec)));
-    });
+    s.segs.forEach(function (g) { ol.appendChild(el('li', g.type, '<b>' + (g.type === 'run' ? 'Run' : 'Walk') + '</b> ' + mmss(g.sec))); });
     body.appendChild(ol);
-    body.appendChild(el('p', 'tip', s.tip));
+    body.appendChild(el('p', 'tip', esc(s.tip)));
 
-    var act = el('div', 'actions');
-    if (!s.race) {
+    if (!s.race && store.canEdit) {
+      var act = el('div', 'actions');
       var start = el('button', 'btn primary', 'Start guided workout'); start.type = 'button';
       start.addEventListener('click', function () { startTimer(s); });
       act.appendChild(start);
+      body.appendChild(act);
+      body.appendChild(el('div', 'timerbox'));
     }
-    var mark = el('button', 'btn' + (done[s.id] ? ' on' : ''), done[s.id] ? 'Done &check; (tap to undo)' : 'Mark as done'); mark.type = 'button';
-    mark.addEventListener('click', function () { toggle(s.id); });
-    act.appendChild(mark);
-    body.appendChild(act);
-    body.appendChild(el('div', 'timerbox'));
+    body.appendChild(logSection(s));
   }
 
+  function logSection(s) {
+    var e = store.entries[s.id], sec = el('section', 'logbox');
+    sec.appendChild(el('h3', null, 'What you actually did'));
+    if (!store.canEdit) {
+      sec.appendChild(el('p', 'meta', e ? esc((fmt(parse(e.date))) + (logLine(e) ? ' · ' + logLine(e) : '')) : 'Nothing logged yet.'));
+      if (e && e.note) sec.appendChild(el('p', 'tip', esc(e.note)));
+      return sec;
+    }
+    var f = el('form', 'logform');
+    var plannedRunPct = Math.round(100 * runTotal(s) / total(s));
+    f.innerHTML =
+      '<label>Date <input type="date" name="date" required></label>' +
+      '<div class="row2">' +
+        '<label>Distance (miles) <input type="number" name="distance" min="0" max="50" step="0.01" inputmode="decimal" placeholder="e.g. 2.1"></label>' +
+        '<label>Time (minutes) <input type="number" name="duration" min="0" max="600" step="0.1" inputmode="decimal" placeholder="e.g. 32"></label>' +
+      '</div>' +
+      '<div class="pctbox"><label class="chk"><input type="checkbox" name="usepct"> Estimate how much was running vs. walking</label>' +
+        '<div class="pctrow"><input type="range" name="pct" min="0" max="100" step="5" value="' + plannedRunPct + '" disabled>' +
+        '<output name="pctout"></output></div>' +
+        '<p class="hint">Percent of your total time spent running. The plan for this day is about ' + plannedRunPct + '%.</p></div>' +
+      '<label>Notes <textarea name="note" rows="3" maxlength="1000" placeholder="How did it feel? Weather, route, aches, anything."></textarea></label>' +
+      '<p class="formerr" role="alert" hidden></p>';
+    var date = f.elements.date, dist = f.elements.distance, dur = f.elements.duration, use = f.elements.usepct,
+        pct = f.elements.pct, out = f.elements.pctout, note = f.elements.note, err = f.querySelector('.formerr');
+    date.value = e ? e.date : defaultDate(s);
+    if (e) {
+      if (e.distance_mi != null) dist.value = e.distance_mi;
+      if (e.duration_min != null) dur.value = e.duration_min;
+      if (e.run_pct != null) { use.checked = true; pct.disabled = false; pct.value = e.run_pct; }
+      if (e.note) note.value = e.note;
+    }
+    function showPct() { out.textContent = use.checked ? pct.value + '% running · ' + (100 - pct.value) + '% walking' : 'Not set'; }
+    use.addEventListener('change', function () { pct.disabled = !use.checked; showPct(); });
+    pct.addEventListener('input', showPct);
+    showPct();
+
+    var acts = el('div', 'actions');
+    var save = el('button', 'btn primary', e ? 'Update log' : 'Save and mark done'); save.type = 'submit';
+    acts.appendChild(save);
+    if (e) {
+      var rm = el('button', 'btn', 'Remove log'); rm.type = 'button';
+      rm.addEventListener('click', function () {
+        if (hasDetails(e) && !confirm('Delete this log, including distance, time and notes?')) return;
+        store.remove(s.id).then(function () { render(); fillDetail(s); }).catch(function () { showErr('Could not remove it. Try again.'); });
+      });
+      acts.appendChild(rm);
+    }
+    f.appendChild(acts);
+    function showErr(m) { err.hidden = !m; err.textContent = m || ''; }
+    f.addEventListener('submit', function (ev) {
+      ev.preventDefault();
+      showErr('');
+      var entry = {
+        date: date.value,
+        distance_mi: dist.value === '' ? null : Number(dist.value),
+        duration_min: dur.value === '' ? null : Number(dur.value),
+        run_pct: use.checked ? Number(pct.value) : null,
+        note: note.value.trim() || null
+      };
+      save.disabled = true; save.textContent = 'Saving…';
+      store.save(s.id, entry).then(function () { banner(''); render(); fillDetail(s); })
+        .catch(function (er) { save.disabled = false; save.textContent = e ? 'Update log' : 'Save and mark done'; showErr(er && er.status === 400 ? er.message : 'Could not save. Check your connection and try again.'); });
+    });
+    sec.appendChild(f);
+    return sec;
+  }
+
+  // ---- guided timer ---------------------------------------------------
   var audio = null, muted = false, wake = null;
   function beep(freq, ms) {
     if (muted) return;
@@ -186,7 +297,6 @@
       }
     } catch (e) {}
   }
-
   function startTimer(s) {
     var box = body.querySelector('.timerbox');
     box.innerHTML = '';
@@ -198,7 +308,6 @@
     ctl.appendChild(pause); ctl.appendChild(skip); ctl.appendChild(mute);
     box.appendChild(label); box.appendChild(clock); box.appendChild(nextl); box.appendChild(ctl);
     box.className = 'timerbox live';
-
     var idx = 0, left = s.segs[0].sec, paused = false, last = Date.now();
     try { if (navigator.wakeLock) navigator.wakeLock.request('screen').then(function (w) { wake = w; }).catch(function () {}); } catch (e) {}
     function paint() {
@@ -214,15 +323,10 @@
       if (idx >= s.segs.length) {
         stopTimer(); beep(660, 250); setTimeout(function () { beep(880, 500); }, 300);
         box.className = 'timerbox finished';
-        box.innerHTML = '<strong>Nice work.</strong> Session complete.';
-        if (!done[s.id]) { done[s.id] = true; save(); render(); fillDoneOnly(); }
+        box.innerHTML = '<strong>Nice work.</strong> Log how it went below.';
         return;
       }
       left = s.segs[idx].sec; cue(s.segs[idx]); paint();
-    }
-    function fillDoneOnly() {
-      var b = body.querySelector('.actions .btn:not(.primary)');
-      if (b) { b.className = 'btn on'; b.innerHTML = 'Done &check; (tap to undo)'; }
     }
     pause.addEventListener('click', function () { paused = !paused; pause.textContent = paused ? 'Resume' : 'Pause'; last = Date.now(); });
     skip.addEventListener('click', advance);
@@ -241,11 +345,23 @@
     try { if (window.speechSynthesis) speechSynthesis.cancel(); } catch (e) {}
   }
 
+  // ---- start ----------------------------------------------------------
   document.getElementById('reset').addEventListener('click', function () {
-    if (confirm('Clear all checked-off sessions?')) { done = {}; save(); render(); }
+    if (store.mode !== 'local') return;
+    if (confirm('Clear everything you have logged on this device?')) { store.reset().then(reload); }
   });
-  dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
 
-  render();
-  requestAnimationFrame(function () { document.getElementById('ring').classList.add('ready'); });
+  C25K.open().then(function (st) {
+    store = st;
+    if (store.error === 'unknown') {
+      banner('That link is not recognized. Check that you copied the whole thing, or ask for a new one.');
+      store.canEdit = false; store.level = 'beginner';
+    } else if (store.error === 'network') {
+      banner('Could not reach the server, so your saved log is not shown. Try again in a bit.');
+      store.canEdit = false;
+    }
+    if (!store.error) who();
+    reload();
+    requestAnimationFrame(function () { document.getElementById('ring').classList.add('ready'); });
+  });
 })();

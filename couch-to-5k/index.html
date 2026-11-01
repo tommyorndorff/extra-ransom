@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css?v=20261101">
+  <link rel="stylesheet" href="css/styles.css?v=20261102">
 </head>
 <body>
   <a class="skip" href="#plan">Skip to the plan</a>
@@ -18,7 +18,19 @@
   <header class="hero">
     <p class="eyebrow">Thanksgiving 2026 &middot; Thursday, November 26</p>
     <h1>Couch to Turkey&nbsp;Trot</h1>
-    <p class="lede">Eleven short run/walk sessions, then 3.1 miles. Check them off as you go.</p>
+    <p class="lede">Eleven short run/walk sessions, then 3.1 miles. Check them off and log what you actually did.</p>
+
+    <div class="who" id="who" hidden>
+      <div class="who-main">
+        <strong id="whoName"></strong>
+        <label class="lvl"><span>Plan</span>
+          <select id="levelSel" aria-label="Plan level"></select>
+        </label>
+        <a class="btn" id="summaryLink" href="summary/">Progress summary</a>
+      </div>
+      <p class="who-note" id="whoNote"></p>
+    </div>
+    <div class="banner" id="banner" role="status" hidden></div>
 
     <div class="stats">
       <div class="ring" role="img" aria-label="Sessions completed" id="ring">
@@ -71,7 +83,7 @@
 
   <footer class="foot">
     <button class="link" id="reset" type="button">Reset my progress</button>
-    <span>Progress is saved in this browser only.</span>
+    <span id="saveNote">Progress is saved in this browser only.</span>
     <a href="/">extra-ransom.net</a>
   </footer>
 
@@ -80,7 +92,8 @@
     <div id="detailBody"></div>
   </dialog>
 
-  <script src="js/plan.js?v=20261101"></script>
-  <script src="js/app.js?v=20261101"></script>
+  <script src="js/plan.js?v=20261102"></script>
+  <script src="js/store.js?v=20261102"></script>
+  <script src="js/app.js?v=20261102"></script>
 </body>
 </html>
