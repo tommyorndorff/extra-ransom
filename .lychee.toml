@@ -23,6 +23,10 @@ exclude = [
   # failures, Nov 2026) - kept in the Yellowstone dossier alongside its
   # Wayback Machine archive for reference.
   '^https://palatejh\.com',
+  # mudhole.com (Mud Hole Custom Tackle) rate-limits automated clients with
+  # HTTP 429 (Retry-After: 60) even at low request rates - pages load fine
+  # in a browser. Linked from the Rod 002 graphite-alternative BOM.
+  '^https://mudhole\.com',
 ]
 
 max_retries = 3

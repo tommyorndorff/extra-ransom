@@ -408,6 +408,147 @@ finished, so **stay off redds**: the clean, light-colored gravel patches.
 9. Before the first trip, confirm the Hap Simpson reach's designation, the
    NCWRC stocking schedule, and USGS flows.
 
+## Graphite alternative: a Mud Hole build
+
+This is the same rod in graphite, built from [Mud Hole](https://mudhole.com)
+parts: a weekend build that fishes this winter while the cane rod is still in
+the binder. Everything else on this page (reel, line, tackle, how to fish
+it) carries over unchanged.
+
+### Blank: MHX S782-2
+
+| | MHX S782-2 (pick) | MHX S782 | MHX S842-2 |
+|---|---|---|---|
+| Length / pieces | 6'6" / **2** | 6'6" / 1 | 7'0" / 2 |
+| Power / action | Light / Fast | Light / Fast | Light / Fast |
+| Line / lure | 4–8 lb / 1/16–5/16 oz | 4–8 lb / 1/16–5/16 oz | 4–8 lb / 1/16–5/16 oz |
+| Tip size / butt | 4.5 / 0.33" (8.50 mm) | 4.5 / 0.33" (8.40 mm) | 5.0 / 0.34" |
+| Weight | 1.25 oz | 1.25 oz | 1.4 oz |
+| Price (Oct 2026) | $61.00 | $58.50 | $66.25 |
+
+**The S782-2** matches the cane rod's spec (6'6", light, 1/16-oz lures at
+the bottom of its range) and breaks down to about 40" for the car. Pick the
+**S782** if you want the one-piece feel; the specs are identical. Pick the
+**S842-2** if you want 6" more reach across the mainstem pools.
+
+Blank diameters are from Mud Hole's
+[MHX dimensions sheet](https://cdn.shopify.com/s/files/1/0275/1342/1957/files/MHX-Dimensions_394c75d3-b253-4e29-b4b1-687cc2b10525.pdf?v=1597678602).
+They set the handle hardware below. For the S782-2, in mm, measured from
+the butt:
+
+| From butt | 0 | 2" | 4" | 6" | 8" | 10" | 12" | 14" | 16" | 18" |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Diameter (mm) | 8.50 | 8.24 | 8.11 | 7.95 | 7.79 | 7.65 | 7.48 | 7.27 | 7.10 | 6.42\* |
+
+\*As printed. It's out of line with its neighbors (22" reads 6.77), so
+measure it yourself.
+
+### Handle: Fuji VSS split grip
+
+This is Option B from [Handle and reel seat](#handle-and-reel-seat), with
+real parts. The handle runs about 16" from the butt cap to the winding
+check:
+
+```goat
+ tip                                                                  butt
+ ---------+-+----------+---------------------+--------------------+---+
+          | |  fore    | hood   reel   hood  |     rear grip      |cap|
+ ---------+ |  grip    |  [=== foot ===]  nut|     (cork)         |   |
+          +-+----------+---------+--+--------+--------------------+---+
+                                 |  | stem
+                              .--+--+--.
+                             |  reel    |
+                              '--------'
+           |<-- 3.75" -->|<---- 4.7" ------->|<------- 7" -------->|
+        winding check                reel foot ~9.9" from butt
+```
+
+- **Reel seat: Fuji VSS size 16** (VSSM-16). It's 120 mm long with a
+  13.0 mm ID, the light size that suits a 1000 reel. The blank is
+  7.6–7.8 mm under the seat, so you'll build up ~2.6 mm per side with an
+  arbor (polyurethane arbor or masking-tape rings, epoxied).
+- **Foregrip: Fuji contoured split grip, size 16, cork** (FGVSS-16C, 3.75").
+  It's made to mate with the VSS 16 nose.
+- **Rear grip: American Tackle straight rear spinning grip, cork, 7",
+  0.250" ID** (RG-7S-250), with a **CBC-3** composite butt cap per the grip's
+  size chart. Ream the 0.250" bore out to the blank's 8.0–8.5 mm. Dry-fit
+  the tenon into the VSS's rear nut before gluing, because Mud Hole doesn't
+  list this grip as a VSS match.
+- **Winding check** for a ~7.3 mm (0.29") blank at the front of the foregrip.
+
+### Guides: Fuji KL-H 169H kit (KR-style)
+
+Mud Hole's [Fuji KL-H 169H kit](https://mudhole.com/products/fuji-kl-h-high-frame-spinning-guide-kits)
+is Fuji's small-reel spinning train ("spinning up to 7'6""), with Alconite
+rings on stainless frames. It's a modern KR-style train: a small, high
+stripper close to the reel and an early **choke** guide that straightens the
+line, followed by a row of small identical runners. That's lighter and
+casts farther than the old big-stripper layout. The 4.5 runners match the
+blank's 4.5 tip.
+
+**Starting layout** (inches from the tiptop; reel-foot center ≈ 68" from
+the tip):
+
+| # | Guide | Ring | From tip | Gap to next (toward butt) |
+|---:|---|---:|---:|---:|
+| tip | Fuji LG micro spinning top, Alconite | 4.5 ring / 4.5 tube | 0 | 3.5" |
+| 1 | KT runner | 4.5 | 3.5" | 4.0" |
+| 2 | KT runner | 4.5 | 7.5" | 4.5" |
+| 3 | KT runner | 4.5 | 12" | 5.0" |
+| 4 | KT runner | 4.5 | 17" | 5.5" |
+| 5 | KT runner | 4.5 | 22.5" | 6.0" |
+| 6 | KB (transition) | 4.5 | 28.5" | 6.5" |
+| 7 | **KL 5.5M (choke)** | 5.5 | 35" | 6.5" |
+| 8 | KL 8H (reduction) | 8 | 41.5" | 6.5" |
+| 9 | **KL 16H (stripper)** | 16 | 48" | ~20" to the reel foot |
+
+> **This is a starting point, not Fuji's computed layout.** Fuji's 2009
+> "New Concept" chart for a 6'6" spinning rod puts a bigger stripper at about
+> 45" from the tip with seven guides. This KR kit uses a smaller stripper and
+> nine guides, so the spacing above is my adaptation. Before wrapping:
+> 1. Tape everything on.
+> 2. Run Fuji's **KR guide placement software** (linked from Mud Hole's KL
+>    and KT pages) with a 1000 reel and 6 lb mono.
+> 3. Do a **static load test** (bend to ~90°, line shouldn't touch the
+>    blank).
+> 4. Do a **cast test**, watching the line cone: it should be choked to
+>    straight by guide 7.
+>
+> **On the S782-2, keep guide 8 off the ferrule.** Mud Hole doesn't publish
+> the ferrule location. If a guide lands within ~1" of the female ferrule,
+> slide it.
+
+### Bill of materials
+
+Prices are Mud Hole's listed prices as of Oct 31, 2026. A "verify" note means
+I couldn't confirm that size's SKU or price on the page.
+
+| Qty | Item | Mud Hole SKU | Price | Notes |
+|---:|---|---|---:|---|
+| 1 | MHX S782-2 6'6" Light Fast 2-pc blank, Slate | S782-2-MHX | $61.00 | or S782-MHX 1-pc $58.50 |
+| 1 | Fuji VSS Standard spinning seat, size 16, BC Grey | VSSM-16BC | $5.77 | 120 mm, ID 13.0 mm; CC Silver also offered |
+| 1 | Fuji contoured split foregrip, size 16, cork | FGVSS-16C | $9.39 | 3.75" |
+| 1 | American Tackle straight rear spinning grip, cork, 7", 0.250" ID | RG-7S-250 | ~$8–12 (verify) | the 4" is $8.19; ream to fit |
+| 1 | American Tackle composite cork butt cap | CBC-3 | from $2.09 | size per the rear-grip chart |
+| 1 | Reel-seat arbor (polyurethane), or masking tape | verify | from $2.29 | build ~7.7 → 13.0 mm |
+| 1 | Winding check, ~7.3 mm (0.29") | verify | ~$1–3 | Mud Hole trim parts |
+| 1 | Fuji KL-H guide kit 169H, Alconite, BC Grey | BCKLAG169H | $28.90 | KL16H, KL8H, KL5.5M, KB4.5, 5× KT4.5 |
+| 1 | Fuji LG micro spinning tip-top, Alconite, BC Grey, 4.5 ring / 4.5 tube | verify size | from $4.25 | the tube must fit the 4.5 tip |
+| 1 | Rod-wrapping thread, size A nylon | — | on hand | same as the fly rods |
+| — | Rod finish (2-part) + grip/seat epoxy | — | on hand | |
+| | **Parts total** | | **≈ $125** | plus shipping; reel and line not included |
+
+### Graphite build order
+
+1. Measure the blank's spine and mark it; the guides go on the spine's
+   compression side.
+2. Ream and dry-fit the rear grip, the VSS seat on its arbor, and the
+   foregrip. Glue them butt-first, seat aligned with the guide side.
+3. Fit the tip-top. Tape all guides on per the starting layout.
+4. Mount the reel, then do the static load test and cast test. Adjust.
+5. Wrap, finish, and cure. A graphite blank needs no varnish, just the
+   guide wraps.
+
 ## Sources
 
 - [BambooRodmaking: spinning rod tapers](https://www.bamboorodmaking.com/Tips-files/Rod_Selection-files/Spinning_Rods.html):
@@ -428,3 +569,14 @@ finished, so **stay off redds**: the clean, light-colored gravel patches.
   Ballistic MQ LT 1000 tested weight
 - [TackleDirect: Stradic FM ST1000HGFM](https://www.tackledirect.com/shimano-st1000hgfm-stradic-fm-spinning-reel.html):
   Stradic specs
+- Mud Hole product pages (Oct 31, 2026):
+  [MHX light spinning blanks](https://mudhole.com/products/mhx-light-spinning-rod-blanks),
+  [Fuji VSS seat](https://mudhole.com/products/fuji-vss-standard-versatile-spinning-reel-seat),
+  [Fuji VSS foregrip](https://mudhole.com/products/contoured-split-grip-for-fuji-vss-spinning-reel-seat),
+  [American Tackle rear grips](https://mudhole.com/products/straight-rear-grip-with-single-tenon-for-spinning-rods),
+  [butt caps](https://mudhole.com/products/crb-composite-and-eva-butt-caps),
+  [Fuji KL-H guide kits](https://mudhole.com/products/fuji-kl-h-high-frame-spinning-guide-kits),
+  [Fuji LG Alconite tip-top](https://mudhole.com/products/fuji-micro-spinning-top-lg-alconite-bc-grey)
+- [MHX blank dimensions sheet (PDF)](https://cdn.shopify.com/s/files/1/0275/1342/1957/files/MHX-Dimensions_394c75d3-b253-4e29-b4b1-687cc2b10525.pdf?v=1597678602)
+- Fuji, *Spinning Rods: New Concept Guide Placement* chart (via Mud Hole's
+  [Fuji Concept Guide Spacing PDF](https://cdn.shopify.com/s/files/1/0275/1342/1957/files/Fuji-Concept-Guide-Spacing.PDF?v=1597680266))
