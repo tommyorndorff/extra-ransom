@@ -15,11 +15,12 @@ extra-ransom/
 │   ├── _index.md             # site landing page
 │   └── docs/                 # All site content (Hextra sidebar tree)
 │       ├── equipment.md
-│       ├── morgan-hand-mill.md          # Tom Morgan build-class notes
-│       ├── morgan-hand-mill-manual.md   # re-written MHM machine/manual reference
-│       ├── rod-tapers.md
-│       ├── rod-builds/       # per-rod build logs (menu: Rod Builds)
-│       ├── rod-binders/      # binder designs & notes
+│       ├── rodmaking/        # all rod content (menu: Rodmaking)
+│       │   ├── morgan-hand-mill.md          # Tom Morgan build-class notes
+│       │   ├── morgan-hand-mill-manual.md   # re-written MHM machine/manual reference
+│       │   ├── tapers.md, printable-rod-tools.md
+│       │   ├── builds/       # per-rod build logs
+│       │   └── binders/      # binder designs & notes
 │       ├── woodworking/      # incl. furniture-plans/ (menu: Woodworking)
 │       ├── coffee-roasting/  # (menu: Coffee Roasting)
 │       └── fishing/          # trip dossiers (menu: Fishing)

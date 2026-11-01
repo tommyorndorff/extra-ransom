@@ -19,25 +19,25 @@ A personal build log — bamboo fly rods, woodworking, coffee roasting, and what
 {{< hextra/feature-card
   title="Build process"
   subtitle="Splitting culms, planing strips, glue-up, and finishing — the Tom Morgan Hand Mill class notes."
-  link="/docs/morgan-hand-mill/"
+  link="/docs/rodmaking/morgan-hand-mill/"
   icon="scissors"
 >}}
 {{< hextra/feature-card
   title="Rod tapers"
   subtitle="Taper tables and design tools for planning a blank before you touch a plane."
-  link="/docs/rod-tapers/"
+  link="/docs/rodmaking/tapers/"
   icon="trending-down"
 >}}
 {{< hextra/feature-card
   title="Rod Binders"
   subtitle="Garrison and Smithwick binder references, plus the 3D-printed and design-study builds here."
-  link="/docs/rod-binders/"
+  link="/docs/rodmaking/binders/"
   icon="refresh"
 >}}
 {{< hextra/feature-card
   title="Rod Builds"
   subtitle="Per-rod build logs, start to finish."
-  link="/docs/rod-builds/"
+  link="/docs/rodmaking/builds/"
   icon="book-open"
 >}}
 {{< hextra/feature-card
@@ -51,6 +51,24 @@ A personal build log — bamboo fly rods, woodworking, coffee roasting, and what
   subtitle="Roaster setup, remote logging, and profiles from the other thing I tinker with."
   link="/docs/coffee-roasting/"
   icon="fire"
+>}}
+{{< hextra/feature-card
+  title="Hydroponics"
+  subtitle="A 3D-printed tower in the garage — parts, pump and pot, pH/EC targets, seed starting, and grow-light setup."
+  link="/docs/hydroponics/"
+  icon="sun"
+>}}
+{{< hextra/feature-card
+  title="Fishing"
+  subtitle="Trip dossiers — Western NC, Colorado, Yellowstone, and the South Carolina coast."
+  link="/docs/fishing/"
+  icon="map"
+>}}
+{{< hextra/feature-card
+  title="Miscellany"
+  subtitle="Mocktails, a CO2 tank conversion, and whatever else doesn't fit elsewhere."
+  link="/docs/miscellany/"
+  icon="collection"
 >}}
 {{< /hextra/feature-grid >}}
 

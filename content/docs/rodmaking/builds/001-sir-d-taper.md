@@ -3,6 +3,7 @@ title: "Rod 001: Sir D 7' 2pc 4wt"
 date: 2022-09-07
 weight: 100
 aliases:
+  - /docs/rod-builds/001-sir-d-taper/
   - /docs/projects/001-sir-d-taper/
 ---
 

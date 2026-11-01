@@ -2,6 +2,7 @@
 title: "Garrison Binder"
 weight: 50
 aliases:
+  - /docs/rod-binders/garrison-binder/
   - /docs/garrison-binder/
 ---
 I've copied this content from [http://www.canerod.com/rodmakers/tips/binder.html](http://www.canerod.com/rodmakers/tips/binder.html) ([Wayback Machine](https://web.archive.org/web/20151005173756/http://www.canerod.com/rodmakers/tips/binder.html)).  I've reformatted it for reading and placed the images in-line after each paragraph.

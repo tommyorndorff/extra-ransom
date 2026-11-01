@@ -1,6 +1,6 @@
 ---
 title: "Fishing"
-weight: 120
+weight: 35
 ---
 
 Notes outside the bamboo rod bench, but adjacent to it — trip prep, venue research, and dossiers put together for guides and friends.

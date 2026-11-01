@@ -1,7 +1,9 @@
 ---
 title: "Rod Tapers & Tools"
-weight: 1
+weight: 30
 draft: false
+aliases:
+  - /docs/rod-tapers/
 ---
 ## RodLab
 Windows software that does many complex rod form tasks.  I need to eval this.

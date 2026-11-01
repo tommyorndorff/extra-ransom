@@ -1,6 +1,6 @@
 ---
 title: "Hydroponics"
-weight: 105
+weight: 33
 ---
 
 Notes on growing food hydroponically through the winter in an unheated-ish garage — built around a 3D-printed [Vertical Garden: Large Hydroponic Vegetable Tower](https://makerworld.com/en/models/1343259-vertical-garden-large-hydroponic-vegetable-tower) ([archive](https://web.archive.org/web/2024/https://makerworld.com/en/models/1343259-vertical-garden-large-hydroponic-vegetable-tower)) from MakerWorld.

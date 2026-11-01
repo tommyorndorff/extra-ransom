@@ -1,7 +1,8 @@
 ---
-title: "Miscellaneous"
+title: "Bamboo Chopsticks"
 weight: 400
 aliases:
+  - /docs/rod-builds/chopsticks/
   - /docs/projects/chopsticks/
 ---
 # Chopsticks, Why Not

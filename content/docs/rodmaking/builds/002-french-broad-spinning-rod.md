@@ -2,6 +2,8 @@
 title: "Rod 002: 6'6\" 2pc Light Spinning (French Broad)"
 date: 2026-10-31
 weight: 200
+aliases:
+  - /docs/rod-builds/002-french-broad-spinning-rod/
 ---
 
 A two-piece split-cane **spinning** rod for winter fishing on the French Broad
@@ -113,7 +115,7 @@ applies as-is.
   tape (cloth friction tape or self-amalgamating tape).
 - **Ferrule (fallback).** Trim both sections square at 39" and fit a **12/64
   ferrule**. The 0.193" flats there are 12.4/64, the same fit as
-  [Rod 001](/docs/rod-builds/001-sir-d-taper/)'s 12/64 at 0.193". It's
+  [Rod 001](/docs/rodmaking/builds/001-sir-d-taper/)'s 12/64 at 0.193". It's
   convenient, but on a light spinner the ferrule outweighs the lure: a 12/64
   is roughly 0.2 oz (my estimate) against a 1/8 oz lure.
 
@@ -220,7 +222,7 @@ Oversize columns follow the class sheet: rough **+0.070**, Hand Mill
 **+0.030**, finish **+0.003** (all per strip, i.e. added to the half
 dimension). The **MHM Setting** is the bed rise from the thickest station
 in each section, the same convention and station layout as
-[Rod 001](/docs/rod-builds/001-sir-d-taper/). Each section's thin end sits
+[Rod 001](/docs/rodmaking/builds/001-sir-d-taper/). Each section's thin end sits
 at #12 with the extension at #13. The largest change between adjacent
 stations is 0.008", well under the bed's 0.020" limit. caneDNA estimates
 hold-down **hole E** for the tip and **hole D** for the butt.

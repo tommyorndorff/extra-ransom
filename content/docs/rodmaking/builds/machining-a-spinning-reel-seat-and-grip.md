@@ -2,10 +2,12 @@
 title: "Machining a Spinning Reel Seat and Building a Grip"
 date: 2026-11-01
 weight: 250
+aliases:
+  - /docs/rod-builds/machining-a-spinning-reel-seat-and-grip/
 ---
 
 A plan and procedure for making the handle hardware of
-[Rod 002, the 6'6" French Broad spinning rod](/docs/rod-builds/002-french-broad-spinning-rod/)
+[Rod 002, the 6'6" French Broad spinning rod](/docs/rodmaking/builds/002-french-broad-spinning-rod/)
 myself: a **machined reel seat** (fixed hood plus a sliding threaded ring)
 and a **cork grip** built around it. The build log already covers two
 handle options: cork with two sliding rings (Option A) and a Fuji VSS
@@ -25,7 +27,7 @@ seat from bar stock instead of buying it.
 | Blank under the grip: **0.279–0.281″** (7.09–7.14 mm) | Confirmed (build log spec table, taper table) |
 | Reel-foot center about **8.5″ from the butt**; 12″ cork handle in Option A | Confirmed as Option A's design value; still to be fine-tuned by balance |
 | Fuji VSS 16 seat: 120 mm long, 13.0 mm ID (the graphite-blank option) | Confirmed (build log, and re-checked on [Mud Hole's VSS page](https://mudhole.com/products/fuji-vss-standard-versatile-spinning-reel-seat)) |
-| A cork-ring press exists as a printable tool | Confirmed ([printable rod tools](/docs/rod-builds/printable-rod-tools/)) |
+| A cork-ring press exists as a printable tool | Confirmed ([printable rod tools](/docs/rodmaking/printable-rod-tools/)) |
 | Owning a **metal lathe** or **mill** | **Not stated anywhere in the repo** (`equipment.md` is a stub; no page mentions a lathe). **To confirm.** |
 | The reel's foot dimensions | **To confirm.** Measure the actual reel. |
 | Thread size for the seat | **My choice, not a standard.** See [Threads](#threads). |
@@ -239,7 +241,7 @@ I'm using rings here since the machined seat doesn't match a commercial grip.
    glue forces epoxy onto the mandrel and the grip's outside, and the grip
    can become nearly impossible to remove.
 3. **Press the stack**: washers and nuts on threaded rod, or the printable
-   [cork press](/docs/rod-builds/printable-rod-tools/#cork-press) from this
+   [cork press](/docs/rodmaking/printable-rod-tools/#cork-press) from this
    site. Tighten until glue just oozes between the rings.
 4. **Put a low-grade ring at each end** to absorb the press marks.
 5. **Cure fully**, overnight and a bit more. Reaming too soon makes the
@@ -346,4 +348,4 @@ own plan.
   [overstock cork rings](https://mudhole.com/products/overstock-cork-rings-25-id)
   ([archive](https://web.archive.org/web/2024/https://mudhole.com/products/overstock-cork-rings-25-id))
 
-Back to the [Rod 002 build log](/docs/rod-builds/002-french-broad-spinning-rod/).
+Back to the [Rod 002 build log](/docs/rodmaking/builds/002-french-broad-spinning-rod/).

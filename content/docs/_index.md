@@ -3,4 +3,4 @@ title: "Notes"
 weight: 1
 ---
 
-Build process notes, equipment references, and rod tapers for split-cane bamboo fly rod construction.
+Build logs and reference notes: split-cane rodmaking, woodworking, coffee roasting, hydroponics, fishing trip prep, and miscellany.

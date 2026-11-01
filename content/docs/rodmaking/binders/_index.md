@@ -1,6 +1,8 @@
 ---
 title: "Rod Binders"
-weight: 40
+weight: 50
+aliases:
+  - /docs/rod-binders/
 ---
 
 Binder designs and reference notes — the machines that wind the wraps on, not the rods themselves.

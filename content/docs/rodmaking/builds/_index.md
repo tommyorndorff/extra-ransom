@@ -1,7 +1,8 @@
 ---
 title: "Rod Builds"
-weight: 50
+weight: 40
 aliases:
+  - /docs/rod-builds/
   - /docs/projects/
 ---
 
