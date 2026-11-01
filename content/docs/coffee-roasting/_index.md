@@ -1,6 +1,6 @@
 ---
 title: "Coffee Roasting"
-weight: 100
+weight: 30
 ---
 
 Notes on home coffee roasting — hardware setup, roast logging, and profiles.

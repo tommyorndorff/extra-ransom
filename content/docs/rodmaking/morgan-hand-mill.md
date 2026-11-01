@@ -1,7 +1,9 @@
 ---
 title: "Morgan Hand Mill"
-weight: 1
+weight: 10
 draft: false
+aliases:
+  - /docs/morgan-hand-mill/
 ---
 # Tom Morgan Bamboo Build Class
 These are the notes from the class. They were given out on sheets of paper. I've re-written them here and amended them where I needed additional notes.

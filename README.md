@@ -28,7 +28,7 @@ hugo new docs/my-page.md
 
 **New rod build log** (appears under the Rod Builds section):
 ```bash
-hugo new docs/rod-builds/my-rod.md
+hugo new docs/rodmaking/builds/my-rod.md
 ```
 
 Both commands use `archetypes/default.md` to pre-fill front matter. Key fields:

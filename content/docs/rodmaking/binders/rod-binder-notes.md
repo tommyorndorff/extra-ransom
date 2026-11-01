@@ -2,6 +2,7 @@
 title: "Rod Binder Notes"
 weight: 55
 aliases:
+  - /docs/rod-binders/rod-binder-notes/
   - /docs/rod-binder-notes/
 ---
 # Notes on Rod Binders 

@@ -1,6 +1,6 @@
 ---
 title: "Woodworking"
-weight: 110
+weight: 20
 ---
 
 Notes on furniture and shop projects outside the bamboo rod bench — plans, builds, and the tools that support them.

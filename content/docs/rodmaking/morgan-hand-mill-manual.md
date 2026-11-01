@@ -1,8 +1,10 @@
 ---
 title: "Morgan Hand Mill Manual"
-weight: 2
+weight: 20
 draft: false
 date: 2026-08-25
+aliases:
+  - /docs/morgan-hand-mill-manual/
 ---
 # The Morgan Hand Mill — Manual Reference
 

@@ -2,6 +2,7 @@
 title: "'New' Smithwick Binder"
 weight: 50
 aliases:
+  - /docs/rod-binders/new-smithwick-binder/
   - /docs/new-smithwick-binder/
 ---
 

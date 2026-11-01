@@ -17,8 +17,8 @@ markup:
 
 menu:
   main:
-    - name: Rod Builds
-      url: /docs/rod-builds/
+    - name: Rodmaking
+      url: /docs/rodmaking/
       weight: 10
     - name: Woodworking
       url: /docs/woodworking/

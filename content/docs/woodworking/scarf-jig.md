@@ -4,7 +4,7 @@ weight: 27
 ---
 
 A **proposed** shop jig for cutting long, accurate scarf bevels in strip
-stock: the 4½" splice on [Rod 002](/docs/rod-builds/002-french-broad-spinning-rod/)'s
+stock: the 4½" splice on [Rod 002](/docs/rodmaking/builds/002-french-broad-spinning-rod/)'s
 bamboo sections, and also scarfed trim, bow and paddle laminations, and
 anything else that needs a feathered lap joint. It's a permanent tool, not
 a one-off. One knob sets any ratio from **1:8 to 1:40**, and the setting
