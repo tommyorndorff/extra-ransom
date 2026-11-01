@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>extra-ransom, super-chainsaw – Rod Builds</title><link>https://www.extra-ransom.net/docs/rod-builds/</link><description>Recent content in Rod Builds on extra-ransom, super-chainsaw</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 31 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.extra-ransom.net/docs/rod-builds/index.xml" rel="self" type="application/rss+xml"/><item><title>Rod 001: Sir D 7' 2pc 4wt</title><link>https://www.extra-ransom.net/docs/rod-builds/001-sir-d-taper/</link><pubDate>Wed, 07 Sep 2022 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/rod-builds/001-sir-d-taper/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>extra-ransom, super-chainsaw – Rod Builds</title><link>https://www.extra-ransom.net/docs/rod-builds/</link><description>Recent content in Rod Builds on extra-ransom, super-chainsaw</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.extra-ransom.net/docs/rod-builds/index.xml" rel="self" type="application/rss+xml"/><item><title>Rod 001: Sir D 7' 2pc 4wt</title><link>https://www.extra-ransom.net/docs/rod-builds/001-sir-d-taper/</link><pubDate>Wed, 07 Sep 2022 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/rod-builds/001-sir-d-taper/</guid><description>
 &lt;h1&gt;Morgan Hand Mill Settings&lt;/h1&gt;&lt;h2&gt;Cattanach 7ft 2pc 4wt&lt;span class="hx:absolute hx:-mt-20" id="cattanach-7ft-2pc-4wt"&gt;&lt;/span&gt;
 &lt;a href="#cattanach-7ft-2pc-4wt" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Wayne Cattanach&amp;rsquo;s 7ft 2pc 4wt.
 This rod was praised on the Rodmaker&amp;rsquo;s list
@@ -2211,7 +2211,730 @@ Stradic specs&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://cdn.shopify.com/s/files/1/0275/1342/1957/files/MHX-Dimensions_394c75d3-b253-4e29-b4b1-687cc2b10525.pdf?v=1597678602"target="_blank" rel="noopener"&gt;MHX blank dimensions sheet (PDF)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Fuji, &lt;em&gt;Spinning Rods: New Concept Guide Placement&lt;/em&gt; chart (via Mud Hole&amp;rsquo;s
 &lt;a href="https://cdn.shopify.com/s/files/1/0275/1342/1957/files/Fuji-Concept-Guide-Spacing.PDF?v=1597680266"target="_blank" rel="noopener"&gt;Fuji Concept Guide Spacing PDF&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>3D-Printed Rodmaking Tools</title><link>https://www.extra-ransom.net/docs/rod-builds/printable-rod-tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/rod-builds/printable-rod-tools/</guid><description>
+&lt;/ul&gt;</description></item><item><title>Machining a Spinning Reel Seat and Building a Grip</title><link>https://www.extra-ransom.net/docs/rod-builds/machining-a-spinning-reel-seat-and-grip/</link><pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/rod-builds/machining-a-spinning-reel-seat-and-grip/</guid><description>
+&lt;p&gt;A plan and procedure for making the handle hardware of
+&lt;a href="https://www.extra-ransom.net/docs/rod-builds/002-french-broad-spinning-rod/"&gt;Rod 002, the 6'6&amp;quot; French Broad spinning rod&lt;/a&gt;
+myself: a &lt;strong&gt;machined reel seat&lt;/strong&gt; (fixed hood plus a sliding threaded ring)
+and a &lt;strong&gt;cork grip&lt;/strong&gt; built around it. The build log already covers two
+handle options: cork with two sliding rings (Option A) and a Fuji VSS
+skeleton seat on an arbor (Option B). This page is a third option: turn the
+seat from bar stock instead of buying it.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Status: plan only.&lt;/strong&gt; Nothing here has been cut yet. The cane for Rod 002
+hasn&amp;rsquo;t been milled either. Anything I haven&amp;rsquo;t measured or confirmed is
+marked &lt;strong&gt;to confirm&lt;/strong&gt;, and every dimension below is a starting point, not a
+result.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;What the repo does and doesn&amp;rsquo;t confirm&lt;span class="hx:absolute hx:-mt-20" id="what-the-repo-does-and-doesnt-confirm"&gt;&lt;/span&gt;
+&lt;a href="#what-the-repo-does-and-doesnt-confirm" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Item&lt;/th&gt;
+&lt;th&gt;Status&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Rod: 6'6&amp;quot;, 2 pc, hex, light / moderate-fast, 1000-size reel&lt;/td&gt;
+&lt;td&gt;Confirmed (build log)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Blank under the grip: &lt;strong&gt;0.279–0.281″&lt;/strong&gt; (7.09–7.14 mm)&lt;/td&gt;
+&lt;td&gt;Confirmed (build log spec table, taper table)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reel-foot center about &lt;strong&gt;8.5″ from the butt&lt;/strong&gt;; 12″ cork handle in Option A&lt;/td&gt;
+&lt;td&gt;Confirmed as Option A&amp;rsquo;s design value; still to be fine-tuned by balance&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fuji VSS 16 seat: 120 mm long, 13.0 mm ID (the graphite-blank option)&lt;/td&gt;
+&lt;td&gt;Confirmed (build log, and re-checked on &lt;a href="https://mudhole.com/products/fuji-vss-standard-versatile-spinning-reel-seat"target="_blank" rel="noopener"&gt;Mud Hole&amp;rsquo;s VSS page&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;A cork-ring press exists as a printable tool&lt;/td&gt;
+&lt;td&gt;Confirmed (&lt;a href="https://www.extra-ransom.net/docs/rod-builds/printable-rod-tools/"&gt;printable rod tools&lt;/a&gt;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Owning a &lt;strong&gt;metal lathe&lt;/strong&gt; or &lt;strong&gt;mill&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Not stated anywhere in the repo&lt;/strong&gt; (&lt;code&gt;equipment.md&lt;/code&gt; is a stub; no page mentions a lathe). &lt;strong&gt;To confirm.&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;The reel&amp;rsquo;s foot dimensions&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;To confirm.&lt;/strong&gt; Measure the actual reel.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Thread size for the seat&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;My choice, not a standard.&lt;/strong&gt; See &lt;a href="#threads"&gt;Threads&lt;/a&gt;.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;If I don&amp;rsquo;t have a lathe, the fallback is Option A or B from the build log.
+Those need no machining. A wood lathe (or a drill with a support stand) is
+enough for the grip alone.&lt;/p&gt;
+&lt;h2&gt;Choosing the style&lt;span class="hx:absolute hx:-mt-20" id="choosing-the-style"&gt;&lt;/span&gt;
+&lt;a href="#choosing-the-style" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Style&lt;/th&gt;
+&lt;th&gt;How it holds the reel&lt;/th&gt;
+&lt;th&gt;Pros&lt;/th&gt;
+&lt;th&gt;Cons&lt;/th&gt;
+&lt;th&gt;Fit for Rod 002&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Sliding rings on cork&lt;/strong&gt; (Option A in the log)&lt;/td&gt;
+&lt;td&gt;Foot sits on bare cork, two rings slide over the ends&lt;/td&gt;
+&lt;td&gt;Lightest; period-correct; no hardware&lt;/td&gt;
+&lt;td&gt;Rings can creep when wet and cold&lt;/td&gt;
+&lt;td&gt;Recommended in the log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Fixed hood + threaded ring&lt;/strong&gt; (this page)&lt;/td&gt;
+&lt;td&gt;Foot sits in a fixed hood; a threaded ring winds up against the other foot&lt;/td&gt;
+&lt;td&gt;Locks solid; no creep; adjustable to the reel&lt;/td&gt;
+&lt;td&gt;Needs machining and exact thread fit&lt;/td&gt;
+&lt;td&gt;The one planned here&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Hood and cap, no thread&lt;/strong&gt; (slip-on sliding band)&lt;/td&gt;
+&lt;td&gt;Same as the sliding rings but with metal-to-metal hoods&lt;/td&gt;
+&lt;td&gt;Simple to make&lt;/td&gt;
+&lt;td&gt;Same creep problem as rings&lt;/td&gt;
+&lt;td&gt;Skip&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Bought skeleton seat&lt;/strong&gt; (Fuji VSS 16, Option B)&lt;/td&gt;
+&lt;td&gt;Fixed hood plus a threaded hood and lock nut&lt;/td&gt;
+&lt;td&gt;Cheap, tested, ~$6&lt;/td&gt;
+&lt;td&gt;Looks modern on cane; needs an arbor&lt;/td&gt;
+&lt;td&gt;Fallback&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;A &lt;strong&gt;screw-lock&lt;/strong&gt; seat (what the machined design is) beats a sliding band on
+a spinning rod because the reel foot takes the full pull of a hooked fish
+and the casting hand squeezes the seat. The band-only style is fine for
+light fly-style reels but is the one more likely to loosen.&lt;/p&gt;
+&lt;h2&gt;Spinning-specific geometry&lt;span class="hx:absolute hx:-mt-20" id="spinning-specific-geometry"&gt;&lt;/span&gt;
+&lt;a href="#spinning-specific-geometry" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="goat svg-container "&gt;
+&lt;svg
+xmlns="http://www.w3.org/2000/svg"
+font-family="Menlo,Lucida Console,monospace"
+viewBox="0 0 528 153"
+&gt;
+&lt;g transform='translate(8,16)'&gt;
+&lt;path d='M 8,16 L 72,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 72,16 L 88,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 88,16 L 176,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 176,16 L 328,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 328,16 L 416,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 416,16 L 496,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 8,48 L 72,48' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 72,64 L 88,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 88,64 L 176,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 176,64 L 248,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 248,64 L 272,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 272,64 L 328,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 328,64 L 416,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 416,64 L 496,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 232,96 L 248,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 248,96 L 272,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 272,96 L 288,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 232,128 L 288,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 72,16 L 72,48' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 72,48 L 72,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 88,16 L 88,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 176,16 L 176,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 248,64 L 248,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 272,64 L 272,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 328,16 L 328,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 416,16 L 416,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 496,16 L 496,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 232,96 A 16,16 0 0,0 216,112' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 288,96 A 16,16 0 0,1 304,112' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 216,112 A 16,16 0 0,0 232,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 304,112 A 16,16 0 0,1 288,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
+&lt;text text-anchor='middle' x='16' y='4' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
+&lt;text text-anchor='middle' x='16' y='36' fill='currentColor' style='font-size:1em'&gt;b&lt;/text&gt;
+&lt;text text-anchor='middle' x='24' y='4' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
+&lt;text text-anchor='middle' x='24' y='36' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
+&lt;text text-anchor='middle' x='32' y='36' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
+&lt;text text-anchor='middle' x='40' y='36' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
+&lt;text text-anchor='middle' x='48' y='36' fill='currentColor' style='font-size:1em'&gt;k&lt;/text&gt;
+&lt;text text-anchor='middle' x='104' y='36' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
+&lt;text text-anchor='middle' x='104' y='52' fill='currentColor' style='font-size:1em'&gt;(&lt;/text&gt;
+&lt;text text-anchor='middle' x='112' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
+&lt;text text-anchor='middle' x='112' y='52' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
+&lt;text text-anchor='middle' x='120' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
+&lt;text text-anchor='middle' x='120' y='52' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
+&lt;text text-anchor='middle' x='128' y='36' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
+&lt;text text-anchor='middle' x='128' y='52' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
+&lt;text text-anchor='middle' x='136' y='36' fill='currentColor' style='font-size:1em'&gt;g&lt;/text&gt;
+&lt;text text-anchor='middle' x='136' y='52' fill='currentColor' style='font-size:1em'&gt;k&lt;/text&gt;
+&lt;text text-anchor='middle' x='144' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
+&lt;text text-anchor='middle' x='144' y='52' fill='currentColor' style='font-size:1em'&gt;)&lt;/text&gt;
+&lt;text text-anchor='middle' x='152' y='36' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
+&lt;text text-anchor='middle' x='160' y='36' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
+&lt;text text-anchor='middle' x='192' y='36' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
+&lt;text text-anchor='middle' x='200' y='36' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
+&lt;text text-anchor='middle' x='200' y='52' fill='currentColor' style='font-size:1em'&gt;[&lt;/text&gt;
+&lt;text text-anchor='middle' x='208' y='36' fill='currentColor' style='font-size:1em'&gt;x&lt;/text&gt;
+&lt;text text-anchor='middle' x='208' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
+&lt;text text-anchor='middle' x='216' y='36' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
+&lt;text text-anchor='middle' x='216' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
+&lt;text text-anchor='middle' x='224' y='36' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
+&lt;text text-anchor='middle' x='224' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
+&lt;text text-anchor='middle' x='232' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
+&lt;text text-anchor='middle' x='240' y='36' fill='currentColor' style='font-size:1em'&gt;h&lt;/text&gt;
+&lt;text text-anchor='middle' x='240' y='116' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
+&lt;text text-anchor='middle' x='248' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
+&lt;text text-anchor='middle' x='248' y='52' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
+&lt;text text-anchor='middle' x='248' y='116' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
+&lt;text text-anchor='middle' x='256' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
+&lt;text text-anchor='middle' x='256' y='52' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
+&lt;text text-anchor='middle' x='256' y='116' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
+&lt;text text-anchor='middle' x='264' y='36' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
+&lt;text text-anchor='middle' x='264' y='52' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
+&lt;text text-anchor='middle' x='264' y='116' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
+&lt;text text-anchor='middle' x='272' y='52' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
+&lt;text text-anchor='middle' x='288' y='36' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
+&lt;text text-anchor='middle' x='288' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
+&lt;text text-anchor='middle' x='288' y='84' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
+&lt;text text-anchor='middle' x='296' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
+&lt;text text-anchor='middle' x='296' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
+&lt;text text-anchor='middle' x='296' y='84' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
+&lt;text text-anchor='middle' x='304' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
+&lt;text text-anchor='middle' x='304' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
+&lt;text text-anchor='middle' x='304' y='84' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
+&lt;text text-anchor='middle' x='312' y='36' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
+&lt;text text-anchor='middle' x='312' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
+&lt;text text-anchor='middle' x='312' y='84' fill='currentColor' style='font-size:1em'&gt;m&lt;/text&gt;
+&lt;text text-anchor='middle' x='320' y='52' fill='currentColor' style='font-size:1em'&gt;]&lt;/text&gt;
+&lt;text text-anchor='middle' x='344' y='36' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
+&lt;text text-anchor='middle' x='352' y='36' fill='currentColor' style='font-size:1em'&gt;h&lt;/text&gt;
+&lt;text text-anchor='middle' x='352' y='52' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
+&lt;text text-anchor='middle' x='360' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
+&lt;text text-anchor='middle' x='360' y='52' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
+&lt;text text-anchor='middle' x='368' y='36' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
+&lt;text text-anchor='middle' x='368' y='52' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
+&lt;text text-anchor='middle' x='376' y='36' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
+&lt;text text-anchor='middle' x='376' y='52' fill='currentColor' style='font-size:1em'&gt;g&lt;/text&gt;
+&lt;text text-anchor='middle' x='384' y='36' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
+&lt;text text-anchor='middle' x='392' y='36' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
+&lt;text text-anchor='middle' x='400' y='36' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
+&lt;text text-anchor='middle' x='432' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
+&lt;text text-anchor='middle' x='432' y='52' fill='currentColor' style='font-size:1em'&gt;g&lt;/text&gt;
+&lt;text text-anchor='middle' x='440' y='36' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
+&lt;text text-anchor='middle' x='440' y='52' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
+&lt;text text-anchor='middle' x='448' y='36' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
+&lt;text text-anchor='middle' x='448' y='52' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
+&lt;text text-anchor='middle' x='456' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
+&lt;text text-anchor='middle' x='456' y='52' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
+&lt;text text-anchor='middle' x='488' y='4' fill='currentColor' style='font-size:1em'&gt;b&lt;/text&gt;
+&lt;text text-anchor='middle' x='496' y='4' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
+&lt;text text-anchor='middle' x='504' y='4' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
+&lt;text text-anchor='middle' x='512' y='4' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The reel hangs below the seat.&lt;/strong&gt; The foot channel is open on the
+underside. The seat is a tube with a flat-bottomed (or slightly dished)
+cradle where the foot sits, a fixed hood at one end, and a threaded ring
+at the other that pulls the second foot tight.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Seat body OD: 7/8″ to 1″&lt;/strong&gt; (22–25 mm) is the usual range for finished
+spinning seats and the size my hand is likely to want on a light rod.
+Finished seat sizes vary by maker, so I&amp;rsquo;ll settle on a diameter from the
+reel and my grip (&lt;strong&gt;to confirm&lt;/strong&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reel foot gap.&lt;/strong&gt; The distance between the fixed hood and the threaded
+ring at full open must exceed the foot-to-foot length of the reel, and at
+full closed must be less than the foot length. I&amp;rsquo;ll measure the 1000-size
+reel I&amp;rsquo;m going to use with calipers (&lt;strong&gt;to confirm&lt;/strong&gt;) and make the
+channel about 1/4″ longer than that with the threaded ring&amp;rsquo;s travel at
+least that much.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hex under a round bore.&lt;/strong&gt; The butt is &lt;strong&gt;0.279–0.281″ across flats&lt;/strong&gt;, so
+the corners are 0.281 / cos 30° = &lt;strong&gt;0.325″&lt;/strong&gt; (8.24 mm). A round bore
+smaller than that cuts into the corners. Mill the bore to clear the corners,
+or ream the bushing bore to the corner diameter and fill the gap (see
+&lt;a href="#bushings-and-bonding-to-the-blank"&gt;Bushings&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Materials&lt;span class="hx:absolute hx:-mt-20" id="materials"&gt;&lt;/span&gt;
+&lt;a href="#materials" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Material&lt;/th&gt;
+&lt;th&gt;Pros&lt;/th&gt;
+&lt;th&gt;Cons&lt;/th&gt;
+&lt;th&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;6061-T6 aluminum&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Easy to turn; light; anodizes well; good thread life&lt;/td&gt;
+&lt;td&gt;Needs finishing to look right; will gall on its own threads if both parts are bare&lt;/td&gt;
+&lt;td&gt;My default pick&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Brass (360 free-machining)&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Cuts beautifully; classic look on cane; heavy&lt;/td&gt;
+&lt;td&gt;Heavier on a light rod; tarnishes unless lacquered&lt;/td&gt;
+&lt;td&gt;Good for the threaded ring only&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Stabilized or dense wood body with brass hardware&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Warm look; light&lt;/td&gt;
+&lt;td&gt;Wood threads wear; moisture movement&lt;/td&gt;
+&lt;td&gt;Use only for the body, with a metal insert for the threads&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Nickel-silver&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;The traditional bamboo-rod hardware&lt;/td&gt;
+&lt;td&gt;Costly; harder to find in bar&lt;/td&gt;
+&lt;td&gt;Not planned&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Mixing the two (aluminum body, brass ring) avoids galling, because like
+metals tend to seize on fine threads. Anodize or lacquer the finished
+parts; see &lt;a href="#finishing"&gt;Finishing&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Measurements&lt;span class="hx:absolute hx:-mt-20" id="measurements"&gt;&lt;/span&gt;
+&lt;a href="#measurements" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;All values are design targets, &lt;strong&gt;to confirm&lt;/strong&gt; against the reel, the blank,
+and a test-fit.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Feature&lt;/th&gt;
+&lt;th&gt;Target&lt;/th&gt;
+&lt;th&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Blank under the seat&lt;/td&gt;
+&lt;td&gt;0.279–0.281″ across flats; &lt;strong&gt;0.325″&lt;/strong&gt; across corners&lt;/td&gt;
+&lt;td&gt;From the build log; measure the real cane&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Bore of the seat body&lt;/td&gt;
+&lt;td&gt;blank corners + clearance: &lt;strong&gt;0.340–0.350″&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Or bore to a bushing&amp;rsquo;s OD&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Bushing OD / ID&lt;/td&gt;
+&lt;td&gt;OD matches the seat bore; ID matches the tapered cane&lt;/td&gt;
+&lt;td&gt;Cut from stock or build up from tape and epoxy&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Seat body OD&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;0.875–1.000″&lt;/strong&gt; (22–25 mm)&lt;/td&gt;
+&lt;td&gt;Pick from the reel and grip&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Wall thickness&lt;/td&gt;
+&lt;td&gt;≥ 0.20″ at the thread root&lt;/td&gt;
+&lt;td&gt;Check after the thread is cut&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Thread&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;1″-20 UNEF, as a design choice&lt;/strong&gt; (see below)&lt;/td&gt;
+&lt;td&gt;Not a published reel-seat standard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Thread length on the body&lt;/td&gt;
+&lt;td&gt;about 0.75″&lt;/td&gt;
+&lt;td&gt;12–15 turns at 20 tpi&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reel foot channel&lt;/td&gt;
+&lt;td&gt;foot length + about 0.25″&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Measure the reel&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fixed hood height&lt;/td&gt;
+&lt;td&gt;about 0.12–0.15″ above the foot bed&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;To confirm&lt;/strong&gt; against the foot&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reel-foot center from butt&lt;/td&gt;
+&lt;td&gt;about 8.5″&lt;/td&gt;
+&lt;td&gt;From Option A in the log; adjust by balance&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Total seat length&lt;/td&gt;
+&lt;td&gt;about 4.0″&lt;/td&gt;
+&lt;td&gt;Hood + channel + ring travel&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fit tolerances&lt;/td&gt;
+&lt;td&gt;thread: class 2A/2B; bore: ±0.002″&lt;/td&gt;
+&lt;td&gt;Reasonable shop targets&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Threads&lt;span class="hx:absolute hx:-mt-20" id="threads"&gt;&lt;/span&gt;
+&lt;a href="#threads" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I didn&amp;rsquo;t find a published thread standard for spinning reel seat nuts.
+Manufacturers&amp;rsquo; product pages (the Mud Hole pages I read) list length, ID,
+and OD but not the thread pitch, and different makers use different threads.
+So a machined seat can&amp;rsquo;t borrow a standard; I choose my own and both mating
+parts are mine.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pick a common machinist thread&lt;/strong&gt; so the tooling is on hand: 1″-20 UNEF
+(1″ major diameter, 20 tpi) is a good candidate for a ~1″ body. The
+thread depth is about 0.0325″, so the wall stays healthy. &lt;strong&gt;To confirm&lt;/strong&gt;
+against the taps, dies, and single-point inserts I actually own.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cut the male thread on the lathe&lt;/strong&gt; (single-point, with the lathe geared
+for 20 tpi) rather than with a die. A die on 1″ aluminum cuts a rough
+thread and leaves it off-center. Take light passes and use cutting fluid.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cut the ring&amp;rsquo;s female thread on the lathe too&lt;/strong&gt; (boring bar or internal
+threading insert), then &lt;strong&gt;fit it to the body&lt;/strong&gt; by sneaking up on the
+thread: stop when it runs freely with no radial shake.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Add relief&lt;/strong&gt; at the end of the thread, so the ring can run up against
+the shoulder without bottoming on a half-cut thread.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lock it:&lt;/strong&gt; a thin nylon washer or a small O-ring under the ring&amp;rsquo;s face,
+or a second lock ring, so it doesn&amp;rsquo;t back off. &lt;strong&gt;To confirm&lt;/strong&gt; which works.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Machining sequence&lt;span class="hx:absolute hx:-mt-20" id="machining-sequence"&gt;&lt;/span&gt;
+&lt;a href="#machining-sequence" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This is general machinist practice. I haven&amp;rsquo;t followed an opened reference
+for it (see &lt;a href="#sources"&gt;Sources&lt;/a&gt;), so treat it as a plan to be checked on
+scrap first.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lathe&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Cut bar stock (6061, about 1.25″ diameter, 5″ long) with about 1/2″ extra.&lt;/li&gt;
+&lt;li&gt;Chuck it, face the end, and &lt;strong&gt;drill and bore through&lt;/strong&gt; to the bore
+diameter. Bore first so the bore and the outside are concentric.&lt;/li&gt;
+&lt;li&gt;Put the body on a mandrel (or chuck on the bore) and turn the outside to
+OD, leaving a shoulder for the fixed hood.&lt;/li&gt;
+&lt;li&gt;Turn the thread relief, then &lt;strong&gt;single-point the male thread&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Part off. Flip, face to length.&lt;/li&gt;
+&lt;li&gt;Turn the &lt;strong&gt;threaded ring&lt;/strong&gt;: bore, internal thread, then knurl or a hex
+OD if I want grip.&lt;/li&gt;
+&lt;li&gt;Test-fit the ring on the body. Fit it before any other cuts.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Mill (if available)&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Cut the &lt;strong&gt;foot channel&lt;/strong&gt;: a flat-bottomed slot across the bed width, with
+a ball-end or corner radius to match the foot.&lt;/li&gt;
+&lt;li&gt;Open the &lt;strong&gt;underside window&lt;/strong&gt; so the reel foot can sit on the cane or
+bushing side.&lt;/li&gt;
+&lt;li&gt;Drill any &lt;strong&gt;vent or pin holes&lt;/strong&gt; (a small hole to relieve epoxy, and any
+set-screw I want).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;If I don&amp;rsquo;t have a mill:&lt;/strong&gt; cut the channel on the lathe with a slotting
+setup, or file it by hand with a jig. &lt;strong&gt;To confirm.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;Finishing&lt;span class="hx:absolute hx:-mt-20" id="finishing"&gt;&lt;/span&gt;
+&lt;a href="#finishing" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Option&lt;/th&gt;
+&lt;th&gt;Pros&lt;/th&gt;
+&lt;th&gt;Cons&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Hard-coat or color anodize (aluminum)&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Tough; many colors&lt;/td&gt;
+&lt;td&gt;Needs a vendor or a home kit; coat is thick, so the threads must be cut oversize/undersize to allow for it (&lt;strong&gt;to confirm&lt;/strong&gt; with the anodizer)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Bead-blast, then clear lacquer&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Easy; matte look&lt;/td&gt;
+&lt;td&gt;Wears at the thread&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Polish (brass)&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Classic on cane&lt;/td&gt;
+&lt;td&gt;Tarnishes; needs lacquer or regular wax&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Leave bare, clear-coat only on non-thread surfaces&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Works&lt;/td&gt;
+&lt;td&gt;Needs periodic cleaning&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Anodizing adds a few ten-thousandths per surface, so cut the threads and
+fit them &lt;strong&gt;before&lt;/strong&gt; anodizing, then re-check the fit. Masking the threads
+during anodizing is the usual alternative.&lt;/p&gt;
+&lt;h2&gt;Bushings and bonding to the blank&lt;span class="hx:absolute hx:-mt-20" id="bushings-and-bonding-to-the-blank"&gt;&lt;/span&gt;
+&lt;a href="#bushings-and-bonding-to-the-blank" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Fit the seat to the cane first, dry.&lt;/strong&gt; Slide the seat over the butt.
+It should go on freely at the corners with no rocking.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Make bushings&lt;/strong&gt; (two, one at each end of the seat): aluminum or brass
+rings, or turned from epoxy-filled phenolic, with a bore that matches the
+cane&amp;rsquo;s taper at that point and an OD that matches the seat bore. Where
+the bore is round and the blank is hex, either fill the gaps with
+thickened epoxy or turn tape-and-epoxy bushings in place.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mask&lt;/strong&gt; the cane above and below the bonding area, and the seat&amp;rsquo;s
+threads and channel, with painter&amp;rsquo;s tape.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Epoxy&lt;/strong&gt; with a slow-cure (30-minute or longer) 2-part epoxy. &lt;code&gt;equipment.md&lt;/code&gt; records a recommendation of 3M DP2216 for ferrule glue; I
+could use the same adhesive here (&lt;strong&gt;to confirm&lt;/strong&gt; it suits an aluminum-to-cane bond;
+the repo only recommends it for ferrules). Use a thin film, and keep it
+off the threads.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Align&lt;/strong&gt; the seat so the reel hangs on the same side as the guides, then
+hold it square with the blank for the cure. A tape alignment mark on the
+butt helps.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wipe&lt;/strong&gt; squeeze-out with denatured alcohol before it gels.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;The grip&lt;span class="hx:absolute hx:-mt-20" id="the-grip"&gt;&lt;/span&gt;
+&lt;a href="#the-grip" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Cork rings vs. shaped cork&lt;span class="hx:absolute hx:-mt-20" id="cork-rings-vs-shaped-cork"&gt;&lt;/span&gt;
+&lt;a href="#cork-rings-vs-shaped-cork" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Option&lt;/th&gt;
+&lt;th&gt;Pros&lt;/th&gt;
+&lt;th&gt;Cons&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Cork rings, glued up and turned&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Cheap; pick the best rings for the high-touch spots; any shape&lt;/td&gt;
+&lt;td&gt;Takes time; voids need filling&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Pre-shaped cork grip&lt;/strong&gt; (the Option B parts in the log: Fuji split fore/rear grips)&lt;/td&gt;
+&lt;td&gt;Ready to ream and glue&lt;/td&gt;
+&lt;td&gt;Limited shapes; sized for a particular seat&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;I&amp;rsquo;m using rings here since the machined seat doesn&amp;rsquo;t match a commercial grip.&lt;/p&gt;
+&lt;h3&gt;Ring dimensions and count&lt;span class="hx:absolute hx:-mt-20" id="ring-dimensions-and-count"&gt;&lt;/span&gt;
+&lt;a href="#ring-dimensions-and-count" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Standard ring: 1 1/4″ OD, 1/2″ thick, 1/4″ bore.&lt;/strong&gt; That&amp;rsquo;s the size
+Mud Hole&amp;rsquo;s overstock cork rings list (&lt;a href="https://mudhole.com/products/overstock-cork-rings-25-id"target="_blank" rel="noopener"&gt;page opened&lt;/a&gt;).
+Sizes and grades vary by maker; the &amp;ldquo;grade&amp;rdquo; label is a seller&amp;rsquo;s, not a
+standard.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rear grip: 7″ is the build log&amp;rsquo;s choice&lt;/strong&gt; for the Option B rear grip,
+about &lt;strong&gt;14 rings&lt;/strong&gt; at 1/2″. &lt;strong&gt;To confirm&lt;/strong&gt; for this rod (the handle is
+12″ total in Option A).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Foregrip: about 3.75″&lt;/strong&gt; (as in the log), about &lt;strong&gt;7-8 rings&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;A 1 1/4″ ring leaves about 0.125–0.25″ for shaping around a 1″ seat, so
+grips that are bigger than the seat are possible but not by much.
+Larger rings exist; &lt;strong&gt;to confirm&lt;/strong&gt; stock.&lt;/li&gt;
+&lt;li&gt;Buy a few extras and &lt;strong&gt;hand-pick&lt;/strong&gt;: put the best rings where the thumb and
+palm sit, and the worst at the ends where washers dent them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Glue-up&lt;span class="hx:absolute hx:-mt-20" id="glue-up"&gt;&lt;/span&gt;
+&lt;a href="#glue-up" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Bore each ring&lt;/strong&gt; to just under the blank (a tapered rattail file or
+reamer on a drill) and put them on a &lt;strong&gt;waxed mandrel&lt;/strong&gt; or threaded rod.
+Rings arrive with a 1/4″ bore; the cane is 0.28–0.33″ at the grip, so
+ring bores should be opened slightly.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Glue sparingly.&lt;/strong&gt; Enough that the inner surface just shines; excess
+glue forces epoxy onto the mandrel and the grip&amp;rsquo;s outside, and the grip
+can become nearly impossible to remove.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Press the stack&lt;/strong&gt;: washers and nuts on threaded rod, or the printable
+&lt;a href="https://www.extra-ransom.net/docs/rod-builds/printable-rod-tools/#cork-press"&gt;cork press&lt;/a&gt; from this
+site. Tighten until glue just oozes between the rings.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Put a low-grade ring at each end&lt;/strong&gt; to absorb the press marks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cure fully&lt;/strong&gt;, overnight and a bit more. Reaming too soon makes the
+grip come apart.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Turning and shaping&lt;span class="hx:absolute hx:-mt-20" id="turning-and-shaping"&gt;&lt;/span&gt;
+&lt;a href="#turning-and-shaping" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;On a &lt;strong&gt;lathe&lt;/strong&gt; or a drill with a support stand: true the stack to a cylinder
+with 60-grit on a flat board, then rough the profile, leaving a little
+extra, then work up through the grits. One builder ends at &lt;strong&gt;320 grit&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shaping without a lathe&lt;/strong&gt;: fold sandpaper into a firm corner and work
+wells into the spinning grip; a rasp for the first roughing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Calipers&lt;/strong&gt; at the high points; stop slightly above the final diameter.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dust:&lt;/strong&gt; cork dust is fine and gets everywhere. Work outdoors or with a
+shop vacuum at the grip.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fitting and fill&lt;span class="hx:absolute hx:-mt-20" id="fitting-and-fill"&gt;&lt;/span&gt;
+&lt;a href="#fitting-and-fill" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Remove the grip from the mandrel&lt;/strong&gt; by gripping it with both hands and
+striking the mandrel on a flat, solid surface.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ream&lt;/strong&gt; to the blank and &lt;strong&gt;test-fit&lt;/strong&gt;, then bond with epoxy, as with the
+seat. Put the rear grip on first against the seat&amp;rsquo;s rear edge and the
+foregrip against the fixed hood.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fill voids&lt;/strong&gt; after shaping and before the final sanding: a cork dust and
+epoxy (or wood-filler) paste, pushed in, left proud, sanded flush.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Burnish&lt;/strong&gt; with a hard smooth surface or a very fine paper (400-grit or
+finer) to close the surface. (General practice, not from a cited source.)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Winding check&lt;/strong&gt; (in the log&amp;rsquo;s Option B notes: for a roughly 7.3 mm
+blank): fit at the front of the foregrip, then wrap and finish.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Finish:&lt;/strong&gt; leave the cork bare or seal it lightly, per taste. &lt;strong&gt;To
+confirm.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Parts and materials&lt;span class="hx:absolute hx:-mt-20" id="parts-and-materials"&gt;&lt;/span&gt;
+&lt;a href="#parts-and-materials" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: right"&gt;Qty&lt;/th&gt;
+&lt;th&gt;Item&lt;/th&gt;
+&lt;th&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;1&lt;/td&gt;
+&lt;td&gt;6061-T6 aluminum round bar, about 1.25″ x 5″&lt;/td&gt;
+&lt;td&gt;For the body&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;1&lt;/td&gt;
+&lt;td&gt;Brass bar (360), about 1.25″ x 2″&lt;/td&gt;
+&lt;td&gt;For the threaded ring, optional&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;2&lt;/td&gt;
+&lt;td&gt;Bushings (aluminum, brass, or tape-and-epoxy)&lt;/td&gt;
+&lt;td&gt;Sized to the cane at the seat&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;20–25&lt;/td&gt;
+&lt;td&gt;Cork rings, 1 1/4″ x 1/2″ x 1/4″&lt;/td&gt;
+&lt;td&gt;Spare rings for matching and for voids&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;1&lt;/td&gt;
+&lt;td&gt;Waxed mandrel or threaded rod, about 5/16″&lt;/td&gt;
+&lt;td&gt;Matches the bore after reaming&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;1&lt;/td&gt;
+&lt;td&gt;Rattail file or tapered reamer&lt;/td&gt;
+&lt;td&gt;For opening the ring bores&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;—&lt;/td&gt;
+&lt;td&gt;Sandpaper, 60 to 320 grit, and a flat board&lt;/td&gt;
+&lt;td&gt;Hand shaping&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;—&lt;/td&gt;
+&lt;td&gt;2-part slow-cure epoxy&lt;/td&gt;
+&lt;td&gt;Seat bonding and grip bonding&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;—&lt;/td&gt;
+&lt;td&gt;Wood glue (Titebond II or similar)&lt;/td&gt;
+&lt;td&gt;Ring-to-ring&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;—&lt;/td&gt;
+&lt;td&gt;Painter&amp;rsquo;s tape, denatured alcohol, nylon washer or O-ring&lt;/td&gt;
+&lt;td&gt;Masking, cleanup, ring lock&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;—&lt;/td&gt;
+&lt;td&gt;Winding check&lt;/td&gt;
+&lt;td&gt;Per the log&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;—&lt;/td&gt;
+&lt;td&gt;Anodize or lacquer&lt;/td&gt;
+&lt;td&gt;Finish&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Tools:&lt;/strong&gt; lathe with single-point threading and a boring bar (&lt;strong&gt;to
+confirm I have this&lt;/strong&gt;), calipers, a thread gauge, optionally a mill, the
+printed cork press.&lt;/p&gt;
+&lt;h2&gt;Troubleshooting&lt;span class="hx:absolute hx:-mt-20" id="troubleshooting"&gt;&lt;/span&gt;
+&lt;a href="#troubleshooting" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Symptom&lt;/th&gt;
+&lt;th&gt;Likely cause&lt;/th&gt;
+&lt;th&gt;Fix&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Ring binds or won&amp;rsquo;t start on the body&lt;/td&gt;
+&lt;td&gt;Thread over-cut, or chips in the thread, or the anodize added thickness&lt;/td&gt;
+&lt;td&gt;Clean; re-chase; ease the thread after anodizing&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ring loosens when wet&lt;/td&gt;
+&lt;td&gt;No lock; thread too coarse for the load&lt;/td&gt;
+&lt;td&gt;Add an O-ring or nylon washer; add a lock ring&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Seat wobbles on the blank&lt;/td&gt;
+&lt;td&gt;Bushings oversize or too thin&lt;/td&gt;
+&lt;td&gt;Re-fit; thicken the epoxy; recheck alignment while curing&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Seat won&amp;rsquo;t slide on over the hex corners&lt;/td&gt;
+&lt;td&gt;Bore smaller than 0.325″ across corners&lt;/td&gt;
+&lt;td&gt;Bore to 0.340″+ or use bushings&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Grip glue line shows&lt;/td&gt;
+&lt;td&gt;Too much glue between the rings&lt;/td&gt;
+&lt;td&gt;Use less; sand back a little&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Grip cracks on reaming&lt;/td&gt;
+&lt;td&gt;Reamed before cure; too fast&lt;/td&gt;
+&lt;td&gt;Wait; ream in steps&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Voids in the finished cork&lt;/td&gt;
+&lt;td&gt;Poor rings&lt;/td&gt;
+&lt;td&gt;Fill and sand; move low-grade rings to the ends&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reel rattles in the seat&lt;/td&gt;
+&lt;td&gt;Channel too long or the hood too shallow&lt;/td&gt;
+&lt;td&gt;Shim with tape, or recut with a tighter channel&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Cork dust everywhere&lt;/td&gt;
+&lt;td&gt;Dry sanding&lt;/td&gt;
+&lt;td&gt;Outdoors or with a vacuum&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Safety&lt;span class="hx:absolute hx:-mt-20" id="safety"&gt;&lt;/span&gt;
+&lt;a href="#safety" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Lathe PPE:&lt;/strong&gt; safety glasses or face shield; no loose sleeves, gloves,
+or jewelry; long hair tied back; chuck key out before power on. Run the
+lathe at a sensible speed for the stock size, and stand out of the line of
+the chuck. Remove burrs and sharp edges before handling parts.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Threading:&lt;/strong&gt; cut aluminum with light passes and coolant; watch for
+stringy chips and don&amp;rsquo;t clear them by hand.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cork dust:&lt;/strong&gt; wear a dust mask (N95 or better) and use dust collection;
+work outdoors or with a shop vacuum.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Epoxy:&lt;/strong&gt; nitrile gloves and ventilation; solvents (alcohol) away from
+ignition sources; don&amp;rsquo;t use epoxy past its working time.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anodizing chemicals&lt;/strong&gt; (if home-done): acids, gloves, goggles, and
+disposal rules. &lt;strong&gt;To confirm&lt;/strong&gt; whether I&amp;rsquo;d do that or send it out.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Sources&lt;span class="hx:absolute hx:-mt-20" id="sources"&gt;&lt;/span&gt;
+&lt;a href="#sources" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I opened and read these for this page. They cover the &lt;strong&gt;grip&lt;/strong&gt; and the
+&lt;strong&gt;seat sizing&lt;/strong&gt;; I did not find an opened source for reel-seat thread
+specs or for turning a reel seat from bar stock, so those sections are my
+own plan.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://globalflyfisher.com/rod-building/making-grips-ii"target="_blank" rel="noopener"&gt;Global FlyFisher: Making Grips II&lt;/a&gt;
+(&lt;a href="https://web.archive.org/web/2024/https://globalflyfisher.com/rod-building/making-grips-ii"target="_blank" rel="noopener"&gt;archive&lt;/a&gt;):
+off-blank ring glue-up, mandrel sizing, Titebond, 60-grit to 320-grit
+turning, ring prices&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.in-fisherman.com/editorial/7-reminders-for-building-custom-cork-grips/154570"target="_blank" rel="noopener"&gt;In-Fisherman: 7 Reminders for Building Custom Cork Grips&lt;/a&gt;
+(&lt;a href="https://web.archive.org/web/2024/https://www.in-fisherman.com/editorial/7-reminders-for-building-custom-cork-grips/154570"target="_blank" rel="noopener"&gt;archive&lt;/a&gt;):
+waxing the mandrel, sparing glue, composite vs. standard cork, removing
+the grip&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mudhole.com/blogs/tips-tricks/4-steps-to-shape-custom-cork-grips"target="_blank" rel="noopener"&gt;Mud Hole: 4 Steps to Shape Custom Cork Grips&lt;/a&gt;
+(&lt;a href="https://web.archive.org/web/2024/https://mudhole.com/blogs/tips-tricks/4-steps-to-shape-custom-cork-grips"target="_blank" rel="noopener"&gt;archive&lt;/a&gt;):
+spinning-mandrel shaping, reaming, bonding with epoxy&lt;/li&gt;
+&lt;li&gt;Mud Hole product pages, for dimensions:
+&lt;a href="https://mudhole.com/products/fuji-vss-standard-versatile-spinning-reel-seat"target="_blank" rel="noopener"&gt;Fuji VSS Standard seat&lt;/a&gt;
+(&lt;a href="https://web.archive.org/web/2024/https://mudhole.com/products/fuji-vss-standard-versatile-spinning-reel-seat"target="_blank" rel="noopener"&gt;archive&lt;/a&gt;),
+&lt;a href="https://mudhole.com/products/overstock-cork-rings-25-id"target="_blank" rel="noopener"&gt;overstock cork rings&lt;/a&gt;
+(&lt;a href="https://web.archive.org/web/2024/https://mudhole.com/products/overstock-cork-rings-25-id"target="_blank" rel="noopener"&gt;archive&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Back to the &lt;a href="https://www.extra-ransom.net/docs/rod-builds/002-french-broad-spinning-rod/"&gt;Rod 002 build log&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>3D-Printed Rodmaking Tools</title><link>https://www.extra-ransom.net/docs/rod-builds/printable-rod-tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/rod-builds/printable-rod-tools/</guid><description>
 &lt;p&gt;Small shop tools for the bamboo build process. The blank-making tools tie to steps of the &lt;a href="https://www.extra-ransom.net/docs/morgan-hand-mill/"&gt;Morgan Hand Mill workflow&lt;/a&gt;; the grip, ferrule, and finishing tools serve the later stages the class notes stop short of. All are FDM-printable in PETG or PLA, generated parametrically, and validated watertight. STLs export in print orientation.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Parametric source:&lt;/strong&gt; &lt;a href="https://www.extra-ransom.net/static/rod-tools-3d/generate_rod_tools_stls.py"&gt;&lt;code&gt;generate_rod_tools_stls.py&lt;/code&gt;&lt;/a&gt; — edit the parameter block (indicator stem size, ferrule bore, PVC diameter) and re-run to fit your hardware.&lt;/p&gt;
 &lt;hr&gt;
