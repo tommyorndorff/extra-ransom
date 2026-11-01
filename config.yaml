@@ -26,6 +26,9 @@ menu:
     - name: Coffee Roasting
       url: /docs/coffee-roasting/
       weight: 30
+    - name: Hydroponics
+      url: /docs/hydroponics/
+      weight: 33
     - name: Fishing
       url: /docs/fishing/
       weight: 35
