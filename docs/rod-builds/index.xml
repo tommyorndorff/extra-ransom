@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>extra-ransom, super-chainsaw – Rod Builds</title><link>https://www.extra-ransom.net/docs/rod-builds/</link><description>Recent content in Rod Builds on extra-ransom, super-chainsaw</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 07 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.extra-ransom.net/docs/rod-builds/index.xml" rel="self" type="application/rss+xml"/><item><title>Rod 001: Sir D 7' 2pc 4wt</title><link>https://www.extra-ransom.net/docs/rod-builds/001-sir-d-taper/</link><pubDate>Wed, 07 Sep 2022 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/rod-builds/001-sir-d-taper/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>extra-ransom, super-chainsaw – Rod Builds</title><link>https://www.extra-ransom.net/docs/rod-builds/</link><description>Recent content in Rod Builds on extra-ransom, super-chainsaw</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 31 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://www.extra-ransom.net/docs/rod-builds/index.xml" rel="self" type="application/rss+xml"/><item><title>Rod 001: Sir D 7' 2pc 4wt</title><link>https://www.extra-ransom.net/docs/rod-builds/001-sir-d-taper/</link><pubDate>Wed, 07 Sep 2022 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/rod-builds/001-sir-d-taper/</guid><description>
 &lt;h1&gt;Morgan Hand Mill Settings&lt;/h1&gt;&lt;h2&gt;Cattanach 7ft 2pc 4wt&lt;span class="hx:absolute hx:-mt-20" id="cattanach-7ft-2pc-4wt"&gt;&lt;/span&gt;
 &lt;a href="#cattanach-7ft-2pc-4wt" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Wayne Cattanach&amp;rsquo;s 7ft 2pc 4wt.
 This rod was praised on the Rodmaker&amp;rsquo;s list
@@ -316,7 +316,921 @@ curve.&lt;/p&gt;
 &lt;td style="text-align: right"&gt;3&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>3D-Printed Rodmaking Tools</title><link>https://www.extra-ransom.net/docs/rod-builds/printable-rod-tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/rod-builds/printable-rod-tools/</guid><description>
+&lt;/table&gt;</description></item><item><title>Rod 002: 6'6" 1pc Light Spinning (French Broad)</title><link>https://www.extra-ransom.net/docs/rod-builds/002-french-broad-spinning-rod/</link><pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/rod-builds/002-french-broad-spinning-rod/</guid><description>
+&lt;p&gt;A one-piece split-cane &lt;strong&gt;spinning&lt;/strong&gt; rod for winter fishing on the French Broad
+around &lt;strong&gt;Hap Simpson Park in Brevard&lt;/strong&gt;, late November through December. It&amp;rsquo;s
+milled full-length on the Morgan Hand Mill&amp;rsquo;s extension bed. This is my first
+spinning rod, so the page also covers the spinning basics a fly-rod builder
+doesn&amp;rsquo;t already know: power classes, the reel seat, guides, the reel, and lures.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;The spec in one line:&lt;/strong&gt; 6'6&amp;quot;, one piece, hex, &lt;strong&gt;light power / moderate-fast
+action&lt;/strong&gt;, 4–6 lb line, lures &lt;strong&gt;1/16–1/4 oz&lt;/strong&gt; (designed around 1/8 oz),
+sliding-ring cork grip, a 1000-size reel.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Status:&lt;/strong&gt; design only. The taper below hasn&amp;rsquo;t been cut yet. Check it in
+Hexrod before planing (see &lt;a href="#taper"&gt;Taper&lt;/a&gt;).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;The water: French Broad at Hap Simpson, Nov–Dec&lt;span class="hx:absolute hx:-mt-20" id="the-water-french-broad-at-hap-simpson-novdec"&gt;&lt;/span&gt;
+&lt;a href="#the-water-french-broad-at-hap-simpson-novdec" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Where:&lt;/strong&gt; Hap Simpson Park is a City of Brevard river access with a boat
+ramp and picnic tables, at about &lt;strong&gt;mile 21.5&lt;/strong&gt; of the
+&lt;a href="https://frenchbroadpaddle.com/en/access-points"target="_blank" rel="noopener"&gt;French Broad Paddle Trail&lt;/a&gt;.
+It&amp;rsquo;s the take-out for the flat, calm ~10-mile float down from Island Ford.
+The Pisgah Forest access is about 5 miles downstream.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;What it&amp;rsquo;s like:&lt;/strong&gt; The mainstem here is slow, sandy, deep-bend water, not
+freestone pocket water. In winter, fish hold in the deep slow pools, on the
+outside bends, and around woody cover. Expect holdover stocked trout and
+resident browns, plus smallmouth, redbreast sunfish and rock bass, all
+sluggish in cold water.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Regulations (verify before fishing):&lt;/strong&gt; A third-party county guide lists
+the mainstem from the West/North Fork junction down to the US 276 bridge as
+&lt;strong&gt;Hatchery Supported&lt;/strong&gt; trout water. That reach should include Hap Simpson,
+but I haven&amp;rsquo;t confirmed it against the NCWRC rule text. Under Hatchery
+Supported rules: 7 trout/day, no minimum length, and &lt;strong&gt;no bait or lure
+restrictions&lt;/strong&gt;. You need an NC fishing license &lt;strong&gt;plus the trout privilege&lt;/strong&gt;
+on designated public mountain trout waters.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Best fishing nearby in this window:&lt;/strong&gt; The fresh fish are in the
+&lt;strong&gt;Delayed Harvest&lt;/strong&gt; waters. These are the East Fork French Broad (NCWRC
+scheduled its fall 2026 stocking for &lt;strong&gt;Nov 10&lt;/strong&gt; after warm water cancelled
+October) and DuPont&amp;rsquo;s Little River. DH runs &lt;strong&gt;catch-and-release,
+artificial lures with one single hook only&lt;/strong&gt;. Build the tackle box around
+single-hook lures and one kit covers both waters (see &lt;a href="#tackle"&gt;Tackle&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stocking caveat:&lt;/strong&gt; Bobby N. Setzer hatchery, right up the Davidson, closed
+in late 2025 for renovation, so NCWRC now stocks from Armstrong. Check the
+&lt;a href="https://www.ncwildlife.gov/delayed-harvest-schedule"target="_blank" rel="noopener"&gt;NCWRC stocking schedule&lt;/a&gt;
+instead of assuming past patterns.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flows:&lt;/strong&gt; &lt;a href="https://waterdata.usgs.gov/monitoring-location/03443000/"target="_blank" rel="noopener"&gt;USGS 03443000, French Broad at Blantyre&lt;/a&gt;
+is the closest mainstem gage below Brevard.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;a href="https://www.extra-ransom.net/docs/fishing/2026-brevard-dupont-highlands-dossier/"&gt;Brevard / DuPont / Highlands dossier&lt;/a&gt;
+has the rest of the region: shops, the DH calendar, and Helene access notes.&lt;/p&gt;
+&lt;h2&gt;Power class: ultralight vs. light&lt;span class="hx:absolute hx:-mt-20" id="power-class-ultralight-vs-light"&gt;&lt;/span&gt;
+&lt;a href="#power-class-ultralight-vs-light" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Spinning rods are rated by &lt;strong&gt;power&lt;/strong&gt; (how much force it takes to bend the
+rod; roughly, the line and lure weights it handles) and &lt;strong&gt;action&lt;/strong&gt; (where it
+bends: fast = mostly the tip, moderate = into the middle). This is the
+spinning equivalent of a fly rod&amp;rsquo;s line weight.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Class&lt;/th&gt;
+&lt;th&gt;Line&lt;/th&gt;
+&lt;th&gt;Lures&lt;/th&gt;
+&lt;th&gt;Good for&lt;/th&gt;
+&lt;th&gt;Here&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Ultralight (UL)&lt;/td&gt;
+&lt;td&gt;2–4 lb&lt;/td&gt;
+&lt;td&gt;1/32–1/8 oz&lt;/td&gt;
+&lt;td&gt;small creeks, small fish, short casts&lt;/td&gt;
+&lt;td&gt;Fits the East Fork and creeks. Underpowered for the mainstem&amp;rsquo;s width, current, and the odd big brown or smallmouth.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Light (L)&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;4–6 lb&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;1/16–1/4 oz&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;small rivers, stocked trout, bass&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Pick this.&lt;/strong&gt; It casts across the mainstem pools, handles a 1/4 oz spoon or jerkbait, and is still fun on a 10&amp;quot; stocker.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Medium-light (ML)&lt;/td&gt;
+&lt;td&gt;6–8 lb&lt;/td&gt;
+&lt;td&gt;1/8–3/8 oz&lt;/td&gt;
+&lt;td&gt;bigger rivers, bass-first fishing&lt;/td&gt;
+&lt;td&gt;Overgunned for winter&amp;rsquo;s small, slow lures.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Light wins&lt;/strong&gt; because this rod has to cover both the wide, slow mainstem and
+the small DH runs, and winter lures are small (1/16–1/8 oz) but sometimes need
+distance. A bamboo light rod still casts 1/16 oz well, because a cane rod&amp;rsquo;s own
+mass helps load it. Thomas &amp;amp; Thomas labeled their classic 5'6&amp;quot; spinner
+&amp;ldquo;ultralight,&amp;rdquo; and a builder who measured one rated it light-to-ultralight in
+the hand. That&amp;rsquo;s the feel I&amp;rsquo;m after here.&lt;/p&gt;
+&lt;h2&gt;Rod spec&lt;span class="hx:absolute hx:-mt-20" id="rod-spec"&gt;&lt;/span&gt;
+&lt;a href="#rod-spec" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;key&lt;/th&gt;
+&lt;th&gt;value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;geometry&lt;/td&gt;
+&lt;td&gt;hex (6)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;rod length&lt;/td&gt;
+&lt;td&gt;6 ft 6 in (78&amp;quot;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;pieces&lt;/td&gt;
+&lt;td&gt;1 (no ferrule)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;power / action&lt;/td&gt;
+&lt;td&gt;light / moderate-fast&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;line&lt;/td&gt;
+&lt;td&gt;4–6 lb mono&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;lure weight&lt;/td&gt;
+&lt;td&gt;1/16–1/4 oz (design point 1/8 oz)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tip&lt;/td&gt;
+&lt;td&gt;0.080&amp;quot; → tiptop tube &lt;strong&gt;6/64&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;butt (grip)&lt;/td&gt;
+&lt;td&gt;0.268–0.270&amp;quot;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;handle&lt;/td&gt;
+&lt;td&gt;12&amp;quot; full cork, two sliding rings&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;guides&lt;/td&gt;
+&lt;td&gt;6 single-foot + tiptop (16 mm stripper)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;strip length&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;89&amp;quot;&lt;/strong&gt; (78 + 4 tip + 5 butt + 2 hold-down)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Building it one piece&lt;span class="hx:absolute hx:-mt-20" id="building-it-one-piece"&gt;&lt;/span&gt;
+&lt;a href="#building-it-one-piece" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The Morgan Hand Mill&amp;rsquo;s &lt;strong&gt;extension bed&lt;/strong&gt; (a 36&amp;quot; bolt-on) handles one-piece rods
+up to about &lt;strong&gt;7'6&amp;quot;&lt;/strong&gt;, so a 6'6&amp;quot; rod fits with a foot to spare and &lt;strong&gt;doesn&amp;rsquo;t
+need a splice&lt;/strong&gt;. Per the &lt;a href="https://www.extra-ransom.net/docs/morgan-hand-mill-manual/"&gt;manual notes&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Each strip is cut on &lt;strong&gt;both finishing anvils, switching once&lt;/strong&gt;. The tip-to-butt
+anvil changeover lands between bed stations &lt;strong&gt;#7 and #8&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Mill-stop &lt;strong&gt;hole B&lt;/strong&gt; for rough and finish butt; &lt;strong&gt;hole A&lt;/strong&gt; for finish tip.&lt;/li&gt;
+&lt;li&gt;Strip length = rod + 4&amp;quot; tip + 5&amp;quot; butt + 2&amp;quot; hold-down = &lt;strong&gt;89&amp;quot;&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What changes compared with the 2-piece class build:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Culms.&lt;/strong&gt; The class method cuts culms into 5–6&amp;rsquo; sections. A one-piece needs
+&lt;strong&gt;~7'6&amp;quot;+ of clean culm&lt;/strong&gt; per strip. Take the strips from the lower 8&amp;rsquo; of a
+12&amp;rsquo; culm so the butt gets the dense power fibers. Expect 5–6 nodes per strip.
+Keep the 3×3 stagger, and keep nodes out of the top 6&amp;quot; (tiptop) and out of
+the reel-ring area.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Heat treating is the real constraint.&lt;/strong&gt; An 89&amp;quot; strip won&amp;rsquo;t fit a kitchen
+oven. Options, best first:
+&lt;ol&gt;
+&lt;li&gt;A &lt;strong&gt;long tube oven&lt;/strong&gt;: an 8&amp;rsquo; steel or aluminum tube, heat gun, and a
+thermometer at each end. Flip the strips end for end halfway through,
+same as the forced-air note in the class sheet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flame the culm&lt;/strong&gt; before splitting. This is period-correct: Paul Young&amp;rsquo;s
+1953 &lt;em&gt;Spin-Caster&lt;/em&gt; was &amp;ldquo;medium flamed.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Splice.&lt;/strong&gt; Scarf-join a butt strip and a tip strip with a long (3–4&amp;quot;)
+bevel. Stagger the six splices so no two land within ~6&amp;quot; of each other,
+and keep them out of the top 30&amp;quot; where the rod flexes most. This
+triples the glue-line risk, so use it only if 1 and 2 are out.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Handling.&lt;/strong&gt; A 7&amp;rsquo;+ strip whips around on the bench and in the binder. Support
+it on both ends while planing, and bind in one pass end to end.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hanging to dry and storage.&lt;/strong&gt; You need a clear 8&amp;rsquo; vertical drop to hang the
+blank. A finished rod in a 6'10&amp;quot; tube rides diagonally in most cars.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Taper&lt;span class="hx:absolute hx:-mt-20" id="taper"&gt;&lt;/span&gt;
+&lt;a href="#taper" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;No published taper matched the spec, so I designed this one from published
+bamboo spinning tapers on
+&lt;a href="https://www.bamboorodmaking.com/Tips-files/Rod_Selection-files/Spinning_Rods.html"target="_blank" rel="noopener"&gt;bamboorodmaking.com&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Richard Tyree&amp;rsquo;s &lt;strong&gt;6&amp;rsquo; (lures to 1/4 oz)&lt;/strong&gt;: the closest match, tip 0.079&lt;/li&gt;
+&lt;li&gt;the &lt;strong&gt;T&amp;amp;T Classic 5'6&amp;quot;&lt;/strong&gt; (2–4 lb, to 1/4 oz): tip 0.072&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Paul H. Young&amp;rsquo;s 6'4&amp;quot; Spin-Caster&lt;/strong&gt;: tip 0.096, a heavier tip&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;My taper scales Tyree&amp;rsquo;s rod to 78&amp;quot; with a nearly straight taper (the method
+most of those builders describe: ~0.014–0.016&amp;quot; per 5&amp;quot; station) and a flat,
+slightly thickened butt under the grip. A tip at 0.080 follows Ian Kearney&amp;rsquo;s
+advice that a light open-face rod &amp;ldquo;needs to come down to closer to .075.&amp;rdquo;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: right"&gt;Inches from tip&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Dimension (flats)&lt;/th&gt;
+&lt;th&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;−5&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.076&lt;/td&gt;
+&lt;td&gt;extension past the tiptop (cut off)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;0&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.080&lt;/td&gt;
+&lt;td&gt;tiptop&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;5&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.088&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;10&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.104&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;15&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.120&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;20&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.135&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;25&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.150&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;30&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.164&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;35&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.178&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;40&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.191&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;45&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.205&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;50&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.219&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;55&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.233&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;60&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.247&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;65&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.261&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;66&lt;/td&gt;
+&lt;td style="text-align: right"&gt;—&lt;/td&gt;
+&lt;td&gt;front of cork&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;70&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.268&lt;/td&gt;
+&lt;td&gt;under grip&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;75&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.270&lt;/td&gt;
+&lt;td&gt;under grip&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;78&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.270&lt;/td&gt;
+&lt;td&gt;butt&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;80–85&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.270&lt;/td&gt;
+&lt;td&gt;extension (cut off)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Sanity check, not a substitute for Hexrod.&lt;/strong&gt; I ran a rough static-stress
+comparison: a point lure load at the tip plus the cane&amp;rsquo;s own weight,
+stress = M / (0.1203·d³). At &lt;strong&gt;1/8 oz&lt;/strong&gt; this taper&amp;rsquo;s stress curve is
+&lt;strong&gt;flat from 15&amp;quot; to the grip&lt;/strong&gt; and sits at the same level as Tyree&amp;rsquo;s proven
+6&amp;rsquo; rod, with a slightly protected tip.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;At &lt;strong&gt;1/4 oz&lt;/strong&gt; the load moves toward the tip.&lt;/li&gt;
+&lt;li&gt;At &lt;strong&gt;1/16 oz&lt;/strong&gt; the rod&amp;rsquo;s own weight dominates and the butt does more of
+the work.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&amp;rsquo;s the moderate-fast behavior I want, centered on 1/8 oz. &lt;strong&gt;Before
+cutting, run it through &lt;a href="https://www.hexrod.net/Hexrod_doc/hexrod-doc.html"target="_blank" rel="noopener"&gt;Hexrod&lt;/a&gt;&lt;/strong&gt;
+(it models casting load and gives stress at each 5&amp;quot; station) and compare it
+against Tyree&amp;rsquo;s 6'.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Morgan Hand Mill settings&lt;span class="hx:absolute hx:-mt-20" id="morgan-hand-mill-settings"&gt;&lt;/span&gt;
+&lt;a href="#morgan-hand-mill-settings" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Oversize columns follow the class sheet: rough &lt;strong&gt;+0.070&lt;/strong&gt;, Hand Mill
+&lt;strong&gt;+0.030&lt;/strong&gt;, finish &lt;strong&gt;+0.003&lt;/strong&gt; (all per strip, i.e. added to the half
+dimension). &lt;strong&gt;Bed rise&lt;/strong&gt; is the cumulative raise from the thickest station in
+each half, the same convention as &lt;a href="https://www.extra-ransom.net/docs/rod-builds/001-sir-d-taper/"&gt;Rod 001&lt;/a&gt;.
+The largest change between adjacent stations is 0.008&amp;quot;, well under the bed&amp;rsquo;s
+0.020&amp;quot; limit.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;TODO before setting the bed:&lt;/strong&gt; map these 5&amp;quot; positions onto the
+extension-bed station numbers from the manual&amp;rsquo;s extension-bed chapter. The
+tip/butt switch lands between #7 and #8. My notes don&amp;rsquo;t record the
+extension stations&amp;rsquo; numbering, so the station column is left blank on
+purpose.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Tip anvil: −5 to 45 in&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: right"&gt;Inches&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Rod Dim&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Half Dim&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Rougher Oversize&lt;/th&gt;
+&lt;th style="text-align: right"&gt;MHM Oversize&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Finish Oversize&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Bed rise&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Station&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;−5&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.076&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0380&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1080&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0680&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0410&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0645&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;0&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.080&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0400&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1100&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0700&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0430&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0625&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;5&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.088&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0440&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1140&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0740&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0470&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0585&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;10&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.104&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0520&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1220&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0820&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0550&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0505&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;15&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.120&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0600&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1300&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0900&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0630&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0425&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;20&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.135&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0675&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1375&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0975&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0705&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0350&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;25&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.150&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0750&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1450&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1050&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0780&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0275&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;30&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.164&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0820&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1520&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1120&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0850&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0205&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;35&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.178&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0890&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1590&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1190&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0920&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0135&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;40&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.191&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0955&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1655&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1255&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0985&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0070&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;45&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.205&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1025&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1725&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1325&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1055&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0000&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Butt anvil: 35 to 85 in&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: right"&gt;Inches&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Rod Dim&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Half Dim&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Rougher Oversize&lt;/th&gt;
+&lt;th style="text-align: right"&gt;MHM Oversize&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Finish Oversize&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Bed rise&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Station&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;35&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.178&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0890&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1590&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1190&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0920&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0460&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;40&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.191&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0955&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1655&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1255&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0985&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0395&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;45&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.205&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1025&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1725&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1325&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1055&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0325&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;50&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.219&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1095&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1795&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1395&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1125&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0255&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;55&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.233&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1165&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1865&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1465&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1195&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0185&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;60&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.247&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1235&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1935&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1535&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1265&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0115&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;65&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.261&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1305&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.2005&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1605&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1335&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0045&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;70&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.268&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1340&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.2040&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1640&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1370&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0010&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;75&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.270&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1350&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.2050&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1650&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1380&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0000&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;80&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.270&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1350&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.2050&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1650&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1380&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0000&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;85&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.270&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1350&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.2050&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1650&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1380&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0000&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Handle and reel seat&lt;span class="hx:absolute hx:-mt-20" id="handle-and-reel-seat"&gt;&lt;/span&gt;
+&lt;a href="#handle-and-reel-seat" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The big difference from a fly rod is that &lt;strong&gt;the reel sits partway up the
+handle, not at the butt&lt;/strong&gt;, and it &lt;strong&gt;hangs below the rod on a stem&lt;/strong&gt;. Your
+casting hand wraps the seat with the reel stem between two fingers. The rear
+grip runs back along your forearm, and your index finger reaches the spool to
+feather the line. There&amp;rsquo;s no line hand: the reel does all the line handling.&lt;/p&gt;
+&lt;h3&gt;Option A (recommended): full cork with sliding rings&lt;span class="hx:absolute hx:-mt-20" id="option-a-recommended-full-cork-with-sliding-rings"&gt;&lt;/span&gt;
+&lt;a href="#option-a-recommended-full-cork-with-sliding-rings" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The classic bamboo spinning handle (T&amp;amp;T, Paul Young, and the Montague-derived
+6&amp;rsquo; on bamboorodmaking all use it). It&amp;rsquo;s just a fly-rod cork grip with no seat
+hardware. The reel foot sits on the cork and two metal rings slide over its
+ends.&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt; tip butt
+---------&amp;#43;-&amp;#43;------------&amp;#43;------&amp;#43;-------------&amp;#43;------&amp;#43;------------&amp;#43;---&amp;#43;
+blank | | cork | ring | reel foot | ring | cork |cap|
+---------&amp;#43; | | | | | | |
+&amp;#43;-&amp;#43;------------&amp;#43;------&amp;#43;----&amp;#43;---&amp;#43;----&amp;#43;------&amp;#43;------------&amp;#43;---&amp;#43;
+winding | | stem
+check .--&amp;#43;---&amp;#43;--.
+| reel |
+&amp;#39;---------&amp;#39;
+|&amp;lt;-------------------------- 12&amp;#34; cork ------------------------&amp;gt;|
+|&amp;lt;------- ~3.5&amp;#34; ----------&amp;gt;|&amp;lt;------------ ~8.5&amp;#34; ---------------&amp;gt;|
+66&amp;#34; from tip reel-foot center 78&amp;#34; butt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;12&amp;quot; Portuguese cork&lt;/strong&gt; (78&amp;quot; − 12&amp;quot; = cork starts at 66&amp;quot;). Shape it as one
+long cigar or a straight full-wells with a slight swell under the reel.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rings:&lt;/strong&gt; 2 nickel-silver or aluminum sliding rings sized to the cork&amp;rsquo;s
+diameter at the reel position, about 7/8–1&amp;quot;. Lap the reel foot on the cork
+first; the rings should press it down snugly, not just touch.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reel position:&lt;/strong&gt; about &lt;strong&gt;8.5&amp;quot; from the butt end to the center of the reel
+foot&lt;/strong&gt;, then fine-tune by balance and forearm length. Hold it the way you&amp;rsquo;d
+fish it: the butt end should just reach the inside of your forearm.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tradeoff:&lt;/strong&gt; the lightest, cleanest, and most period-correct option, but
+rings can creep when it&amp;rsquo;s cold and wet. The fix is a strip of electrical
+tape under the foot or a slight taper in the cork so the rings jam.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Option B: skeleton seat (modern, locks solid)&lt;span class="hx:absolute hx:-mt-20" id="option-b-skeleton-seat-modern-locks-solid"&gt;&lt;/span&gt;
+&lt;a href="#option-b-skeleton-seat-modern-locks-solid" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A graphite skeleton seat (Fuji and ALPS make spinning versions in 16–18 mm)
+with split fore and rear grips. It&amp;rsquo;s mounted on a built-up arbor over the hex
+(masking tape or cork rings shaped round, epoxied).&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt; tip butt
+---------&amp;#43;-&amp;#43;----------&amp;#43;---------------------&amp;#43;--------------------&amp;#43;---&amp;#43;
+| | fore | hood reel hood | rear grip |cap|
+---------&amp;#43; | grip | [=== foot ===] nut| (cork/EVA) | |
+&amp;#43;-&amp;#43;----------&amp;#43;---------&amp;#43;--&amp;#43;--------&amp;#43;--------------------&amp;#43;---&amp;#43;
+| | stem
+.--&amp;#43;--&amp;#43;--.
+| reel |
+&amp;#39;--------&amp;#39;
+|&amp;lt;-- 2.5&amp;#34; --&amp;gt;|&amp;lt;----- 3.5&amp;#34; -----&amp;gt;|&amp;lt;------- 6.5&amp;#34; -------&amp;gt;|&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed hood on one end, threaded hood plus lock nut on the other. Either
+direction works. Pick whichever puts the threads where your fingers don&amp;rsquo;t
+sit.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tradeoff:&lt;/strong&gt; the reel never moves, but you&amp;rsquo;ll have to make an arbor and it
+looks modern on cane.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Fly vs. spin at a glance&lt;span class="hx:absolute hx:-mt-20" id="fly-vs-spin-at-a-glance"&gt;&lt;/span&gt;
+&lt;a href="#fly-vs-spin-at-a-glance" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;Fly rod&lt;/th&gt;
+&lt;th&gt;Spinning rod&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Reel position&lt;/td&gt;
+&lt;td&gt;at the butt, below the grip&lt;/td&gt;
+&lt;td&gt;8–9&amp;quot; up from the butt, mid-handle&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reel orientation&lt;/td&gt;
+&lt;td&gt;hangs below&lt;/td&gt;
+&lt;td&gt;hangs below on a stem&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;What carries the cast&lt;/td&gt;
+&lt;td&gt;the line&amp;rsquo;s weight&lt;/td&gt;
+&lt;td&gt;the lure&amp;rsquo;s weight&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Line control&lt;/td&gt;
+&lt;td&gt;line hand strips line&lt;/td&gt;
+&lt;td&gt;index finger on the spool, then turn the handle&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Guides&lt;/td&gt;
+&lt;td&gt;small snakes, small stripper&lt;/td&gt;
+&lt;td&gt;fewer, &lt;strong&gt;larger&lt;/strong&gt; single-foot guides; big stripper ring&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Handed-ness&lt;/td&gt;
+&lt;td&gt;usually reel with the off hand&lt;/td&gt;
+&lt;td&gt;same: cast right, crank left (most reels swap sides)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Guides and tiptop&lt;span class="hx:absolute hx:-mt-20" id="guides-and-tiptop"&gt;&lt;/span&gt;
+&lt;a href="#guides-and-tiptop" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Line comes off a spinning spool in big coils, so the first guide (the
+&lt;strong&gt;stripper&lt;/strong&gt;) is large and sits high. The rest step down to choke the coils
+into a straight line. Use light single-foot guides to keep weight off the
+cane tip. A rule of thumb from the bamboorodmaking page is one guide per foot
+of rod, plus one.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: right"&gt;Position (from tip)&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Ring size&lt;/th&gt;
+&lt;th&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;0&amp;quot;&lt;/td&gt;
+&lt;td style="text-align: right"&gt;6 mm ring, &lt;strong&gt;6/64 tube&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;across-corners at the tip ≈ 0.092&amp;quot;, so 6/64 (0.094&amp;quot;) fits&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;5&amp;quot;&lt;/td&gt;
+&lt;td style="text-align: right"&gt;6 mm&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;11&amp;quot;&lt;/td&gt;
+&lt;td style="text-align: right"&gt;6 mm&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;18&amp;quot;&lt;/td&gt;
+&lt;td style="text-align: right"&gt;7 mm&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;26&amp;quot;&lt;/td&gt;
+&lt;td style="text-align: right"&gt;8 mm&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;35.5&amp;quot;&lt;/td&gt;
+&lt;td style="text-align: right"&gt;10 mm&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;47&amp;quot;&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;strong&gt;16 mm&lt;/strong&gt;, high frame&lt;/td&gt;
+&lt;td&gt;stripper, about 22&amp;quot; ahead of the reel foot&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;These are starting positions.&lt;/strong&gt; Tape the guides on, mount the reel, and run
+the line through. Then do a &lt;strong&gt;static load test&lt;/strong&gt;: tie the line off and bend the
+rod to about 90°, then move guides until the line follows the blank&amp;rsquo;s curve
+without touching it. Then cast with tape before wrapping. Wrap with fine
+thread, same as a fly rod; spinning guides don&amp;rsquo;t need special wrapping.&lt;/p&gt;
+&lt;h2&gt;Reel&lt;span class="hx:absolute hx:-mt-20" id="reel"&gt;&lt;/span&gt;
+&lt;a href="#reel" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;You want a &lt;strong&gt;1000-size spinning reel&lt;/strong&gt; (Shimano 1000 / Daiwa LT 1000–2000)
+that&amp;rsquo;s light (≈5.5–6.5 oz) and holds ~100+ yd of 4–6 lb mono. A heavier reel will
+make a 6'6&amp;quot; cane rod feel butt-heavy.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Modern pick: &lt;a href="https://www.tackledirect.com/shimano-st1000hgfm-stradic-fm-spinning-reel.html"target="_blank" rel="noopener"&gt;Shimano Stradic FM 1000HG&lt;/a&gt;&lt;/strong&gt;
+(SKU ST1000HGFM): ~185 g / 6.5 oz, 6.0:1 gear, 3 kg drag. It&amp;rsquo;s the trout
+standard: smooth, durable, and easy to get serviced. &lt;em&gt;FM&lt;/em&gt; is the current
+generation (the earlier one was &lt;em&gt;FL&lt;/em&gt;), and &lt;em&gt;HG&lt;/em&gt; means &amp;ldquo;high gear.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Co-pick: &lt;a href="https://fieldandstream.com/outdoor-gear/fishing-gear/fishing-reels/best-trout-spinning-reels"target="_blank" rel="noopener"&gt;Daiwa Ballistic MQ LT 1000&lt;/a&gt;&lt;/strong&gt;:
+6.2 oz on Field &amp;amp; Stream&amp;rsquo;s 2026 test scale. It&amp;rsquo;s the equal of the Stradic,
+so buy whichever is cheaper when you&amp;rsquo;re ready.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Shop by spec, not by name:&lt;/strong&gt; 5.5–6.5 oz, 1000 size, aluminum spool, a
+drag that&amp;rsquo;s smooth at low settings (you&amp;rsquo;ll be running about 2 lb), and a
+handle that swaps sides. Published weights vary by source and model year,
+so confirm on the maker&amp;rsquo;s spec sheet. If you can, mount the reel on a rod
+in a shop to feel the balance.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Period-correct on cane:&lt;/strong&gt; a vintage &lt;strong&gt;Mitchell 308&lt;/strong&gt; ultralight (the
+&lt;strong&gt;408&lt;/strong&gt; is its faster-geared sibling: blue, with a screw-in handle). Check
+which side the handle cranks on any one you buy, because the vintage models
+vary. Look for a serviced one, because drags and bail springs on
+50-year-old reels are the weak point.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Spinning basics for a fly angler:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Spool it right.&lt;/strong&gt; Line comes off the filler spool the same direction it
+goes onto the reel, or you&amp;rsquo;ll fight twist all day. Fill to about 1/8&amp;quot; below
+the spool lip.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Set the drag&lt;/strong&gt; to about 1/3 of the line test. With 6 lb line, the drag
+should slip at a ~2 lb pull on a scale.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Casting:&lt;/strong&gt; pin the line on your index finger, open the bail, cast, and
+lift your finger to release. Touch the spool rim to feather or stop the
+lure. &lt;strong&gt;Close the bail by hand&lt;/strong&gt;, not with the crank; that&amp;rsquo;s what stops line
+twist and loops.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spinners twist line.&lt;/strong&gt; Run a small ball-bearing swivel 18&amp;quot; ahead of any
+inline spinner.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Tackle&lt;span class="hx:absolute hx:-mt-20" id="tackle"&gt;&lt;/span&gt;
+&lt;a href="#tackle" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Everything below is &lt;strong&gt;single-hook or easy to convert&lt;/strong&gt;, so the same box works
+on Hatchery Supported water (anything goes) and on the East Fork DH (one
+single hook, no bait). For DH, swap trebles for single siwash hooks with split
+rings and pliers, and take the second hook off a jerkbait.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Line:&lt;/strong&gt; &lt;strong&gt;6 lb mono&lt;/strong&gt; for the mainstem; 4 lb is optional on the small DH
+runs. Mono is better than braid in December, because braid holds water and
+ices in the guides on freezing mornings. A 3&amp;rsquo; 6 lb fluorocarbon leader is
+optional in gin-clear water.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Lure&lt;/th&gt;
+&lt;th&gt;Size&lt;/th&gt;
+&lt;th&gt;How to fish it in winter&lt;/th&gt;
+&lt;th&gt;DH-legal?&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Marabou or hair jig (black/olive, white)&lt;/td&gt;
+&lt;td&gt;1/32–1/16 oz&lt;/td&gt;
+&lt;td&gt;Dead-drift or swim slowly along the bottom of deep pools. The top pick for cold water.&lt;/td&gt;
+&lt;td&gt;✅ single hook&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Trout Magnet–style micro plastic on a 1/64 oz head&lt;/td&gt;
+&lt;td&gt;1/64 oz&lt;/td&gt;
+&lt;td&gt;Under a small float through the slow pools. Deadly on stockers.&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&amp;quot; curly-tail grub / small Ned rig&lt;/td&gt;
+&lt;td&gt;1/16 oz head&lt;/td&gt;
+&lt;td&gt;Hop it slowly for winter smallmouth on the mainstem&amp;rsquo;s deep bends.&lt;/td&gt;
+&lt;td&gt;✅&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Inline spinner (Panther Martin, Mepps #0–1, Rooster Tail)&lt;/td&gt;
+&lt;td&gt;1/16–1/8 oz&lt;/td&gt;
+&lt;td&gt;Retrieve slowly, just fast enough to turn the blade. Swap to a single hook for DH.&lt;/td&gt;
+&lt;td&gt;🔧 convert&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Spoon (Kastmaster, Phoebe)&lt;/td&gt;
+&lt;td&gt;1/12–1/8 oz&lt;/td&gt;
+&lt;td&gt;Count it down, then flutter it back slowly. Good for long casts across the mainstem.&lt;/td&gt;
+&lt;td&gt;🔧 convert&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Small floating or suspending minnow (Rapala F3/F5, CD3)&lt;/td&gt;
+&lt;td&gt;~1/8 oz&lt;/td&gt;
+&lt;td&gt;Twitch and pause. Big browns and smallmouth will hit it.&lt;/td&gt;
+&lt;td&gt;🔧 one single hook&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nightcrawler on #8 hook + split shot&lt;/td&gt;
+&lt;td&gt;—&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Hatchery Supported water only&lt;/strong&gt; (bait banned on DH)&lt;/td&gt;
+&lt;td&gt;❌&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Terminal kit:&lt;/strong&gt; small ball-bearing swivels, round split shot (BB–#4),
+1/2&amp;quot; float, #8 and #10 single hooks, single siwash hooks for conversions, a
+split-ring tool, forceps, a rubber-mesh net, and a small Plano box.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How to fish it:&lt;/strong&gt; fish &lt;strong&gt;11 a.m.–3 p.m.&lt;/strong&gt;, when the water is warmest. Fish
+slow and deep, close to the bottom of the deepest slow pools and the outside
+bends. Do several casts per spot before moving. Browns are spawning or just
+finished, so &lt;strong&gt;stay off redds&lt;/strong&gt;: the clean, light-colored gravel patches.&lt;/p&gt;
+&lt;h2&gt;Build checklist&lt;span class="hx:absolute hx:-mt-20" id="build-checklist"&gt;&lt;/span&gt;
+&lt;a href="#build-checklist" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;Run the taper in Hexrod and compare it against Tyree&amp;rsquo;s 6&amp;rsquo;. Adjust before
+cutting.&lt;/li&gt;
+&lt;li&gt;Map the 5&amp;quot; positions to extension-bed station numbers (TODO above).&lt;/li&gt;
+&lt;li&gt;Solve heat treating for 89&amp;quot; strips: tube oven, flamed culm, or splice.&lt;/li&gt;
+&lt;li&gt;Select 12&amp;rsquo; culms, take strips from the lower 8&amp;rsquo;, and stagger nodes 3×3.&lt;/li&gt;
+&lt;li&gt;Rough → heat-treat → finish (both anvils, switching once) → dry bind →
+glue.&lt;/li&gt;
+&lt;li&gt;Shape the 12&amp;quot; cork; fit the reel foot and rings at about 8.5&amp;quot; from the butt.&lt;/li&gt;
+&lt;li&gt;Tape the guides and do the static load test, then a casting test. Then wrap
+and finish.&lt;/li&gt;
+&lt;li&gt;Buy the reel and line, then build the tackle box above.&lt;/li&gt;
+&lt;li&gt;Before the first trip, confirm the Hap Simpson reach&amp;rsquo;s designation, the
+NCWRC stocking schedule, and USGS flows.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Sources&lt;span class="hx:absolute hx:-mt-20" id="sources"&gt;&lt;/span&gt;
+&lt;a href="#sources" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.bamboorodmaking.com/Tips-files/Rod_Selection-files/Spinning_Rods.html"target="_blank" rel="noopener"&gt;BambooRodmaking: spinning rod tapers&lt;/a&gt;:
+Tyree, T&amp;amp;T, P.H. Young, Bernard Hills, Montague-derived tapers, guide spacing&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://bamboorodmaking.com/Tips-files/Rod_Design-files/One_Piece_Rods.html"target="_blank" rel="noopener"&gt;BambooRodmaking: one-piece rods&lt;/a&gt;:
+converting 2-piece tapers to one piece&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.hexrod.net/Hexrod_doc/hexrod-doc.html"target="_blank" rel="noopener"&gt;Hexrod technical documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://frenchbroadpaddle.com/en/access-points"target="_blank" rel="noopener"&gt;French Broad Paddle Trail access points&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.theswimguide.org/beach/6377"target="_blank" rel="noopener"&gt;Swim Guide: French Broad at Hap Simpson Park&lt;/a&gt;: park
+facilities&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.flyfishingnc.com/transylvania-county-nc-trout-streams"target="_blank" rel="noopener"&gt;Fly Fishing NC: Transylvania County trout streams&lt;/a&gt;:
+mainstem Hatchery Supported reach (third-party; verify)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.ncwildlife.gov/delayed-harvest-schedule"target="_blank" rel="noopener"&gt;NCWRC Delayed Harvest stocking schedule&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.ncwildlife.gov/news/press-releases/2025/09/05/delayed-harvest-trout-season-begins-oct-1"target="_blank" rel="noopener"&gt;NCWRC 2025 DH season press release&lt;/a&gt;:
+single-hook artificial rule&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://waterdata.usgs.gov/monitoring-location/03443000/"target="_blank" rel="noopener"&gt;USGS 03443000 French Broad River at Blantyre&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://fieldandstream.com/outdoor-gear/fishing-gear/fishing-reels/best-trout-spinning-reels"target="_blank" rel="noopener"&gt;Field &amp;amp; Stream: best trout spinning reels (2026)&lt;/a&gt;:
+Ballistic MQ LT 1000 tested weight&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.tackledirect.com/shimano-st1000hgfm-stradic-fm-spinning-reel.html"target="_blank" rel="noopener"&gt;TackleDirect: Stradic FM ST1000HGFM&lt;/a&gt;:
+Stradic specs&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>3D-Printed Rodmaking Tools</title><link>https://www.extra-ransom.net/docs/rod-builds/printable-rod-tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.extra-ransom.net/docs/rod-builds/printable-rod-tools/</guid><description>
 &lt;p&gt;Small shop tools for the bamboo build process. The blank-making tools tie to steps of the &lt;a href="https://www.extra-ransom.net/docs/morgan-hand-mill/"&gt;Morgan Hand Mill workflow&lt;/a&gt;; the grip, ferrule, and finishing tools serve the later stages the class notes stop short of. All are FDM-printable in PETG or PLA, generated parametrically, and validated watertight. STLs export in print orientation.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Parametric source:&lt;/strong&gt; &lt;a href="https://www.extra-ransom.net/static/rod-tools-3d/generate_rod_tools_stls.py"&gt;&lt;code&gt;generate_rod_tools_stls.py&lt;/code&gt;&lt;/a&gt; — edit the parameter block (indicator stem size, ferrule bore, PVC diameter) and re-run to fit your hardware.&lt;/p&gt;
 &lt;hr&gt;
