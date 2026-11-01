@@ -123,7 +123,7 @@ window.SAL = (function () {
       id_notes: "Wedge-shaped, flattened head; small eyes; venter pale. Vomerine teeth present in both sexes, unlike <i>D. aureatus</i>.",
       tax: "Split from <i>D. marmoratus</i> by Pyron & Beamer (2023); <i>D. melanius</i> Martof, 1956 is a synonym. The shovel-nosed form evolved twice in <i>Desmognathus</i>, once in the Pisgah clade (<i>intermedius</i>) and once in the Nantahala clade (<i>aureatus</i>).",
       formerly: "D. marmoratus; Leurognathus",
-      ranges: { smokies: 2, unicoi: 2, nantahala: 2, balsams: 2, escarpment: 1, bald: 1 }
+      photo: "inat-intermedius", ranges: { smokies: 2, unicoi: 2, nantahala: 2, balsams: 2, escarpment: 1, bald: 1 }
     },
     {
       id: "marmoratus", family: "plethodontidae", sci: "Desmognathus marmoratus", auth: "(Moore, 1899)",
@@ -132,7 +132,7 @@ window.SAL = (function () {
       microhabitat: "Fully aquatic in riffles of clear, rocky streams.",
       size: "SVL about 30–75 mm.",
       repro: "Aquatic larvae; a clutch has been recorded on 6 August.",
-      id_notes: "Shorter head than the other two shovel-nosed species. The lectotype is from Grandfather Mountain, near Blowing Rock.",
+      id_notes: "Shorter head than the other two shovel-nosed species. Type locality: a rocky pool on the south flank of Grandfather Mountain, Avery County, at about 1,070 m (3,500 ft).",
       tax: "Restricted sense after Pyron & Beamer (2023).",
       formerly: "Leurognathus marmoratus",
       photo: "shovel-nosed", ranges: { hng: 1, black: 2, roan: 2, grandfather: 2, foothills: 1 }
@@ -147,7 +147,7 @@ window.SAL = (function () {
       id_notes: "Large, robust, with a black venter and two rows of pale spots on the sides. Separating it from the other black-bellied species usually takes mtDNA.",
       tax: "Resurrected by Pyron & Beamer (2022). The familiar name <i>D. quadramaculatus</i> turned out to be a junior synonym of <i>D. fuscus</i>, and the black-bellied concept dissolved into several species in two distantly related clades.",
       formerly: "D. quadramaculatus",
-      ranges: { unicoi: 2, nantahala: 2, balsams: 1, escarpment: 2 }
+      photo: "inat-amphileucus", ranges: { unicoi: 2, nantahala: 2, balsams: 1, escarpment: 2 }
     },
     {
       id: "gvnigeusgwotli", family: "plethodontidae", sci: "Desmognathus gvnigeusgwotli", auth: "Pyron & Beamer, 2022",
@@ -169,8 +169,9 @@ window.SAL = (function () {
       size: "About 10–18 cm TL.",
       repro: "Aquatic larvae with a multi-year larval period.",
       id_notes: "Black-bellied habitus. The epithet is Greek for &ldquo;black belly.&rdquo;",
+      notes: "Type locality: Dixon Creek on the south slope of Grandfather Mountain, Caldwell County.",
       formerly: "D. quadramaculatus",
-      ranges: { smokies: 1, balsams: 2, escarpment: 1, bald: 2, black: 2, roan: 2, grandfather: 2, newriver: 1 }
+      photo: "inat-mavrokoilius", ranges: { smokies: 1, balsams: 2, escarpment: 1, bald: 2, black: 2, roan: 2, grandfather: 2, newriver: 1 }
     },
     {
       id: "folkertsi", family: "plethodontidae", sci: "Desmognathus folkertsi", auth: "Camp, Tilley, Austin & Marshall, 2002",
@@ -181,7 +182,7 @@ window.SAL = (function () {
       repro: "Aquatic larvae.",
       id_notes: "A small black-bellied form; sister to <i>D. aureatus</i> in the Nantahala clade.",
       nc: "SC", grank: "G2G3", srank: "S1", iucn: "LC (2023)",
-      ranges: { nantahala: 1 }
+      photo: "inat-folkertsi", ranges: { nantahala: 1 }
     },
     /* ---------- Desmognathus, banks and seeps ---------- */
     {
@@ -206,7 +207,7 @@ window.SAL = (function () {
       tax: "Corresponds to Tilley et al.'s (2013) &ldquo;Lemon Gap&rdquo; form, previously treated within <i>D. conanti</i>.",
       formerly: "D. conanti",
       watch: true, grank: "G2", srank: "S1S2", statusNote: "NCNHP Significantly Rare; no legal status.",
-      ranges: { smokies: 1, bald: 2 }
+      photo: "inat-tilleyi", ranges: { smokies: 1, bald: 2 }
     },
     {
       id: "campi", family: "plethodontidae", sci: "Desmognathus campi", auth: "Pyron & Beamer, 2023",
@@ -219,7 +220,7 @@ window.SAL = (function () {
       tax: "WNC populations are a sublineage possibly of hybrid origin (Pyron & Beamer 2023).",
       formerly: "D. conanti / D. fuscus",
       watch: true, grank: "G3", srank: "S1S2", statusNote: "NCNHP Significantly Rare; no legal status.",
-      ranges: { escarpment: 2 }
+      photo: "inat-campi", ranges: { escarpment: 2 }
     },
     {
       id: "fuscus", family: "plethodontidae", sci: "Desmognathus fuscus", auth: "(Green, 1818)",
@@ -230,7 +231,7 @@ window.SAL = (function () {
       repro: "Aquatic larvae.",
       id_notes: "A light line runs from the eye to the angle of the jaw, as in most <i>Desmognathus</i>. The tail is keeled and triangular in cross-section.",
       tax: "Holbrook's <i>quadramaculata</i> is a junior synonym of this species (Pyron & Beamer 2022). The species was restricted by Pyron & Beamer (2023).",
-      ranges: { grandfather: 1, newriver: 2, foothills: 1 }
+      photo: "inat-fuscus", ranges: { grandfather: 1, newriver: 2, foothills: 1 }
     },
     {
       id: "lycos", family: "plethodontidae", sci: "Desmognathus lycos", auth: "Pyron & Beamer, 2023",
@@ -241,7 +242,7 @@ window.SAL = (function () {
       repro: "Aquatic larvae.",
       id_notes: "Shares mtDNA haplotypes with <i>D. carolinensis</i>; genetic identification.",
       formerly: "D. fuscus / D. conanti",
-      ranges: { hng: 1, foothills: 2 }
+      photo: "inat-lycos", ranges: { hng: 1, foothills: 2 }
     },
     {
       id: "santeetlah", family: "plethodontidae", sci: "Desmognathus santeetlah", auth: "Tilley, 1981",
@@ -252,7 +253,7 @@ window.SAL = (function () {
       repro: "Aquatic larvae.",
       id_notes: "The keeled tail separates it from <i>D. balsameus</i> and <i>D. adatsihi</i>. Often greenish-yellow below.",
       tax: "Petranka (1998) did not recognize it; it is recognized by SSAR and ASW.",
-      ranges: { smokies: 2, unicoi: 2, balsams: 2 }
+      photo: "inat-santeetlah", ranges: { smokies: 2, unicoi: 2, balsams: 2 }
     },
     {
       id: "aeneus", family: "plethodontidae", sci: "Desmognathus aeneus", auth: "Brown & Bishop, 1947",
@@ -264,7 +265,7 @@ window.SAL = (function () {
       id_notes: "Tiny, with a coppery dorsal band and a light line from the eye to the jaw. Similar to the pygmy salamanders, but at lower elevations and closely tied to seeps.",
       tax: "At least three unnamed phylogeographic lineages.",
       watch: true, srank: "S3", statusNote: "NCNHP watch list (W-RS); no legal status.",
-      ranges: { unicoi: 1, nantahala: 1 }
+      photo: "inat-aeneus", ranges: { unicoi: 1, nantahala: 1 }
     },
     {
       id: "perlapsus", family: "plethodontidae", sci: "Desmognathus perlapsus", auth: "Neill, 1950",
@@ -276,7 +277,7 @@ window.SAL = (function () {
       id_notes: "Some Cowee and Highlands animals have red cheek patches, which can be confused with <i>D. imitator</i> or juvenile <i>Plethodon</i>.",
       tax: "Resurrected from the <i>D. ocoee</i> complex by Pyron & Beamer (2022).",
       formerly: "D. ocoee",
-      ranges: { nantahala: 2, escarpment: 2 }
+      photo: "inat-perlapsus", ranges: { nantahala: 2, escarpment: 2 }
     },
     /* ---------- Desmognathus, forest floor ---------- */
     {
@@ -300,7 +301,7 @@ window.SAL = (function () {
       id_notes: "A straight-edged dorsal stripe, which never occurs in <i>D. imitator</i>. On the Rough Ridge transect, <i>imitator</i> occupies 1,340–1,490 m and <i>adatsihi</i> 1,540–1,630 m.",
       tax: "The name comes from Cherokee for &ldquo;mother of all,&rdquo; a nod to the lineage's hybrid mitochondrial origin.",
       formerly: "D. ocoee",
-      ranges: { smokies: 2, balsams: 1 }
+      photo: "inat-adatsihi", ranges: { smokies: 2, balsams: 1 }
     },
     {
       id: "balsameus", family: "plethodontidae", sci: "Desmognathus balsameus", auth: "Pyron & Beamer, 2022",
@@ -312,7 +313,7 @@ window.SAL = (function () {
       id_notes: "Wavy-edged dorsal stripe; no tail keel.",
       formerly: "D. ocoee",
       watch: true, srank: "SNR", statusNote: "NC endemic. NCNHP watch list (W-PK); not yet ranked.",
-      ranges: { balsams: 2 }
+      photo: "inat-balsameus", ranges: { balsams: 2 }
     },
     {
       id: "imitator", family: "plethodontidae", sci: "Desmognathus imitator", auth: "Dunn, 1927",
@@ -323,7 +324,7 @@ window.SAL = (function () {
       repro: "Aquatic larvae.",
       id_notes: "Red, orange or yellow cheek patches, the putative mimicry of <i>P. jordani</i> that gives it its name. Check for the light eye-to-jaw line and hind legs larger than the forelegs, which mark it as a <i>Desmognathus</i>.",
       watch: true, grank: "G3G4", srank: "S3", iucn: "NT (2022)", statusNote: "NCNHP watch list; the Waterrock Knob population is ranked S1?.",
-      ranges: { smokies: 2, balsams: 1 }
+      photo: "inat-imitator", ranges: { smokies: 2, balsams: 1 }
     },
     {
       id: "carolinensis", family: "plethodontidae", sci: "Desmognathus carolinensis", auth: "Dunn, 1916",
@@ -334,7 +335,7 @@ window.SAL = (function () {
       repro: "Aquatic larvae.",
       id_notes: "Variable dorsal pattern; hybridizes with <i>D. orestes</i> at the McKinney Gap contact (Mead & Tilley 2000).",
       formerly: "D. ochrophaeus",
-      ranges: { hng: 1, bald: 2, black: 2, roan: 1, grandfather: 1 }
+      photo: "inat-carolinensis", ranges: { hng: 1, bald: 2, black: 2, roan: 1, grandfather: 1 }
     },
     {
       id: "orestes", family: "plethodontidae", sci: "Desmognathus orestes", auth: "Tilley & Mahoney, 1996",
@@ -346,7 +347,7 @@ window.SAL = (function () {
       id_notes: "Field-separable from <i>D. carolinensis</i> mainly by locality.",
       tax: "SSAR notes two cryptic units. The Unaka Mountain population shows hybridization with <i>D. ochrophaeus</i> (Pyron et al. 2022).",
       formerly: "D. ochrophaeus",
-      ranges: { roan: 2, grandfather: 2, newriver: 2 }
+      photo: "inat-orestes", ranges: { roan: 2, grandfather: 2, newriver: 2 }
     },
     {
       id: "organi", family: "plethodontidae", sci: "Desmognathus organi", auth: "Crespi, Browne & Rissler, 2010",
@@ -359,7 +360,7 @@ window.SAL = (function () {
       tax: "Moskwik (2014) documented shifts in its elevational limits since Hairston's surveys.",
       formerly: "D. wrighti",
       watch: true, grank: "G3", srank: "S2S3", statusNote: "NCNHP Significantly Rare; no legal status. SWAP high priority.",
-      ranges: { black: 2, roan: 2, grandfather: 2 }
+      photo: "inat-organi", ranges: { black: 2, roan: 2, grandfather: 2 }
     },
     {
       id: "wrighti", family: "plethodontidae", sci: "Desmognathus wrighti", auth: "King, 1936",
@@ -422,7 +423,7 @@ window.SAL = (function () {
       id_notes: "Dark, with small white dorsal spots; identified mainly by locality.",
       formerly: "P. jordani",
       watch: true, grank: "G1G2", srank: "S1", iucn: "VU (2022)", statusNote: "NC endemic. NCNHP Significantly Rare; no legal status.",
-      ranges: { unicoi: 2 }
+      photo: "inat-cheoah", ranges: { unicoi: 2 }
     },
     {
       id: "amplus", family: "plethodontidae", sci: "Plethodon amplus", auth: "Highton & Peabody, 2000",
@@ -435,7 +436,7 @@ window.SAL = (function () {
       tax: "The elevation range in ASW (1,109–1,116 m) appears to be an error; the range here is generalized.",
       formerly: "P. jordani",
       watch: true, grank: "G2", srank: "S1", iucn: "EN (2022)", statusNote: "NC endemic. NCNHP Significantly Rare; no legal status.",
-      ranges: { hng: 2 }
+      photo: "inat-amplus", ranges: { hng: 2 }
     },
     {
       id: "meridianus", family: "plethodontidae", sci: "Plethodon meridianus", auth: "Highton & Peabody, 2000",
@@ -447,7 +448,7 @@ window.SAL = (function () {
       id_notes: "Identified by locality; the only gray-cheeked in the South Mountains.",
       formerly: "P. jordani",
       watch: true, grank: "G2", srank: "S1", iucn: "EN (2022)", statusNote: "NC endemic. NCNHP Significantly Rare; no legal status.",
-      ranges: { foothills: 2 }
+      photo: "inat-meridianus", ranges: { foothills: 2 }
     },
     {
       id: "montanus", family: "plethodontidae", sci: "Plethodon montanus", auth: "Highton & Peabody, 2000",
@@ -458,7 +459,7 @@ window.SAL = (function () {
       repro: "Direct development.",
       id_notes: "Plain dark gray; identified by locality.",
       formerly: "P. jordani",
-      ranges: { bald: 2, black: 2, roan: 2, grandfather: 2, newriver: 2 }
+      photo: "inat-montanus", ranges: { bald: 2, black: 2, roan: 2, grandfather: 2, newriver: 2 }
     },
     {
       id: "teyahalee", family: "plethodontidae", sci: "Plethodon teyahalee", auth: "Hairston, 1950",
@@ -468,9 +469,9 @@ window.SAL = (function () {
       size: "About 12–17 cm TL.",
       repro: "Direct development.",
       id_notes: "A large slimy salamander with small white dorsal spots and sometimes red leg spots where it meets <i>P. shermani</i>.",
-      notes: "The &ldquo;<i>P. glutinosus</i>&rdquo; of Hairston's competition experiments. The type series came from a hybrid zone (Hairston 1993).",
+      notes: "The &ldquo;<i>P. glutinosus</i>&rdquo; of Hairston's competition experiments. Its synonym <i>P. oconaluftee</i> Hairston, 1993 was described from a holotype taken beside FS 140 near the North Fork of the French Broad, Transylvania County, at 930 m. The type series came from a hybrid zone.",
       formerly: "P. glutinosus; P. oconaluftee",
-      ranges: { smokies: 2, unicoi: 2, nantahala: 2, balsams: 1, escarpment: 1 }
+      photo: "inat-teyahalee", ranges: { smokies: 2, unicoi: 2, nantahala: 2, balsams: 1, escarpment: 1 }
     },
     {
       id: "aureolus", family: "plethodontidae", sci: "Plethodon aureolus", auth: "Highton, 1984",
@@ -482,7 +483,7 @@ window.SAL = (function () {
       id_notes: "Slimy type with brassy or yellowish dorsal flecking.",
       tax: "Not monophyletic in Fisher-Reid & Wiens (2011).",
       watch: true, grank: "G2G3", srank: "S2", iucn: "DD (2023)", statusNote: "NCNHP Significantly Rare; no legal status.",
-      ranges: { unicoi: 2 }
+      photo: "inat-aureolus", ranges: { unicoi: 2 }
     },
     {
       id: "chattahoochee", family: "plethodontidae", sci: "Plethodon chattahoochee", auth: "Highton, 1989",
@@ -494,7 +495,7 @@ window.SAL = (function () {
       id_notes: "Slimy type with sparse white spotting; identified by locality.",
       tax: "Shows gene flow with <i>P. teyahalee</i> and <i>P. shermani</i> (Pierson et al. 2023). Petranka (1998) did not recognize it.",
       watch: true, grank: "G3", srank: "S1", statusNote: "NCNHP Significantly Rare; no legal status.",
-      ranges: { nantahala: 1 }
+      photo: "inat-chattahoochee", ranges: { nantahala: 1 }
     },
     {
       id: "cylindraceus", family: "plethodontidae", sci: "Plethodon cylindraceus", auth: "(Harlan, 1825)",
@@ -525,7 +526,7 @@ window.SAL = (function () {
       size: "About 7–10 cm TL.",
       repro: "Direct development.",
       id_notes: "Narrow red dorsal stripe with serrated edges.",
-      ranges: { unicoi: 2, nantahala: 2, escarpment: 1 }
+      photo: "inat-serratus", ranges: { unicoi: 2, nantahala: 2, escarpment: 1 }
     },
     {
       id: "ventralis", family: "plethodontidae", sci: "Plethodon ventralis", auth: "Highton, 1997",
@@ -536,7 +537,7 @@ window.SAL = (function () {
       repro: "Direct development.",
       id_notes: "A wavy, zigzag-edged dorsal stripe and a mottled venter.",
       nc: "SC", grank: "G4", srank: "S2", iucn: "LC (2014)",
-      ranges: { bald: 2 }
+      photo: "inat-ventralis", ranges: { bald: 2 }
     },
     {
       id: "richmondi", family: "plethodontidae", sci: "Plethodon richmondi", auth: "Netting & Mittleman, 1938",
@@ -547,7 +548,7 @@ window.SAL = (function () {
       repro: "Direct development.",
       id_notes: "Long and slender, with short legs and fine silvery flecking on a dark body.",
       watch: true, srank: "S3", statusNote: "NCNHP watch list (W-RS); no legal status.",
-      ranges: { newriver: 1 }
+      photo: "inat-richmondi", ranges: { newriver: 1 }
     },
     {
       id: "jacksoni", family: "plethodontidae", sci: "Plethodon jacksoni", auth: "Newman, 1954",
@@ -560,7 +561,7 @@ window.SAL = (function () {
       tax: "Formerly treated as the NC population of <i>P. wehrlei</i>; elevated by Felix et al. (2019). Kuchta et al. (2024) call for denser sampling. NC listings still use &ldquo;Wehrle's salamander.&rdquo;",
       formerly: "P. wehrlei",
       nc: "T", grank: "G4", srank: "S2", iucn: "LC (2014, as P. wehrlei)", statusNote: "Listed by NCWRC as Wehrle's salamander.",
-      ranges: { newriver: 1 }
+      photo: "inat-jacksoni", ranges: { newriver: 1 }
     },
     {
       id: "welleri", family: "plethodontidae", sci: "Plethodon welleri", auth: "Walker, 1931",
@@ -570,6 +571,7 @@ window.SAL = (function () {
       size: "About 5–7.5 cm TL; the smallest <i>Plethodon</i> in NC.",
       repro: "Direct development.",
       id_notes: "Black with brassy or gold dorsal flecking that can coalesce into blotches.",
+      notes: "Described by Walker (1931) from high elevation on Grandfather Mountain.",
       nc: "SC", grank: "G3", srank: "S2", iucn: "EN (2004)", statusNote: "SWAP high priority. Spruce–fir dependent and vulnerable to warming.",
       photo: "wellers", ranges: { black: 2, roan: 2, grandfather: 2, newriver: 1 }
     },
@@ -583,7 +585,7 @@ window.SAL = (function () {
       id_notes: "A broad chestnut-red dorsal band and pale gray flanks.",
       tax: "<i>P. longicrus</i> Adler & Dennis, 1962, the crevice salamander of Hickory Nut Gorge, was recognized by Wiens et al. (2006) but returned to synonymy by Highton et al. (2012). Its status is contested. NCWRC lists the crevice salamander separately.",
       watch: true, statusNote: "The Hickory Nut Gorge crevice-salamander population (&ldquo;P. longicrus&rdquo;) is NC Special Concern (NHP S1, G4T1T2Q). The species is otherwise unlisted.",
-      ranges: { hng: 2, bald: 1, black: 2, roan: 2, grandfather: 2, newriver: 2, foothills: 1 }
+      photo: "inat-yonahlossee", ranges: { hng: 2, bald: 1, black: 2, roan: 2, grandfather: 2, newriver: 2, foothills: 1 }
     },
     /* ---------- Other plethodontids ---------- */
     {
@@ -609,7 +611,7 @@ window.SAL = (function () {
       notes: "Estimated 200–500 animals before Helene. Twenty-five were rescued after the storm into a captive program at the NC Zoo (with TNC, ARC and NCWRC); no captive hatching had been reported as of February 2026.",
       nc: "E", fed: "Under ESA status review (substantial 90-day finding, 89 FR 4884, 25 Jan 2024)", fedShort: "Fed. review",
       grank: "G1", srank: "S1", iucn: "CR (2022)", statusNote: "NC endemic. No 12-month federal finding yet.",
-      ranges: { hng: 2 }
+      photo: "inat-caryaensis", ranges: { hng: 2 }
     },
     {
       id: "wilderae", family: "plethodontidae", sci: "Eurycea wilderae", auth: "Dunn, 1920",
@@ -630,7 +632,7 @@ window.SAL = (function () {
       size: "About 6.5–10 cm TL.",
       repro: "Aquatic larvae.",
       id_notes: "Like <i>E. wilderae</i>, but with broken lines on the tail and a lower-elevation range.",
-      ranges: { unicoi: 1, escarpment: 1, hng: 1, bald: 1, foothills: 2 }
+      photo: "inat-cirrigera", ranges: { unicoi: 1, escarpment: 1, hng: 1, bald: 1, foothills: 2 }
     },
     {
       id: "guttolineata", family: "plethodontidae", sci: "Eurycea guttolineata", auth: "(Holbrook, 1838)",
@@ -662,7 +664,7 @@ window.SAL = (function () {
       repro: "Aquatic larvae in larger streams.",
       id_notes: "Like a two-lined salamander, but with the dorsolateral lines faint or broken and a more robust build.",
       nc: "T", grank: "G2G3", srank: "S1", iucn: "VU (2004)", statusNote: "SWAP high priority.",
-      ranges: { smokies: 1, unicoi: 2 }
+      photo: "inat-junaluska", ranges: { smokies: 1, unicoi: 2 }
     },
     {
       id: "porphyriticus", family: "plethodontidae", sci: "Gyrinophilus porphyriticus", auth: "(Green, 1827)",
@@ -692,7 +694,7 @@ window.SAL = (function () {
       size: "About 8–19 cm TL.",
       repro: "Aquatic larvae.",
       id_notes: "Like the red salamander, but with a brown iris and fewer, rounder spots.",
-      ranges: { hng: 1, escarpment: 1, foothills: 2 }
+      photo: "inat-montanusP", ranges: { hng: 1, escarpment: 1, foothills: 2 }
     },
     {
       id: "scutatum", family: "plethodontidae", sci: "Hemidactylium scutatum", auth: "(Temminck, 1838)",

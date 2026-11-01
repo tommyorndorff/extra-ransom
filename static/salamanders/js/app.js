@@ -189,7 +189,7 @@
       <td>${esc(s.fed || "Not listed")}</td>
       <td>${esc([s.grank, s.srank].filter(Boolean).join(" / ") || "—")}</td>
       <td>${esc(s.iucn || "—")}</td>
-      <td>${esc(s.statusNote || "")}</td>
+      <td>${s.statusNote || ""}</td>
     </tr>`).join("");
   }
 
@@ -248,6 +248,11 @@
     if (!current) return;
     if (e.key === "ArrowRight") $$("[data-go]", dlg)[1]?.click();
     if (e.key === "ArrowLeft") $$("[data-go]", dlg)[0]?.click();
+  });
+
+  document.addEventListener("click", e => {
+    const a = e.target.closest("a[data-sp]"); if (!a) return;
+    e.preventDefault(); openDossier(a.dataset.sp);
   });
 
   /* ---------- Lightbox ---------- */

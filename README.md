@@ -49,6 +49,13 @@ Additional Hextra front matter options (uncomment to use):
 
 **External links**: pair with a Wayback Machine archive URL for long-term stability.
 
+**Standalone pages** (self-contained HTML/CSS/JS, no Hugo templating) live in `static/<name>/` and are linked from the home page's "Standalone pages" grid:
+
+- [`/warbirds/`](https://www.extra-ransom.net/warbirds/) — *Mustang & Company*, an interactive P-51 and WWII aircraft explorer.
+- [`/salamanders/`](https://www.extra-ransom.net/salamanders/) — *Salamanders of Western North Carolina*, a herpetology reference. Its [methods & re-run workbook](https://www.extra-ransom.net/salamanders/methods.html) explains how it was researched and how to update it; photo tooling is in `tools/salamanders/photos.py`.
+
+When you change a standalone page's CSS/JS, bump the `?v=YYYYMMDD` query strings in its HTML (those assets are cached immutably for a year).
+
 Pages with `draft: true` are hidden in production but visible with `make serve` (which passes `--buildDrafts`).
 
 ## Deploy
