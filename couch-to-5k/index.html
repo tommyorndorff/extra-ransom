@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css?v=20261102">
+  <link rel="stylesheet" href="css/styles.css?v=20261103">
 </head>
 <body>
   <a class="skip" href="#plan">Skip to the plan</a>
@@ -22,11 +22,16 @@
 
     <div class="who" id="who" hidden>
       <div class="who-main">
-        <strong id="whoName"></strong>
+        <i class="dot" id="whoDot" hidden></i><strong id="whoName"></strong>
         <label class="lvl"><span>Plan</span>
           <select id="levelSel" aria-label="Plan level"></select>
         </label>
         <a class="btn" id="summaryLink" href="summary/">Progress summary</a>
+        <a class="btn" href="team/">See everyone</a>
+      </div>
+      <div class="colorrow" id="colorRow" hidden>
+        <span>Your dot color</span>
+        <div class="swatches" id="swatches" role="group" aria-label="Pick your color"></div>
       </div>
       <p class="who-note" id="whoNote"></p>
     </div>
@@ -92,8 +97,8 @@
     <div id="detailBody"></div>
   </dialog>
 
-  <script src="js/plan.js?v=20261102"></script>
-  <script src="js/store.js?v=20261102"></script>
-  <script src="js/app.js?v=20261102"></script>
+  <script src="js/plan.js?v=20261103"></script>
+  <script src="js/store.js?v=20261103"></script>
+  <script src="js/app.js?v=20261103"></script>
 </body>
 </html>
