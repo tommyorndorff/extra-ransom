@@ -13,10 +13,6 @@ Workshop notes.
 A personal build log — bamboo fly rods, woodworking, coffee roasting, and whatever else ends up on the bench.
 </p>
 
-<a href="https://canedna.extra-ransom.net/" target="_blank" rel="noreferrer" class="not-prose hx:inline-flex hx:items-center hx:gap-2 hx:mb-10 hx:px-6 hx:py-3 hx:rounded-full hx:font-bold hx:text-lg hx:text-white hx:bg-primary-600 hx:hover:bg-primary-700 hx:dark:bg-primary-600 hx:dark:hover:bg-primary-700 hx:shadow-xl hx:transition-all hx:ease-out hx:duration-200">
-  CaneDNA is live — try the wasm app →
-</a>
-
 </div>
 
 {{< hextra/feature-grid cols="3" >}}
@@ -64,7 +60,13 @@ A personal build log — bamboo fly rods, woodworking, coffee roasting, and what
 Self-contained interactive pages that live outside the docs tree.
 </p>
 
-{{< hextra/feature-grid cols="2" >}}
+{{< hextra/feature-grid cols="3" >}}
+{{< hextra/feature-card
+  title="CaneDNA"
+  subtitle="Bamboo rod taper explorer — browse and overlay 874 attributed tapers, stress curves, and Morgan Hand Mill settings. Runs in the browser (WebAssembly)."
+  link="https://canedna.extra-ransom.net/"
+  icon="presentation-chart-line"
+>}}
 {{< hextra/feature-card
   title="Mustang & Company"
   subtitle="The P-51 and nine other WWII aircraft — anatomy, a working cockpit, escort range, and a filterable hangar."
