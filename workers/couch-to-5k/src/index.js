@@ -40,6 +40,18 @@ export function safeEqual(a, b) {
   return diff === 0;
 }
 
+// Body for PUT /days/:date. Returns { value } or { error }.
+export function parseDay(date, b) {
+  if (!DATE.test(date) || isNaN(Date.parse(date + 'T12:00:00Z'))) return { error: 'date must be YYYY-MM-DD' };
+  if (date < '2026-10-01' || date > '2026-12-31') return { error: 'date is outside the plan period' };
+  if (!b || typeof b !== 'object' || typeof b.strength !== 'boolean' || typeof b.sauna !== 'boolean') {
+    return { error: 'send {"strength": true/false, "sauna": true/false, "bike": null, "indoor" or "outdoor"}' };
+  }
+  const bike = b.bike === undefined ? null : b.bike;
+  if (bike !== null && bike !== 'indoor' && bike !== 'outdoor') return { error: 'bike must be null, "indoor" or "outdoor"' };
+  return { value: { strength: b.strength, sauna: b.sauna, bike } };
+}
+
 export function cleanColor(v) {
   if (typeof v !== 'string') return null;
   const s = v.trim().toLowerCase();
@@ -172,6 +184,7 @@ async function handle(request, env) {
     if (method === 'DELETE') {
       const id = Number(path.split('/')[2]);
       await env.DB.prepare('DELETE FROM entries WHERE person_id = ?1').bind(id).run();
+      await env.DB.prepare('DELETE FROM days WHERE person_id = ?1').bind(id).run();
       const r = await env.DB.prepare('DELETE FROM people WHERE id = ?1').bind(id).run();
       return r.meta.changes ? json({ ok: true }) : err(404, 'no such person');
     }
@@ -180,7 +193,7 @@ async function handle(request, env) {
 
   // ---- a person, by token ----
   const person = await personByToken(env, request.headers.get('x-token'));
-  if (path === '/me' || /^\/entries\/[a-z0-9]+$/.test(path)) {
+  if (path === '/me' || /^\/entries\/[a-z0-9]+$/.test(path) || /^\/days\/[\d-]+$/.test(path)) {
     if (!person) return err(401, 'unknown link');
   }
 
@@ -188,9 +201,12 @@ async function handle(request, env) {
     const { results } = await env.DB.prepare(
       'SELECT plan_id, date, distance_mi, duration_min, run_pct, note, updated_at FROM entries WHERE person_id = ?1 ORDER BY date, plan_id')
       .bind(person.id).all();
+    const { results: dayRows } = await env.DB.prepare(
+      'SELECT date, strength, sauna, bike FROM days WHERE person_id = ?1 ORDER BY date').bind(person.id).all();
     return json({
       person: { name: person.name, level: person.level, color: colorOf(person), can_edit: person.canEdit },
       entries: results,
+      days: dayRows.map((d) => ({ date: d.date, strength: !!d.strength, sauna: !!d.sauna, bike: d.bike || null })),
     });
   }
 
@@ -205,6 +221,24 @@ async function handle(request, env) {
     const chosen = color === undefined ? person.color : color;
     await env.DB.prepare('UPDATE people SET level = ?1, color = ?2 WHERE id = ?3').bind(level, chosen, person.id).run();
     return json({ ok: true, level, color: colorOf({ id: person.id, color: chosen }) });
+  }
+
+  const dm = path.match(/^\/days\/([\d-]+)$/);
+  if (dm) {
+    if (!person.canEdit) return err(403, 'this link is read-only');
+    if (method !== 'PUT') return err(405, 'method not allowed');
+    const parsed = parseDay(dm[1], await readJson(request));
+    if (parsed.error) return err(400, parsed.error);
+    const { strength, sauna, bike } = parsed.value;
+    if (!strength && !sauna && !bike) {
+      await env.DB.prepare('DELETE FROM days WHERE person_id = ?1 AND date = ?2').bind(person.id, dm[1]).run();
+    } else {
+      await env.DB.prepare(
+        `INSERT INTO days (person_id, date, strength, sauna, bike) VALUES (?1, ?2, ?3, ?4, ?5)
+         ON CONFLICT (person_id, date) DO UPDATE SET strength = excluded.strength, sauna = excluded.sauna, bike = excluded.bike, updated_at = datetime('now')`)
+        .bind(person.id, dm[1], strength ? 1 : 0, sauna ? 1 : 0, bike).run();
+    }
+    return json({ ok: true, date: dm[1], strength, sauna, bike });
   }
 
   const m = path.match(/^\/entries\/([a-z0-9]+)$/);

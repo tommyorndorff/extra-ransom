@@ -64,6 +64,14 @@
     tile(pace(pairT, pairD) || '–', 'average pace');
     tile(avgPct != null ? avgPct + '%' : '–', 'average running share');
     tile(longest ? round(longest, 2) + ' mi' : '–', 'longest session');
+    var dayKeys = Object.keys(store.days || {}).sort();
+    var nStrength = dayKeys.filter(function (k) { return store.days[k].strength; }).length;
+    var nSauna = dayKeys.filter(function (k) { return store.days[k].sauna; }).length;
+    var nIn = dayKeys.filter(function (k) { return store.days[k].bike === 'indoor'; }).length;
+    var nOut = dayKeys.filter(function (k) { return store.days[k].bike === 'outdoor'; }).length;
+    tile(nStrength, 'strength days');
+    tile(nSauna, 'sauna days');
+    tile(nIn + nOut, 'bike days' + (nIn + nOut ? ' (' + nIn + ' indoor, ' + nOut + ' outdoor)' : ''));
     c.appendChild(tiles);
 
     // charts
@@ -95,6 +103,29 @@
     var panel = el('div', 'panel');
     panel.innerHTML = '<h2>Session by session</h2><div class="tablewrap"><table class="log"><thead><tr><th>#</th><th>Date</th><th>Session</th><th>Plan</th><th>Distance</th><th>Time</th><th>Pace</th><th>Running</th><th>Notes</th></tr></thead><tbody>' + rows + '</tbody></table></div>';
     c.appendChild(panel);
+
+    // strength + sauna calendar
+    var cal = el('div', 'panel');
+    cal.appendChild(el('h2', null, 'Strength, sauna and bike'));
+    var wdn = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'], grid = el('div', 'daygrid');
+    grid.appendChild(el('span', 'dg-h', ''));
+    wdn.forEach(function (w) { grid.appendChild(el('span', 'dg-h', w)); });
+    var wkNo = 0;
+    for (var wk = pd(PLAN.firstMonday); wk <= pd(PLAN.lastDay); wk.setDate(wk.getDate() + 7)) {
+      wkNo++;
+      grid.appendChild(el('span', 'dg-w', 'Wk ' + wkNo));
+      for (var k = 0; k < 7; k++) {
+        var dd = new Date(wk.getFullYear(), wk.getMonth(), wk.getDate() + k);
+        var key = dd.getFullYear() + '-' + String(dd.getMonth() + 1).padStart(2, '0') + '-' + String(dd.getDate()).padStart(2, '0');
+        var v = store.days[key] || {};
+        var cell = el('span', 'dg-c', (v.strength ? '<i class="mk s" title="Strength"></i>' : '') + (v.sauna ? '<i class="mk h" title="Sauna"></i>' : '') + (v.bike ? '<i class="mk b ' + v.bike + '" title="Bike, ' + v.bike + '"></i>' : '') + '<small>' + dd.getDate() + '</small>');
+        cell.setAttribute('aria-label', MON[dd.getMonth()] + ' ' + dd.getDate() + ': ' + (v.strength || v.sauna || v.bike ? [v.strength ? 'strength' : '', v.sauna ? 'sauna' : '', v.bike ? 'bike (' + v.bike + ')' : ''].filter(Boolean).join(', ') : 'nothing logged'));
+        grid.appendChild(cell);
+      }
+    }
+    cal.appendChild(grid);
+    cal.appendChild(el('p', 'hint', '<i class="mk s"></i> strength training &nbsp; <i class="mk h"></i> sauna &nbsp; <i class="mk b outdoor"></i> outdoor bike &nbsp; <i class="mk b indoor"></i> indoor bike'));
+    c.appendChild(cal);
 
     // notes timeline
     var withNotes = logged.filter(function (s) { return entries[s.id].note; });

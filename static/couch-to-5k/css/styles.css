@@ -204,3 +204,30 @@ table.log tr.skipped td { color: var(--muted); }
 .import { background: color-mix(in srgb, var(--walk) 12%, var(--card)); border: 1px dashed var(--walk); border-radius: 12px; padding: 10px 12px; display: flex; flex-direction: column; gap: 6px; align-items: flex-start; }
 .importmsg { margin: 0; font-size: 13px; color: var(--muted); }
 .importmsg.bad { color: var(--accent); font-weight: 600; }
+
+/* strength + sauna chips and summary calendar */
+.chips { display: flex; gap: 4px; margin-top: auto; flex-wrap: wrap; }
+.chip { display: inline-flex; align-items: center; gap: 3px; border: 1.5px solid var(--line); background: transparent; color: var(--muted); border-radius: 999px; padding: 2px 7px; font: 600 11px var(--body); cursor: pointer; min-height: 26px; }
+.chip:hover:not(:disabled) { border-color: var(--run); }
+.chip[aria-pressed="true"] { background: color-mix(in srgb, var(--ok) 18%, var(--card)); border-color: var(--ok); color: var(--ink); }
+.chip:disabled { cursor: default; opacity: .45; }
+.chip[aria-pressed="true"]:disabled { opacity: .9; }
+.day .chips { padding-top: 4px; }
+@media (max-width: 1000px) and (min-width: 721px) { .chiplbl { display: none; } .chip { padding: 2px 6px; } }
+@media (max-width: 720px) {
+  .day.rest { display: flex; min-height: 0; padding: 6px 8px; align-items: center; border-style: solid; background: transparent; }
+  .day.rest .restlbl { display: none; }
+  .day.rest .chips { margin: 0 0 0 auto; }
+  .day:not(.rest) { flex-wrap: wrap; }
+  .day:not(.rest) .chips { flex-basis: 100%; margin-top: 4px; }
+}
+.daygrid { display: grid; grid-template-columns: 44px repeat(7, minmax(0, 1fr)); gap: 4px; align-items: stretch; }
+.dg-h { font-size: 11px; color: var(--muted); text-align: center; }
+.dg-w { font-size: 12px; color: var(--muted); align-self: center; }
+.dg-c { position: relative; min-height: 38px; border: 1px solid var(--line); border-radius: 8px; display: flex; align-items: center; justify-content: center; gap: 3px; background: var(--card); }
+.dg-c small { position: absolute; top: 1px; left: 4px; font-size: 9px; color: var(--muted); }
+.mk { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: middle; }
+.mk.s { background: var(--run); } .mk.h { background: #2f7fb8; border-radius: 50%; }
+
+.mk.b { background: #3f9e5b; border-radius: 3px; }
+.mk.b.indoor { background: transparent; border: 2px solid #3f9e5b; }
