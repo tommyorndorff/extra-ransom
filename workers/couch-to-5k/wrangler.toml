@@ -1,0 +1,18 @@
+name = "c25k-api"
+main = "src/index.js"
+compatibility_date = "2026-04-01"
+
+# Served on the main site's domain so the page can call it same-origin.
+# (extra-ransom.net DNS is on Cloudflare; the route needs the www record proxied.)
+routes = [
+  { pattern = "www.extra-ransom.net/api/c25k/*", zone_name = "extra-ransom.net" }
+]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "c25k"
+# Replace with the id printed by `npx wrangler d1 create c25k` (see README.md).
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+migrations_dir = "migrations"
+
+# Secret, not stored here:  npx wrangler secret put ADMIN_KEY
