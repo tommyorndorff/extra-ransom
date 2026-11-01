@@ -103,7 +103,8 @@ applies as-is.
 44" from the tip, and the butt section starts at about 34". That covers half a
 4.5" splice on each side of 39", plus cut-offs. Then pick the joint:
 
-- **Splice (preferred).** Cut matching **4.5" scarf bevels** on opposite
+- **Splice (preferred).** Cut matching **4.5" scarf bevels** (on the
+  [adjustable scarf jig](/docs/woodworking/scarf-jig/), set to 1:23.3) on opposite
   faces, across the flats, from 36.75" to 41.25". 4.5" is about 23 times the
   0.193" dimension. Joined, the two bevels restore the full cross-section, so
   the rod bends like a one-piece and adds **no weight**. Whip each feather
