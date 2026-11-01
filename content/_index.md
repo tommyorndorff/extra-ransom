@@ -79,6 +79,12 @@ Self-contained interactive pages that live outside the docs tree.
   link="/salamanders/"
   icon="beaker"
 >}}
+{{< hextra/feature-card
+  title="Couch to Turkey Trot"
+  subtitle="A compressed couch-to-5K for Thanksgiving 2026 — a checklist calendar with run/walk intervals and a guided timer."
+  link="/couch-to-5k/"
+  icon="clock"
+>}}
 {{< /hextra/feature-grid >}}
 
 <hr class="hx:mt-16 hx:mb-6 hx:border-gray-200 hx:dark:border-neutral-800" />
