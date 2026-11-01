@@ -29,6 +29,13 @@ body {
   background-color: #f6faf9;
 }
 
+/* This file is unlayered, so the rule above beats the theme's layered
+ * `dark:bg-dark` utility regardless of specificity. Without a matching
+ * dark rule, dark mode kept the light page color under light text. */
+.dark body {
+  background-color: var(--hx-color-dark);
+}
+
 .content h1,
 .content h2,
 .content h3 {

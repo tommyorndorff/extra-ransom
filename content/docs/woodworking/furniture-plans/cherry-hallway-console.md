@@ -12,21 +12,21 @@ A **proposed** build — fully dimensioned and detailed, but not yet cut. A narr
 
 ```goat
      .--------------------------------------------.
-     |            solid top (floats, 42")          |
+     |            solid top (floats, 42″)          |
      +-+------------------------------------------+-+
        |                                          |
-       |    apron 3.5" (M&T, drawbored)            |
+       |    apron 3.5″ (M&T, drawbored)            |
      .-+------------------------------------------+-.
      | |                                          | |
-     | |                                          | |    34" H
+     | |                                          | |    34″ H
      | |                                          | |
      | +------------------------------------------+ |
-     | |         lower rail 2.5"                   | |
-     | |         shelf, ~10" off floor              | |
+     | |         lower rail 2.5″                   | |
+     | |         shelf, ~10″ off floor              | |
      '-+------------------------------------------+-'
        |                                          |
     ===+==========================================+===
-                          14" D
+                          14″ D
 ```
 
 ## Why these proportions

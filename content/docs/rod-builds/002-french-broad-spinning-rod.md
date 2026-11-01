@@ -124,7 +124,7 @@ applies as-is.
                                       /
                                      /
  -----------------------------------------------------------------------
-   scarf runs 36.75" -> 41.25" from the tip (4.5"); not to scale
+   scarf runs 36.75″ -> 41.25″ from the tip (4.5″); not to scale
    whip both feather ends; tape the whole joint each outing
 ```
 
@@ -281,9 +281,9 @@ ends.
         check                     .--+---+--.
                                  |   reel    |
                                   '---------'
-          |<-------------------------- 12" cork ------------------------>|
-          |<------- ~3.5" ---------->|<------------ ~8.5" --------------->|
-       66" from tip                     reel-foot center            78" butt
+          |<-------------------------- 12″ cork ------------------------>|
+          |<------- ~3.5″ ---------->|<------------ ~8.5″ --------------->|
+       66″ from tip                     reel-foot center            78″ butt
 ```
 
 - **12" Portuguese cork** (78" − 12" = cork starts at 66"). Shape it as one
@@ -314,7 +314,7 @@ with split fore and rear grips. It's mounted on a built-up arbor over the hex
                               .--+--+--.
                              |  reel    |
                               '--------'
-           |<--  2.5" -->|<----- 3.5" ----->|<------- 6.5" ------->|
+           |<--  2.5″ -->|<----- 3.5″ ----->|<------- 6.5″ ------->|
 ```
 
 - Fixed hood on one end, threaded hood plus lock nut on the other. Either
@@ -495,8 +495,8 @@ check:
                               .--+--+--.
                              |  reel    |
                               '--------'
-           |<-- 3.75" -->|<---- 4.7" ------->|<------- 7" -------->|
-        winding check                reel foot ~9.9" from butt
+           |<-- 3.75″ -->|<---- 4.7″ ------->|<------- 7″ -------->|
+        winding check                reel foot ~9.9″ from butt
 ```
 
 - **Reel seat: Fuji VSS size 16** (VSSM-16). It's 120 mm long with a

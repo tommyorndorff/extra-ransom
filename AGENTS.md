@@ -69,6 +69,7 @@ AWS_PROFILE=extra-ransom hugo deploy --maxDeletes -1 --force
 - Page ordering uses `weight:` in front matter; lower weight = higher in sidebar.
 - `draft: true` gates unfinished pages (visible via `make serve`, hidden in CI builds).
 - Content uses **plain Markdown, tables, GoAT diagrams, and raw `<details>` HTML** — no Hextra shortcodes are currently used. Prefer blockquotes over theme-specific callout shortcodes to keep pages theme-portable.
+- **No `"` inside GoAT blocks** — write inch marks as `″` (U+2033). A stray `"` in a diagram's text sends `hugo --minify` into XML mode for the rest of the page (`<a .../>`, `<td/>`), so heading anchors swallow the following paragraphs.
 - External links pair with a Wayback Machine archive URL for archival discipline (the `https://web.archive.org/web/2024/<url>` form redirects to the latest snapshot).
 - Tapers are stored as Markdown tables within page content.
 - Static assets (images, PDFs, STL previews) go in `static/static/<topic>/` and are referenced as `/static/<topic>/filename`.
