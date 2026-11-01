@@ -11,8 +11,8 @@ routes = [
 [[d1_databases]]
 binding = "DB"
 database_name = "c25k"
-# Replace with the id printed by `npx wrangler d1 create c25k` (see README.md).
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
+# From `npx wrangler d1 create c25k` (an identifier, not a secret; see README.md).
+database_id = "3601644e-707f-41e9-a766-bc294a91a9c3"
 migrations_dir = "migrations"
 
 # Secret, not stored here:  npx wrangler secret put ADMIN_KEY
