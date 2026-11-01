@@ -189,11 +189,11 @@
     var box = el('div', 'chips'), cur = store.days[key] || {};
     CHIPS.forEach(function (c) {
       var b = el('button', 'chip'); b.type = 'button';
-      var on = !!cur[c[0]], future = key > t;
+      var on = !!cur[c[0]];
       b.setAttribute('aria-pressed', on ? 'true' : 'false');
       b.setAttribute('aria-label', c[2] + ', ' + fmt(d));
-      b.title = future ? c[2] + ' (not yet)' : c[2];
-      b.disabled = !store.canEdit || future;
+      b.title = c[2];
+      b.disabled = !store.canEdit;
       b.innerHTML = '<span aria-hidden="true">' + c[1] + '</span><span class="chiplbl">' + (c[0] === 'strength' ? 'Strength' : 'Sauna') + '</span>';
       b.addEventListener('click', function () {
         var patch = {}; patch[c[0]] = !on;
@@ -206,8 +206,8 @@
     var bike = cur.bike || '', bb = el('button', 'chip'); bb.type = 'button';
     bb.setAttribute('aria-pressed', bike ? 'true' : 'false');
     bb.setAttribute('aria-label', 'Bike ride, ' + fmt(d) + ': ' + (bike || 'none') + '. Press to change.');
-    bb.title = key > t ? 'Bike ride (not yet)' : 'Bike ride: tap to cycle indoor, outdoor, off';
-    bb.disabled = !store.canEdit || key > t;
+    bb.title = 'Bike ride: tap to cycle indoor, outdoor, off';
+    bb.disabled = !store.canEdit;
     bb.innerHTML = '<span aria-hidden="true">\ud83d\udeb4</span><span class="chiplbl">' + (bike ? 'Bike \u00b7 ' + (bike === 'indoor' ? 'in' : 'out') : 'Bike') + '</span>';
     bb.addEventListener('click', function () {
       store.setDay(key, { bike: BIKE_NEXT[bike] || null }).then(function () { banner(''); render(); })
