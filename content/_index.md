@@ -105,13 +105,13 @@ Self-contained interactive pages that live outside the docs tree.
 >}}
 {{< hextra/feature-card
   title="Norway: Huts & Trout"
-  subtitle="A two-week plan for August 7–20, 2027 — DNT hut-to-hut hiking in Rondane and Jotunheimen, with easy dry-fly evenings on trout and grayling rivers."
+  subtitle="A two-week plan for August 7–20, 2027 — Eight DNT hut nights across Rondane and Jotunheimen, with a couple of easy dry-fly evenings on trout rivers."
   link="/norway/huts/"
   icon="map"
 >}}
 {{< hextra/feature-card
   title="Norway: Roads & Trout"
-  subtitle="The no-huts version — drive Oslo to Trondheim with day hikes from valley bases, the mountain road to the fjords, and a few easy evenings on trout rivers."
+  subtitle="The no-huts version — drive Oslo to Trondheim through fjord country: the Sognefjell pass, Fjærland, Nærøyfjord, Geiranger and Trollstigen."
   link="/norway/ground/"
   icon="map"
 >}}
