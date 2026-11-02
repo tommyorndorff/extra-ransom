@@ -103,6 +103,12 @@ Self-contained interactive pages that live outside the docs tree.
   link="/couch-to-5k/"
   icon="clock"
 >}}
+{{< hextra/feature-card
+  title="Norway: Huts & Trout"
+  subtitle="A two-week plan for early August 2027 — DNT hut-to-hut hiking in Rondane and Jotunheimen, with dry-fly days on trout and grayling rivers."
+  link="/norway/"
+  icon="map"
+>}}
 {{< /hextra/feature-grid >}}
 
 <hr class="hx:mt-16 hx:mb-6 hx:border-gray-200 hx:dark:border-neutral-800" />
