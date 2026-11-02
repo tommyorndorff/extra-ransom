@@ -330,7 +330,9 @@ reel, and lures.&lt;/p&gt;
 (designed around 1/8 oz), sliding-ring cork grip, a 1000-size reel.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Status:&lt;/strong&gt; design only. The taper below hasn&amp;rsquo;t been cut yet. It&amp;rsquo;s been
 checked against the library&amp;rsquo;s spinning rods in caneDNA (see
-&lt;a href="#taper"&gt;Taper&lt;/a&gt;).&lt;/p&gt;
+&lt;a href="#taper"&gt;Taper&lt;/a&gt;). A review on 2026-11-02 found the lower third runs stiffer
+than the reference rods; a trimmed &lt;a href="#variant-e-trimmed-lower-third-proposed"&gt;variant E&lt;/a&gt;
+is proposed but &lt;strong&gt;not adopted&lt;/strong&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;The water: French Broad at Hap Simpson, Nov–Dec&lt;span class="hx:absolute hx:-mt-20" id="the-water-french-broad-at-hap-simpson-novdec"&gt;&lt;/span&gt;
 &lt;a href="#the-water-french-broad-at-hap-simpson-novdec" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
@@ -450,7 +452,7 @@ the hand. That&amp;rsquo;s the feel I&amp;rsquo;m after here.&lt;/p&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;butt (grip)&lt;/td&gt;
-&lt;td&gt;0.279–0.281&amp;quot;&lt;/td&gt;
+&lt;td&gt;0.279–0.281&amp;quot; (variant D; variant E is 0.262–0.264&amp;quot;)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;handle&lt;/td&gt;
@@ -466,6 +468,13 @@ the hand. That&amp;rsquo;s the feel I&amp;rsquo;m after here.&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Tiptop fit is tight.&lt;/strong&gt; Across the corners, a 0.080&amp;quot; hex tip is
+0.080 ÷ cos 30° = 0.0924&amp;quot;, against a 6/64 tube at 0.09375&amp;quot;, about 0.0013&amp;quot; of
+clearance. The tube also covers the first ~½&amp;quot; of the rod, where the taper is
+a little larger. Test-fit before wrapping and be ready to relieve the tip
+corners or step up to a 7/64 tube.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2&gt;Two pieces: splice or ferrule&lt;span class="hx:absolute hx:-mt-20" id="two-pieces-splice-or-ferrule"&gt;&lt;/span&gt;
 &lt;a href="#two-pieces-splice-or-ferrule" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The rod is two 39&amp;quot; sections, and the joint is chosen &lt;strong&gt;after glue-up&lt;/strong&gt;: a
 spliced (scarf) joint or a 12/64 ferrule. Both sections fit the &lt;strong&gt;standard
@@ -490,136 +499,26 @@ ferrule&lt;/strong&gt;. The 0.193&amp;quot; flats there are 12.4/64, the same fi
 convenient, but on a light spinner the ferrule outweighs the lure: a 12/64
 is roughly 0.2 oz (my estimate) against a 1/8 oz lure.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="goat svg-container "&gt;
-&lt;svg
-xmlns="http://www.w3.org/2000/svg"
-font-family="Menlo,Lucida Console,monospace"
-viewBox="0 0 584 153"
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt; -----------------------------------------------------------------------
+tip section / butt section
+/
+/
+/
+/
+-----------------------------------------------------------------------
+scarf runs 36.75″ -&amp;gt; 41.25″ from the tip (4.5″); not to scale
+whip both feather ends; tape the whole joint each outing&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;g transform='translate(8,16)'&gt;
-&lt;path d='M 8,0 L 568,0' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 8,96 L 568,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 168,112 L 176,112' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 296,80 L 328,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;polygon points='184.000000,112.000000 172.000000,106.400002 172.000000,117.599998' fill='currentColor' transform='rotate(0.000000, 176.000000, 112.000000)'&gt;&lt;/polygon&gt;
-&lt;text text-anchor='middle' x='24' y='20' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='24' y='116' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
-&lt;text text-anchor='middle' x='24' y='132' fill='currentColor' style='font-size:1em'&gt;w&lt;/text&gt;
-&lt;text text-anchor='middle' x='32' y='20' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='32' y='116' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
-&lt;text text-anchor='middle' x='32' y='132' fill='currentColor' style='font-size:1em'&gt;h&lt;/text&gt;
-&lt;text text-anchor='middle' x='40' y='20' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='40' y='116' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='40' y='132' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='48' y='116' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='48' y='132' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='56' y='20' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
-&lt;text text-anchor='middle' x='56' y='116' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
-&lt;text text-anchor='middle' x='64' y='20' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='64' y='132' fill='currentColor' style='font-size:1em'&gt;b&lt;/text&gt;
-&lt;text text-anchor='middle' x='72' y='20' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
-&lt;text text-anchor='middle' x='72' y='116' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='72' y='132' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='80' y='20' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='80' y='116' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
-&lt;text text-anchor='middle' x='80' y='132' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='88' y='20' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='88' y='116' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='88' y='132' fill='currentColor' style='font-size:1em'&gt;h&lt;/text&gt;
-&lt;text text-anchor='middle' x='96' y='20' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='96' y='116' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
-&lt;text text-anchor='middle' x='104' y='20' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='104' y='132' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
-&lt;text text-anchor='middle' x='112' y='116' fill='currentColor' style='font-size:1em'&gt;3&lt;/text&gt;
-&lt;text text-anchor='middle' x='112' y='132' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='120' y='116' fill='currentColor' style='font-size:1em'&gt;6&lt;/text&gt;
-&lt;text text-anchor='middle' x='120' y='132' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='128' y='116' fill='currentColor' style='font-size:1em'&gt;.&lt;/text&gt;
-&lt;text text-anchor='middle' x='128' y='132' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='136' y='116' fill='currentColor' style='font-size:1em'&gt;7&lt;/text&gt;
-&lt;text text-anchor='middle' x='136' y='132' fill='currentColor' style='font-size:1em'&gt;h&lt;/text&gt;
-&lt;text text-anchor='middle' x='144' y='116' fill='currentColor' style='font-size:1em'&gt;5&lt;/text&gt;
-&lt;text text-anchor='middle' x='144' y='132' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='152' y='116' fill='currentColor' style='font-size:1em'&gt;″&lt;/text&gt;
-&lt;text text-anchor='middle' x='152' y='132' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='168' y='132' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='176' y='132' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='184' y='132' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
-&lt;text text-anchor='middle' x='192' y='116' fill='currentColor' style='font-size:1em'&gt;4&lt;/text&gt;
-&lt;text text-anchor='middle' x='192' y='132' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
-&lt;text text-anchor='middle' x='200' y='116' fill='currentColor' style='font-size:1em'&gt;1&lt;/text&gt;
-&lt;text text-anchor='middle' x='200' y='132' fill='currentColor' style='font-size:1em'&gt;;&lt;/text&gt;
-&lt;text text-anchor='middle' x='208' y='116' fill='currentColor' style='font-size:1em'&gt;.&lt;/text&gt;
-&lt;text text-anchor='middle' x='216' y='116' fill='currentColor' style='font-size:1em'&gt;2&lt;/text&gt;
-&lt;text text-anchor='middle' x='216' y='132' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='224' y='116' fill='currentColor' style='font-size:1em'&gt;5&lt;/text&gt;
-&lt;text text-anchor='middle' x='224' y='132' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='232' y='116' fill='currentColor' style='font-size:1em'&gt;″&lt;/text&gt;
-&lt;text text-anchor='middle' x='232' y='132' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='240' y='132' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='248' y='116' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
-&lt;text text-anchor='middle' x='256' y='116' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='256' y='132' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='264' y='116' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='264' y='132' fill='currentColor' style='font-size:1em'&gt;h&lt;/text&gt;
-&lt;text text-anchor='middle' x='272' y='116' fill='currentColor' style='font-size:1em'&gt;m&lt;/text&gt;
-&lt;text text-anchor='middle' x='272' y='132' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='288' y='116' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='288' y='132' fill='currentColor' style='font-size:1em'&gt;w&lt;/text&gt;
-&lt;text text-anchor='middle' x='296' y='116' fill='currentColor' style='font-size:1em'&gt;h&lt;/text&gt;
-&lt;text text-anchor='middle' x='296' y='132' fill='currentColor' style='font-size:1em'&gt;h&lt;/text&gt;
-&lt;text text-anchor='middle' x='304' y='116' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='304' y='132' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='312' y='132' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
-&lt;text text-anchor='middle' x='320' y='116' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='320' y='132' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='328' y='116' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='336' y='116' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='336' y='132' fill='currentColor' style='font-size:1em'&gt;j&lt;/text&gt;
-&lt;text text-anchor='middle' x='344' y='132' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='352' y='116' fill='currentColor' style='font-size:1em'&gt;(&lt;/text&gt;
-&lt;text text-anchor='middle' x='352' y='132' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='360' y='116' fill='currentColor' style='font-size:1em'&gt;4&lt;/text&gt;
-&lt;text text-anchor='middle' x='360' y='132' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='368' y='116' fill='currentColor' style='font-size:1em'&gt;.&lt;/text&gt;
-&lt;text text-anchor='middle' x='368' y='132' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='376' y='116' fill='currentColor' style='font-size:1em'&gt;5&lt;/text&gt;
-&lt;text text-anchor='middle' x='384' y='116' fill='currentColor' style='font-size:1em'&gt;″&lt;/text&gt;
-&lt;text text-anchor='middle' x='384' y='132' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='392' y='116' fill='currentColor' style='font-size:1em'&gt;)&lt;/text&gt;
-&lt;text text-anchor='middle' x='392' y='132' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='400' y='116' fill='currentColor' style='font-size:1em'&gt;;&lt;/text&gt;
-&lt;text text-anchor='middle' x='400' y='132' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
-&lt;text text-anchor='middle' x='408' y='132' fill='currentColor' style='font-size:1em'&gt;h&lt;/text&gt;
-&lt;text text-anchor='middle' x='416' y='116' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='424' y='116' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='424' y='132' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='432' y='116' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='432' y='132' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
-&lt;text text-anchor='middle' x='440' y='132' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='448' y='116' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='448' y='132' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='456' y='116' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='456' y='132' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='464' y='132' fill='currentColor' style='font-size:1em'&gt;g&lt;/text&gt;
-&lt;text text-anchor='middle' x='472' y='116' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
-&lt;text text-anchor='middle' x='480' y='20' fill='currentColor' style='font-size:1em'&gt;b&lt;/text&gt;
-&lt;text text-anchor='middle' x='480' y='116' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
-&lt;text text-anchor='middle' x='488' y='20' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
-&lt;text text-anchor='middle' x='488' y='116' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='496' y='20' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='496' y='116' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
-&lt;text text-anchor='middle' x='504' y='20' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='504' y='116' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='520' y='20' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
-&lt;text text-anchor='middle' x='528' y='20' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='536' y='20' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
-&lt;text text-anchor='middle' x='544' y='20' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='552' y='20' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='560' y='20' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='568' y='20' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;/g&gt;
-&lt;/svg&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -637,7 +536,7 @@ viewBox="0 0 584 153"
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Action (caneDNA)&lt;/td&gt;
-&lt;td&gt;same as a one-piece&lt;/td&gt;
+&lt;td&gt;same as a one-piece (the model ignores the tape)&lt;/td&gt;
 &lt;td&gt;butt works ~6–10% harder at 45–60&amp;quot;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -786,7 +685,8 @@ stiffened it &lt;strong&gt;+4% from 10&amp;quot; to 60&amp;quot;&lt;/strong&gt;,
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3&gt;caneDNA results&lt;span class="hx:absolute hx:-mt-20" id="canedna-results"&gt;&lt;/span&gt;
-&lt;a href="#canedna-results" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;caneDNA uses RodDNA&amp;rsquo;s casting-load model. I compared this taper against the
+&lt;a href="#canedna-results" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;caneDNA uses RodDNA&amp;rsquo;s casting-load model. (The lure-stress and recovery
+numbers below carry the caveats listed after the table.) I compared this taper against the
 16 bamboo spinning rods in its library, including &amp;ldquo;Spin Rod 6&amp;rsquo; 1 pc.&amp;rdquo;, which
 is essentially Tyree&amp;rsquo;s 6&amp;rsquo;. For the lures, each lure was modeled as a weight
 at the tip with a 4× impact factor. Stress is averaged from 10&amp;quot; to the grip;
@@ -814,14 +714,14 @@ lower stress means a stiffer rod.&lt;/p&gt;
 &lt;td style="text-align: right"&gt;51k&lt;/td&gt;
 &lt;td style="text-align: right"&gt;&lt;strong&gt;63k&lt;/strong&gt;&lt;/td&gt;
 &lt;td style="text-align: right"&gt;87k&lt;/td&gt;
-&lt;td style="text-align: right"&gt;&lt;strong&gt;2.00 Hz&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;strong&gt;2.00 Hz&lt;/strong&gt; (75&amp;quot; taper)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Tyree 6&amp;rsquo; 1pc (reference)&lt;/td&gt;
 &lt;td style="text-align: right"&gt;52k&lt;/td&gt;
 &lt;td style="text-align: right"&gt;65k&lt;/td&gt;
 &lt;td style="text-align: right"&gt;91k&lt;/td&gt;
-&lt;td style="text-align: right"&gt;2.42 Hz&lt;/td&gt;
+&lt;td style="text-align: right"&gt;2.42 Hz (60&amp;quot; taper; not like for like)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -830,8 +730,15 @@ lower stress means a stiffer rod.&lt;/p&gt;
 It sits between the ultralight T&amp;amp;T (higher stress) and the 6–10 lb 7'
 spinners (lower), which fits the light rating.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Recovery:&lt;/strong&gt; the first draft was the slowest-recovering rod of any 6&amp;rsquo;+
-spinner in the library. Scaling Tyree&amp;rsquo;s 2.42 Hz to 78&amp;quot; predicts about 2.06,
-and variant D recovers at 2.00. So D is Tyree&amp;rsquo;s rod at 6'6&amp;quot;.&lt;/li&gt;
+spinner in the library. &lt;strong&gt;Correction (2026-11-02):&lt;/strong&gt; the 2.42 Hz and 2.00 Hz
+above are not like for like. The engine integrates over the stored taper
+length, which is 60&amp;quot; for the Tyree record and 75&amp;quot; for D, so scaling 2.42 Hz
+to 78&amp;quot; (about 2.06) doesn&amp;rsquo;t validate D. Over the same 60&amp;quot; cantilever, D is
+&lt;strong&gt;2.55 Hz against Tyree&amp;rsquo;s 2.42&lt;/strong&gt; (about 5% faster), and 18–19% faster than
+Holder&amp;rsquo;s 6&amp;rsquo; ultralight (2.16) and Young&amp;rsquo;s Spinmaster (2.14). D matches
+Tyree through the top 40&amp;quot; but is roughly 3–16% thicker than the references
+from 55&amp;quot; to 65&amp;quot; (depending on which rod). See
+&lt;a href="#variant-e-trimmed-lower-third-proposed"&gt;variant E&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Shape:&lt;/strong&gt; stress rises toward the butt with light lures, because the
 cane&amp;rsquo;s own weight dominates. It flattens at 1/4 oz.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Ferrule:&lt;/strong&gt; a ~0.2 oz 12/64 ferrule at 39&amp;quot; raises butt stress 6–10%
@@ -839,12 +746,268 @@ between 45&amp;quot; and 60&amp;quot;. That&amp;rsquo;s within the variation fro
 so the taper doesn&amp;rsquo;t change. With RodDNA&amp;rsquo;s own heavier default ferrule
 weight (0.53 oz) it&amp;rsquo;s about +30%.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Caveats:&lt;/strong&gt; the frequencies assume a cane stiffness (E) of 2.4 million psi,
-so compare them between rods rather than as absolutes. This isn&amp;rsquo;t Hexrod;
+so compare them between rods rather than as absolutes. The lure-stress table
+above comes from a lure-at-the-tip load model that isn&amp;rsquo;t in the caneDNA
+repo (its &lt;code&gt;stress_curve&lt;/code&gt; is RodDNA&amp;rsquo;s fly-line model), so those figures
+couldn&amp;rsquo;t be reproduced in the 2026-11-02 review; treat them as approximate. This isn&amp;rsquo;t Hexrod;
 &lt;a href="https://www.hexrod.net/Hexrod_doc/hexrod-doc.html"target="_blank" rel="noopener"&gt;Hexrod&lt;/a&gt; only models fly
 lines.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3&gt;Variant E: trimmed lower third (proposed)&lt;span class="hx:absolute hx:-mt-20" id="variant-e-trimmed-lower-third-proposed"&gt;&lt;/span&gt;
+&lt;a href="#variant-e-trimmed-lower-third-proposed" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Not adopted.&lt;/strong&gt; Variant D (above) stays the documented taper until I decide.
+The 2026-11-02 review compared D with every comparable light spinner in the
+caneDNA library, including two tapers added from the Rodmakers list (Robert
+Holder&amp;rsquo;s 6&amp;rsquo; &amp;ldquo;Ibantik Spinner&amp;rdquo; ultralight and Paul H. Young&amp;rsquo;s 7'2&amp;quot; Spinmaster,
+both from &lt;a href="https://www.hexrod.net/Tapers/More_rodmakers_tapers/index.html"target="_blank" rel="noopener"&gt;hexrod.net&amp;rsquo;s rodmakers tapers&lt;/a&gt;).
+D is a good match through the top 40&amp;quot; but runs thicker than all of them from
+55&amp;quot; down, which makes the rod stiffer than the reference light rods. E trims only
+the stations from 55&amp;quot; to the butt; &lt;strong&gt;0–50&amp;quot; is identical to D&lt;/strong&gt;.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: right"&gt;Inches from tip&lt;/th&gt;
+&lt;th style="text-align: right"&gt;D&lt;/th&gt;
+&lt;th style="text-align: right"&gt;E&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Change&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;50&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.226&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.226&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;55&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.241&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.237&lt;/td&gt;
+&lt;td style="text-align: right"&gt;−0.004&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;60&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.257&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.247&lt;/td&gt;
+&lt;td style="text-align: right"&gt;−0.010&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;65&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.271&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.256&lt;/td&gt;
+&lt;td style="text-align: right"&gt;−0.015&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;70&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.279&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.262&lt;/td&gt;
+&lt;td style="text-align: right"&gt;−0.017&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;75&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.281&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.264&lt;/td&gt;
+&lt;td style="text-align: right"&gt;−0.017&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;78&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.281&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.264&lt;/td&gt;
+&lt;td style="text-align: right"&gt;−0.017&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Same modal engine, same density and tip mass, E against the references:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Rod&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Dimension @60&amp;quot;&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Frequency over a 60&amp;quot; cantilever&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Frequency, full taper&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Variant D&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.257&lt;/td&gt;
+&lt;td style="text-align: right"&gt;2.55 Hz&lt;/td&gt;
+&lt;td style="text-align: right"&gt;2.00 Hz (75&amp;quot;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Variant E&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;strong&gt;0.247&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;strong&gt;2.47 Hz&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: right"&gt;&lt;strong&gt;1.82 Hz (75&amp;quot;)&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Tyree 6&amp;rsquo; (library)&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.245&lt;/td&gt;
+&lt;td style="text-align: right"&gt;2.42 Hz&lt;/td&gt;
+&lt;td style="text-align: right"&gt;2.42 Hz (60&amp;quot;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Holder Ibantik 6&amp;rsquo; UL&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.231&lt;/td&gt;
+&lt;td style="text-align: right"&gt;2.16 Hz&lt;/td&gt;
+&lt;td style="text-align: right"&gt;1.68 Hz (70&amp;quot;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Young Spinmaster 7'2&amp;quot;&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.226&lt;/td&gt;
+&lt;td style="text-align: right"&gt;2.14 Hz&lt;/td&gt;
+&lt;td style="text-align: right"&gt;1.66 Hz (74&amp;quot;)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;E lands within about 2% of Tyree over the same span and sits between D and the
+two ultralights over the full length. That is only a comparison of tapers by
+the engine&amp;rsquo;s frequency, not a prediction of how it casts.
+The reel seat and cork are unaffected; only the butt-end dimension under the
+grip drops from 0.281&amp;quot; to 0.264&amp;quot;. If you adopt E, the &lt;strong&gt;tip section is
+unchanged&lt;/strong&gt;, but the butt-section settings from 30&amp;quot; to 65&amp;quot; all change because
+the thickest station (the butt) is smaller:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Butt section, variant E: 30 to 80 in&lt;/strong&gt; (finished 39–78&amp;quot;; long to 34&amp;quot; for the splice)&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: right"&gt;Inches&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Rod Dim&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Half Dim&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Rougher Oversize&lt;/th&gt;
+&lt;th style="text-align: right"&gt;MHM Oversize&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Finish Oversize&lt;/th&gt;
+&lt;th style="text-align: right"&gt;MHM Setting&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Station&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;30&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.167&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0835&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1535&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1135&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0865&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0485&lt;/td&gt;
+&lt;td style="text-align: right"&gt;13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;35&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.182&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0910&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1610&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1210&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0940&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0410&lt;/td&gt;
+&lt;td style="text-align: right"&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;40&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.196&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0980&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1680&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1280&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1010&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0340&lt;/td&gt;
+&lt;td style="text-align: right"&gt;11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;45&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.211&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1055&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1755&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1355&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1085&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0265&lt;/td&gt;
+&lt;td style="text-align: right"&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;50&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.226&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1130&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1830&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1430&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1160&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0190&lt;/td&gt;
+&lt;td style="text-align: right"&gt;9&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;55&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.237&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1185&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1885&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1485&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1215&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0135&lt;/td&gt;
+&lt;td style="text-align: right"&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;60&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.247&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1235&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1935&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1535&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1265&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0085&lt;/td&gt;
+&lt;td style="text-align: right"&gt;7&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;65&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.256&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1280&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1980&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1580&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1310&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0040&lt;/td&gt;
+&lt;td style="text-align: right"&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;70&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.262&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1310&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.2010&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1610&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1340&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0010&lt;/td&gt;
+&lt;td style="text-align: right"&gt;5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;75&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.264&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1320&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.2020&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1620&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1350&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0000&lt;/td&gt;
+&lt;td style="text-align: right"&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: right"&gt;80&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.264&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1320&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.2020&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1620&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.1350&lt;/td&gt;
+&lt;td style="text-align: right"&gt;0.0000&lt;/td&gt;
+&lt;td style="text-align: right"&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The largest change between adjacent stations is 0.0075&amp;quot;, under the bed&amp;rsquo;s
+0.020&amp;quot; limit. Caveat: E has the same untested-cane status as D. It has only been
+checked against other tapers, not cast.&lt;/p&gt;
 &lt;h3&gt;Morgan Hand Mill settings&lt;span class="hx:absolute hx:-mt-20" id="morgan-hand-mill-settings"&gt;&lt;/span&gt;
-&lt;a href="#morgan-hand-mill-settings" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Oversize columns follow the class sheet: rough &lt;strong&gt;+0.070&lt;/strong&gt;, Hand Mill
+&lt;a href="#morgan-hand-mill-settings" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Check the form angle.&lt;/strong&gt; These settings use the strip height as half the
+flat-to-flat dimension (a 60° hex). The Hand Mill&amp;rsquo;s 6-strip cutter is 61.5°,
+and Bob Clay&amp;rsquo;s course taper says to deduct about 2.3% from 60° dimensions
+when milling on it. caneDNA flags this as a possible refinement, and
+&lt;a href="https://www.extra-ransom.net/docs/rodmaking/builds/001-sir-d-taper/"&gt;Rod 001&lt;/a&gt; uses the same convention.
+Decide deliberately before cutting; at the tip it is about 0.002&amp;quot;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The two tables below are &lt;strong&gt;variant D&lt;/strong&gt;; for variant E use the tip section
+below with the &lt;a href="#variant-e-trimmed-lower-third-proposed"&gt;variant E butt table&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Oversize columns follow the class sheet: rough &lt;strong&gt;+0.070&lt;/strong&gt;, Hand Mill
 &lt;strong&gt;+0.030&lt;/strong&gt;, finish &lt;strong&gt;+0.003&lt;/strong&gt; (all per strip, i.e. added to the half
 dimension). The &lt;strong&gt;MHM Setting&lt;/strong&gt; is the bed rise from the thickest station
 in each section, the same convention and station layout as
@@ -852,7 +1015,7 @@ in each section, the same convention and station layout as
 at #12 with the extension at #13. The largest change between adjacent
 stations is 0.008&amp;quot;, well under the bed&amp;rsquo;s 0.020&amp;quot; limit. caneDNA estimates
 hold-down &lt;strong&gt;hole E&lt;/strong&gt; for the tip and &lt;strong&gt;hole D&lt;/strong&gt; for the butt.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tip section: −5 to 45 in&lt;/strong&gt; (finished 0–39&amp;quot;; long to 44&amp;quot; for the splice)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tip section, variants D and E (shared): −5 to 45 in&lt;/strong&gt; (finished 0–39&amp;quot;; long to 44&amp;quot; for the splice)&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -979,7 +1142,7 @@ hold-down &lt;strong&gt;hole E&lt;/strong&gt; for the tip and &lt;strong&gt;hole
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;Butt section: 30 to 80 in&lt;/strong&gt; (finished 39–78&amp;quot;; long to 34&amp;quot; for the splice)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Butt section, variant D: 30 to 80 in&lt;/strong&gt; (finished 39–78&amp;quot;; long to 34&amp;quot; for the splice)&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1117,177 +1280,29 @@ feather the line. There&amp;rsquo;s no line hand: the reel does all the line han
 6&amp;rsquo; on bamboorodmaking all use it). It&amp;rsquo;s just a fly-rod cork grip with no seat
 hardware. The reel foot sits on the cork and two metal rings slide over its
 ends.&lt;/p&gt;
-&lt;div class="goat svg-container "&gt;
-&lt;svg
-xmlns="http://www.w3.org/2000/svg"
-font-family="Menlo,Lucida Console,monospace"
-viewBox="0 0 616 201"
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt; tip butt
+---------&amp;#43;-&amp;#43;------------&amp;#43;------&amp;#43;-------------&amp;#43;------&amp;#43;------------&amp;#43;---&amp;#43;
+blank | | cork | ring | reel foot | ring | cork |cap|
+---------&amp;#43; | | | | | | |
+&amp;#43;-&amp;#43;------------&amp;#43;------&amp;#43;----&amp;#43;---&amp;#43;----&amp;#43;------&amp;#43;------------&amp;#43;---&amp;#43;
+winding | | stem
+check .--&amp;#43;---&amp;#43;--.
+| reel |
+&amp;#39;---------&amp;#39;
+|&amp;lt;-------------------------- 12″ cork ------------------------&amp;gt;|
+|&amp;lt;------- ~3.5″ ----------&amp;gt;|&amp;lt;------------ ~8.5″ ---------------&amp;gt;|
+66″ from tip reel-foot center 78″ butt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;g transform='translate(8,16)'&gt;
-&lt;path d='M 8,16 L 80,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 80,16 L 96,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 96,16 L 200,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 200,16 L 256,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 256,16 L 368,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 368,16 L 424,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 424,16 L 528,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 528,16 L 560,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 8,48 L 80,48' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 80,64 L 96,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 96,64 L 200,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 200,64 L 256,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 256,64 L 296,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 296,64 L 328,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 328,64 L 368,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 368,64 L 424,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 424,64 L 528,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 528,64 L 560,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 280,96 L 296,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 296,96 L 328,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 328,96 L 344,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 280,128 L 344,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 88,144 L 296,144' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 384,144 L 576,144' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 88,160 L 144,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 208,160 L 288,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 304,160 L 400,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 464,160 L 584,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 80,16 L 80,48' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 80,48 L 80,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 80,144 L 80,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 96,16 L 96,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 200,16 L 200,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 256,16 L 256,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 296,64 L 296,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 296,152 L 296,168' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 328,64 L 328,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 368,16 L 368,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 424,16 L 424,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 528,16 L 528,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 560,16 L 560,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 584,136 L 584,152' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 592,152 L 592,168' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 296,152 L 296,160' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;polygon points='96.000000,144.000000 84.000000,138.399994 84.000000,149.600006' fill='currentColor' transform='rotate(180.000000, 88.000000, 144.000000)'&gt;&lt;/polygon&gt;
-&lt;polygon points='96.000000,160.000000 84.000000,154.399994 84.000000,165.600006' fill='currentColor' transform='rotate(180.000000, 88.000000, 160.000000)'&gt;&lt;/polygon&gt;
-&lt;polygon points='296.000000,160.000000 284.000000,154.399994 284.000000,165.600006' fill='currentColor' transform='rotate(0.000000, 288.000000, 160.000000)'&gt;&lt;/polygon&gt;
-&lt;polygon points='312.000000,160.000000 300.000000,154.399994 300.000000,165.600006' fill='currentColor' transform='rotate(180.000000, 304.000000, 160.000000)'&gt;&lt;/polygon&gt;
-&lt;polygon points='584.000000,144.000000 572.000000,138.399994 572.000000,149.600006' fill='currentColor' transform='rotate(0.000000, 576.000000, 144.000000)'&gt;&lt;/polygon&gt;
-&lt;polygon points='592.000000,160.000000 580.000000,154.399994 580.000000,165.600006' fill='currentColor' transform='rotate(0.000000, 584.000000, 160.000000)'&gt;&lt;/polygon&gt;
-&lt;path d='M 280,96 A 16,16 0 0,0 264,112' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 344,96 A 16,16 0 0,1 360,112' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 264,112 A 16,16 0 0,0 280,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 360,112 A 16,16 0 0,1 344,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='16' y='4' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='16' y='36' fill='currentColor' style='font-size:1em'&gt;b&lt;/text&gt;
-&lt;text text-anchor='middle' x='24' y='4' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='24' y='36' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
-&lt;text text-anchor='middle' x='32' y='36' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='40' y='36' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='48' y='36' fill='currentColor' style='font-size:1em'&gt;k&lt;/text&gt;
-&lt;text text-anchor='middle' x='56' y='84' fill='currentColor' style='font-size:1em'&gt;w&lt;/text&gt;
-&lt;text text-anchor='middle' x='56' y='180' fill='currentColor' style='font-size:1em'&gt;6&lt;/text&gt;
-&lt;text text-anchor='middle' x='64' y='84' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='64' y='100' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
-&lt;text text-anchor='middle' x='64' y='180' fill='currentColor' style='font-size:1em'&gt;6&lt;/text&gt;
-&lt;text text-anchor='middle' x='72' y='84' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='72' y='100' fill='currentColor' style='font-size:1em'&gt;h&lt;/text&gt;
-&lt;text text-anchor='middle' x='72' y='180' fill='currentColor' style='font-size:1em'&gt;″&lt;/text&gt;
-&lt;text text-anchor='middle' x='80' y='84' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
-&lt;text text-anchor='middle' x='80' y='100' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='88' y='84' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='88' y='100' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
-&lt;text text-anchor='middle' x='88' y='180' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
-&lt;text text-anchor='middle' x='96' y='84' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='96' y='100' fill='currentColor' style='font-size:1em'&gt;k&lt;/text&gt;
-&lt;text text-anchor='middle' x='96' y='180' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='104' y='84' fill='currentColor' style='font-size:1em'&gt;g&lt;/text&gt;
-&lt;text text-anchor='middle' x='104' y='180' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='112' y='180' fill='currentColor' style='font-size:1em'&gt;m&lt;/text&gt;
-&lt;text text-anchor='middle' x='128' y='180' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='136' y='36' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
-&lt;text text-anchor='middle' x='136' y='180' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='144' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='144' y='180' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='152' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='160' y='36' fill='currentColor' style='font-size:1em'&gt;k&lt;/text&gt;
-&lt;text text-anchor='middle' x='160' y='164' fill='currentColor' style='font-size:1em'&gt;~&lt;/text&gt;
-&lt;text text-anchor='middle' x='168' y='164' fill='currentColor' style='font-size:1em'&gt;3&lt;/text&gt;
-&lt;text text-anchor='middle' x='176' y='164' fill='currentColor' style='font-size:1em'&gt;.&lt;/text&gt;
-&lt;text text-anchor='middle' x='184' y='164' fill='currentColor' style='font-size:1em'&gt;5&lt;/text&gt;
-&lt;text text-anchor='middle' x='192' y='164' fill='currentColor' style='font-size:1em'&gt;″&lt;/text&gt;
-&lt;text text-anchor='middle' x='216' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='224' y='36' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='232' y='36' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='240' y='36' fill='currentColor' style='font-size:1em'&gt;g&lt;/text&gt;
-&lt;text text-anchor='middle' x='280' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='288' y='36' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='296' y='36' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='296' y='116' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='304' y='36' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
-&lt;text text-anchor='middle' x='304' y='116' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='312' y='116' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='312' y='148' fill='currentColor' style='font-size:1em'&gt;1&lt;/text&gt;
-&lt;text text-anchor='middle' x='320' y='36' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
-&lt;text text-anchor='middle' x='320' y='116' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
-&lt;text text-anchor='middle' x='320' y='148' fill='currentColor' style='font-size:1em'&gt;2&lt;/text&gt;
-&lt;text text-anchor='middle' x='320' y='180' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='328' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='328' y='148' fill='currentColor' style='font-size:1em'&gt;″&lt;/text&gt;
-&lt;text text-anchor='middle' x='328' y='180' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='336' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='336' y='180' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='344' y='36' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='344' y='148' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
-&lt;text text-anchor='middle' x='344' y='180' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
-&lt;text text-anchor='middle' x='352' y='84' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
-&lt;text text-anchor='middle' x='352' y='148' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='352' y='180' fill='currentColor' style='font-size:1em'&gt;-&lt;/text&gt;
-&lt;text text-anchor='middle' x='360' y='84' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='360' y='148' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='360' y='180' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
-&lt;text text-anchor='middle' x='368' y='84' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='368' y='148' fill='currentColor' style='font-size:1em'&gt;k&lt;/text&gt;
-&lt;text text-anchor='middle' x='368' y='180' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='376' y='84' fill='currentColor' style='font-size:1em'&gt;m&lt;/text&gt;
-&lt;text text-anchor='middle' x='376' y='180' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='384' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='384' y='180' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='392' y='36' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='400' y='36' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='400' y='180' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
-&lt;text text-anchor='middle' x='408' y='36' fill='currentColor' style='font-size:1em'&gt;g&lt;/text&gt;
-&lt;text text-anchor='middle' x='408' y='180' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='416' y='164' fill='currentColor' style='font-size:1em'&gt;~&lt;/text&gt;
-&lt;text text-anchor='middle' x='416' y='180' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='424' y='164' fill='currentColor' style='font-size:1em'&gt;8&lt;/text&gt;
-&lt;text text-anchor='middle' x='424' y='180' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='432' y='164' fill='currentColor' style='font-size:1em'&gt;.&lt;/text&gt;
-&lt;text text-anchor='middle' x='432' y='180' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='440' y='164' fill='currentColor' style='font-size:1em'&gt;5&lt;/text&gt;
-&lt;text text-anchor='middle' x='440' y='180' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='448' y='164' fill='currentColor' style='font-size:1em'&gt;″&lt;/text&gt;
-&lt;text text-anchor='middle' x='464' y='36' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
-&lt;text text-anchor='middle' x='472' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='480' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='488' y='36' fill='currentColor' style='font-size:1em'&gt;k&lt;/text&gt;
-&lt;text text-anchor='middle' x='536' y='36' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
-&lt;text text-anchor='middle' x='544' y='36' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='544' y='180' fill='currentColor' style='font-size:1em'&gt;7&lt;/text&gt;
-&lt;text text-anchor='middle' x='552' y='36' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='552' y='180' fill='currentColor' style='font-size:1em'&gt;8&lt;/text&gt;
-&lt;text text-anchor='middle' x='560' y='4' fill='currentColor' style='font-size:1em'&gt;b&lt;/text&gt;
-&lt;text text-anchor='middle' x='560' y='180' fill='currentColor' style='font-size:1em'&gt;″&lt;/text&gt;
-&lt;text text-anchor='middle' x='568' y='4' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
-&lt;text text-anchor='middle' x='576' y='4' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='576' y='180' fill='currentColor' style='font-size:1em'&gt;b&lt;/text&gt;
-&lt;text text-anchor='middle' x='584' y='4' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='584' y='180' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
-&lt;text text-anchor='middle' x='592' y='180' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='600' y='180' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;/g&gt;
-&lt;/svg&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;12&amp;quot; Portuguese cork&lt;/strong&gt; (78&amp;quot; − 12&amp;quot; = cork starts at 66&amp;quot;). Shape it as one
@@ -1306,145 +1321,27 @@ tape under the foot or a slight taper in the cork so the rings jam.&lt;/li&gt;
 &lt;a href="#option-b-skeleton-seat-modern-locks-solid" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A graphite skeleton seat (Fuji and ALPS make spinning versions in 16–18 mm)
 with split fore and rear grips. It&amp;rsquo;s mounted on a built-up arbor over the hex
 (masking tape or cork rings shaped round, epoxied).&lt;/p&gt;
-&lt;div class="goat svg-container "&gt;
-&lt;svg
-xmlns="http://www.w3.org/2000/svg"
-font-family="Menlo,Lucida Console,monospace"
-viewBox="0 0 600 169"
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt; tip butt
+---------&amp;#43;-&amp;#43;----------&amp;#43;---------------------&amp;#43;--------------------&amp;#43;---&amp;#43;
+| | fore | hood reel hood | rear grip |cap|
+---------&amp;#43; | grip | [=== foot ===] nut| (cork/EVA) | |
+&amp;#43;-&amp;#43;----------&amp;#43;---------&amp;#43;--&amp;#43;--------&amp;#43;--------------------&amp;#43;---&amp;#43;
+| | stem
+.--&amp;#43;--&amp;#43;--.
+| reel |
+&amp;#39;--------&amp;#39;
+|&amp;lt;-- 2.5″ --&amp;gt;|&amp;lt;----- 3.5″ -----&amp;gt;|&amp;lt;------- 6.5″ -------&amp;gt;|&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;g transform='translate(8,16)'&gt;
-&lt;path d='M 8,16 L 80,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 80,16 L 96,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 96,16 L 184,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 184,16 L 360,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 360,16 L 528,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 528,16 L 560,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 8,48 L 80,48' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 80,64 L 96,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 96,64 L 184,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 184,64 L 264,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 264,64 L 288,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 288,64 L 360,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 360,64 L 528,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 528,64 L 560,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 248,96 L 264,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 264,96 L 288,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 288,96 L 304,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 248,128 L 304,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 96,144 L 112,144' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 176,144 L 192,144' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 208,144 L 248,144' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 304,144 L 344,144' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 360,144 L 416,144' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 472,144 L 528,144' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 80,16 L 80,48' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 80,48 L 80,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 88,136 L 88,152' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 96,16 L 96,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 184,16 L 184,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 200,136 L 200,152' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 264,64 L 264,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 288,64 L 288,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 352,136 L 352,152' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 360,16 L 360,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 528,16 L 528,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 536,136 L 536,152' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 560,16 L 560,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;polygon points='104.000000,144.000000 92.000000,138.399994 92.000000,149.600006' fill='currentColor' transform='rotate(180.000000, 96.000000, 144.000000)'&gt;&lt;/polygon&gt;
-&lt;polygon points='200.000000,144.000000 188.000000,138.399994 188.000000,149.600006' fill='currentColor' transform='rotate(0.000000, 192.000000, 144.000000)'&gt;&lt;/polygon&gt;
-&lt;polygon points='216.000000,144.000000 204.000000,138.399994 204.000000,149.600006' fill='currentColor' transform='rotate(180.000000, 208.000000, 144.000000)'&gt;&lt;/polygon&gt;
-&lt;polygon points='352.000000,144.000000 340.000000,138.399994 340.000000,149.600006' fill='currentColor' transform='rotate(0.000000, 344.000000, 144.000000)'&gt;&lt;/polygon&gt;
-&lt;polygon points='368.000000,144.000000 356.000000,138.399994 356.000000,149.600006' fill='currentColor' transform='rotate(180.000000, 360.000000, 144.000000)'&gt;&lt;/polygon&gt;
-&lt;polygon points='536.000000,144.000000 524.000000,138.399994 524.000000,149.600006' fill='currentColor' transform='rotate(0.000000, 528.000000, 144.000000)'&gt;&lt;/polygon&gt;
-&lt;path d='M 248,96 A 16,16 0 0,0 232,112' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 304,96 A 16,16 0 0,1 320,112' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 232,112 A 16,16 0 0,0 248,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 320,112 A 16,16 0 0,1 304,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='16' y='4' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='24' y='4' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='120' y='36' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
-&lt;text text-anchor='middle' x='120' y='52' fill='currentColor' style='font-size:1em'&gt;g&lt;/text&gt;
-&lt;text text-anchor='middle' x='128' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='128' y='52' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='136' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='136' y='52' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='136' y='148' fill='currentColor' style='font-size:1em'&gt;2&lt;/text&gt;
-&lt;text text-anchor='middle' x='144' y='36' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='144' y='52' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='144' y='148' fill='currentColor' style='font-size:1em'&gt;.&lt;/text&gt;
-&lt;text text-anchor='middle' x='152' y='148' fill='currentColor' style='font-size:1em'&gt;5&lt;/text&gt;
-&lt;text text-anchor='middle' x='160' y='148' fill='currentColor' style='font-size:1em'&gt;″&lt;/text&gt;
-&lt;text text-anchor='middle' x='200' y='36' fill='currentColor' style='font-size:1em'&gt;h&lt;/text&gt;
-&lt;text text-anchor='middle' x='208' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='208' y='52' fill='currentColor' style='font-size:1em'&gt;[&lt;/text&gt;
-&lt;text text-anchor='middle' x='216' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='216' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='224' y='36' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
-&lt;text text-anchor='middle' x='224' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='232' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='248' y='52' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
-&lt;text text-anchor='middle' x='256' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='256' y='52' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='256' y='116' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='264' y='36' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='264' y='52' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='264' y='116' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='264' y='148' fill='currentColor' style='font-size:1em'&gt;3&lt;/text&gt;
-&lt;text text-anchor='middle' x='272' y='36' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='272' y='52' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='272' y='116' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='272' y='148' fill='currentColor' style='font-size:1em'&gt;.&lt;/text&gt;
-&lt;text text-anchor='middle' x='280' y='36' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
-&lt;text text-anchor='middle' x='280' y='116' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
-&lt;text text-anchor='middle' x='280' y='148' fill='currentColor' style='font-size:1em'&gt;5&lt;/text&gt;
-&lt;text text-anchor='middle' x='288' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='288' y='148' fill='currentColor' style='font-size:1em'&gt;″&lt;/text&gt;
-&lt;text text-anchor='middle' x='296' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='304' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='304' y='84' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
-&lt;text text-anchor='middle' x='312' y='36' fill='currentColor' style='font-size:1em'&gt;h&lt;/text&gt;
-&lt;text text-anchor='middle' x='312' y='52' fill='currentColor' style='font-size:1em'&gt;]&lt;/text&gt;
-&lt;text text-anchor='middle' x='312' y='84' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='320' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='320' y='84' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='328' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='328' y='84' fill='currentColor' style='font-size:1em'&gt;m&lt;/text&gt;
-&lt;text text-anchor='middle' x='336' y='36' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
-&lt;text text-anchor='middle' x='336' y='52' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='344' y='52' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
-&lt;text text-anchor='middle' x='352' y='52' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='408' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='408' y='52' fill='currentColor' style='font-size:1em'&gt;(&lt;/text&gt;
-&lt;text text-anchor='middle' x='416' y='36' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='416' y='52' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
-&lt;text text-anchor='middle' x='424' y='36' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='424' y='52' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='432' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='432' y='52' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='432' y='148' fill='currentColor' style='font-size:1em'&gt;6&lt;/text&gt;
-&lt;text text-anchor='middle' x='440' y='52' fill='currentColor' style='font-size:1em'&gt;k&lt;/text&gt;
-&lt;text text-anchor='middle' x='440' y='148' fill='currentColor' style='font-size:1em'&gt;.&lt;/text&gt;
-&lt;text text-anchor='middle' x='448' y='36' fill='currentColor' style='font-size:1em'&gt;g&lt;/text&gt;
-&lt;text text-anchor='middle' x='448' y='52' fill='currentColor' style='font-size:1em'&gt;/&lt;/text&gt;
-&lt;text text-anchor='middle' x='448' y='148' fill='currentColor' style='font-size:1em'&gt;5&lt;/text&gt;
-&lt;text text-anchor='middle' x='456' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='456' y='52' fill='currentColor' style='font-size:1em'&gt;E&lt;/text&gt;
-&lt;text text-anchor='middle' x='456' y='148' fill='currentColor' style='font-size:1em'&gt;″&lt;/text&gt;
-&lt;text text-anchor='middle' x='464' y='36' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='464' y='52' fill='currentColor' style='font-size:1em'&gt;V&lt;/text&gt;
-&lt;text text-anchor='middle' x='472' y='36' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='472' y='52' fill='currentColor' style='font-size:1em'&gt;A&lt;/text&gt;
-&lt;text text-anchor='middle' x='480' y='52' fill='currentColor' style='font-size:1em'&gt;)&lt;/text&gt;
-&lt;text text-anchor='middle' x='536' y='36' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
-&lt;text text-anchor='middle' x='544' y='36' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='552' y='36' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='560' y='4' fill='currentColor' style='font-size:1em'&gt;b&lt;/text&gt;
-&lt;text text-anchor='middle' x='568' y='4' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
-&lt;text text-anchor='middle' x='576' y='4' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='584' y='4' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;/g&gt;
-&lt;/svg&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed hood on one end, threaded hood plus lock nut on the other. Either
@@ -1513,7 +1410,7 @@ of rod, plus one.&lt;/p&gt;
 &lt;tr&gt;
 &lt;td style="text-align: right"&gt;0&amp;quot;&lt;/td&gt;
 &lt;td style="text-align: right"&gt;6 mm ring, &lt;strong&gt;6/64 tube&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;across-corners at the tip ≈ 0.092&amp;quot;, so 6/64 (0.094&amp;quot;) fits&lt;/td&gt;
+&lt;td&gt;across-corners at the tip ≈ 0.092&amp;quot;, so 6/64 (0.094&amp;quot;) only just fits; see the tiptop note under the spec table&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style="text-align: right"&gt;5&amp;quot;&lt;/td&gt;
@@ -1661,7 +1558,9 @@ bends. Do several casts per spot before moving. Browns are spawning or just
 finished, so &lt;strong&gt;stay off redds&lt;/strong&gt;: the clean, light-colored gravel patches.&lt;/p&gt;
 &lt;h2&gt;Build checklist&lt;span class="hx:absolute hx:-mt-20" id="build-checklist"&gt;&lt;/span&gt;
 &lt;a href="#build-checklist" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;del&gt;Check the taper&lt;/del&gt;: done in caneDNA (variant D, see &lt;a href="#taper"&gt;Taper&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;Check the taper&lt;/del&gt;: done in caneDNA for variant D (see &lt;a href="#taper"&gt;Taper&lt;/a&gt;). &lt;strong&gt;Decide D vs. E
+before cutting&lt;/strong&gt; (&lt;a href="#variant-e-trimmed-lower-third-proposed"&gt;variant E&lt;/a&gt;); the
+butt-section mill table differs.&lt;/li&gt;
 &lt;li&gt;Split culms into 5–6&amp;rsquo; sections as in the class build. Stagger nodes 3×3,
 and keep them out of the 36–42&amp;quot; splice zone.&lt;/li&gt;
 &lt;li&gt;Rough → heat-treat → finish each section on the standard bed. Mill the tip
@@ -1712,7 +1611,7 @@ it) carries over unchanged.&lt;/p&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Tip size / butt&lt;/td&gt;
-&lt;td&gt;4.5 / 0.33&amp;quot; (8.50 mm)&lt;/td&gt;
+&lt;td&gt;4.5 / 8.50 mm (0.335&amp;quot;)&lt;/td&gt;
 &lt;td&gt;4.5 / 0.33&amp;quot; (8.40 mm)&lt;/td&gt;
 &lt;td&gt;5.0 / 0.34&amp;quot;&lt;/td&gt;
 &lt;/tr&gt;
@@ -1776,173 +1675,28 @@ measure it yourself.&lt;/p&gt;
 &lt;a href="#handle-fuji-vss-split-grip" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;This is Option B from &lt;a href="#handle-and-reel-seat"&gt;Handle and reel seat&lt;/a&gt;, with
 real parts. The handle runs about 16&amp;quot; from the butt cap to the winding
 check:&lt;/p&gt;
-&lt;div class="goat svg-container "&gt;
-&lt;svg
-xmlns="http://www.w3.org/2000/svg"
-font-family="Menlo,Lucida Console,monospace"
-viewBox="0 0 600 185"
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt; tip butt
+---------&amp;#43;-&amp;#43;----------&amp;#43;---------------------&amp;#43;--------------------&amp;#43;---&amp;#43;
+| | fore | hood reel hood | rear grip |cap|
+---------&amp;#43; | grip | [=== foot ===] nut| (cork) | |
+&amp;#43;-&amp;#43;----------&amp;#43;---------&amp;#43;--&amp;#43;--------&amp;#43;--------------------&amp;#43;---&amp;#43;
+| | stem
+.--&amp;#43;--&amp;#43;--.
+| reel |
+&amp;#39;--------&amp;#39;
+|&amp;lt;-- 3.75″ --&amp;gt;|&amp;lt;---- 4.7″ -------&amp;gt;|&amp;lt;------- 7″ --------&amp;gt;|
+winding check reel foot ~9.9″ from butt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;g transform='translate(8,16)'&gt;
-&lt;path d='M 8,16 L 80,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 80,16 L 96,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 96,16 L 184,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 184,16 L 360,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 360,16 L 528,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 528,16 L 560,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 8,48 L 80,48' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 80,64 L 96,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 96,64 L 184,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 184,64 L 264,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 264,64 L 288,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 288,64 L 360,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 360,64 L 528,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 528,64 L 560,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 248,96 L 264,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 264,96 L 288,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 288,96 L 304,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 248,128 L 304,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 96,144 L 112,144' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 176,144 L 192,144' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 208,144 L 240,144' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 296,144 L 352,144' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 368,144 L 424,144' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 464,144 L 528,144' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 80,16 L 80,48' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 80,48 L 80,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 88,136 L 88,152' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 96,16 L 96,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 184,16 L 184,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 200,136 L 200,152' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 264,64 L 264,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 288,64 L 288,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 360,16 L 360,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 360,136 L 360,152' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 528,16 L 528,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 536,136 L 536,152' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 560,16 L 560,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;polygon points='104.000000,144.000000 92.000000,138.399994 92.000000,149.600006' fill='currentColor' transform='rotate(180.000000, 96.000000, 144.000000)'&gt;&lt;/polygon&gt;
-&lt;polygon points='200.000000,144.000000 188.000000,138.399994 188.000000,149.600006' fill='currentColor' transform='rotate(0.000000, 192.000000, 144.000000)'&gt;&lt;/polygon&gt;
-&lt;polygon points='216.000000,144.000000 204.000000,138.399994 204.000000,149.600006' fill='currentColor' transform='rotate(180.000000, 208.000000, 144.000000)'&gt;&lt;/polygon&gt;
-&lt;polygon points='360.000000,144.000000 348.000000,138.399994 348.000000,149.600006' fill='currentColor' transform='rotate(0.000000, 352.000000, 144.000000)'&gt;&lt;/polygon&gt;
-&lt;polygon points='376.000000,144.000000 364.000000,138.399994 364.000000,149.600006' fill='currentColor' transform='rotate(180.000000, 368.000000, 144.000000)'&gt;&lt;/polygon&gt;
-&lt;polygon points='536.000000,144.000000 524.000000,138.399994 524.000000,149.600006' fill='currentColor' transform='rotate(0.000000, 528.000000, 144.000000)'&gt;&lt;/polygon&gt;
-&lt;path d='M 248,96 A 16,16 0 0,0 232,112' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 304,96 A 16,16 0 0,1 320,112' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 232,112 A 16,16 0 0,0 248,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 320,112 A 16,16 0 0,1 304,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='16' y='4' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='24' y='4' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='64' y='164' fill='currentColor' style='font-size:1em'&gt;w&lt;/text&gt;
-&lt;text text-anchor='middle' x='72' y='164' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='80' y='164' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='88' y='164' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
-&lt;text text-anchor='middle' x='96' y='164' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='104' y='164' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='112' y='164' fill='currentColor' style='font-size:1em'&gt;g&lt;/text&gt;
-&lt;text text-anchor='middle' x='120' y='36' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
-&lt;text text-anchor='middle' x='120' y='52' fill='currentColor' style='font-size:1em'&gt;g&lt;/text&gt;
-&lt;text text-anchor='middle' x='128' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='128' y='52' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='128' y='148' fill='currentColor' style='font-size:1em'&gt;3&lt;/text&gt;
-&lt;text text-anchor='middle' x='128' y='164' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
-&lt;text text-anchor='middle' x='136' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='136' y='52' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='136' y='148' fill='currentColor' style='font-size:1em'&gt;.&lt;/text&gt;
-&lt;text text-anchor='middle' x='136' y='164' fill='currentColor' style='font-size:1em'&gt;h&lt;/text&gt;
-&lt;text text-anchor='middle' x='144' y='36' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='144' y='52' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='144' y='148' fill='currentColor' style='font-size:1em'&gt;7&lt;/text&gt;
-&lt;text text-anchor='middle' x='144' y='164' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='152' y='148' fill='currentColor' style='font-size:1em'&gt;5&lt;/text&gt;
-&lt;text text-anchor='middle' x='152' y='164' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
-&lt;text text-anchor='middle' x='160' y='148' fill='currentColor' style='font-size:1em'&gt;″&lt;/text&gt;
-&lt;text text-anchor='middle' x='160' y='164' fill='currentColor' style='font-size:1em'&gt;k&lt;/text&gt;
-&lt;text text-anchor='middle' x='200' y='36' fill='currentColor' style='font-size:1em'&gt;h&lt;/text&gt;
-&lt;text text-anchor='middle' x='208' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='208' y='52' fill='currentColor' style='font-size:1em'&gt;[&lt;/text&gt;
-&lt;text text-anchor='middle' x='216' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='216' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='224' y='36' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
-&lt;text text-anchor='middle' x='224' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='232' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='248' y='52' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
-&lt;text text-anchor='middle' x='256' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='256' y='52' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='256' y='116' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='256' y='148' fill='currentColor' style='font-size:1em'&gt;4&lt;/text&gt;
-&lt;text text-anchor='middle' x='264' y='36' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='264' y='52' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='264' y='116' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='264' y='148' fill='currentColor' style='font-size:1em'&gt;.&lt;/text&gt;
-&lt;text text-anchor='middle' x='272' y='36' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='272' y='52' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='272' y='116' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='272' y='148' fill='currentColor' style='font-size:1em'&gt;7&lt;/text&gt;
-&lt;text text-anchor='middle' x='280' y='36' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
-&lt;text text-anchor='middle' x='280' y='116' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
-&lt;text text-anchor='middle' x='280' y='148' fill='currentColor' style='font-size:1em'&gt;″&lt;/text&gt;
-&lt;text text-anchor='middle' x='288' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='296' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='296' y='164' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='304' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='304' y='84' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
-&lt;text text-anchor='middle' x='304' y='164' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='312' y='36' fill='currentColor' style='font-size:1em'&gt;h&lt;/text&gt;
-&lt;text text-anchor='middle' x='312' y='52' fill='currentColor' style='font-size:1em'&gt;]&lt;/text&gt;
-&lt;text text-anchor='middle' x='312' y='84' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='312' y='164' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='320' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='320' y='84' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='320' y='164' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
-&lt;text text-anchor='middle' x='328' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='328' y='84' fill='currentColor' style='font-size:1em'&gt;m&lt;/text&gt;
-&lt;text text-anchor='middle' x='336' y='36' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
-&lt;text text-anchor='middle' x='336' y='52' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='336' y='164' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
-&lt;text text-anchor='middle' x='344' y='52' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
-&lt;text text-anchor='middle' x='344' y='164' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='352' y='52' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='352' y='164' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='360' y='164' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='376' y='164' fill='currentColor' style='font-size:1em'&gt;~&lt;/text&gt;
-&lt;text text-anchor='middle' x='384' y='164' fill='currentColor' style='font-size:1em'&gt;9&lt;/text&gt;
-&lt;text text-anchor='middle' x='392' y='164' fill='currentColor' style='font-size:1em'&gt;.&lt;/text&gt;
-&lt;text text-anchor='middle' x='400' y='164' fill='currentColor' style='font-size:1em'&gt;9&lt;/text&gt;
-&lt;text text-anchor='middle' x='408' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='408' y='52' fill='currentColor' style='font-size:1em'&gt;(&lt;/text&gt;
-&lt;text text-anchor='middle' x='408' y='164' fill='currentColor' style='font-size:1em'&gt;″&lt;/text&gt;
-&lt;text text-anchor='middle' x='416' y='36' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='416' y='52' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
-&lt;text text-anchor='middle' x='424' y='36' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='424' y='52' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='424' y='164' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
-&lt;text text-anchor='middle' x='432' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='432' y='52' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='432' y='164' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='440' y='52' fill='currentColor' style='font-size:1em'&gt;k&lt;/text&gt;
-&lt;text text-anchor='middle' x='440' y='148' fill='currentColor' style='font-size:1em'&gt;7&lt;/text&gt;
-&lt;text text-anchor='middle' x='440' y='164' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='448' y='36' fill='currentColor' style='font-size:1em'&gt;g&lt;/text&gt;
-&lt;text text-anchor='middle' x='448' y='52' fill='currentColor' style='font-size:1em'&gt;)&lt;/text&gt;
-&lt;text text-anchor='middle' x='448' y='148' fill='currentColor' style='font-size:1em'&gt;″&lt;/text&gt;
-&lt;text text-anchor='middle' x='448' y='164' fill='currentColor' style='font-size:1em'&gt;m&lt;/text&gt;
-&lt;text text-anchor='middle' x='456' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='464' y='36' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='464' y='164' fill='currentColor' style='font-size:1em'&gt;b&lt;/text&gt;
-&lt;text text-anchor='middle' x='472' y='36' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='472' y='164' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
-&lt;text text-anchor='middle' x='480' y='164' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='488' y='164' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='536' y='36' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
-&lt;text text-anchor='middle' x='544' y='36' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='552' y='36' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='560' y='4' fill='currentColor' style='font-size:1em'&gt;b&lt;/text&gt;
-&lt;text text-anchor='middle' x='568' y='4' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
-&lt;text text-anchor='middle' x='576' y='4' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='584' y='4' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;/g&gt;
-&lt;/svg&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Reel seat: Fuji VSS size 16&lt;/strong&gt; (VSSM-16). It&amp;rsquo;s 120 mm long with a
@@ -1956,7 +1710,8 @@ It&amp;rsquo;s made to mate with the VSS 16 nose.&lt;/li&gt;
 size chart. Ream the 0.250&amp;quot; bore out to the blank&amp;rsquo;s 8.0–8.5 mm. Dry-fit
 the tenon into the VSS&amp;rsquo;s rear nut before gluing, because Mud Hole doesn&amp;rsquo;t
 list this grip as a VSS match.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Winding check&lt;/strong&gt; for a ~7.3 mm (0.29&amp;quot;) blank at the front of the foregrip.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Winding check&lt;/strong&gt; for a ~7.1 mm (0.28&amp;quot;) blank at the front of the foregrip
+(the diameter table above reads 7.10 mm at 16&amp;quot; from the butt).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Guides: Fuji KL-H 169H kit (KR-style)&lt;span class="hx:absolute hx:-mt-20" id="guides-fuji-kl-h-169h-kit-kr-style"&gt;&lt;/span&gt;
 &lt;a href="#guides-fuji-kl-h-169h-kit-kr-style" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Mud Hole&amp;rsquo;s &lt;a href="https://mudhole.com/products/fuji-kl-h-high-frame-spinning-guide-kits"target="_blank" rel="noopener"&gt;Fuji KL-H 169H kit&lt;/a&gt;
@@ -2127,7 +1882,7 @@ I couldn&amp;rsquo;t confirm that size&amp;rsquo;s SKU or price on the page.&lt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style="text-align: right"&gt;1&lt;/td&gt;
-&lt;td&gt;Winding check, ~7.3 mm (0.29&amp;quot;)&lt;/td&gt;
+&lt;td&gt;Winding check, ~7.1 mm (0.28&amp;quot;)&lt;/td&gt;
 &lt;td&gt;verify&lt;/td&gt;
 &lt;td style="text-align: right"&gt;~$1–3&lt;/td&gt;
 &lt;td&gt;Mud Hole trim parts&lt;/td&gt;
