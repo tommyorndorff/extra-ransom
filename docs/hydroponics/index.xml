@@ -79,26 +79,109 @@
 &lt;p&gt;The short version of what a vertical tower needs: &lt;strong&gt;water + dissolved nutrients, oxygen at the roots, light, and a stable temperature.&lt;/strong&gt; Everything else is detail.&lt;/p&gt;
 &lt;h2&gt;How a vertical tower works&lt;span class="hx:absolute hx:-mt-20" id="how-a-vertical-tower-works"&gt;&lt;/span&gt;
 &lt;a href="#how-a-vertical-tower-works" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The tower in these notes (see &lt;a href="../the-tower/"&gt;The Tower&lt;/a&gt;) has a submersible pump in a 40+ L pot at the base. The pump pushes solution up a 20 mm center pipe to a sprinkler head at the top, and it rains down through the stack of grow pots, past the roots of plants held in net cups, and drains back through the pot floors into the reservoir. Roots get water, air, and a shallow standing layer in each pot between cycles; one commenter on the model found roots look healthier this way than in designs that drain dry.&lt;/p&gt;
-&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
-&lt;div&gt;&lt;pre&gt;&lt;code&gt; top sprinkler
-^ | rain down
-pipe | v
-[cup][pot][cup] pots stack
-[cup][pot][cup] on the pipe
-^ |
-&amp;#43;----&amp;#43;---v-----&amp;#43;
-| pump tank |
-&amp;#43;--------------&amp;#43;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
-&lt;button
-class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-title="Copy code"
-aria-label="Copy code"
-data-copied-label="Copied!"
+&lt;div class="goat svg-container "&gt;
+&lt;svg
+xmlns="http://www.w3.org/2000/svg"
+font-family="Menlo,Lucida Console,monospace"
+viewBox="0 0 248 153"
 &gt;
-&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
-&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
-&lt;/button&gt;
-&lt;/div&gt;
+&lt;g transform='translate(8,16)'&gt;
+&lt;path d='M 16,96 L 56,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 56,96 L 80,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 96,96 L 136,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 16,128 L 136,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 16,96 L 16,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 56,80 L 56,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 88,16 L 88,32' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 88,80 L 88,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;path d='M 136,96 L 136,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
+&lt;polygon points='64.000000,16.000000 52.000000,10.400000 52.000000,21.600000' fill='currentColor' transform='rotate(270.000000, 56.000000, 16.000000)'&gt;&lt;/polygon&gt;
+&lt;polygon points='64.000000,80.000000 52.000000,74.400002 52.000000,85.599998' fill='currentColor' transform='rotate(270.000000, 56.000000, 80.000000)'&gt;&lt;/polygon&gt;
+&lt;polygon points='96.000000,32.000000 84.000000,26.400000 84.000000,37.599998' fill='currentColor' transform='rotate(90.000000, 88.000000, 32.000000)'&gt;&lt;/polygon&gt;
+&lt;polygon points='96.000000,96.000000 84.000000,90.400002 84.000000,101.599998' fill='currentColor' transform='rotate(90.000000, 88.000000, 96.000000)'&gt;&lt;/polygon&gt;
+&lt;text text-anchor='middle' x='16' y='4' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
+&lt;text text-anchor='middle' x='16' y='36' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
+&lt;text text-anchor='middle' x='16' y='52' fill='currentColor' style='font-size:1em'&gt;[&lt;/text&gt;
+&lt;text text-anchor='middle' x='16' y='68' fill='currentColor' style='font-size:1em'&gt;[&lt;/text&gt;
+&lt;text text-anchor='middle' x='24' y='4' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
+&lt;text text-anchor='middle' x='24' y='36' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
+&lt;text text-anchor='middle' x='24' y='52' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
+&lt;text text-anchor='middle' x='24' y='68' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
+&lt;text text-anchor='middle' x='32' y='4' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
+&lt;text text-anchor='middle' x='32' y='36' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
+&lt;text text-anchor='middle' x='32' y='52' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
+&lt;text text-anchor='middle' x='32' y='68' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
+&lt;text text-anchor='middle' x='32' y='116' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
+&lt;text text-anchor='middle' x='40' y='36' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
+&lt;text text-anchor='middle' x='40' y='52' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
+&lt;text text-anchor='middle' x='40' y='68' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
+&lt;text text-anchor='middle' x='40' y='116' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
+&lt;text text-anchor='middle' x='48' y='4' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
+&lt;text text-anchor='middle' x='48' y='52' fill='currentColor' style='font-size:1em'&gt;]&lt;/text&gt;
+&lt;text text-anchor='middle' x='48' y='68' fill='currentColor' style='font-size:1em'&gt;]&lt;/text&gt;
+&lt;text text-anchor='middle' x='48' y='116' fill='currentColor' style='font-size:1em'&gt;m&lt;/text&gt;
+&lt;text text-anchor='middle' x='56' y='4' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
+&lt;text text-anchor='middle' x='56' y='36' fill='currentColor' style='font-size:1em'&gt;|&lt;/text&gt;
+&lt;text text-anchor='middle' x='56' y='52' fill='currentColor' style='font-size:1em'&gt;[&lt;/text&gt;
+&lt;text text-anchor='middle' x='56' y='68' fill='currentColor' style='font-size:1em'&gt;[&lt;/text&gt;
+&lt;text text-anchor='middle' x='56' y='116' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
+&lt;text text-anchor='middle' x='64' y='4' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
+&lt;text text-anchor='middle' x='64' y='52' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
+&lt;text text-anchor='middle' x='64' y='68' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
+&lt;text text-anchor='middle' x='72' y='4' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
+&lt;text text-anchor='middle' x='72' y='52' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
+&lt;text text-anchor='middle' x='72' y='68' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
+&lt;text text-anchor='middle' x='80' y='4' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
+&lt;text text-anchor='middle' x='80' y='52' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
+&lt;text text-anchor='middle' x='80' y='68' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
+&lt;text text-anchor='middle' x='80' y='116' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
+&lt;text text-anchor='middle' x='88' y='4' fill='currentColor' style='font-size:1em'&gt;k&lt;/text&gt;
+&lt;text text-anchor='middle' x='88' y='52' fill='currentColor' style='font-size:1em'&gt;]&lt;/text&gt;
+&lt;text text-anchor='middle' x='88' y='68' fill='currentColor' style='font-size:1em'&gt;]&lt;/text&gt;
+&lt;text text-anchor='middle' x='88' y='116' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
+&lt;text text-anchor='middle' x='96' y='4' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
+&lt;text text-anchor='middle' x='96' y='52' fill='currentColor' style='font-size:1em'&gt;[&lt;/text&gt;
+&lt;text text-anchor='middle' x='96' y='68' fill='currentColor' style='font-size:1em'&gt;[&lt;/text&gt;
+&lt;text text-anchor='middle' x='96' y='116' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
+&lt;text text-anchor='middle' x='104' y='4' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
+&lt;text text-anchor='middle' x='104' y='52' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
+&lt;text text-anchor='middle' x='104' y='68' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
+&lt;text text-anchor='middle' x='104' y='116' fill='currentColor' style='font-size:1em'&gt;k&lt;/text&gt;
+&lt;text text-anchor='middle' x='112' y='4' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
+&lt;text text-anchor='middle' x='112' y='20' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
+&lt;text text-anchor='middle' x='112' y='52' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
+&lt;text text-anchor='middle' x='112' y='68' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
+&lt;text text-anchor='middle' x='120' y='20' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
+&lt;text text-anchor='middle' x='120' y='52' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
+&lt;text text-anchor='middle' x='120' y='68' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
+&lt;text text-anchor='middle' x='128' y='20' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
+&lt;text text-anchor='middle' x='128' y='52' fill='currentColor' style='font-size:1em'&gt;]&lt;/text&gt;
+&lt;text text-anchor='middle' x='128' y='68' fill='currentColor' style='font-size:1em'&gt;]&lt;/text&gt;
+&lt;text text-anchor='middle' x='136' y='20' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
+&lt;text text-anchor='middle' x='152' y='20' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
+&lt;text text-anchor='middle' x='152' y='52' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
+&lt;text text-anchor='middle' x='152' y='68' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
+&lt;text text-anchor='middle' x='160' y='20' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
+&lt;text text-anchor='middle' x='160' y='52' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
+&lt;text text-anchor='middle' x='160' y='68' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
+&lt;text text-anchor='middle' x='168' y='20' fill='currentColor' style='font-size:1em'&gt;w&lt;/text&gt;
+&lt;text text-anchor='middle' x='168' y='52' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
+&lt;text text-anchor='middle' x='176' y='20' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
+&lt;text text-anchor='middle' x='176' y='52' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
+&lt;text text-anchor='middle' x='176' y='68' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
+&lt;text text-anchor='middle' x='184' y='68' fill='currentColor' style='font-size:1em'&gt;h&lt;/text&gt;
+&lt;text text-anchor='middle' x='192' y='52' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
+&lt;text text-anchor='middle' x='192' y='68' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
+&lt;text text-anchor='middle' x='200' y='52' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
+&lt;text text-anchor='middle' x='208' y='52' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
+&lt;text text-anchor='middle' x='208' y='68' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
+&lt;text text-anchor='middle' x='216' y='52' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
+&lt;text text-anchor='middle' x='216' y='68' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
+&lt;text text-anchor='middle' x='224' y='52' fill='currentColor' style='font-size:1em'&gt;k&lt;/text&gt;
+&lt;text text-anchor='middle' x='224' y='68' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
+&lt;text text-anchor='middle' x='232' y='68' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
 &lt;/div&gt;
 &lt;p&gt;A bigger reservoir is more forgiving: pH and nutrient concentration drift more slowly. This design&amp;rsquo;s 40+ L pot is a good size.&lt;/p&gt;
 &lt;h2&gt;How often to run the pump&lt;span class="hx:absolute hx:-mt-20" id="how-often-to-run-the-pump"&gt;&lt;/span&gt;
