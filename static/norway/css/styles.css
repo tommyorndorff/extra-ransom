@@ -63,7 +63,7 @@ li{margin:.35em 0}
 .mapwrap{max-width:1100px;margin:28px auto 0;padding:0 20px}
 #map{height:min(70vh,560px);min-height:360px;border-radius:4px;background:var(--panel);border:1px solid var(--rule)}
 .views{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}
-.views button{font:700 .88rem var(--display);padding:7px 14px;border-radius:99px;border:1.5px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer}
+.views button{font:700 .88rem var(--display);min-height:40px;padding:7px 16px;border-radius:99px;border:1.5px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer}
 .views button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
 .mapnote{font-size:.9rem;color:var(--muted);margin:10px 0 0}
 .key{display:flex;flex-wrap:wrap;gap:6px 18px;margin:12px 0 0;font:600 .88rem var(--display);padding:0}
