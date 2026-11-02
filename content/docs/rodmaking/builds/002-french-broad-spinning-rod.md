@@ -20,7 +20,9 @@ reel, and lures.
 >
 > **Status:** design only. The taper below hasn't been cut yet. It's been
 > checked against the library's spinning rods in caneDNA (see
-> [Taper](#taper)).
+> [Taper](#taper)). A review on 2026-11-02 found the lower third runs stiffer
+> than the reference rods; a trimmed [variant E](#variant-e-trimmed-lower-third-proposed)
+> is proposed but **not adopted**.
 
 ## The water: French Broad at Hap Simpson, Nov–Dec
 
@@ -88,10 +90,16 @@ the hand. That's the feel I'm after here.
 |line           |4–6 lb mono                                            |
 |lure weight    |1/16–1/4 oz (design point 1/8 oz)                      |
 |tip            |0.080" → tiptop tube **6/64**                          |
-|butt (grip)    |0.279–0.281"                                           |
+|butt (grip)    |0.279–0.281" (variant D; variant E is 0.262–0.264")    |
 |handle         |12" full cork, two sliding rings                       |
 |guides         |6 single-foot + tiptop (16 mm stripper)                |
 |strip length   |~50" per section (incl. splice overlap and cut-offs)   |
+
+> **Tiptop fit is tight.** Across the corners, a 0.080" hex tip is
+> 0.080 ÷ cos 30° = 0.0924", against a 6/64 tube at 0.09375", about 0.0013" of
+> clearance. The tube also covers the first ~½" of the rod, where the taper is
+> a little larger. Test-fit before wrapping and be ready to relieve the tip
+> corners or step up to a 7/64 tube.
 
 ## Two pieces: splice or ferrule
 
@@ -134,7 +142,7 @@ applies as-is.
 | | Splice | 12/64 ferrule |
 |---|---|---|
 | Weight at mid-rod | none | ~0.2 oz, more than the lure |
-| Action (caneDNA) | same as a one-piece | butt works ~6–10% harder at 45–60" |
+| Action (caneDNA) | same as a one-piece (the model ignores the tape) | butt works ~6–10% harder at 45–60" |
 | Setup at the river | tape it, ~1 minute | push it together |
 | Failure modes | feather edges chip if not whipped; align by eye | stiff spot ~2.5" long; ferrule fit |
 
@@ -187,7 +195,8 @@ stiffened it **+4% from 10" to 60"**, with the tip left as-is. That's the
 
 ### caneDNA results
 
-caneDNA uses RodDNA's casting-load model. I compared this taper against the
+caneDNA uses RodDNA's casting-load model. (The lure-stress and recovery
+numbers below carry the caveats listed after the table.) I compared this taper against the
 16 bamboo spinning rods in its library, including "Spin Rod 6' 1 pc.", which
 is essentially Tyree's 6'. For the lures, each lure was modeled as a weight
 at the tip with a 4× impact factor. Stress is averaged from 10" to the grip;
@@ -196,15 +205,22 @@ lower stress means a stiffer rod.
 | Taper | Stress @ 1/16 oz | @ 1/8 oz | @ 1/4 oz | Recovery (RodDNA load) |
 |---|---:|---:|---:|---:|
 | First draft (straight Tyree scale-up) | 54k | 67k | 92k | 1.87 Hz |
-| **Variant D (this taper)** | 51k | **63k** | 87k | **2.00 Hz** |
-| Tyree 6' 1pc (reference) | 52k | 65k | 91k | 2.42 Hz |
+| **Variant D (this taper)** | 51k | **63k** | 87k | **2.00 Hz** (75" taper) |
+| Tyree 6' 1pc (reference) | 52k | 65k | 91k | 2.42 Hz (60" taper; not like for like) |
 
 - **Stress level:** per lure weight, the rod loads like Tyree's proven 6'.
   It sits between the ultralight T&T (higher stress) and the 6–10 lb 7'
   spinners (lower), which fits the light rating.
 - **Recovery:** the first draft was the slowest-recovering rod of any 6'+
-  spinner in the library. Scaling Tyree's 2.42 Hz to 78" predicts about 2.06,
-  and variant D recovers at 2.00. So D is Tyree's rod at 6'6".
+  spinner in the library. **Correction (2026-11-02):** the 2.42 Hz and 2.00 Hz
+  above are not like for like. The engine integrates over the stored taper
+  length, which is 60" for the Tyree record and 75" for D, so scaling 2.42 Hz
+  to 78" (about 2.06) doesn't validate D. Over the same 60" cantilever, D is
+  **2.55 Hz against Tyree's 2.42** (about 5% faster), and 18–19% faster than
+  Holder's 6' ultralight (2.16) and Young's Spinmaster (2.14). D matches
+  Tyree through the top 40" but is roughly 3–16% thicker than the references
+  from 55" to 65" (depending on which rod). See
+  [variant E](#variant-e-trimmed-lower-third-proposed).
 - **Shape:** stress rises toward the butt with light lures, because the
   cane's own weight dominates. It flattens at 1/4 oz.
 - **Ferrule:** a ~0.2 oz 12/64 ferrule at 39" raises butt stress 6–10%
@@ -212,11 +228,83 @@ lower stress means a stiffer rod.
   so the taper doesn't change. With RodDNA's own heavier default ferrule
   weight (0.53 oz) it's about +30%.
 - **Caveats:** the frequencies assume a cane stiffness (E) of 2.4 million psi,
-  so compare them between rods rather than as absolutes. This isn't Hexrod;
+  so compare them between rods rather than as absolutes. The lure-stress table
+  above comes from a lure-at-the-tip load model that isn't in the caneDNA
+  repo (its `stress_curve` is RodDNA's fly-line model), so those figures
+  couldn't be reproduced in the 2026-11-02 review; treat them as approximate. This isn't Hexrod;
   [Hexrod](https://www.hexrod.net/Hexrod_doc/hexrod-doc.html) only models fly
   lines.
 
+### Variant E: trimmed lower third (proposed)
+
+**Not adopted.** Variant D (above) stays the documented taper until I decide.
+The 2026-11-02 review compared D with every comparable light spinner in the
+caneDNA library, including two tapers added from the Rodmakers list (Robert
+Holder's 6' "Ibantik Spinner" ultralight and Paul H. Young's 7'2" Spinmaster,
+both from [hexrod.net's rodmakers tapers](https://www.hexrod.net/Tapers/More_rodmakers_tapers/index.html)).
+D is a good match through the top 40" but runs thicker than all of them from
+55" down, which makes the rod stiffer than the reference light rods. E trims only
+the stations from 55" to the butt; **0–50" is identical to D**.
+
+| Inches from tip | D | E | Change |
+|---:|---:|---:|---:|
+| 50 | 0.226 | 0.226 | 0 |
+| 55 | 0.241 | 0.237 | −0.004 |
+| 60 | 0.257 | 0.247 | −0.010 |
+| 65 | 0.271 | 0.256 | −0.015 |
+| 70 | 0.279 | 0.262 | −0.017 |
+| 75 | 0.281 | 0.264 | −0.017 |
+| 78 | 0.281 | 0.264 | −0.017 |
+
+Same modal engine, same density and tip mass, E against the references:
+
+| Rod | Dimension @60" | Frequency over a 60" cantilever | Frequency, full taper |
+|---|---:|---:|---:|
+| Variant D | 0.257 | 2.55 Hz | 2.00 Hz (75") |
+| **Variant E** | **0.247** | **2.47 Hz** | **1.82 Hz (75")** |
+| Tyree 6' (library) | 0.245 | 2.42 Hz | 2.42 Hz (60") |
+| Holder Ibantik 6' UL | 0.231 | 2.16 Hz | 1.68 Hz (70") |
+| Young Spinmaster 7'2" | 0.226 | 2.14 Hz | 1.66 Hz (74") |
+
+E lands within about 2% of Tyree over the same span and sits between D and the
+two ultralights over the full length. That is only a comparison of tapers by
+the engine's frequency, not a prediction of how it casts.
+The reel seat and cork are unaffected; only the butt-end dimension under the
+grip drops from 0.281" to 0.264". If you adopt E, the **tip section is
+unchanged**, but the butt-section settings from 30" to 65" all change because
+the thickest station (the butt) is smaller:
+
+__Butt section, variant E: 30 to 80 in__ (finished 39–78"; long to 34" for the splice)
+
+|Inches|Rod Dim|Half Dim|Rougher Oversize|MHM Oversize|Finish Oversize|MHM Setting|Station|
+|-----:|------:|-------:|-------:|-------:|-------:|-------:|---:|
+|30|0.167|0.0835|0.1535|0.1135|0.0865|0.0485|13|
+|35|0.182|0.0910|0.1610|0.1210|0.0940|0.0410|12|
+|40|0.196|0.0980|0.1680|0.1280|0.1010|0.0340|11|
+|45|0.211|0.1055|0.1755|0.1355|0.1085|0.0265|10|
+|50|0.226|0.1130|0.1830|0.1430|0.1160|0.0190|9|
+|55|0.237|0.1185|0.1885|0.1485|0.1215|0.0135|8|
+|60|0.247|0.1235|0.1935|0.1535|0.1265|0.0085|7|
+|65|0.256|0.1280|0.1980|0.1580|0.1310|0.0040|6|
+|70|0.262|0.1310|0.2010|0.1610|0.1340|0.0010|5|
+|75|0.264|0.1320|0.2020|0.1620|0.1350|0.0000|4|
+|80|0.264|0.1320|0.2020|0.1620|0.1350|0.0000|3|
+
+The largest change between adjacent stations is 0.0075", under the bed's
+0.020" limit. Caveat: E has the same untested-cane status as D. It has only been
+checked against other tapers, not cast.
+
 ### Morgan Hand Mill settings
+
+> **Check the form angle.** These settings use the strip height as half the
+> flat-to-flat dimension (a 60° hex). The Hand Mill's 6-strip cutter is 61.5°,
+> and Bob Clay's course taper says to deduct about 2.3% from 60° dimensions
+> when milling on it. caneDNA flags this as a possible refinement, and
+> [Rod 001](/docs/rodmaking/builds/001-sir-d-taper/) uses the same convention.
+> Decide deliberately before cutting; at the tip it is about 0.002".
+
+The two tables below are **variant D**; for variant E use the tip section
+below with the [variant E butt table](#variant-e-trimmed-lower-third-proposed).
 
 Oversize columns follow the class sheet: rough **+0.070**, Hand Mill
 **+0.030**, finish **+0.003** (all per strip, i.e. added to the half
@@ -227,7 +315,7 @@ at #12 with the extension at #13. The largest change between adjacent
 stations is 0.008", well under the bed's 0.020" limit. caneDNA estimates
 hold-down **hole E** for the tip and **hole D** for the butt.
 
-__Tip section: −5 to 45 in__ (finished 0–39"; long to 44" for the splice)
+__Tip section, variants D and E (shared): −5 to 45 in__ (finished 0–39"; long to 44" for the splice)
 
 |Inches|Rod Dim|Half Dim|Rougher Oversize|MHM Oversize|Finish Oversize|MHM Setting|Station|
 |-----:|------:|-------:|-------:|-------:|-------:|-------:|---:|
@@ -243,7 +331,7 @@ __Tip section: −5 to 45 in__ (finished 0–39"; long to 44" for the splice)
 |40|0.196|0.0980|0.1680|0.1280|0.1010|0.0075|4|
 |45|0.211|0.1055|0.1755|0.1355|0.1085|0.0000|3|
 
-__Butt section: 30 to 80 in__ (finished 39–78"; long to 34" for the splice)
+__Butt section, variant D: 30 to 80 in__ (finished 39–78"; long to 34" for the splice)
 
 |Inches|Rod Dim|Half Dim|Rougher Oversize|MHM Oversize|Finish Oversize|MHM Setting|Station|
 |-----:|------:|-------:|-------:|-------:|-------:|-------:|---:|
@@ -347,7 +435,7 @@ of rod, plus one.
 
 | Position (from tip) | Ring size | Notes |
 |---:|---:|---|
-| 0" | 6 mm ring, **6/64 tube** | across-corners at the tip ≈ 0.092", so 6/64 (0.094") fits |
+| 0" | 6 mm ring, **6/64 tube** | across-corners at the tip ≈ 0.092", so 6/64 (0.094") only just fits; see the tiptop note under the spec table |
 | 5" | 6 mm | |
 | 11" | 6 mm | |
 | 18" | 7 mm | |
@@ -432,7 +520,9 @@ finished, so **stay off redds**: the clean, light-colored gravel patches.
 
 ## Build checklist
 
-1. ~~Check the taper~~: done in caneDNA (variant D, see [Taper](#taper)).
+1. ~~Check the taper~~: done in caneDNA for variant D (see [Taper](#taper)). **Decide D vs. E
+   before cutting** ([variant E](#variant-e-trimmed-lower-third-proposed)); the
+   butt-section mill table differs.
 2. Split culms into 5–6' sections as in the class build. Stagger nodes 3×3,
    and keep them out of the 36–42" splice zone.
 3. Rough → heat-treat → finish each section on the standard bed. Mill the tip
@@ -461,7 +551,7 @@ it) carries over unchanged.
 | Length / pieces | 6'6" / **2** | 6'6" / 1 | 7'0" / 2 |
 | Power / action | Light / Fast | Light / Fast | Light / Fast |
 | Line / lure | 4–8 lb / 1/16–5/16 oz | 4–8 lb / 1/16–5/16 oz | 4–8 lb / 1/16–5/16 oz |
-| Tip size / butt | 4.5 / 0.33" (8.50 mm) | 4.5 / 0.33" (8.40 mm) | 5.0 / 0.34" |
+| Tip size / butt | 4.5 / 8.50 mm (0.335") | 4.5 / 0.33" (8.40 mm) | 5.0 / 0.34" |
 | Weight | 1.25 oz | 1.25 oz | 1.4 oz |
 | Price (Oct 2026) | $61.00 | $58.50 | $66.25 |
 
@@ -513,7 +603,8 @@ check:
   size chart. Ream the 0.250" bore out to the blank's 8.0–8.5 mm. Dry-fit
   the tenon into the VSS's rear nut before gluing, because Mud Hole doesn't
   list this grip as a VSS match.
-- **Winding check** for a ~7.3 mm (0.29") blank at the front of the foregrip.
+- **Winding check** for a ~7.1 mm (0.28") blank at the front of the foregrip
+  (the diameter table above reads 7.10 mm at 16" from the butt).
 
 ### Guides: Fuji KL-H 169H kit (KR-style)
 
@@ -570,7 +661,7 @@ I couldn't confirm that size's SKU or price on the page.
 | 1 | American Tackle straight rear spinning grip, cork, 7", 0.250" ID | RG-7S-250 | ~$8–12 (verify) | the 4" is $8.19; ream to fit |
 | 1 | American Tackle composite cork butt cap | CBC-3 | from $2.09 | size per the rear-grip chart |
 | 1 | Reel-seat arbor (polyurethane), or masking tape | verify | from $2.29 | build ~7.7 → 13.0 mm |
-| 1 | Winding check, ~7.3 mm (0.29") | verify | ~$1–3 | Mud Hole trim parts |
+| 1 | Winding check, ~7.1 mm (0.28") | verify | ~$1–3 | Mud Hole trim parts |
 | 1 | Fuji KL-H guide kit 169H, Alconite, BC Grey | BCKLAG169H | $28.90 | KL16H, KL8H, KL5.5M, KB4.5, 5× KT4.5 |
 | 1 | Fuji LG micro spinning tip-top, Alconite, BC Grey, 4.5 ring / 4.5 tube | verify size | from $4.25 | the tube must fit the 4.5 tip |
 | 1 | Rod-wrapping thread, size A nylon | — | on hand | same as the fly rods |
