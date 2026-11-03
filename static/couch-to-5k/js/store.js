@@ -7,11 +7,12 @@
 (function () {
   var LOCAL_KEY = 'c25k-trot-2026-v2', OLD_KEY = 'c25k-trot-2026';
 
-  // patch: { strength?: bool, sauna?: bool, bike?: null | 'indoor' | 'outdoor' }
+  // patch: { strength?: bool, sauna?: bool, yoga?: bool, bike?: null | 'indoor' | 'outdoor' }
   function dayMerge(cur, patch) {
     return {
       strength: patch.strength === undefined ? !!cur.strength : !!patch.strength,
       sauna: patch.sauna === undefined ? !!cur.sauna : !!patch.sauna,
+      yoga: patch.yoga === undefined ? !!cur.yoga : !!patch.yoga,
       bike: patch.bike === undefined ? (cur.bike || null) : patch.bike
     };
   }
@@ -41,19 +42,19 @@
     return request('GET', '/me', token).then(function (j) {
       store.name = j.person.name; store.level = j.person.level; store.color = j.person.color; store.canEdit = j.person.can_edit;
       j.entries.forEach(function (e) { store.entries[e.plan_id] = e; });
-      (j.days || []).forEach(function (d) { store.days[d.date] = { strength: d.strength, sauna: d.sauna, bike: d.bike || null }; });
+      (j.days || []).forEach(function (d) { store.days[d.date] = { strength: d.strength, sauna: d.sauna, yoga: !!d.yoga, bike: d.bike || null }; });
       store.setLevel = function (level) {
         return request('PATCH', '/me', token, { level: level }).then(function () { store.level = level; });
       };
       store.setColor = function (color) {
         return request('PATCH', '/me', token, { color: color }).then(function (r) { store.color = r.color; });
       };
-      // patch: { strength?: bool, sauna?: bool }; both false clears the day
+      // patch: { strength?, sauna?, yoga?: bool, bike? }; everything off clears the day
       store.setDay = function (date, patch) {
-        var cur = store.days[date] || { strength: false, sauna: false, bike: null };
+        var cur = store.days[date] || { strength: false, sauna: false, yoga: false, bike: null };
         var next = dayMerge(cur, patch);
         return request('PUT', '/days/' + date, token, next).then(function () {
-          if (next.strength || next.sauna || next.bike) store.days[date] = next; else delete store.days[date];
+          if (next.strength || next.sauna || next.yoga || next.bike) store.days[date] = next; else delete store.days[date];
         });
       };
       store.save = function (planId, entry) {
@@ -94,9 +95,9 @@
     var store = { mode: 'local', token: null, canEdit: true, name: '', error: null, level: data.level, entries: data.entries, days: data.days };
     store.setLevel = function (level) { data.level = level; store.level = level; return persist(); };
     store.setDay = function (date, patch) {
-      var cur = data.days[date] || { strength: false, sauna: false, bike: null };
+      var cur = data.days[date] || { strength: false, sauna: false, yoga: false, bike: null };
       var next = dayMerge(cur, patch);
-      if (next.strength || next.sauna || next.bike) data.days[date] = next; else delete data.days[date];
+      if (next.strength || next.sauna || next.yoga || next.bike) data.days[date] = next; else delete data.days[date];
       return persist();
     };
     store.save = function (planId, entry) { data.entries[planId] = Object.assign({ plan_id: planId }, entry); return persist(); };

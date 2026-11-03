@@ -47,9 +47,11 @@ export function parseDay(date, b) {
   if (!b || typeof b !== 'object' || typeof b.strength !== 'boolean' || typeof b.sauna !== 'boolean') {
     return { error: 'send {"strength": true/false, "sauna": true/false, "bike": null, "indoor" or "outdoor"}' };
   }
+  if (b.yoga !== undefined && typeof b.yoga !== 'boolean') return { error: 'yoga must be true or false' };
+  const yoga = b.yoga === undefined ? false : b.yoga;   // optional so cached older pages keep working
   const bike = b.bike === undefined ? null : b.bike;
   if (bike !== null && bike !== 'indoor' && bike !== 'outdoor') return { error: 'bike must be null, "indoor" or "outdoor"' };
-  return { value: { strength: b.strength, sauna: b.sauna, bike } };
+  return { value: { strength: b.strength, sauna: b.sauna, yoga, bike } };
 }
 
 export function cleanColor(v) {
@@ -202,11 +204,11 @@ async function handle(request, env) {
       'SELECT plan_id, date, distance_mi, duration_min, run_pct, note, updated_at FROM entries WHERE person_id = ?1 ORDER BY date, plan_id')
       .bind(person.id).all();
     const { results: dayRows } = await env.DB.prepare(
-      'SELECT date, strength, sauna, bike FROM days WHERE person_id = ?1 ORDER BY date').bind(person.id).all();
+      'SELECT date, strength, sauna, yoga, bike FROM days WHERE person_id = ?1 ORDER BY date').bind(person.id).all();
     return json({
       person: { name: person.name, level: person.level, color: colorOf(person), can_edit: person.canEdit },
       entries: results,
-      days: dayRows.map((d) => ({ date: d.date, strength: !!d.strength, sauna: !!d.sauna, bike: d.bike || null })),
+      days: dayRows.map((d) => ({ date: d.date, strength: !!d.strength, sauna: !!d.sauna, yoga: !!d.yoga, bike: d.bike || null })),
     });
   }
 
@@ -229,16 +231,16 @@ async function handle(request, env) {
     if (method !== 'PUT') return err(405, 'method not allowed');
     const parsed = parseDay(dm[1], await readJson(request));
     if (parsed.error) return err(400, parsed.error);
-    const { strength, sauna, bike } = parsed.value;
-    if (!strength && !sauna && !bike) {
+    const { strength, sauna, yoga, bike } = parsed.value;
+    if (!strength && !sauna && !yoga && !bike) {
       await env.DB.prepare('DELETE FROM days WHERE person_id = ?1 AND date = ?2').bind(person.id, dm[1]).run();
     } else {
       await env.DB.prepare(
-        `INSERT INTO days (person_id, date, strength, sauna, bike) VALUES (?1, ?2, ?3, ?4, ?5)
-         ON CONFLICT (person_id, date) DO UPDATE SET strength = excluded.strength, sauna = excluded.sauna, bike = excluded.bike, updated_at = datetime('now')`)
-        .bind(person.id, dm[1], strength ? 1 : 0, sauna ? 1 : 0, bike).run();
+        `INSERT INTO days (person_id, date, strength, sauna, yoga, bike) VALUES (?1, ?2, ?3, ?4, ?5, ?6)
+         ON CONFLICT (person_id, date) DO UPDATE SET strength = excluded.strength, sauna = excluded.sauna, yoga = excluded.yoga, bike = excluded.bike, updated_at = datetime('now')`)
+        .bind(person.id, dm[1], strength ? 1 : 0, sauna ? 1 : 0, yoga ? 1 : 0, bike).run();
     }
-    return json({ ok: true, date: dm[1], strength, sauna, bike });
+    return json({ ok: true, date: dm[1], strength, sauna, yoga, bike });
   }
 
   const m = path.match(/^\/entries\/([a-z0-9]+)$/);

@@ -67,10 +67,12 @@
     var dayKeys = Object.keys(store.days || {}).sort();
     var nStrength = dayKeys.filter(function (k) { return store.days[k].strength; }).length;
     var nSauna = dayKeys.filter(function (k) { return store.days[k].sauna; }).length;
+    var nYoga = dayKeys.filter(function (k) { return store.days[k].yoga; }).length;
     var nIn = dayKeys.filter(function (k) { return store.days[k].bike === 'indoor'; }).length;
     var nOut = dayKeys.filter(function (k) { return store.days[k].bike === 'outdoor'; }).length;
     tile(nStrength, 'strength days');
     tile(nSauna, 'sauna days');
+    tile(nYoga, 'yoga days');
     tile(nIn + nOut, 'bike days' + (nIn + nOut ? ' (' + nIn + ' indoor, ' + nOut + ' outdoor)' : ''));
     c.appendChild(tiles);
 
@@ -106,7 +108,7 @@
 
     // strength + sauna calendar
     var cal = el('div', 'panel');
-    cal.appendChild(el('h2', null, 'Strength, sauna and bike'));
+    cal.appendChild(el('h2', null, 'Strength, sauna, yoga and bike'));
     var wdn = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'], grid = el('div', 'daygrid');
     grid.appendChild(el('span', 'dg-h', ''));
     wdn.forEach(function (w) { grid.appendChild(el('span', 'dg-h', w)); });
@@ -118,13 +120,13 @@
         var dd = new Date(wk.getFullYear(), wk.getMonth(), wk.getDate() + k);
         var key = dd.getFullYear() + '-' + String(dd.getMonth() + 1).padStart(2, '0') + '-' + String(dd.getDate()).padStart(2, '0');
         var v = store.days[key] || {};
-        var cell = el('span', 'dg-c', (v.strength ? '<i class="mk s" title="Strength"></i>' : '') + (v.sauna ? '<i class="mk h" title="Sauna"></i>' : '') + (v.bike ? '<i class="mk b ' + v.bike + '" title="Bike, ' + v.bike + '"></i>' : '') + '<small>' + dd.getDate() + '</small>');
-        cell.setAttribute('aria-label', MON[dd.getMonth()] + ' ' + dd.getDate() + ': ' + (v.strength || v.sauna || v.bike ? [v.strength ? 'strength' : '', v.sauna ? 'sauna' : '', v.bike ? 'bike (' + v.bike + ')' : ''].filter(Boolean).join(', ') : 'nothing logged'));
+        var cell = el('span', 'dg-c', (v.strength ? '<i class="mk s" title="Strength"></i>' : '') + (v.sauna ? '<i class="mk h" title="Sauna"></i>' : '') + (v.yoga ? '<i class="mk y" title="Yoga"></i>' : '') + (v.bike ? '<i class="mk b ' + v.bike + '" title="Bike, ' + v.bike + '"></i>' : '') + '<small>' + dd.getDate() + '</small>');
+        cell.setAttribute('aria-label', MON[dd.getMonth()] + ' ' + dd.getDate() + ': ' + (v.strength || v.sauna || v.yoga || v.bike ? [v.strength ? 'strength' : '', v.sauna ? 'sauna' : '', v.yoga ? 'yoga' : '', v.bike ? 'bike (' + v.bike + ')' : ''].filter(Boolean).join(', ') : 'nothing logged'));
         grid.appendChild(cell);
       }
     }
     cal.appendChild(grid);
-    cal.appendChild(el('p', 'hint', '<i class="mk s"></i> strength training &nbsp; <i class="mk h"></i> sauna &nbsp; <i class="mk b outdoor"></i> outdoor bike &nbsp; <i class="mk b indoor"></i> indoor bike'));
+    cal.appendChild(el('p', 'hint', '<i class="mk s"></i> strength training &nbsp; <i class="mk h"></i> sauna &nbsp; <i class="mk y"></i> yoga &nbsp; <i class="mk b outdoor"></i> outdoor bike &nbsp; <i class="mk b indoor"></i> indoor bike'));
     c.appendChild(cal);
 
     // notes timeline

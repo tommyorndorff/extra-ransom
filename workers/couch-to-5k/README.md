@@ -49,10 +49,10 @@ Unit tests for the validation helpers: `npm test`.
 | POST | `/api/c25k/people` | `X-Admin-Key` | create `{name, level}` |
 | DELETE | `/api/c25k/people/:id` | `X-Admin-Key` | delete a person and their entries |
 | GET | `/api/c25k/team` | none (public) | anonymous dots: color, level, logged sessions, totals |
-| GET | `/api/c25k/me` | `X-Token` | person, all entries, and strength/sauna days |
+| GET | `/api/c25k/me` | `X-Token` | person, all entries, and strength/sauna/yoga/bike days |
 | PATCH | `/api/c25k/me` | edit token | `{level?, color?}`: level is beginner, intermediate or runner; color is `#rrggbb` |
 | PUT | `/api/c25k/entries/:planId` | edit token | upsert `{date, distance_mi, duration_min, run_pct, note}` |
 | DELETE | `/api/c25k/entries/:planId` | edit token | remove a logged session |
-| PUT | `/api/c25k/days/:date` | edit token | `{strength: bool, sauna: bool, bike: null|"indoor"|"outdoor"}` for any day Oct-Dec 2026; all off removes the row |
+| PUT | `/api/c25k/days/:date` | edit token | `{strength: bool, sauna: bool, yoga?: bool, bike: null|"indoor"|"outdoor"}` for any day Oct-Dec 2026; all off removes the row |
 
 `planId` is `s01`..`s11` or `race`. Distance, time, run percentage and note are optional.

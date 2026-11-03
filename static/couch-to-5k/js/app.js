@@ -182,8 +182,9 @@
     summary();
   }
 
-  // Yes/no checks for strength training and sauna, on any day (not just run days).
-  var CHIPS = [['strength', '\ud83c\udfcb\ufe0f', 'Strength training'], ['sauna', '\ud83e\uddd6', 'Sauna']];
+  // Yes/no checks for strength training, sauna and yoga, on any day (not just run days).
+  var CHIPS = [['strength', '\ud83c\udfcb\ufe0f', 'Strength training'], ['sauna', '\ud83e\uddd6', 'Sauna'], ['yoga', '\ud83e\uddd8', 'Yoga']];
+  var CHIP_LBL = { strength: 'Strength', sauna: 'Sauna', yoga: 'Yoga' };
   var BIKE_NEXT = { '': 'indoor', indoor: 'outdoor', outdoor: '' };   // tap to cycle: off, indoor, outdoor, off
   function dayChips(key, d, t) {
     var box = el('div', 'chips'), cur = store.days[key] || {};
@@ -194,7 +195,7 @@
       b.setAttribute('aria-label', c[2] + ', ' + fmt(d));
       b.title = c[2];
       b.disabled = !store.canEdit;
-      b.innerHTML = '<span aria-hidden="true">' + c[1] + '</span><span class="chiplbl">' + (c[0] === 'strength' ? 'Strength' : 'Sauna') + '</span>';
+      b.innerHTML = '<span aria-hidden="true">' + c[1] + '</span><span class="chiplbl">' + CHIP_LBL[c[0]] + '</span>';
       b.addEventListener('click', function () {
         var patch = {}; patch[c[0]] = !on;
         store.setDay(key, patch).then(function () { banner(''); render(); })

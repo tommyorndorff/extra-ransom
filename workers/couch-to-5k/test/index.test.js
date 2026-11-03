@@ -60,7 +60,9 @@ test('colorOf prefers the chosen color and otherwise cycles the palette', () => 
 });
 
 test('parseDay needs a plan-period date and two booleans', () => {
-  assert.deepEqual(parseDay('2026-11-05', { strength: true, sauna: false }).value, { strength: true, sauna: false, bike: null });
+  assert.deepEqual(parseDay('2026-11-05', { strength: true, sauna: false }).value, { strength: true, sauna: false, yoga: false, bike: null });
+  assert.equal(parseDay('2026-11-05', { strength: false, sauna: false, yoga: true }).value.yoga, true);
+  assert.ok(parseDay('2026-11-05', { strength: false, sauna: false, yoga: 'yes' }).error);
   assert.equal(parseDay('2026-11-05', { strength: false, sauna: false, bike: 'indoor' }).value.bike, 'indoor');
   assert.equal(parseDay('2026-11-05', { strength: false, sauna: false, bike: 'outdoor' }).value.bike, 'outdoor');
   assert.ok(parseDay('2026-11-05', { strength: false, sauna: false, bike: 'treadmill' }).error);
