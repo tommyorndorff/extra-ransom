@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" role="img" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+<title>Barrel sauna roof and porch: front view</title><desc>End view of a barrel sauna looking at the door: insulated roof layers over the top of the barrel and a freestanding porch roof on four posts in front.</desc>
+<defs>
+<pattern id="wool" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#f1e08a"/><line x1="0" y1="0" x2="0" y2="6" stroke="#cdb84f" stroke-width="1.5"/></pattern>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2b2b2b"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fa8"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c4631c"/></marker>
+</defs>
+<rect width="800" height="470" fill="#faf8f4" rx="8"/>
+<text x="400.0" y="28" font-size="18" text-anchor="middle" font-weight="700" fill="#2b2b2b">Front view — looking at the door end</text>
+<text x="400.0" y="48" font-size="12" text-anchor="middle" font-weight="400" fill="#666">Layer thickness exaggerated; not to scale</text>
+<line x1="60.0" y1="400.0" x2="740.0" y2="400.0" stroke="#888" stroke-width="2"/>
+<rect x="330.0" y="372.0" width="140.0" height="28.0" fill="#b99a73" stroke="#7a6040" stroke-width="1" />
+<circle cx="400" cy="280" r="90" fill="#e3c394" stroke="#8a6a4a" stroke-width="2"/>
+<line x1="340.0" y1="215.9" x2="340.0" y2="344.1" stroke="#c9a870" stroke-width="1"/>
+<line x1="370.0" y1="198.1" x2="370.0" y2="361.9" stroke="#c9a870" stroke-width="1"/>
+<line x1="430.0" y1="198.1" x2="430.0" y2="361.9" stroke="#c9a870" stroke-width="1"/>
+<line x1="460.0" y1="215.9" x2="460.0" y2="344.1" stroke="#c9a870" stroke-width="1"/>
+<path d="M370,358 L370,245 A30,30 0 0 1 430,245 L430,358 Z" fill="#f4ecdf" stroke="#8a6a4a" stroke-width="2"/>
+<circle cx="420" cy="305" r="3" fill="#8a6a4a"/>
+<path d="M307.9,246.5 A98,98 0 0 1 492.1,246.5 L484.6,249.2 A90,90 0 0 0 315.4,249.2 Z" fill="url(#wool)" stroke="#a89a3d" stroke-width="0.8"/>
+<path d="M304.2,245.1 A102,102 0 0 1 495.8,245.1 L492.1,246.5 A98,98 0 0 0 307.9,246.5 Z" fill="#7a5a3a"/>
+<path d="M302.7,244.6 A103.5,103.5 0 0 1 497.3,244.6 L495.8,245.1 A102,102 0 0 0 304.2,245.1 Z" fill="#2f2f2f"/>
+<path d="M298.5,243.1 A108,108 0 0 1 501.5,243.1 L497.3,244.6 A103.5,103.5 0 0 0 302.7,244.6 Z" fill="#a9b8c6" stroke="#566b80" stroke-width="0.8"/>
+<polyline points="298.5,243.1 296.2,250.2 304.2,255.2" fill="none" stroke="#566b80" stroke-width="3" stroke-linecap="round"/>
+<polyline points="501.5,243.1 503.8,250.2 495.8,255.2" fill="none" stroke="#566b80" stroke-width="3" stroke-linecap="round"/>
+<line x1="305.0" y1="150.0" x2="495.0" y2="150.0" stroke="#777" stroke-width="1.5" stroke-dasharray="6 4"/>
+<rect x="325.5" y="200.0" width="9.0" height="200.0" fill="#d2b07f" stroke="#7a6040" stroke-width="1" />
+<rect x="465.5" y="200.0" width="9.0" height="200.0" fill="#d2b07f" stroke="#7a6040" stroke-width="1" />
+<rect x="305.0" y="183.0" width="190.0" height="17.0" fill="#d2b07f" stroke="#7a6040" stroke-width="1" fill-opacity="0.92"/>
+<rect x="305.0" y="181.0" width="190.0" height="4.0" fill="#a9b8c6" stroke="#566b80" stroke-width="1" />
+<line x1="268.0" y1="202.0" x2="268.0" y2="398.0" stroke="#2b2b2b" stroke-width="1" marker-end="url(#ah)"/>
+<line x1="268.0" y1="398.0" x2="268.0" y2="202.0" stroke="#2b2b2b" stroke-width="1" marker-end="url(#ah)"/>
+<text x="262" y="305" font-size="13" text-anchor="end" font-weight="600" fill="#2b2b2b">≈ 6′8″</text>
+<text x="262" y="321" font-size="13" text-anchor="end" font-weight="600" fill="#2b2b2b">clear</text>
+<line x1="459.3" y1="192.1" x2="548.0" y2="114.0" stroke="#2b2b2b" stroke-width="1"/>
+<circle cx="459.3" cy="192.1" r="2.5" fill="#2b2b2b"/>
+<text x="556" y="118" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">Roof: corrugated metal or shingles</text>
+<line x1="471.3" y1="206.1" x2="548.0" y2="144.0" stroke="#2b2b2b" stroke-width="1"/>
+<circle cx="471.3" cy="206.1" r="2.5" fill="#2b2b2b"/>
+<text x="556" y="148" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">Underlayment, lapped shingle-style</text>
+<line x1="478.8" y1="218.4" x2="548.0" y2="174.0" stroke="#2b2b2b" stroke-width="1"/>
+<circle cx="478.8" cy="218.4" r="2.5" fill="#2b2b2b"/>
+<text x="556" y="178" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">Furring strips, ~1 ft apart</text>
+<line x1="483.0" y1="235.9" x2="548.0" y2="204.0" stroke="#2b2b2b" stroke-width="1"/>
+<circle cx="483.0" cy="235.9" r="2.5" fill="#2b2b2b"/>
+<text x="556" y="208" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">Comfortboard 80 strips, 1½″</text>
+<line x1="485.5" y1="271.0" x2="548.0" y2="234.0" stroke="#2b2b2b" stroke-width="1"/>
+<circle cx="485.5" cy="271.0" r="2.5" fill="#2b2b2b"/>
+<text x="556" y="238" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">Cedar staves, 1⅜″ (existing)</text>
+<line x1="496.8" y1="255.0" x2="548.0" y2="276.0" stroke="#2b2b2b" stroke-width="1"/>
+<circle cx="496.8" cy="255.0" r="2.5" fill="#2b2b2b"/>
+<text x="556" y="280" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">Drip edge + screened open slot</text>
+<text x="556" y="296" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">under it (see layers diagram)</text>
+<line x1="310.0" y1="192.0" x2="238.0" y2="168.0" stroke="#2b2b2b" stroke-width="1"/>
+<circle cx="310.0" cy="192.0" r="2.5" fill="#2b2b2b"/>
+<text x="232" y="166" font-size="13" text-anchor="end" font-weight="400" fill="#2b2b2b">Porch roof, 3″ drop per ft</text>
+<text x="232" y="182" font-size="13" text-anchor="end" font-weight="400" fill="#2b2b2b">(front edge shown)</text>
+<line x1="330.0" y1="150.0" x2="238.0" y2="130.0" stroke="#2b2b2b" stroke-width="1"/>
+<circle cx="330.0" cy="150.0" r="2.5" fill="#2b2b2b"/>
+<text x="232" y="126" font-size="13" text-anchor="end" font-weight="400" fill="#2b2b2b">Back edge of porch roof</text>
+<text x="232" y="142" font-size="13" text-anchor="end" font-weight="400" fill="#2b2b2b">sits higher (dashed)</text>
+<line x1="330.0" y1="330.0" x2="238.0" y2="345.0" stroke="#2b2b2b" stroke-width="1"/>
+<circle cx="330.0" cy="330.0" r="2.5" fill="#2b2b2b"/>
+<text x="232" y="349" font-size="13" text-anchor="end" font-weight="400" fill="#2b2b2b">Front posts 4×4</text>
+<line x1="400.0" y1="320.0" x2="462.0" y2="330.0" stroke="#2b2b2b" stroke-width="1"/>
+<circle cx="400.0" cy="320.0" r="2.5" fill="#2b2b2b"/>
+<text x="470" y="334" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">Door</text>
+<text x="400.0" y="438" font-size="13" text-anchor="middle" font-weight="400" fill="#444">Two more posts (not visible here) carry the back edge, one each side of the door.</text>
+<text x="400.0" y="456" font-size="13" text-anchor="middle" font-weight="400" fill="#444">The porch stands on its own; no part of it is fastened to the barrel.</text>
+</svg>

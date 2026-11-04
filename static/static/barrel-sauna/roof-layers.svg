@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" role="img" font-family="system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif">
+<title>Barrel sauna roof layers and bottom-edge detail</title><desc>Cross-section of the roof build-up from inside to outside, and a detail of the lower edge with a screened open slot and drip edge.</desc>
+<defs>
+<pattern id="wool" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#f1e08a"/><line x1="0" y1="0" x2="0" y2="6" stroke="#cdb84f" stroke-width="1.5"/></pattern>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2b2b2b"/></marker>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fa8"/></marker>
+<marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#c4631c"/></marker>
+</defs>
+<rect width="800" height="640" fill="#faf8f4" rx="8"/>
+<text x="400.0" y="28" font-size="18" text-anchor="middle" font-weight="700" fill="#2b2b2b">Roof build-up, inside to outside</text>
+<text x="400.0" y="48" font-size="12" text-anchor="middle" font-weight="400" fill="#666">Drawn at 1″ ≈ 24 px; underlayment and roof exaggerated</text>
+<rect x="60.0" y="227.0" width="260.0" height="33.0" fill="#e3c394" stroke="#8a6a4a" stroke-width="1.5" />
+<line x1="70.0" y1="229.0" x2="70.0" y2="258.0" stroke="#cfae78" stroke-width="1"/>
+<line x1="98.0" y1="229.0" x2="98.0" y2="258.0" stroke="#cfae78" stroke-width="1"/>
+<line x1="126.0" y1="229.0" x2="126.0" y2="258.0" stroke="#cfae78" stroke-width="1"/>
+<line x1="154.0" y1="229.0" x2="154.0" y2="258.0" stroke="#cfae78" stroke-width="1"/>
+<line x1="182.0" y1="229.0" x2="182.0" y2="258.0" stroke="#cfae78" stroke-width="1"/>
+<line x1="210.0" y1="229.0" x2="210.0" y2="258.0" stroke="#cfae78" stroke-width="1"/>
+<line x1="238.0" y1="229.0" x2="238.0" y2="258.0" stroke="#cfae78" stroke-width="1"/>
+<line x1="266.0" y1="229.0" x2="266.0" y2="258.0" stroke="#cfae78" stroke-width="1"/>
+<line x1="294.0" y1="229.0" x2="294.0" y2="258.0" stroke="#cfae78" stroke-width="1"/>
+<rect x="60.0" y="191.0" width="260.0" height="36.0" fill="url(#wool)" stroke="#a89a3d" stroke-width="1.5" />
+<rect x="90.0" y="173.0" width="36.0" height="18.0" fill="#7a5a3a" stroke="#4a3520" stroke-width="1.5" />
+<rect x="250.0" y="173.0" width="36.0" height="18.0" fill="#7a5a3a" stroke="#4a3520" stroke-width="1.5" />
+<rect x="60.0" y="169.0" width="260.0" height="4.0" fill="#2f2f2f" />
+<path d="M60,158 Q70,151.0 80,158 Q90,165.0 100,158 Q110,151.0 120,158 Q130,165.0 140,158 Q150,151.0 160,158 Q170,165.0 180,158 Q190,151.0 200,158 Q210,165.0 220,158 Q230,151.0 240,158 Q250,165.0 260,158 Q270,151.0 280,158 Q290,165.0 300,158 Q310,151.0 320,158 " fill="none" stroke="#566b80" stroke-width="5" stroke-linejoin="round"/>
+<path d="M60,158 Q70,151.0 80,158 Q90,165.0 100,158 Q110,151.0 120,158 Q130,165.0 140,158 Q150,151.0 160,158 Q170,165.0 180,158 Q190,151.0 200,158 Q210,165.0 220,158 Q230,151.0 240,158 Q250,165.0 260,158 Q270,151.0 280,158 Q290,165.0 300,158 Q310,151.0 320,158 " fill="none" stroke="#a9b8c6" stroke-width="2.5"/>
+<line x1="108.0" y1="170.0" x2="108.0" y2="245.0" stroke="#222" stroke-width="2.2"/>
+<rect x="103.0" y="167.0" width="10.0" height="4.0" fill="#222" />
+<line x1="268.0" y1="154.0" x2="268.0" y2="184.0" stroke="#222" stroke-width="2.2"/>
+<rect x="262.0" y="151.0" width="12.0" height="4.0" fill="#222" />
+<text x="190.0" y="282" font-size="13" text-anchor="middle" font-weight="400" fill="#555">inside the sauna</text>
+<text x="190.0" y="134" font-size="13" text-anchor="middle" font-weight="400" fill="#555">outside / weather</text>
+<line x1="300.0" y1="155.0" x2="345.0" y2="112.0" stroke="#2b2b2b" stroke-width="1"/>
+<circle cx="300.0" cy="155.0" r="2.5" fill="#2b2b2b"/>
+<text x="351" y="116" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">Roof surface: corrugated metal or shingles</text>
+<line x1="200.0" y1="171.0" x2="345.0" y2="140.0" stroke="#2b2b2b" stroke-width="1"/>
+<circle cx="200.0" cy="171.0" r="2.5" fill="#2b2b2b"/>
+<text x="351" y="144" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">Underlayment, lapped shingle-style, tucked at the ends</text>
+<line x1="236.0" y1="182.0" x2="345.0" y2="168.0" stroke="#2b2b2b" stroke-width="1"/>
+<circle cx="236.0" cy="182.0" r="2.5" fill="#2b2b2b"/>
+<text x="351" y="172" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">Furring strip, ¾″ thick, ~1 ft apart (bridged by underlayment)</text>
+<line x1="180.0" y1="210.0" x2="345.0" y2="196.0" stroke="#2b2b2b" stroke-width="1"/>
+<circle cx="180.0" cy="210.0" r="2.5" fill="#2b2b2b"/>
+<text x="351" y="200" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">Rockwool Comfortboard 80, 1½″ strips, joints staggered</text>
+<line x1="180.0" y1="244.0" x2="345.0" y2="224.0" stroke="#2b2b2b" stroke-width="1"/>
+<circle cx="180.0" cy="244.0" r="2.5" fill="#2b2b2b"/>
+<text x="351" y="228" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">Cedar stave, 1⅜″ (existing), joints left uncaulked</text>
+<text x="351" y="262" font-size="13" text-anchor="start" font-weight="400" fill="#333">Furring screw ≈ 3″: through furring and insulation,</text>
+<text x="351" y="278" font-size="13" text-anchor="start" font-weight="400" fill="#333">only ¾″ into the stave (pre-drill; test on a spare stave)</text>
+<text x="351" y="300" font-size="13" text-anchor="start" font-weight="400" fill="#333">Roof screw 1¼″ with washer: stops in the furring</text>
+<line x1="98.0" y1="220.0" x2="62.0" y2="238.0" stroke="none" stroke-width="0"/>
+<line x1="40.0" y1="324.0" x2="760.0" y2="324.0" stroke="#ccc" stroke-width="1"/>
+<text x="400.0" y="352" font-size="18" text-anchor="middle" font-weight="700" fill="#2b2b2b">Lower edge of the roof: keep it open so moisture can leave</text>
+<rect x="80.0" y="370.0" width="33.0" height="240.0" fill="#e3c394" stroke="#8a6a4a" stroke-width="1.5" />
+<rect x="113.0" y="370.0" width="36.0" height="145.0" fill="url(#wool)" stroke="#a89a3d" stroke-width="1.5" />
+<rect x="149.0" y="370.0" width="18.0" height="145.0" fill="#7a5a3a" stroke="#4a3520" stroke-width="1.5" />
+<rect x="167.0" y="370.0" width="4.0" height="171.0" fill="#2f2f2f" />
+<polyline points="178,370 178,545 200,555" fill="none" stroke="#566b80" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="178,370 178,545 200,555" fill="none" stroke="#a9b8c6" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="113.0" y1="547.0" x2="172.0" y2="547.0" stroke="#222" stroke-width="2" stroke-dasharray="2 3"/>
+<rect x="113.0" y="515.0" width="59.0" height="30.0" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="14.0" y1="400.0" x2="140.0" y2="400.0" stroke="#c4631c" stroke-width="2.5" marker-end="url(#ao)"/>
+<text x="14" y="392" font-size="12" text-anchor="start" font-weight="600" fill="#c4631c">moist air</text>
+<line x1="142.0" y1="470.0" x2="142.0" y2="597.0" stroke="#c4631c" stroke-width="2.5" marker-end="url(#ao)"/>
+<line x1="230.0" y1="390.0" x2="230.0" y2="525.0" stroke="#2f6fa8" stroke-width="2.5" marker-end="url(#ab)"/>
+<text x="240" y="410" font-size="12" text-anchor="start" font-weight="600" fill="#2f6fa8">rain</text>
+<line x1="206.0" y1="563.0" x2="206.0" y2="607.0" stroke="#2f6fa8" stroke-width="2.5" marker-end="url(#ab)"/>
+<line x1="182.0" y1="540.0" x2="320.0" y2="396.0" stroke="#2b2b2b" stroke-width="1"/>
+<circle cx="182.0" cy="540.0" r="2.5" fill="#2b2b2b"/>
+<text x="330" y="400" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">Roof surface and drip edge hang about 1″ below</text>
+<text x="330" y="416" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">the end of the insulation, so rain sheds clear.</text>
+<line x1="142.0" y1="533.0" x2="320.0" y2="460.0" stroke="#2b2b2b" stroke-width="1"/>
+<circle cx="142.0" cy="533.0" r="2.5" fill="#2b2b2b"/>
+<text x="330" y="464" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">Open pocket under the roof edge. Moist air that</text>
+<text x="330" y="480" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">passes through the cedar and insulation exits here.</text>
+<line x1="142.0" y1="547.0" x2="320.0" y2="520.0" stroke="#2b2b2b" stroke-width="1"/>
+<circle cx="142.0" cy="547.0" r="2.5" fill="#2b2b2b"/>
+<text x="330" y="524" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">Insect mesh across the opening (wasps, mice).</text>
+<line x1="96.0" y1="590.0" x2="320.0" y2="566.0" stroke="#2b2b2b" stroke-width="1"/>
+<circle cx="96.0" cy="590.0" r="2.5" fill="#2b2b2b"/>
+<text x="330" y="570" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">Do not caulk the stave joints or put plastic on</text>
+<text x="330" y="586" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">the cedar; both trap moisture and rot the wood.</text>
+<text x="330" y="610" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">Same idea at the two end walls: overhang 1–2″,</text>
+<text x="330" y="626" font-size="13" text-anchor="start" font-weight="400" fill="#2b2b2b">drip edge, insect mesh.</text>
+</svg>
