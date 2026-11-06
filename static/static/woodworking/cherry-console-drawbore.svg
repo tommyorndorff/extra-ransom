@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 600" width="780" height="600" role="img" aria-label="Drawbore detail">
+<title>Drawbore detail</title>
+<style>
+  .bg{fill:#fff}
+  .wood{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .leg{fill:#dcb988;stroke:#4a3320;stroke-width:1.3}
+  .face{fill:#f3dfbf;stroke:#4a3320;stroke-width:1.3}
+  .pull{fill:#5a3b26;stroke:#2b1a0f;stroke-width:1}
+  .shelf{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3}
+  .hid{fill:none;stroke:#7a6a5a;stroke-width:1.1;stroke-dasharray:5 3}
+  .spacer{fill:#cfc3b4;stroke:#6b5b4b;stroke-width:1}
+  .floor{stroke:#333;stroke-width:1.6}
+  .dim{stroke:#1f5fa8;stroke-width:1;fill:none}
+  .ext{stroke:#8fb0d8;stroke-width:.8}
+  .t{font:12px 'Helvetica Neue',Arial,sans-serif;fill:#1f3a5f}
+  .n{font:11px 'Helvetica Neue',Arial,sans-serif;fill:#444}
+  .h{font:600 15px 'Helvetica Neue',Arial,sans-serif;fill:#222}
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
+  </marker>
+</defs>
+<rect class="bg" width="780" height="600"/>
+<text class="h" x="20.0" y="24.0" text-anchor="start">Drawbore detail — section through the pin axis, 1 in = 200 px (offset is true to scale)</text>
+<rect class="leg" x="330.00" y="120.00" width="300.00" height="300.00"/>
+<rect class="face" x="10.00" y="151.25" width="320.00" height="150.00"/>
+<rect class="face" x="330.00" y="195.00" width="200.00" height="62.50"/>
+<rect x="417.5" y="120.0" width="25.0" height="187.5" fill="#fff" stroke="#1f5fa8" stroke-width="1.4" fill-opacity=".92"/>
+<rect x="411.2" y="195.0" width="25.0" height="62.5" fill="#fff" stroke="#c0392b" stroke-width="1.6" fill-opacity=".92"/>
+<line x1="430.0" y1="60.0" x2="430.0" y2="120.0" stroke="#1f5fa8" stroke-width="1.4"/>
+<line x1="423.8" y1="60.0" x2="423.8" y2="195.0" stroke="#c0392b" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text class="t" x="438.0" y="80.0" text-anchor="start">hole in leg (drill first)</text>
+<text class="t" x="415.8" y="80.0" text-anchor="end">hole in tenon, 1/32″ nearer the shoulder</text>
+<text class="n" x="430.0" y="48.0" text-anchor="middle">pin Ø 1/8″, ½″ from shoulder</text>
+<text class="n" x="458.0" y="140.0" text-anchor="start">outer face (pin enters)</text>
+<text class="n" x="480.0" y="414.0" text-anchor="middle">far wall: hole stops ¼″ in (blind)</text>
+<text class="n" x="170.0" y="230.0" text-anchor="middle">apron ¾″</text>
+<text class="n" x="320.0" y="140.0" text-anchor="end">shoulder at leg face</text>
+<line class="ext" x1="330.0" y1="452.0" x2="330.0" y2="257.5"/>
+<line class="ext" x1="530.0" y1="452.0" x2="530.0" y2="257.5"/>
+<line class="dim" x1="330.0" y1="452.0" x2="530.0" y2="452.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="430.0" y="467.0" text-anchor="middle">tenon 1″ long</text>
+<line class="ext" x1="330.0" y1="482.0" x2="330.0" y2="320.0"/>
+<line class="ext" x1="430.0" y1="482.0" x2="430.0" y2="320.0"/>
+<line class="dim" x1="330.0" y1="482.0" x2="430.0" y2="482.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="380.0" y="497.0" text-anchor="middle">½″</text>
+<line class="ext" x1="666.0" y1="195.0" x2="530.0" y2="195.0"/>
+<line class="ext" x1="666.0" y1="257.5" x2="530.0" y2="257.5"/>
+<line class="dim" x1="666.0" y1="195.0" x2="666.0" y2="257.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(680.0,226.2) rotate(-90)" text-anchor="middle">5/16″ mortise = tenon thickness</text>
+</svg>

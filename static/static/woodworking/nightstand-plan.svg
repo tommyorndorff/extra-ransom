@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 470" width="700" height="470" role="img" aria-label="Heartwood Shaker nightstand, plan view">
+<title>Heartwood Shaker nightstand, plan view</title>
+<style>
+  .bg{fill:#fff}
+  .wood{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .leg{fill:#dcb988;stroke:#4a3320;stroke-width:1.3}
+  .face{fill:#f3dfbf;stroke:#4a3320;stroke-width:1.3}
+  .pull{fill:#5a3b26;stroke:#2b1a0f;stroke-width:1}
+  .shelf{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3}
+  .hid{fill:none;stroke:#7a6a5a;stroke-width:1.1;stroke-dasharray:5 3}
+  .spacer{fill:#cfc3b4;stroke:#6b5b4b;stroke-width:1}
+  .floor{stroke:#333;stroke-width:1.6}
+  .dim{stroke:#1f5fa8;stroke-width:1;fill:none}
+  .ext{stroke:#8fb0d8;stroke-width:.8}
+  .t{font:12px 'Helvetica Neue',Arial,sans-serif;fill:#1f3a5f}
+  .n{font:11px 'Helvetica Neue',Arial,sans-serif;fill:#444}
+  .h{font:600 15px 'Helvetica Neue',Arial,sans-serif;fill:#222}
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
+  </marker>
+</defs>
+<rect class="bg" width="700" height="470"/>
+<text class="h" x="20.0" y="24.0" text-anchor="start">Plan view, top removed — 1 in = 16 px</text>
+<rect class="hid" x="95.0" y="100.0" width="384" height="288"/>
+<rect class="wood" x="135.00" y="144.00" width="12.00" height="200.00"/>
+<rect class="wood" x="427.00" y="144.00" width="12.00" height="200.00"/>
+<rect class="wood" x="159.00" y="120.00" width="256.00" height="12.00"/>
+<rect class="wood" x="159.00" y="356.00" width="256.00" height="12.00"/>
+<rect class="spacer" x="147.00" y="164.00" width="12.00" height="192.00"/>
+<rect class="spacer" x="415.00" y="164.00" width="12.00" height="192.00"/>
+<rect class="face" x="160.00" y="356.00" width="254.00" height="12.00"/>
+<rect class="hid" x="167.0" y="164.0" width="240" height="192"/>
+<text class="n" x="287.0" y="260.0" text-anchor="middle">drawer box 15″ wide × 12″ long (dashed)</text>
+<text class="n" x="287.0" y="276.0" text-anchor="middle">3 stacked, each on side-mount slides</text>
+<rect class="leg" x="135.00" y="344.00" width="24.00" height="24.00"/>
+<rect class="leg" x="135.00" y="120.00" width="24.00" height="24.00"/>
+<rect class="leg" x="415.00" y="344.00" width="24.00" height="24.00"/>
+<rect class="leg" x="415.00" y="120.00" width="24.00" height="24.00"/>
+<text class="n" x="287.0" y="404.0" text-anchor="middle">FRONT</text>
+<text class="n" x="95.0" y="434.0" text-anchor="start">Dashed outline = top, 24″ × 18″ × 1″, floating on buttons.</text>
+<text class="n" x="95.0" y="450.0" text-anchor="start">Side frames are ¾″ thick, flush to the leg outer faces; grey = ¾″ slide spacers.</text>
+<line class="ext" x1="95.0" y1="42.0" x2="95.0" y2="100.0"/>
+<line class="ext" x1="479.0" y1="42.0" x2="479.0" y2="100.0"/>
+<line class="dim" x1="95.0" y1="42.0" x2="479.0" y2="42.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="287.0" y="37.0" text-anchor="middle">24″ overall</text>
+<line class="ext" x1="95.0" y1="68.0" x2="95.0" y2="100.0"/>
+<line class="ext" x1="135.0" y1="68.0" x2="135.0" y2="100.0"/>
+<line class="dim" x1="95.0" y1="68.0" x2="135.0" y2="68.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="115.0" y="63.0" text-anchor="middle">2½″</text>
+<line class="ext" x1="135.0" y1="68.0" x2="135.0" y2="120.0"/>
+<line class="ext" x1="439.0" y1="68.0" x2="439.0" y2="120.0"/>
+<line class="dim" x1="135.0" y1="68.0" x2="439.0" y2="68.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="287.0" y="63.0" text-anchor="middle">19″ case</text>
+<line class="ext" x1="439.0" y1="68.0" x2="439.0" y2="100.0"/>
+<line class="ext" x1="479.0" y1="68.0" x2="479.0" y2="100.0"/>
+<line class="dim" x1="439.0" y1="68.0" x2="479.0" y2="68.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="459.0" y="63.0" text-anchor="middle">2½″</text>
+<line class="dim" x1="503" y1="388.0" x2="503" y2="100.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(517,244.0) rotate(-90)" text-anchor="middle">18″ overall</text>
+<line class="dim" x1="533" y1="368.0" x2="533" y2="120.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(547,244.0) rotate(-90)" text-anchor="middle">15½″ case</text>
+</svg>
