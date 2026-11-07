@@ -127,6 +127,8 @@ clamp, at 4+ perimeters and 40% infill.
 | **End-alignment gauge** | A small block that rests on both rails and drops a lip exactly to the hinge line. Push the stock's end against the lip, then lift the gauge away. It's faster and more accurate than sighting with a square. |
 | **Beam handles** | A comfortable handle (and a short-beam version) bolted to the MDF or aluminum beam. |
 
+STLs and the parametric source for the ratio gauge, hold-down bar and knobs, and pegged fence are on the [3D-Printed Shop Tools](/docs/woodworking/printed-tools/) page.
+
 The rails, bed and base should stay **wood**: their flatness and stiffness
 are the whole tool. Printed parts only hold, locate and set.
 
