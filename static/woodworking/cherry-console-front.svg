@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 730 590" width="730" height="590" role="img" aria-label="Cherry hallway console, front elevation">
+<title>Cherry hallway console, front elevation</title>
+<style>
+  .bg{fill:#fff}
+  .wood{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .leg{fill:#dcb988;stroke:#4a3320;stroke-width:1.3}
+  .face{fill:#f3dfbf;stroke:#4a3320;stroke-width:1.3}
+  .pull{fill:#5a3b26;stroke:#2b1a0f;stroke-width:1}
+  .shelf{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3}
+  .hid{fill:none;stroke:#7a6a5a;stroke-width:1.1;stroke-dasharray:5 3}
+  .spacer{fill:#cfc3b4;stroke:#6b5b4b;stroke-width:1}
+  .floor{stroke:#333;stroke-width:1.6}
+  .dim{stroke:#1f5fa8;stroke-width:1;fill:none}
+  .ext{stroke:#8fb0d8;stroke-width:.8}
+  .t{font:12px 'Helvetica Neue',Arial,sans-serif;fill:#1f3a5f}
+  .n{font:11px 'Helvetica Neue',Arial,sans-serif;fill:#444}
+  .h{font:600 15px 'Helvetica Neue',Arial,sans-serif;fill:#222}
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
+  </marker>
+</defs>
+<rect class="bg" width="730" height="590"/>
+<text class="h" x="20.0" y="24.0" text-anchor="start">Front elevation — 1 in = 12 px</text>
+<rect class="shelf" x="125.00" y="388.00" width="444.00" height="9.00"/>
+<rect class="wood" x="95.00" y="100.00" width="504.00" height="9.00"/>
+<rect class="leg" x="107.00" y="109.00" width="18.00" height="399.00"/>
+<rect class="leg" x="569.00" y="109.00" width="18.00" height="399.00"/>
+<rect class="face" x="125.00" y="109.00" width="444.00" height="42.00"/>
+<rect class="face" x="125.00" y="397.00" width="444.00" height="30.00"/>
+<line class="floor" x1="59.0" y1="508.0" x2="635.0" y2="508.0"/>
+<text class="n" x="347.0" y="134.0" text-anchor="middle">front apron ¾″ × 3½″</text>
+<text class="n" x="347.0" y="416.0" text-anchor="middle">lower rail ¾″ × 2½″</text>
+<text class="n" x="347.0" y="382.0" text-anchor="middle">shelf ¾″ (rests on rails)</text>
+<line class="ext" x1="95.0" y1="42.0" x2="95.0" y2="100.0"/>
+<line class="ext" x1="599.0" y1="42.0" x2="599.0" y2="100.0"/>
+<line class="dim" x1="95.0" y1="42.0" x2="599.0" y2="42.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="347.0" y="37.0" text-anchor="middle">42″ overall</text>
+<line class="ext" x1="95.0" y1="68.0" x2="95.0" y2="100.0"/>
+<line class="ext" x1="107.0" y1="68.0" x2="107.0" y2="100.0"/>
+<line class="dim" x1="95.0" y1="68.0" x2="107.0" y2="68.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="101.0" y="63.0" text-anchor="middle">1″</text>
+<line class="ext" x1="107.0" y1="68.0" x2="107.0" y2="109.0"/>
+<line class="ext" x1="587.0" y1="68.0" x2="587.0" y2="109.0"/>
+<line class="dim" x1="107.0" y1="68.0" x2="587.0" y2="68.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="347.0" y="63.0" text-anchor="middle">40″ leg frame</text>
+<line class="ext" x1="587.0" y1="68.0" x2="587.0" y2="100.0"/>
+<line class="ext" x1="599.0" y1="68.0" x2="599.0" y2="100.0"/>
+<line class="dim" x1="587.0" y1="68.0" x2="599.0" y2="68.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="593.0" y="63.0" text-anchor="middle">1″</text>
+<line class="ext" x1="52.0" y1="100.0" x2="95.0" y2="100.0"/>
+<line class="ext" x1="52.0" y1="508.0" x2="95.0" y2="508.0"/>
+<line class="dim" x1="52.0" y1="100.0" x2="52.0" y2="508.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(46.0,304.0) rotate(-90)" text-anchor="middle">34″ overall</text>
+<line class="ext" x1="623.0" y1="109.0" x2="599.0" y2="109.0"/>
+<line class="ext" x1="623.0" y1="151.0" x2="599.0" y2="151.0"/>
+<line class="dim" x1="623.0" y1="109.0" x2="623.0" y2="151.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(617.0,130.0) rotate(-90)" text-anchor="middle">3½″ apron</text>
+<line class="ext" x1="623.0" y1="397.0" x2="587.0" y2="397.0"/>
+<line class="ext" x1="623.0" y1="427.0" x2="587.0" y2="427.0"/>
+<line class="dim" x1="623.0" y1="397.0" x2="623.0" y2="427.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(617.0,412.0) rotate(-90)" text-anchor="middle">2½″ rail</text>
+<line class="ext" x1="679.0" y1="388.0" x2="587.0" y2="388.0"/>
+<line class="ext" x1="679.0" y1="508.0" x2="587.0" y2="508.0"/>
+<line class="dim" x1="679.0" y1="388.0" x2="679.0" y2="508.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(673.0,448.0) rotate(-90)" text-anchor="middle">shelf top ≈ 10″ off floor</text>
+<line class="ext" x1="107.0" y1="536.0" x2="107.0" y2="508.0"/>
+<line class="ext" x1="125.0" y1="536.0" x2="125.0" y2="508.0"/>
+<line class="dim" x1="107.0" y1="536.0" x2="125.0" y2="536.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="116.0" y="551.0" text-anchor="middle">1½″</text>
+<line class="ext" x1="125.0" y1="536.0" x2="125.0" y2="508.0"/>
+<line class="ext" x1="569.0" y1="536.0" x2="569.0" y2="508.0"/>
+<line class="dim" x1="125.0" y1="536.0" x2="569.0" y2="536.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="347.0" y="551.0" text-anchor="middle">37″ shoulder to shoulder (tenons add 1″ each end = 39″ cut)</text>
+<line class="ext" x1="569.0" y1="536.0" x2="569.0" y2="508.0"/>
+<line class="ext" x1="587.0" y1="536.0" x2="587.0" y2="508.0"/>
+<line class="dim" x1="569.0" y1="536.0" x2="587.0" y2="536.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="578.0" y="551.0" text-anchor="middle">1½″</text>
+</svg>
