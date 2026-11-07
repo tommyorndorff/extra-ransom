@@ -184,6 +184,8 @@ Print these in **PETG or ASA**, which handle garage heat better than PLA,
 with TPU where noted for seals and pads. Use 4+ perimeters and 30–40%
 infill.
 
+STLs (and the parametric source) for the turnbuttons, hooks, foot cups and rear-port adapter are on the [3D-Printed Shop Tools](/docs/woodworking/printed-tools/) page. Dimensions that depend on your saw are estimates there; measure and regenerate.
+
 | Part | Qty | Replaces / does |
 |---|---:|---|
 | **Foot locator cups** (PETG + TPU liner) | 4 | Screwed to the support rails, they cradle the saw's rubber feet. They replace the hold-down knobs, which would be unreachable inside the skirt: the saw drops in, locates itself, and stays put by its own weight. |
