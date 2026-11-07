@@ -3,7 +3,7 @@ title: "3D-Printed Shop Tools"
 weight: 20
 ---
 
-Printable jigs and shop tools for woodworking projects — the woodworking counterpart to the [rodmaking tool set](/docs/rodmaking/printable-rod-tools/). This page covers the printed parts that the [Adjustable Scarf Jig](/docs/woodworking/scarf-jig/) and the [DW745 Mobile Saw Cart](/docs/woodworking/dw745-mobile-saw-cart/) plans already call for.
+Printable jigs and shop tools for woodworking projects — the woodworking counterpart to the [rodmaking tool set](/docs/rodmaking/printable-rod-tools/). This page covers the printed parts that the [Adjustable Scarf Jig](/docs/woodworking/scarf-jig/) and the [DW745 Mobile Saw Cart](/docs/woodworking/dw745-mobile-saw-cart/) plans already call for, plus **table-saw accessories that fit any SawStop** (they key off the standard ¾″ × ⅜″ miter slot and the flat table, not a model).
 
 All are FDM-printable, generated parametrically, and validated watertight. STLs export in print orientation. Print in **PETG** (or ASA for the saw-cart parts that live in a hot garage), **4+ perimeters, 40% infill** — the ratio gauge at 100%.
 
@@ -108,9 +108,114 @@ A socket (inside diameter 65.0 mm) that slips over the saw's port, a short cone,
 
 ---
 
+## Table saw (any SawStop)
+
+These are **model-agnostic**: they use the miter slot (standard ¾″ × ⅜″, 19.05 × 9.5 mm — **measure yours to confirm**) or the flat table. Nothing here replaces the saw's guard, riving knife or brake; the push devices are accessories.
+
+> **Safety.** Push blocks and push sticks sit between your hand and the blade. Printed PETG is not rated for that: **inspect before each use, discard anything cracked or crazed, never print them in PLA, and keep a commercial push block as a backup.** Print the first one and push scrap with the saw off before trusting the shape.
+
+### Push block
+
+<img src="/static/woodworking-3d/previews/push_block.png" width="200" align="right">
+
+**For:** pushing stock past the blade under your hand's full control.
+
+A heel-and-toe block: a raised grip, a flat base for pressure on the stock, and an 8 mm heel at the back that catches the end of the workpiece so you push it rather than rubbing it. The base underside has a shallow pocket for a ⅛″ rubber pad (spray adhesive). Print it **standing on its side** (the profile lies flat on the bed); it is solid and fairly heavy, so use 3–4 perimeters and 20–30% infill.
+
+[`push_block.stl`](/static/woodworking-3d/push_block.stl) · print 2 · hardware: ⅛″ rubber pad
+
+### Push stick
+
+<img src="/static/woodworking-3d/previews/push_stick.png" width="200" align="right">
+
+**For:** narrow rips, where there's no room for a block between the blade and the fence.
+
+A 250 mm stick with a wide handle (finger hole included), a slim shaft and a 15 mm hook at the tip that catches the back of the stock. Print it **flat with the hook pointing up**. The hook is only 15 mm deep, so it is for stock about ¾″ and thicker; for thin stock, use a block.
+
+[`push_stick.stl`](/static/woodworking-3d/push_stick.stl) · print 2 · no hardware
+
+### Featherboard (prototype)
+
+<img src="/static/woodworking-3d/previews/featherboard.png" width="200" align="right">
+
+**For:** holding stock against the fence on rips.
+
+Ten fingers leaning 30° toward the feed, on a base with a friction-fit miter-slot runner. **This one is a prototype and is friction-only:** a plain miter slot has no undercut, so there is nothing for a printed part to lock against, and the runner's two crush ribs give a light grip. Treat it as a hold-down for light work, not as a kickback preventer, and **test-fit it in a scrap slot first** — tune `RUNNER_CLEAR` and `CRUSH_RIB` in the script until it needs a firm push. If you want a positive lock, bolt the base to a commercial expanding miter bar instead. Print it **upside down** (runner pointing up) so the fingers stand as vertical walls and flex along their layers.
+
+[`featherboard.stl`](/static/woodworking-3d/featherboard.stl) · print 1 · no hardware
+
+### Setup depth blocks
+
+<img src="/static/woodworking-3d/previews/setup_steps.png" width="200" align="right">
+
+**For:** setting blade height or dado depth without a ruler.
+
+Eight steps, ⅛″ to 1″ in ⅛″ increments. Stand a block next to the blade, lay a straightedge across it, and raise the blade until it just touches. Print it **on its side** so the heights lie in the print plane, and **check them with calipers once**.
+
+[`setup_steps.stl`](/static/woodworking-3d/setup_steps.stl) · print 1 · no hardware
+
+### 90° / 45° blade-angle checker
+
+<img src="/static/woodworking-3d/previews/angle_checker.png" width="170" align="right">
+
+**For:** a quick check that the blade is square to the table (and at 45°) after you tilt it.
+
+A 100 mm right isosceles triangle, 6 mm thick. Stand a leg on the table and the other against the blade body (between the teeth). The accuracy is only as good as your printer, so **check it against a known-good square** before relying on it.
+
+[`angle_checker.stl`](/static/woodworking-3d/angle_checker.stl) · print 1 · no hardware
+
+### Crosscut-sled runner
+
+<img src="/static/woodworking-3d/previews/sled_runner.png" width="200" align="right">
+
+**For:** the miter-slot bars of a crosscut sled.
+
+The [tenoning jig](/docs/woodworking/tenoning-jig/) uses one of these. A 240 mm segment, 18.6 mm wide (0.45 mm under the slot width) and 8.8 mm tall so it stays below the table surface, with six M5 nut pockets on a 40 mm pitch. Lay the sled base on the runners and screw down through it with M5 flat-head machine screws into the nuts. Print 4 and butt them end to end for two 480 mm runners. A runner this tight is a clearance fit, so **tune it with masking tape or thin shims** until it slides without side play, and keep the sled's runners parallel to each other.
+
+[`sled_runner.stl`](/static/woodworking-3d/sled_runner.stl) · print 4 · hardware: 6 M5 nuts and M5 × 25 flat-head screws per segment
+
+---
+
+## Tenoning jig
+
+These print the parts of the [Miter-Slot Tenoning Jig](/docs/woodworking/tenoning-jig/); the wood and the clamp are on that page. It also uses one [sled runner](#crosscut-sled-runner).
+
+### Tenon shim set
+
+<img src="/static/woodworking-3d/previews/tenon_shims.png" width="220" align="right">
+
+**For:** setting the tenon thickness: s = A − (t + T) ÷ 2, stacked between the fence and the stock.
+
+Five plates — **1/16″, 1/8″, 1/4″, 1/2″ and 1/2″** — laid out on one bed (226 × 222 mm), so any 1/16″ step from 0 to 1-7/16″ is reachable. Print them **flat**; the thickness is set by layer count, so **check each plate with calipers** and adjust the print scale or layer height until they match. Each has a pull hole. Print two sets: one for the foot of the fence and one near the clamp.
+
+[`tenon_shims.stl`](/static/woodworking-3d/tenon_shims.stl) · print 2 · no hardware
+
+### Fence bracket
+
+<img src="/static/woodworking-3d/previews/jig_bracket.png" width="200" align="right">
+
+**For:** holding the fence square to the base.
+
+A right-angle bracket with a web and two screw holes per flange (Ø4.6 mm, for #8 screws). Screw it into the base and the back of the fence, one at each end. Print it **on the base flange**.
+
+[`jig_bracket.stl`](/static/woodworking-3d/jig_bracket.stl) · print 2 · hardware: four #8 × 1″ wood screws each
+
+### Jig handle
+
+<img src="/static/woodworking-3d/previews/jig_handle.png" width="180" align="right">
+
+**For:** pushing the jig past the blade.
+
+A flange with two screw holes, a 28 mm post and a rounded top. Screw it to the base behind the fence.
+
+[`jig_handle.stl`](/static/woodworking-3d/jig_handle.stl) · print 1 · hardware: two #8 wood screws
+
+---
+
 ## Not yet designed
 
 The plans also call for these printed parts; none of them has an STL yet:
 
 - Scarf jig: the end-alignment gauge and the beam handles.
+- Table saw: a flip-stop and a sled stop block; a positively locking featherboard.
 - Saw cart: brush retainers, switch bezel, inlet filter frame with sliding shutter, the 4 × 4 × 2½″ wye, manifold collar, collector adapter, cove strips and the cyclone lid.
