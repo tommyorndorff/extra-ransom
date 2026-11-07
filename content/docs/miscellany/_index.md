@@ -9,6 +9,7 @@ Stuff that doesn't fit the fly rod bench, the shop, the roaster, or the water �
 
 - [Six Mocktails: Coconut, Citrus, a Not-a-Mule, and Three for the Beach](mocktails) — a coconut colada, a blood orange spritz, an alcohol-free Moscow mule, plus a watermelon mojito, a virgin paloma, and a mango chili-lime built for a beach house trip
 - [Dog Biscuits: Pumpkin and Peanut Butter](dog-biscuits-pumpkin-peanut-butter) — five-ingredient crunchy biscuits with pumpkin and xylitol-free peanut butter; label checks and storage
+- [Dog Chews: Banana and Oat](dog-chews-banana-oat) — soft, four-ingredient chews that mix in one bowl; no nut butter; fridge and freezer storage
 
 ## Other
 
