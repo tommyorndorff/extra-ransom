@@ -66,7 +66,7 @@ A personal build log — bamboo fly rods, woodworking, coffee roasting, and what
 >}}
 {{< hextra/feature-card
   title="Miscellany"
-  subtitle="Mocktails, a CO2 tank conversion, and whatever else doesn't fit elsewhere."
+  subtitle="Recipes, a CO2 tank conversion, and whatever else doesn't fit elsewhere."
   link="/docs/miscellany/"
   icon="collection"
 >}}
