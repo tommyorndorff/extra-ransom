@@ -2594,128 +2594,26 @@ a spinning rod because the reel foot takes the full pull of a hooked fish
 and the casting hand squeezes the seat. The band-only style is fine for
 light fly-style reels but is the one more likely to loosen.&lt;/p&gt;
 &lt;h2&gt;Spinning-specific geometry&lt;span class="hx:absolute hx:-mt-20" id="spinning-specific-geometry"&gt;&lt;/span&gt;
-&lt;a href="#spinning-specific-geometry" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;div class="goat svg-container "&gt;
-&lt;svg
-xmlns="http://www.w3.org/2000/svg"
-font-family="Menlo,Lucida Console,monospace"
-viewBox="0 0 528 153"
+&lt;a href="#spinning-specific-geometry" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt; tip butt
+--------&amp;#43;-&amp;#43;----------&amp;#43;------------------&amp;#43;----------&amp;#43;---------&amp;#43;
+blank | | foregrip | fixed hood foot | threaded | rear |
+--------&amp;#43; | (cork) | [==== foot ====]| ring | grip |
+&amp;#43;-&amp;#43;----------&amp;#43;--------&amp;#43;--&amp;#43;------&amp;#43;----------&amp;#43;---------&amp;#43;
+| | stem
+.--&amp;#43;--&amp;#43;--.
+| reel |
+&amp;#39;--------&amp;#39;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
 &gt;
-&lt;g transform='translate(8,16)'&gt;
-&lt;path d='M 8,16 L 72,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 72,16 L 88,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 88,16 L 176,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 176,16 L 328,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 328,16 L 416,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 416,16 L 496,16' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 8,48 L 72,48' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 72,64 L 88,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 88,64 L 176,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 176,64 L 248,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 248,64 L 272,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 272,64 L 328,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 328,64 L 416,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 416,64 L 496,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 232,96 L 248,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 248,96 L 272,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 272,96 L 288,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 232,128 L 288,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 72,16 L 72,48' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 72,48 L 72,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 88,16 L 88,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 176,16 L 176,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 248,64 L 248,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 272,64 L 272,96' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 328,16 L 328,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 416,16 L 416,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 496,16 L 496,64' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 232,96 A 16,16 0 0,0 216,112' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 288,96 A 16,16 0 0,1 304,112' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 216,112 A 16,16 0 0,0 232,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;path d='M 304,112 A 16,16 0 0,1 288,128' fill='none' stroke='currentColor'&gt;&lt;/path&gt;
-&lt;text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='16' y='4' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='16' y='36' fill='currentColor' style='font-size:1em'&gt;b&lt;/text&gt;
-&lt;text text-anchor='middle' x='24' y='4' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='24' y='36' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
-&lt;text text-anchor='middle' x='32' y='36' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='40' y='36' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='48' y='36' fill='currentColor' style='font-size:1em'&gt;k&lt;/text&gt;
-&lt;text text-anchor='middle' x='104' y='36' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
-&lt;text text-anchor='middle' x='104' y='52' fill='currentColor' style='font-size:1em'&gt;(&lt;/text&gt;
-&lt;text text-anchor='middle' x='112' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='112' y='52' fill='currentColor' style='font-size:1em'&gt;c&lt;/text&gt;
-&lt;text text-anchor='middle' x='120' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='120' y='52' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='128' y='36' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='128' y='52' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='136' y='36' fill='currentColor' style='font-size:1em'&gt;g&lt;/text&gt;
-&lt;text text-anchor='middle' x='136' y='52' fill='currentColor' style='font-size:1em'&gt;k&lt;/text&gt;
-&lt;text text-anchor='middle' x='144' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='144' y='52' fill='currentColor' style='font-size:1em'&gt;)&lt;/text&gt;
-&lt;text text-anchor='middle' x='152' y='36' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='160' y='36' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='192' y='36' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
-&lt;text text-anchor='middle' x='200' y='36' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='200' y='52' fill='currentColor' style='font-size:1em'&gt;[&lt;/text&gt;
-&lt;text text-anchor='middle' x='208' y='36' fill='currentColor' style='font-size:1em'&gt;x&lt;/text&gt;
-&lt;text text-anchor='middle' x='208' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='216' y='36' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='216' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='224' y='36' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
-&lt;text text-anchor='middle' x='224' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='232' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='240' y='36' fill='currentColor' style='font-size:1em'&gt;h&lt;/text&gt;
-&lt;text text-anchor='middle' x='240' y='116' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='248' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='248' y='52' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
-&lt;text text-anchor='middle' x='248' y='116' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='256' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='256' y='52' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='256' y='116' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='264' y='36' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
-&lt;text text-anchor='middle' x='264' y='52' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='264' y='116' fill='currentColor' style='font-size:1em'&gt;l&lt;/text&gt;
-&lt;text text-anchor='middle' x='272' y='52' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='288' y='36' fill='currentColor' style='font-size:1em'&gt;f&lt;/text&gt;
-&lt;text text-anchor='middle' x='288' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='288' y='84' fill='currentColor' style='font-size:1em'&gt;s&lt;/text&gt;
-&lt;text text-anchor='middle' x='296' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='296' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='296' y='84' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='304' y='36' fill='currentColor' style='font-size:1em'&gt;o&lt;/text&gt;
-&lt;text text-anchor='middle' x='304' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='304' y='84' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='312' y='36' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='312' y='52' fill='currentColor' style='font-size:1em'&gt;=&lt;/text&gt;
-&lt;text text-anchor='middle' x='312' y='84' fill='currentColor' style='font-size:1em'&gt;m&lt;/text&gt;
-&lt;text text-anchor='middle' x='320' y='52' fill='currentColor' style='font-size:1em'&gt;]&lt;/text&gt;
-&lt;text text-anchor='middle' x='344' y='36' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='352' y='36' fill='currentColor' style='font-size:1em'&gt;h&lt;/text&gt;
-&lt;text text-anchor='middle' x='352' y='52' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='360' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='360' y='52' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='368' y='36' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='368' y='52' fill='currentColor' style='font-size:1em'&gt;n&lt;/text&gt;
-&lt;text text-anchor='middle' x='376' y='36' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='376' y='52' fill='currentColor' style='font-size:1em'&gt;g&lt;/text&gt;
-&lt;text text-anchor='middle' x='384' y='36' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
-&lt;text text-anchor='middle' x='392' y='36' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='400' y='36' fill='currentColor' style='font-size:1em'&gt;d&lt;/text&gt;
-&lt;text text-anchor='middle' x='432' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='432' y='52' fill='currentColor' style='font-size:1em'&gt;g&lt;/text&gt;
-&lt;text text-anchor='middle' x='440' y='36' fill='currentColor' style='font-size:1em'&gt;e&lt;/text&gt;
-&lt;text text-anchor='middle' x='440' y='52' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='448' y='36' fill='currentColor' style='font-size:1em'&gt;a&lt;/text&gt;
-&lt;text text-anchor='middle' x='448' y='52' fill='currentColor' style='font-size:1em'&gt;i&lt;/text&gt;
-&lt;text text-anchor='middle' x='456' y='36' fill='currentColor' style='font-size:1em'&gt;r&lt;/text&gt;
-&lt;text text-anchor='middle' x='456' y='52' fill='currentColor' style='font-size:1em'&gt;p&lt;/text&gt;
-&lt;text text-anchor='middle' x='488' y='4' fill='currentColor' style='font-size:1em'&gt;b&lt;/text&gt;
-&lt;text text-anchor='middle' x='496' y='4' fill='currentColor' style='font-size:1em'&gt;u&lt;/text&gt;
-&lt;text text-anchor='middle' x='504' y='4' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;text text-anchor='middle' x='512' y='4' fill='currentColor' style='font-size:1em'&gt;t&lt;/text&gt;
-&lt;/g&gt;
-&lt;/svg&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;The reel hangs below the seat.&lt;/strong&gt; The foot channel is open on the
