@@ -26,6 +26,8 @@ Drawn at 1″ = 12 px from the dimensions on this page. Click to open full size.
 
 [![Plan view of the cherry hallway console with the top removed](/static/woodworking/cherry-console-plan.svg)](/static/woodworking/cherry-console-plan.svg)
 
+> **Variant:** want somewhere to sit and put shoes on? See [Cherry Console + Slide-Under Chest Bench](cherry-console-with-bench) — the same console with an open lower half and a blanket-chest seat that slides underneath.
+
 ## Why these proportions
 
 The shallow 14" depth is the point of a hallway piece — it hugs the wall and stays out of the traffic path. 34" tall sits at about waist height, comfortable for setting things down (anywhere 30–34" works; taller reads more console-like). 42" long gives presence without dominating a corridor. Legs are 1½" square — slender but honest for this span; go to 1¾" if you want it chunkier. The lower shelf earns its keep both as storage and as a structural tie that stiffens the whole frame.
