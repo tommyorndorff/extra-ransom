@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="960" height="500" role="img" aria-label="Tenoning jig plan view">
+<title>Tenoning jig plan view</title>
+<style>
+  .bg{fill:#fff}
+  .wood{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .leg{fill:#dcb988;stroke:#4a3320;stroke-width:1.3}
+  .face{fill:#f3dfbf;stroke:#4a3320;stroke-width:1.3}
+  .pull{fill:#5a3b26;stroke:#2b1a0f;stroke-width:1}
+  .shelf{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3}
+  .hid{fill:none;stroke:#7a6a5a;stroke-width:1.1;stroke-dasharray:5 3}
+  .spacer{fill:#cfc3b4;stroke:#6b5b4b;stroke-width:1}
+  .floor{stroke:#333;stroke-width:1.6}
+  .dim{stroke:#1f5fa8;stroke-width:1;fill:none}
+  .ext{stroke:#8fb0d8;stroke-width:.8}
+  .t{font:12px 'Helvetica Neue',Arial,sans-serif;fill:#1f3a5f}
+  .n{font:11px 'Helvetica Neue',Arial,sans-serif;fill:#444}
+  .h{font:600 15px 'Helvetica Neue',Arial,sans-serif;fill:#222}
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
+  </marker>
+</defs>
+<rect class="bg" width="960" height="500"/>
+<text class="h" x="20.0" y="24.0" text-anchor="start">Plan view, jig in the miter slot — 1 in = 24 px</text>
+<rect x="117.6" y="80.4" width="278.4" height="403.2" fill="#f2f2f2" stroke="#999" stroke-dasharray="4 3"/>
+<rect x="168.6" y="80.4" width="18.0" height="403.2" fill="#fff" stroke="#555"/>
+<rect class="face" x="132.00" y="90.00" width="168.00" height="384.00"/>
+<rect class="hid" x="168.8" y="168.6" width="17.6" height="226.8"/>
+<rect x="160.8" y="203.4" width="33.6" height="6" rx="3" fill="#fff" stroke="#333"/>
+<rect x="160.8" y="279.0" width="33.6" height="6" rx="3" fill="#fff" stroke="#333"/>
+<rect x="160.8" y="354.6" width="33.6" height="6" rx="3" fill="#fff" stroke="#333"/>
+<text class="n" x="136.8" y="459.6" text-anchor="start">3 slots over runner nuts</text>
+<rect class="wood" x="282.00" y="90.00" width="18.00" height="384.00"/>
+<text class="n" x="291.0" y="493.2" text-anchor="middle">fence</text>
+<polygon class="leg" points="282.0,123.6 229.2,162.0 282.0,200.4"/>
+<polygon class="leg" points="282.0,363.6 229.2,402.0 282.0,440.4"/>
+<text class="n" x="136.8" y="114.0" text-anchor="start">printed fence brackets ▶</text>
+<rect class="spacer" x="300.00" y="186.00" width="16.50" height="168.00"/>
+<rect class="shelf" x="316.50" y="174.00" width="18.00" height="192.00"/>
+<rect x="330.0" y="80.4" width="3.0" height="403.2" fill="#444" opacity=".35"/>
+<text class="n" x="352.0" y="138.0" text-anchor="start">blade plane</text>
+<text class="n" x="352.0" y="270.0" text-anchor="start">stock stands here</text>
+<text class="n" x="352.0" y="286.8" text-anchor="start">(on the table, not the base)</text>
+<text class="n" x="136.8" y="68.4" text-anchor="start">feed ↓</text>
+<line class="ext" x1="132.0" y1="54.0" x2="132.0" y2="90.0"/>
+<line class="ext" x1="300.0" y1="54.0" x2="300.0" y2="90.0"/>
+<line class="dim" x1="132.0" y1="54.0" x2="300.0" y2="54.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="216.0" y="49.0" text-anchor="middle">base 7″</text>
+<line class="ext" x1="300.0" y1="54.0" x2="300.0" y2="90.0"/>
+<line class="ext" x1="330.0" y1="54.0" x2="330.0" y2="90.0"/>
+<line class="dim" x1="300.0" y1="54.0" x2="330.0" y2="54.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="315.0" y="49.0" text-anchor="middle">A 1¼″</text>
+<line class="ext" x1="102.0" y1="90.0" x2="132.0" y2="90.0"/>
+<line class="ext" x1="102.0" y1="474.0" x2="132.0" y2="474.0"/>
+<line class="dim" x1="102.0" y1="90.0" x2="102.0" y2="474.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(96.0,282.0) rotate(-90)" text-anchor="middle">16″ long</text>
+</svg>
