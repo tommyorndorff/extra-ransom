@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 640" width="780" height="640" role="img" aria-label="Jeweler's traveling chest, drawer layouts">
+<title>Jeweler's traveling chest, drawer layouts</title>
+<style>
+  .bg{fill:#fff}
+  .wood{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .leg{fill:#dcb988;stroke:#4a3320;stroke-width:1.3}
+  .face{fill:#f3dfbf;stroke:#4a3320;stroke-width:1.3}
+  .pull{fill:#5a3b26;stroke:#2b1a0f;stroke-width:1}
+  .shelf{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3}
+  .hid{fill:none;stroke:#7a6a5a;stroke-width:1.1;stroke-dasharray:5 3}
+  .spacer{fill:#cfc3b4;stroke:#6b5b4b;stroke-width:1}
+  .floor{stroke:#333;stroke-width:1.6}
+  .dim{stroke:#1f5fa8;stroke-width:1;fill:none}
+  .ext{stroke:#8fb0d8;stroke-width:.8}
+  .t{font:12px 'Helvetica Neue',Arial,sans-serif;fill:#1f3a5f}
+  .n{font:11px 'Helvetica Neue',Arial,sans-serif;fill:#444}
+  .h{font:600 15px 'Helvetica Neue',Arial,sans-serif;fill:#222}
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
+  </marker>
+</defs>
+<rect class="bg" width="780" height="640"/>
+<text class="h" x="20.0" y="24.0" text-anchor="start">Drawer interiors, plan — 1 in = 24 px (each 20⅛″ × 9⅝″ × ≈2¾″ deep)</text>
+<text class="t" x="20.0" y="62.0" text-anchor="start">TOP — soldering kit</text>
+<rect class="wood" x="70.00" y="70.00" width="483.00" height="231.00"/>
+<rect class="face" x="77.20" y="77.20" width="144.00" height="216.00"/>
+<text class="t" x="149.2" y="171.2" text-anchor="middle">solder + flux</text>
+<text class="n" x="149.2" y="187.2" text-anchor="middle">sheet/wire in labeled</text>
+<text class="n" x="149.2" y="201.2" text-anchor="middle">tubes, flux bottle,</text>
+<text class="n" x="149.2" y="215.2" text-anchor="middle">borax dish</text>
+<rect class="face" x="221.20" y="77.20" width="144.00" height="216.00"/>
+<text class="t" x="293.2" y="171.2" text-anchor="middle">firing tools</text>
+<text class="n" x="293.2" y="187.2" text-anchor="middle">tweezers, third hand,</text>
+<text class="n" x="293.2" y="201.2" text-anchor="middle">ceramic tile, ring clamp,</text>
+<text class="n" x="293.2" y="215.2" text-anchor="middle">bench-pin inserts</text>
+<rect class="face" x="365.20" y="77.20" width="180.00" height="216.00"/>
+<text class="t" x="455.2" y="171.2" text-anchor="middle">finished + in-progress</text>
+<text class="n" x="455.2" y="187.2" text-anchor="middle">lidded boxes for rings,</text>
+<text class="n" x="455.2" y="201.2" text-anchor="middle">pendants and findings</text>
+<text class="n" x="455.2" y="215.2" text-anchor="middle">(no loose pieces)</text>
+<text class="t" x="20.0" y="355.4" text-anchor="start">BOTTOM — lapidary teaching kit</text>
+<rect class="wood" x="70.00" y="363.40" width="483.00" height="231.00"/>
+<rect class="face" x="77.20" y="370.60" width="112.80" height="216.00"/>
+<text class="t" x="133.6" y="464.6" text-anchor="middle">dops + wax</text>
+<text class="n" x="133.6" y="480.6" text-anchor="middle">dop sticks on edge</text>
+<text class="n" x="133.6" y="494.6" text-anchor="middle">in a slotted rack,</text>
+<text class="n" x="133.6" y="508.6" text-anchor="middle">wax, lamp tin</text>
+<rect class="face" x="190.00" y="370.60" width="129.60" height="216.00"/>
+<text class="t" x="254.8" y="464.6" text-anchor="middle">grit + polish</text>
+<text class="n" x="254.8" y="480.6" text-anchor="middle">sealed jars, one per grit;</text>
+<text class="n" x="254.8" y="494.6" text-anchor="middle">never share a lid or</text>
+<text class="n" x="254.8" y="508.6" text-anchor="middle">sponge between grits</text>
+<rect class="face" x="319.60" y="370.60" width="120.00" height="216.00"/>
+<text class="t" x="379.6" y="464.6" text-anchor="middle">templates + gauges</text>
+<text class="n" x="379.6" y="480.6" text-anchor="middle">templates, calipers,</text>
+<text class="n" x="379.6" y="494.6" text-anchor="middle">loupes, gem tweezers,</text>
+<text class="n" x="379.6" y="508.6" text-anchor="middle">wrapped stones</text>
+<rect class="face" x="439.60" y="370.60" width="105.60" height="216.00"/>
+<text class="t" x="492.4" y="464.6" text-anchor="middle">laps</text>
+<text class="n" x="492.4" y="480.6" text-anchor="middle">faceting laps in</text>
+<text class="n" x="492.4" y="494.6" text-anchor="middle">padded sleeves,</text>
+<text class="n" x="492.4" y="508.6" text-anchor="middle">flat (6″ discs)</text>
+<text class="n" x="20.0" y="620.0" text-anchor="start">Dividers are ¼″ and removable, so each kit can be rearranged for a different workshop.</text>
+</svg>
