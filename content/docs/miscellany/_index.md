@@ -13,5 +13,7 @@ Stuff that doesn't fit the fly rod bench, the shop, the roaster, or the water �
 
 ## Other
 
+- [Queens-Style Pizza Screens: Project Plan](queens-pizza-screens) — buying, cutting to 16″, folding and seasoning a fine stainless mesh screen, plus a bake plan and log
+
 - [Converting a Threaded SodaStream/Drinkmate to a 5 lb CO2 Tank](drinkmate-sodastream-5lb-co2) — parts, sourcing, and safety notes for ditching the small exchange cylinders
 - [Barrel Sauna Roof and Porch Plan](barrel-sauna-roof-and-porch) — insulated roof, sealing-vs-airflow rules, a freestanding porch roof, and a heat-rated fan for an Almost Heaven four-person cedar barrel sauna
