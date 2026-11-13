@@ -22,9 +22,9 @@ Notes from the [Vertical Garden: Large Hydroponic Vegetable Tower](https://maker
 
 From the designer's list:
 
-- A large plant pot, **at least 40 L / 10 gal**, square, thick upper rim, **no drainage holes**, plastic (preferably polyethylene), with a drillable rim. The model is sized for a 38 × 38 × 40 cm pot; the page lists several European planters and notes the lid's STEP files can be adapted. A commenter points out you can screw the lid to a board and cut it to fit any pot, and another suggests an ordinary 5-gallon bucket works.
+- A large plant pot, **at least 40 L / 10 gal**, square, thick upper rim, **no drainage holes**, plastic (preferably polyethylene), with a drillable rim. The model is sized for a 38 × 38 × 40 cm pot; the page lists several European planters and notes the lid's STEP files can be adapted. A commenter points out you can screw the lid to a board and cut it to fit any pot. The designer says a 5-gallon bucket is too small. See [Tower Sourcing in the USA](sourcing-in-the-usa) for pots that worked.
 - A submersible pump. The designer uses a **Sicce Syncra Silent 2.0** (the 1.5 should also work). Another commenter designed a connector for a cheaper Amazon pump (MakerWorld model 1625658).
-- **20 mm outer-diameter** sturdy pipe, 2 m, cut to length (designer used aluminum; one commenter used stainless).
+- **20 mm outer-diameter** sturdy pipe, 2 m, cut to length (designer used aluminum; one commenter used stainless). In the US see [Tower Sourcing in the USA](sourcing-in-the-usa) for 3/4" OD options.
 - About **28 × M4 countersunk screws, 16 mm**, with nuts; 2 × shorter M4 countersunk, 8 mm, for the filter flap.
 - **12 × M5 screws and nuts** for the base lid. Nuts go into the grow pots too: 4 per big pot and 2 per small pot.
 - **3 cm aquarium foam**, cut into a filter pad for the lid.

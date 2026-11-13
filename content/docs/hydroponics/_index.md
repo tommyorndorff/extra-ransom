@@ -10,6 +10,7 @@ Notes on growing food hydroponically through the winter in an unheated-ish garag
 ## Pages
 
 - [The Tower: Parts, Pot, and Pump](the-tower) — what the MakerWorld design needs besides printed parts, pot and pump requirements, assembly order, print notes, and what its commenters changed
+- [Tower Sourcing in the USA: Pot and Center Pipe](sourcing-in-the-usa) — what US builders used for the 20 mm center pipe and the pot, with sizing checks, joining and epoxy notes, and print gotchas from the comments
 - [Hydroponics 101](hydroponics-101) — how a tower works, how often to run the pump and feed, pH/EC targets, weekly upkeep, and the best crops to start with
 - [Seed Starting for Hydroponics](seed-starting) — rockwool and plug starts, germination temperatures, lighting, and when to move seedlings into the tower
 - [Garage Grow Setup](garage-grow-setup) — lights, heat, timers, meters, and a shopping list for a winter garage
