@@ -4,7 +4,7 @@ date: 2026-11-07
 weight: 30
 ---
 
-Soft, chewy, four-ingredient dog treats made from ripe banana, oats, and an egg. They are a good counterpart to the [crunchy pumpkin biscuits](dog-biscuits-pumpkin-peanut-butter): no nut butter, no rolling out, and they mix in a single bowl. Makes about **2 dozen** treats.
+Soft, chewy, four-ingredient dog treats made from ripe banana, oats, and an egg. They are a good counterpart to the [crunchy pumpkin biscuits](../dog-biscuits-pumpkin-peanut-butter): no nut butter, no rolling out, and they mix in a single bowl. Makes about **2 dozen** treats.
 
 > **Check before you start.** Use plain rolled oats (not instant packets with sugar or flavoring) and nothing else added. If you add a spoonful of peanut butter, make sure it is **xylitol-free**.
 

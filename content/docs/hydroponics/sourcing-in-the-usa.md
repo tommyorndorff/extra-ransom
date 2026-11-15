@@ -4,7 +4,7 @@ date: 2026-11-12
 weight: 6
 ---
 
-The [tower](the-tower) is designed around European parts: a 38 × 38 × 40 cm square planter and a **20 mm OD** center pipe. Neither is easy to find in the US. This page collects what builders in the MakerWorld comments (about 1,200 ratings; read through 2026-11-12) actually used, plus my own sizing checks. Claims are marked **(commenter)** where a builder reported them, and **(calc)** where I worked them out from standard sizes. Nothing here has been built or tested by me yet.
+The [tower](../the-tower) is designed around European parts: a 38 × 38 × 40 cm square planter and a **20 mm OD** center pipe. Neither is easy to find in the US. This page collects what builders in the MakerWorld comments (about 1,200 ratings; read through 2026-11-12) actually used, plus my own sizing checks. Claims are marked **(commenter)** where a builder reported them, and **(calc)** where I worked them out from standard sizes. Nothing here has been built or tested by me yet.
 
 ## Center pipe (20 mm OD)
 
