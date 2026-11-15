@@ -21,7 +21,11 @@ All dimensions in inches. **Slot-to-blade distance depends on the saw**, so the 
 
 **Plan view**
 
-[![Plan view of the tenoning jig in the miter slot](/static/woodworking/tenoning-jig-plan.svg)](/static/woodworking/tenoning-jig-plan.svg)
+[![Plan view of the tenoning jig in the miter slot: base slots over the runner's nut pockets, brackets, handle, shims and stock](/static/woodworking/tenoning-jig-plan.svg)](/static/woodworking/tenoning-jig-plan.svg)
+
+**Cut sequence (detail)**
+
+[![Cut sequence: first cheek with face A on the shims, second cheek after turning the stock end for end, then the shoulders, for a 3/8 inch tenon in 3/4 inch stock](/static/woodworking/tenoning-jig-cuts.svg)](/static/woodworking/tenoning-jig-cuts.svg)
 
 ## Shim table (A = 1¼″)
 
@@ -52,7 +56,7 @@ T × W × L.
 
 | Part | Qty | Material | Size | Notes |
 |---|---:|---|---|---|
-| Base | 1 | ¾″ Baltic birch | ¾ × 7 × 16 | Three cross slots, 7/32″ wide × 1⅜″ long, 3⅛″ apart, centered on the base, over the runner's nut pockets |
+| Base | 1 | ¾″ Baltic birch | ¾ × 7 × 16 | Three cross slots, 7/32″ wide × 1⅜″ long, 80 mm (3.15″) apart, centered on the base, over the runner's nut pockets 1, 3 and 5 (40 mm pitch) |
 | Fence | 1 | ¾″ Baltic birch | ¾ × 10 × 16 | Glued and screwed to the base's long edge, standing on it; its face, square to the base, is the reference |
 | Runner | 1 | Printed | 18.6 × 8.8 × 240 mm | The [crosscut-sled runner](/docs/woodworking/printed-tools/) from the printed-tools page; nuts in the pockets |
 | Brackets | 2 | Printed | | One at each end, on the back of the fence (see below) |

@@ -20,7 +20,7 @@ A **proposed** build — a copy of the Vermont Furniture Designs *Heartwood Shak
 
 ## Drawings (true scale)
 
-Drawn at 1″ = 16 px from the dimensions on this page. Click to open full size.
+Drawn at 1″ = 16 px (the arched rails at 24 px) from the dimensions on this page. Click to open full size.
 
 **Front elevation**
 
@@ -34,9 +34,13 @@ Drawn at 1″ = 16 px from the dimensions on this page. Click to open full size.
 
 [![Plan view of the Heartwood Shaker nightstand with the top removed](/static/woodworking/nightstand-plan.svg)](/static/woodworking/nightstand-plan.svg)
 
-**Arched front apron**
+**Leg layout**
 
-[![Front apron blank with the arch dimensioned](/static/woodworking/nightstand-apron.svg)](/static/woodworking/nightstand-apron.svg)
+[![Leg layout: where each rail and panel groove lands on the inside faces of the front and back legs, measured from the top end](/static/woodworking/nightstand-legs.svg)](/static/woodworking/nightstand-legs.svg)
+
+**Arched rails**
+
+[![Front apron and bottom side rail blanks with the arches, shoulders and tenons dimensioned](/static/woodworking/nightstand-apron.svg)](/static/woodworking/nightstand-apron.svg)
 
 ## The ratios
 
@@ -84,15 +88,15 @@ T × W × L, cut to length. **1″ tenons are baked into rail lengths.** Cherry 
 | Part | Qty | Stock | T × W × L | Notes |
 |---|---|---|---|---|
 | Legs | 4 | 8/4 | 1½″ × 1½″ × 27″ | Height 28 − 1 top. Soft radius on the foot end, as in the photo |
-| Front apron (arched) | 1 | 4/4 | ¾″ × 2⅝″ × 18″ | Arch cut on the bottom edge: 1″ rise over the 16″ between shoulders (radius 32½″) — see the apron drawing |
+| Front apron (arched) | 1 | 4/4 | ¾″ × 2⅝″ × 18″ | Arch cut on the bottom edge: 1″ rise over the 16″ between shoulders (radius 32½″) — see the arched-rail drawing |
 | Front rails | 2 | 4/4 | ¾″ × ¾″ × 18″ | Between drawers. 16″ between shoulders |
 | Back top rail | 1 | 4/4 | ¾″ × 1½″ × 18″ | Grooved for the back panel |
 | Back bottom rail | 1 | 4/4 | ¾″ × 2⅝″ × 18″ | Straight; grooved for the back panel |
-| Back panel | 1 | ¼″ hardwood ply | ¼″ × 16⅜″ × 19⅜″ | Floats in grooves (stated: plywood back) |
+| Back panel | 1 | ¼″ hardwood ply | ¼″ × 16⅜″ × 18¾″ | Floats in ¼″ grooves; width and height include groove depth, less ⅛″ (stated: plywood back) |
 | Top side rails | 2 | 4/4 | ¾″ × 1½″ × 14½″ | 12½″ between shoulders; flush to leg outer face |
-| Bottom side rails (arched) | 2 | 4/4 | ¾″ × 2⅝″ × 14½″ | Same 1″-rise arch as the front, here over 12½″ |
-| Side muntins | 2 | 4/4 | ¾″ × 1″ × as fitted | Between top and bottom side rails; grooved both edges |
-| Side panels | 4 | 4/4 resawn | ½″ × 6⅜″ × 19⅛″ | Two per side; float in ⅜″ grooves (width and height include groove depth, less ⅛″) |
+| Bottom side rails (arched) | 2 | 4/4 | ¾″ × 2⅝″ × 14½″ | Same 1″-rise arch as the front, here over 12½″ (radius ≈ 20″) |
+| Side muntins | 2 | 4/4 | ¾″ × 1″ × as fitted | Between top and bottom side rails (18⅜″ apart); grooved both edges |
+| Side panels | 4 | 4/4 resawn | ½″ × 6⅜″ × 19″ | Two per side; float in ⅜″ grooves (width and height include groove depth, less ⅛″) |
 | Slide spacers | 2 | 4/4 | ¾″ × 2″ × 12″ | Screwed to the inside of the side frames so the slide face sits at the drawer-box edge |
 | Top | 1 | 4/4 | 1″ × 18″ × 24″ | Floats on buttons; underside bevelled toward the edge |
 
@@ -104,7 +108,7 @@ T × W × L, cut to length. **1″ tenons are baked into rail lengths.** Cherry 
 |---|---|---|---|
 | Front | 1 | ¾″ × 6″ × 15⅞″ | Cherry, grain-matched top to bottom; 1/16″ reveals |
 | Sides | 2 | ½″ × 5″ × 12″ | Beech; dovetailed |
-| Back | 1 | ½″ × 4½″ × 14″ | Beech; dovetailed |
+| Back | 1 | ½″ × 4½″ × 15″ | Beech; dovetailed (full box width) |
 | Bottom | 1 | ¼″ × as fitted | Beech; floats in a groove |
 | Knob | 1 | 1¼″ ⌀ | Matching cherry, turned or shaped |
 
@@ -141,5 +145,5 @@ A Domino is a **poor fit for the leg joints** on this piece, and a good fit for 
 ## Open questions
 
 - **Front/back overhang** — 1¼″ is borrowed from the sibling model; the three-quarter photo suggests it is in that range but doesn't prove it.
-- **Leg section** — 1½″ closes the 16″ opening, but the photos read as slightly lighter. If you go to 1¼″, either widen the case to 19½″ or widen the opening to 16½″ and the drawer fronts to 16⅜″.
+- **Leg section** — 1½″ closes the 16″ opening, but the photos read as slightly lighter. If you go to 1¼″, either narrow the case to 18½″ (2¾″ end overhang) or widen the opening to 16½″ and the drawer fronts to 16⅜″.
 - **Drawer depth** — 12″ box length is my choice; the maker doesn't state it.

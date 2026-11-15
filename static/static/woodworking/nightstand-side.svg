@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 650" width="580" height="650" role="img" aria-label="Heartwood Shaker nightstand, side elevation">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 650" width="540" height="650" role="img" aria-label="Heartwood Shaker nightstand, side elevation">
 <title>Heartwood Shaker nightstand, side elevation</title>
 <style>
   .bg{fill:#fff}
@@ -22,7 +22,7 @@
     <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
   </marker>
 </defs>
-<rect class="bg" width="580" height="650"/>
+<rect class="bg" width="540" height="650"/>
 <text class="h" x="20.0" y="24.0" text-anchor="start">Side elevation — 1 in = 16 px</text>
 <rect class="wood" x="95.00" y="100.00" width="288.00" height="16.00"/>
 <rect class="leg" x="115.00" y="116.00" width="24.00" height="432.00"/>
@@ -31,11 +31,22 @@
 <rect class="face" x="139.00" y="140.00" width="92.00" height="294.00"/>
 <rect class="wood" x="231.00" y="140.00" width="16.00" height="294.00"/>
 <rect class="face" x="247.00" y="140.00" width="92.00" height="294.00"/>
-<path class="wood" d="M139.0,434.0 L339.0,434.0 L339.0,476.0 Q239.0,444.0 139.0,476.0 Z"/>
-<text class="n" x="239.0" y="132.0" text-anchor="middle">top side rail 1½″</text>
-<text class="n" x="185.0" y="276.0" text-anchor="middle">panel</text>
-<text class="n" x="293.0" y="276.0" text-anchor="middle">panel</text>
-<text class="n" x="251.8" y="356.0" text-anchor="start">◀ muntin 1″</text>
+<path class="wood" d="M139.0,434.0 L339.0,434.0 L339.0,476.0 A320.5,320.5 0 0 0 139.0,476.0 Z"/>
+<rect class="hid" x="134.00" y="135.00" width="102.00" height="304.00"/>
+<rect class="hid" x="242.00" y="135.00" width="102.00" height="304.00"/>
+<text class="n" x="239.0" y="130.0" text-anchor="middle">top side rail</text>
+<line class="dim" x1="139.0" y1="180.0" x2="231.0" y2="180.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="185.0" y="175.0" text-anchor="middle">5¾″</text>
+<text class="n" x="185.0" y="268.0" text-anchor="middle">panel</text>
+<text class="n" x="185.0" y="282.0" text-anchor="middle">6⅜″ × 19″</text>
+<text class="n" x="185.0" y="296.0" text-anchor="middle">cut size</text>
+<line class="dim" x1="247.0" y1="180.0" x2="339.0" y2="180.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="293.0" y="175.0" text-anchor="middle">5¾″</text>
+<text class="n" x="293.0" y="268.0" text-anchor="middle">panel</text>
+<text class="n" x="293.0" y="282.0" text-anchor="middle">6⅜″ × 19″</text>
+<text class="n" x="293.0" y="296.0" text-anchor="middle">cut size</text>
+<text class="n" x="252.0" y="356.0" text-anchor="start">◀ muntin 1″</text>
+<text class="n" x="262.0" y="370.0" text-anchor="start">× 18⅜″</text>
 <text class="n" x="239.0" y="454.0" text-anchor="middle">arched bottom rail</text>
 <line class="floor" x1="79.0" y1="548.0" x2="399.0" y2="548.0"/>
 <text class="n" x="101.4" y="540.0" text-anchor="start">front</text>
@@ -59,6 +70,30 @@
 <line class="ext" x1="52.0" y1="548.0" x2="95.0" y2="548.0"/>
 <line class="dim" x1="52.0" y1="100.0" x2="52.0" y2="548.0" marker-start="url(#a)" marker-end="url(#a)"/>
 <text class="t" transform="translate(46.0,324.0) rotate(-90)" text-anchor="middle">28″ overall</text>
+<line class="ext" x1="405.0" y1="100.0" x2="383.0" y2="100.0"/>
+<line class="ext" x1="405.0" y1="116.0" x2="383.0" y2="116.0"/>
+<line class="dim" x1="405.0" y1="100.0" x2="405.0" y2="116.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="410.0" y="112.0" text-anchor="start">1″</text>
+<line class="ext" x1="405.0" y1="116.0" x2="339.0" y2="116.0"/>
+<line class="ext" x1="405.0" y1="140.0" x2="339.0" y2="140.0"/>
+<line class="dim" x1="405.0" y1="116.0" x2="405.0" y2="140.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="410.0" y="132.0" text-anchor="start">1½″</text>
+<line class="ext" x1="405.0" y1="140.0" x2="339.0" y2="140.0"/>
+<line class="ext" x1="405.0" y1="434.0" x2="339.0" y2="434.0"/>
+<line class="dim" x1="405.0" y1="140.0" x2="405.0" y2="434.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(419.0,287.0) rotate(-90)" text-anchor="middle">18⅜″ between rails</text>
+<line class="ext" x1="405.0" y1="434.0" x2="339.0" y2="434.0"/>
+<line class="ext" x1="405.0" y1="476.0" x2="339.0" y2="476.0"/>
+<line class="dim" x1="405.0" y1="434.0" x2="405.0" y2="476.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(419.0,455.0) rotate(-90)" text-anchor="middle">2⅝″</text>
+<line class="ext" x1="405.0" y1="476.0" x2="339.0" y2="476.0"/>
+<line class="ext" x1="405.0" y1="548.0" x2="339.0" y2="548.0"/>
+<line class="dim" x1="405.0" y1="476.0" x2="405.0" y2="548.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(419.0,512.0) rotate(-90)" text-anchor="middle">4½″</text>
+<line class="ext" x1="459.0" y1="116.0" x2="363.0" y2="116.0"/>
+<line class="ext" x1="459.0" y1="548.0" x2="363.0" y2="548.0"/>
+<line class="dim" x1="459.0" y1="116.0" x2="459.0" y2="548.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(473.0,332.0) rotate(-90)" text-anchor="middle">27″ leg</text>
 <line class="ext" x1="115.0" y1="576.0" x2="115.0" y2="548.0"/>
 <line class="ext" x1="139.0" y1="576.0" x2="139.0" y2="548.0"/>
 <line class="dim" x1="115.0" y1="576.0" x2="139.0" y2="576.0" marker-start="url(#a)" marker-end="url(#a)"/>
@@ -71,4 +106,5 @@
 <line class="ext" x1="363.0" y1="576.0" x2="363.0" y2="548.0"/>
 <line class="dim" x1="339.0" y1="576.0" x2="363.0" y2="576.0" marker-start="url(#a)" marker-end="url(#a)"/>
 <text class="t" x="351.0" y="591.0" text-anchor="middle">1½″</text>
+<text class="n" x="95.0" y="616.0" text-anchor="start">Dashed = panel edges inside their ⅜″ grooves (⅛″ total play in each direction).</text>
 </svg>

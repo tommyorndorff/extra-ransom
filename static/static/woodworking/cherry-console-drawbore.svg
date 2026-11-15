@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 600" width="780" height="600" role="img" aria-label="Drawbore detail">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 700" width="820" height="700" role="img" aria-label="Drawbore detail">
 <title>Drawbore detail</title>
 <style>
   .bg{fill:#fff}
@@ -22,32 +22,63 @@
     <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
   </marker>
 </defs>
-<rect class="bg" width="780" height="600"/>
-<text class="h" x="20.0" y="24.0" text-anchor="start">Drawbore detail — section through the pin axis, 1 in = 200 px (offset is true to scale)</text>
-<rect class="leg" x="330.00" y="120.00" width="300.00" height="300.00"/>
-<rect class="face" x="10.00" y="151.25" width="320.00" height="150.00"/>
-<rect class="face" x="330.00" y="195.00" width="200.00" height="62.50"/>
-<rect x="417.5" y="120.0" width="25.0" height="187.5" fill="#fff" stroke="#1f5fa8" stroke-width="1.4" fill-opacity=".92"/>
-<rect x="411.2" y="195.0" width="25.0" height="62.5" fill="#fff" stroke="#c0392b" stroke-width="1.6" fill-opacity=".92"/>
-<line x1="430.0" y1="60.0" x2="430.0" y2="120.0" stroke="#1f5fa8" stroke-width="1.4"/>
-<line x1="423.8" y1="60.0" x2="423.8" y2="195.0" stroke="#c0392b" stroke-width="1.4" stroke-dasharray="4 3"/>
-<text class="t" x="438.0" y="80.0" text-anchor="start">hole in leg (drill first)</text>
-<text class="t" x="415.8" y="80.0" text-anchor="end">hole in tenon, 1/32″ nearer the shoulder</text>
-<text class="n" x="430.0" y="48.0" text-anchor="middle">pin Ø 1/8″, ½″ from shoulder</text>
-<text class="n" x="458.0" y="140.0" text-anchor="start">outer face (pin enters)</text>
-<text class="n" x="480.0" y="414.0" text-anchor="middle">far wall: hole stops ¼″ in (blind)</text>
-<text class="n" x="170.0" y="230.0" text-anchor="middle">apron ¾″</text>
-<text class="n" x="320.0" y="140.0" text-anchor="end">shoulder at leg face</text>
-<line class="ext" x1="330.0" y1="452.0" x2="330.0" y2="257.5"/>
-<line class="ext" x1="530.0" y1="452.0" x2="530.0" y2="257.5"/>
-<line class="dim" x1="330.0" y1="452.0" x2="530.0" y2="452.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" x="430.0" y="467.0" text-anchor="middle">tenon 1″ long</text>
-<line class="ext" x1="330.0" y1="482.0" x2="330.0" y2="320.0"/>
-<line class="ext" x1="430.0" y1="482.0" x2="430.0" y2="320.0"/>
-<line class="dim" x1="330.0" y1="482.0" x2="430.0" y2="482.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" x="380.0" y="497.0" text-anchor="middle">½″</text>
-<line class="ext" x1="666.0" y1="195.0" x2="530.0" y2="195.0"/>
-<line class="ext" x1="666.0" y1="257.5" x2="530.0" y2="257.5"/>
-<line class="dim" x1="666.0" y1="195.0" x2="666.0" y2="257.5" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(680.0,226.2) rotate(-90)" text-anchor="middle">5/16″ mortise = tenon thickness</text>
+
+<style>
+  .mort{fill:#6b4a2e;fill-opacity:.28;stroke:#4a3320;stroke-width:1;stroke-dasharray:4 2}
+  .slot{fill:#6b4a2e;stroke:none}
+  .pinh{fill:#fff;stroke:#1f5fa8;stroke-width:1.4}
+  .pinl{stroke:#1f5fa8;stroke-width:2}
+  .brk{fill:none;stroke:#4a3320;stroke-width:1.2}
+  .ts{font:600 12px 'Helvetica Neue',Arial,sans-serif;fill:#1f3a5f}
+</style>
+<rect class="bg" width="820" height="700"/>
+<text class="h" x="20.0" y="24.0" text-anchor="start">Drawbore detail — section looking down through a front-apron pin, 1 in = 200 px (true scale)</text>
+<polygon class="face" points="60.0,175.0 310.0,175.0 310.0,325.0 60.0,325.0 66.0,287.0 54.0,250.0 66.0,213.0"/>
+<polygon class="face" points="460.0,475.0 610.0,475.0 610.0,635.0 572.0,641.0 535.0,629.0 498.0,641.0 460.0,635.0"/>
+<rect class="leg" x="310.00" y="175.00" width="300.00" height="300.00"/>
+<polygon class="face" points="310.0,218.8 510.0,218.8 510.0,275.0 503.8,281.2 310.0,281.2"/>
+<polygon class="face" points="503.8,475.0 566.2,475.0 566.2,275.0 510.0,275.0 503.8,281.2"/>
+<rect x="397.5" y="175.0" width="25.0" height="156.2" fill="#fff" stroke="#1f5fa8" stroke-width="1.4" fill-opacity=".92"/>
+<rect x="391.2" y="218.8" width="25.0" height="62.5" fill="#fff" stroke="#c0392b" stroke-width="1.6" fill-opacity=".92"/>
+<line x1="410.0" y1="78" x2="410.0" y2="175.0" stroke="#1f5fa8" stroke-width="1.4"/>
+<line x1="403.8" y1="78" x2="403.8" y2="218.8" stroke="#c0392b" stroke-width="1.4" stroke-dasharray="4 3"/>
+<text class="n" x="410.0" y="66.0" text-anchor="middle">pin Ø ⅛″, ½″ from the shoulder</text>
+<text class="t" x="418.0" y="94.0" text-anchor="start">hole in leg (drill first)</text>
+<text class="t" x="395.8" y="94.0" text-anchor="end">hole in tenon, 1/32″ nearer the shoulder</text>
+<line class="ext" x1="310.0" y1="123.0" x2="310.0" y2="175.0"/>
+<line class="ext" x1="510.0" y1="123.0" x2="510.0" y2="175.0"/>
+<line class="dim" x1="310.0" y1="123.0" x2="510.0" y2="123.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="410.0" y="118.0" text-anchor="middle"></text>
+<text class="t" x="470.0" y="118.0" text-anchor="middle">tenon 1″ long</text>
+<line class="ext" x1="510.0" y1="175.0" x2="510.0" y2="218.8"/>
+<line class="ext" x1="310.0" y1="149.0" x2="310.0" y2="175.0"/>
+<line class="ext" x1="410.0" y1="149.0" x2="410.0" y2="175.0"/>
+<line class="dim" x1="310.0" y1="149.0" x2="410.0" y2="149.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="360.0" y="144.0" text-anchor="middle">½″</text>
+<text class="n" x="304.0" y="167.0" text-anchor="end">shoulder (leg face)</text>
+<line class="dim" x1="640.0" y1="175.0" x2="640.0" y2="218.8" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="645.0" y="200.9" text-anchor="start">7/32″ near wall</text>
+<line class="ext" x1="640.0" y1="175.0" x2="610.0" y2="175.0"/>
+<line class="ext" x1="640.0" y1="218.8" x2="510.0" y2="218.8"/>
+<line class="ext" x1="640.0" y1="281.2" x2="510.0" y2="281.2"/>
+<line class="dim" x1="640.0" y1="218.8" x2="640.0" y2="281.2" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="645.0" y="254.0" text-anchor="start">5/16″ mortise (= tenon)</text>
+<line class="ext" x1="640.0" y1="281.2" x2="422.5" y2="281.2"/>
+<line class="ext" x1="640.0" y1="331.2" x2="422.5" y2="331.2"/>
+<line class="dim" x1="640.0" y1="281.2" x2="640.0" y2="331.2" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="645.0" y="310.2" text-anchor="start">¼″ into the far wall (blind)</text>
+<text class="n" x="560.0" y="190.0" text-anchor="middle">outer face</text>
+<text class="n" x="560.0" y="203.0" text-anchor="middle">pin enters</text>
+<text class="n" x="185.0" y="248.0" text-anchor="middle">front apron ¾″</text>
+<text class="n" x="185.0" y="262.0" text-anchor="middle">flush with the leg</text>
+<text class="n" x="354.0" y="254.0" text-anchor="middle">tenon</text>
+<text class="n" transform="translate(539.0,385.0) rotate(-90)" text-anchor="middle">side-apron tenon</text>
+<text class="n" x="535.0" y="553.0" text-anchor="middle">side apron</text>
+<text class="n" x="535.0" y="567.0" text-anchor="middle">¾″</text>
+<line class="ext" x1="506.9" y1="278.1" x2="486.0" y2="365.0"/>
+<text class="n" x="483.0" y="369.0" text-anchor="end">tips mitred 45°</text>
+<text class="n" x="483.0" y="383.0" text-anchor="end">where the tenons meet</text>
+<text class="n" x="20.0" y="652.0" text-anchor="start">Tenons are centred on the ¾″ aprons, which are flush with the leg faces, so the near wall is 7/32″.</text>
+<text class="n" x="20.0" y="668.0" text-anchor="start">The side-apron pin is drilled from the end face at 1¾″ below the top, between the front-apron pins</text>
+<text class="n" x="20.0" y="684.0" text-anchor="start">at ¾″ and 2¾″, so it is not in this section. See the leg layout for all pin positions.</text>
 </svg>

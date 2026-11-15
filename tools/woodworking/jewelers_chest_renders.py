@@ -5,7 +5,9 @@ projection, lid propped open). Illustrations from the plan dimensions, not photo
 Usage: python3 tools/woodworking/jewelers_chest_renders.py
 Writes static/static/woodworking/jewelers-chest-render.svg
 """
-import math, os
+import math, os, sys
+sys.path.insert(0, os.path.dirname(__file__))
+import jewelers_chest_drawings as J
 
 K = 22
 OUT = os.path.join(os.path.dirname(__file__), "..", "..", "static", "static", "woodworking")
@@ -48,19 +50,28 @@ FRONT, FACE, TOP, SIDE, DARK, INSIDE = "#e6c79c", "#f3dfbf", "#f0d7b0", "#cfa972
 
 def pekovich():
     r = R(780, 670, 90, 590, 18)
-    W, D, H, LID = 22, 12, 13, 0.75
+    W, D, H, LID = J.W, J.D, J.CASE_H, J.LID_T
     # inside first, then tray, then the front wall and end so they hide what is behind
     r.poly([(0.5, 0.5, H), (W - 0.5, 0.5, H), (W - 0.5, D - 0.5, H), (0.5, D - 0.5, H)], INSIDE)
     r.poly([(0.5, D, 0), (W - 0.5, D, 0), (W - 0.5, D, H), (0.5, D, H)], INSIDE)          # inner back wall
-    r.box(0.7, 1.0, 10.75, W - 0.7, D - 0.7, 12.5, FACE, TOP, SIDE)
-    for x in (5.2, 11.0, 15.8):
-        r.poly([(x, 1.3, 12.5), (x + 0.12, 1.3, 12.5), (x + 0.12, D - 1.0, 12.5), (x, D - 1.0, 12.5)], FRONT, w=0.6)
+    tx0 = J.WALL + (J.INNER_W - J.TRAY_W) / 2          # tray sits centred, 1/8" clear all round
+    ty0 = J.WALL + (D - 2 * J.WALL - J.TRAY_D) / 2
+    tz0, tz1 = J.CLEAT_TOP, J.CLEAT_TOP + J.TRAY_H
+    r.box(tx0, ty0, tz0, tx0 + J.TRAY_W, ty0 + J.TRAY_D, tz1, FACE, TOP, SIDE)
+    yi0, yi1 = ty0 + J.TRAY_SIDE, ty0 + J.TRAY_D - J.TRAY_SIDE
+    for c in J.TRAY_DIVS:                                # dividers seen on the tray top
+        x = tx0 + c - J.TRAY_DIV / 2
+        r.poly([(x, yi0, tz1), (x + J.TRAY_DIV, yi0, tz1), (x + J.TRAY_DIV, yi1, tz1), (x, yi1, tz1)], FRONT, w=0.6)
+    xa, xb = tx0 + J.TRAY_DIVS[-1] + J.TRAY_DIV / 2, tx0 + J.TRAY_W - J.TRAY_SIDE
+    ym = ty0 + J.TRAY_D / 2 - J.TRAY_DIV / 2
+    r.poly([(xa, ym, tz1), (xb, ym, tz1), (xb, ym + J.TRAY_DIV, tz1), (xa, ym + J.TRAY_DIV, tz1)], FRONT, w=0.6)
     r.poly([(0, 0, 0), (W, 0, 0), (W, 0, H), (0, 0, H)], FRONT)                          # front
     r.poly([(W, 0, 0), (W, D, 0), (W, D, H), (W, 0, H)], SIDE)                           # right end
     r.poly([(0, 0, H), (W, 0, H), (W, 0.5, H), (0, 0.5, H)], TOP)                        # front rim
-    for lo in (0.8125, 4.5625):
-        r.poly([(.56, 0, lo), (W - .56, 0, lo), (W - .56, 0, lo + 3.1875), (.56, 0, lo + 3.1875)], FACE)
-        r.circle(W / 2, 0, lo + 1.6, 0.3, DARK)
+    xd0, xd1 = J.WALL + J.REVEAL, W - J.WALL - J.REVEAL
+    for lo in (J.BOT_T + J.REVEAL, J.RAIL_LO + J.RAIL + J.REVEAL):
+        r.poly([(xd0, 0, lo), (xd1, 0, lo), (xd1, 0, lo + J.DR_H), (xd0, 0, lo + J.DR_H)], FACE)
+        r.circle(W / 2, 0, lo + J.DR_H / 2, 0.3, DARK)
     r.poly([(W, 4.5, 8.7), (W + 0.6, 4.5, 8.7), (W + 0.6, 7.5, 8.7), (W, 7.5, 8.7)], DARK, w=1)
     # lid propped open, hinged at the back, leaning back about 15 degrees past vertical
     a = math.radians(75)
@@ -70,7 +81,8 @@ def pekovich():
     L = D
     r.poly([o(0, 0, 0), o(W, 0, 0), o(W, L, 0), o(0, L, 0)], INSIDE)
     r.poly([o(0, 0, LID), o(W, 0, LID), o(W, L, LID), o(0, L, LID)], FRONT)
-    r.poly([o(2, 2, LID), o(W - 2, 2, LID), o(W - 2, L - 2, LID), o(2, L - 2, LID)], FACE, w=0.7)
+    F = J.LID_FRAME
+    r.poly([o(F, F, LID), o(W - F, F, LID), o(W - F, L - F, LID), o(F, L - F, LID)], FACE, w=0.7)
     r.text(20, 650, "Concept rendering, proposed: Pekovich-style traveling chest. Cherry case, lid propped open over the lift-out tray. Not a photograph.", 12)
     r.save("jewelers-chest-render.svg", "Concept rendering of the jeweler's traveling chest, lid open")
 

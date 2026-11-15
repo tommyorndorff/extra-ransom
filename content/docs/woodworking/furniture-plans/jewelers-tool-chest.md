@@ -79,7 +79,7 @@ Overall **22″ W × 12″ D × 13¾″ H** (derived: chosen so a 21″ interior
 | Case parts | ½″ sides, back and well front; ¾″ bottom and shelf (derived) |
 | Well front | 4½″ tall (derived) |
 | Drawer bay | 7″: two openings 3¼″ with a ½″ rail between (derived) |
-| Drawer fronts | 20⅞″ × 3³⁄₁₆″, ¹⁄₁₆″ reveals (derived) |
+| Drawer fronts | 20⅞″ × 3⅛″, ¹⁄₁₆″ reveals all round (derived) |
 | Drawer interior | about 20⅛″ × 9⅝″ × 2¾″ (derived) |
 | Tray | 20¾″ × 10¾″ × 1¾″, resting on ½″ cleats (derived) |
 | Species | Cherry or maple case, maple drawer sides (proposed) |
@@ -96,13 +96,17 @@ Drawn at 1″ = 24 px from the sizes on this page. Click to open full size.
 
 [![Cross-section of the jeweler's chest: lid, well, tray, shelf and two drawers](/static/woodworking/jewelers-chest-section.svg)](/static/woodworking/jewelers-chest-section.svg)
 
+**Side panel joint layout**
+
+[![Inside face of the left side with the heights of the bottom and rail grooves, the shelf through-mortises, the well-front dovetails and the back rabbet](/static/woodworking/jewelers-chest-side.svg)](/static/woodworking/jewelers-chest-side.svg)
+
 **Lift-out tray**
 
-[![Plan of the lift-out tray with compartments for pliers, files, measuring tools and burnishers](/static/woodworking/jewelers-chest-tray.svg)](/static/woodworking/jewelers-chest-tray.svg)
+[![Plan of the lift-out tray with compartment sizes for pliers, files, measuring tools and burnishers](/static/woodworking/jewelers-chest-tray.svg)](/static/woodworking/jewelers-chest-tray.svg)
 
 **Drawer layouts**
 
-[![Plan of the two drawers: soldering kit above, lapidary kit below](/static/woodworking/jewelers-chest-drawers.svg)](/static/woodworking/jewelers-chest-drawers.svg)
+[![Plan of the two drawers with compartment widths, soldering kit above and lapidary kit below, plus a side section of a drawer box](/static/woodworking/jewelers-chest-drawers.svg)](/static/woodworking/jewelers-chest-drawers.svg)
 
 ## What goes where
 
@@ -120,17 +124,19 @@ Drawn at 1″ = 24 px from the sizes on this page. Click to open full size.
 
 Finished sizes in inches, thickness × width × length. Check against your own layout before cutting.
 
+> **Joint allowances are not included.** The 21″ lengths of the well front, back, bottom and rail, and the 10″ drawer sides, are the sizes *between* the parts they join. Add the depth of your dovetails, grooves, rabbets and drawer-front rabbets before you cut. Only the shelf already includes its through-tenons.
+
 | Part | Qty | Size | Notes |
 |---|---|---|---|
 | Sides | 2 | ½ × 12 × 13 | Dovetailed to the well front and back; grooved for the bottom and shelf |
 | Well front | 1 | ½ × 4½ × 21 | Mortised for the lid lock |
-| Back | 1 | ½ × 21 × 12¼ | Rabbeted into the sides |
+| Back | 1 | ½ × 21 × 13 | Rabbeted into the sides; full case height, so the lid closes on it |
 | Bottom | 1 | ¾ × 11½ × 21 | In grooves in the sides |
 | Shelf | 1 | ¾ × 11½ × 22 | Through-tenoned into the sides: 22″ includes the tenons |
-| Drawer rail | 1 | ½ × ¾ × 21 | Full depth |
+| Drawer rail | 1 | ½ × 11½ × 21 | Full depth, in grooves in the sides; the top drawer runs on it |
 | Lid frame | 4 | ¾ × 2 × 22 (long), ¾ × 2 × 12 (short) | Bridle corners, grooved ¼″ for the panel |
 | Lid panel | 1 | ¼ × 8⅜ × 18⅜ | Floats in the groove |
-| Drawer fronts | 2 | ¾ × 3³⁄₁₆ × 20⅞ | Pulls: small wire rings |
+| Drawer fronts | 2 | ¾ × 3⅛ × 20⅞ | Pulls: small wire rings |
 | Drawer sides | 4 | ⅜ × 3 × 10 | Maple |
 | Drawer backs | 2 | ⅜ × 2¾ × 20⅛ | |
 | Drawer bottoms | 2 | ¼ × 9⅝ × 20⅛ | |

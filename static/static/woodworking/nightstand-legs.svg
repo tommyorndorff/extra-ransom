@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 700" width="760" height="700" role="img" aria-label="Heartwood Shaker nightstand, leg layout">
+<title>Heartwood Shaker nightstand, leg layout</title>
+<style>
+  .bg{fill:#fff}
+  .wood{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .leg{fill:#dcb988;stroke:#4a3320;stroke-width:1.3}
+  .face{fill:#f3dfbf;stroke:#4a3320;stroke-width:1.3}
+  .pull{fill:#5a3b26;stroke:#2b1a0f;stroke-width:1}
+  .shelf{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3}
+  .hid{fill:none;stroke:#7a6a5a;stroke-width:1.1;stroke-dasharray:5 3}
+  .spacer{fill:#cfc3b4;stroke:#6b5b4b;stroke-width:1}
+  .floor{stroke:#333;stroke-width:1.6}
+  .dim{stroke:#1f5fa8;stroke-width:1;fill:none}
+  .ext{stroke:#8fb0d8;stroke-width:.8}
+  .t{font:12px 'Helvetica Neue',Arial,sans-serif;fill:#1f3a5f}
+  .n{font:11px 'Helvetica Neue',Arial,sans-serif;fill:#444}
+  .h{font:600 15px 'Helvetica Neue',Arial,sans-serif;fill:#222}
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
+  </marker>
+</defs>
+<style>
+  .sub{font:600 12px 'Helvetica Neue',Arial,sans-serif;fill:#222}
+</style><rect class="bg" width="760" height="700"/>
+<text class="h" x="20.0" y="24.0" text-anchor="start">Leg layout — inside faces, 1 in = 16 px</text>
+<text class="sub" x="132.0" y="68.0" text-anchor="middle">Front legs — apron face</text>
+<text class="n" x="132.0" y="84.0" text-anchor="middle">(faces the other front leg)</text>
+<text class="n" x="117.0" y="122.0" text-anchor="end">outside</text>
+<text class="n" x="147.0" y="122.0" text-anchor="start">inside</text>
+<rect class="leg" x="120.00" y="130.00" width="24.00" height="432.00"/>
+<rect class="face" x="120.00" y="228.00" width="12.00" height="12.00"/>
+<text class="n" x="152.0" y="232.0" text-anchor="start">front rail</text>
+<text class="t" x="152.0" y="246.0" text-anchor="start">6⅛″–6⅞″</text>
+<rect class="face" x="120.00" y="338.00" width="12.00" height="12.00"/>
+<text class="n" x="152.0" y="342.0" text-anchor="start">front rail</text>
+<text class="t" x="152.0" y="356.0" text-anchor="start">13″–13¾″</text>
+<rect class="face" x="120.00" y="448.00" width="12.00" height="42.00"/>
+<text class="n" x="152.0" y="467.0" text-anchor="start">front apron</text>
+<text class="t" x="152.0" y="481.0" text-anchor="start">19⅞″–22½″</text>
+<text class="n" x="132.0" y="578.0" text-anchor="middle">foot</text>
+<text class="sub" x="302.0" y="68.0" text-anchor="middle">Front legs — side face</text>
+<text class="n" x="302.0" y="84.0" text-anchor="middle">(faces the back leg)</text>
+<text class="n" x="287.0" y="122.0" text-anchor="end">outside</text>
+<text class="n" x="317.0" y="122.0" text-anchor="start">inside</text>
+<rect class="leg" x="290.00" y="130.00" width="24.00" height="432.00"/>
+<rect class="face" x="290.00" y="130.00" width="12.00" height="24.00"/>
+<text class="n" x="322.0" y="140.0" text-anchor="start">top side rail</text>
+<text class="t" x="322.0" y="154.0" text-anchor="start">0–1½″</text>
+<rect class="face" x="290.00" y="448.00" width="12.00" height="42.00"/>
+<text class="n" x="322.0" y="467.0" text-anchor="start">bottom side rail</text>
+<text class="t" x="322.0" y="481.0" text-anchor="start">19⅞″–22½″</text>
+<line class="hid" x1="296.0" y1="154.0" x2="296.0" y2="448.0"/>
+<text class="n" x="322.0" y="292.0" text-anchor="start">side-panel groove</text>
+<text class="n" x="322.0" y="306.0" text-anchor="start">⅜″ deep</text>
+<text class="t" x="322.0" y="320.0" text-anchor="start">1½″–19⅞″</text>
+<text class="n" x="302.0" y="578.0" text-anchor="middle">foot</text>
+<text class="sub" x="472.0" y="68.0" text-anchor="middle">Back legs — side face</text>
+<text class="n" x="472.0" y="84.0" text-anchor="middle">(faces the front leg)</text>
+<text class="n" x="457.0" y="122.0" text-anchor="end">outside</text>
+<text class="n" x="487.0" y="122.0" text-anchor="start">inside</text>
+<rect class="leg" x="460.00" y="130.00" width="24.00" height="432.00"/>
+<rect class="face" x="460.00" y="130.00" width="12.00" height="24.00"/>
+<text class="n" x="492.0" y="140.0" text-anchor="start">top side rail</text>
+<text class="t" x="492.0" y="154.0" text-anchor="start">0–1½″</text>
+<rect class="face" x="460.00" y="448.00" width="12.00" height="42.00"/>
+<text class="n" x="492.0" y="467.0" text-anchor="start">bottom side rail</text>
+<text class="t" x="492.0" y="481.0" text-anchor="start">19⅞″–22½″</text>
+<line class="hid" x1="466.0" y1="154.0" x2="466.0" y2="448.0"/>
+<text class="n" x="492.0" y="292.0" text-anchor="start">side-panel groove</text>
+<text class="n" x="492.0" y="306.0" text-anchor="start">⅜″ deep</text>
+<text class="t" x="492.0" y="320.0" text-anchor="start">1½″–19⅞″</text>
+<text class="n" x="472.0" y="578.0" text-anchor="middle">foot</text>
+<text class="sub" x="642.0" y="68.0" text-anchor="middle">Back legs — back face</text>
+<text class="n" x="642.0" y="84.0" text-anchor="middle">(faces the other back leg)</text>
+<text class="n" x="627.0" y="122.0" text-anchor="end">outside</text>
+<text class="n" x="657.0" y="122.0" text-anchor="start">inside</text>
+<rect class="leg" x="630.00" y="130.00" width="24.00" height="432.00"/>
+<rect class="face" x="630.00" y="130.00" width="12.00" height="24.00"/>
+<text class="n" x="662.0" y="140.0" text-anchor="start">back top rail</text>
+<text class="t" x="662.0" y="154.0" text-anchor="start">0–1½″</text>
+<rect class="face" x="630.00" y="448.00" width="12.00" height="42.00"/>
+<text class="n" x="662.0" y="467.0" text-anchor="start">back bottom rail</text>
+<text class="t" x="662.0" y="481.0" text-anchor="start">19⅞″–22½″</text>
+<line class="hid" x1="636.0" y1="154.0" x2="636.0" y2="448.0"/>
+<text class="n" x="662.0" y="292.0" text-anchor="start">back-panel groove</text>
+<text class="n" x="662.0" y="306.0" text-anchor="start">¼″ deep</text>
+<text class="t" x="662.0" y="320.0" text-anchor="start">1½″–19⅞″</text>
+<text class="n" x="642.0" y="578.0" text-anchor="middle">foot</text>
+<line class="ext" x1="90.0" y1="130.0" x2="120.0" y2="130.0"/>
+<line class="ext" x1="90.0" y1="562.0" x2="120.0" y2="562.0"/>
+<line class="dim" x1="90.0" y1="130.0" x2="90.0" y2="562.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(84.0,346.0) rotate(-90)" text-anchor="middle">27″ leg</text>
+<text class="n" x="20.0" y="606.0" text-anchor="start">Distances are from the top end of the leg (the underside of the top). Shaded = where each rail lands:</text>
+<text class="n" x="20.0" y="622.0" text-anchor="start">¾″ thick, flush to the leg's outside face. Register every mark from the top end and the outside face,</text>
+<text class="n" x="20.0" y="638.0" text-anchor="start">and the same layout serves left- and right-hand legs. Where two rails enter a leg at the same height, miter the</text>
+<text class="n" x="20.0" y="654.0" text-anchor="start">tenon tips. The 2⅝″ rails take a 1¾″ × 5/16″ tenon (est.), centred; dashed = panel groove.</text>
+</svg>

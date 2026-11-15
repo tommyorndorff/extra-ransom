@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 372" width="920" height="372" role="img" aria-label="Modern Craftsman console, plan view">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" width="960" height="380" role="img" aria-label="Modern Craftsman console, plan view">
 <title>Modern Craftsman console, plan view</title>
 <style>
   .bg{fill:#fff}
@@ -22,9 +22,9 @@
     <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
   </marker>
 </defs>
-<rect class="bg" width="920" height="372"/>
+<rect class="bg" width="960" height="380"/>
 <text class="h" x="20.0" y="24.0" text-anchor="start">Plan view, top removed — 1 in = 12 px</text>
-<rect class="hid" x="95.0" y="100.0" width="720" height="192"/>
+<rect class="hid" x="95.00" y="100.00" width="720.00" height="192.00"/>
 <rect class="face" x="191.00" y="133.00" width="15.00" height="126.00"/>
 <rect class="face" x="704.00" y="133.00" width="15.00" height="126.00"/>
 <rect class="shelf" x="206.00" y="137.50" width="498.00" height="117.00"/>
@@ -40,18 +40,18 @@
 <rect class="leg" x="698.00" y="259.00" width="21.00" height="21.00"/>
 <rect class="leg" x="698.00" y="112.00" width="21.00" height="21.00"/>
 <rect class="face" x="212.75" y="271.00" width="237.00" height="9.00"/>
-<rect class="hid" x="218.0" y="175.0" width="226.5" height="96.0"/>
-<text class="n" x="331.2" y="221.2" text-anchor="middle">drawer box ≈ 18⅞″ × 8¾″</text>
-<text class="n" x="331.2" y="233.2" text-anchor="middle">(dashed; sits on slides)</text>
+<rect class="hid" x="217.25" y="175.00" width="228.00" height="96.00"/>
+<text class="n" x="331.2" y="221.2" text-anchor="middle">drawer box 19″ × 8¾″ o/a</text>
+<text class="n" x="331.2" y="233.2" text-anchor="middle">(dashed; hangs on side-mount slides)</text>
 <rect class="face" x="460.25" y="271.00" width="237.00" height="9.00"/>
-<rect class="hid" x="465.5" y="175.0" width="226.5" height="96.0"/>
-<text class="n" x="578.8" y="221.2" text-anchor="middle">drawer box ≈ 18⅞″ × 8¾″</text>
-<text class="n" x="578.8" y="233.2" text-anchor="middle">(dashed; sits on slides)</text>
+<rect class="hid" x="464.75" y="175.00" width="228.00" height="96.00"/>
+<text class="n" x="578.8" y="221.2" text-anchor="middle">drawer box 19″ × 8¾″ o/a</text>
+<text class="n" x="578.8" y="233.2" text-anchor="middle">(dashed; hangs on side-mount slides)</text>
 <rect class="wood" x="450.50" y="271.00" width="9.00" height="9.00"/>
 <text class="n" x="467.0" y="154.0" text-anchor="start">◀ center runner ¾″</text>
 <text class="n" x="455.0" y="308.0" text-anchor="middle">FRONT</text>
-<text class="n" x="95.0" y="338.0" text-anchor="start">Dashed outline = top, 60″ × 16″ × ¾″, floating on buttons.  Dark tan = legs.  Grey = 1″ × 9″ drawer-slide spacers on the side aprons.</text>
-<text class="n" x="95.0" y="354.0" text-anchor="start">Drawer boxes (dashed) hang on side-mount slides: 1/2″ clearance each side, 29⅝″–30⅜″ center runner between them.</text>
+<text class="n" x="95.0" y="338.0" text-anchor="start">Dashed outline = top, 60″ × 16″ × ¾″, floating on buttons.  Dark tan = legs.  Grey = 1″ × 3″ × 9″ drawer-slide spacers on the side aprons.</text>
+<text class="n" x="95.0" y="354.0" text-anchor="start">Slide faces (spacer to runner) are 19⅞″ apart; the 19″ drawer box leaves 7/16″ per side — see the drawer-bay detail.</text>
 <line class="ext" x1="95.0" y1="42.0" x2="95.0" y2="100.0"/>
 <line class="ext" x1="815.0" y1="42.0" x2="815.0" y2="100.0"/>
 <line class="dim" x1="95.0" y1="42.0" x2="815.0" y2="42.0" marker-start="url(#a)" marker-end="url(#a)"/>
@@ -68,10 +68,16 @@
 <line class="ext" x1="815.0" y1="68.0" x2="815.0" y2="100.0"/>
 <line class="dim" x1="719.0" y1="68.0" x2="815.0" y2="68.0" marker-start="url(#a)" marker-end="url(#a)"/>
 <text class="t" x="767.0" y="63.0" text-anchor="middle">8″</text>
-<line class="dim" x1="839" y1="292.0" x2="839" y2="100.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(853,196.0) rotate(-90)" text-anchor="middle">16″ overall</text>
-<line class="dim" x1="869" y1="280.0" x2="869" y2="112.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(883,196.0) rotate(-90)" text-anchor="middle">14″ leg frame</text>
-<line class="dim" x1="71" y1="259.0" x2="71" y2="133.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(85,196.0) rotate(-90)" text-anchor="middle">10½″ between legs</text>
+<line class="ext" x1="839.0" y1="280.0" x2="719.0" y2="280.0"/>
+<line class="ext" x1="839.0" y1="112.0" x2="719.0" y2="112.0"/>
+<line class="dim" x1="839.0" y1="280.0" x2="839.0" y2="112.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(853.0,196.0) rotate(-90)" text-anchor="middle">14″ leg frame</text>
+<line class="ext" x1="869.0" y1="292.0" x2="815.0" y2="292.0"/>
+<line class="ext" x1="869.0" y1="100.0" x2="815.0" y2="100.0"/>
+<line class="dim" x1="869.0" y1="292.0" x2="869.0" y2="100.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(883.0,196.0) rotate(-90)" text-anchor="middle">16″ overall</text>
+<line class="ext" x1="169.0" y1="259.0" x2="191.0" y2="259.0"/>
+<line class="ext" x1="169.0" y1="133.0" x2="191.0" y2="133.0"/>
+<line class="dim" x1="169.0" y1="259.0" x2="169.0" y2="133.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(163.0,196.0) rotate(-90)" text-anchor="middle">10½″ between legs</text>
 </svg>
