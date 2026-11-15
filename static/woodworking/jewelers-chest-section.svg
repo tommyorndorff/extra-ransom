@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 540" width="780" height="540" role="img" aria-label="Jeweler's traveling chest, cross-section">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 590" width="780" height="590" role="img" aria-label="Jeweler's traveling chest, cross-section">
 <title>Jeweler's traveling chest, cross-section</title>
 <style>
   .bg{fill:#fff}
@@ -22,53 +22,100 @@
     <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
   </marker>
 </defs>
-<rect class="bg" width="780" height="540"/>
-<text class="h" x="20.0" y="24.0" text-anchor="start">Cross-section at centre, looking from the left end — 1 in = 24 px</text>
-<rect class="leg" x="110.00" y="118.00" width="12.00" height="108.00"/>
-<rect class="leg" x="386.00" y="136.00" width="12.00" height="294.00"/>
-<rect class="wood" x="110.00" y="412.00" width="276.00" height="18.00"/>
-<rect class="wood" x="110.00" y="226.00" width="276.00" height="18.00"/>
-<rect class="wood" x="110.00" y="100.00" width="288.00" height="18.00"/>
-<rect class="hid" x="158.00" y="106.00" width="192.00" height="6.00"/>
-<text class="n" x="254.0" y="92.0" text-anchor="middle">lid: ¾″ frame, ¼″ floating panel, bridle corners</text>
-<rect class="spacer" x="122.00" y="172.00" width="12.00" height="12.00"/>
-<rect class="spacer" x="374.00" y="172.00" width="12.00" height="12.00"/>
-<rect class="hid" x="125.00" y="130.00" width="258.00" height="42.00"/>
-<text class="n" x="254.0" y="155.2" text-anchor="middle">lift-out tray (1¾″ deep)</text>
-<text class="n" x="254.0" y="197.2" text-anchor="middle">well: hammers, mandrels, saw frame, torch tip kit</text>
-<rect class="face" x="110.00" y="335.50" width="18.00" height="75.00"/>
-<rect class="hid" x="128.00" y="338.50" width="240.00" height="66.00"/>
-<rect class="pull" x="128.00" y="404.50" width="240.00" height="6.00"/>
-<rect class="wood" x="110.00" y="335.50" width="0.00" height="75.00"/>
-<rect class="face" x="110.00" y="245.50" width="18.00" height="75.00"/>
-<rect class="hid" x="128.00" y="248.50" width="240.00" height="66.00"/>
-<rect class="pull" x="128.00" y="314.50" width="240.00" height="6.00"/>
-<rect class="wood" x="110.00" y="245.50" width="0.00" height="75.00"/>
-<rect class="wood" x="110.00" y="322.00" width="276.00" height="12.00"/>
-<text class="n" x="242.0" y="283.6" text-anchor="middle">top drawer — soldering kit</text>
-<text class="n" x="242.0" y="368.8" text-anchor="middle">bottom drawer — lapidary kit</text>
-<rect class="pull" x="395.60" y="115.60" width="7.20" height="14.40"/>
-<text class="n" x="408.0" y="118.0" text-anchor="start">butt hinge (×2)</text>
-<line class="floor" x1="38.0" y1="430.0" x2="494.0" y2="430.0"/>
-<line class="ext" x1="110.0" y1="62.0" x2="110.0" y2="100.0"/>
-<line class="ext" x1="398.0" y1="62.0" x2="398.0" y2="100.0"/>
-<line class="dim" x1="110.0" y1="62.0" x2="398.0" y2="62.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" x="254.0" y="57.0" text-anchor="middle">12″ deep</text>
-<line class="ext" x1="70.0" y1="130.0" x2="110.0" y2="130.0"/>
-<line class="ext" x1="70.0" y1="226.0" x2="110.0" y2="226.0"/>
-<line class="dim" x1="70.0" y1="130.0" x2="70.0" y2="226.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(64.0,178.0) rotate(-90)" text-anchor="middle">shelf to tray rim 4″</text>
-<line class="ext" x1="458.0" y1="172.0" x2="398.0" y2="172.0"/>
-<line class="ext" x1="458.0" y1="226.0" x2="398.0" y2="226.0"/>
-<line class="dim" x1="458.0" y1="172.0" x2="458.0" y2="226.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(472.0,199.0) rotate(-90)" text-anchor="middle">2¼″ under tray</text>
-<line class="ext" x1="498.0" y1="100.0" x2="398.0" y2="100.0"/>
-<line class="ext" x1="498.0" y1="118.0" x2="398.0" y2="118.0"/>
-<line class="dim" x1="498.0" y1="100.0" x2="498.0" y2="118.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(512.0,109.0) rotate(-90)" text-anchor="middle">¾″</text>
-<line class="ext" x1="110.0" y1="458.0" x2="110.0" y2="430.0"/>
-<line class="ext" x1="368.0" y1="458.0" x2="368.0" y2="430.0"/>
-<line class="dim" x1="110.0" y1="458.0" x2="368.0" y2="458.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" x="239.0" y="473.0" text-anchor="middle">drawer 10¾″ front to back</text>
-<text class="n" x="20.0" y="520.0" text-anchor="start">Drawer sides ⅜″, bottoms ¼″ in a groove; ¾″ fronts. The ¾″ gap behind the drawers is a dust/stop space.</text>
+
+<defs>
+  <pattern id="jh" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <line x1="0" y1="0" x2="0" y2="6" stroke="#8a6a4a" stroke-width="1"/>
+  </pattern>
+</defs>
+<style>
+  .cut{fill:#d9b27c;stroke:#4a3320;stroke-width:1.2}
+  .beyond{fill:#f8f1e6;stroke:#a08f7c;stroke-width:1}
+  .groove{fill:#e6d6bf;stroke:#7a6a5a;stroke-width:1;stroke-dasharray:4 2}
+  .dt{fill:url(#jh);stroke:#4a3320;stroke-width:1}
+</style>
+<rect class="bg" width="780" height="590"/>
+<text class="h" x="20.0" y="24.0" text-anchor="start">Cross-section at centre, looking toward the left end — 1 in = 24 px</text>
+<rect class="beyond" x="120.00" y="128.00" width="276.00" height="312.00"/>
+<rect class="beyond" x="168.00" y="110.00" width="192.00" height="18.00"/>
+<rect class="cut" x="120.00" y="110.00" width="48.00" height="18.00"/>
+<rect class="cut" x="360.00" y="110.00" width="48.00" height="18.00"/>
+<rect class="cut" x="163.50" y="116.00" width="201.00" height="6.00"/>
+<rect class="cut" x="120.00" y="128.00" width="12.00" height="108.00"/>
+<rect class="cut" x="396.00" y="128.00" width="12.00" height="312.00"/>
+<rect class="cut" x="120.00" y="422.00" width="276.00" height="18.00"/>
+<rect class="cut" x="120.00" y="332.00" width="276.00" height="12.00"/>
+<rect class="cut" x="120.00" y="236.00" width="276.00" height="18.00"/>
+<rect class="spacer" x="132.00" y="182.00" width="12.00" height="12.00"/>
+<rect class="spacer" x="384.00" y="182.00" width="12.00" height="12.00"/>
+<rect class="beyond" x="135.00" y="140.00" width="258.00" height="42.00"/>
+<rect class="cut" x="135.00" y="152.00" width="9.00" height="30.00"/>
+<rect class="cut" x="384.00" y="140.00" width="9.00" height="42.00"/>
+<rect class="cut" x="144.00" y="176.00" width="240.00" height="6.00"/>
+<text class="n" x="259.2" y="157.0" text-anchor="middle">lift-out tray, 1¾″ deep</text>
+<text class="n" x="259.2" y="171.0" text-anchor="middle">front lip cut ½″ lower</text>
+<rect class="beyond" x="138.00" y="260.00" width="240.00" height="72.00"/>
+<rect class="cut" x="120.00" y="255.50" width="18.00" height="75.00"/>
+<rect class="cut" x="138.00" y="326.00" width="231.00" height="6.00"/>
+<rect class="cut" x="369.00" y="260.00" width="9.00" height="66.00"/>
+<text class="n" x="258.0" y="300.0" text-anchor="middle">top drawer — soldering kit</text>
+<rect class="beyond" x="138.00" y="350.00" width="240.00" height="72.00"/>
+<rect class="cut" x="120.00" y="345.50" width="18.00" height="75.00"/>
+<rect class="cut" x="138.00" y="416.00" width="231.00" height="6.00"/>
+<rect class="cut" x="369.00" y="350.00" width="9.00" height="66.00"/>
+<text class="n" x="258.0" y="390.0" text-anchor="middle">bottom drawer — lapidary kit</text>
+<rect class="pull" x="405.60" y="125.60" width="7.20" height="14.40"/>
+<line class="ext" x1="412.8" y1="125.6" x2="454.0" y2="96.0"/>
+<text class="n" x="457.0" y="100.0" text-anchor="start">butt hinge (×2)</text>
+<line class="floor" x1="48.0" y1="440.0" x2="504.0" y2="440.0"/>
+<line class="ext" x1="120.0" y1="72.0" x2="120.0" y2="110.0"/>
+<line class="ext" x1="408.0" y1="72.0" x2="408.0" y2="110.0"/>
+<line class="dim" x1="120.0" y1="72.0" x2="408.0" y2="72.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="264.0" y="67.0" text-anchor="middle">12″ deep</text>
+<text class="n" x="264.0" y="100.0" text-anchor="middle">lid: 2″ frame, ¼″ floating panel</text>
+<line class="ext" x1="58.0" y1="128.0" x2="120.0" y2="128.0"/>
+<line class="ext" x1="58.0" y1="440.0" x2="120.0" y2="440.0"/>
+<line class="dim" x1="58.0" y1="128.0" x2="58.0" y2="440.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(52.0,284.0) rotate(-90)" text-anchor="middle">13″ case (back runs full height)</text>
+<line class="ext" x1="90.0" y1="182.0" x2="132.0" y2="182.0"/>
+<line class="ext" x1="90.0" y1="440.0" x2="120.0" y2="440.0"/>
+<line class="dim" x1="90.0" y1="182.0" x2="90.0" y2="440.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(84.0,311.0) rotate(-90)" text-anchor="middle">10¾″ floor to top of cleats</text>
+<line class="ext" x1="90.0" y1="110.0" x2="120.0" y2="110.0"/>
+<line class="ext" x1="90.0" y1="128.0" x2="120.0" y2="128.0"/>
+<line class="dim" x1="90.0" y1="110.0" x2="90.0" y2="128.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="85.0" y="123.0" text-anchor="end">¾″ lid</text>
+<line class="ext" x1="438.0" y1="182.0" x2="396.0" y2="182.0"/>
+<line class="ext" x1="438.0" y1="236.0" x2="396.0" y2="236.0"/>
+<line class="dim" x1="438.0" y1="182.0" x2="438.0" y2="236.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="443.0" y="213.0" text-anchor="start">2¼″ under tray</text>
+<line class="ext" x1="438.0" y1="140.0" x2="393.0" y2="140.0"/>
+<line class="dim" x1="438.0" y1="140.0" x2="438.0" y2="182.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="443.0" y="165.0" text-anchor="start">1¾″ tray</text>
+<line class="ext" x1="438.0" y1="128.0" x2="408.0" y2="128.0"/>
+<line class="dim" x1="438.0" y1="128.0" x2="438.0" y2="140.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="443.0" y="138.0" text-anchor="start">½″ clear</text>
+<line class="ext" x1="135.0" y1="204.0" x2="135.0" y2="182.0"/>
+<line class="ext" x1="393.0" y1="204.0" x2="393.0" y2="182.0"/>
+<line class="dim" x1="135.0" y1="204.0" x2="393.0" y2="204.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="264.0" y="199.0" text-anchor="middle">tray 10¾″, ⅛″ clear each end</text>
+<text class="n" x="264.0" y="228.0" text-anchor="middle">well: hammers, mandrel, saw frame, torch tips</text>
+<line class="ext" x1="120.0" y1="466.0" x2="120.0" y2="422.0"/>
+<line class="ext" x1="378.0" y1="466.0" x2="378.0" y2="422.0"/>
+<line class="dim" x1="120.0" y1="466.0" x2="378.0" y2="466.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="249.0" y="481.0" text-anchor="middle">drawer box 10¾″</text>
+<line class="ext" x1="396.0" y1="466.0" x2="396.0" y2="422.0"/>
+<line class="dim" x1="378.0" y1="466.0" x2="396.0" y2="466.0"/>
+<line class="dim" x1="410.0" y1="466.0" x2="396.0" y2="466.0" marker-end="url(#a)"/>
+<text class="t" x="414.0" y="470.0" text-anchor="start">¾″ stop gap</text>
+<line class="ext" x1="120.0" y1="494.0" x2="120.0" y2="440.0"/>
+<line class="ext" x1="396.0" y1="494.0" x2="396.0" y2="440.0"/>
+<line class="dim" x1="120.0" y1="494.0" x2="396.0" y2="494.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="258.0" y="509.0" text-anchor="middle">bottom, rail, shelf 11½″</text>
+<line class="ext" x1="408.0" y1="494.0" x2="408.0" y2="440.0"/>
+<line class="dim" x1="396.0" y1="494.0" x2="408.0" y2="494.0"/>
+<line class="dim" x1="422.0" y1="494.0" x2="408.0" y2="494.0" marker-end="url(#a)"/>
+<text class="t" x="426.0" y="498.0" text-anchor="start">½″ back</text>
+<text class="n" x="20.0" y="548.0" text-anchor="start">Solid = cut at the centre line; light = seen beyond it (left side, drawer sides, tray end). The top drawer runs on the full-depth rail.</text>
+<text class="n" x="20.0" y="566.0" text-anchor="start">Drawer sides ⅜″ maple, ¼″ bottoms, ¾″ fronts; the ¾″ gap behind the drawers is a dust/stop space.</text>
 </svg>

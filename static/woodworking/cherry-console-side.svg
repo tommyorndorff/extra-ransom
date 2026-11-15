@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 590" width="540" height="590" role="img" aria-label="Cherry hallway console, side elevation">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 580" width="420" height="580" role="img" aria-label="Cherry hallway console, side elevation">
 <title>Cherry hallway console, side elevation</title>
 <style>
   .bg{fill:#fff}
@@ -22,7 +22,7 @@
     <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
   </marker>
 </defs>
-<rect class="bg" width="540" height="590"/>
+<rect class="bg" width="420" height="580"/>
 <text class="h" x="20.0" y="24.0" text-anchor="start">Side elevation — 1 in = 12 px</text>
 <rect class="shelf" x="125.00" y="388.00" width="108.00" height="9.00"/>
 <rect class="wood" x="95.00" y="100.00" width="168.00" height="9.00"/>
@@ -31,9 +31,12 @@
 <rect class="face" x="125.00" y="109.00" width="108.00" height="42.00"/>
 <rect class="face" x="125.00" y="397.00" width="108.00" height="30.00"/>
 <line class="floor" x1="59.0" y1="508.0" x2="299.0" y2="508.0"/>
-<text class="n" x="179.0" y="134.0" text-anchor="middle">side apron</text>
-<text class="n" x="179.0" y="416.0" text-anchor="middle">lower rail</text>
-<text class="n" x="101.0" y="500.0" text-anchor="start">front</text>
+<text class="n" x="179.0" y="128.0" text-anchor="middle">side apron</text>
+<text class="n" x="179.0" y="142.0" text-anchor="middle">¾″ × 3½″</text>
+<text class="n" x="179.0" y="409.0" text-anchor="middle">side rail</text>
+<text class="n" x="179.0" y="422.0" text-anchor="middle">¾″ × 2½″</text>
+<text class="n" x="102.0" y="500.0" text-anchor="end">front</text>
+<text class="n" x="256.0" y="500.0" text-anchor="start">back</text>
 <line class="ext" x1="95.0" y1="42.0" x2="95.0" y2="100.0"/>
 <line class="ext" x1="263.0" y1="42.0" x2="263.0" y2="100.0"/>
 <line class="dim" x1="95.0" y1="42.0" x2="263.0" y2="42.0" marker-start="url(#a)" marker-end="url(#a)"/>
@@ -41,7 +44,7 @@
 <line class="ext" x1="95.0" y1="68.0" x2="95.0" y2="100.0"/>
 <line class="ext" x1="107.0" y1="68.0" x2="107.0" y2="100.0"/>
 <line class="dim" x1="95.0" y1="68.0" x2="107.0" y2="68.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" x="101.0" y="63.0" text-anchor="middle">1″</text>
+<text class="t" x="101.0" y="63.0" text-anchor="middle"></text>
 <line class="ext" x1="107.0" y1="68.0" x2="107.0" y2="109.0"/>
 <line class="ext" x1="251.0" y1="68.0" x2="251.0" y2="109.0"/>
 <line class="dim" x1="107.0" y1="68.0" x2="251.0" y2="68.0" marker-start="url(#a)" marker-end="url(#a)"/>
@@ -49,15 +52,17 @@
 <line class="ext" x1="251.0" y1="68.0" x2="251.0" y2="100.0"/>
 <line class="ext" x1="263.0" y1="68.0" x2="263.0" y2="100.0"/>
 <line class="dim" x1="251.0" y1="68.0" x2="263.0" y2="68.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" x="257.0" y="63.0" text-anchor="middle">1″</text>
+<text class="t" x="257.0" y="63.0" text-anchor="middle"></text>
+<text class="t" x="90.0" y="72.0" text-anchor="end">1″</text>
+<text class="t" x="268.0" y="72.0" text-anchor="start">1″</text>
 <line class="ext" x1="52.0" y1="100.0" x2="95.0" y2="100.0"/>
 <line class="ext" x1="52.0" y1="508.0" x2="95.0" y2="508.0"/>
 <line class="dim" x1="52.0" y1="100.0" x2="52.0" y2="508.0" marker-start="url(#a)" marker-end="url(#a)"/>
 <text class="t" transform="translate(46.0,304.0) rotate(-90)" text-anchor="middle">34″ overall</text>
-<line class="ext" x1="293.0" y1="388.0" x2="251.0" y2="388.0"/>
-<line class="ext" x1="293.0" y1="508.0" x2="251.0" y2="508.0"/>
+<line class="ext" x1="293.0" y1="388.0" x2="233.0" y2="388.0"/>
+<line class="ext" x1="293.0" y1="508.0" x2="233.0" y2="508.0"/>
 <line class="dim" x1="293.0" y1="388.0" x2="293.0" y2="508.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(307.0,448.0) rotate(-90)" text-anchor="middle">shelf top ≈ 10″</text>
+<text class="t" transform="translate(307.0,448.0) rotate(-90)" text-anchor="middle">10″ floor to shelf top</text>
 <line class="ext" x1="107.0" y1="536.0" x2="107.0" y2="508.0"/>
 <line class="ext" x1="125.0" y1="536.0" x2="125.0" y2="508.0"/>
 <line class="dim" x1="107.0" y1="536.0" x2="125.0" y2="536.0" marker-start="url(#a)" marker-end="url(#a)"/>
@@ -70,4 +75,5 @@
 <line class="ext" x1="251.0" y1="536.0" x2="251.0" y2="508.0"/>
 <line class="dim" x1="233.0" y1="536.0" x2="251.0" y2="536.0" marker-start="url(#a)" marker-end="url(#a)"/>
 <text class="t" x="242.0" y="551.0" text-anchor="middle">1½″</text>
+<text class="n" x="179.0" y="570.0" text-anchor="middle">cut 11″ with 1″ tenons</text>
 </svg>
