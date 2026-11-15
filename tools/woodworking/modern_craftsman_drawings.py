@@ -47,6 +47,18 @@ STYLE = """
 """
 
 
+def frac(v):
+    """Inches → a label such as 13⅜″, to the nearest 1/16″. Use it to build labels
+    from the constants so the drawing can't drift from the numbers."""
+    glyph = {1: "1/16", 2: "⅛", 3: "3/16", 4: "¼", 5: "5/16", 6: "⅜", 7: "7/16", 8: "½",
+             9: "9/16", 10: "⅝", 11: "11/16", 12: "¾", 13: "13/16", 14: "⅞", 15: "15/16"}
+    n = round(v * 16)
+    whole, rem = divmod(n, 16)
+    if rem == 0:
+        return f"{whole}″"
+    return (f"{whole}" if whole else "") + glyph[rem] + "″"
+
+
 class Drawing:
     def __init__(self, w, h, ox, oy, depth_up=False, s=S):
         self.w, self.h, self.ox, self.oy, self.p = w, h, ox, oy, []
@@ -88,12 +100,60 @@ class Drawing:
         else:
             self.add(f'<text class="t" transform="translate({px+14:.1f},{mid:.1f}) rotate(-90)" text-anchor="middle">{label}</text>')
 
-    def save(self, path, title):
+    # ---- optional extras (added later; the methods above are unchanged, so
+    # ---- scripts that don't call these produce byte-identical output) ----
+
+    def line(self, x1, y1, x2, y2, cls="hid"):
+        """Line between two points given in inches."""
+        self.add(f'<line class="{cls}" x1="{self.x(x1):.1f}" y1="{self.y(y1):.1f}" '
+                 f'x2="{self.x(x2):.1f}" y2="{self.y(y2):.1f}"/>')
+
+    def poly(self, pts, cls="wood"):
+        """Closed polygon from (x, y) points in inches."""
+        self.add(f'<polygon class="{cls}" points="' +
+                 ' '.join(f'{self.x(a):.1f},{self.y(b):.1f}' for a, b in pts) + '"/>')
+
+    def leader(self, px1, py1, px2, py2, label, anchor="start", cls="n"):
+        """Callout: thin line from a feature (px1, py1) to a label at (px2, py2), in pixels."""
+        self.add(f'<line class="ext" x1="{px1:.1f}" y1="{py1:.1f}" x2="{px2:.1f}" y2="{py2:.1f}"/>')
+        dx = 3 if anchor == "start" else -3 if anchor == "end" else 0
+        self.text(px2 + dx, py2 + 4, label, cls, anchor)
+
+    def dim_v_text(self, y1, y2, px, label, pxo=None, side="right", cls="t"):
+        """Vertical dimension with an upright (unrotated) label beside it.
+        Use for spans too short to hold a rotated label."""
+        a, b = self.y(y1), self.y(y2)
+        if pxo is not None:
+            for yy in (a, b):
+                self.add(f'<line class="ext" x1="{px:.1f}" y1="{yy:.1f}" x2="{pxo:.1f}" y2="{yy:.1f}"/>')
+        self.add(f'<line class="dim" x1="{px:.1f}" y1="{a:.1f}" x2="{px:.1f}" y2="{b:.1f}" '
+                 f'marker-start="url(#a)" marker-end="url(#a)"/>')
+        if side == "right":
+            self.text(px + 5, (a + b) / 2 + 4, label, cls, "start")
+        else:
+            self.text(px - 5, (a + b) / 2 + 4, label, cls, "end")
+
+    def dim_h_small(self, x1, x2, py, label, pyo=None, side="right", cls="t"):
+        """Horizontal dimension for a gap too small for inside arrows: arrows sit
+        outside the extension lines and point in; the label goes beside."""
+        a, b = self.x(x1), self.x(x2)
+        if pyo is not None:
+            for xx in (a, b):
+                self.add(f'<line class="ext" x1="{xx:.1f}" y1="{py:.1f}" x2="{xx:.1f}" y2="{pyo:.1f}"/>')
+        self.add(f'<line class="dim" x1="{a-14:.1f}" y1="{py:.1f}" x2="{a:.1f}" y2="{py:.1f}" marker-end="url(#a)"/>')
+        self.add(f'<line class="dim" x1="{b+14:.1f}" y1="{py:.1f}" x2="{b:.1f}" y2="{py:.1f}" marker-end="url(#a)"/>')
+        if side == "right":
+            self.text(b + 18, py + 4, label, cls, "start")
+        else:
+            self.text(a - 18, py + 4, label, cls, "end")
+
+    def save(self, path, title, extra=""):
+        """`extra` is optional CSS/defs markup appended after the shared STYLE."""
         body = '\n'.join(self.p)
         svg = (f'<?xml version="1.0" encoding="UTF-8"?>\n'
                f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {self.w} {self.h}" '
                f'width="{self.w}" height="{self.h}" role="img" aria-label="{title}">\n'
-               f'<title>{title}</title>{STYLE}<rect class="bg" width="{self.w}" height="{self.h}"/>\n'
+               f'<title>{title}</title>{STYLE}{extra}<rect class="bg" width="{self.w}" height="{self.h}"/>\n'
                f'{body}\n</svg>\n')
         with open(path, 'w', encoding='utf-8') as f:
             f.write(svg)

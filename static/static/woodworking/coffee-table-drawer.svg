@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 744" width="820" height="744" role="img" aria-label="Shaker 2-drawer coffee table, drawer box detail">
+<title>Shaker 2-drawer coffee table, drawer box detail</title>
+<style>
+  .bg{fill:#fff}
+  .wood{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .leg{fill:#dcb988;stroke:#4a3320;stroke-width:1.3}
+  .face{fill:#f3dfbf;stroke:#4a3320;stroke-width:1.3}
+  .pull{fill:#5a3b26;stroke:#2b1a0f;stroke-width:1}
+  .shelf{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3}
+  .hid{fill:none;stroke:#7a6a5a;stroke-width:1.1;stroke-dasharray:5 3}
+  .spacer{fill:#cfc3b4;stroke:#6b5b4b;stroke-width:1}
+  .floor{stroke:#333;stroke-width:1.6}
+  .dim{stroke:#1f5fa8;stroke-width:1;fill:none}
+  .ext{stroke:#8fb0d8;stroke-width:.8}
+  .t{font:12px 'Helvetica Neue',Arial,sans-serif;fill:#1f3a5f}
+  .n{font:11px 'Helvetica Neue',Arial,sans-serif;fill:#444}
+  .h{font:600 15px 'Helvetica Neue',Arial,sans-serif;fill:#222}
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
+  </marker>
+</defs>
+<style>
+  .mort{fill:#6b4a2f;stroke:#2b1a0f;stroke-width:1}
+  .box{fill:#f1e4c8;stroke:#4a3320;stroke-width:1.2}
+  .bot{fill:#faf3e3;stroke:#4a3320;stroke-width:1}
+  .dt{fill:url(#hatch);stroke:#4a3320;stroke-width:1}
+  .hid2{fill:none;stroke:#b0452b;stroke-width:1.1;stroke-dasharray:2 3}
+  .far{fill:#faf3e3;stroke:#8a7560;stroke-width:1}
+</style>
+<defs>
+  <pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <rect width="5" height="5" fill="#f1e4c8"/><line x1="0" y1="0" x2="0" y2="5" stroke="#4a3320" stroke-width="1"/>
+  </pattern>
+</defs>
+<rect class="bg" width="820" height="744"/>
+<text class="h" x="20.0" y="24.0" text-anchor="start">Drawer box — plan section at 1 in = 20 px, side section at 1 in = 24 px</text>
+<text class="n" x="20.0" y="44.0" text-anchor="start">Two identical drawers. Beech box, half-blind dovetails into the cherry front, through dovetails at the back. Hatched = dovetailed corners.</text>
+<text class="t" x="20.0" y="76.0" text-anchor="start">Plan section (front at the bottom)</text>
+<rect class="bot" x="123.75" y="124.00" width="352.50" height="285.00"/>
+<rect class="face" x="110.00" y="404.00" width="380.00" height="15.00"/>
+<rect class="box" x="118.75" y="124.00" width="10.00" height="290.00"/>
+<rect class="dt" x="118.75" y="404.00" width="10.00" height="10.00"/>
+<rect class="dt" x="118.75" y="124.00" width="10.00" height="10.00"/>
+<rect class="box" x="471.25" y="124.00" width="10.00" height="290.00"/>
+<rect class="dt" x="471.25" y="404.00" width="10.00" height="10.00"/>
+<rect class="dt" x="471.25" y="124.00" width="10.00" height="10.00"/>
+<rect class="box" x="128.75" y="124.00" width="342.50" height="10.00"/>
+<rect class="hid" x="123.75" y="124.00" width="352.50" height="285.00"/>
+<text class="n" x="300.0" y="263.5" text-anchor="middle">bottom ¼″, ≈ 17⅝″ × 14¼″</text>
+<text class="n" x="300.0" y="279.5" text-anchor="middle">(dashed = its edges, in the grooves and under the back)</text>
+<text class="n" transform="translate(148.8,271.5) rotate(-90)" text-anchor="middle">side ½″ × 2¾″ × 14½″</text>
+<line class="dim" x1="128.8" y1="330.5" x2="471.2" y2="330.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="300.0" y="325.5" text-anchor="middle">17⅛″ inside</text>
+<line class="ext" x1="118.8" y1="110.0" x2="118.8" y2="124.0"/>
+<line class="ext" x1="481.2" y1="110.0" x2="481.2" y2="124.0"/>
+<line class="dim" x1="118.8" y1="110.0" x2="481.2" y2="110.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="300.0" y="105.0" text-anchor="middle">back ½″ × 2¼″ × 18⅛″ (full box width)</text>
+<line class="ext" x1="110.0" y1="443.0" x2="110.0" y2="419.0"/>
+<line class="ext" x1="118.8" y1="443.0" x2="118.8" y2="419.0"/>
+<line class="dim" x1="96.0" y1="443.0" x2="110.0" y2="443.0" marker-end="url(#a)"/>
+<line class="dim" x1="132.8" y1="443.0" x2="118.8" y2="443.0" marker-end="url(#a)"/>
+<text class="t" x="92.0" y="447.0" text-anchor="end">7/16″</text>
+<line class="ext" x1="118.8" y1="443.0" x2="118.8" y2="414.0"/>
+<line class="ext" x1="481.2" y1="443.0" x2="481.2" y2="414.0"/>
+<line class="dim" x1="118.8" y1="443.0" x2="481.2" y2="443.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="300.0" y="458.0" text-anchor="middle">18⅛″ box</text>
+<line class="ext" x1="110.0" y1="473.0" x2="110.0" y2="419.0"/>
+<line class="ext" x1="490.0" y1="473.0" x2="490.0" y2="419.0"/>
+<line class="dim" x1="110.0" y1="473.0" x2="490.0" y2="473.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="300.0" y="488.0" text-anchor="middle">19″ front</text>
+<line class="ext" x1="506.0" y1="404.0" x2="490.0" y2="404.0"/>
+<line class="ext" x1="506.0" y1="419.0" x2="490.0" y2="419.0"/>
+<line class="dim" x1="506.0" y1="404.0" x2="506.0" y2="419.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="511.0" y="415.5" text-anchor="start">¾″ cherry front</text>
+<line class="ext" x1="506.0" y1="124.0" x2="481.2" y2="124.0"/>
+<line class="ext" x1="506.0" y1="404.0" x2="481.2" y2="404.0"/>
+<line class="dim" x1="506.0" y1="124.0" x2="506.0" y2="404.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(520.0,264.0) rotate(-90)" text-anchor="middle">14″ behind the front</text>
+<line class="ext" x1="96.0" y1="414.0" x2="118.8" y2="414.0"/>
+<line class="ext" x1="96.0" y1="419.0" x2="118.8" y2="419.0"/>
+<line class="dim" x1="96.0" y1="414.0" x2="96.0" y2="419.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="91.0" y="420.5" text-anchor="end">¼″ lap</text>
+<text class="t" x="20.0" y="508.0" text-anchor="start">Side section on the centre line (front at the left)</text>
+<rect class="far" x="116.00" y="557.00" width="348.00" height="66.00"/>
+<rect class="face" x="110.00" y="548.00" width="18.00" height="84.00"/>
+<line class="hid" x1="116.0" y1="557.0" x2="116.0" y2="623.0"/>
+<rect class="box" x="452.00" y="557.00" width="12.00" height="54.00"/>
+<rect class="box" x="122.00" y="611.00" width="342.00" height="6.00"/>
+<text class="n" x="296.0" y="588.0" text-anchor="middle">inside face of the far side</text>
+<line class="ext" x1="58.0" y1="548.0" x2="110.0" y2="548.0"/>
+<line class="ext" x1="58.0" y1="632.0" x2="110.0" y2="632.0"/>
+<line class="dim" x1="58.0" y1="548.0" x2="58.0" y2="632.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(52.0,590.0) rotate(-90)" text-anchor="middle">3½″ front</text>
+<line class="ext" x1="98.0" y1="548.0" x2="110.0" y2="548.0"/>
+<line class="ext" x1="98.0" y1="557.0" x2="110.0" y2="557.0"/>
+<line class="dim" x1="98.0" y1="548.0" x2="98.0" y2="557.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="93.0" y="556.5" text-anchor="end">⅜″</text>
+<line class="ext" x1="98.0" y1="623.0" x2="110.0" y2="623.0"/>
+<line class="ext" x1="98.0" y1="632.0" x2="110.0" y2="632.0"/>
+<line class="dim" x1="98.0" y1="623.0" x2="98.0" y2="632.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="93.0" y="631.5" text-anchor="end">⅜″</text>
+<line class="ext" x1="478.0" y1="557.0" x2="464.0" y2="557.0"/>
+<line class="ext" x1="478.0" y1="611.0" x2="464.0" y2="611.0"/>
+<line class="dim" x1="478.0" y1="557.0" x2="478.0" y2="611.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="483.0" y="588.0" text-anchor="start">2¼″ back</text>
+<line class="ext" x1="478.0" y1="611.0" x2="464.0" y2="611.0"/>
+<line class="ext" x1="478.0" y1="617.0" x2="464.0" y2="617.0"/>
+<line class="dim" x1="478.0" y1="611.0" x2="478.0" y2="617.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="483.0" y="618.0" text-anchor="start"></text>
+<line class="ext" x1="478.0" y1="617.0" x2="464.0" y2="617.0"/>
+<line class="ext" x1="478.0" y1="623.0" x2="464.0" y2="623.0"/>
+<line class="dim" x1="478.0" y1="617.0" x2="478.0" y2="623.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="483.0" y="624.0" text-anchor="start"></text>
+<text class="t" x="483.0" y="612.0" text-anchor="start">¼″ bottom in a ¼″ × ¼″ groove</text>
+<text class="t" x="483.0" y="636.0" text-anchor="start">groove ¼″ up from the lower edge</text>
+<line class="dim" x1="428.0" y1="557.0" x2="428.0" y2="623.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(422.0,590.0) rotate(-90)" text-anchor="middle">2¾″ box</text>
+<line class="ext" x1="110.0" y1="656.0" x2="110.0" y2="632.0"/>
+<line class="ext" x1="128.0" y1="656.0" x2="128.0" y2="632.0"/>
+<line class="dim" x1="96.0" y1="656.0" x2="110.0" y2="656.0" marker-end="url(#a)"/>
+<line class="dim" x1="142.0" y1="656.0" x2="128.0" y2="656.0" marker-end="url(#a)"/>
+<text class="t" x="92.0" y="660.0" text-anchor="end">¾″</text>
+<line class="ext" x1="128.0" y1="656.0" x2="128.0" y2="623.0"/>
+<line class="ext" x1="464.0" y1="656.0" x2="464.0" y2="623.0"/>
+<line class="dim" x1="128.0" y1="656.0" x2="464.0" y2="656.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="296.0" y="671.0" text-anchor="middle">14″ behind the front</text>
+<line class="ext" x1="122.0" y1="686.0" x2="122.0" y2="617.0"/>
+<line class="ext" x1="464.0" y1="686.0" x2="464.0" y2="617.0"/>
+<line class="dim" x1="122.0" y1="686.0" x2="464.0" y2="686.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="293.0" y="701.0" text-anchor="middle">bottom ≈ 14¼″, ¼″ into the front</text>
+<text class="n" x="20.0" y="720.0" text-anchor="start">Sides start ¼″ behind the drawer face (half-blind sockets ½″ deep). Box is centred on the front, ⅜″ in from top and bottom; slides mount on the box sides.</text>
+</svg>

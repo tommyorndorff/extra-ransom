@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 444" width="900" height="444" role="img" aria-label="Shaker 2-drawer coffee table, plan view">
+<title>Shaker 2-drawer coffee table, plan view</title>
+<style>
+  .bg{fill:#fff}
+  .wood{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .leg{fill:#dcb988;stroke:#4a3320;stroke-width:1.3}
+  .face{fill:#f3dfbf;stroke:#4a3320;stroke-width:1.3}
+  .pull{fill:#5a3b26;stroke:#2b1a0f;stroke-width:1}
+  .shelf{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3}
+  .hid{fill:none;stroke:#7a6a5a;stroke-width:1.1;stroke-dasharray:5 3}
+  .spacer{fill:#cfc3b4;stroke:#6b5b4b;stroke-width:1}
+  .floor{stroke:#333;stroke-width:1.6}
+  .dim{stroke:#1f5fa8;stroke-width:1;fill:none}
+  .ext{stroke:#8fb0d8;stroke-width:.8}
+  .t{font:12px 'Helvetica Neue',Arial,sans-serif;fill:#1f3a5f}
+  .n{font:11px 'Helvetica Neue',Arial,sans-serif;fill:#444}
+  .h{font:600 15px 'Helvetica Neue',Arial,sans-serif;fill:#222}
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
+  </marker>
+</defs>
+<rect class="bg" width="900" height="444"/>
+<text class="h" x="20.0" y="24.0" text-anchor="start">Plan view, top removed — 1 in = 12 px</text>
+<rect class="hid" x="95.0" y="100.0" width="576" height="234.0"/>
+<rect class="face" x="125.00" y="136.00" width="15.00" height="162.00"/>
+<rect class="face" x="626.00" y="136.00" width="15.00" height="162.00"/>
+<rect class="shelf" x="140.00" y="140.50" width="486.00" height="153.00"/>
+<rect class="wood" x="125.00" y="136.00" width="9.00" height="162.00"/>
+<rect class="wood" x="632.00" y="136.00" width="9.00" height="162.00"/>
+<rect class="spacer" x="134.00" y="136.00" width="15.00" height="162.00"/>
+<rect class="spacer" x="617.00" y="136.00" width="15.00" height="162.00"/>
+<rect class="wood" x="149.00" y="112.00" width="468.00" height="9.00"/>
+<rect class="wood" x="149.00" y="313.00" width="468.00" height="9.00"/>
+<rect class="wood" x="378.50" y="121.00" width="9.00" height="192.00"/>
+<rect class="wood" x="378.50" y="313.00" width="9.00" height="9.00"/>
+<rect class="leg" x="125.00" y="298.00" width="24.00" height="24.00"/>
+<rect class="leg" x="125.00" y="112.00" width="24.00" height="24.00"/>
+<rect class="leg" x="617.00" y="298.00" width="24.00" height="24.00"/>
+<rect class="leg" x="617.00" y="112.00" width="24.00" height="24.00"/>
+<rect class="face" x="149.75" y="313.00" width="228.00" height="9.00"/>
+<rect class="hid" x="155.0" y="145.0" width="217.5" height="168.0"/>
+<text class="n" x="263.8" y="216.4" text-anchor="middle">drawer box 18⅛″ × 14″</text>
+<text class="n" x="263.8" y="230.8" text-anchor="middle">(dashed; on 14″ slides)</text>
+<rect class="face" x="388.25" y="313.00" width="228.00" height="9.00"/>
+<rect class="hid" x="393.5" y="145.0" width="217.5" height="168.0"/>
+<text class="n" x="502.2" y="216.4" text-anchor="middle">drawer box 18⅛″ × 14″</text>
+<text class="n" x="502.2" y="230.8" text-anchor="middle">(dashed; on 14″ slides)</text>
+<text class="n" x="395.0" y="132.4" text-anchor="start">◀ runner ¾″</text>
+<text class="n" x="383.0" y="348.0" text-anchor="middle">FRONT</text>
+<line class="ext" x1="149.0" y1="370.0" x2="149.0" y2="322.0"/>
+<line class="ext" x1="378.5" y1="370.0" x2="378.5" y2="322.0"/>
+<line class="dim" x1="149.0" y1="370.0" x2="378.5" y2="370.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="263.8" y="385.0" text-anchor="middle">19⅛″ mounting opening</text>
+<line class="ext" x1="387.5" y1="370.0" x2="387.5" y2="322.0"/>
+<line class="ext" x1="617.0" y1="370.0" x2="617.0" y2="322.0"/>
+<line class="dim" x1="387.5" y1="370.0" x2="617.0" y2="370.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="502.2" y="385.0" text-anchor="middle">19⅛″ mounting opening</text>
+<line class="dim" x1="581.0" y1="121.0" x2="581.0" y2="145.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="576.0" y="137.0" text-anchor="end">2″ free</text>
+<text class="n" x="95.0" y="404.0" text-anchor="start">Dashed outline = existing top, 48″ × 19½″, floating on buttons.  Dark tan = legs.  Grey = 1¼″ × 3″ slide spacers.</text>
+<text class="n" x="95.0" y="420.0" text-anchor="start">Light tan under the drawers = shelf, 40½″ × 12¾″ × ¾″.  Boxes sit ½″ off each mounting face on side-mount slides;</text>
+<text class="n" x="95.0" y="436.0" text-anchor="start">≈ 2″ of free depth is left behind each box before the back apron.</text>
+<line class="ext" x1="95.0" y1="42.0" x2="95.0" y2="100.0"/>
+<line class="ext" x1="671.0" y1="42.0" x2="671.0" y2="100.0"/>
+<line class="dim" x1="95.0" y1="42.0" x2="671.0" y2="42.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="383.0" y="37.0" text-anchor="middle">48″ top</text>
+<line class="ext" x1="95.0" y1="68.0" x2="95.0" y2="100.0"/>
+<line class="ext" x1="125.0" y1="68.0" x2="125.0" y2="100.0"/>
+<line class="dim" x1="95.0" y1="68.0" x2="125.0" y2="68.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="110.0" y="63.0" text-anchor="middle">2½″</text>
+<line class="ext" x1="125.0" y1="68.0" x2="125.0" y2="112.0"/>
+<line class="ext" x1="641.0" y1="68.0" x2="641.0" y2="112.0"/>
+<line class="dim" x1="125.0" y1="68.0" x2="641.0" y2="68.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="383.0" y="63.0" text-anchor="middle">43″ leg frame</text>
+<line class="ext" x1="641.0" y1="68.0" x2="641.0" y2="100.0"/>
+<line class="ext" x1="671.0" y1="68.0" x2="671.0" y2="100.0"/>
+<line class="dim" x1="641.0" y1="68.0" x2="671.0" y2="68.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="656.0" y="63.0" text-anchor="middle">2½″</text>
+<line class="dim" x1="695" y1="334.0" x2="695" y2="100.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(709,217.0) rotate(-90)" text-anchor="middle">19½″ top</text>
+<line class="dim" x1="725" y1="322.0" x2="725" y2="112.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(739,217.0) rotate(-90)" text-anchor="middle">17½″ leg frame</text>
+<line class="ext" x1="71.0" y1="136.0" x2="125.0" y2="136.0"/>
+<line class="ext" x1="71.0" y1="298.0" x2="125.0" y2="298.0"/>
+<line class="dim" x1="71.0" y1="136.0" x2="71.0" y2="298.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(85.0,217.0) rotate(-90)" text-anchor="middle">13½″ between legs</text>
+</svg>
