@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="960" height="500" role="img" aria-label="Tenoning jig plan view">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 586" width="620" height="586" role="img" aria-label="Tenoning jig plan view">
 <title>Tenoning jig plan view</title>
 <style>
   .bg{fill:#fff}
@@ -22,27 +22,61 @@
     <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
   </marker>
 </defs>
-<rect class="bg" width="960" height="500"/>
+<style>
+  .tjb{fill:#f1ede7;stroke:#8a8a8a;stroke-width:1}
+  .tjk{fill:#444;stroke:#222;stroke-width:1}
+  .tjs{fill:#fff;stroke:#4a3320;stroke-width:1}
+  .tjw{fill:url(#tjh);stroke:#4a3320;stroke-width:.8}
+  .tjc{fill:none;stroke:#666;stroke-width:3;stroke-linejoin:round}
+  .tjt{fill:#d9d9d9;stroke:#555;stroke-width:1.2}
+</style>
+<defs>
+  <pattern id="tjh" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <line x1="0" y1="0" x2="0" y2="6" stroke="#9c7a52" stroke-width="1.1"/>
+  </pattern>
+</defs>
+<rect class="bg" width="620" height="586"/>
 <text class="h" x="20.0" y="24.0" text-anchor="start">Plan view, jig in the miter slot — 1 in = 24 px</text>
 <rect x="117.6" y="80.4" width="278.4" height="403.2" fill="#f2f2f2" stroke="#999" stroke-dasharray="4 3"/>
-<rect x="168.6" y="80.4" width="18.0" height="403.2" fill="#fff" stroke="#555"/>
+<rect class="tjs" x="168.60" y="80.40" width="18.00" height="403.20"/>
+<text class="n" x="177.6" y="496.6" text-anchor="middle">miter slot</text>
 <rect class="face" x="132.00" y="90.00" width="168.00" height="384.00"/>
-<rect class="hid" x="168.8" y="168.6" width="17.6" height="226.8"/>
-<rect x="160.8" y="203.4" width="33.6" height="6" rx="3" fill="#fff" stroke="#333"/>
-<rect x="160.8" y="279.0" width="33.6" height="6" rx="3" fill="#fff" stroke="#333"/>
-<rect x="160.8" y="354.6" width="33.6" height="6" rx="3" fill="#fff" stroke="#333"/>
-<text class="n" x="136.8" y="459.6" text-anchor="start">3 slots over runner nuts</text>
+<rect class="hid" x="168.81" y="187.51" width="17.57" height="226.77"/>
+<circle class="hid" cx="177.6" cy="206.4" r="4"/>
+<circle class="hid" cx="177.6" cy="244.2" r="4"/>
+<circle class="hid" cx="177.6" cy="282.0" r="4"/>
+<circle class="hid" cx="177.6" cy="319.8" r="4"/>
+<circle class="hid" cx="177.6" cy="357.6" r="4"/>
+<circle class="hid" cx="177.6" cy="395.4" r="4"/>
+<rect x="161.1" y="203.8" width="33.0" height="5.2" rx="2.6" fill="#fff" stroke="#333"/>
+<rect x="161.1" y="279.4" width="33.0" height="5.2" rx="2.6" fill="#fff" stroke="#333"/>
+<rect x="161.1" y="355.0" width="33.0" height="5.2" rx="2.6" fill="#fff" stroke="#333"/>
+<text class="n" x="200.1" y="171.6" text-anchor="start">runner (dashed)</text>
+<text class="n" x="200.1" y="236.4" text-anchor="start">3 base slots</text>
+<text class="n" x="200.1" y="250.4" text-anchor="start">7/32″ × 1⅜″</text>
 <rect class="wood" x="282.00" y="90.00" width="18.00" height="384.00"/>
-<text class="n" x="291.0" y="493.2" text-anchor="middle">fence</text>
-<polygon class="leg" points="282.0,123.6 229.2,162.0 282.0,200.4"/>
-<polygon class="leg" points="282.0,363.6 229.2,402.0 282.0,440.4"/>
-<text class="n" x="136.8" y="114.0" text-anchor="start">printed fence brackets ▶</text>
-<rect class="spacer" x="300.00" y="186.00" width="16.50" height="168.00"/>
-<rect class="shelf" x="316.50" y="174.00" width="18.00" height="192.00"/>
+<rect class="spacer" x="225.31" y="107.10" width="56.69" height="37.80"/>
+<line class="spacer" x1="225.3" y1="126.0" x2="276.3" y2="126.0"/>
+<line class="ext" x1="225.3" y1="126.0" x2="213.3" y2="126.0"/>
+<text class="n" x="210.3" y="130.0" text-anchor="end">bracket</text>
+<rect class="spacer" x="225.31" y="419.10" width="56.69" height="37.80"/>
+<line class="spacer" x1="225.3" y1="438.0" x2="276.3" y2="438.0"/>
+<line class="ext" x1="225.3" y1="438.0" x2="213.3" y2="438.0"/>
+<text class="n" x="210.3" y="442.0" text-anchor="end">bracket</text>
+<rect class="spacer" x="199.50" y="291.45" width="37.80" height="56.69"/>
+<circle class="spacer" cx="218.4" cy="319.8" r="17.0"/>
+<text class="n" x="218.4" y="361.1" text-anchor="middle">handle</text>
+<rect class="spacer" x="300.00" y="230.03" width="12.00" height="103.94"/>
+<rect class="spacer" x="312.00" y="230.03" width="3.00" height="103.94"/>
+<rect class="spacer" x="315.00" y="230.03" width="1.50" height="103.94"/>
+<rect class="shelf" x="316.50" y="240.00" width="18.00" height="84.00"/>
 <rect x="330.0" y="80.4" width="3.0" height="403.2" fill="#444" opacity=".35"/>
-<text class="n" x="352.0" y="138.0" text-anchor="start">blade plane</text>
-<text class="n" x="352.0" y="270.0" text-anchor="start">stock stands here</text>
-<text class="n" x="352.0" y="286.8" text-anchor="start">(on the table, not the base)</text>
+<text class="n" x="351.0" y="138.0" text-anchor="start">blade plane</text>
+<line class="ext" x1="308.2" y1="233.6" x2="348.0" y2="196.4"/>
+<text class="n" x="351.0" y="200.4" text-anchor="start">shims, s = 11/16″</text>
+<line class="ext" x1="334.5" y1="282.0" x2="348.0" y2="278.0"/>
+<text class="n" x="351.0" y="282.0" text-anchor="start">stock (3½″ wide shown)</text>
+<text class="n" x="351.0" y="296.0" text-anchor="start">stands on the table, not the base</text>
 <text class="n" x="136.8" y="68.4" text-anchor="start">feed ↓</text>
 <line class="ext" x1="132.0" y1="54.0" x2="132.0" y2="90.0"/>
 <line class="ext" x1="300.0" y1="54.0" x2="300.0" y2="90.0"/>
@@ -52,8 +86,27 @@
 <line class="ext" x1="330.0" y1="54.0" x2="330.0" y2="90.0"/>
 <line class="dim" x1="300.0" y1="54.0" x2="330.0" y2="54.0" marker-start="url(#a)" marker-end="url(#a)"/>
 <text class="t" x="315.0" y="49.0" text-anchor="middle">A 1¼″</text>
-<line class="ext" x1="102.0" y1="90.0" x2="132.0" y2="90.0"/>
-<line class="ext" x1="102.0" y1="474.0" x2="132.0" y2="474.0"/>
-<line class="dim" x1="102.0" y1="90.0" x2="102.0" y2="474.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(96.0,282.0) rotate(-90)" text-anchor="middle">16″ long</text>
+<line class="dim" x1="108.0" y1="206.4" x2="108.0" y2="282.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(102.0,244.2) rotate(-90)" text-anchor="middle">80 mm</text>
+<line class="dim" x1="108.0" y1="282.0" x2="108.0" y2="357.6" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(102.0,319.8) rotate(-90)" text-anchor="middle">80 mm</text>
+<line class="ext" x1="108.0" y1="206.4" x2="161.1" y2="206.4"/>
+<line class="ext" x1="108.0" y1="282.0" x2="161.1" y2="282.0"/>
+<line class="ext" x1="108.0" y1="357.6" x2="161.1" y2="357.6"/>
+<line class="ext" x1="82.0" y1="90.0" x2="132.0" y2="90.0"/>
+<line class="ext" x1="82.0" y1="282.0" x2="132.0" y2="282.0"/>
+<line class="dim" x1="82.0" y1="90.0" x2="82.0" y2="282.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(76.0,186.0) rotate(-90)" text-anchor="middle">8″ to centre slot</text>
+<line class="ext" x1="56.0" y1="90.0" x2="132.0" y2="90.0"/>
+<line class="ext" x1="56.0" y1="474.0" x2="132.0" y2="474.0"/>
+<line class="dim" x1="56.0" y1="90.0" x2="56.0" y2="474.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(50.0,282.0) rotate(-90)" text-anchor="middle">16″ long</text>
+<line class="ext" x1="282.0" y1="505.6" x2="282.0" y2="474.0"/>
+<line class="ext" x1="300.0" y1="505.6" x2="300.0" y2="474.0"/>
+<line class="dim" x1="268.0" y1="505.6" x2="282.0" y2="505.6" marker-end="url(#a)"/>
+<line class="dim" x1="314.0" y1="505.6" x2="300.0" y2="505.6" marker-end="url(#a)"/>
+<text class="t" x="264.0" y="509.6" text-anchor="end">fence ¾″</text>
+<text class="n" x="20.0" y="535.6" text-anchor="start">Grey = printed parts. Runner dashed under the base; ○ = its 6 nut pockets (40 mm pitch).</text>
+<text class="n" x="20.0" y="551.6" text-anchor="start">The base slots sit over pockets 1, 3 and 5, 80 mm ≈ 3.15″ apart, so the runner sits 20 mm off centre.</text>
+<text class="n" x="20.0" y="567.6" text-anchor="start">Brackets sit near each end; the handle is shown clear of the slots, place it to suit.</text>
 </svg>

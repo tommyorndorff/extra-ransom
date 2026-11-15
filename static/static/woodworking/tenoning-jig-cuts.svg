@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 580" width="980" height="580" role="img" aria-label="Tenoning jig cut sequence">
+<title>Tenoning jig cut sequence</title>
+<style>
+  .bg{fill:#fff}
+  .wood{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .leg{fill:#dcb988;stroke:#4a3320;stroke-width:1.3}
+  .face{fill:#f3dfbf;stroke:#4a3320;stroke-width:1.3}
+  .pull{fill:#5a3b26;stroke:#2b1a0f;stroke-width:1}
+  .shelf{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3}
+  .hid{fill:none;stroke:#7a6a5a;stroke-width:1.1;stroke-dasharray:5 3}
+  .spacer{fill:#cfc3b4;stroke:#6b5b4b;stroke-width:1}
+  .floor{stroke:#333;stroke-width:1.6}
+  .dim{stroke:#1f5fa8;stroke-width:1;fill:none}
+  .ext{stroke:#8fb0d8;stroke-width:.8}
+  .t{font:12px 'Helvetica Neue',Arial,sans-serif;fill:#1f3a5f}
+  .n{font:11px 'Helvetica Neue',Arial,sans-serif;fill:#444}
+  .h{font:600 15px 'Helvetica Neue',Arial,sans-serif;fill:#222}
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
+  </marker>
+</defs>
+<style>
+  .tjb{fill:#f1ede7;stroke:#8a8a8a;stroke-width:1}
+  .tjk{fill:#444;stroke:#222;stroke-width:1}
+  .tjs{fill:#fff;stroke:#4a3320;stroke-width:1}
+  .tjw{fill:url(#tjh);stroke:#4a3320;stroke-width:.8}
+  .tjc{fill:none;stroke:#666;stroke-width:3;stroke-linejoin:round}
+  .tjt{fill:#d9d9d9;stroke:#555;stroke-width:1.2}
+</style>
+<defs>
+  <pattern id="tjh" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <line x1="0" y1="0" x2="0" y2="6" stroke="#9c7a52" stroke-width="1.1"/>
+  </pattern>
+</defs>
+<rect class="bg" width="980" height="580"/>
+<text class="h" x="20.0" y="24.0" text-anchor="start">Cut sequence, looking along the feed — 1 in = 110 px (detail)</text>
+<text class="t" x="28.9" y="56.0" text-anchor="start">1  Face A on the shims, first cheek</text>
+<rect class="tjt" x="12.37" y="396.00" width="224.12" height="27.50"/>
+<rect class="spacer" x="28.87" y="143.00" width="55.00" height="253.00"/>
+<rect class="spacer" x="83.88" y="143.00" width="13.75" height="253.00"/>
+<rect class="spacer" x="97.62" y="143.00" width="6.88" height="253.00"/>
+<text class="n" x="56.4" y="187.0" text-anchor="middle">shims</text>
+<polygon class="shelf" points="104.5,396.0 187.0,396.0 187.0,110.0 166.4,103.4 145.8,114.4 125.1,103.4 104.5,110.0"/>
+<rect class="tjw" x="180.12" y="231.00" width="6.88" height="165.00"/>
+<rect class="tjk" x="166.38" y="231.00" width="13.75" height="165.00"/>
+<text class="h" x="110.5" y="170.5" text-anchor="start">A</text>
+<text class="h" x="181.0" y="170.5" text-anchor="end">B</text>
+<line class="ext" x1="104.5" y1="88.0" x2="104.5" y2="110.0"/>
+<line class="ext" x1="187.0" y1="88.0" x2="187.0" y2="110.0"/>
+<line class="dim" x1="104.5" y1="88.0" x2="187.0" y2="88.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="145.8" y="83.0" text-anchor="middle">t = ¾″</text>
+<line class="ext" x1="166.4" y1="445.5" x2="166.4" y2="396.0"/>
+<line class="ext" x1="180.1" y1="445.5" x2="180.1" y2="396.0"/>
+<line class="dim" x1="152.4" y1="445.5" x2="166.4" y2="445.5" marker-end="url(#a)"/>
+<line class="dim" x1="194.1" y1="445.5" x2="180.1" y2="445.5" marker-end="url(#a)"/>
+<text class="t" x="198.1" y="449.5" text-anchor="start">kerf ⅛″</text>
+<line class="ext" x1="104.5" y1="471.5" x2="104.5" y2="396.0"/>
+<line class="ext" x1="166.4" y1="471.5" x2="166.4" y2="396.0"/>
+<line class="dim" x1="104.5" y1="471.5" x2="166.4" y2="471.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="135.4" y="466.5" text-anchor="middle"></text>
+<text class="t" x="98.5" y="475.5" text-anchor="end">(t + T)/2 = 9/16″</text>
+<line class="ext" x1="215.0" y1="231.0" x2="180.1" y2="231.0"/>
+<line class="ext" x1="215.0" y1="396.0" x2="180.1" y2="396.0"/>
+<line class="dim" x1="215.0" y1="231.0" x2="215.0" y2="396.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(229.0,313.5) rotate(-90)" text-anchor="middle">blade 1½″ = tenon length</text>
+<text class="t" x="347.9" y="56.0" text-anchor="start">2  Turn end for end: face B on the shims</text>
+<rect class="tjt" x="331.38" y="396.00" width="224.12" height="27.50"/>
+<rect class="spacer" x="347.88" y="143.00" width="55.00" height="253.00"/>
+<rect class="spacer" x="402.88" y="143.00" width="13.75" height="253.00"/>
+<rect class="spacer" x="416.62" y="143.00" width="6.88" height="253.00"/>
+<text class="n" x="375.4" y="187.0" text-anchor="middle">shims</text>
+<polygon class="shelf" points="423.5,396.0 506.0,396.0 506.0,110.0 485.4,103.4 464.7,114.4 444.1,103.4 423.5,110.0"/>
+<rect class="tjw" x="423.50" y="231.00" width="6.87" height="165.00"/>
+<rect class="tjw" x="499.12" y="231.00" width="6.88" height="165.00"/>
+<rect class="tjs" x="430.37" y="231.00" width="13.75" height="165.00"/>
+<rect class="tjk" x="485.37" y="231.00" width="13.75" height="165.00"/>
+<text class="h" x="429.5" y="170.5" text-anchor="start">B</text>
+<text class="h" x="500.0" y="170.5" text-anchor="end">A</text>
+<line class="ext" x1="423.5" y1="88.0" x2="423.5" y2="110.0"/>
+<line class="ext" x1="506.0" y1="88.0" x2="506.0" y2="110.0"/>
+<line class="dim" x1="423.5" y1="88.0" x2="506.0" y2="88.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="464.8" y="83.0" text-anchor="middle">t = ¾″</text>
+<line class="ext" x1="437.2" y1="231.0" x2="518.0" y2="148.5"/>
+<text class="n" x="521.0" y="152.5" text-anchor="start">first kerf (from cut 1)</text>
+<line class="ext" x1="492.2" y1="231.0" x2="518.0" y2="203.5"/>
+<text class="n" x="521.0" y="207.5" text-anchor="start">second cut</text>
+<line class="ext" x1="444.1" y1="445.5" x2="444.1" y2="396.0"/>
+<line class="ext" x1="485.4" y1="445.5" x2="485.4" y2="396.0"/>
+<line class="dim" x1="430.1" y1="445.5" x2="444.1" y2="445.5" marker-end="url(#a)"/>
+<line class="dim" x1="499.4" y1="445.5" x2="485.4" y2="445.5" marker-end="url(#a)"/>
+<text class="t" x="503.4" y="449.5" text-anchor="start">T = ⅜″ left between kerfs</text>
+<line class="ext" x1="423.5" y1="471.5" x2="423.5" y2="396.0"/>
+<line class="ext" x1="485.4" y1="471.5" x2="485.4" y2="396.0"/>
+<line class="dim" x1="423.5" y1="471.5" x2="485.4" y2="471.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="454.4" y="466.5" text-anchor="middle"></text>
+<text class="t" x="417.5" y="475.5" text-anchor="end">(t + T)/2 = 9/16″</text>
+<text class="t" x="702.5" y="56.0" text-anchor="start">3  Shoulders on the crosscut sled</text>
+<polygon class="shelf" points="742.5,231.0 763.1,231.0 763.1,396.0 804.4,396.0 804.4,231.0 825.0,231.0 825.0,110.0 804.4,103.4 783.8,114.4 763.1,103.4 742.5,110.0"/>
+<rect class="hid" x="742.50" y="231.00" width="20.62" height="165.00"/>
+<rect class="hid" x="804.38" y="231.00" width="20.62" height="165.00"/>
+<text class="h" x="748.5" y="170.5" text-anchor="start">B</text>
+<text class="h" x="819.0" y="170.5" text-anchor="end">A</text>
+<line class="ext" x1="742.5" y1="88.0" x2="742.5" y2="110.0"/>
+<line class="ext" x1="825.0" y1="88.0" x2="825.0" y2="110.0"/>
+<line class="dim" x1="742.5" y1="88.0" x2="825.0" y2="88.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="783.8" y="83.0" text-anchor="middle">t = ¾″</text>
+<line class="ext" x1="814.7" y1="231.0" x2="837.0" y2="170.5"/>
+<text class="n" x="840.0" y="174.5" text-anchor="start">shoulder</text>
+<line class="ext" x1="752.8" y1="231.0" x2="730.5" y2="170.5"/>
+<text class="n" x="727.5" y="174.5" text-anchor="end">shoulder</text>
+<line class="ext" x1="742.5" y1="445.5" x2="742.5" y2="396.0"/>
+<line class="ext" x1="763.1" y1="445.5" x2="763.1" y2="396.0"/>
+<line class="dim" x1="728.5" y1="445.5" x2="742.5" y2="445.5" marker-end="url(#a)"/>
+<line class="dim" x1="777.1" y1="445.5" x2="763.1" y2="445.5" marker-end="url(#a)"/>
+<text class="t" x="724.5" y="449.5" text-anchor="end">3/16″</text>
+<line class="ext" x1="804.4" y1="445.5" x2="804.4" y2="396.0"/>
+<line class="ext" x1="825.0" y1="445.5" x2="825.0" y2="396.0"/>
+<line class="dim" x1="790.4" y1="445.5" x2="804.4" y2="445.5" marker-end="url(#a)"/>
+<line class="dim" x1="839.0" y1="445.5" x2="825.0" y2="445.5" marker-end="url(#a)"/>
+<text class="t" x="843.0" y="449.5" text-anchor="start">3/16″ = (t − T)/2</text>
+<line class="ext" x1="763.1" y1="471.5" x2="763.1" y2="396.0"/>
+<line class="ext" x1="804.4" y1="471.5" x2="804.4" y2="396.0"/>
+<line class="dim" x1="763.1" y1="471.5" x2="804.4" y2="471.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="783.8" y="486.5" text-anchor="middle">T = ⅜″</text>
+<line class="ext" x1="853.0" y1="231.0" x2="804.4" y2="231.0"/>
+<line class="ext" x1="853.0" y1="396.0" x2="804.4" y2="396.0"/>
+<line class="dim" x1="853.0" y1="231.0" x2="853.0" y2="396.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(867.0,313.5) rotate(-90)" text-anchor="middle">tenon 1½″ long</text>
+<text class="n" x="20.0" y="515.5" text-anchor="start">Shown: t = ¾″ stock, T = ⅜″ tenon, ⅛″ kerf, s = 11/16″ (A = 1¼″). The blade's near plane sits (t + T)/2 from the shim face on both cuts, so the kerf</text>
+<text class="n" x="20.0" y="531.5" text-anchor="start">always lands in the waste and the tenon comes out centred and T thick whatever the kerf. Hatched = waste still attached; dark = blade; white = first kerf;</text>
+<text class="n" x="20.0" y="547.5" text-anchor="start">dashed = waste freed by the shoulder cuts.</text>
+</svg>

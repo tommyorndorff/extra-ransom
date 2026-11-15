@@ -23,7 +23,7 @@ A **proposed** build — a copy of the Vermont Woods Studios / Vermont Furniture
 
 ## Drawings (true scale)
 
-All three are drawn at 1″ = 12 px from the dimensions on this page, so they can be measured against each other. Click to open full size.
+All five are generated from the dimensions on this page and drawn true to scale. The elevations and plan are at 1″ = 12 px, so they can be measured against each other; the drawer-bay detail and leg layout are drawn larger (scale on each). Click to open full size.
 
 **Front elevation**
 
@@ -36,6 +36,14 @@ All three are drawn at 1″ = 12 px from the dimensions on this page, so they ca
 **Plan view, top removed**
 
 [![Plan view of the Modern Craftsman console with the top removed](/static/woodworking/modern-craftsman-plan.svg)](/static/woodworking/modern-craftsman-plan.svg)
+
+**Drawer bay and drawer box**
+
+[![Plan section of the left drawer bay showing the slide spacer, drawer box and center runner, and a side section of the dovetailed drawer box, dimensioned](/static/woodworking/modern-craftsman-drawer.svg)](/static/woodworking/modern-craftsman-drawer.svg)
+
+**Leg layout**
+
+[![Each leg face that takes a rail, at true length, with the rail positions and mortises dimensioned down from the leg top](/static/woodworking/modern-craftsman-legs.svg)](/static/woodworking/modern-craftsman-legs.svg)
 
 ## The ratios
 
@@ -96,7 +104,7 @@ T × W × L, cut to length — **1″ tenons are baked into rail and apron lengt
 | Shelf | 1 | ¾″ × 9¾″ × 41½″ | Sits between the side rails, centered front-to-back (⅜″ setback each side) |
 | Top | 1 | ¾″ × 16″ × 60″ | Floats; buttons or figure-8s, never glued |
 
-The runner and spacers are sized for ½″-per-side slides — adjust them if the slides you buy need more or less clearance.
+As listed, the spacers and runner put the slide faces **19⅞″** apart in each bay, which leaves **7/16″ per side** beside the 19″ drawer box — 1/16″ per side less than the ½″ most side-mount slides need (see *Open questions*). Adjust them to the clearance of the slides you buy.
 
 ### Drawers (×2, identical)
 
@@ -108,7 +116,7 @@ The runner and spacers are sized for ½″-per-side slides — adjust them if th
 | Bottom | 1 | ¼″ × as fitted | Beech; in a groove, floating |
 | Pull | 1 | 8″ × ⅝″ × 1″ | Walnut; two screws from the inside |
 
-The stated **18″ × 7½″ × 2″ interior** sets the drawer box: 18″ clear between sides gives a box about 19″ wide overall, so ½″-per-side slides fit the 19.875″ opening. The 7½″ box depth sits in a 14″ frame, so there is room behind the drawers — decide whether to close it with a back panel (the maker uses plywood backs on case pieces) or leave it open.
+The stated **18″ × 7½″ × 2″ interior** sets the drawer box: 18″ clear between ½″ sides gives a box 19″ wide overall, which leaves 7/16″ per side in the 19⅞″ bay — not quite the ½″ per side that standard slides need (see *Open questions*). The 7½″ box depth sits in a 14″ frame, so there is room behind the drawers — decide whether to close it with a back panel (the maker uses plywood backs on case pieces) or leave it open.
 
 ## Build sequence
 
@@ -148,3 +156,4 @@ A Festool Domino can cut most of the joints instead of hand-cut tenons. The 5/16
 - **Shelf height** — about 10½″ to the shelf top is estimated from photos.
 - **Frame joinery** — the maker's page does not say how the legs and rails are joined, so mortise-and-tenon here is my choice, to match the other console plan on this site.
 - **Space behind the drawers** — see the note above.
+- **Slide clearance** — the stated 18″ interior with ½″ sides makes a 19″ box, but each bay is 19⅞″ between slide faces: 7/16″ per side, where ½″ slides need ½″. To fit them, either plane the drawer sides to 7/16″ (box 18⅞″, keeps the stated interior), take 1/16″ off each spacer and make the runner ⅝″ (bays 20″), or keep ½″ sides on a 17⅞″ interior.

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 650" width="640" height="650" role="img" aria-label="Heartwood Shaker nightstand, front elevation">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 650" width="620" height="650" role="img" aria-label="Heartwood Shaker nightstand, front elevation">
 <title>Heartwood Shaker nightstand, front elevation</title>
 <style>
   .bg{fill:#fff}
@@ -22,7 +22,7 @@
     <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
   </marker>
 </defs>
-<rect class="bg" width="640" height="650"/>
+<rect class="bg" width="620" height="650"/>
 <text class="h" x="20.0" y="24.0" text-anchor="start">Front elevation — 1 in = 16 px</text>
 <rect class="wood" x="95.00" y="100.00" width="384.00" height="16.00"/>
 <rect class="leg" x="135.00" y="116.00" width="24.00" height="432.00"/>
@@ -41,7 +41,7 @@
 <circle class="pull" cx="287.0" cy="385.0" r="10.0"/>
 <text class="n" x="287.0" y="354.6" text-anchor="middle">15⅞″ × 6″ front</text>
 <text class="n" x="287.0" y="408.2" text-anchor="middle">knob ≈ 1¼″ ⌀</text>
-<path class="face" d="M159.0,434.0 L415.0,434.0 L415.0,476.0 Q287.0,444.0 159.0,476.0 Z"/>
+<path class="face" d="M159.0,434.0 L415.0,434.0 L415.0,476.0 A520.0,520.0 0 0 0 159.0,476.0 Z"/>
 <text class="n" x="287.0" y="449.2" text-anchor="middle">arched apron: 2⅝″ ends, 1⅝″ centre</text>
 <line class="floor" x1="79.0" y1="548.0" x2="495.0" y2="548.0"/>
 <line class="ext" x1="95.0" y1="42.0" x2="95.0" y2="100.0"/>
@@ -64,36 +64,45 @@
 <line class="ext" x1="52.0" y1="548.0" x2="95.0" y2="548.0"/>
 <line class="dim" x1="52.0" y1="100.0" x2="52.0" y2="548.0" marker-start="url(#a)" marker-end="url(#a)"/>
 <text class="t" transform="translate(46.0,324.0) rotate(-90)" text-anchor="middle">28″ overall</text>
-<line class="ext" x1="501.0" y1="100.0" x2="479.0" y2="100.0"/>
-<line class="ext" x1="501.0" y1="116.0" x2="479.0" y2="116.0"/>
-<line class="dim" x1="501.0" y1="100.0" x2="501.0" y2="116.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(495.0,108.0) rotate(-90)" text-anchor="middle">1″</text>
-<line class="ext" x1="501.0" y1="117.0" x2="439.0" y2="117.0"/>
-<line class="ext" x1="501.0" y1="213.0" x2="439.0" y2="213.0"/>
+<line class="ext" x1="109.0" y1="214.0" x2="159.0" y2="214.0"/>
+<line class="ext" x1="109.0" y1="226.0" x2="159.0" y2="226.0"/>
+<line class="dim" x1="109.0" y1="200.0" x2="109.0" y2="214.0" marker-end="url(#a)"/>
+<line class="dim" x1="109.0" y1="240.0" x2="109.0" y2="226.0" marker-end="url(#a)"/>
+<text class="t" x="104.0" y="224.0" text-anchor="end">¾″ rail</text>
+<line class="ext" x1="109.0" y1="324.0" x2="159.0" y2="324.0"/>
+<line class="ext" x1="109.0" y1="336.0" x2="159.0" y2="336.0"/>
+<line class="dim" x1="109.0" y1="310.0" x2="109.0" y2="324.0" marker-end="url(#a)"/>
+<line class="dim" x1="109.0" y1="350.0" x2="109.0" y2="336.0" marker-end="url(#a)"/>
+<text class="t" x="104.0" y="334.0" text-anchor="end">¾″ rail</text>
+<line class="ext" x1="501.0" y1="117.0" x2="415.0" y2="117.0"/>
+<line class="ext" x1="501.0" y1="213.0" x2="415.0" y2="213.0"/>
 <line class="dim" x1="501.0" y1="117.0" x2="501.0" y2="213.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(495.0,165.0) rotate(-90)" text-anchor="middle">6″</text>
-<line class="ext" x1="501.0" y1="227.0" x2="439.0" y2="227.0"/>
-<line class="ext" x1="501.0" y1="323.0" x2="439.0" y2="323.0"/>
+<text class="t" transform="translate(515.0,165.0) rotate(-90)" text-anchor="middle">6″</text>
+<line class="ext" x1="501.0" y1="227.0" x2="415.0" y2="227.0"/>
+<line class="ext" x1="501.0" y1="323.0" x2="415.0" y2="323.0"/>
 <line class="dim" x1="501.0" y1="227.0" x2="501.0" y2="323.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(495.0,275.0) rotate(-90)" text-anchor="middle">6″</text>
-<line class="ext" x1="501.0" y1="337.0" x2="439.0" y2="337.0"/>
-<line class="ext" x1="501.0" y1="433.0" x2="439.0" y2="433.0"/>
+<text class="t" transform="translate(515.0,275.0) rotate(-90)" text-anchor="middle">6″</text>
+<line class="ext" x1="501.0" y1="337.0" x2="415.0" y2="337.0"/>
+<line class="ext" x1="501.0" y1="433.0" x2="415.0" y2="433.0"/>
 <line class="dim" x1="501.0" y1="337.0" x2="501.0" y2="433.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(495.0,385.0) rotate(-90)" text-anchor="middle">6″</text>
-<line class="ext" x1="501.0" y1="215.0" x2="439.0" y2="215.0"/>
-<line class="ext" x1="501.0" y1="227.0" x2="439.0" y2="227.0"/>
-<line class="dim" x1="501.0" y1="215.0" x2="501.0" y2="227.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(495.0,221.0) rotate(-90)" text-anchor="middle"></text>
-<line class="ext" x1="501.0" y1="325.0" x2="439.0" y2="325.0"/>
-<line class="ext" x1="501.0" y1="337.0" x2="439.0" y2="337.0"/>
-<line class="dim" x1="501.0" y1="325.0" x2="501.0" y2="337.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(495.0,331.0) rotate(-90)" text-anchor="middle"></text>
-<text class="t" x="515.0" y="223.4" text-anchor="start">¾″</text>
-<text class="t" x="515.0" y="333.4" text-anchor="start">¾″</text>
-<line class="ext" x1="545.0" y1="434.0" x2="439.0" y2="434.0"/>
-<line class="ext" x1="545.0" y1="548.0" x2="439.0" y2="548.0"/>
+<text class="t" transform="translate(515.0,385.0) rotate(-90)" text-anchor="middle">6″</text>
+<line class="ext" x1="545.0" y1="100.0" x2="479.0" y2="100.0"/>
+<line class="ext" x1="545.0" y1="116.0" x2="479.0" y2="116.0"/>
+<line class="dim" x1="545.0" y1="100.0" x2="545.0" y2="116.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="550.0" y="112.0" text-anchor="start">1″ top</text>
+<line class="ext" x1="545.0" y1="434.0" x2="415.0" y2="434.0"/>
+<line class="dim" x1="545.0" y1="116.0" x2="545.0" y2="434.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(559.0,275.0) rotate(-90)" text-anchor="middle">19⅞″ drawer stack</text>
+<line class="ext" x1="545.0" y1="434.0" x2="495.0" y2="434.0"/>
+<line class="ext" x1="545.0" y1="548.0" x2="495.0" y2="548.0"/>
 <line class="dim" x1="545.0" y1="434.0" x2="545.0" y2="548.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(539.0,491.0) rotate(-90)" text-anchor="middle">7⅛″ floor to opening</text>
+<text class="t" transform="translate(559.0,491.0) rotate(-90)" text-anchor="middle">7⅛″ to floor</text>
+<line class="ext" x1="167.0" y1="476.0" x2="159.0" y2="476.0"/>
+<line class="ext" x1="167.0" y1="548.0" x2="159.0" y2="548.0"/>
+<line class="dim" x1="167.0" y1="476.0" x2="167.0" y2="548.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(181.0,512.0) rotate(-90)" text-anchor="middle">4½″</text>
+<line class="dim" x1="287.0" y1="460.0" x2="287.0" y2="548.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(301.0,504.0) rotate(-90)" text-anchor="middle">5½″ at centre</text>
 <line class="ext" x1="135.0" y1="576.0" x2="135.0" y2="548.0"/>
 <line class="ext" x1="159.0" y1="576.0" x2="159.0" y2="548.0"/>
 <line class="dim" x1="135.0" y1="576.0" x2="159.0" y2="576.0" marker-start="url(#a)" marker-end="url(#a)"/>
@@ -106,4 +115,5 @@
 <line class="ext" x1="439.0" y1="576.0" x2="439.0" y2="548.0"/>
 <line class="dim" x1="415.0" y1="576.0" x2="439.0" y2="576.0" marker-start="url(#a)" marker-end="url(#a)"/>
 <text class="t" x="427.0" y="591.0" text-anchor="middle">1½″</text>
+<text class="n" x="287.0" y="616.0" text-anchor="middle">1/16″ reveal all round each front · rails ¾″ × ¾″ · legs 27″ long</text>
 </svg>

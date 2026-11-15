@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 470" width="700" height="470" role="img" aria-label="Heartwood Shaker nightstand, plan view">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 510" width="700" height="510" role="img" aria-label="Heartwood Shaker nightstand, plan view">
 <title>Heartwood Shaker nightstand, plan view</title>
 <style>
   .bg{fill:#fff}
@@ -22,26 +22,31 @@
     <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
   </marker>
 </defs>
-<rect class="bg" width="700" height="470"/>
+<rect class="bg" width="700" height="510"/>
 <text class="h" x="20.0" y="24.0" text-anchor="start">Plan view, top removed — 1 in = 16 px</text>
 <rect class="hid" x="95.0" y="100.0" width="384" height="288"/>
 <rect class="wood" x="135.00" y="144.00" width="12.00" height="200.00"/>
 <rect class="wood" x="427.00" y="144.00" width="12.00" height="200.00"/>
 <rect class="wood" x="159.00" y="120.00" width="256.00" height="12.00"/>
 <rect class="wood" x="159.00" y="356.00" width="256.00" height="12.00"/>
-<rect class="spacer" x="147.00" y="164.00" width="12.00" height="192.00"/>
-<rect class="spacer" x="415.00" y="164.00" width="12.00" height="192.00"/>
+<rect class="spacer" x="147.00" y="152.00" width="12.00" height="192.00"/>
+<rect class="spacer" x="415.00" y="152.00" width="12.00" height="192.00"/>
 <rect class="face" x="160.00" y="356.00" width="254.00" height="12.00"/>
-<rect class="hid" x="167.0" y="164.0" width="240" height="192"/>
-<text class="n" x="287.0" y="260.0" text-anchor="middle">drawer box 15″ wide × 12″ long (dashed)</text>
-<text class="n" x="287.0" y="276.0" text-anchor="middle">3 stacked, each on side-mount slides</text>
+<rect class="hid" x="167.0" y="164.0" width="240.0" height="192.0"/>
+<text class="n" x="287.0" y="252.0" text-anchor="middle">drawer box (dashed)</text>
+<text class="n" x="287.0" y="266.0" text-anchor="middle">3 stacked, each on</text>
+<text class="n" x="287.0" y="280.0" text-anchor="middle">side-mount slides</text>
 <rect class="leg" x="135.00" y="344.00" width="24.00" height="24.00"/>
 <rect class="leg" x="135.00" y="120.00" width="24.00" height="24.00"/>
 <rect class="leg" x="415.00" y="344.00" width="24.00" height="24.00"/>
 <rect class="leg" x="415.00" y="120.00" width="24.00" height="24.00"/>
-<text class="n" x="287.0" y="404.0" text-anchor="middle">FRONT</text>
-<text class="n" x="95.0" y="434.0" text-anchor="start">Dashed outline = top, 24″ × 18″ × 1″, floating on buttons.</text>
-<text class="n" x="95.0" y="450.0" text-anchor="start">Side frames are ¾″ thick, flush to the leg outer faces; grey = ¾″ slide spacers.</text>
+<line class="dim" x1="167.0" y1="180.0" x2="407.0" y2="180.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="287.0" y="175.0" text-anchor="middle">15″ drawer box</text>
+<line class="dim" x1="391.0" y1="356.0" x2="391.0" y2="164.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(385.0,260.0) rotate(-90)" text-anchor="middle">12″ drawer box</text>
+<line class="dim" x1="145.0" y1="324.0" x2="159.0" y2="324.0" marker-end="url(#a)"/>
+<line class="dim" x1="181.0" y1="324.0" x2="167.0" y2="324.0" marker-end="url(#a)"/>
+<text class="t" x="185.0" y="328.0" text-anchor="start">½″ slide clearance</text>
 <line class="ext" x1="95.0" y1="42.0" x2="95.0" y2="100.0"/>
 <line class="ext" x1="479.0" y1="42.0" x2="479.0" y2="100.0"/>
 <line class="dim" x1="95.0" y1="42.0" x2="479.0" y2="42.0" marker-start="url(#a)" marker-end="url(#a)"/>
@@ -58,8 +63,31 @@
 <line class="ext" x1="479.0" y1="68.0" x2="479.0" y2="100.0"/>
 <line class="dim" x1="439.0" y1="68.0" x2="479.0" y2="68.0" marker-start="url(#a)" marker-end="url(#a)"/>
 <text class="t" x="459.0" y="63.0" text-anchor="middle">2½″</text>
-<line class="dim" x1="503" y1="388.0" x2="503" y2="100.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(517,244.0) rotate(-90)" text-anchor="middle">18″ overall</text>
-<line class="dim" x1="533" y1="368.0" x2="533" y2="120.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(547,244.0) rotate(-90)" text-anchor="middle">15½″ case</text>
+<line class="ext" x1="135.0" y1="416.0" x2="135.0" y2="368.0"/>
+<line class="ext" x1="159.0" y1="416.0" x2="159.0" y2="368.0"/>
+<line class="dim" x1="135.0" y1="416.0" x2="159.0" y2="416.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="147.0" y="431.0" text-anchor="middle">1½″</text>
+<line class="ext" x1="159.0" y1="416.0" x2="159.0" y2="368.0"/>
+<line class="ext" x1="415.0" y1="416.0" x2="415.0" y2="368.0"/>
+<line class="dim" x1="159.0" y1="416.0" x2="415.0" y2="416.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="287.0" y="431.0" text-anchor="middle">16″ opening</text>
+<line class="ext" x1="415.0" y1="416.0" x2="415.0" y2="368.0"/>
+<line class="ext" x1="439.0" y1="416.0" x2="439.0" y2="368.0"/>
+<line class="dim" x1="415.0" y1="416.0" x2="439.0" y2="416.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="427.0" y="431.0" text-anchor="middle">1½″</text>
+<line class="ext" x1="503.0" y1="388.0" x2="479.0" y2="388.0"/>
+<line class="ext" x1="503.0" y1="100.0" x2="479.0" y2="100.0"/>
+<line class="dim" x1="503.0" y1="388.0" x2="503.0" y2="100.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(517.0,244.0) rotate(-90)" text-anchor="middle">18″ overall</text>
+<line class="ext" x1="533.0" y1="368.0" x2="439.0" y2="368.0"/>
+<line class="ext" x1="533.0" y1="120.0" x2="439.0" y2="120.0"/>
+<line class="dim" x1="533.0" y1="368.0" x2="533.0" y2="120.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(547.0,244.0) rotate(-90)" text-anchor="middle">15½″ case</text>
+<line class="ext" x1="73.0" y1="344.0" x2="135.0" y2="344.0"/>
+<line class="ext" x1="73.0" y1="144.0" x2="135.0" y2="144.0"/>
+<line class="dim" x1="73.0" y1="344.0" x2="73.0" y2="144.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(67.0,244.0) rotate(-90)" text-anchor="middle">12½″ between legs</text>
+<text class="n" x="287.0" y="450.0" text-anchor="middle">FRONT</text>
+<text class="n" x="95.0" y="474.0" text-anchor="start">Dashed outline = top, 24″ × 18″ × 1″, floating on buttons.</text>
+<text class="n" x="95.0" y="490.0" text-anchor="start">Side frames ¾″ thick, flush to the leg outer faces; grey = ¾″ × 2″ × 12″ slide spacers.</text>
 </svg>

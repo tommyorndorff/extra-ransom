@@ -26,6 +26,12 @@ Drawn at 1″ = 12 px from the dimensions on this page. Click to open full size.
 
 [![Plan view of the cherry hallway console with the top removed](/static/woodworking/cherry-console-plan.svg)](/static/woodworking/cherry-console-plan.svg)
 
+**Leg layout** (mortise heights and drawbore pin positions)
+
+[![Leg layout: the two mortised faces at full length with apron and rail mortise heights, and the top 4 inches of all four faces unfolded showing mortise positions and pin locations](/static/woodworking/cherry-console-legs.svg)](/static/woodworking/cherry-console-legs.svg)
+
+The drawing shows the front-left leg. The back-right leg is the same part turned end for end, and the front-right and back-left legs are its mirror image. Mortise *length* depends on the tenon width (and any haunch at the top of the leg), which this plan doesn't fix, so the shaded strips mark only where each mortise sits across the face and which height band it falls in.
+
 > **Variant:** want somewhere to sit and put shoes on? See [Cherry Console + Slide-Under Chest Bench](cherry-console-with-bench) — the same console with an open lower half and a blanket-chest seat that slides underneath.
 
 ## Why these proportions
@@ -86,7 +92,7 @@ Drawboring means the pin hole in the leg and the pin hole in the tenon are delib
 
 [![Drawbore detail: section through the pin axis showing the tenon hole 1/32 inch closer to the shoulder than the hole in the leg](/static/woodworking/cherry-console-drawbore.svg)](/static/woodworking/cherry-console-drawbore.svg)
 
-The blue hole is drilled in the leg; the red hole is drilled in the tenon, centered 1/32″ nearer the shoulder. The drawing is true to scale.
+The blue hole is drilled in the leg; the red hole is drilled in the tenon, centered 1/32″ nearer the shoulder. The section looks down through a front leg at one of the front-apron pins. It also shows the side-apron tenon meeting the front-apron tenon at their mitred tips. The drawing is true to scale.
 
 ### Sizes for this table
 
@@ -124,7 +130,7 @@ A Festool Domino can cut the apron joints instead of hand-cut tenons. The plan's
 
 | Joint | Domino | Cut length (was) |
 |---|---|---|
-| Long aprons (×2) | 1 × 8×40 per end, centred **24 mm (≈ ⅞″) below the apron's top edge** | **37″** (39″) |
+| Long aprons (×2) | 1 × 8×40 per end, centred **24 mm (≈ 15/16″) below the apron's top edge** | **37″** (39″) |
 | Short aprons (×2) | 1 × 8×40 per end, centred **66 mm (≈ 2⅝″) below the apron's top edge** | **9″** (11″) |
 | Lower rails (×4) | Keep the hand-cut mitered tenons | 39″ and 11″ (unchanged) |
 

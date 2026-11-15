@@ -37,7 +37,7 @@ Everything here is my own design, so there are no maker dimensions to match. Eve
 
 ## Drawings (true scale)
 
-Drawn at 1″ = 12 px (the chest section at 1″ = 16 px). Click to open full size.
+Drawn at 1″ = 12 px (the two chest drawings at 1″ = 16 px). Click to open full size.
 
 **Front elevation, chest pushed in**
 
@@ -54,6 +54,10 @@ Drawn at 1″ = 12 px (the chest section at 1″ = 16 px). Click to open full si
 **Chest end section**
 
 [![End section of the chest bench: lid, dovetailed case, floating bottom and plinth](/static/woodworking/bench-console-bench.svg)](/static/woodworking/bench-console-bench.svg)
+
+**Chest front elevation**
+
+[![Front elevation of the chest bench showing the dovetailed corners, the hidden bottom and lid cleats, and the inset plinth, dimensioned](/static/woodworking/bench-console-chest-front.svg)](/static/woodworking/bench-console-chest-front.svg)
 
 ## Console
 
@@ -92,7 +96,7 @@ Cherry for everything visible. T × W × L.
 | Plinth ends | 2 | 4/4 | ¾″ × 2¼″ × 12¼″ | Mitered corners |
 | Lid cleats | 2 | 4/4 | ¾″ × 1¼″ × 11¼″ | Underside, 2″ in from each end; slotted screw holes so the lid can move |
 
-Height is 1″ lid + 13¾″ case + 2¼″ plinth = **17″**. The interior is about 34½″ × 11½″ × 13¼″.
+Height is 1″ lid + 13¾″ case + 2¼″ plinth = **17″**. The interior is about 34½″ × 11½″ × 13″ (the ½″ bottom sits in grooves ¼″ up from the case's bottom edge).
 
 ### Hardware
 
