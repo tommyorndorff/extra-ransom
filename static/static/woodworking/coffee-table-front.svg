@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" width="900" height="440" role="img" aria-label="Shaker 2-drawer coffee table, front elevation">
+<title>Shaker 2-drawer coffee table, front elevation</title>
+<style>
+  .bg{fill:#fff}
+  .wood{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .leg{fill:#dcb988;stroke:#4a3320;stroke-width:1.3}
+  .face{fill:#f3dfbf;stroke:#4a3320;stroke-width:1.3}
+  .pull{fill:#5a3b26;stroke:#2b1a0f;stroke-width:1}
+  .shelf{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3}
+  .hid{fill:none;stroke:#7a6a5a;stroke-width:1.1;stroke-dasharray:5 3}
+  .spacer{fill:#cfc3b4;stroke:#6b5b4b;stroke-width:1}
+  .floor{stroke:#333;stroke-width:1.6}
+  .dim{stroke:#1f5fa8;stroke-width:1;fill:none}
+  .ext{stroke:#8fb0d8;stroke-width:.8}
+  .t{font:12px 'Helvetica Neue',Arial,sans-serif;fill:#1f3a5f}
+  .n{font:11px 'Helvetica Neue',Arial,sans-serif;fill:#444}
+  .h{font:600 15px 'Helvetica Neue',Arial,sans-serif;fill:#222}
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
+  </marker>
+</defs>
+<rect class="bg" width="900" height="440"/>
+<text class="h" x="20.0" y="24.0" text-anchor="start">Front elevation — 1 in = 12 px</text>
+<rect class="shelf" x="140.00" y="244.00" width="486.00" height="9.00"/>
+<rect class="wood" x="95.00" y="100.00" width="576.00" height="12.00"/>
+<rect class="leg" x="125.00" y="112.00" width="24.00" height="204.00"/>
+<rect class="leg" x="617.00" y="112.00" width="24.00" height="204.00"/>
+<rect class="wood" x="149.00" y="155.50" width="468.00" height="15.00"/>
+<rect class="wood" x="378.50" y="112.00" width="9.00" height="43.50"/>
+<rect class="face" x="149.75" y="112.75" width="228.00" height="42.00"/>
+<circle class="pull" cx="263.8" cy="133.8" r="9.0"/>
+<text class="n" x="263.8" y="122.3" text-anchor="middle">19″ × 3½″</text>
+<rect class="face" x="388.25" y="112.75" width="228.00" height="42.00"/>
+<circle class="pull" cx="502.2" cy="133.8" r="9.0"/>
+<text class="n" x="502.2" y="122.3" text-anchor="middle">19″ × 3½″</text>
+<line class="floor" x1="59.0" y1="316.0" x2="707.0" y2="316.0"/>
+<text class="n" x="383.0" y="210.4" text-anchor="middle">open below the rail</text>
+<text class="n" x="383.0" y="238.0" text-anchor="middle">shelf (behind front legs)</text>
+<line class="ext" x1="95.0" y1="42.0" x2="95.0" y2="100.0"/>
+<line class="ext" x1="671.0" y1="42.0" x2="671.0" y2="100.0"/>
+<line class="dim" x1="95.0" y1="42.0" x2="671.0" y2="42.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="383.0" y="37.0" text-anchor="middle">48″ top (existing)</text>
+<line class="ext" x1="95.0" y1="68.0" x2="95.0" y2="100.0"/>
+<line class="ext" x1="125.0" y1="68.0" x2="125.0" y2="100.0"/>
+<line class="dim" x1="95.0" y1="68.0" x2="125.0" y2="68.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="110.0" y="63.0" text-anchor="middle">2½″</text>
+<line class="ext" x1="125.0" y1="68.0" x2="125.0" y2="112.0"/>
+<line class="ext" x1="641.0" y1="68.0" x2="641.0" y2="112.0"/>
+<line class="dim" x1="125.0" y1="68.0" x2="641.0" y2="68.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="383.0" y="63.0" text-anchor="middle">43″ leg frame</text>
+<line class="ext" x1="641.0" y1="68.0" x2="641.0" y2="100.0"/>
+<line class="ext" x1="671.0" y1="68.0" x2="671.0" y2="100.0"/>
+<line class="dim" x1="641.0" y1="68.0" x2="671.0" y2="68.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="656.0" y="63.0" text-anchor="middle">2½″</text>
+<line class="ext" x1="52.0" y1="100.0" x2="95.0" y2="100.0"/>
+<line class="ext" x1="52.0" y1="316.0" x2="95.0" y2="316.0"/>
+<line class="dim" x1="52.0" y1="100.0" x2="52.0" y2="316.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(46.0,208.0) rotate(-90)" text-anchor="middle">18″ overall</text>
+<line class="ext" x1="693.0" y1="100.0" x2="671.0" y2="100.0"/>
+<line class="ext" x1="693.0" y1="112.0" x2="671.0" y2="112.0"/>
+<line class="dim" x1="693.0" y1="100.0" x2="693.0" y2="112.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(707.0,106.0) rotate(-90)" text-anchor="middle"></text>
+<text class="n" x="701.0" y="108.4" text-anchor="start">1″ top (assumed)</text>
+<line class="ext" x1="693.0" y1="112.0" x2="644.0" y2="112.0"/>
+<line class="ext" x1="693.0" y1="155.5" x2="644.0" y2="155.5"/>
+<line class="dim" x1="693.0" y1="112.0" x2="693.0" y2="155.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(707.0,133.8) rotate(-90)" text-anchor="middle">3⅝″</text>
+<line class="ext" x1="693.0" y1="155.5" x2="644.0" y2="155.5"/>
+<line class="ext" x1="693.0" y1="170.5" x2="644.0" y2="170.5"/>
+<line class="dim" x1="693.0" y1="155.5" x2="693.0" y2="170.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="698.0" y="167.0" text-anchor="start">1¼″ rail</text>
+<line class="ext" x1="693.0" y1="244.0" x2="668.0" y2="244.0"/>
+<line class="ext" x1="693.0" y1="316.0" x2="668.0" y2="316.0"/>
+<line class="dim" x1="693.0" y1="244.0" x2="693.0" y2="316.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(707.0,280.0) rotate(-90)" text-anchor="middle">6″ to shelf</text>
+<line class="ext" x1="771.0" y1="170.5" x2="644.0" y2="170.5"/>
+<line class="ext" x1="771.0" y1="316.0" x2="644.0" y2="316.0"/>
+<line class="dim" x1="771.0" y1="170.5" x2="771.0" y2="316.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(785.0,243.2) rotate(-90)" text-anchor="middle">12⅛″ to rail bottom</text>
+<line class="ext" x1="125.0" y1="344.0" x2="125.0" y2="316.0"/>
+<line class="ext" x1="149.0" y1="344.0" x2="149.0" y2="316.0"/>
+<line class="dim" x1="125.0" y1="344.0" x2="149.0" y2="344.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="137.0" y="359.0" text-anchor="middle">2″</text>
+<line class="ext" x1="149.0" y1="344.0" x2="149.0" y2="316.0"/>
+<line class="ext" x1="617.0" y1="344.0" x2="617.0" y2="316.0"/>
+<line class="dim" x1="149.0" y1="344.0" x2="617.0" y2="344.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="383.0" y="359.0" text-anchor="middle">39″ opening</text>
+<line class="ext" x1="617.0" y1="344.0" x2="617.0" y2="316.0"/>
+<line class="ext" x1="641.0" y1="344.0" x2="641.0" y2="316.0"/>
+<line class="dim" x1="617.0" y1="344.0" x2="641.0" y2="344.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="629.0" y="359.0" text-anchor="middle">2″</text>
+<text class="n" x="383.0" y="384.0" text-anchor="middle">1/16″ reveals · ¾″ center divider · 1¼″ lower rail · 1½″ turned knobs</text>
+</svg>
