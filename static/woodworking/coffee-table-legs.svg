@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" width="900" height="680" role="img" aria-label="Shaker 2-drawer coffee table, leg mortise layout">
+<title>Shaker 2-drawer coffee table, leg mortise layout</title>
+<style>
+  .bg{fill:#fff}
+  .wood{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .leg{fill:#dcb988;stroke:#4a3320;stroke-width:1.3}
+  .face{fill:#f3dfbf;stroke:#4a3320;stroke-width:1.3}
+  .pull{fill:#5a3b26;stroke:#2b1a0f;stroke-width:1}
+  .shelf{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3}
+  .hid{fill:none;stroke:#7a6a5a;stroke-width:1.1;stroke-dasharray:5 3}
+  .spacer{fill:#cfc3b4;stroke:#6b5b4b;stroke-width:1}
+  .floor{stroke:#333;stroke-width:1.6}
+  .dim{stroke:#1f5fa8;stroke-width:1;fill:none}
+  .ext{stroke:#8fb0d8;stroke-width:.8}
+  .t{font:12px 'Helvetica Neue',Arial,sans-serif;fill:#1f3a5f}
+  .n{font:11px 'Helvetica Neue',Arial,sans-serif;fill:#444}
+  .h{font:600 15px 'Helvetica Neue',Arial,sans-serif;fill:#222}
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
+  </marker>
+</defs>
+<style>
+  .mort{fill:#6b4a2f;stroke:#2b1a0f;stroke-width:1}
+  .box{fill:#f1e4c8;stroke:#4a3320;stroke-width:1.2}
+  .bot{fill:#faf3e3;stroke:#4a3320;stroke-width:1}
+  .dt{fill:url(#hatch);stroke:#4a3320;stroke-width:1}
+  .hid2{fill:none;stroke:#b0452b;stroke-width:1.1;stroke-dasharray:2 3}
+  .far{fill:#faf3e3;stroke:#8a7560;stroke-width:1}
+</style>
+<defs>
+  <pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <rect width="5" height="5" fill="#f1e4c8"/><line x1="0" y1="0" x2="0" y2="5" stroke="#4a3320" stroke-width="1"/>
+  </pattern>
+</defs>
+<rect class="bg" width="900" height="680"/>
+<text class="h" x="20.0" y="24.0" text-anchor="start">Leg mortise layout — faces at 1 in = 18 px, leg tops at 1 in = 64 px</text>
+<text class="n" x="20.0" y="44.0" text-anchor="start">Left-hand legs shown; the right-hand pair is a mirror image. Heights are measured down from the top of the 17″ leg.</text>
+<text class="t" x="168.0" y="80.0" text-anchor="middle">FRONT leg</text>
+<text class="n" x="168.0" y="96.0" text-anchor="middle">inside face</text>
+<rect class="leg" x="150.00" y="112.00" width="36.00" height="306.00"/>
+<rect class="mort" x="153.38" y="177.25" width="6.75" height="22.50"/>
+<line class="ext" x1="142.0" y1="177.2" x2="150.0" y2="177.2"/>
+<line class="ext" x1="142.0" y1="199.8" x2="150.0" y2="199.8"/>
+<line class="dim" x1="142.0" y1="177.2" x2="142.0" y2="199.8" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="137.0" y="192.5" text-anchor="end">3⅝″–4⅞″</text>
+<text class="n" x="137.0" y="211.8" text-anchor="end">lower rail</text>
+<text class="n" x="148.0" y="432.0" text-anchor="end">front</text>
+<text class="n" x="188.0" y="432.0" text-anchor="start">back</text>
+<text class="t" x="278.0" y="80.0" text-anchor="middle">FRONT leg</text>
+<text class="n" x="278.0" y="96.0" text-anchor="middle">back face</text>
+<rect class="leg" x="260.00" y="112.00" width="36.00" height="306.00"/>
+<rect class="mort" x="285.88" y="143.50" width="6.75" height="31.50"/>
+<line class="ext" x1="252.0" y1="143.5" x2="260.0" y2="143.5"/>
+<line class="ext" x1="252.0" y1="175.0" x2="260.0" y2="175.0"/>
+<line class="dim" x1="252.0" y1="143.5" x2="252.0" y2="175.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="247.0" y="163.2" text-anchor="end">1¾″–3½″</text>
+<text class="n" x="247.0" y="187.0" text-anchor="end">end apron</text>
+<rect class="mort" x="280.25" y="305.50" width="9.00" height="27.00"/>
+<line class="ext" x1="252.0" y1="305.5" x2="260.0" y2="305.5"/>
+<line class="ext" x1="252.0" y1="332.5" x2="260.0" y2="332.5"/>
+<line class="dim" x1="252.0" y1="305.5" x2="252.0" y2="332.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="247.0" y="323.0" text-anchor="end">10¾″–12¼″</text>
+<text class="n" x="247.0" y="344.5" text-anchor="end">shelf rail</text>
+<text class="n" x="258.0" y="432.0" text-anchor="end">inside</text>
+<text class="n" x="298.0" y="432.0" text-anchor="start">outside</text>
+<text class="t" x="418.0" y="80.0" text-anchor="middle">BACK leg</text>
+<text class="n" x="418.0" y="96.0" text-anchor="middle">inside face</text>
+<rect class="leg" x="400.00" y="112.00" width="36.00" height="306.00"/>
+<rect class="mort" x="425.88" y="116.50" width="6.75" height="22.50"/>
+<line class="ext" x1="392.0" y1="116.5" x2="400.0" y2="116.5"/>
+<line class="ext" x1="392.0" y1="139.0" x2="400.0" y2="139.0"/>
+<line class="dim" x1="392.0" y1="116.5" x2="392.0" y2="139.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="387.0" y="131.8" text-anchor="end">¼″–1½″</text>
+<text class="n" x="387.0" y="151.0" text-anchor="end">back apron</text>
+<text class="n" x="398.0" y="432.0" text-anchor="end">front</text>
+<text class="n" x="438.0" y="432.0" text-anchor="start">back</text>
+<text class="t" x="528.0" y="80.0" text-anchor="middle">BACK leg</text>
+<text class="n" x="528.0" y="96.0" text-anchor="middle">front face</text>
+<rect class="leg" x="510.00" y="112.00" width="36.00" height="306.00"/>
+<rect class="mort" x="513.38" y="143.50" width="6.75" height="31.50"/>
+<line class="ext" x1="502.0" y1="143.5" x2="510.0" y2="143.5"/>
+<line class="ext" x1="502.0" y1="175.0" x2="510.0" y2="175.0"/>
+<line class="dim" x1="502.0" y1="143.5" x2="502.0" y2="175.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="497.0" y="163.2" text-anchor="end">1¾″–3½″</text>
+<text class="n" x="497.0" y="187.0" text-anchor="end">end apron</text>
+<rect class="mort" x="516.75" y="305.50" width="9.00" height="27.00"/>
+<line class="ext" x1="502.0" y1="305.5" x2="510.0" y2="305.5"/>
+<line class="ext" x1="502.0" y1="332.5" x2="510.0" y2="332.5"/>
+<line class="dim" x1="502.0" y1="305.5" x2="502.0" y2="332.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="497.0" y="323.0" text-anchor="end">10¾″–12¼″</text>
+<text class="n" x="497.0" y="344.5" text-anchor="end">shelf rail</text>
+<text class="n" x="508.0" y="432.0" text-anchor="end">outside</text>
+<text class="n" x="548.0" y="432.0" text-anchor="start">inside</text>
+<line class="ext" x1="40.0" y1="112.0" x2="146.0" y2="112.0"/>
+<line class="ext" x1="40.0" y1="418.0" x2="146.0" y2="418.0"/>
+<line class="dim" x1="40.0" y1="112.0" x2="40.0" y2="418.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(34.0,265.0) rotate(-90)" text-anchor="middle">17″ leg</text>
+<line class="ext" x1="353" y1="68" x2="353" y2="442.0"/>
+<text class="t" x="674.0" y="88.0" text-anchor="middle">FRONT leg, top view</text>
+<rect class="leg" x="610.00" y="150.00" width="128.00" height="128.00"/>
+<rect class="hid" x="674.00" y="242.00" width="64.00" height="24.00"/>
+<rect class="hid" x="622.00" y="150.00" width="24.00" height="64.00"/>
+<rect class="hid2" x="634.00" y="150.00" width="32.00" height="64.00"/>
+<text class="n" x="702.2" y="167.9" text-anchor="middle">back</text>
+<text class="n" x="645.8" y="271.6" text-anchor="middle">front</text>
+<text class="n" transform="translate(619.6,246.0) rotate(-90)" text-anchor="middle">outside</text>
+<text class="n" transform="translate(732.9,188.4) rotate(-90)" text-anchor="middle">inside</text>
+<line class="ext" x1="622.0" y1="138.0" x2="622.0" y2="150.0"/>
+<line class="ext" x1="646.0" y1="138.0" x2="646.0" y2="150.0"/>
+<line class="dim" x1="622.0" y1="138.0" x2="646.0" y2="138.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="634.0" y="133.0" text-anchor="middle">3/16″–9/16″</text>
+<line class="ext" x1="634.0" y1="112.0" x2="634.0" y2="150.0"/>
+<line class="ext" x1="666.0" y1="112.0" x2="666.0" y2="150.0"/>
+<line class="dim" x1="634.0" y1="112.0" x2="666.0" y2="112.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="650.0" y="107.0" text-anchor="middle">⅜″–⅞″</text>
+<line class="ext" x1="598.0" y1="150.0" x2="622.0" y2="150.0"/>
+<line class="ext" x1="598.0" y1="214.0" x2="622.0" y2="214.0"/>
+<line class="dim" x1="598.0" y1="150.0" x2="598.0" y2="214.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="593.0" y="186.0" text-anchor="end">1″</text>
+<line class="ext" x1="750.0" y1="242.0" x2="738.0" y2="242.0"/>
+<line class="ext" x1="750.0" y1="266.0" x2="738.0" y2="266.0"/>
+<line class="dim" x1="750.0" y1="242.0" x2="750.0" y2="266.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="755.0" y="258.0" text-anchor="start">3/16″–9/16″ from front</text>
+<line class="ext" x1="674.0" y1="302.0" x2="674.0" y2="266.0"/>
+<line class="ext" x1="738.0" y1="302.0" x2="738.0" y2="266.0"/>
+<line class="dim" x1="674.0" y1="302.0" x2="738.0" y2="302.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="706.0" y="317.0" text-anchor="middle">1″</text>
+<text class="t" x="674.0" y="338.0" text-anchor="middle">BACK leg, top view</text>
+<rect class="leg" x="610.00" y="400.00" width="128.00" height="128.00"/>
+<rect class="hid" x="674.00" y="412.00" width="64.00" height="24.00"/>
+<rect class="hid" x="622.00" y="464.00" width="24.00" height="64.00"/>
+<rect class="hid2" x="634.00" y="464.00" width="32.00" height="64.00"/>
+<text class="n" x="645.8" y="417.9" text-anchor="middle">back</text>
+<text class="n" x="702.2" y="521.6" text-anchor="middle">front</text>
+<text class="n" transform="translate(619.6,435.8) rotate(-90)" text-anchor="middle">outside</text>
+<text class="n" transform="translate(732.9,489.6) rotate(-90)" text-anchor="middle">inside</text>
+<line class="ext" x1="674.0" y1="388.0" x2="674.0" y2="412.0"/>
+<line class="ext" x1="738.0" y1="388.0" x2="738.0" y2="412.0"/>
+<line class="dim" x1="674.0" y1="388.0" x2="738.0" y2="388.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="706.0" y="383.0" text-anchor="middle">1″</text>
+<line class="ext" x1="750.0" y1="412.0" x2="738.0" y2="412.0"/>
+<line class="ext" x1="750.0" y1="436.0" x2="738.0" y2="436.0"/>
+<line class="dim" x1="750.0" y1="412.0" x2="750.0" y2="436.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="755.0" y="428.0" text-anchor="start">3/16″–9/16″ from back</text>
+<line class="ext" x1="598.0" y1="464.0" x2="622.0" y2="464.0"/>
+<line class="ext" x1="598.0" y1="528.0" x2="622.0" y2="528.0"/>
+<line class="dim" x1="598.0" y1="464.0" x2="598.0" y2="528.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="593.0" y="500.0" text-anchor="end">1″</text>
+<line class="ext" x1="622.0" y1="550.0" x2="622.0" y2="528.0"/>
+<line class="ext" x1="646.0" y1="550.0" x2="646.0" y2="528.0"/>
+<line class="dim" x1="622.0" y1="550.0" x2="646.0" y2="550.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="634.0" y="565.0" text-anchor="middle">3/16″–9/16″</text>
+<line class="ext" x1="634.0" y1="576.0" x2="634.0" y2="528.0"/>
+<line class="ext" x1="666.0" y1="576.0" x2="666.0" y2="528.0"/>
+<line class="dim" x1="634.0" y1="576.0" x2="666.0" y2="576.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="650.0" y="591.0" text-anchor="middle">⅜″–⅞″</text>
+<text class="n" x="20.0" y="626.0" text-anchor="start">Dashed grey = ⅜″ mortises for the ¾″ parts (end and back aprons, lower rail), 3/16″ in from the face the part is flush with.</text>
+<text class="n" x="20.0" y="642.0" text-anchor="start">Dotted red = ½″ mortises for the 1¼″ shelf end rails, ⅜″ in from the outside face. Tenons are centred on each part's thickness.</text>
+<text class="n" x="20.0" y="658.0" text-anchor="start">All tenons are 1″ long, so cut the mortises a little deeper. Every part is flush with an outside face, so mortises on adjacent faces never meet.</text>
+</svg>

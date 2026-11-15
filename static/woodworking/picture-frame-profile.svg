@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 440" width="780" height="440" role="img" aria-label="Picture frame, profile section">
+<title>Picture frame, profile section</title>
+<style>
+  .bg{fill:#fff}
+  .wood{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .leg{fill:#dcb988;stroke:#4a3320;stroke-width:1.3}
+  .face{fill:#f3dfbf;stroke:#4a3320;stroke-width:1.3}
+  .pull{fill:#5a3b26;stroke:#2b1a0f;stroke-width:1}
+  .shelf{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3}
+  .hid{fill:none;stroke:#7a6a5a;stroke-width:1.1;stroke-dasharray:5 3}
+  .spacer{fill:#cfc3b4;stroke:#6b5b4b;stroke-width:1}
+  .floor{stroke:#333;stroke-width:1.6}
+  .dim{stroke:#1f5fa8;stroke-width:1;fill:none}
+  .ext{stroke:#8fb0d8;stroke-width:.8}
+  .t{font:12px 'Helvetica Neue',Arial,sans-serif;fill:#1f3a5f}
+  .n{font:11px 'Helvetica Neue',Arial,sans-serif;fill:#444}
+  .h{font:600 15px 'Helvetica Neue',Arial,sans-serif;fill:#222}
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
+  </marker>
+</defs>
+<rect class="bg" width="780" height="440"/>
+<text class="h" x="20.0" y="24.0" text-anchor="start">Profile section — 1 in = 160 px</text>
+<polygon class="wood" points="150.0,130.0 350.0,130.0 350.0,190.0 290.0,190.0 290.0,270.0 150.0,270.0"/>
+<rect x="300.0" y="190.0" width="146.0" height="20.0" fill="#cfe6f2" stroke="#4a3320" stroke-width="1"/>
+<line class="ext" x1="446.0" y1="200.0" x2="482.0" y2="190.0"/>
+<text class="n" x="485.0" y="194.0" text-anchor="start">glass ⅛″</text>
+<rect x="300.0" y="210.0" width="146.0" height="10.0" fill="#f4efe0" stroke="#4a3320" stroke-width="1"/>
+<line class="ext" x1="446.0" y1="215.0" x2="482.0" y2="214.0"/>
+<text class="n" x="485.0" y="218.0" text-anchor="start">print ≤ 1/16″</text>
+<rect x="300.0" y="220.0" width="146.0" height="20.0" fill="#d9c3a0" stroke="#4a3320" stroke-width="1"/>
+<line class="ext" x1="446.0" y1="230.0" x2="482.0" y2="238.0"/>
+<text class="n" x="485.0" y="242.0" text-anchor="start">backing ⅛″</text>
+<rect x="254.8" y="240.0" width="96.4" height="5.0" fill="#7a7a7a" stroke="#333" stroke-width="1"/>
+<line class="ext" x1="351.2" y1="242.5" x2="482.0" y2="266.0"/>
+<text class="n" x="485.0" y="270.0" text-anchor="start">flexi-point, driven into the wall (3/16″ left)</text>
+<text class="n" x="366.0" y="134.0" text-anchor="start">← FRONT face (viewer side)</text>
+<line class="ext" x1="150.0" y1="96.0" x2="150.0" y2="130.0"/>
+<line class="ext" x1="350.0" y1="96.0" x2="350.0" y2="130.0"/>
+<line class="dim" x1="150.0" y1="96.0" x2="350.0" y2="96.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="250.0" y="91.0" text-anchor="middle">1¼″ wide</text>
+<line class="ext" x1="50.0" y1="130.0" x2="150.0" y2="130.0"/>
+<line class="ext" x1="50.0" y1="270.0" x2="150.0" y2="270.0"/>
+<line class="dim" x1="50.0" y1="130.0" x2="50.0" y2="270.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(44.0,200.0) rotate(-90)" text-anchor="middle">⅞″ tall</text>
+<line class="ext" x1="100.0" y1="130.0" x2="150.0" y2="130.0"/>
+<line class="ext" x1="100.0" y1="190.0" x2="150.0" y2="190.0"/>
+<line class="dim" x1="100.0" y1="130.0" x2="100.0" y2="190.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(94.0,160.0) rotate(-90)" text-anchor="middle">⅜″ lip</text>
+<line class="ext" x1="100.0" y1="190.0" x2="150.0" y2="190.0"/>
+<line class="ext" x1="100.0" y1="270.0" x2="150.0" y2="270.0"/>
+<line class="dim" x1="100.0" y1="190.0" x2="100.0" y2="270.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(94.0,230.0) rotate(-90)" text-anchor="middle">½″ deep</text>
+<line class="ext" x1="150.0" y1="294.0" x2="150.0" y2="270.0"/>
+<line class="ext" x1="290.0" y1="294.0" x2="290.0" y2="270.0"/>
+<line class="dim" x1="150.0" y1="294.0" x2="290.0" y2="294.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="220.0" y="309.0" text-anchor="middle">⅞″ wall</text>
+<line class="ext" x1="290.0" y1="294.0" x2="290.0" y2="270.0"/>
+<line class="ext" x1="350.0" y1="294.0" x2="350.0" y2="270.0"/>
+<line class="dim" x1="290.0" y1="294.0" x2="350.0" y2="294.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="320.0" y="309.0" text-anchor="middle">⅜″</text>
+<text class="n" x="320.0" y="324.0" text-anchor="middle">rabbet width</text>
+<line class="ext" x1="300.0" y1="240.0" x2="300.0" y2="350.0"/>
+<line class="ext" x1="290.0" y1="298.0" x2="290.0" y2="350.0"/>
+<line class="dim" x1="276.0" y1="346.0" x2="290.0" y2="346.0" marker-end="url(#a)"/>
+<line class="dim" x1="314.0" y1="346.0" x2="300.0" y2="346.0" marker-end="url(#a)"/>
+<text class="t" x="318.0" y="350.0" text-anchor="start">1/16″ clearance, glass edge to wall</text>
+<text class="n" x="150.0" y="324.0" text-anchor="start">BACK (wall side) ↓</text>
+<text class="n" x="150.0" y="394.0" text-anchor="start">Rabbet is ⅜″ wide × ½″ deep. ⅛″ glass + print + ⅛″ backing ≈ 5/16″, leaving ≈ 3/16″ for the points.</text>
+<text class="n" x="150.0" y="412.0" text-anchor="start">Glass edge sits 1/16″ off the rabbet wall; the lip overlaps the picture by ⅜″ − 1/16″ = 5/16″ per side.</text>
+</svg>
