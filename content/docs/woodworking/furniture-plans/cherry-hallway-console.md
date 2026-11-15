@@ -32,7 +32,7 @@ Drawn at 1″ = 12 px from the dimensions on this page. Click to open full size.
 
 The drawing shows the front-left leg. The back-right leg is the same part turned end for end, and the front-right and back-left legs are its mirror image. Mortise *length* depends on the tenon width (and any haunch at the top of the leg), which this plan doesn't fix, so the shaded strips mark only where each mortise sits across the face and which height band it falls in.
 
-> **Variant:** want somewhere to sit and put shoes on? See [Cherry Console + Slide-Under Chest Bench](cherry-console-with-bench) — the same console with an open lower half and a blanket-chest seat that slides underneath.
+> **Variant:** want somewhere to sit and put shoes on? See [Cherry Console + Slide-Under Chest Bench](../cherry-console-with-bench) — the same console with an open lower half and a blanket-chest seat that slides underneath.
 
 ## Why these proportions
 

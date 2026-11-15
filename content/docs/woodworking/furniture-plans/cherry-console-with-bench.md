@@ -3,7 +3,7 @@ title: "Cherry Console + Slide-Under Chest Bench (Proposed)"
 weight: 15
 ---
 
-A **proposed** two-piece build: the [Cherry Hallway Console](cherry-hallway-console) reworked so its lower half is open, plus a separate **blanket chest that doubles as a seat** and slides underneath. Sit on the lid to put shoes on; push the chest in and the hallway looks like a plain console. Solid cherry, drawbored mortise-and-tenon frame, dovetailed chest.
+A **proposed** two-piece build: the [Cherry Hallway Console](../cherry-hallway-console) reworked so its lower half is open, plus a separate **blanket chest that doubles as a seat** and slides underneath. Sit on the lid to put shoes on; push the chest in and the hallway looks like a plain console. Solid cherry, drawbored mortise-and-tenon frame, dovetailed chest.
 
 Everything here is my own design, so there are no maker dimensions to match. Every number is a **design choice** or **derived** from one, and the fit checks below show how the two pieces close.
 
@@ -61,7 +61,7 @@ Drawn at 1″ = 12 px (the two chest drawings at 1″ = 16 px). Click to open fu
 
 ## Console
 
-Joinery and finishing are the same as the [original plan](cherry-hallway-console): mortise-and-tenon, 1″ tenons, drawbored, floating top on buttons or figure-8s. See its **Drawboring** section for pin sizes and steps.
+Joinery and finishing are the same as the [original plan](../cherry-hallway-console): mortise-and-tenon, 1″ tenons, drawbored, floating top on buttons or figure-8s. See its **Drawboring** section for pin sizes and steps.
 
 ### Cut list
 
