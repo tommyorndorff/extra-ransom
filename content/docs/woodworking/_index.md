@@ -7,6 +7,7 @@ Notes on furniture and shop projects outside the bamboo rod bench — plans, bui
 
 ## Pages
 
+- [Top Ten Market Products](market-products) — what to build and sell at craft fairs and Christmas markets, with price, cost and time estimates
 - [Furniture Plans](furniture-plans) — plans and references for furniture builds
 - [3D-Printed Shop Tools](printed-tools) — printable jigs and tools for woodworking
 - [Adjustable Scarf Jig (Proposed)](scarf-jig) — hinged-bed jig for feathered scarf bevels at any ratio 1:8–1:40; used for Rod 002's bamboo splice
