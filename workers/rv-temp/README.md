@@ -13,6 +13,31 @@ Alerts fire when something *changes*, repeat every `REMIND_H` while still true, 
 | `no_checkin` | no reading for `MISSED_MIN` (150 min); checked by a 15-minute cron |
 | `sensor_fault` | probe reported no valid temperature (DS18B20 fault value, -196.6 F) |
 
+Temperature alerts use hysteresis: once raised, `low_temp`/`high_temp`/`sauna_hot` clear only after the reading crosses back by `HYST_F` (2 F), so a reading hovering on a limit does not flap.
+
+### Per-device config (`DEVICES`)
+
+`DEVICES` in `wrangler.toml` is a JSON object keyed by device id (the `device` in the POST body; default `rv`). Any key left out falls back to the global vars above. A device not listed uses the globals and its id as the label. Malformed JSON is logged and ignored (all devices fall back to the globals). Titles use the label ("Sauna too hot", "RV too cold").
+
+| Key | Meaning |
+|---|---|
+| `label` | name in alert titles and messages (default `RV` for `rv`, else the device id) |
+| `profile` | `default` or `sauna` |
+| `lowTempF`, `highTempF`, `lowRailV`, `lowBattV`, `missedMin` | override the matching global |
+| `onF`, `targetF`, `hotLimitF`, `maxSessionMin`, `activeIntervalSec` | sauna profile: session start (120 F), ready (170 F), over-temperature (215 F), longest sensible session (120 min), reporting interval while hot (60 s) |
+
+Alerts by profile:
+
+| Alert | `default` | `sauna` |
+|---|---|---|
+| `low_temp`, `high_temp` | yes | no (a cold sauna is normal) |
+| `sauna_ready` | no | `temp_f` reaches `targetF`; **one-shot** (no reminder, no "Cleared"), re-arms after cooling below `onF`; priority 3 |
+| `sauna_long` | no | continuously at or above `onF` for more than `maxSessionMin` (a gap over 3 x `activeIntervalSec` ends the session); reminds; priority 4 |
+| `sauna_hot` | no | at or above `hotLimitF`; priority 5 |
+| `low_rail`, `low_batt`, `sensor_fault`, `no_checkin` | yes | yes (`no_checkin` uses the device's `missedMin`) |
+
+This is a monitor, not a safety device: never use it to control or interlock a heater.
+
 ## Deploy (one time)
 
 ```bash

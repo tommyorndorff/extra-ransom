@@ -7,7 +7,7 @@
 // A cron (every 15 min) checks for a missed check-in and cleans old rows. Alerts go to
 // ntfy (push) and, as a backup, email. They fire on change, with a reminder every REMIND_H.
 
-import { parseReading, evaluate, diffAlerts, buildEmail, safeEqual, TITLES } from './lib.js';
+import { parseReading, parseDevices, deviceCfg, evaluate, diffAlerts, isOneShot, titleOf, priorityOf, buildEmail, safeEqual } from './lib.js';
 
 const json = (body, status = 200) =>
   new Response(JSON.stringify(body), {
@@ -27,8 +27,16 @@ export function cfgOf(env) {
     lowBattV: Number(env.LOW_BATT_V ?? 3.5),
     missedMin: Number(env.MISSED_MIN ?? 150),
     remindSec: Number(env.REMIND_H ?? 12) * 3600,
+    hystF: Number(env.HYST_F ?? 2),
     keepDays: Number(env.KEEP_DAYS ?? 180),
   };
+}
+
+// Thresholds for one device: global vars plus its entry in the DEVICES var (bad JSON falls back to globals).
+export function deviceCfgOf(env, device) {
+  const { devices, error } = parseDevices(env.DEVICES);
+  if (error) console.error(error);
+  return deviceCfg(cfgOf(env), devices, device);
 }
 
 async function push(env, { title, body, priority }) {
@@ -58,19 +66,22 @@ async function notify(env, n) {
 }
 
 async function checkDevice(env, device, now = nowSec()) {
-  const cfg = cfgOf(env);
+  const cfg = deviceCfgOf(env, device);
   const latest = await env.DB.prepare('SELECT * FROM readings WHERE device = ? ORDER BY id DESC LIMIT 1').bind(device).first();
+  const history = cfg.profile === 'sauna'
+    ? (await env.DB.prepare('SELECT ts, temp_f FROM readings WHERE device = ? ORDER BY id DESC LIMIT 500').bind(device).all()).results
+    : [];
   const rows = (await env.DB.prepare('SELECT kind, last_sent FROM alert_state WHERE device = ?').bind(device).all()).results;
   const active = Object.fromEntries(rows.map((r) => [r.kind, r.last_sent]));
-  const { send, cleared } = diffAlerts(evaluate(latest, now, cfg), active, now, cfg.remindSec);
+  const { send, cleared } = diffAlerts(evaluate(latest, now, cfg, history, active), active, now, cfg.remindSec);
 
   for (const a of send) {
     const prefix = a.type === 'reminder' ? 'Still: ' : '';
-    await notify(env, { title: `${prefix}${TITLES[a.kind]}`, body: a.msg, priority: a.kind === 'low_temp' || a.kind === 'no_checkin' ? 5 : 4 });
+    await notify(env, { title: `${prefix}${titleOf(a.kind, cfg.label)}`, body: a.msg, priority: priorityOf(a.kind) });
     await env.DB.prepare('INSERT OR REPLACE INTO alert_state (device, kind, last_sent) VALUES (?, ?, ?)').bind(device, a.kind, now).run();
   }
   for (const kind of cleared) {
-    await notify(env, { title: `Cleared: ${TITLES[kind]}`, body: 'Back to normal.', priority: 2 });
+    if (!isOneShot(kind)) await notify(env, { title: `Cleared: ${titleOf(kind, cfg.label)}`, body: 'Back to normal.', priority: 2 });
     await env.DB.prepare('DELETE FROM alert_state WHERE device = ? AND kind = ?').bind(device, kind).run();
   }
 }

@@ -30,6 +30,16 @@ LOW_BATT_V = "3.5"      # sensor cell, checked when there is no external power
 MISSED_MIN = "150"      # alert if no reading for this long (reports are hourly)
 REMIND_H = "12"         # repeat a still-active alert after this many hours
 KEEP_DAYS = "180"       # readings older than this are deleted
+HYST_F = "2"            # a temperature alert clears only after crossing back by this many F
+
+# Per-device overrides (JSON, not secret). Any key left out uses the globals above; a device
+# not listed here uses the globals and its id as the label. See README.md for the keys.
+DEVICES = '''{
+  "rv":    { "label": "RV" },
+  "sauna": { "label": "Sauna", "profile": "sauna",
+             "onF": 120, "targetF": 170, "hotLimitF": 215, "maxSessionMin": 120,
+             "missedMin": 40 }
+}'''
 ALERT_FROM = "rv-sensor@extra-ransom.net"
 
 # Secrets, not stored here:
