@@ -30,7 +30,8 @@ extra-ransom/
 │   └── salamanders/          # Standalone page "Salamanders of Western North Carolina" — /salamanders/
 │                             #   (+ methods.html: research methods & re-run workbook)
 ├── workers/
-│   └── couch-to-5k/          # Cloudflare Worker + D1 API for the 5K page's shared logs (wrangler; not deployed by CI)
+│   ├── couch-to-5k/          # Cloudflare Worker + D1 API for the 5K page's shared logs (wrangler; not deployed by CI)
+│   └── rv-temp/              # Cloudflare Worker + D1 for the RV temperature sensor (firmware: tommyorndorff/rv-sensor; not deployed by CI)
 ├── tools/
 │   ├── salamanders/photos.py # iNaturalist photo fetch/review/install + credits.js sync (not deployed)
 │   └── woodworking/          # SVG drawing generators for the furniture plans (not deployed; see Content Conventions)
