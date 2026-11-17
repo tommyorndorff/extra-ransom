@@ -1,0 +1,49 @@
+name = "rv-temp-api"
+main = "src/index.js"
+compatibility_date = "2026-04-01"
+
+# Served on <name>.<account>.workers.dev (no route needed). To use the main
+# site's domain instead, add:
+#   routes = [{ pattern = "www.extra-ransom.net/api/rv/*", zone_name = "extra-ransom.net" }]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "rv_temp"
+# From `npx wrangler d1 create rv_temp` (an identifier, not a secret; see README.md).
+database_id = "REPLACE_WITH_ID_FROM_d1_create"
+migrations_dir = "migrations"
+
+# Backup alerts by email. Needs Email Routing enabled on the sending domain and
+# the destination address verified there (see README.md).
+[[send_email]]
+name = "MAILER"
+
+# Missed-check-in watchdog + daily cleanup.
+[triggers]
+crons = ["*/15 * * * *"]
+
+[vars]
+LOW_TEMP_F = "37"       # freeze warning
+HIGH_TEMP_F = "95"      # hot-RV warning
+LOW_RAIL_V = "4.5"      # external power (USB 5V) lost; only used if the sensor reports rail_v
+LOW_BATT_V = "3.5"      # sensor cell, checked when there is no external power
+MISSED_MIN = "150"      # alert if no reading for this long (reports are hourly)
+REMIND_H = "12"         # repeat a still-active alert after this many hours
+KEEP_DAYS = "180"       # readings older than this are deleted
+HYST_F = "2"            # a temperature alert clears only after crossing back by this many F
+
+# Per-device overrides (JSON, not secret). Any key left out uses the globals above; a device
+# not listed here uses the globals and its id as the label. See README.md for the keys.
+DEVICES = '''{
+  "rv":    { "label": "RV" },
+  "sauna": { "label": "Sauna", "profile": "sauna",
+             "onF": 120, "targetF": 170, "hotLimitF": 215, "maxSessionMin": 120,
+             "missedMin": 40 }
+}'''
+ALERT_FROM = "rv-sensor@extra-ransom.net"
+
+# Secrets, not stored here:
+#   npx wrangler secret put DEVICE_KEY    (the sensor's POST key)
+#   npx wrangler secret put READ_KEY      (for GET /latest and /readings)
+#   npx wrangler secret put NTFY_TOPIC    (push; long random topic name)
+#   npx wrangler secret put ALERT_EMAIL   (backup email recipient)

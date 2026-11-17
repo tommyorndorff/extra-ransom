@@ -1,0 +1,17 @@
+{
+  "name": "rv-temp-worker",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Cloudflare Worker + D1 backend for the RV temperature sensor",
+  "scripts": {
+    "dev": "wrangler dev --local --persist-to .wrangler/state --test-scheduled",
+    "migrate:local": "wrangler d1 migrations apply rv_temp --local --persist-to .wrangler/state",
+    "migrate:remote": "wrangler d1 migrations apply rv_temp --remote",
+    "deploy": "wrangler deploy",
+    "test": "/opt/homebrew/bin/node --test test/"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  },
+  "type": "module"
+}
