@@ -2,8 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { parseReading, evaluate, diffAlerts, buildEmail } from '../src/lib.js';
 
-const cfg = { lowTempF: 37, highTempF: 95, lowRailV: 11.8, lowBattV: 3.5, missedMin: 150 };
-const row = (o) => ({ ts: 1000, temp_f: 70, rail_v: 12.8, ...o });
+const cfg = { lowTempF: 37, highTempF: 95, lowRailV: 4.5, lowBattV: 3.5, missedMin: 150 };
+const row = (o) => ({ ts: 1000, temp_f: 70, rail_v: 5.0, ...o });
 
 test('parseReading accepts a normal report and defaults the device', () => {
   const r = parseReading({ temp_f: 70.5, rail_v: 12.7, batt_v: 4.05, rssi: -83.4, lat: 35.6, lon: -82.5 });
@@ -30,13 +30,14 @@ test('evaluate: normal reading has no conditions', () => {
 test('evaluate: freeze, heat, sag, and fault', () => {
   assert.match(evaluate(row({ temp_f: 35.6 }), 1060, cfg).low_temp, /35\.6 F, at or below 37 F/);
   assert.match(evaluate(row({ temp_f: 96 }), 1060, cfg).high_temp, /96\.0 F/);
-  assert.match(evaluate(row({ rail_v: 11.5 }), 1060, cfg).low_rail, /11\.50 V/);
+  assert.match(evaluate(row({ rail_v: 0.1 }), 1060, cfg).low_rail, /0\.10 V/);
   assert.ok(evaluate(row({ temp_f: null }), 1060, cfg).sensor_fault);
 });
 
-test('evaluate: low_batt only when running without 12V', () => {
+test('evaluate: low_batt only when running without external power', () => {
   assert.match(evaluate(row({ rail_v: null, batt_v: 3.4 }), 1060, cfg).low_batt, /3\.40 V/);
-  assert.equal(evaluate(row({ rail_v: 12.8, batt_v: 3.4 }), 1060, cfg).low_batt, null);
+  assert.match(evaluate(row({ rail_v: 0, batt_v: 3.4 }), 1060, cfg).low_batt, /3\.40 V/);   // power lost and cell draining
+  assert.equal(evaluate(row({ rail_v: 5.0, batt_v: 3.4 }), 1060, cfg).low_batt, null);   // powered: cell is charging
   assert.equal(evaluate(row({ rail_v: null, batt_v: 3.9 }), 1060, cfg).low_batt, null);
 });
 

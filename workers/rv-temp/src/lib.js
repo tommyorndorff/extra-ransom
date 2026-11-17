@@ -39,10 +39,10 @@ export function evaluate(latest, now, cfg) {
   else if (latest.temp_f <= cfg.lowTempF) out.low_temp = `RV is ${fmtTemp(latest.temp_f)}, at or below ${cfg.lowTempF} F.`;
   else if (latest.temp_f >= cfg.highTempF) out.high_temp = `RV is ${fmtTemp(latest.temp_f)}, at or above ${cfg.highTempF} F.`;
   if (latest.rail_v !== null && latest.rail_v <= cfg.lowRailV) {
-    out.low_rail = `12V branch is ${latest.rail_v.toFixed(2)} V, at or below ${cfg.lowRailV} V. House battery may be low.`;
+    out.low_rail = `External power is ${latest.rail_v.toFixed(2)} V (limit ${cfg.lowRailV} V). The outlet or charger lost power; the sensor is on its own cell.`;
   }
-  // On its own cell (no 12V reading) and running down: warn before it dies.
-  if (latest.rail_v === null && latest.batt_v !== null && latest.batt_v <= cfg.lowBattV) {
+  // On its own cell (no external-power reading, or it reads low) and running down: warn before it dies.
+  if ((latest.rail_v === null || latest.rail_v <= cfg.lowRailV) && latest.batt_v !== null && latest.batt_v <= cfg.lowBattV) {
     out.low_batt = `Running on its own battery, down to ${latest.batt_v.toFixed(2)} V (limit ${cfg.lowBattV} V). Charge or replace it soon.`;
   }
   return out;
@@ -65,7 +65,7 @@ export const TITLES = {
   no_checkin: 'RV sensor offline',
   low_temp: 'RV too cold',
   high_temp: 'RV too hot',
-  low_rail: 'RV 12V low',
+  low_rail: 'RV power lost',
   low_batt: 'RV sensor battery low',
   sensor_fault: 'RV probe fault',
 };

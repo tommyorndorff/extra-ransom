@@ -25,8 +25,8 @@ crons = ["*/15 * * * *"]
 [vars]
 LOW_TEMP_F = "37"       # freeze warning
 HIGH_TEMP_F = "95"      # hot-RV warning
-LOW_RAIL_V = "11.8"     # 12V branch sag (house battery getting low)
-LOW_BATT_V = "3.5"      # sensor cell, only checked when no 12V is present
+LOW_RAIL_V = "4.5"      # external power (USB 5V) lost; only used if the sensor reports rail_v
+LOW_BATT_V = "3.5"      # sensor cell, checked when there is no external power
 MISSED_MIN = "150"      # alert if no reading for this long (reports are hourly)
 REMIND_H = "12"         # repeat a still-active alert after this many hours
 KEEP_DAYS = "180"       # readings older than this are deleted

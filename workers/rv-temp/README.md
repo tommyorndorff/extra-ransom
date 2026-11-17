@@ -1,6 +1,6 @@
 # RV temperature API
 
-Cloudflare Worker + D1 backend for the RV sensor (LilyGo T-SIM7000G + DS18B20, powered from the 12V branch; firmware lives in the `rv-sensor` repo). The sensor POSTs a small JSON reading about once an hour. The Worker stores it, and sends alerts by **push (ntfy)** with **email as backup**.
+Cloudflare Worker + D1 backend for the RV sensor (LilyGo T-SIM7000G + DS18B20, powered from a 12V-outlet USB adapter; firmware lives in the `rv-sensor` repo). The sensor POSTs a small JSON reading about once an hour. The Worker stores it, and sends alerts by **push (ntfy)** with **email as backup**.
 
 Alerts fire when something *changes*, repeat every `REMIND_H` while still true, and send a "Cleared" note on recovery:
 
@@ -8,8 +8,8 @@ Alerts fire when something *changes*, repeat every `REMIND_H` while still true, 
 |---|---|
 | `low_temp` | temp at or below `LOW_TEMP_F` (37 F) |
 | `high_temp` | at or above `HIGH_TEMP_F` (95 F) |
-| `low_rail` | 12V branch at or below `LOW_RAIL_V` (11.8 V) |
-| `low_batt` | sensor running on its own cell (no 12V reading) at or below `LOW_BATT_V` (3.5 V) |
+| `low_rail` | external power (USB 5V, only if the sensor has the optional sense divider) at or below `LOW_RAIL_V` (4.5 V): the outlet or adapter lost power |
+| `low_batt` | sensor on its own cell (no `rail_v` reported, or it reads low) at or below `LOW_BATT_V` (3.5 V) |
 | `no_checkin` | no reading for `MISSED_MIN` (150 min); checked by a 15-minute cron |
 | `sensor_fault` | probe reported no valid temperature (DS18B20 fault value, -196.6 F) |
 
@@ -63,4 +63,4 @@ Locally, email is written to a `.eml` file (path printed in the log) and push is
 | GET | `/latest` | `X-Read-Key` | newest reading per device plus active alerts |
 | GET | `/readings` | `X-Read-Key` | `?device=rv&hours=48` (max 720), newest first |
 
-Example body: `{"temp_f":70.5,"rail_v":12.7,"batt_v":4.05,"rssi":-83,"lat":35.6,"lon":-82.5}`. Readings older than `KEEP_DAYS` (180) are deleted by the cron. Free-tier Workers/D1 limits are far above one reading per hour; check Cloudflare's current pricing page.
+Example body: `{"temp_f":70.5,"rail_v":5.0,"batt_v":4.05,"rssi":-83,"lat":35.6,"lon":-82.5}`. Readings older than `KEEP_DAYS` (180) are deleted by the cron. Free-tier Workers/D1 limits are far above one reading per hour; check Cloudflare's current pricing page.

@@ -23,7 +23,7 @@ export function cfgOf(env) {
   return {
     lowTempF: Number(env.LOW_TEMP_F ?? 37),
     highTempF: Number(env.HIGH_TEMP_F ?? 95),
-    lowRailV: Number(env.LOW_RAIL_V ?? 11.8),
+    lowRailV: Number(env.LOW_RAIL_V ?? 4.5),
     lowBattV: Number(env.LOW_BATT_V ?? 3.5),
     missedMin: Number(env.MISSED_MIN ?? 150),
     remindSec: Number(env.REMIND_H ?? 12) * 3600,
