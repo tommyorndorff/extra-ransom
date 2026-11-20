@@ -87,6 +87,8 @@ Finished stock is **⅞″ × 1¼″**, rabbeted *before* mitering. Lengths are 
 
 Here rails are the long top and bottom pieces, and stiles are the shorter sides. With a mat, use the **mat's** outside size as the "picture".
 
+For any other size, with or without a mat, use the [picture-frame calculator](/frame-calc/): it gives the outside and inside length of every member, a cut list and a mat bill of materials, and prints to PDF.
+
 ## Alternate rabbet
 
 If a ⅜″-wide rabbet hides too much of the picture, a **¼″ rabbet** is fine (the stock is the same size). Everything shifts by **+¼″**: sight opening 15¼″ × 11⅛″, outside **17¾″ × 13⅝″**, so rails become 17¾″ and stiles 13⅝″ (formula: picture + **2⅛″**). The lip then overlaps the picture by only 3/16″ per side.
