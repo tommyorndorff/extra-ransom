@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="1000" height="640" role="img" aria-label="Split-top Roubo bench, tail-vise layout in plan">
+<title>Split-top Roubo bench, tail-vise layout in plan</title>
+<style>
+  .bg{fill:#fff}
+  .wood{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .leg{fill:#dcb988;stroke:#4a3320;stroke-width:1.3}
+  .face{fill:#f3dfbf;stroke:#4a3320;stroke-width:1.3}
+  .pull{fill:#5a3b26;stroke:#2b1a0f;stroke-width:1}
+  .shelf{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3}
+  .hid{fill:none;stroke:#7a6a5a;stroke-width:1.1;stroke-dasharray:5 3}
+  .spacer{fill:#cfc3b4;stroke:#6b5b4b;stroke-width:1}
+  .floor{stroke:#333;stroke-width:1.6}
+  .dim{stroke:#1f5fa8;stroke-width:1;fill:none}
+  .ext{stroke:#8fb0d8;stroke-width:.8}
+  .t{font:12px 'Helvetica Neue',Arial,sans-serif;fill:#1f3a5f}
+  .n{font:11px 'Helvetica Neue',Arial,sans-serif;fill:#444}
+  .h{font:600 15px 'Helvetica Neue',Arial,sans-serif;fill:#222}
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
+  </marker>
+</defs>
+
+<style>
+  .chop{fill:#cfa972;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .cap{fill:#c99a63;stroke:#4a3320;stroke-width:1.3}
+  .ghost{fill:#eef1f4;fill-opacity:.7;stroke:#6b7885;stroke-width:1.2;stroke-dasharray:6 4}
+  .metal{fill:#d9dde1;stroke:#4a525a;stroke-width:1.2}
+  .scr{stroke:#4a525a;stroke-width:3}
+  .hole{fill:#fff;stroke:#4a3320;stroke-width:1}
+  .dead{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3}
+  .outl{fill:none;stroke:#7a6a5a;stroke-width:1.2;stroke-dasharray:5 3}
+  .gapc{fill:#fff;stroke:#4a3320;stroke-width:1.1;stroke-dasharray:5 3}
+  .bridge{fill:#f3dfbf;stroke:#b0452b;stroke-width:1.4}
+  .arrow{stroke:#b0452b;stroke-width:2;fill:none;marker-end:url(#r)}
+  .red{font:600 12px 'Helvetica Neue',Arial,sans-serif;fill:#b0452b}
+  .plate{fill:#b9c0c7;stroke:#4a525a;stroke-width:1.2}
+</style>
+<defs>
+  <marker id="r" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0,0 L8,4 L0,8 z" fill="#b0452b"/>
+  </marker>
+</defs>
+<rect class="bg" width="1000" height="640"/>
+<text class="h" x="20.0" y="26.0" text-anchor="start">Tail-vise layout, plan of the tail end (1 in = 16 px)</text>
+<rect class="wood" x="40.00" y="100.00" width="448.00" height="179.00"/>
+<rect class="wood" x="40.00" y="305.00" width="448.00" height="179.00"/>
+<rect class="bridge" x="40.00" y="279.00" width="448.00" height="26.00"/>
+<line class="hid" x1="40.0" y1="456.0" x2="488.0" y2="456.0"/>
+<line class="hid" x1="40.0" y1="432.0" x2="488.0" y2="432.0"/>
+<line class="hid" x1="40.0" y1="420.0" x2="488.0" y2="420.0"/>
+<rect class="hole" x="56.00" y="432.00" width="12.00" height="12.00"/>
+<rect class="hole" x="136.00" y="432.00" width="12.00" height="12.00"/>
+<rect class="hole" x="216.00" y="432.00" width="12.00" height="12.00"/>
+<rect class="hole" x="296.00" y="432.00" width="12.00" height="12.00"/>
+<rect class="hole" x="376.00" y="432.00" width="12.00" height="12.00"/>
+<rect class="cap" x="488.00" y="100.00" width="48.00" height="384.00"/>
+<line class="scr" x1="200.0" y1="396.0" x2="555.2" y2="396.0"/>
+<rect class="plate" x="184.00" y="370.40" width="32.00" height="51.20"/>
+<rect class="metal" x="216.00" y="380.00" width="272.00" height="6.40"/>
+<rect class="metal" x="216.00" y="405.60" width="272.00" height="6.40"/>
+<rect class="metal" x="555.20" y="344.80" width="22.40" height="102.40"/>
+<rect class="leg" x="408.00" y="432.00" width="80.00" height="12.00"/>
+<rect class="ghost" x="732.00" y="100.00" width="48.00" height="384.00"/>
+<rect class="ghost" x="604.00" y="432.00" width="80.00" height="12.00"/>
+<line class="arrow" x1="540.8" y1="20.0" x2="732.0" y2="20.0"/>
+<text class="red" x="634.0" y="12.0" text-anchor="middle">travel ~12.25″ (verify)</text>
+<line class="ext" x1="200.0" y1="378.0" x2="190.0" y2="326.0"/>
+<text class="n" x="187.0" y="330.0" text-anchor="end">sliding plate / nut</text>
+<line class="ext" x1="344.0" y1="392.0" x2="344.0" y2="326.0"/>
+<text class="n" x="344.0" y="330.0" text-anchor="middle">18″ Acme screw</text>
+<line class="ext" x1="448.0" y1="380.0" x2="438.0" y2="296.0"/>
+<text class="n" x="435.0" y="300.0" text-anchor="end">guide rails</text>
+<line class="ext" x1="448.0" y1="446.0" x2="428.0" y2="518.0"/>
+<text class="n" x="425.0" y="522.0" text-anchor="end">dog block, 5″ long</text>
+<text class="n" x="512.0" y="212.0" text-anchor="middle">end cap</text>
+<text class="n" x="512.0" y="231.2" text-anchor="middle">3″ × 4″ × 24″</text>
+<text class="n" x="708.0" y="292.0" text-anchor="middle">open</text>
+<line class="ext" x1="568.0" y1="410.0" x2="580.0" y2="448.0"/>
+<text class="n" x="583.0" y="452.0" text-anchor="start">handwheel</text>
+<line class="ext" x1="488.0" y1="76.0" x2="488.0" y2="100.0"/>
+<line class="ext" x1="536.0" y1="76.0" x2="536.0" y2="100.0"/>
+<line class="dim" x1="488.0" y1="76.0" x2="536.0" y2="76.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="512.0" y="71.0" text-anchor="middle">3″</text>
+<line class="ext" x1="34.0" y1="396.0" x2="40.0" y2="396.0"/>
+<line class="ext" x1="34.0" y1="484.0" x2="40.0" y2="484.0"/>
+<line class="dim" x1="34.0" y1="396.0" x2="34.0" y2="484.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(28.0,440.0) rotate(-90)" text-anchor="middle">5½″ (est.)</text>
+<line class="ext" x1="200.0" y1="546.0" x2="200.0" y2="484.0"/>
+<line class="ext" x1="488.0" y1="546.0" x2="488.0" y2="484.0"/>
+<line class="dim" x1="200.0" y1="546.0" x2="488.0" y2="546.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="344.0" y="541.0" text-anchor="middle">18″ screw, so the cavity is 17″+ long</text>
+</svg>
