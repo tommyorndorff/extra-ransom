@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1190 420" width="1190" height="420" role="img" aria-label="Split-top Roubo bench, plan, with saw table, vises, dog row and gap bridge">
+<title>Split-top Roubo bench, plan, with saw table, vises, dog row and gap bridge</title>
+<style>
+  .bg{fill:#fff}
+  .wood{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .leg{fill:#dcb988;stroke:#4a3320;stroke-width:1.3}
+  .face{fill:#f3dfbf;stroke:#4a3320;stroke-width:1.3}
+  .pull{fill:#5a3b26;stroke:#2b1a0f;stroke-width:1}
+  .shelf{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3}
+  .hid{fill:none;stroke:#7a6a5a;stroke-width:1.1;stroke-dasharray:5 3}
+  .spacer{fill:#cfc3b4;stroke:#6b5b4b;stroke-width:1}
+  .floor{stroke:#333;stroke-width:1.6}
+  .dim{stroke:#1f5fa8;stroke-width:1;fill:none}
+  .ext{stroke:#8fb0d8;stroke-width:.8}
+  .t{font:12px 'Helvetica Neue',Arial,sans-serif;fill:#1f3a5f}
+  .n{font:11px 'Helvetica Neue',Arial,sans-serif;fill:#444}
+  .h{font:600 15px 'Helvetica Neue',Arial,sans-serif;fill:#222}
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
+  </marker>
+</defs>
+
+<style>
+  .chop{fill:#cfa972;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .cap{fill:#c99a63;stroke:#4a3320;stroke-width:1.3}
+  .ghost{fill:#eef1f4;fill-opacity:.7;stroke:#6b7885;stroke-width:1.2;stroke-dasharray:6 4}
+  .metal{fill:#d9dde1;stroke:#4a525a;stroke-width:1.2}
+  .scr{stroke:#4a525a;stroke-width:3}
+  .hole{fill:#fff;stroke:#4a3320;stroke-width:1}
+  .dead{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3}
+  .outl{fill:none;stroke:#7a6a5a;stroke-width:1.2;stroke-dasharray:5 3}
+  .gapc{fill:#fff;stroke:#4a3320;stroke-width:1.1;stroke-dasharray:5 3}
+  .bridge{fill:#f3dfbf;stroke:#b0452b;stroke-width:1.4}
+  .arrow{stroke:#b0452b;stroke-width:2;fill:none;marker-end:url(#r)}
+  .red{font:600 12px 'Helvetica Neue',Arial,sans-serif;fill:#b0452b}
+  .plate{fill:#b9c0c7;stroke:#4a525a;stroke-width:1.2}
+</style>
+<defs>
+  <marker id="r" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="8" markerHeight="8" orient="auto">
+    <path d="M0,0 L8,4 L0,8 z" fill="#b0452b"/>
+  </marker>
+</defs>
+<rect class="bg" width="1190" height="420"/>
+<text class="h" x="20.0" y="26.0" text-anchor="start">Plan: saw end on the left, tail-vise end on the right (1 in = 8 px)</text>
+<rect class="ghost" x="8.00" y="98.00" width="320.00" height="216.00"/>
+<text class="n" x="168.0" y="186.0" text-anchor="middle">YOUR SAW TABLE</text>
+<text class="n" x="168.0" y="200.0" text-anchor="middle">(27″ deep shown; use yours)</text>
+<line class="ext" x1="8.0" y1="222.0" x2="1122.0" y2="222.0"/>
+<line class="arrow" x1="362.0" y1="222.0" x2="602.0" y2="222.0"/>
+<text class="red" x="482.0" y="212.0" text-anchor="middle">rip direction</text>
+<rect class="wood" x="330.00" y="110.00" width="672.00" height="89.50"/>
+<rect class="wood" x="330.00" y="212.50" width="672.00" height="89.50"/>
+<rect class="bridge" x="330.00" y="199.50" width="672.00" height="13.00"/>
+<text class="n" x="650.0" y="210.0" text-anchor="middle">gap bridge (drops in flush for outfeed use)</text>
+<line class="hid" x1="330.0" y1="288.0" x2="1002.0" y2="288.0"/>
+<line class="hid" x1="330.0" y1="276.0" x2="1002.0" y2="276.0"/>
+<line class="hid" x1="330.0" y1="270.0" x2="1002.0" y2="270.0"/>
+<rect class="hole" x="426.00" y="276.00" width="6.00" height="6.00"/>
+<rect class="hole" x="466.00" y="276.00" width="6.00" height="6.00"/>
+<rect class="hole" x="506.00" y="276.00" width="6.00" height="6.00"/>
+<rect class="hole" x="546.00" y="276.00" width="6.00" height="6.00"/>
+<rect class="hole" x="586.00" y="276.00" width="6.00" height="6.00"/>
+<rect class="hole" x="626.00" y="276.00" width="6.00" height="6.00"/>
+<rect class="hole" x="666.00" y="276.00" width="6.00" height="6.00"/>
+<rect class="hole" x="706.00" y="276.00" width="6.00" height="6.00"/>
+<rect class="hole" x="746.00" y="276.00" width="6.00" height="6.00"/>
+<rect class="hole" x="786.00" y="276.00" width="6.00" height="6.00"/>
+<rect class="hole" x="826.00" y="276.00" width="6.00" height="6.00"/>
+<rect class="hole" x="866.00" y="276.00" width="6.00" height="6.00"/>
+<rect class="hole" x="906.00" y="276.00" width="6.00" height="6.00"/>
+<rect class="hole" x="946.00" y="276.00" width="6.00" height="6.00"/>
+<rect class="cap" x="1002.00" y="110.00" width="24.00" height="192.00"/>
+<text class="n" x="1014.0" y="158.0" text-anchor="middle">end cap</text>
+<line class="scr" x1="858.0" y1="258.0" x2="1035.6" y2="258.0"/>
+<rect class="metal" x="1035.60" y="232.40" width="11.20" height="51.20"/>
+<line class="ext" x1="1042.0" y1="286.0" x2="914.0" y2="316.0"/>
+<text class="n" x="911.0" y="320.0" text-anchor="end">tail-vise screw + handwheel</text>
+<rect class="chop" x="448.00" y="302.00" width="43.00" height="20.00"/>
+<line class="scr" x1="469.5" y1="322.0" x2="469.5" y2="362.0"/>
+<rect class="metal" x="429.50" y="362.00" width="80.00" height="8.00"/>
+<line class="ext" x1="509.5" y1="366.0" x2="541.5" y2="378.0"/>
+<text class="n" x="544.5" y="382.0" text-anchor="start">Glide leg vise (shown closed)</text>
+<rect class="outl" x="448.00" y="110.00" width="43.00" height="28.00"/>
+<rect class="outl" x="448.00" y="274.00" width="43.00" height="28.00"/>
+<rect class="outl" x="824.00" y="110.00" width="43.00" height="28.00"/>
+<rect class="outl" x="824.00" y="274.00" width="43.00" height="28.00"/>
+<rect class="outl" x="741.20" y="286.00" width="60.80" height="10.00"/>
+<line class="ext" x1="771.6" y1="290.8" x2="803.6" y2="342.0"/>
+<text class="n" x="806.6" y="346.0" text-anchor="start">deadman (slides in the front rail)</text>
+<line class="ext" x1="330.0" y1="62.0" x2="330.0" y2="110.0"/>
+<line class="ext" x1="1026.0" y1="62.0" x2="1026.0" y2="110.0"/>
+<line class="dim" x1="330.0" y1="62.0" x2="1026.0" y2="62.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="678.0" y="57.0" text-anchor="middle">87″ overall</text>
+<text class="red" x="324.0" y="72.0" text-anchor="end">¼″ air to saw</text>
+<line class="ext" x1="298.0" y1="110.0" x2="330.0" y2="110.0"/>
+<line class="ext" x1="298.0" y1="199.5" x2="330.0" y2="199.5"/>
+<line class="dim" x1="298.0" y1="110.0" x2="298.0" y2="199.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(292.0,154.8) rotate(-90)" text-anchor="middle">11-3/16″</text>
+<line class="ext" x1="258.0" y1="199.5" x2="330.0" y2="199.5"/>
+<line class="ext" x1="258.0" y1="212.5" x2="330.0" y2="212.5"/>
+<line class="dim" x1="258.0" y1="199.5" x2="258.0" y2="212.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(252.0,206.0) rotate(-90)" text-anchor="middle"></text>
+<line class="ext" x1="258.0" y1="206.0" x2="202.0" y2="228.0"/>
+<text class="n" x="199.0" y="232.0" text-anchor="end">1⅝″ gap</text>
+<line class="ext" x1="298.0" y1="212.5" x2="330.0" y2="212.5"/>
+<line class="ext" x1="298.0" y1="302.0" x2="330.0" y2="302.0"/>
+<line class="dim" x1="298.0" y1="212.5" x2="298.0" y2="302.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(292.0,257.2) rotate(-90)" text-anchor="middle">11-3/16″</text>
+<line class="ext" x1="669.2" y1="279.6" x2="646.0" y2="338.0"/>
+<text class="n" x="646.0" y="342.0" text-anchor="middle">¾″ square dog notches, ~5″ pitch (est.)</text>
+<line class="ext" x1="1002.0" y1="324.0" x2="1002.0" y2="302.0"/>
+<line class="ext" x1="1026.0" y1="324.0" x2="1026.0" y2="302.0"/>
+<line class="dim" x1="1002.0" y1="324.0" x2="1026.0" y2="324.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="1014.0" y="319.0" text-anchor="middle">cap 3″</text>
+</svg>
