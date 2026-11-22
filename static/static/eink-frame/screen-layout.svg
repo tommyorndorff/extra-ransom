@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480" font-family="Helvetica, Arial, sans-serif">
+  <title>E-ink frame screen layout (800 x 480)</title>
+  <rect width="800" height="480" fill="#fff"/>
+  <rect x="0.5" y="0.5" width="799" height="479" fill="none" stroke="#999"/>
+  <!-- header: drizzle icon, high/low, conditions | date, place -->
+  <g fill="#000">
+    <circle cx="37" cy="27" r="9"/><circle cx="48" cy="19" r="12"/><circle cx="58" cy="27" r="8.4"/>
+    <rect x="29" y="26.5" width="35" height="11" rx="5.4"/>
+    <circle cx="37" cy="45" r="2"/><circle cx="48" cy="45" r="2"/><circle cx="59" cy="45" r="2"/>
+    <circle cx="42" cy="52" r="2"/><circle cx="53" cy="52" r="2"/><circle cx="64" cy="52" r="2"/>
+  </g>
+  <text x="84" y="46" font-size="30" font-weight="bold">57° / 49°</text>
+  <text x="236" y="45" font-size="18">Drizzle · 53% rain</text>
+  <text x="776" y="30" font-size="18" text-anchor="end">Sunday, November 22</text>
+  <text x="776" y="53" font-size="15" text-anchor="end">Asheville</text>
+  <rect x="24" y="66" width="752" height="2"/>
+  <!-- body: poem auto-sized to the largest font that fits, column centred -->
+  <g font-family="'New Century Schoolbook', Georgia, serif" font-size="24">
+    <text x="400" y="122" font-size="22" font-weight="bold" text-anchor="middle">Song</text>
+    <text x="214" y="166">I wish I was where I would be,</text>
+    <text x="234" y="200">With love alone to dwell,</text>
+    <text x="214" y="234">Was I but her or she but me,</text>
+    <text x="234" y="268">Then love would all be well.</text>
+    <text x="214" y="302">I wish to send my thoughts to her</text>
+    <text x="234" y="336">As quick as thoughts can fly,</text>
+    <text x="214" y="370">But as the winds the waters stir</text>
+    <text x="234" y="404">The mirrors change and fly.</text>
+    <text x="586" y="438" font-size="20" text-anchor="end">- John Clare</text>
+  </g>
+  <!-- footer -->
+  <text x="24" y="470" font-size="11">Updated Sun 6:02 AM</text>
+  <rect x="749" y="460" width="24" height="11" fill="none" stroke="#000"/>
+  <rect x="773" y="463" width="3" height="5"/>
+  <rect x="751" y="462" width="17" height="7"/>
+</svg>
