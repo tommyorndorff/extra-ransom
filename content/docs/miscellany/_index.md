@@ -14,6 +14,7 @@ Stuff that doesn't fit the fly rod bench, the shop, the roaster, or the water �
 
 ## Other
 
+- [E-ink Poem Frames: Gift Build](eink-gift-frames) — battery e-paper frames that show a daily poem or message under a one-line weather forecast; parts list, 3D-printed case, ESP32 firmware and a Cloudflare Worker
 - [Queens-Style Pizza Screens: Project Plan](queens-pizza-screens) — buying, cutting to 16″, folding and seasoning a fine stainless mesh screen, plus a bake plan and log
 
 - [Converting a Threaded SodaStream/Drinkmate to a 5 lb CO2 Tank](drinkmate-sodastream-5lb-co2) — parts, sourcing, and safety notes for ditching the small exchange cylinders
