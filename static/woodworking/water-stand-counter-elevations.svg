@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 610" width="1000" height="610" role="img" aria-label="Countertop water-filter stand, front and side elevations">
+<title>Countertop water-filter stand, front and side elevations</title>
+<style>
+  .bg{fill:#fff}
+  .wood{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .leg{fill:#dcb988;stroke:#4a3320;stroke-width:1.3}
+  .face{fill:#f3dfbf;stroke:#4a3320;stroke-width:1.3}
+  .pull{fill:#5a3b26;stroke:#2b1a0f;stroke-width:1}
+  .shelf{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3}
+  .hid{fill:none;stroke:#7a6a5a;stroke-width:1.1;stroke-dasharray:5 3}
+  .spacer{fill:#cfc3b4;stroke:#6b5b4b;stroke-width:1}
+  .floor{stroke:#333;stroke-width:1.6}
+  .dim{stroke:#1f5fa8;stroke-width:1;fill:none}
+  .ext{stroke:#8fb0d8;stroke-width:.8}
+  .t{font:12px 'Helvetica Neue',Arial,sans-serif;fill:#1f3a5f}
+  .n{font:11px 'Helvetica Neue',Arial,sans-serif;fill:#444}
+  .h{font:600 15px 'Helvetica Neue',Arial,sans-serif;fill:#222}
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
+  </marker>
+</defs>
+
+<style>
+  .post{fill:#dcb988;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .ap{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .plate{fill:#f3dfbf;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .shelfp{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .cleat{fill:#cfa972;stroke:#4a3320;stroke-width:1.1}
+  .ghost{fill:#eef1f4;fill-opacity:.55;stroke:#6b7885;stroke-width:1.2;stroke-dasharray:6 4}
+  .cup{fill:none;stroke:#b0452b;stroke-width:1.2;stroke-dasharray:3 3}
+  .ctr{stroke:#999;stroke-width:.8;stroke-dasharray:10 3 2 3}
+  .cut{fill:#fff;stroke:#4a3320;stroke-width:1.3}
+</style>
+<rect class="bg" width="1000" height="610"/>
+<text class="h" x="20.0" y="26.0" text-anchor="start">Countertop stand — front and side elevations (1 in = 18 px)</text>
+<line class="floor" x1="50.0" y1="476.0" x2="914.0" y2="476.0"/>
+<text class="n" x="68.0" y="490.0" text-anchor="start">counter</text>
+<text class="h" x="230.0" y="56.0" text-anchor="middle">FRONT (spigot side) — open, no front apron</text>
+<rect class="ghost" x="153.50" y="80.00" width="153.00" height="252.00"/>
+<text class="n" x="230.0" y="206.0" text-anchor="middle">filter</text>
+<rect class="ap" x="126.50" y="318.50" width="207.00" height="45.00"/>
+<polygon class="post" points="99.5,273.5 126.5,273.5 126.5,377.0 117.5,476.0 99.5,476.0"/>
+<polygon class="post" points="360.5,273.5 333.5,273.5 333.5,377.0 342.5,476.0 360.5,476.0"/>
+<rect class="cup" x="200.30" y="341.00" width="59.40" height="135.00"/>
+<text class="n" x="230.0" y="449.0" text-anchor="middle">tumbler (dashed red) stands on the counter</text>
+<line class="ext" x1="404.5" y1="273.5" x2="364.5" y2="273.5"/>
+<line class="ext" x1="404.5" y1="476.0" x2="364.5" y2="476.0"/>
+<line class="dim" x1="404.5" y1="273.5" x2="404.5" y2="476.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(418.5,374.8) rotate(-90)" text-anchor="middle">11¼″ leg length</text>
+<line class="ext" x1="438.5" y1="332.0" x2="364.5" y2="332.0"/>
+<line class="ext" x1="438.5" y1="476.0" x2="364.5" y2="476.0"/>
+<line class="dim" x1="438.5" y1="332.0" x2="438.5" y2="476.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(452.5,404.0) rotate(-90)" text-anchor="middle">8″ to plate top</text>
+<line class="ext" x1="55.5" y1="318.5" x2="95.5" y2="318.5"/>
+<line class="ext" x1="55.5" y1="363.5" x2="95.5" y2="363.5"/>
+<line class="dim" x1="55.5" y1="318.5" x2="55.5" y2="363.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(49.5,341.0) rotate(-90)" text-anchor="middle">2½″</text>
+<line class="ext" x1="21.5" y1="273.5" x2="95.5" y2="273.5"/>
+<line class="ext" x1="21.5" y1="318.5" x2="95.5" y2="318.5"/>
+<line class="dim" x1="21.5" y1="273.5" x2="21.5" y2="318.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(15.5,296.0) rotate(-90)" text-anchor="middle">2½″ post</text>
+<line class="ext" x1="99.5" y1="506.0" x2="99.5" y2="476.0"/>
+<line class="ext" x1="360.5" y1="506.0" x2="360.5" y2="476.0"/>
+<line class="dim" x1="99.5" y1="506.0" x2="360.5" y2="506.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="230.0" y="521.0" text-anchor="middle">14½″ outside legs</text>
+<line class="ext" x1="126.5" y1="536.0" x2="126.5" y2="476.0"/>
+<line class="ext" x1="333.5" y1="536.0" x2="333.5" y2="476.0"/>
+<line class="dim" x1="126.5" y1="536.0" x2="333.5" y2="536.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="230.0" y="551.0" text-anchor="middle">11½″ between legs</text>
+<text class="h" x="680.0" y="56.0" text-anchor="middle">SIDE (front on the right)</text>
+<rect class="ghost" x="603.50" y="80.00" width="153.00" height="252.00"/>
+<rect class="ghost" x="756.50" y="278.00" width="46.80" height="14.40"/>
+<rect class="ap" x="576.50" y="318.50" width="207.00" height="45.00"/>
+<polygon class="post" points="549.5,273.5 576.5,273.5 576.5,377.0 567.5,476.0 549.5,476.0"/>
+<polygon class="post" points="810.5,273.5 783.5,273.5 783.5,377.0 792.5,476.0 810.5,476.0"/>
+<rect class="cup" x="766.40" y="341.00" width="59.40" height="135.00"/>
+<line class="ctr" x1="796.1" y1="329.0" x2="796.1" y2="476.0"/>
+<text class="n" x="804.1" y="337.0" text-anchor="start">cup centre</text>
+<line class="ext" x1="505.5" y1="332.0" x2="545.5" y2="332.0"/>
+<line class="ext" x1="505.5" y1="476.0" x2="545.5" y2="476.0"/>
+<line class="dim" x1="505.5" y1="332.0" x2="505.5" y2="476.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(499.5,404.0) rotate(-90)" text-anchor="middle">8″ under the filter</text>
+<line class="ext" x1="549.5" y1="506.0" x2="549.5" y2="476.0"/>
+<line class="ext" x1="810.5" y1="506.0" x2="810.5" y2="476.0"/>
+<line class="dim" x1="549.5" y1="506.0" x2="810.5" y2="506.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="680.0" y="521.0" text-anchor="middle">14½″ outside legs</text>
+<text class="n" x="20.0" y="592.0" text-anchor="start">Front apron is left out so the cup can sit directly under the spigot. A plywood plate glued to the three apron cleats braces the open front; a solid-wood plate is screwed in slots instead (see the plan page).</text>
+</svg>
