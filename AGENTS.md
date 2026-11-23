@@ -32,7 +32,8 @@ extra-ransom/
 │   └── frame-calc/           # Standalone page "Picture Frame Calculator" — /frame-calc/ (js/calc.js math, js/app.js UI)
 ├── workers/
 │   ├── couch-to-5k/          # Cloudflare Worker + D1 API for the 5K page's shared logs (wrangler; not deployed by CI)
-│   └── eink-frame/           # Cloudflare Worker + D1 API for the e-ink gift frames (weather + poem/message; wrangler, not CI)
+│   ├── eink-frame/           # Cloudflare Worker + D1 API for the e-ink gift frames (weather + poem/message; wrangler, not CI)
+│   └── rv-temp/              # Cloudflare Worker + D1 for the RV temperature sensor (firmware: tommyorndorff/rv-sensor; not deployed by CI)
 ├── firmware/
 │   └── eink-frame/           # PlatformIO firmware for the frames (FireBeetle 2 ESP32-E + Waveshare 7.5″ V2; not deployed)
 ├── tools/
