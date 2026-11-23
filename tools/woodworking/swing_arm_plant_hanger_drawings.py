@@ -223,7 +223,7 @@ def side(path):
     d.rect(BP_FACE - BP_T - 0.9, -BP_TOP - 1, BP_FACE - BP_T, bot, "wall")
     d.rect(BP_FACE - BP_T, -BP_TOP, BP_FACE, -BP_BOT, "post")
     for sy in SCREW_Y:
-        d.add(f'<circle class="brass" cx="{d.x(BP_FACE - BP_T / 2):.1f}" cy="{d.y(-sy):.1f}" r="4.5"/>')
+        d.add(f'<circle class="metal" cx="{d.x(BP_FACE - BP_T / 2):.1f}" cy="{d.y(-sy):.1f}" r="4.5"/>')
     for y0, y1 in (KN_TOP, KN_BOT):
         d.rect(BP_FACE, -y1, BP_FACE + KN_P, -y0, "post")
     # swoop: leg + arm
