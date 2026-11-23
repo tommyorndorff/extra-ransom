@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 620" width="1120" height="620" role="img" aria-label="Swing-arm plant hanger, plan and pivot detail">
+<title>Swing-arm plant hanger, plan and pivot detail</title>
+<style>
+  .bg{fill:#fff}
+  .wood{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .leg{fill:#dcb988;stroke:#4a3320;stroke-width:1.3}
+  .face{fill:#f3dfbf;stroke:#4a3320;stroke-width:1.3}
+  .pull{fill:#5a3b26;stroke:#2b1a0f;stroke-width:1}
+  .shelf{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3}
+  .hid{fill:none;stroke:#7a6a5a;stroke-width:1.1;stroke-dasharray:5 3}
+  .spacer{fill:#cfc3b4;stroke:#6b5b4b;stroke-width:1}
+  .floor{stroke:#333;stroke-width:1.6}
+  .dim{stroke:#1f5fa8;stroke-width:1;fill:none}
+  .ext{stroke:#8fb0d8;stroke-width:.8}
+  .t{font:12px 'Helvetica Neue',Arial,sans-serif;fill:#1f3a5f}
+  .n{font:11px 'Helvetica Neue',Arial,sans-serif;fill:#444}
+  .h{font:600 15px 'Helvetica Neue',Arial,sans-serif;fill:#222}
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
+  </marker>
+</defs>
+
+<style>
+  .wall{fill:url(#wallh);stroke:#555;stroke-width:1}
+  .post{fill:#dcb988;stroke:#4a3320;stroke-width:1.3}
+  .arm{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .dom{fill:#f6e7a8;stroke:#8a6d1c;stroke-width:1;stroke-dasharray:3 2}
+  .metal{fill:#9a9a9a;stroke:#444;stroke-width:1}
+  .brass{fill:#c9a85a;stroke:#5c4a1e;stroke-width:1}
+  .nylon{fill:#f4f4f4;stroke:#666;stroke-width:1}
+  .pot{fill:#eeeeea;stroke:#888;stroke-width:1;stroke-dasharray:4 3}
+  .axis{stroke:#b0452b;stroke-width:1;stroke-dasharray:8 3 2 3;fill:none}
+  .swing{fill:none;stroke:#1f5fa8;stroke-width:1;stroke-dasharray:5 4}
+  .ghost{fill:#ecd2ac;fill-opacity:.35;stroke:#4a3320;stroke-opacity:.5;stroke-width:1}
+  .grid{stroke:#c9d6e6;stroke-width:.7}
+  .grid5{stroke:#9db3cf;stroke-width:1}
+  .tmpl{fill:#f3dfbf;stroke:#2b1a0f;stroke-width:1.8}
+</style>
+<defs>
+  <pattern id="wallh" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <line x1="0" y1="0" x2="0" y2="6" stroke="#999" stroke-width="1"/>
+  </pattern>
+</defs>
+<rect class="bg" width="1120" height="620"/>
+<text class="h" x="20.0" y="26.0" text-anchor="start">Plan (from above): swing range — 1 in = 16 px</text>
+<rect class="wall" x="58.00" y="77.20" width="544.00" height="12.80"/>
+<rect class="post" x="302.00" y="90.00" width="56.00" height="24.00"/>
+<rect class="post" x="302.00" y="114.00" width="56.00" height="40.00"/>
+<polygon class="ghost" points="346.0,126.0 90.0,126.0 90.0,150.0 346.0,150.0"/>
+<polygon class="ghost" points="314.0,150.0 570.0,150.0 570.0,126.0 314.0,126.0"/>
+<polygon class="arm" points="318.0,122.0 318.0,378.0 342.0,378.0 342.0,122.0"/>
+<circle class="pot" cx="330.0" cy="346.0" r="72.0"/>
+<polyline class="swing" points="124.4,106.5 122.9,118.4 122.1,130.3 122.0,142.2 122.6,154.2 123.9,166.0 125.8,177.8 128.5,189.5 131.8,201.0 135.7,212.2 140.3,223.3 145.5,234.0 151.3,244.4 157.7,254.5 164.7,264.2 172.2,273.5 180.2,282.3 188.8,290.7 197.8,298.5 207.2,305.9 217.0,312.6 227.2,318.8 237.8,324.4 248.6,329.4 259.7,333.8 271.1,337.5 282.6,340.5 294.3,342.9 306.2,344.6 318.1,345.7 330.0,346.0 341.9,345.7 353.8,344.6 365.7,342.9 377.4,340.5 388.9,337.5 400.3,333.8 411.4,329.4 422.2,324.4 432.8,318.8 443.0,312.6 452.8,305.9 462.2,298.5 471.2,290.7 479.8,282.3 487.8,273.5 495.3,264.2 502.3,254.5 508.7,244.4 514.5,234.0 519.7,223.3 524.3,212.2 528.2,201.0 531.5,189.5 534.2,177.8 536.1,166.0 537.4,154.2 538.0,142.2 537.9,130.3 537.1,118.4 535.6,106.5"/>
+<circle class="metal" cx="330.0" cy="138.0" r="3.0"/>
+<text class="n" x="330.0" y="350.0" text-anchor="middle">planter</text>
+<text class="n" x="330.0" y="440.0" text-anchor="middle">Arm swings ±99° before its tip meets the wall; a 9″ planter touches the wall at about ±83°.</text>
+<text class="n" x="330.0" y="456.0" text-anchor="middle">Ghosted: the arm swung flat along the wall each way (dashed arc = path of the chain).</text>
+<line class="ext" x1="302.0" y1="78.0" x2="302.0" y2="90.0"/>
+<line class="ext" x1="358.0" y1="78.0" x2="358.0" y2="90.0"/>
+<line class="dim" x1="302.0" y1="78.0" x2="358.0" y2="78.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="330.0" y="73.0" text-anchor="middle">3½″</text>
+<line class="ext" x1="302.0" y1="134.0" x2="242.0" y2="194.0"/>
+<text class="n" x="239.0" y="198.0" text-anchor="end">knuckle (grain along the wall)</text>
+<text class="t" x="700.0" y="126.0" text-anchor="start">Pivot section through the axis — 1 in = 40 px</text>
+<rect class="post" x="772.00" y="150.00" width="96.00" height="60.00"/>
+<rect class="post" x="780.00" y="215.00" width="80.00" height="88.00"/>
+<rect class="metal" x="808.80" y="140.00" width="22.40" height="10.00"/>
+<rect class="metal" x="812.50" y="150.00" width="15.00" height="75.00"/>
+<rect class="metal" x="813.76" y="225.00" width="12.48" height="20.00"/>
+<rect class="brass" x="810.00" y="225.00" width="3.76" height="30.00"/>
+<rect class="brass" x="826.24" y="225.00" width="3.76" height="30.00"/>
+<line class="axis" x1="820.0" y1="126.0" x2="820.0" y2="311.0"/>
+<text class="n" x="884.0" y="158.0" text-anchor="start">⅜″ × 2″ shoulder bolt, 5/16-18 thread</text>
+<text class="n" x="884.0" y="174.8" text-anchor="start">turns in a ⅜″ hole in the knuckle</text>
+<text class="n" x="884.0" y="191.6" text-anchor="start">shoulder enters the leg ¼″</text>
+<text class="n" x="884.0" y="208.4" text-anchor="start">5/16-18 insert in the leg end (end grain)</text>
+<text class="n" x="884.0" y="225.2" text-anchor="start">⅛″ gap leg → knuckle (bottom: nylon washer)</text>
+<text class="n" x="700.0" y="329.0" text-anchor="start">Bottom pivot is the same, upside down, with the leg resting</text>
+<text class="n" x="700.0" y="345.0" text-anchor="start">on the washer. Tighten both bolts into the inserts; the</text>
+<text class="n" x="700.0" y="361.0" text-anchor="start">shoulders turn in the knuckles and the heads stop it lifting off.</text>
+</svg>

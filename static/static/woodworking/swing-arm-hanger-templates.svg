@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700" width="1080" height="700" role="img" aria-label="Swing-arm plant hanger, band-saw template for the arm">
+<title>Swing-arm plant hanger, band-saw template for the arm</title>
+<style>
+  .bg{fill:#fff}
+  .wood{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .leg{fill:#dcb988;stroke:#4a3320;stroke-width:1.3}
+  .face{fill:#f3dfbf;stroke:#4a3320;stroke-width:1.3}
+  .pull{fill:#5a3b26;stroke:#2b1a0f;stroke-width:1}
+  .shelf{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3}
+  .hid{fill:none;stroke:#7a6a5a;stroke-width:1.1;stroke-dasharray:5 3}
+  .spacer{fill:#cfc3b4;stroke:#6b5b4b;stroke-width:1}
+  .floor{stroke:#333;stroke-width:1.6}
+  .dim{stroke:#1f5fa8;stroke-width:1;fill:none}
+  .ext{stroke:#8fb0d8;stroke-width:.8}
+  .t{font:12px 'Helvetica Neue',Arial,sans-serif;fill:#1f3a5f}
+  .n{font:11px 'Helvetica Neue',Arial,sans-serif;fill:#444}
+  .h{font:600 15px 'Helvetica Neue',Arial,sans-serif;fill:#222}
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
+  </marker>
+</defs>
+
+<style>
+  .wall{fill:url(#wallh);stroke:#555;stroke-width:1}
+  .post{fill:#dcb988;stroke:#4a3320;stroke-width:1.3}
+  .arm{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .dom{fill:#f6e7a8;stroke:#8a6d1c;stroke-width:1;stroke-dasharray:3 2}
+  .metal{fill:#9a9a9a;stroke:#444;stroke-width:1}
+  .brass{fill:#c9a85a;stroke:#5c4a1e;stroke-width:1}
+  .nylon{fill:#f4f4f4;stroke:#666;stroke-width:1}
+  .pot{fill:#eeeeea;stroke:#888;stroke-width:1;stroke-dasharray:4 3}
+  .axis{stroke:#b0452b;stroke-width:1;stroke-dasharray:8 3 2 3;fill:none}
+  .swing{fill:none;stroke:#1f5fa8;stroke-width:1;stroke-dasharray:5 4}
+  .ghost{fill:#ecd2ac;fill-opacity:.35;stroke:#4a3320;stroke-opacity:.5;stroke-width:1}
+  .grid{stroke:#c9d6e6;stroke-width:.7}
+  .grid5{stroke:#9db3cf;stroke-width:1}
+  .tmpl{fill:#f3dfbf;stroke:#2b1a0f;stroke-width:1.8}
+</style>
+<defs>
+  <pattern id="wallh" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <line x1="0" y1="0" x2="0" y2="6" stroke="#999" stroke-width="1"/>
+  </pattern>
+</defs>
+<rect class="bg" width="1080" height="700"/>
+<text class="h" x="20.0" y="26.0" text-anchor="start">Band-saw template — arm, 1 in = 34 px; grid = 1″ (print, then check one grid square)</text>
+<polygon class="tmpl" points="60.0,166.5 111.0,166.5 115.2,166.4 119.5,166.3 123.8,165.9 128.0,165.5 132.2,165.0 136.5,164.4 140.8,163.6 145.0,162.8 149.2,161.9 153.5,160.8 157.8,159.7 162.0,158.5 166.2,157.3 170.5,155.9 174.8,154.5 179.0,153.1 183.2,151.6 187.5,150.0 191.8,148.3 196.0,146.7 200.2,144.9 204.5,143.2 208.8,141.4 213.0,139.6 217.2,137.7 221.5,135.9 225.8,134.0 230.0,132.1 234.2,130.2 238.5,128.2 242.8,126.3 247.0,124.4 251.2,122.5 255.5,120.6 259.8,118.8 264.0,116.9 268.2,115.1 272.5,113.3 276.8,111.6 281.0,109.8 285.2,108.2 289.5,106.5 293.8,104.9 298.0,103.4 302.2,102.0 306.5,100.6 310.8,99.2 315.0,98.0 319.2,96.8 323.5,95.7 327.8,94.6 332.0,93.7 336.2,92.9 340.5,92.1 344.8,91.5 349.0,91.0 353.2,90.6 357.5,90.2 361.8,90.1 366.0,90.0 536.0,90.0 536.0,158.0 366.0,158.0 366.0,158.0 360.9,158.1 355.6,158.4 350.3,158.9 345.0,159.6 339.5,160.5 334.0,161.6 328.5,162.8 322.8,164.2 317.2,165.8 311.5,167.6 305.7,169.5 299.9,171.6 294.1,173.9 288.2,176.2 282.3,178.8 276.4,181.5 270.5,184.3 264.6,187.2 258.6,190.3 252.7,193.5 246.7,196.8 240.8,200.2 234.8,203.7 228.9,207.4 223.0,211.1 217.1,214.9 211.3,218.9 205.4,222.9 199.6,227.0 193.9,231.1 188.2,235.4 182.5,239.7 176.9,244.1 171.3,248.5 165.8,253.0 160.4,257.5 155.0,262.1 149.7,266.8 144.5,271.4 139.3,276.1 134.3,280.9 129.3,285.6 124.4,290.4 119.7,295.2 115.0,300.0 110.4,304.8 106.0,309.7 101.6,314.5 97.4,319.3 93.3,324.1 89.3,328.9 85.5,333.6 81.8,338.4 78.2,343.1 74.8,347.8 71.5,352.4 68.4,357.0 65.4,361.6 62.6,366.1 60.0,370.5"/>
+<line class="grid5" x1="60.0" y1="64.5" x2="60.0" y2="370.5"/>
+<line class="grid" x1="94.0" y1="64.5" x2="94.0" y2="370.5"/>
+<line class="grid" x1="128.0" y1="64.5" x2="128.0" y2="370.5"/>
+<line class="grid" x1="162.0" y1="64.5" x2="162.0" y2="370.5"/>
+<line class="grid" x1="196.0" y1="64.5" x2="196.0" y2="370.5"/>
+<line class="grid5" x1="230.0" y1="64.5" x2="230.0" y2="370.5"/>
+<line class="grid" x1="264.0" y1="64.5" x2="264.0" y2="370.5"/>
+<line class="grid" x1="298.0" y1="64.5" x2="298.0" y2="370.5"/>
+<line class="grid" x1="332.0" y1="64.5" x2="332.0" y2="370.5"/>
+<line class="grid" x1="366.0" y1="64.5" x2="366.0" y2="370.5"/>
+<line class="grid5" x1="400.0" y1="64.5" x2="400.0" y2="370.5"/>
+<line class="grid" x1="434.0" y1="64.5" x2="434.0" y2="370.5"/>
+<line class="grid" x1="468.0" y1="64.5" x2="468.0" y2="370.5"/>
+<line class="grid" x1="502.0" y1="64.5" x2="502.0" y2="370.5"/>
+<line class="grid" x1="536.0" y1="64.5" x2="536.0" y2="370.5"/>
+<line class="grid" x1="60.0" y1="64.5" x2="536.0" y2="64.5"/>
+<line class="grid" x1="60.0" y1="98.5" x2="536.0" y2="98.5"/>
+<line class="grid" x1="60.0" y1="132.5" x2="536.0" y2="132.5"/>
+<line class="grid5" x1="60.0" y1="166.5" x2="536.0" y2="166.5"/>
+<line class="grid" x1="60.0" y1="200.5" x2="536.0" y2="200.5"/>
+<line class="grid" x1="60.0" y1="234.5" x2="536.0" y2="234.5"/>
+<line class="grid" x1="60.0" y1="268.5" x2="536.0" y2="268.5"/>
+<line class="grid" x1="60.0" y1="302.5" x2="536.0" y2="302.5"/>
+<line class="grid5" x1="60.0" y1="336.5" x2="536.0" y2="336.5"/>
+<line class="grid" x1="60.0" y1="370.5" x2="536.0" y2="370.5"/>
+<polygon fill="none" stroke="#2b1a0f" stroke-width="1.8" points="60.0,166.5 111.0,166.5 115.2,166.4 119.5,166.3 123.8,165.9 128.0,165.5 132.2,165.0 136.5,164.4 140.8,163.6 145.0,162.8 149.2,161.9 153.5,160.8 157.8,159.7 162.0,158.5 166.2,157.3 170.5,155.9 174.8,154.5 179.0,153.1 183.2,151.6 187.5,150.0 191.8,148.3 196.0,146.7 200.2,144.9 204.5,143.2 208.8,141.4 213.0,139.6 217.2,137.7 221.5,135.9 225.8,134.0 230.0,132.1 234.2,130.2 238.5,128.2 242.8,126.3 247.0,124.4 251.2,122.5 255.5,120.6 259.8,118.8 264.0,116.9 268.2,115.1 272.5,113.3 276.8,111.6 281.0,109.8 285.2,108.2 289.5,106.5 293.8,104.9 298.0,103.4 302.2,102.0 306.5,100.6 310.8,99.2 315.0,98.0 319.2,96.8 323.5,95.7 327.8,94.6 332.0,93.7 336.2,92.9 340.5,92.1 344.8,91.5 349.0,91.0 353.2,90.6 357.5,90.2 361.8,90.1 366.0,90.0 536.0,90.0 536.0,158.0 366.0,158.0 366.0,158.0 360.9,158.1 355.6,158.4 350.3,158.9 345.0,159.6 339.5,160.5 334.0,161.6 328.5,162.8 322.8,164.2 317.2,165.8 311.5,167.6 305.7,169.5 299.9,171.6 294.1,173.9 288.2,176.2 282.3,178.8 276.4,181.5 270.5,184.3 264.6,187.2 258.6,190.3 252.7,193.5 246.7,196.8 240.8,200.2 234.8,203.7 228.9,207.4 223.0,211.1 217.1,214.9 211.3,218.9 205.4,222.9 199.6,227.0 193.9,231.1 188.2,235.4 182.5,239.7 176.9,244.1 171.3,248.5 165.8,253.0 160.4,257.5 155.0,262.1 149.7,266.8 144.5,271.4 139.3,276.1 134.3,280.9 129.3,285.6 124.4,290.4 119.7,295.2 115.0,300.0 110.4,304.8 106.0,309.7 101.6,314.5 97.4,319.3 93.3,324.1 89.3,328.9 85.5,333.6 81.8,338.4 78.2,343.1 74.8,347.8 71.5,352.4 68.4,357.0 65.4,361.6 62.6,366.1 60.0,370.5"/>
+<rect class="dom" x="60.00" y="211.28" width="26.86" height="29.45"/>
+<rect class="dom" x="60.00" y="262.28" width="26.86" height="29.45"/>
+<rect class="dom" x="60.00" y="313.28" width="26.86" height="29.45"/>
+<line class="axis" x1="468.0" y1="83.2" x2="468.0" y2="164.8"/>
+<text class="n" x="468.0" y="174.0" text-anchor="middle">eye</text>
+<line class="axis" x1="111.0" y1="154.6" x2="111.0" y2="178.4"/>
+<line class="axis" x1="366.0" y1="78.1" x2="366.0" y2="101.9"/>
+<text class="n" x="66.0" y="160.5" text-anchor="start">root end (glues to the leg)</text>
+<line class="ext" x1="46.0" y1="166.5" x2="60.0" y2="166.5"/>
+<line class="ext" x1="46.0" y1="370.5" x2="60.0" y2="370.5"/>
+<line class="dim" x1="46.0" y1="166.5" x2="46.0" y2="370.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(40.0,268.5) rotate(-90)" text-anchor="middle">6″</text>
+<line class="ext" x1="548.0" y1="90.0" x2="536.0" y2="90.0"/>
+<line class="ext" x1="548.0" y1="158.0" x2="536.0" y2="158.0"/>
+<line class="dim" x1="548.0" y1="90.0" x2="548.0" y2="158.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="553.0" y="128.0" text-anchor="start">2″</text>
+<line class="ext" x1="60.0" y1="396.5" x2="60.0" y2="370.5"/>
+<line class="ext" x1="536.0" y1="396.5" x2="536.0" y2="370.5"/>
+<line class="dim" x1="60.0" y1="396.5" x2="536.0" y2="396.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="298.0" y="411.5" text-anchor="middle">14″</text>
+<text class="n" x="60.0" y="434.5" text-anchor="start">ARM (cut 1) — blank 1½″ × 8¼″ × 14½″, grain along the length. Top: level for 1½″, then an S rising 2¼″ to 9″, level to the tip.</text>
+<text class="n" x="60.0" y="450.5" text-anchor="start">Underside: leaves the root's bottom corner at 60° and sweeps into the level tip at 9″.</text>
+<text class="n" x="60.0" y="466.5" text-anchor="start">Plot both edges from the ordinate tables on the plan page and bend a thin batten through the points.</text>
+</svg>
