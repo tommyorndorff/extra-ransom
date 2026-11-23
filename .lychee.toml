@@ -31,6 +31,10 @@ exclude = [
   # Actions runner) - pages load fine in a browser. Linked from the timer
   # rows of hydroponics/garage-grow-setup.md.
   '^https://www\.hydrofarm\.com',
+  # tractorsupply.com fails from the Actions runner with an HTTP/2 protocol
+  # error (loads fine in a browser and from local curl, Nov 2026). Linked
+  # from the swing-arm plant hanger shopping list (SPAX wall screws).
+  '^https://www\.tractorsupply\.com',
 ]
 
 max_retries = 3

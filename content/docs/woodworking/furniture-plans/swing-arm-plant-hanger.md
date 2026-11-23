@@ -91,19 +91,21 @@ Everything for one hanger. Quantities include a few spares where noted.
 
 **Hardware**
 
-| Buy | Qty | Spec | Where |
+Each item has an example product link with a photo, so you can match it on the shelf. Any equivalent part works. The store links aren't paired with Wayback archives (the site's usual habit): retail product pages are rarely archived and change often.
+
+| Buy | Qty | Spec | Example (photo) |
 |---|---|---|---|
-| Shoulder bolts (pivot pins) | 2 | **⅜″ shoulder diameter × 2″ shoulder length, 5/16-18 thread**, black oxide or stainless | McMaster-Carr ("shoulder screws") or a fastener supplier; big-box stores rarely stock this size |
-| Threaded inserts | 2 (+2 spare) | **5/16-18**, for hardwood (brass knife-thread or E-Z Lok style) | Hardware store, Rockler, Woodcraft. Note the drill size on the pack |
-| Bearing washer | 1 (+1) | Nylon, ⅜″ ID × about 1″ OD × ⅛″ thick. Optional: a rubber washer the same size, for drag | Hardware store specialty-hardware drawers |
-| Forged eye bolt | 1 | **¼-20 × 3″ forged, shoulder pattern**, with a stamped working load limit | Hardware store (rigging aisle) or McMaster |
-| Fender washer + nylon-insert nut | 1 each | ¼″, for the eye bolt | Hardware store |
-| Chain | as needed | Welded, **working load limit ≥ 60 lb** stated on the spool or tag. Not decorative "lamp chain" | Hardware store (chain by the foot) |
-| Quick link | 1 (+1) | Rated **≥ 60 lb WLL**, sized to the chain | Same aisle as the chain |
-| Wall screws | 2 | **¼″ × 4″ structural screws** (GRK RSS, Spax PowerLag or similar), countersunk head | Hardware store |
-| Brass cup washers | 2 | For the wall screws (size to the screw) | Hardware store |
-| Flat-head wood screws | 4 | **#10 × 2½″**, for the knuckles (from the back of the backplate) | Hardware store |
-| Steel rod (glue-up jig) | 1 | **⅜″ smooth steel rod, about 18″**. Holds the knuckle holes on one axis while the glue sets; reusable | Hardware store (metal-stock rack) |
+| Shoulder bolts (pivot pins) | 2 | **⅜″ shoulder diameter × 2″ shoulder length, 5/16-18 thread** (½″ of thread), socket head, stainless | [Zoro 2DMK5, 2-pack](https://www.zoro.com/zoro-select-shoulder-screw-516-18-thr-sz-12-in-thr-lg-2-in-shoulder-lg-18-8-stainless-steel-2-pk-2dmk5/i/G0875752/). Big-box stores rarely stock this size |
+| Threaded inserts | 2 (+3 spare) | **5/16-18** brass knife-thread inserts for hardwood | [E-Z Lok EZ-400-5 kit at Woodcraft](https://www.woodcraft.com/products/e-z-lok-threaded-insert-kit-5-16-18-brass): 5 inserts plus the **33/64″ drill** and driver. Inserts alone: [E-Z Lok 400-5](https://www.ezlok.com/ezknife-insert-400-5) |
+| Bearing washer | 1 (+9) | Nylon, **⅜″ ID × 1⅛″ OD × ⅛″** thick. Optional: rubber, for drag | [Midwest Fastener 72866, 10-pack, at Zoro](https://www.zoro.com/midwest-fastener-flat-washer-for-screw-size-38-nylon-10-pk-72866/i/G402505964/) |
+| Forged eye bolt | 1 | **¼-20, 2″ shank, forged with a shoulder** | [Ken Forging N2021-2 (galvanized) at Zoro](https://www.zoro.com/ken-forging-eyebolt-14-20-12in-with-shoulder-n2021-2/i/G0760751/) |
+| Fender washer | 1 | ¼″ × 1¼″, for the eye bolt | [Everbilt 6-pack at Home Depot](https://homedepot.com/p/Everbilt-1-4-in-x-1-1-4-in-Zinc-Plated-Steel-Fender-Washer-6-per-Pack-802421/204276338) |
+| Nylon-insert lock nut | 1 | ¼-20 | [Everbilt 2-pack at Home Depot](https://homedepot.com/p/Everbilt-1-4-in-20-Zinc-Plated-Nylon-Lock-Nut-2-Pack-825291/317478983) |
+| Chain | as needed | **3/16″ welded proof coil**, sold by the foot, with a stated working load limit (this one: 750 lb). Not decorative "lamp chain" | [Everbilt 3/16″ galvanized proof coil at Home Depot](https://homedepot.com/p/Everbilt-3-16-in-x-1-ft-Grade-30-Galvanized-Steel-Proof-Coil-Chain-806656/204630509) |
+| Quick link | 1 (+1) | 3/16″, rated (this one: 660 lb WLL) | [National Hardware 3150BC at Zoro](https://www.zoro.com/national-hardware-3150bc-series-quick-link-316-in-trade-660-lb-working-load-steel-zinc-n223-016/i/G213780932/) |
+| Wall screws | 2 | **¼″ × 4″ structural screws**, washer head, T-30 star drive (bit included) | [SPAX PowerLag 12-pack at Tractor Supply](https://www.tractorsupply.com/tsc/product/spax-1-4-x-4in-exterior-structural-wood-lag-screws-powerlags-washer-head-t-star-(12-ea)-bit-included). The washer heads stay visible on the backplate's face |
+| Knuckle screws | 4 | **#10 × 2½″ flat-head wood screws**, from the back of the backplate | [Everbilt 2-pack at Home Depot](https://www.homedepot.com/p/Everbilt-10-x-2-1-2-in-Phillips-Flat-Head-Wood-Screws-2-per-Pack-825681/317478818) (buy 2) |
+| Steel rod (glue-up jig) | 1 | **⅜″ plain steel round rod**, 3 ft. Cut an 18″ piece; it holds the knuckle holes on one axis while the glue sets | [Everbilt 3/8″ × 3 ft at Home Depot](https://homedepot.com/p/Everbilt-3-8-in-x-3-ft-Plain-Steel-Solid-Round-Rod-0007/332733262) |
 
 **Consumables**
 
@@ -122,10 +124,10 @@ Everything for one hanger. Quantities include a few spares where noted.
 | Bit | For |
 |---|---|
 | ⅜″ brad-point | Knuckle pivot holes (through) and the ¼″-deep shoulder counterbores in the leg ends |
-| Insert drill (about ½″; **use the size on the insert pack**) | Insert holes in the leg ends, ¾″ deep |
+| **33/64″** (in the E-Z Lok kit; use your insert's own size if different) | Insert holes in the leg ends, ¾″ deep (the inserts are ⅝″ long) |
 | 9/32″ | Eye bolt hole through the arm tip |
-| ¾″ Forstner | ¼″-deep counterbore on the arm top for the eye bolt's washer and nut |
-| Countersink + pilot bits | ¼″ wall screws and #10 knuckle screws (pilot sizes from the screw maker) |
+| ¾″ Forstner | **½″-deep** counterbore on the arm top, so the 2″-shank eye bolt's washer and nut sit below the surface |
+| Countersink, pilot bit, ¼″ bit | Countersink and pilot for the #10 knuckle screws (pilot size from the screw maker); a ¼″ clearance hole through the backplate for each wall screw (SPAX needs no pilot in the stud) |
 | ¼″ or ⅜″ band-saw blade | ¼″ follows the arm's curves comfortably |
 
 ## Domino schedule
@@ -152,7 +154,7 @@ The arm only swings smoothly if the top and bottom holes share one axis. Three s
 3. **Band-saw the arm.** Cut the top S first and tape the offcut back on, so the blank sits flat while you cut the underside. Fair both curves with a spokeshave or a drum sander.
 4. **Glue the arm to the leg** (3 Dominos). Clamp across the joint with a caul made from the underside offcut.
 5. **Knuckles:** gang-drill, then glue and screw them to the backplate with the alignment rod and spacer (above).
-6. **Leg ends:** counterbore and set the inserts. Drill the arm's tip for the eye bolt: 9/32″, 13″ from the pivot, square to the level tip. Counterbore ¾″ × ¼″ on top for the washer and nut.
+6. **Leg ends:** counterbore and set the inserts. Drill the arm's tip for the eye bolt: 9/32″, 13″ from the pivot, square to the level tip. Counterbore ¾″ × **½″** on top so the washer and nut sit below the surface (the eye bolt's shank is 2″).
 7. **Finish** everything (below). Leave the pivot holes and leg ends bare, or wax them.
 8. **Hang the backplate** on a stud. Set the leg between the knuckles on the washer, drop the top bolt in, push the bottom bolt up, and tighten both into the inserts. Swing it: it should turn without binding. If it rubs, check the washer and the ⅛″ top gap.
 

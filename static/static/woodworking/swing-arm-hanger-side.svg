@@ -48,8 +48,8 @@
 <text class="h" x="20.0" y="26.0" text-anchor="start">Side elevation, swing-arm plant hanger — 1 in = 18 px</text>
 <rect class="wall" x="329.80" y="82.00" width="16.20" height="371.25"/>
 <rect class="post" x="346.00" y="100.00" width="27.00" height="292.50"/>
-<circle class="brass" cx="359.5" cy="113.5" r="4.5"/>
-<circle class="brass" cx="359.5" cy="379.0" r="4.5"/>
+<circle class="metal" cx="359.5" cy="113.5" r="4.5"/>
+<circle class="metal" cx="359.5" cy="379.0" r="4.5"/>
 <rect class="post" x="373.00" y="127.00" width="45.00" height="27.00"/>
 <rect class="post" x="373.00" y="338.50" width="45.00" height="27.00"/>
 <rect class="post" x="382.00" y="156.25" width="36.00" height="180.00"/>
