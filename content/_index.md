@@ -115,6 +115,12 @@ Self-contained interactive pages that live outside the docs tree.
   link="/norway/ground/"
   icon="map"
 >}}
+{{< hextra/feature-card
+  title="Picture Frame Calculator"
+  subtitle="Mitered frame member lengths (outside and inside), cut list and mat sizes from the art and stock — prints to a PDF."
+  link="/frame-calc/"
+  icon="calculator"
+>}}
 {{< /hextra/feature-grid >}}
 
 <hr class="hx:mt-16 hx:mb-6 hx:border-gray-200 hx:dark:border-neutral-800" />

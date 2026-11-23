@@ -1,0 +1,17 @@
+name = "eink-frame-api"
+main = "src/index.js"
+compatibility_date = "2026-04-01"
+
+# Same zone as the site; the frames call https://www.extra-ransom.net/api/eink/frame.
+routes = [
+  { pattern = "www.extra-ransom.net/api/eink/*", zone_name = "extra-ransom.net" }
+]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "eink-frame"
+# From `npx wrangler d1 create eink-frame` (an identifier, not a secret; see README.md).
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+migrations_dir = "migrations"
+
+# Secret, not stored here:  npx wrangler secret put ADMIN_KEY
