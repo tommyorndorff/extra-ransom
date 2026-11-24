@@ -21,6 +21,8 @@ Click either drawing to open it full size.
 
 [![Full-size arm template on a one-inch grid: deep root on the left with three Domino positions, the top edge rising in an S and the underside sweeping up into a level two-inch-deep tip with the eye position marked, grain lines running along the length](/static/woodworking/swoop-hanger-templates.svg)](/static/woodworking/swoop-hanger-templates.svg)
 
+To print it full size, use the [tiled PDF](/static/woodworking/swoop-hanger-templates-print.pdf): 2 letter sheets with a 1″ grid, overlap guides and a scale bar. Print at **100% / Actual size** (not "Fit to page"), check the bar with a ruler, then tape the sheets along the red dashes.
+
 ## Keeping the grain strong
 
 A swoop sawn from a plank has a built-in weak spot: wherever the curve cuts across the grain, the fibres are cut short and the wood there is much weaker. Three choices keep that away from the load:
