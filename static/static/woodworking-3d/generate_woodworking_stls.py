@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Parametric STL generator for the 3D-printed parts called for by the woodworking
-plans (Adjustable Scarf Jig, DW745 Mobile Saw Cart) plus generic table-saw accessories
+plans (Adjustable Scarf Jig) plus generic table-saw accessories
 that fit any SawStop (standard 3/4" x 3/8" miter slot). All dimensions in mm.
 Parts are exported in print orientation.
 
@@ -33,12 +33,6 @@ HOLE_QT20 = 6.8              # clearance for a 1/4-20 bolt
 HEX_QT20_AF = 11.6           # 1/4-20 hex head (11.1 across flats) + clearance
 PEG_D = 6.0                  # peg that keys into a 1/4-20 threaded insert
 PEG_H = 6.0
-
-# -- saw cart (ESTIMATES: measure your saw, then regenerate) ---------------
-FOOT_D = 40.0                # saw rubber foot diameter (est.)
-FOOT_DEPTH = 14.0            # how deep the foot sits in the cup
-SAW_PORT_OD = 64.5           # DW745 rear dust port (measured on one saw, per the plan)
-HOSE_ID = 2.5 * IN           # 2-1/2" hose slips over the adapter spigot
 
 # -- table saw (any SawStop: standard 3/4" x 3/8" miter slot) ---------------
 SLOT_W, SLOT_D = 0.75 * IN, 0.375 * IN   # 19.05 x 9.525
@@ -116,62 +110,6 @@ def part_fence_pair():
 def part_fence_single():
     """Fence end piece with one peg."""
     return _fence([12.7])
-
-
-# ---------------------------------------------------------------------------
-# DW745 saw cart parts
-# ---------------------------------------------------------------------------
-
-def part_turnbutton():
-    """Pivots on a #10 screw; a quarter turn clamps the lift-off front panel."""
-    L, W, T = 38.0, 12.0, 4.0
-    m = box(W / 2, L - W / 2, 0, W, 0, T)
-    m += cyl_z(T, W).translate((W / 2, W / 2, 0))
-    m += cyl_z(T, W).translate((L - W / 2, W / 2, 0))
-    m -= cyl_z(T + 2, 5.4, 48).translate((W / 2, W / 2, -1))
-    return m
-
-
-def part_wall_hook():
-    """J-hook for fence / miter gauge / cord. Two countersunk screws."""
-    X, Y, P = 60.0, 30.0, 6.0
-    m = box(0, X, 0, Y, 0, P)
-    m += box(0, 14, 0, Y, P - 0.01, 46)            # arm
-    m += box(0, 34, 0, Y, 40, 46)                  # lip
-    for x in (30, 52):
-        m -= cyl_z(P + 2, 4.6, 48).translate((x, Y / 2, -1))
-        m -= Manifold.cylinder(3.2, 4.6 / 2, 9.0 / 2, 48).translate((x, Y / 2, P - 3.2))
-    return m
-
-
-def part_foot_cup():
-    """Cradles one of the saw's rubber feet; screws to a support rail."""
-    wall, floor = 3.0, 3.0
-    R_out = FOOT_D / 2 + wall
-    m = cyl_z(floor, 70.0)
-    m += cyl_z(FOOT_DEPTH + floor, 2 * R_out).translate((0, 0, 0))
-    m -= cyl_z(FOOT_DEPTH + 1, FOOT_D).translate((0, 0, floor))
-    for x in (-29.0, 29.0):
-        m -= cyl_z(floor + 2, 4.6, 48).translate((x, 0, -1))
-    return m
-
-
-def part_rear_port_adapter():
-    """Saw dust port -> 2-1/2" hose. Socket over the 64.5 mm port, spigot under the hose."""
-    sock_od, sock_len = SAW_PORT_OD + 5.5, 28.0
-    spig_od, spig_len = HOSE_ID - 1.0, 36.0
-    cone = 12.0
-    outer = cyl_z(sock_len, sock_od)
-    outer += Manifold.cylinder(cone, sock_od / 2, spig_od / 2, SEG).translate((0, 0, sock_len))
-    outer += cyl_z(spig_len, spig_od).translate((0, 0, sock_len + cone))
-    total = sock_len + cone + spig_len
-    outer -= cyl_z(sock_len, SAW_PORT_OD + 0.5).translate((0, 0, 0))
-    outer -= cyl_z(total + 2, spig_od - 5.0).translate((0, 0, -1))
-    # two retaining ribs on the spigot for the hose
-    for z in (sock_len + cone + 10, sock_len + cone + 22):
-        outer += Manifold.cylinder(2.0, spig_od / 2, spig_od / 2 + 1.2, SEG).translate((0, 0, z)) - \
-                 cyl_z(2.2, spig_od - 5.0).translate((0, 0, z - 0.1))
-    return outer
 
 
 # ---------------------------------------------------------------------------
@@ -301,10 +239,6 @@ PARTS = {
     "hold_down_knob":    (part_hold_down_knob,    2),
     "fence_pair":        (part_fence_pair,        2),
     "fence_single":      (part_fence_single,      1),
-    "turnbutton":        (part_turnbutton,        6),
-    "wall_hook":         (part_wall_hook,         3),
-    "foot_cup":          (part_foot_cup,          4),
-    "rear_port_adapter": (part_rear_port_adapter, 1),
     "featherboard":      (part_featherboard,      1),
     "push_block":        (part_push_block,        2),
     "push_stick":        (part_push_stick,        2),
