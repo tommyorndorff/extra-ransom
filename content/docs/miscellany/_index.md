@@ -15,6 +15,7 @@ Stuff that doesn't fit the fly rod bench, the shop, the roaster, or the water �
 ## Other
 
 - [E-ink Poem Frames: Gift Build](eink-gift-frames) — battery e-paper frames that show a daily poem or message under a one-line weather forecast; parts list, 3D-printed case, ESP32 firmware and a Cloudflare Worker
+- [Barn Lamp Shade: 3D-Printed, 12″ for a UNO Fitter](barn-lamp-shade) — parametric outdoor barn shade for a UNO-fitter socket, split into 9 pieces for a P1S; ASA recommended; STLs and generator script
 - [Water Filtration: Brevard and Black Mountain, NC](water-filtration-brevard-black-mountain) — what the two towns' water reports say and a whole-house plus kitchen-sink filter plan for two homes, with current prices
 - [Queens-Style Pizza Screens: Project Plan](queens-pizza-screens) — buying, cutting to 16″, folding and seasoning a fine stainless mesh screen, plus a bake plan and log
 
