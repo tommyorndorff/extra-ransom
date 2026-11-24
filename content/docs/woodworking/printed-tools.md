@@ -3,7 +3,7 @@ title: "3D-Printed Shop Tools"
 weight: 20
 ---
 
-Printable jigs and shop tools for woodworking projects — the woodworking counterpart to the [rodmaking tool set](/docs/rodmaking/printable-rod-tools/). This page covers the printed parts that the [Adjustable Scarf Jig](/docs/woodworking/scarf-jig/) and the [DW745 Mobile Saw Cart](/docs/woodworking/dw745-mobile-saw-cart/) plans already call for, plus **table-saw accessories that fit any SawStop** (they key off the standard ¾″ × ⅜″ miter slot and the flat table, not a model).
+Printable jigs and shop tools for woodworking projects — the woodworking counterpart to the [rodmaking tool set](/docs/rodmaking/printable-rod-tools/). This page covers the printed parts that the [Adjustable Scarf Jig](/docs/woodworking/scarf-jig/) and the DW745 Mobile Saw Cart plans already call for, plus **table-saw accessories that fit any SawStop** (they key off the standard ¾″ × ⅜″ miter slot and the flat table, not a model).
 
 All are FDM-printable, generated parametrically, and validated watertight. STLs export in print orientation. Print in **PETG** (or ASA for the saw-cart parts that live in a hot garage), **4+ perimeters, 40% infill** — the ratio gauge at 100%.
 
