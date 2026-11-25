@@ -17,3 +17,4 @@ Notes on growing food hydroponically through the winter in an unheated-ish garag
 - [Hydroponics 101](/docs/hydroponics/hydroponics-101/) — how a tower works, how often to run the pump and feed, pH/EC targets, weekly upkeep, and the best crops to start with
 - [Seed Starting for Hydroponics](/docs/hydroponics/seed-starting/) — rockwool and plug starts, germination temperatures, lighting, and when to move seedlings into the tower
 - [Garage Grow Setup](/docs/hydroponics/garage-grow-setup/) — lights, heat, timers, meters, and a shopping list for a winter garage
+- [Continuous pH and EC Meter (ESP32)](/docs/hydroponics/ph-ec-meter/) — an ESP32 build that shows pH, EC and temperature on a small OLED; parts, wiring, firmware, calibration
