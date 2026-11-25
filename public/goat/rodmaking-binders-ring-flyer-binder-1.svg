@@ -1,0 +1,287 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+    width="512" height="250"
+    viewBox="0 0 512 250">
+  <style type="text/css" source-text-origin="source-independent defaults: shared by ASCII and UTF-8">
+    svg {
+        color-scheme: light dark; /* this becomes necessary if not inherited from parent elements */
+        font-family: monospace;
+        font-size: 15px;
+    }
+    text {
+        stroke: none;
+        text-anchor: middle;
+    }
+    .path {
+        fill: none;
+    }
+    circle.filled {
+        fill: inherit;
+    }
+    circle.hollow {
+         fill: none;
+    }
+    svg {
+        color: #000;  /* set value of 'currentColor' */
+    }
+    @media (prefers-color-scheme: dark) {
+        svg {
+            color: #FFF;  /* set value of 'currentColor' */
+        }
+    }
+    svg {
+        fill: currentColor;
+        stroke: currentColor;
+    }
+  </style>
+
+<g transform='translate(8,12)'>
+  <g id='lines'>
+    <polyline class="path" points="56,16 368,16"/>
+    <polyline class="path" points="160,64 176,64"/>
+    <polyline class="path" points="232,64 240,64"/>
+    <polyline class="path" points="360,80 368,80"/>
+    <polyline class="path" points="368,80 392,80"/>
+    <polyline class="path" points="96,96 104,96"/>
+    <polyline class="path" points="112,96 120,96"/>
+    <polyline class="path" points="128,96 136,96"/>
+    <polyline class="path" points="152,96 160,96"/>
+    <polyline class="path" points="232,96 240,96"/>
+    <polyline class="path" points="248,96 256,96"/>
+    <polyline class="path" points="272,96 280,96"/>
+    <polyline class="path" points="288,96 296,96"/>
+    <polyline class="path" points="304,96 312,96"/>
+    <polyline class="path" points="320,96 328,96"/>
+    <polyline class="path" points="336,96 344,96"/>
+    <polyline class="path" points="352,96 360,96"/>
+    <polyline class="path" points="160,144 240,144"/>
+    <polyline class="path" points="56,176 104,176"/>
+    <polyline class="path" points="104,176 320,176"/>
+    <polyline class="path" points="320,176 368,176"/>
+    <polyline class="path" points="80,208 88,208"/>
+    <polyline class="path" points="336,208 344,208"/>
+    <polyline class="path" points="56,16 56,176"/>
+    <polyline class="path" points="104,176 104,192"/>
+    <polyline class="path" points="144,80 144,128"/>
+    <polyline class="path" points="256,80 256,128"/>
+    <polyline class="path" points="320,176 320,192"/>
+    <polyline class="path" points="368,16 368,80"/>
+    <polyline class="path" points="368,80 368,176"/>
+    <polyline class="path" points="248,64 256,48"/>
+    <polyline class="path" points="139,37 152,64"/>
+  </g>
+  <g id='triangles'>
+    <polygon points="96,208 84,202.4 84,213.6" transform="rotate(0, 88, 208)" class="arrowhead"></polygon>
+    <polygon points="352,208 340,202.4 340,213.6" transform="rotate(0, 344, 208)" class="arrowhead"></polygon>
+  </g>
+  <g id='roundedCorners'>
+    <path class="path" d="M 160,64 A 16,16 0 0,0 144,80"></path>
+    <path class="path" d="M 240,64 A 16,16 0 0,1 256,80"></path>
+    <path class="path" d="M 144,128 A 16,16 0 0,0 160,144"></path>
+    <path class="path" d="M 256,128 A 16,16 0 0,1 240,144"></path>
+  </g>
+  <g id='circles'>
+    <circle cx="136" cy="32" r="6" class="hollow"></circle>
+  </g>
+  <g id='bridges'>
+  </g>
+  <g id='text'>
+    <text x="112" y="4">s</text>
+    <text x="120" y="4">t</text>
+    <text x="128" y="4">a</text>
+    <text x="136" y="4">n</text>
+    <text x="144" y="4">c</text>
+    <text x="152" y="4">h</text>
+    <text x="160" y="4">i</text>
+    <text x="168" y="4">o</text>
+    <text x="176" y="4">n</text>
+    <text x="192" y="4">p</text>
+    <text x="200" y="4">l</text>
+    <text x="208" y="4">a</text>
+    <text x="216" y="4">t</text>
+    <text x="224" y="4">e</text>
+    <text x="240" y="4">(</text>
+    <text x="248" y="4">v</text>
+    <text x="256" y="4">e</text>
+    <text x="264" y="4">r</text>
+    <text x="272" y="4">t</text>
+    <text x="280" y="4">i</text>
+    <text x="288" y="4">c</text>
+    <text x="296" y="4">a</text>
+    <text x="304" y="4">l</text>
+    <text x="312" y="4">)</text>
+    <text x="104" y="36">[</text>
+    <text x="112" y="36">V</text>
+    <text x="120" y="36">-</text>
+    <text x="128" y="36">r</text>
+    <text x="144" y="36">l</text>
+    <text x="152" y="36">l</text>
+    <text x="160" y="36">e</text>
+    <text x="168" y="36">r</text>
+    <text x="176" y="36">]</text>
+    <text x="248" y="36">[</text>
+    <text x="256" y="36">V</text>
+    <text x="264" y="36">-</text>
+    <text x="272" y="36">r</text>
+    <text x="280" y="36">o</text>
+    <text x="288" y="36">l</text>
+    <text x="296" y="36">l</text>
+    <text x="304" y="36">e</text>
+    <text x="312" y="36">r</text>
+    <text x="320" y="36">]</text>
+    <text x="184" y="52">o</text>
+    <text x="192" y="52">r</text>
+    <text x="200" y="52">b</text>
+    <text x="208" y="52">i</text>
+    <text x="216" y="52">t</text>
+    <text x="192" y="68">r</text>
+    <text x="200" y="68">i</text>
+    <text x="208" y="68">n</text>
+    <text x="216" y="68">g</text>
+    <text x="168" y="84">(</text>
+    <text x="176" y="84">Ø</text>
+    <text x="184" y="84">9</text>
+    <text x="192" y="84">0</text>
+    <text x="208" y="84">b</text>
+    <text x="216" y="84">o</text>
+    <text x="224" y="84">r</text>
+    <text x="232" y="84">e</text>
+    <text x="240" y="84">)</text>
+    <text x="288" y="84">[</text>
+    <text x="296" y="84">p</text>
+    <text x="304" y="84">i</text>
+    <text x="312" y="84">n</text>
+    <text x="320" y="84">i</text>
+    <text x="328" y="84">o</text>
+    <text x="336" y="84">n</text>
+    <text x="344" y="84">]</text>
+    <text x="352" y="84">-</text>
+    <text x="408" y="84">f</text>
+    <text x="416" y="84">i</text>
+    <text x="424" y="84">n</text>
+    <text x="432" y="84">e</text>
+    <text x="448" y="84">c</text>
+    <text x="456" y="84">r</text>
+    <text x="464" y="84">a</text>
+    <text x="472" y="84">n</text>
+    <text x="480" y="84">k</text>
+    <text x="168" y="100">-</text>
+    <text x="184" y="100">r</text>
+    <text x="192" y="100">o</text>
+    <text x="200" y="100">d</text>
+    <text x="216" y="100">-</text>
+    <text x="424" y="100">(</text>
+    <text x="432" y="100">3</text>
+    <text x="440" y="100">:</text>
+    <text x="448" y="100">1</text>
+    <text x="464" y="100">d</text>
+    <text x="472" y="100">o</text>
+    <text x="480" y="100">w</text>
+    <text x="488" y="100">n</text>
+    <text x="496" y="100">)</text>
+    <text x="184" y="116">[</text>
+    <text x="192" y="116">k</text>
+    <text x="200" y="116">n</text>
+    <text x="208" y="116">o</text>
+    <text x="216" y="116">b</text>
+    <text x="224" y="116">]</text>
+    <text x="280" y="116">g</text>
+    <text x="288" y="116">e</text>
+    <text x="296" y="116">a</text>
+    <text x="304" y="116">r</text>
+    <text x="320" y="116">m</text>
+    <text x="328" y="116">e</text>
+    <text x="336" y="116">s</text>
+    <text x="344" y="116">h</text>
+    <text x="168" y="132">1</text>
+    <text x="176" y="132">:</text>
+    <text x="184" y="132">1</text>
+    <text x="200" y="132">d</text>
+    <text x="208" y="132">r</text>
+    <text x="216" y="132">i</text>
+    <text x="224" y="132">v</text>
+    <text x="232" y="132">e</text>
+    <text x="104" y="164">[</text>
+    <text x="112" y="164">V</text>
+    <text x="120" y="164">-</text>
+    <text x="128" y="164">r</text>
+    <text x="136" y="164">o</text>
+    <text x="144" y="164">l</text>
+    <text x="152" y="164">l</text>
+    <text x="160" y="164">e</text>
+    <text x="168" y="164">r</text>
+    <text x="176" y="164">]</text>
+    <text x="248" y="164">[</text>
+    <text x="256" y="164">V</text>
+    <text x="264" y="164">-</text>
+    <text x="272" y="164">r</text>
+    <text x="280" y="164">o</text>
+    <text x="288" y="164">l</text>
+    <text x="296" y="164">l</text>
+    <text x="304" y="164">e</text>
+    <text x="312" y="164">r</text>
+    <text x="320" y="164">]</text>
+    <text x="184" y="196">b</text>
+    <text x="192" y="196">o</text>
+    <text x="200" y="196">a</text>
+    <text x="208" y="196">r</text>
+    <text x="216" y="196">d</text>
+    <text x="24" y="212">r</text>
+    <text x="32" y="212">o</text>
+    <text x="40" y="212">d</text>
+    <text x="56" y="212">i</text>
+    <text x="64" y="212">n</text>
+    <text x="112" y="212">=</text>
+    <text x="120" y="212">=</text>
+    <text x="128" y="212">=</text>
+    <text x="136" y="212">=</text>
+    <text x="144" y="212">=</text>
+    <text x="152" y="212">=</text>
+    <text x="160" y="212">=</text>
+    <text x="168" y="212">=</text>
+    <text x="176" y="212">=</text>
+    <text x="184" y="212">=</text>
+    <text x="192" y="212">=</text>
+    <text x="200" y="212">=</text>
+    <text x="208" y="212">=</text>
+    <text x="216" y="212">=</text>
+    <text x="224" y="212">=</text>
+    <text x="232" y="212">=</text>
+    <text x="240" y="212">=</text>
+    <text x="248" y="212">=</text>
+    <text x="256" y="212">=</text>
+    <text x="264" y="212">=</text>
+    <text x="272" y="212">=</text>
+    <text x="280" y="212">=</text>
+    <text x="288" y="212">=</text>
+    <text x="296" y="212">=</text>
+    <text x="304" y="212">=</text>
+    <text x="312" y="212">=</text>
+    <text x="360" y="212">r</text>
+    <text x="368" y="212">o</text>
+    <text x="376" y="212">d</text>
+    <text x="392" y="212">o</text>
+    <text x="400" y="212">u</text>
+    <text x="408" y="212">t</text>
+    <text x="64" y="228">[</text>
+    <text x="72" y="228">V</text>
+    <text x="88" y="228">s</text>
+    <text x="96" y="228">u</text>
+    <text x="104" y="228">p</text>
+    <text x="112" y="228">p</text>
+    <text x="120" y="228">o</text>
+    <text x="128" y="228">r</text>
+    <text x="136" y="228">t</text>
+    <text x="144" y="228">]</text>
+    <text x="280" y="228">[</text>
+    <text x="288" y="228">V</text>
+    <text x="304" y="228">s</text>
+    <text x="312" y="228">u</text>
+    <text x="320" y="228">p</text>
+    <text x="328" y="228">p</text>
+    <text x="336" y="228">o</text>
+    <text x="344" y="228">r</text>
+    <text x="352" y="228">t</text>
+    <text x="360" y="228">]</text>
+</g>
+</g>
+</svg>

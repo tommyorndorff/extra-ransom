@@ -2,7 +2,7 @@
 """True-scale SVGs for the Shaker 2-Drawer Coffee Table plan (fits an existing 19½″ × 48″ top).
 
 Usage: python3 tools/woodworking/coffee_table_drawings.py
-Writes static/static/woodworking/coffee-table-{front,side,plan,legs,drawer}.svg
+Writes public/static/woodworking/coffee-table-{front,side,plan,legs,drawer}.svg
 All geometry is in inches; S is pixels per inch. Edit the constants, re-run.
 Reuses the Drawing helper from modern_craftsman_drawings.py.
 """
@@ -392,7 +392,7 @@ def drawer(path):
 
 
 if __name__ == "__main__":
-    out = os.path.join(os.path.dirname(__file__), "..", "..", "static", "static", "woodworking")
+    out = os.path.join(os.path.dirname(__file__), "..", "..", "public", "static", "woodworking")
     os.makedirs(out, exist_ok=True)
     front(os.path.join(out, "coffee-table-front.svg"))
     side(os.path.join(out, "coffee-table-side.svg"))

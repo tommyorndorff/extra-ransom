@@ -6,9 +6,6 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
-public/
-resources/_gen/
-
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
@@ -83,13 +80,12 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+dist/
+.astro/
 
 # Gatsby files
 .cache/
-# Comment in the public line in if your project uses Gatsby and *not* Next.js
-# https://nextjs.org/blog/next-9-1#public-directory-support
-# public
+# NOTE: public/ is source (static assets + standalone pages); do not ignore it.
 
 # vuepress build output
 .vuepress/dist
@@ -120,8 +116,3 @@ __pycache__/
 
 # salamander photo tooling scratch
 .salamander-photos/
-
-# astro-mockup
-astro-mockup/node_modules
-astro-mockup/dist
-astro-mockup/.astro

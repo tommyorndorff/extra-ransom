@@ -3,14 +3,14 @@
 projection, lid propped open). Illustrations from the plan dimensions, not photographs.
 
 Usage: python3 tools/woodworking/jewelers_chest_renders.py
-Writes static/static/woodworking/jewelers-chest-render.svg
+Writes public/static/woodworking/jewelers-chest-render.svg
 """
 import math, os, sys
 sys.path.insert(0, os.path.dirname(__file__))
 import jewelers_chest_drawings as J
 
 K = 22
-OUT = os.path.join(os.path.dirname(__file__), "..", "..", "static", "static", "woodworking")
+OUT = os.path.join(os.path.dirname(__file__), "..", "..", "public", "static", "woodworking")
 CX, CY = 0.5, 0.35   # oblique depth shift per inch of depth (right, up)
 
 

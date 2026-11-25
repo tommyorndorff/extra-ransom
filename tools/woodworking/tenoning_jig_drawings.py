@@ -2,10 +2,10 @@
 """True-scale SVGs for the miter-slot tenoning jig plan.
 
 Usage: python3 tools/woodworking/tenoning_jig_drawings.py
-Writes static/static/woodworking/tenoning-jig-{end,plan,cuts}.svg
+Writes public/static/woodworking/tenoning-jig-{end,plan,cuts}.svg
 Geometry in inches. X is across the saw (blade to the right), Y is the feed direction
 in the plan view. A = fence face to the blade's near (left) plane.
-Printed-part sizes come from static/static/woodworking-3d/generate_woodworking_stls.py.
+Printed-part sizes come from public/static/woodworking-3d/generate_woodworking_stls.py.
 """
 import os, sys
 sys.path.insert(0, os.path.dirname(__file__))
@@ -310,7 +310,7 @@ def cuts(path):
 
 
 if __name__ == "__main__":
-    out = os.path.join(os.path.dirname(__file__), "..", "..", "static", "static", "woodworking")
+    out = os.path.join(os.path.dirname(__file__), "..", "..", "public", "static", "woodworking")
     os.makedirs(out, exist_ok=True)
     end(os.path.join(out, "tenoning-jig-end.svg"))
     plan(os.path.join(out, "tenoning-jig-plan.svg"))

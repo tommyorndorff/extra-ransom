@@ -2,7 +2,7 @@
 """Generate true-scale SVG drawings for the Modern Craftsman 2-drawer console plan.
 
 Usage: python3 tools/woodworking/modern_craftsman_drawings.py
-Writes static/static/woodworking/modern-craftsman-{front,side,plan}.svg
+Writes public/static/woodworking/modern-craftsman-{front,side,plan}.svg
 All geometry is in inches; S is pixels per inch. Edit the constants, re-run.
 """
 import os
@@ -527,7 +527,7 @@ def legs(path):
 
 
 if __name__ == "__main__":
-    out = os.path.join(os.path.dirname(__file__), "..", "..", "static", "static", "woodworking")
+    out = os.path.join(os.path.dirname(__file__), "..", "..", "public", "static", "woodworking")
     os.makedirs(out, exist_ok=True)
     front(os.path.join(out, "modern-craftsman-front.svg"))
     side(os.path.join(out, "modern-craftsman-side.svg"))
