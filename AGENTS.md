@@ -1,110 +1,113 @@
-# extra-ransom (super-chainsaw)
+# extra-ransom
 
-A personal Hugo static site — build-log and knowledge base covering split-cane bamboo fly-rod making, plus woodworking, coffee roasting, and fishing notes. Live at https://www.extra-ransom.net. The project names are random generator output and carry no meaning.
+A personal static site — build-log and knowledge base covering split-cane bamboo fly-rod making, plus fishing trips, woodworking, coffee roasting, hydroponics and miscellany. Live at https://www.extra-ransom.net.
 
 ## Project Structure
 
 ```
 extra-ransom/
-├── config.yaml               # Hugo site config (module import, menu, params, S3 deploy target)
-├── go.mod / go.sum           # Hugo Modules manifest — pins the Hextra theme
-├── Makefile                  # build / serve / clean targets
-├── archetypes/
-│   └── default.md            # front-matter template for `hugo new` (draft: true)
-├── content/
-│   ├── _index.md             # site landing page
-│   └── docs/                 # All site content (Hextra sidebar tree)
-│       ├── equipment.md
-│       ├── rodmaking/        # all rod content (menu: Rodmaking)
-│       │   ├── morgan-hand-mill.md          # Tom Morgan build-class notes
-│       │   ├── morgan-hand-mill-manual.md   # re-written MHM machine/manual reference
-│       │   ├── tapers.md, printable-rod-tools.md
-│       │   ├── builds/       # per-rod build logs
-│       │   └── binders/      # binder designs & notes
-│       ├── woodworking/      # incl. furniture-plans/ (menu: Woodworking) — dimensioned plans with SVG drawings
-│       ├── coffee-roasting/  # (menu: Coffee Roasting)
-│       └── fishing/          # trip dossiers (menu: Fishing)
-├── static/
-│   ├── static/               # Binary assets (photos, PDFs, STLs) — served at /static/<topic>/…
-│   ├── warbirds/             # Standalone page "Mustang & Company" (plain HTML/CSS/JS) — /warbirds/
-│   ├── salamanders/          # Standalone page "Salamanders of Western North Carolina" — /salamanders/
-│                             #   (+ methods.html: research methods & re-run workbook)
-│   └── frame-calc/           # Standalone page "Picture Frame Calculator" — /frame-calc/ (js/calc.js math, js/app.js UI)
+├── astro.config.mjs          # Astro + Starlight config (site, sidebar, redirects, edit link, link validator)
+├── package.json / package-lock.json
+├── tsconfig.json
+├── src/
+│   ├── content.config.ts     # Starlight docs collection + front-matter schema
+│   ├── redirects.json        # old URL -> new URL (Hugo aliases, rodmaking/fishing merge)
+│   ├── styles/custom.css     # theme tweaks (palette, fonts, hero, white drawings in dark mode)
+│   └── content/docs/
+│       ├── index.mdx         # home page (splash)
+│       └── docs/             # all content, served at /docs/...
+│           ├── equipment.md  # draft
+│           ├── rods-and-fishing/
+│           │   ├── making/   # rod making: tapers, Morgan Hand Mill, printable tools, binders/, builds/
+│           │   └── trips/    # fishing trip dossiers
+│           ├── woodworking/  # incl. furniture-plans/ (dimensioned plans with SVG drawings)
+│           ├── coffee-roasting/
+│           ├── hydroponics/
+│           └── miscellany/
+├── public/                   # copied verbatim to the site root (Astro `public/`)
+│   ├── static/               # binary assets (photos, PDFs, STLs, SVG drawings) -> /static/<topic>/...
+│   ├── goat/                 # static SVG diagrams -> /goat/...
+│   ├── warbirds/             # standalone page "Mustang & Company" (plain HTML/CSS/JS)
+│   ├── salamanders/          # standalone page "Salamanders of Western North Carolina" (+ methods.html)
+│   ├── frame-calc/           # standalone "Picture Frame Calculator" (js/calc.js math, js/app.js UI)
+│   ├── couch-to-5k/          # standalone "Couch to Turkey Trot" checklist calendar
+│   └── norway/               # standalone Norway trip pages
 ├── workers/
 │   ├── couch-to-5k/          # Cloudflare Worker + D1 API for the 5K page's shared logs (wrangler; not deployed by CI)
-│   ├── eink-frame/           # Cloudflare Worker + D1 API for the e-ink gift frames (weather + poem/message; wrangler, not CI)
+│   ├── eink-frame/           # Cloudflare Worker + D1 API for the e-ink gift frames (wrangler, not CI)
 │   └── rv-temp/              # Cloudflare Worker + D1 for the RV temperature sensor (firmware: tommyorndorff/rv-sensor; not deployed by CI)
 ├── firmware/
 │   └── eink-frame/           # PlatformIO firmware for the frames (FireBeetle 2 ESP32-E + Waveshare 7.5″ V2; not deployed)
-├── tools/
-│   ├── salamanders/photos.py # iNaturalist photo fetch/review/install + credits.js sync (not deployed)
-│   ├── frame-calc/calc.test.js # `node --test tools/frame-calc/` — math tests for the frame calculator (not deployed)
-│   └── woodworking/          # SVG drawing generators for the furniture plans (not deployed; see Content Conventions)
-└── .github/
-    └── workflows/
-        └── workflow.yml      # CI "Deploy": build → S3 sync + CloudFront invalidation + gh-pages
+├── tools/                    # generators and tests, not deployed
+│   ├── salamanders/photos.py # iNaturalist photo fetch/review/install + credits.js sync
+│   ├── frame-calc/calc.test.js # `node --test tools/frame-calc/calc.test.js` — math tests for the frame calculator
+│   └── woodworking/          # SVG drawing generators for the furniture plans (see Content Conventions)
+├── docs/aws-oidc-setup.md    # GitHub OIDC role + deploy policy setup
+└── .github/workflows/        # workflow.yml (Deploy), pr-checks.yml, link-check.yml
 ```
-
-Each subdirectory under `content/docs/` has an `_index.md` (section landing page). Top-level menu entries are defined in `config.yaml` under `menu.main`.
 
 ## Tech Stack
 
-- **Hugo** (extended, v0.163.3+) static site generator
-- **Hextra** theme (`github.com/imfing/hextra`) loaded via **Hugo Modules** — pinned in `go.mod` (currently `v0.12.3`). No git submodule; `hugo` fetches the module from the Go module cache.
-- **Goldmark** renderer with `unsafe: true` (inline HTML and `<details>` blocks are used in content)
-- **GoAT** for ASCII diagrams (```goat fenced blocks → inline SVG; a Hugo core feature, theme-independent)
-- Hosted on **AWS S3** (`s3://www.extra-ransom.net`) behind **CloudFront** (`E2498U24MEPPED`)
-- Mirrored to **GitHub Pages** via `peaceiris/actions-gh-pages`
+- **Astro 7** static site generator with **Starlight** (docs theme), Markdown/MDX content collection. No Hugo, no Go.
+- **Pagefind** search (built in by Starlight; indexed at build time into `dist/pagefind/`).
+- **starlight-links-validator**: `npm run build` fails on a broken internal link. Standalone pages and assets (`/warbirds/**`, `/salamanders/**`, `/couch-to-5k/**`, `/norway/**`, `/frame-calc/**`, `/static/**`, `/goat/**`) are excluded because they are not Starlight pages.
+- **Static SVG diagrams** under `public/goat/` (originally GoAT ASCII art, rendered once).
+- Hosted on **AWS S3** (`s3://www.extra-ransom.net`) behind **CloudFront** (`E2498U24MEPPED`); mirrored to **GitHub Pages** via `peaceiris/actions-gh-pages`.
+- Node 22 (CI uses Node 22; `package-lock.json` is the source of truth for dependencies).
 
 ## Development
 
-Requires Hugo extended and Go (Go is needed for Hugo Modules to resolve the theme).
-
 ```bash
-make serve    # hugo server --buildDrafts → http://localhost:1313 (shows drafts)
-make build    # hugo → public/
-make clean    # remove public/ and resources/_gen/
-
-hugo mod get  # (re)fetch the Hextra theme module if the cache is cold
+npm ci            # install (use `npm install` when changing dependencies)
+npm run dev       # dev server -> http://localhost:4321
+npm run build     # production build -> dist/ (Pagefind index + link validation)
+npm run preview   # serve dist/ locally
 ```
 
-Manual deploy (requires the `extra-ransom` AWS profile and the Homebrew `withdeploy` Hugo build):
-```
-AWS_PROFILE=extra-ransom hugo deploy --maxDeletes -1 --force
-```
+`dist/`, `.astro/` and `node_modules/` are git-ignored; `public/` is source and is tracked.
+
+There is no manual deploy path any more (the old `hugo deploy` flow is gone): deploys happen from CI on push to `main`. To deploy by hand, build and run the same two `aws s3 sync` passes shown in `.github/workflows/workflow.yml` with the `extra-ransom` AWS profile.
 
 ## Content Conventions
 
-- All content lives under `content/docs/` — Hextra renders this as the sidebar navigation tree.
-- Page ordering uses `weight:` in front matter; lower weight = higher in sidebar.
-- `draft: true` gates unfinished pages (visible via `make serve`, hidden in CI builds).
-- Content uses **plain Markdown, tables, GoAT diagrams, and raw `<details>` HTML** — no Hextra shortcodes are currently used. Prefer blockquotes over theme-specific callout shortcodes to keep pages theme-portable.
-- **No `"` inside GoAT blocks** — write inch marks as `″` (U+2033). A stray `"` in a diagram's text sends `hugo --minify` into XML mode for the rest of the page (`<a .../>`, `<td/>`), so heading anchors swallow the following paragraphs.
+- All pages live under `src/content/docs/` (Starlight content collection). Pages under `src/content/docs/docs/<section>/` are served at `/docs/<section>/<page>/`; the home page is `src/content/docs/index.mdx` (splash template, hand-written HTML). A directory's landing page is its `index.md`.
+- Front matter: `title`, optional `date`, `draft: true`, and `sidebar: { order: N }` (lower = higher in the sidebar; this replaced Hugo's `weight:`). A few pages still carry a legacy `weight:` key — it is accepted by `src/content.config.ts` but does nothing.
+- The sidebar is defined in `astro.config.mjs`: each section lists its own pages (sorted by `sidebar.order`, then filename; drafts skipped) and its subdirectories become labelled, collapsed groups. A new page in an existing directory shows up automatically; a new *subdirectory* needs a `sub(...)` entry there.
+- `draft: true` pages are left out of the build and the sidebar (`equipment.md` is the current draft). `npm run dev` also skips them.
+- Content is **plain Markdown (or MDX for the home page), tables, static SVG diagrams, and raw `<details>` HTML**. No Starlight components are used in the docs pages; prefer blockquotes over callouts to keep pages portable.
+- **Diagrams are static SVGs committed under `public/goat/`** and embedded as `![diagram](/goat/<name>.svg)`. They were rendered once from GoAT ASCII art when the site moved off Hugo; there is no converter any more, so editing a diagram means editing or regenerating the SVG. To make a new one from ASCII art: `go install github.com/blampe/goat/cmd/goat@latest`, then `goat diagram.txt > public/goat/<name>.svg` (inch marks as `″`, not `"`), and embed it as an image.
+- Pages live at the same URLs as under the old Hugo site, except rodmaking and fishing, which merged into `/docs/rods-and-fishing/{making,trips}/`. Old URLs and Hugo aliases redirect via `src/redirects.json` (Astro writes meta-refresh pages); add a line there whenever you move or rename a published page.
 - External links pair with a Wayback Machine archive URL for archival discipline (the `https://web.archive.org/web/2024/<url>` form redirects to the latest snapshot). Exception: shopping-list product links (retail pages with photos) go unpaired, since they're rarely archived and a dead archive link fails the external link check.
 - Tapers are stored as Markdown tables within page content.
-- **Furniture plans** (`content/docs/woodworking/furniture-plans/`) are dimensioned, true-scale builds. Plans copied from a maker's piece label every number **(stated)** (from the maker), **(derived)** (worked out so the stated ones close) or **(est.)** (measured off photos), and end with an "Open questions" list. Their drawings are **SVGs generated by `tools/woodworking/*_drawings.py`** into `static/static/woodworking/` (`python3 tools/woodworking/<name>_drawings.py`) — edit the constants in the script and re-run rather than hand-editing the SVGs, and embed them as `[![alt](/static/woodworking/x.svg)](/static/woodworking/x.svg)`. The scripts share one `Drawing` helper (`modern_craftsman_drawings.py`); drawings have a white background so they read in dark mode. Prefer SVGs over ASCII/GoAT for plans — GoAT is hard to read at this scale. For print-at-1:1 templates, `python3 tools/woodworking/print_tiles.py <svg> --ppi <px per inch> [--grid] [--crop x,y,w,h]` tiles an SVG into letter sheets (1″ grid option, overlap guides, scale bar) as `<name>-print.pdf` (needs `rsvg-convert`); `--ppi` is the scale constant (`s`/`S`/`K`/`P`) in the matching `*_drawings.py`.
-- **3D-printed shop tools** (`content/docs/woodworking/printed-tools.md`): STLs, preview PNGs and the parametric `generate_woodworking_stls.py` live together in `static/static/woodworking-3d/` (served at `/static/woodworking-3d/…`), like the rodmaking set in `rod-tools-3d/`. Edit the parameter block and re-run (`pip install manifold3d trimesh numpy matplotlib`); the script validates each part watertight.
-- **Picture Frame Calculator** (`static/frame-calc/`): inches in, member lengths (outside long point, inside at sight and rabbet), cut list, mat BOM out; prints to PDF and embeds a `FC1.…~` reload code that the page can read back from a saved PDF (pdf.js lazy-loaded from cdnjs). Math lives in `js/calc.js` (DOM-free, tested by `tools/frame-calc/calc.test.js`); geometry mirrors `tools/woodworking/picture_frame_drawings.py`. Bump the `?v=` on its css/js when they change.
-- **E-ink gift frames** (`content/docs/miscellany/eink-gift-frames.md`): three parts that must stay in sync — the parametric case (`static/static/eink-frame/generate_eink_frame_stls.py` → STLs + previews; it fit-checks panel/board/battery/adapter against the frame and cover, so edit its parameters and re-run), the firmware (`firmware/eink-frame/`, `EINK_TOKEN=<token> pio run -t upload`; pins in `include/config.h`, root CAs regenerated by `tools/make_roots.sh`), and the worker (`workers/eink-frame/`, route `www.extra-ransom.net/api/eink/*`, admin page served by the worker at `/api/eink/admin`; `npm test`). The worker's JSON payload is the contract between them (documented in its README). Fonts on the frame are Latin-1 only, so the worker runs all text through `latin1Safe()`.
-- Static assets (images, PDFs, STL previews) go in `static/static/<topic>/` and are referenced as `/static/<topic>/filename`.
-- New pages: `hugo new docs/<section>/<name>.md` uses `archetypes/default.md` (sets `draft: true`).
-- **Standalone pages** live in `static/<name>/` as self-contained `index.html` + `css/` + `js/` + `assets/` (no build step, relative paths, no Hextra). Hugo copies them verbatim and they're linked from the "Standalone pages" grid on `content/_index.md`. The grid also carries an external card for **CaneDNA** (`https://canedna.extra-ransom.net/`, the taper-explorer WASM app from the separate `canedna` repo). Because CI gives `*.css`/`*.js`/images a 1-year immutable cache, their CSS/JS references carry a `?v=YYYYMMDD` query — bump it whenever those files change. Salamander data lives in `static/salamanders/js/data.js`; photo credits in `assets/img/credits.json`, mirrored to `js/credits.js` by `tools/salamanders/photos.py credits`. **Before changing salamander content, read `static/salamanders/methods.html`** — it records the source hierarchy, deliberate naming/scope decisions, unverified items, and the recurring-checks workbook; keep it in sync when you change data or prose. **Couch to Turkey Trot** (`static/couch-to-5k/`) is a dependency-free checklist calendar with a guided interval timer, three plan levels (`js/plan.js`: beginner / intermediate / runner; dates and run/walk segments in seconds; Thanksgiving 2026 is Thu Nov 26), a per-person log (distance, time, rough running share, notes) and a progress summary page (`summary/`). A public `team/` page shows everyone as colored dots (no names; each person picks their color). Every calendar day (not just run days) has yes/no chips for strength training and sauna plus a bike chip that cycles off / indoor / outdoor (`days` table, `PUT /api/c25k/days/:date`; private, not on the team page). The log form can import a Garmin Connect TCX/GPX export (`js/import.js`, parsed in the browser, running share estimated from cadence/speed; FIT is not supported). Opened plain, it stores data in `localStorage` (`c25k-trot-2026-v2`). Opened with `?p=<token>` it talks to the Cloudflare Worker + D1 backend in `workers/couch-to-5k/` (deployed separately with wrangler, not by CI; see its README) via `js/store.js`; `admin/` creates people and their links. The dates are hard-coded to 2026. The warbirds page was built in a separate session and has no methods record; its README-level notes (photo sources, specs caveat) are in the page footer.
+- **Furniture plans** (`src/content/docs/docs/woodworking/furniture-plans/`) are dimensioned, true-scale builds. Plans copied from a maker's piece label every number **(stated)** (from the maker), **(derived)** (worked out so the stated ones close) or **(est.)** (measured off photos), and end with an "Open questions" list. Their drawings are **SVGs generated by `tools/woodworking/*_drawings.py`** into `public/static/woodworking/` (`python3 tools/woodworking/<name>_drawings.py`) — edit the constants in the script and re-run rather than hand-editing the SVGs, and embed them as `[![alt](/static/woodworking/x.svg)](/static/woodworking/x.svg)`. The scripts share one `Drawing` helper (`modern_craftsman_drawings.py`); drawings have a white background so they read in dark mode. Prefer SVGs over ASCII diagrams for plans — those are hard to read at this scale. For print-at-1:1 templates, `python3 tools/woodworking/print_tiles.py <svg> --ppi <px per inch> [--grid] [--crop x,y,w,h]` tiles an SVG into letter sheets (1″ grid option, overlap guides, scale bar) as `<name>-print.pdf` (needs `rsvg-convert`); `--ppi` is the scale constant (`s`/`S`/`K`/`P`) in the matching `*_drawings.py`.
+- **3D-printed shop tools** (`src/content/docs/docs/woodworking/printed-tools.md`): STLs, preview PNGs and the parametric `generate_woodworking_stls.py` live together in `public/static/woodworking-3d/` (served at `/static/woodworking-3d/…`), like the rodmaking set in `rod-tools-3d/`. Edit the parameter block and re-run (`pip install manifold3d trimesh numpy matplotlib`); the script validates each part watertight.
+- **Picture Frame Calculator** (`public/frame-calc/`): inches in, member lengths (outside long point, inside at sight and rabbet), cut list, mat BOM out; prints to PDF and embeds a `FC1.…~` reload code that the page can read back from a saved PDF (pdf.js lazy-loaded from cdnjs). Math lives in `js/calc.js` (DOM-free, tested by `tools/frame-calc/calc.test.js`); geometry mirrors `tools/woodworking/picture_frame_drawings.py`. Bump the `?v=` on its css/js when they change.
+- **E-ink gift frames** (`src/content/docs/docs/miscellany/eink-gift-frames.md`): three parts that must stay in sync — the parametric case (`public/static/eink-frame/generate_eink_frame_stls.py` → STLs + previews; it fit-checks panel/board/battery/adapter against the frame and cover, so edit its parameters and re-run), the firmware (`firmware/eink-frame/`, `EINK_TOKEN=<token> pio run -t upload`; pins in `include/config.h`, root CAs regenerated by `tools/make_roots.sh`), and the worker (`workers/eink-frame/`, route `www.extra-ransom.net/api/eink/*`, admin page served by the worker at `/api/eink/admin`; `npm test`). The worker's JSON payload is the contract between them (documented in its README). Fonts on the frame are Latin-1 only, so the worker runs all text through `latin1Safe()`.
+- Static assets (images, PDFs, STL previews, regenerated SVG drawings) go in `public/static/<topic>/` and are referenced as `/static/<topic>/filename` (Astro serves `public/` at the site root). The same long cache applies to SVGs (including regenerated furniture drawings and `public/goat/`), so a changed SVG at an unchanged name can look stale in browsers/CloudFront until its cache expires — rename the file or invalidate when it matters.
+- New pages: create `src/content/docs/docs/<section>/<name>.md` with `title:` front matter (add `draft: true` while unfinished).
+- **Standalone pages** live in `public/<name>/` as self-contained `index.html` + `css/` + `js/` + `assets/` (no build step, relative paths, no Starlight). Astro copies `public/` verbatim and they're linked from the "Standalone pages" grid on `src/content/docs/index.mdx`. The grid also carries an external card for **CaneDNA** (`https://canedna.extra-ransom.net/`, the taper-explorer WASM app from the separate `canedna` repo). Because CI gives `*.css`/`*.js`/`*.svg`/images a 1-year immutable cache, their CSS/JS references carry a `?v=YYYYMMDD` query — bump it whenever those files change. Salamander data lives in `public/salamanders/js/data.js`; photo credits in `assets/img/credits.json`, mirrored to `js/credits.js` by `tools/salamanders/photos.py credits`. **Before changing salamander content, read `public/salamanders/methods.html`** — it records the source hierarchy, deliberate naming/scope decisions, unverified items, and the recurring-checks workbook; keep it in sync when you change data or prose. **Couch to Turkey Trot** (`public/couch-to-5k/`) is a dependency-free checklist calendar with a guided interval timer, three plan levels (`js/plan.js`: beginner / intermediate / runner; dates and run/walk segments in seconds; Thanksgiving 2026 is Thu Nov 26), a per-person log (distance, time, rough running share, notes) and a progress summary page (`summary/`). A public `team/` page shows everyone as colored dots (no names; each person picks their color). Every calendar day (not just run days) has yes/no chips for strength training and sauna plus a bike chip that cycles off / indoor / outdoor (`days` table, `PUT /api/c25k/days/:date`; private, not on the team page). The log form can import a Garmin Connect TCX/GPX export (`js/import.js`, parsed in the browser, running share estimated from cadence/speed; FIT is not supported). Opened plain, it stores data in `localStorage` (`c25k-trot-2026-v2`). Opened with `?p=<token>` it talks to the Cloudflare Worker + D1 backend in `workers/couch-to-5k/` (deployed separately with wrangler, not by CI; see its README) via `js/store.js`; `admin/` creates people and their links. The dates are hard-coded to 2026. The warbirds page was built in a separate session and has no methods record; its README-level notes (photo sources, specs caveat) are in the page footer.
 
 ## CI/CD
 
 `.github/workflows/workflow.yml` ("Deploy") triggers on push to `main` (and `workflow_dispatch`):
-1. Checkout (`fetch-depth: 0`) — no submodules; Hugo Modules resolves the theme at build time.
-2. Install Hugo extended `0.163.3` via `peaceiris/actions-hugo`.
-3. Build with `hugo --minify`.
+1. Checkout (`fetch-depth: 0`).
+2. `actions/setup-node@v4` (Node 22, npm cache), `npm ci`.
+3. `npm run build` -> `dist/` (fails on broken internal links).
 4. Assume AWS role via **OIDC** (`role-to-assume: …:role/extra-ransom-github-deploy`) — no long-lived keys.
-5. Two-pass `aws s3 sync ./public/ …`: first pass sets a 1-year immutable cache on hashed assets (css/js/svg/img/fonts/ico); second pass sets `max-age=0, must-revalidate` on everything else (html/xml/json/…). Both use `--delete`.
+5. Two-pass `aws s3 sync ./dist/ …` (both `--delete`): the first pass sets a 1-year immutable cache on css/js/svg/img/fonts/ico (this covers Astro's hashed `/_astro/` files) but **excludes `pagefind/*`**; the second pass sets `max-age=0, must-revalidate` on everything else and explicitly re-includes `pagefind/*`. Pagefind's files have fixed names (`pagefind.js`, `pagefind-ui.js`, entry json) and change on every build, so they must not be cached as immutable.
 6. `aws cloudfront create-invalidation … --paths "/*"`.
-7. Deploy `./public` to the `gh-pages` branch via `peaceiris/actions-gh-pages` with `cname: extra-ransom.net`.
+7. Deploy `./dist` to the `gh-pages` branch via `peaceiris/actions-gh-pages` with `cname: extra-ransom.net`.
 
-Auth: GitHub OIDC (IAM role trust), not access-key secrets. See `README.md` for the IAM policy and OIDC setup pointer.
+`pr-checks.yml` (build + lychee offline internal-link check on `dist/`) and `link-check.yml` (lychee external link check, config in `.lychee.toml`) also build with Node 22 and check `./dist`.
+
+Auth: GitHub OIDC (IAM role trust), not access-key secrets. See `README.md` and `docs/aws-oidc-setup.md`.
 
 ## Known Limitations
 
-- Hugo version is pinned in two places (CI `workflow.yml` and local Homebrew) — bump both together to stay reproducible.
-- The Hextra theme is pinned via `go.mod`; run `hugo mod get -u github.com/imfing/hextra` to update it deliberately.
-- The `.gitignore` is a Node.js template leftover from a prior Gatsby stack; irrelevant entries can be ignored.
+- GitHub Actions are pinned to full commit SHAs (version in a trailing comment) as a supply-chain precaution. To bump one, resolve the tag with `git ls-remote --tags https://github.com/<owner>/<repo>.git 'refs/tags/<tag>*'` (use the `^{}` line for annotated tags) and update both the SHA and the comment.
+- Diagrams are static SVGs; changing one means editing/regenerating the SVG by hand.
+- Link validation covers Starlight pages only; links inside standalone pages are covered only by the lychee jobs.
+- Markdown links into `/static/...` assets are not validated (excluded), so a typo'd asset path is only caught by lychee.
+- The edit-this-page link on each docs page points at `https://github.com/tommyorndorff/extra-ransom/edit/main/src/content/docs/…`.
+- `.gitignore` still contains Node/Gatsby template leftovers; irrelevant entries can be ignored.
+- Cloudflare Workers (`workers/`) and firmware are deployed manually and are not part of CI.

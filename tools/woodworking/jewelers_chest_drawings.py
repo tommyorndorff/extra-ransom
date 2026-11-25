@@ -2,7 +2,7 @@
 """True-scale SVGs for the jeweler's traveling tool chest plan.
 
 Usage: python3 tools/woodworking/jewelers_chest_drawings.py
-Writes static/static/woodworking/jewelers-chest-{front,section,side,tray,drawers}.svg
+Writes public/static/woodworking/jewelers-chest-{front,section,side,tray,drawers}.svg
 Geometry in inches (heights measured up from the floor, then flipped for the SVG).
 Labels are built from the constants with frac(), so edit the constants and re-run.
 """
@@ -51,7 +51,7 @@ DR_SIDE_L = DR_BOX_D - DR_FRONT_T     # 10 (sides butt the back of the front)
 DR_DIV = 0.25
 TOP_BAYS = (6.0, 6.0, 7.625)          # clear compartment widths, soldering drawer
 BOT_BAYS = (3.75, 4.75, 4.375, 6.5)   # lapidary drawer; laps bay takes a 6" disc in a sleeve
-OUT = os.path.join(os.path.dirname(__file__), "..", "..", "static", "static", "woodworking")
+OUT = os.path.join(os.path.dirname(__file__), "..", "..", "public", "static", "woodworking")
 
 assert abs(sum(TOP_BAYS) + DR_DIV * (len(TOP_BAYS) - 1) - DR_IN_W) < 1e-9
 assert abs(sum(BOT_BAYS) + DR_DIV * (len(BOT_BAYS) - 1) - DR_IN_W) < 1e-9

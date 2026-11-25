@@ -2,7 +2,7 @@
 """True-scale SVGs for the Heartwood Shaker 3-drawer nightstand plan.
 
 Usage: python3 tools/woodworking/nightstand_drawings.py
-Writes static/static/woodworking/nightstand-{front,side,plan,legs,apron}.svg
+Writes public/static/woodworking/nightstand-{front,side,plan,legs,apron}.svg
 Geometry in inches. Stated: 24 W x 18 D x 28 H. Everything else is measured off the
 maker's photo/drawing (see the plan page) -- edit constants here and re-run.
 Labels are built from the constants with frac(), so the drawings follow them.
@@ -356,7 +356,7 @@ def apron(path):
 
 
 if __name__ == "__main__":
-    out = os.path.join(os.path.dirname(__file__), "..", "..", "static", "static", "woodworking")
+    out = os.path.join(os.path.dirname(__file__), "..", "..", "public", "static", "woodworking")
     os.makedirs(out, exist_ok=True)
     front(os.path.join(out, "nightstand-front.svg"))
     side(os.path.join(out, "nightstand-side.svg"))

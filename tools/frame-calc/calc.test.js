@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert');
-const { parse, fmt, compute } = require('../../static/frame-calc/js/calc.js');
+const { parse, fmt, compute } = require('../../public/frame-calc/js/calc.js');
 
 const base = { mat: false, face: 1.25, thick: 0.875, rabW: 0.375, rabD: 0.5, clear: 1 / 16, kerf: 0.125, stick: 72 };
 
@@ -43,7 +43,7 @@ test('mat: exterior = opening + borders, bottom heavier', () => {
 });
 
 test('reload code round-trips, tolerating wraps and surrounding text', () => {
-  const { encodeState, decodeState } = require('../../static/frame-calc/js/calc.js');
+  const { encodeState, decodeState } = require('../../public/frame-calc/js/calc.js');
   const st = { name: 'Lake é photo', artW: '15 5/8', mat: true, bB: '2 1/2' };
   const code = encodeState(st);
   assert.match(code, /^FC1\.[A-Za-z0-9_-]+~$/);

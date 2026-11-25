@@ -43,7 +43,7 @@ Open the role's summary page; the ARN is at the top (`arn:aws:iam::ACCOUNT_ID:ro
 The template below creates the same three resources by hand — useful for reuse or a second account once you've seen how the pieces fit together:
 - The GitHub OIDC identity provider in your AWS account (one per account, shared across all repos)
 - An IAM role trusted only by the `main` branch of this repo
-- An inline policy with the minimum permissions `hugo deploy` requires
+- An inline policy with the minimum permissions the S3 sync and CloudFront invalidation require
 
 ```yaml
 AWSTemplateFormatVersion: '2010-09-09'
@@ -196,7 +196,7 @@ Purely exploratory — not a recommendation to migrate, just answering "could th
 **What it would replace**
 
 - **Cloudflare Pages** (or **Workers with static assets** — Cloudflare's current default recommendation for *new* projects since Workers reached feature parity with Pages in 2026; Pages itself remains fully supported, no forced migration) replaces S3, CloudFront, and the OIDC role above entirely.
-- Connect the GitHub repo, set the build command to `hugo --minify`, output directory `public`, and set a `HUGO_VERSION` build environment variable — Cloudflare's build image defaults to an old Hugo version otherwise.
+- Connect the GitHub repo, set the build command to `npm run build` and the output directory to `dist` (and pin the Node version to 22).
 - Cloudflare's git integration builds and deploys on every push by itself; the GitHub Actions workflow could shrink to nothing, or stay for unrelated checks.
 
 **Why free covers this**
@@ -207,8 +207,10 @@ Purely exploratory — not a recommendation to migrate, just answering "could th
 **What you'd give up**
 
 - The CloudFront distribution (`E2498U24MEPPED`), the S3 bucket, and this entire OIDC setup become dead weight — including any AWS-specific familiarity gained from setting it up.
-- Vendor lock-in shifts rather than disappears: AWS-shaped config (IAM policies, `hugo deploy` targets) gets replaced by Cloudflare-shaped config (build env vars, `_headers`/`_redirects` files).
+- Vendor lock-in shifts rather than disappears: AWS-shaped config (IAM policies, S3 sync targets) gets replaced by Cloudflare-shaped config (build env vars, `_headers`/`_redirects` files).
 
 **Smallest reversible way to test it**
 
 Point a throwaway subdomain (e.g. `cf-test.extra-ransom.net`) at a Cloudflare Pages deployment of this same repo, without touching the live `www` CNAME or removing anything from AWS. That validates the build and hosting actually work before any real cutover decision.
+
+> The CloudFormation resource names (`HugoDeploy` policy, "Hugo deploy" description) come from the original Hugo setup and are kept as-is so the template still matches the deployed stack.

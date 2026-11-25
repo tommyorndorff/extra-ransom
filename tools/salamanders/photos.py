@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Photo tooling for static/salamanders/.
+"""Photo tooling for public/salamanders/.
 
 Finds freely licensed (CC0 / CC BY / CC BY-SA) research-grade iNaturalist photos for
 species in js/data.js that have no photo, lets you review them on a contact sheet, then
@@ -16,7 +16,7 @@ Requires Pillow. Downloads go to a scratch dir (default: ./.salamander-photos, g
 """
 import argparse, io, json, os, re, shutil, sys, time, urllib.parse, urllib.request
 
-ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "static", "salamanders")
+ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "public", "salamanders")
 DATA = os.path.join(ROOT, "js", "data.js")
 IMG = os.path.join(ROOT, "assets", "img")
 CREDITS_JSON = os.path.join(IMG, "credits.json")
@@ -143,7 +143,7 @@ def install(args):
     open(DATA, "w").write(src)
     json.dump(cr, open(CREDITS_JSON, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     write_credits_js(cr)
-    print("Now bump the ?v= query strings in static/salamanders/index.html.")
+    print("Now bump the ?v= query strings in public/salamanders/index.html.")
 
 
 def main():

@@ -2,7 +2,7 @@
 """True-scale SVGs for the Picture Frame plan (1¼″ × ⅞″ profile, mitered, rabbeted).
 
 Usage: python3 tools/woodworking/picture_frame_drawings.py
-Writes static/static/woodworking/picture-frame-{front,profile,parts}.svg
+Writes public/static/woodworking/picture-frame-{front,profile,parts}.svg
 Geometry in inches. Reuses the Drawing helper from modern_craftsman_drawings.py.
 Edit the picture size / profile constants and re-run.
 """
@@ -195,7 +195,7 @@ def parts(path):
 
 
 if __name__ == "__main__":
-    out = os.path.join(os.path.dirname(__file__), "..", "..", "static", "static", "woodworking")
+    out = os.path.join(os.path.dirname(__file__), "..", "..", "public", "static", "woodworking")
     os.makedirs(out, exist_ok=True)
     front(os.path.join(out, "picture-frame-front.svg"))
     profile(os.path.join(out, "picture-frame-profile.svg"))

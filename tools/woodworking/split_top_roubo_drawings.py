@@ -3,7 +3,7 @@
 (Benchcrafted-style: Glide leg vise on a Crisscross Retro, plus a tail vise).
 
 Usage: python3 tools/woodworking/split_top_roubo_drawings.py
-Writes static/static/woodworking/roubo-*.svg
+Writes public/static/woodworking/roubo-*.svg
 Inches throughout. x runs along the bench: 0 = the SAW END (flat, no hardware), 87 = the tail-vise end.
 y runs back (0) to front (24). z is height above the floor. Edit the constants and re-run;
 the cut-list numbers printed at the end come from the same constants.
@@ -30,7 +30,7 @@ def frac(v):
     return f"{whole}{'-' if '/' in g else ''}{g}″"
 
 
-OUT = os.path.join(os.path.dirname(__file__), "..", "..", "static", "static", "woodworking")
+OUT = os.path.join(os.path.dirname(__file__), "..", "..", "public", "static", "woodworking")
 
 # ---- from the Benchcrafted split-top preview drawings (stated) --------------
 L, W = 87.0, 24.0                 # overall

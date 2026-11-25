@@ -2,7 +2,7 @@
 """SVG drawings for the Fixed Swoop Plant Hanger plan.
 
 Usage: python3 tools/woodworking/swoop_plant_hanger_drawings.py
-Writes static/static/woodworking/swoop-hanger-{side,templates}.svg and prints
+Writes public/static/woodworking/swoop-hanger-{side,templates}.svg and prints
 the derived numbers the plan page quotes (curve ordinates, loads, grain check).
 Geometry is in inches.
 
@@ -297,7 +297,7 @@ def templates(path):
 
 
 if __name__ == "__main__":
-    out = os.path.join(os.path.dirname(__file__), "..", "..", "static", "static", "woodworking")
+    out = os.path.join(os.path.dirname(__file__), "..", "..", "public", "static", "woodworking")
     os.makedirs(out, exist_ok=True)
     probs = fit_check()
     for p in probs:

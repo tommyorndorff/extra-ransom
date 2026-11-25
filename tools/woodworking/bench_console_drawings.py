@@ -2,7 +2,7 @@
 """True-scale SVGs for the Cherry Console + Slide-Under Chest Bench plan.
 
 Usage: python3 tools/woodworking/bench_console_drawings.py
-Writes static/static/woodworking/bench-console-{front,side,plan,bench,chest-front}.svg
+Writes public/static/woodworking/bench-console-{front,side,plan,bench,chest-front}.svg
 Geometry in inches. Edit the constants and re-run; every label is built from
 them with frac(), so the drawings follow the numbers.
 """
@@ -348,7 +348,7 @@ def chest_front(path):
 
 
 if __name__ == "__main__":
-    out = os.path.join(os.path.dirname(__file__), "..", "..", "static", "static", "woodworking")
+    out = os.path.join(os.path.dirname(__file__), "..", "..", "public", "static", "woodworking")
     os.makedirs(out, exist_ok=True)
     front(os.path.join(out, "bench-console-front.svg"))
     side(os.path.join(out, "bench-console-side.svg"))

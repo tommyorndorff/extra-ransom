@@ -2,7 +2,7 @@
 """SVG drawings for the Plant-Hanger Wall Bracket plan.
 
 Usage: python3 tools/woodworking/plant_hanger_bracket_drawings.py
-Writes static/static/woodworking/plant-hanger-bracket-{side,templates}.svg
+Writes public/static/woodworking/plant-hanger-bracket-{side,templates}.svg
 and prints the derived numbers the plan page quotes (arc radii, template
 ordinates, loads). Geometry is in inches. Side-view coordinates:
 x = out from the backplate's front face, y = up from the arm's top face
@@ -344,7 +344,7 @@ def templates(path):
 
 
 if __name__ == "__main__":
-    out = os.path.join(os.path.dirname(__file__), "..", "..", "static", "static", "woodworking")
+    out = os.path.join(os.path.dirname(__file__), "..", "..", "public", "static", "woodworking")
     os.makedirs(out, exist_ok=True)
     side(os.path.join(out, "plant-hanger-bracket-side.svg"))
     (bw, bh), poly, bx0, by1 = templates(os.path.join(out, "plant-hanger-bracket-templates.svg"))

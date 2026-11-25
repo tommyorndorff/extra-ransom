@@ -2,7 +2,7 @@
 """True-scale SVGs for the Cherry Hallway Console plan (+ drawbore and leg-layout details).
 
 Usage: python3 tools/woodworking/cherry_console_drawings.py
-Writes static/static/woodworking/cherry-console-{front,side,plan,drawbore,legs}.svg
+Writes public/static/woodworking/cherry-console-{front,side,plan,drawbore,legs}.svg
 Geometry in inches. Reuses the Drawing helper from modern_craftsman_drawings.py.
 Every label is built from the constants below with frac(), so edit them and re-run.
 """
@@ -358,7 +358,7 @@ def legs(path):
 
 
 if __name__ == "__main__":
-    out = os.path.join(os.path.dirname(__file__), "..", "..", "static", "static", "woodworking")
+    out = os.path.join(os.path.dirname(__file__), "..", "..", "public", "static", "woodworking")
     os.makedirs(out, exist_ok=True)
     front(os.path.join(out, "cherry-console-front.svg"))
     side(os.path.join(out, "cherry-console-side.svg"))

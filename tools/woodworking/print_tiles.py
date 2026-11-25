@@ -2,7 +2,7 @@
 """Turn a true-scale plan SVG into a tiled, print-at-100% PDF (1 grid square = 1 inch).
 
 Usage:
-  python3 tools/woodworking/print_tiles.py static/static/woodworking/swoop-hanger-templates.svg --ppi 34
+  python3 tools/woodworking/print_tiles.py public/static/woodworking/swoop-hanger-templates.svg --ppi 34
   python3 tools/woodworking/print_tiles.py FILE.svg --ppi 12 --grid --crop 0,60,1080,600 -o out.pdf
 
 --ppi   pixels per inch in the SVG: the `s`/`S`/`K`/`P` constant in the matching

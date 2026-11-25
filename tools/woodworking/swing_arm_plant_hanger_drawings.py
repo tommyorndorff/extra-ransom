@@ -2,7 +2,7 @@
 """SVG drawings for the Swing-Arm Plant Hanger plan.
 
 Usage: python3 tools/woodworking/swing_arm_plant_hanger_drawings.py
-Writes static/static/woodworking/swing-arm-hanger-{side,plan,templates}.svg and
+Writes public/static/woodworking/swing-arm-hanger-{side,plan,templates}.svg and
 prints the derived numbers the plan page quotes (curve ordinates, swing limit,
 clearances, loads). Geometry is in inches.
 
@@ -389,7 +389,7 @@ def templates(path):
 
 
 if __name__ == "__main__":
-    out = os.path.join(os.path.dirname(__file__), "..", "..", "static", "static", "woodworking")
+    out = os.path.join(os.path.dirname(__file__), "..", "..", "public", "static", "woodworking")
     os.makedirs(out, exist_ok=True)
     probs = fit_check()
     for p in probs:

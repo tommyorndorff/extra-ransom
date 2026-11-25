@@ -3,7 +3,7 @@
 a floor stand and a countertop stand, one construction.
 
 Usage: python3 tools/woodworking/water_filter_stand_drawings.py
-Writes static/static/woodworking/water-stand-*.svg
+Writes public/static/woodworking/water-stand-*.svg
 All geometry is in inches, centred on the stand (x = left/right, y = back(-)/front(+),
 z = up from the floor or counter). The spigot faces +y (the front). Edit the
 constants and re-run; the cut-list numbers printed at the end come from the same
@@ -16,7 +16,7 @@ import sys
 sys.path.insert(0, os.path.dirname(__file__))
 from modern_craftsman_drawings import Drawing, frac
 
-OUT = os.path.join(os.path.dirname(__file__), "..", "..", "static", "static", "woodworking")
+OUT = os.path.join(os.path.dirname(__file__), "..", "..", "public", "static", "woodworking")
 
 # ---- shared construction ---------------------------------------------------
 LEG = 1.5                      # legs 1½″ square
