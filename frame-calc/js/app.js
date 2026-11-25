@@ -48,6 +48,51 @@
   function cell(x) { return '<td class="n">' + C.fmt(x) + '<span class="dec">' + C.dec(x) + '</span></td>'; }
   function size(a) { return C.fmt(a.w).replace('″', '') + ' × ' + C.fmt(a.h); }
 
+  // End view of one stick: front face up, rabbet cut into the inside edge at the back.
+  function profile(inp) {
+    var face = inp.face, thick = inp.thick, rabW = inp.rabW, rabD = inp.rabD;
+    var sc = Math.min(250 / face, 170 / thick), W = face * sc, H = thick * sc;
+    var wallPx = (face - rabW) * sc, lipPx = (thick - rabD) * sc;
+    var L = 56, T = 40, vw = Math.round(L + W + 150), vh = Math.round(T + H + 86);
+    var F = C.fmt, n = function (x) { return x.toFixed(1); };
+    var dim = function (x1, y1, x2, y2, col, w) {
+      var h = x1 === x2, tk = function (x, y) {
+        return h ? '<line x1="' + n(x - 4) + '" y1="' + n(y) + '" x2="' + n(x + 4) + '" y2="' + n(y) + '"/>'
+                 : '<line x1="' + n(x) + '" y1="' + n(y - 4) + '" x2="' + n(x) + '" y2="' + n(y + 4) + '"/>';
+      };
+      return '<g stroke="' + col + '" stroke-width="' + w + '"><line x1="' + n(x1) + '" y1="' + n(y1) + '" x2="' + n(x2) + '" y2="' + n(y2) + '"/>' + tk(x1, y1) + tk(x2, y2) + '</g>';
+    };
+    var t = function (x, y, txt, anchor, col, bold, rot) {
+      return '<text x="' + n(x) + '" y="' + n(y) + '" text-anchor="' + anchor + '" fill="' + col + '"' + (bold ? ' font-weight="700"' : '') +
+        (rot ? ' transform="rotate(-90 ' + n(x) + ' ' + n(y) + ')"' : '') + '>' + txt + '</text>';
+    };
+    var red = '#b3261e', k = '#333', xr = L + W + 22;
+    var pts = [[L, T], [L + W, T], [L + W, T + lipPx], [L + wallPx, T + lipPx], [L + wallPx, T + H], [L, T + H]]
+      .map(function (q) { return n(q[0]) + ',' + n(q[1]); }).join(' ');
+    var g = '<svg viewBox="0 0 ' + vw + ' ' + vh + '" role="img" aria-label="Frame stock profile" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="12">' +
+      '<rect width="100%" height="100%" fill="#fff"/>' +
+      '<polygon points="' + pts + '" fill="#e6d3b3" stroke="' + k + '" stroke-width="1.5"/>' +
+      // extension lines
+      '<g stroke="#999" stroke-width="0.8">' +
+      '<line x1="' + n(L + wallPx) + '" y1="' + n(T + H) + '" x2="' + n(L + wallPx) + '" y2="' + n(T + H + 24) + '"/>' +
+      '<line x1="' + n(L + W) + '" y1="' + n(T + lipPx) + '" x2="' + n(L + W) + '" y2="' + n(T + H + 24) + '"/>' +
+      '<line x1="' + n(L) + '" y1="' + n(T + H) + '" x2="' + n(L) + '" y2="' + n(T + H + 24) + '"/></g>' +
+      // face width (top) and thickness (left)
+      dim(L, T - 16, L + W, T - 16, k, 1) + t(L + W / 2, T - 22, 'Stock width ' + F(face), 'middle', k, true) +
+      dim(L - 16, T, L - 16, T + H, k, 1) + t(L - 22, T + H / 2, 'Thickness ' + F(thick), 'middle', k, true, true) +
+      // bottom: wall (the saw setting) then rabbet width
+      dim(L, T + H + 14, L + wallPx, T + H + 14, red, 1.6) + t(L + wallPx / 2, T + H + 30, F(face - rabW), 'middle', red, true) +
+      t(L + wallPx / 2, T + H + 44, '(saw setting)', 'middle', red, false) +
+      dim(L + wallPx, T + H + 54, L + W, T + H + 54, k, 1) + t(L + wallPx + rabW * sc / 2, T + H + 70, 'Rabbet width ' + F(rabW), 'middle', k, true) +
+      // right: lip thickness and rabbet depth
+      dim(xr, T, xr, T + lipPx, k, 1) + t(xr + 8, T + lipPx / 2 + 4, 'Front lip ' + F(thick - rabD), 'start', k, true) +
+      dim(xr, T + lipPx, xr, T + H, k, 1) + t(xr + 8, T + lipPx + (H - lipPx) / 2 + 4, 'Rabbet depth ' + F(rabD), 'start', k, true) +
+      // orientation
+      t(L + wallPx / 2, T + 16, 'front', 'middle', '#7a6a4a', false) +
+      '</svg>';
+    return g;
+  }
+
   function schematic(r) {
     var W = r.outside.w, H = r.outside.h, s = 360 / Math.max(W, H), pad = 10;
     var f = function (x) { return (x * s).toFixed(1); };
@@ -149,7 +194,10 @@
       '<div>Rabbet opening: ' + size(r.rabbetOpen) + '</div>' +
       '<div>Rabbet diagonals (square check): ' + C.fmt(r.diag) + ' (' + C.dec(r.diag) + ')</div>' +
       '<div>Front lip: ' + C.fmt(r.lip) + ' thick</div>' +
-      '<div>Wall behind lip: ' + C.fmt(r.wall) + '</div></div>';
+      '<div>Stock width minus rabbet width (saw setting): <strong>' + C.fmt(r.wall) + '</strong></div></div>';
+
+    h += '<h3>Stock profile (end view)</h3>' + profile(inp) +
+      '<p class="muted">End of one stick, front face up. The rabbet is cut into the inside edge at the back; the glass sits against the underside of the front lip. The rabbet is cut before mitering.</p>';
 
     h += '<h3>Sketch</h3>' + schematic(r);
     h += '<p class="reload">Reload code (paste or open this PDF at extra-ransom.net/frame-calc/): <span class="code">' + C.encodeState(read()) + '</span></p>';
