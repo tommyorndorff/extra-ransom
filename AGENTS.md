@@ -37,7 +37,8 @@ extra-ransom/
 │   ├── eink-frame/           # Cloudflare Worker + D1 API for the e-ink gift frames (wrangler, not CI)
 │   └── rv-temp/              # Cloudflare Worker + D1 for the RV temperature sensor (firmware: tommyorndorff/rv-sensor; not deployed by CI)
 ├── firmware/
-│   └── eink-frame/           # PlatformIO firmware for the frames (FireBeetle 2 ESP32-E + Waveshare 7.5″ V2; not deployed)
+│   ├── eink-frame/           # PlatformIO firmware for the frames (FireBeetle 2 ESP32-E + Waveshare 7.5″ V2; not deployed)
+│   └── ph-ec-meter/          # PlatformIO firmware for the hydroponics pH/EC meter (ESP32 + ADS1115 + OLED; not deployed)
 ├── tools/                    # generators and tests, not deployed
 │   ├── salamanders/photos.py # iNaturalist photo fetch/review/install + credits.js sync
 │   ├── frame-calc/calc.test.js # `node --test tools/frame-calc/calc.test.js` — math tests for the frame calculator
