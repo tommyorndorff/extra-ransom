@@ -1,0 +1,93 @@
+/*
+ * Site palette, type and figure rules ported from the Hugo/Hextra theme
+ * (assets/css/custom.css and layouts/_partials/custom/head-end.html).
+ *
+ * This file is unlayered, so its declarations beat Starlight's
+ * @layer starlight.base rules without extra specificity. Starlight marks
+ * the active theme with data-theme on <html>, so dark/light rules key off
+ * that attribute rather than Hextra's `.dark` class.
+ */
+
+/* Same families and weights as head-end.html. Loaded here via @import so
+ * the port needs no Starlight `head` config. */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600..700&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap");
+
+:root {
+  --sl-font: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  --sl-font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+/* River-water teal accent. Light values come from the Hextra primary
+ * (hsl 174 / 44% / 40%); dark values from the dark-mode primary
+ * (hsl 174 / 37% / 56%) and the hero gradient's light stop. */
+:root[data-theme='light'] {
+  --sl-color-bg: #f6faf9;
+  --sl-color-accent-low: hsl(174, 40%, 90%);
+  --sl-color-accent: hsl(174, 44%, 40%);
+  --sl-color-accent-high: hsl(174, 44%, 26%);
+}
+
+:root[data-theme='dark'] {
+  --sl-color-bg: #0d1917;
+  --sl-color-accent-low: hsl(174, 30%, 16%);
+  --sl-color-accent: hsl(174, 37%, 56%);
+  --sl-color-accent-high: #bfe3de;
+}
+
+/* Explicit page background per scheme, so dark mode never shows the light
+ * color under light text. */
+:root[data-theme='light'] body {
+  background-color: #f6faf9;
+}
+
+:root[data-theme='dark'] body {
+  background-color: #0d1917;
+}
+
+main :is(h1, h2, h3) {
+  font-family: "Fraunces", ui-serif, Georgia, serif;
+}
+
+/* Splash hero headline: gradient text, with per-scheme stops. */
+.hero h1 {
+  font-family: "Fraunces", ui-serif, Georgia, serif;
+  background-image: linear-gradient(120deg, #142420 15%, #3e8e86 85%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+:root[data-theme='dark'] .hero h1 {
+  background-image: linear-gradient(120deg, #bfe3de 10%, #6bb3ab 90%);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero {
+    animation: hero-fade-in 0.6s ease-out both;
+  }
+
+  @keyframes hero-fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Drawings (furniture-plan SVGs, GoAT diagrams) are authored on white, so
+ * they keep a white ground and stay legible when the page is dark. */
+.sl-markdown-content img[src$='.svg'] {
+  background-color: #fff;
+}
+
+/* Starlight already scrolls markdown tables (display: block; overflow: auto);
+ * restated so the small-screen requirement is explicit in this file. */
+.sl-markdown-content table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}

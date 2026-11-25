@@ -120,3 +120,8 @@ __pycache__/
 
 # salamander photo tooling scratch
 .salamander-photos/
+
+# astro-mockup
+astro-mockup/node_modules
+astro-mockup/dist
+astro-mockup/.astro

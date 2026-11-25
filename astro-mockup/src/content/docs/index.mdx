@@ -1,0 +1,40 @@
+---
+title: extra-ransom
+template: splash
+hero:
+  tagline: Workshop notes.
+---
+
+A personal build log — bamboo fly rods, woodworking, coffee roasting, and whatever else ends up on the bench.
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+<CardGrid>
+  <LinkCard title="Build process" description="Splitting culms, planing strips, glue-up, and finishing — the Tom Morgan Hand Mill class notes." href="/docs/rodmaking/morgan-hand-mill/" />
+  <LinkCard title="Rod tapers" description="Taper tables and design tools for planning a blank before you touch a plane." href="/docs/rodmaking/tapers/" />
+  <LinkCard title="Rod Binders" description="Garrison and Smithwick binder references, plus the 3D-printed and design-study builds here." href="/docs/rodmaking/binders/" />
+  <LinkCard title="Rod Builds" description="Per-rod build logs, start to finish." href="/docs/rodmaking/builds/" />
+  <LinkCard title="Woodworking" description="Furniture plans, shop builds, printed tools, and the tools worth knowing about." href="/docs/woodworking/" />
+  <LinkCard title="Coffee roasting" description="Roaster setup, remote logging, and profiles from the other thing I tinker with." href="/docs/coffee-roasting/" />
+  <LinkCard title="Hydroponics" description="A 3D-printed tower in the garage — parts, pump and pot, pH/EC targets, seed starting, and grow-light setup." href="/docs/hydroponics/" />
+  <LinkCard title="Fishing" description="Trip dossiers — Western NC, Colorado, Yellowstone, and the South Carolina coast." href="/docs/fishing/" />
+  <LinkCard title="Miscellany" description="Recipes, a CO2 tank conversion, and whatever else doesn't fit elsewhere." href="/docs/miscellany/" />
+</CardGrid>
+
+## Standalone pages
+
+Self-contained interactive pages that live outside the docs tree.
+
+<CardGrid>
+  <LinkCard title="CaneDNA" description="Bamboo rod taper explorer — browse and overlay 874 attributed tapers, stress curves, and Morgan Hand Mill settings. Runs in the browser (WebAssembly)." href="https://canedna.extra-ransom.net/" />
+  <LinkCard title="Mustang & Company" description="The P-51 and nine other WWII aircraft — anatomy, a working cockpit, escort range, and a filterable hangar." href="/warbirds/" />
+  <LinkCard title="Salamanders of Western North Carolina" description="Hellbenders to pygmy salamanders — taxonomy, ranges, elevation and stream gradients, and conservation status for the world's salamander hotspot." href="/salamanders/" />
+  <LinkCard title="Couch to Turkey Trot" description="A compressed couch-to-5K for Thanksgiving 2026 — a checklist calendar with run/walk intervals and a guided timer." href="/couch-to-5k/" />
+  <LinkCard title="Norway: Huts & Trout" description="A two-week plan for August 7–20, 2027 — Eight DNT hut nights across Rondane and Jotunheimen, with a couple of easy dry-fly evenings on trout rivers." href="/norway/huts/" />
+  <LinkCard title="Norway: Roads & Trout" description="The no-huts version — drive Oslo to Trondheim through fjord country: the Sognefjell pass, Fjærland, Nærøyfjord, Geiranger and Trollstigen." href="/norway/ground/" />
+  <LinkCard title="Picture Frame Calculator" description="Mitered frame member lengths (outside and inside), cut list and mat sizes from the art and stock — prints to a PDF." href="/frame-calc/" />
+</CardGrid>
+
+---
+
+<small>Built with [Astro](https://astro.build) + [Starlight](https://starlight.astro.build) (mockup), hosted on AWS S3 + CloudFront. Source on [GitHub](https://github.com/tommyorndorff/extra-ransom).</small>
