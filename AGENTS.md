@@ -104,7 +104,7 @@ Auth: GitHub OIDC (IAM role trust), not access-key secrets. See `README.md` and 
 
 ## Known Limitations
 
-- Action versions are tag-pinned (`@v4`), not SHA-pinned.
+- GitHub Actions are pinned to full commit SHAs (version in a trailing comment) as a supply-chain precaution. To bump one, resolve the tag with `git ls-remote --tags https://github.com/<owner>/<repo>.git 'refs/tags/<tag>*'` (use the `^{}` line for annotated tags) and update both the SHA and the comment.
 - Diagrams are static SVGs; changing one means editing/regenerating the SVG by hand.
 - Link validation covers Starlight pages only; links inside standalone pages are covered only by the lychee jobs.
 - Markdown links into `/static/...` assets are not validated (excluded), so a typo'd asset path is only caught by lychee.
