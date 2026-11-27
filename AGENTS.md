@@ -63,6 +63,7 @@ npm ci            # install (use `npm install` when changing dependencies)
 npm run dev       # dev server -> http://localhost:4321
 npm run build     # production build -> dist/ (Pagefind index + link validation)
 npm run preview   # serve dist/ locally
+make serve        # build, then preview (same as the two lines above); `make run` is an alias
 ```
 
 `dist/`, `.astro/` and `node_modules/` are git-ignored; `public/` is source and is tracked.
