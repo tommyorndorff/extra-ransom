@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 730" width="1000" height="730" role="img" aria-label="Floor water-filter stand, front and side elevations">
-<title>Floor water-filter stand, front and side elevations</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 842" width="1000" height="842" role="img" aria-label="Floor stand, front and side elevations">
+<title>Floor stand, front and side elevations</title>
 <style>
   .bg{fill:#fff}
   .wood{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
@@ -26,89 +26,67 @@
 <style>
   .post{fill:#dcb988;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
   .ap{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
-  .plate{fill:#f3dfbf;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
   .shelfp{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
-  .cleat{fill:#cfa972;stroke:#4a3320;stroke-width:1.1}
   .ghost{fill:#eef1f4;fill-opacity:.55;stroke:#6b7885;stroke-width:1.2;stroke-dasharray:6 4}
   .cup{fill:none;stroke:#b0452b;stroke-width:1.2;stroke-dasharray:3 3}
   .ctr{stroke:#999;stroke-width:.8;stroke-dasharray:10 3 2 3}
   .cut{fill:#fff;stroke:#4a3320;stroke-width:1.3}
 </style>
-<rect class="bg" width="1000" height="730"/>
-<text class="h" x="20.0" y="26.0" text-anchor="start">Floor stand — front and side elevations (1 in = 11 px)</text>
-<line class="floor" x1="129.0" y1="576.0" x2="874.0" y2="576.0"/>
-<text class="h" x="250.0" y="64.0" text-anchor="middle">FRONT (spigot side)</text>
-<rect class="ghost" x="203.25" y="100.25" width="93.50" height="211.75"/>
-<text class="n" x="250.0" y="206.1" text-anchor="middle">Big Berkey</text>
-<text class="n" x="250.0" y="220.1" text-anchor="middle">8½″ × 19¼″</text>
-<rect class="ap" x="173.00" y="482.50" width="154.00" height="22.00"/>
-<rect class="shelfp" x="173.00" y="474.25" width="154.00" height="8.25"/>
-<rect class="ap" x="186.75" y="303.75" width="126.50" height="33.00"/>
-<polygon class="post" points="170.2,270.8 186.8,270.8 186.8,510.0 181.2,576.0 170.2,576.0"/>
-<polygon class="post" points="329.8,270.8 313.2,270.8 313.2,510.0 318.8,576.0 329.8,576.0"/>
-<rect class="cup" x="231.85" y="391.75" width="36.30" height="82.50"/>
-<text class="n" x="250.0" y="385.8" text-anchor="middle">cup under spigot</text>
-<line class="ctr" x1="250.0" y1="584.0" x2="250.0" y2="92.2"/>
-<line class="ext" x1="375.8" y1="270.8" x2="333.8" y2="270.8"/>
-<line class="ext" x1="375.8" y1="576.0" x2="333.8" y2="576.0"/>
-<line class="dim" x1="375.8" y1="270.8" x2="375.8" y2="576.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(389.8,423.4) rotate(-90)" text-anchor="middle">27¾″ leg length</text>
-<line class="ext" x1="409.8" y1="312.0" x2="333.8" y2="312.0"/>
-<line class="ext" x1="409.8" y1="576.0" x2="333.8" y2="576.0"/>
-<line class="dim" x1="409.8" y1="312.0" x2="409.8" y2="576.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(423.8,444.0) rotate(-90)" text-anchor="middle">24″ to plate top</text>
-<line class="ext" x1="124.2" y1="303.8" x2="166.2" y2="303.8"/>
-<line class="ext" x1="124.2" y1="336.8" x2="166.2" y2="336.8"/>
-<line class="dim" x1="124.2" y1="303.8" x2="124.2" y2="336.8" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(118.2,320.2) rotate(-90)" text-anchor="middle">3″</text>
-<line class="ext" x1="124.2" y1="474.2" x2="166.2" y2="474.2"/>
-<line class="ext" x1="124.2" y1="576.0" x2="166.2" y2="576.0"/>
-<line class="dim" x1="124.2" y1="474.2" x2="124.2" y2="576.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(118.2,525.1) rotate(-90)" text-anchor="middle">9¼″ shelf top</text>
-<line class="ext" x1="90.2" y1="270.8" x2="166.2" y2="270.8"/>
-<line class="ext" x1="90.2" y1="303.8" x2="166.2" y2="303.8"/>
-<line class="dim" x1="90.2" y1="270.8" x2="90.2" y2="303.8" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(84.2,287.2) rotate(-90)" text-anchor="middle">3″ post</text>
-<line class="ext" x1="170.2" y1="606.0" x2="170.2" y2="576.0"/>
-<line class="ext" x1="329.8" y1="606.0" x2="329.8" y2="576.0"/>
-<line class="dim" x1="170.2" y1="606.0" x2="329.8" y2="606.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" x="250.0" y="621.0" text-anchor="middle">14½″ outside legs</text>
-<line class="ext" x1="186.8" y1="636.0" x2="186.8" y2="576.0"/>
-<line class="ext" x1="313.2" y1="636.0" x2="313.2" y2="576.0"/>
-<line class="dim" x1="186.8" y1="636.0" x2="313.2" y2="636.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" x="250.0" y="651.0" text-anchor="middle">11½″ between legs</text>
-<line class="dim" x1="170.2" y1="588.0" x2="181.2" y2="588.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" x="175.8" y="583.0" text-anchor="middle"></text>
-<text class="n" x="250.0" y="668.0" text-anchor="middle">foot 1″ sq.</text>
-<text class="h" x="720.0" y="64.0" text-anchor="middle">SIDE (front on the right)</text>
-<rect class="ghost" x="673.25" y="100.25" width="93.50" height="211.75"/>
-<rect class="ghost" x="766.75" y="279.00" width="28.60" height="8.80"/>
-<line class="ext" x1="781.0" y1="283.4" x2="821.8" y2="235.0"/>
-<text class="n" x="824.8" y="239.0" text-anchor="start">spigot (est. 2⅝″ out)</text>
-<rect class="shelfp" x="643.00" y="474.25" width="181.50" height="8.25"/>
-<rect class="ap" x="656.64" y="482.50" width="126.72" height="22.00"/>
-<rect class="ap" x="656.75" y="303.75" width="126.50" height="33.00"/>
-<polygon class="post" points="640.2,270.8 656.8,270.8 656.8,510.0 651.2,576.0 640.2,576.0"/>
-<polygon class="post" points="799.8,270.8 783.2,270.8 783.2,510.0 788.8,576.0 799.8,576.0"/>
-<rect class="cup" x="772.80" y="391.75" width="36.30" height="82.50"/>
-<line class="ctr" x1="791.0" y1="379.8" x2="791.0" y2="474.2"/>
-<text class="n" x="799.0" y="387.8" text-anchor="start">cup centre</text>
-<line class="ext" x1="643.0" y1="606.0" x2="643.0" y2="504.5"/>
-<line class="ext" x1="824.5" y1="606.0" x2="824.5" y2="504.5"/>
-<line class="dim" x1="643.0" y1="606.0" x2="824.5" y2="606.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" x="733.8" y="621.0" text-anchor="middle">16½″ shelf depth</text>
-<line class="ext" x1="640.2" y1="636.0" x2="640.2" y2="576.0"/>
-<line class="ext" x1="799.8" y1="636.0" x2="799.8" y2="576.0"/>
-<line class="dim" x1="640.2" y1="636.0" x2="799.8" y2="636.0" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" x="720.0" y="651.0" text-anchor="middle">14½″ outside legs</text>
-<line class="ext" x1="870.5" y1="482.5" x2="787.2" y2="482.5"/>
-<line class="ext" x1="870.5" y1="504.5" x2="787.2" y2="504.5"/>
-<line class="dim" x1="870.5" y1="482.5" x2="870.5" y2="504.5" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(884.5,493.5) rotate(-90)" text-anchor="middle">2″ rail</text>
-<line class="ext" x1="904.5" y1="312.0" x2="828.5" y2="312.0"/>
-<line class="ext" x1="904.5" y1="474.2" x2="828.5" y2="474.2"/>
-<line class="dim" x1="904.5" y1="312.0" x2="904.5" y2="474.2" marker-start="url(#a)" marker-end="url(#a)"/>
-<text class="t" transform="translate(918.5,393.1) rotate(-90)" text-anchor="middle">14¾″ shelf→plate</text>
-<text class="n" x="725.5" y="342.0" text-anchor="middle"></text>
-<text class="n" x="20.0" y="712.0" text-anchor="start">Dashed grey = a Big Berkey (8½″ × 19¼″) for scale. Dashed red = a 30 oz tumbler on the shelf. Plate top is 24″ above the floor; apron tops are ¾″ higher and retain the filter.</text>
+<rect class="bg" width="1000" height="842"/>
+<text class="h" x="20.0" y="26.0" text-anchor="start">Floor stand — front and side elevations (1 in = 10 px)</text>
+<line class="floor" x1="120.0" y1="657.5" x2="850.0" y2="657.5"/>
+<text class="h" x="250.0" y="72.0" text-anchor="middle">FRONT (shelf corner at the left)</text>
+<rect class="shelfp" x="160.00" y="427.50" width="83.75" height="7.50"/>
+<rect class="ap" x="201.25" y="320.00" width="97.50" height="25.00"/>
+<rect class="post" x="243.75" y="300.00" width="12.50" height="357.50"/>
+<polygon class="post" points="181.2,300.0 201.2,300.0 201.2,345.0 192.5,657.5 181.2,657.5"/>
+<polygon class="post" points="318.8,300.0 298.8,300.0 298.8,345.0 307.5,657.5 318.8,657.5"/>
+<rect class="ghost" x="202.50" y="90.00" width="95.00" height="230.00"/>
+<rect class="cup" x="184.36" y="352.50" width="33.00" height="75.00"/>
+<text class="n" x="250.0" y="205.0" text-anchor="middle">BOROUX 3-gal</text>
+<text class="n" x="250.0" y="219.0" text-anchor="middle">base ⌀9½″ × 23″</text>
+<text class="h" x="720.0" y="72.0" text-anchor="middle">SIDE (shelf corner at the right)</text>
+<rect class="shelfp" x="726.25" y="427.50" width="83.75" height="7.50"/>
+<rect class="ap" x="671.25" y="320.00" width="97.50" height="25.00"/>
+<rect class="post" x="713.75" y="300.00" width="12.50" height="357.50"/>
+<polygon class="post" points="651.2,300.0 671.2,300.0 671.2,345.0 662.5,657.5 651.2,657.5"/>
+<polygon class="post" points="788.8,300.0 768.8,300.0 768.8,345.0 777.5,657.5 788.8,657.5"/>
+<rect class="ghost" x="672.50" y="90.00" width="95.00" height="230.00"/>
+<rect class="cup" x="752.64" y="352.50" width="33.00" height="75.00"/>
+<text class="n" x="720.0" y="205.0" text-anchor="middle">BOROUX 3-gal</text>
+<text class="n" x="720.0" y="219.0" text-anchor="middle">base ⌀9½″ × 23″</text>
+<line class="ext" x1="358.8" y1="300.0" x2="322.8" y2="300.0"/>
+<line class="ext" x1="358.8" y1="657.5" x2="322.8" y2="657.5"/>
+<line class="dim" x1="358.8" y1="300.0" x2="358.8" y2="657.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(372.8,478.8) rotate(-90)" text-anchor="middle">35¾″ legs</text>
+<line class="ext" x1="394.8" y1="320.0" x2="302.8" y2="320.0"/>
+<line class="ext" x1="394.8" y1="657.5" x2="302.8" y2="657.5"/>
+<line class="dim" x1="394.8" y1="320.0" x2="394.8" y2="657.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(408.8,488.8) rotate(-90)" text-anchor="middle">33¾″ X top</text>
+<line class="ext" x1="141.2" y1="320.0" x2="197.2" y2="320.0"/>
+<line class="ext" x1="141.2" y1="345.0" x2="197.2" y2="345.0"/>
+<line class="dim" x1="141.2" y1="320.0" x2="141.2" y2="345.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(135.2,332.5) rotate(-90)" text-anchor="middle">2½″ bar</text>
+<line class="ext" x1="105.2" y1="300.0" x2="197.2" y2="300.0"/>
+<line class="ext" x1="105.2" y1="320.0" x2="197.2" y2="320.0"/>
+<line class="dim" x1="105.2" y1="300.0" x2="105.2" y2="320.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(99.2,310.0) rotate(-90)" text-anchor="middle">2″ post</text>
+<line class="ext" x1="69.2" y1="427.5" x2="177.2" y2="427.5"/>
+<line class="ext" x1="69.2" y1="657.5" x2="177.2" y2="657.5"/>
+<line class="dim" x1="69.2" y1="427.5" x2="69.2" y2="657.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(63.2,542.5) rotate(-90)" text-anchor="middle">23″ shelf top</text>
+<line class="ext" x1="181.2" y1="687.5" x2="181.2" y2="657.5"/>
+<line class="ext" x1="318.8" y1="687.5" x2="318.8" y2="657.5"/>
+<line class="dim" x1="181.2" y1="687.5" x2="318.8" y2="687.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="250.0" y="702.5" text-anchor="middle">13¾″ outside (the legs are vertical)</text>
+<line class="ext" x1="192.5" y1="717.5" x2="192.5" y2="657.5"/>
+<line class="ext" x1="307.5" y1="717.5" x2="307.5" y2="657.5"/>
+<line class="dim" x1="192.5" y1="717.5" x2="307.5" y2="717.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="250.0" y="732.5" text-anchor="middle">11½″ between legs at the feet</text>
+<line class="ext" x1="201.2" y1="747.5" x2="201.2" y2="657.5"/>
+<line class="ext" x1="298.8" y1="747.5" x2="298.8" y2="657.5"/>
+<line class="dim" x1="201.2" y1="747.5" x2="298.8" y2="747.5" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" x="250.0" y="762.5" text-anchor="middle">9¾″ between legs at the tops</text>
+<text class="n" x="20.0" y="808.0" text-anchor="start">Dashed grey = a BOROUX 3-Gallon (base ⌀9½″, 23″ tall) sitting on the X. Dashed red = a 30 oz tumbler on the shelf.</text>
+<text class="n" x="20.0" y="824.0" text-anchor="start">The legs are vertical and 2″ wide at the top; the inside face is plumb to the X, then tapers outward to 1⅛″ at the foot. The cup stands in the corner, in front of or behind the X, not under it.</text>
 </svg>

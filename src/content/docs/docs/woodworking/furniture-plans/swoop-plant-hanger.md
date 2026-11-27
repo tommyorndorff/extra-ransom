@@ -1,11 +1,11 @@
 ---
-title: Fixed Swoop Plant Hanger (Proposed)
+title: Fixed Swoop Plant Hanger
 weight: 92
 sidebar:
   order: 92
 ---
 
-A **proposed** build: the [swing-arm plant hanger](/docs/woodworking/furniture-plans/swing-arm-plant-hanger/) with the swing taken out. It keeps the **backplate** and the same **band-sawn swoop arm**, but the arm is Domino'd straight to the backplate's face. There is no leg, no knuckle blocks and no pivot hardware, so the only metal is the wall screws and the eye bolt. Joinery is **Festool Domino** and shaping is **band saw and table saw**; no drill press is needed.
+A **built** design (made a couple of times): the [swing-arm plant hanger](/docs/woodworking/furniture-plans/swing-arm-plant-hanger/) with the swing taken out. It keeps the **backplate** and the same **band-sawn swoop arm**, but the arm is Domino'd straight to the backplate's face. There is no leg, no knuckle blocks and no pivot hardware, so the only metal is the wall screws and the eye bolt. Joinery is **Festool Domino** and shaping is **band saw and table saw**; no drill press is needed.
 
 If you want a plainer fixed bracket with a brace instead of a swoop, see the [plant-hanger wall bracket](/docs/woodworking/furniture-plans/plant-hanger-bracket/).
 
