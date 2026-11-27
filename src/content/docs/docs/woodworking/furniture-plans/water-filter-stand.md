@@ -5,166 +5,185 @@ sidebar:
   order: 70
 ---
 
-A **proposed** build: a hardwood stand for a gravity-fed stainless water filter (Berkey, British Berkefeld or anything of that size). It comes in two heights from **one construction**: a **floor stand** with a shelf for a tumbler or pitcher under the spigot, and a **countertop stand** that lifts the filter just high enough to get a glass under it. Everything is square stock, mortise-and-tenon and table-saw cuts, with no turning, no compound angles and no curves.
+A **proposed** build: a hardwood stand for a gravity-fed stainless water filter, sized for a **BOROUX 3-Gallon** and modelled on the [BOROUX teak floor stand](https://boroux.com/products/teak-wood-floor-stand) ([archived](https://web.archive.org/web/2024/https://boroux.com/products/teak-wood-floor-stand)). It still takes a Berkey, British Berkefeld or anything of that size. It comes in two heights from **one construction**: a **floor stand** with a small shelf for a tumbler under the spigot, and a **countertop stand** that lifts the filter just high enough to get a glass under it. Everything is milled stock, table-saw and band-saw cuts, **Festool Domino** joints and a half-lap: no turning and no compound angles.
 
-The look comes from your two reference photos: **four legs that rise past the platform as posts** to keep the filter from walking off (the cherry stand), and a **plain four-leg frame with the filter sitting down inside it** (the ceramic-crock stand). The shelf for a tumbler is borrowed from the cherry one too.
+**How it works.** Four **vertical** legs stand at the compass points, in the style of the oak Berkey stands. Each leg is 2″ wide at the top and **narrows to 1⅛″ at the foot**: its outside edge is plumb and its **inside face is plumb down to the bottom of the X, then tapers outward**, so the gap between the legs opens toward the floor. A cross member is **Domino'd** square into each pair's plumb inside faces, and the two cross members **half-lap into an X**. The filter's base ring **drops between the four legs and sits on the X**, with the legs standing 2″ above it as short posts. A small corner shelf sits between two of the legs, under the spigot; the Berkey photo has none, so leave it out if you want the plainer, more elegant stand.
 
-> **Provenance of the numbers.** **(stated)** = from you: a floor stand for a Berkey-sized filter, a countertop version too, built on a table saw. **(maker)** = the filter makers' published sizes, rounded; sources disagree by up to an inch, so **measure your own filter before cutting** (see *Fit*). **(chosen)** = a design decision of mine. **(derived)** = worked out from those so everything closes. **(est.)** = a guess I couldn't verify (spigot reach, weight), flagged in *Open questions*. The drawings come from `tools/woodworking/water_filter_stand_drawings.py`; change a constant there and the SVGs and cut-list numbers move together.
+> **Provenance of the numbers.** **(maker)** = BOROUX's published figures for its stand, or a filter maker's published sizes, rounded; sources disagree by up to an inch, so **measure your own filter before cutting** (see *Fit*). **(derived)** = worked out from those so everything closes. **(chosen)** = a design decision of mine. **(est.)** = a guess I couldn't verify (spigot height and reach, weight, how BOROUX joins its legs), flagged in *Open questions*. The drawings come from `tools/woodworking/water_filter_stand_drawings.py`; change a constant there and the SVGs and the numbers it prints move together (the tables on this page are written by hand).
 
 ## Renderings
 
-Concept views drawn from the plan dimensions (a Big Berkey is shown). They are illustrations, not photographs. Click any figure to open it full size.
+Concept views drawn from the plan dimensions (a BOROUX 3-Gallon is shown, 23″ tall on the X). They are illustrations, not photographs. Click any figure to open it full size.
 
 **Floor stand**
 
-[![Three-quarter concept view of the floor stand: four tapered legs rising past a square apron frame, a Big Berkey on the plate, a tumbler on the shelf under the spigot](/static/woodworking/water-stand-floor-render.svg)](/static/woodworking/water-stand-floor-render.svg)
+[![Three-quarter concept view of the floor stand: four vertical legs at the compass points, a BOROUX 3-Gallon sitting on the X between them, a corner shelf with a tumbler under the spigot](/static/woodworking/water-stand-floor-render.svg)](/static/woodworking/water-stand-floor-render.svg)
 
 **Countertop stand**
 
-[![Three-quarter concept view of the countertop stand: a low four-post frame, open at the front, with a tumbler standing on the counter under the spigot](/static/woodworking/water-stand-counter-render.svg)](/static/woodworking/water-stand-counter-render.svg)
+[![Three-quarter concept view of the countertop stand: the same four vertical legs and an X at 8 inches, with a tumbler standing on the counter under the spigot](/static/woodworking/water-stand-counter-render.svg)](/static/woodworking/water-stand-counter-render.svg)
 
-## Design in one paragraph
+## Height: what the BOROUX diagram says
 
-Four **1½″ square legs** sit **14½″ apart outside** (11½″ between). A **¾″ × 3″ apron** is tenoned between them, with its top edge **¾″ proud of a drop-in plate**, so the filter sits in a shallow tray whose walls are the aprons and whose four corners are the legs, which stand **3″ above the aprons** as posts. Under the plate the aprons carry ¾″ cleats. A **lower rail** frame at the floor stand's **6½–8½″** height supports a ¾″ **shelf** that reaches **9½″ to the front**, so a tumbler can stand directly under the spigot. The countertop stand is the same top frame on **8″** legs with **no front apron**, so the cup can sit on the counter in front of the stand.
+BOROUX publishes a dimensioned diagram and a spec table for its teak stand. These are the **(maker)** figures; the right column says what this plan does with each.
 
-The feet taper on their two inside faces from 1½″ to 1″, which is the only shaped cut on the legs.
+| BOROUX figure | Value | This plan |
+|---|---|---|
+| Stand height | **39″** | **35¾″** legs (33¾″ X top + 2″ post) |
+| Top shelf (filter base) above the floor | **33¾″** | **33¾″** top of the X |
+| Lower shelf above the floor | **23″** | **23″** shelf top |
+| Between the shelves | **10¾″** | **10¾″** (33¾ − 23) |
+| Legs above the top shelf | 5¼″ (39 − 33¾) | **2″** above the X (**chosen**: the Berkey oak-stand photo shows only a short post) |
+| Cross-piece height | about 2½″ (**est.**, scaled off the diagram) | **2½″** (**chosen**) |
+| 3-Gallon on the stand, overall | **56¾″** | **56¾″**, so the filter is 23″ tall (**derived**: 56¾ − 33¾) |
+| 1.8-Gallon on the stand, overall | **51¼″** | 17½″ tall (**derived**) |
+| Spigot height | **34″** ("so any glass, pitcher or tall tumbler fills effortlessly") | nozzle underside at **34″**, ¼″ above the X (**maker**; its reach, about 2⅝″, is **est.**) |
+| Base / top footprint | **20¾″** OD base, **12″** OD top, **9½″** between legs at the top | **13¾″** outside, **vertical legs**; **9¾″** between at the tops (¼″ more than BOROUX's gap), **11½″** at the feet (**chosen**; BOROUX splays its legs, the Berkey stand does not) |
+| Leg shape | tapered: about 1¼″ wide at the top, about 2¾″ at the foot (BOROUX diagram) | **2″** at the top, **1⅛″** at the foot; outside edge plumb, inside face plumb down to 31¼″ then tapering outward (the Berkey oak-stand photo; **est.** from the picture) |
+| Capacity / weight | supports **50 lb**; stand weighs 11 lb | designed for the same ~35 lb full filter (**est.**) |
+| Filter base it accepts | **9½″ diameter or less** (3-Gallon, 1.8-Gallon, Travel / Big / Royal Berkey) | ⅛″ of slack each side, so a 9½″ base fits |
+| Assembly | two interlocking leg sets with cross pieces; a lower shelf on **4 black bolts** and an allen wrench | **Festool Domino** joints: bars into the legs, shelf into two legs; the two leg frames lock at a half-lap (a bolted shelf instead would let it **knock down**) |
+
+[![Height comparison: the BOROUX stand and this plan's floor stand, BOROUX's splayed 39-inch legs against this plan's vertical 35¾-inch legs, both with a 3-gallon filter on a 33¾-inch X or shelf, against a 36-inch counter line and a 54-inch wall-cabinet line](/static/woodworking/water-stand-heights.svg)](/static/woodworking/water-stand-heights.svg)
+
+What the diagram sets:
+
+- **The stand is much taller.** BOROUX puts the filter base at **33¾″** and the shelf at **23″**. The shelf is then roughly hip height, so a pitcher or tumbler comes up to you instead of you bending to a shelf at 9″, and the spigot sits near counter height. The cost is a taller object: a full 3-Gallon is **56¾″ overall**.
+- **Counter and cabinet check.** The diagram draws a **36″ counter** with **18″** to the wall cabinet, a **54″** underside. The 1.8-Gallon (51¼″) fits under that; the **3-Gallon at 56¾″ does not**, by 2¾″. This stand therefore belongs in the open, as BOROUX intends ("kitchen corner, pantry, living room, home office"). **Neither stand fits under a standard wall cabinet with the 3-Gallon**: the floor stand is 56¾″ tall, and the countertop stand puts a 31″ filter on a 36″ counter, so it reaches 67″.
+- **The lid is at 56¾″.** If you refill by pouring from a pitcher, that is above many people's shoulder. To lower it, change `F_BAR_TOP`, `F_H` and `F_SHELF_TOP` in the script; the drawings follow, but the numbers on this page need updating by hand. An X at 24″ puts a 3-Gallon at 47″.
+- **Open space under the spigot is about 11″**, from the 23″ shelf to a nozzle underside at 34″ (BOROUX's own figure). Nothing crosses the cup: the spigot faces a corner between two legs, where there is no cross member (the X runs along the legs' axes, not the diagonals).
+- **There is no "front", only a corner.** With legs at the compass points, the spigot points at the open diagonal and the shelf fills that corner.
+- **The filter nests between plumb faces.** The legs' inside faces are vertical from the top down to the bottom of the X, so the gap is **9¾″ everywhere the filter touches**, from the X up through the 2″ posts. A 9½″ base slips in and is centred, with ⅛″ to spare.
+- **The joints stay square.** The legs are vertical and only the inside edge is tapered, so the bars butt a **plumb** face with **square** ends, the Dominos register off flat, square surfaces, and the top and the foot of every leg are cut square. BOROUX's diagram shows its plumb face ending at the *top* of the bar and the bar ends following a sloped face; carrying the plumb face to the *bottom* of the X is **my simplification** (**chosen**).
 
 ## Fit: which filters this takes
 
-The frame's opening (between the aprons) is **12½″ square**; the plate is 12⅜″. Filter sizes are the makers' published figures, rounded (the Berkey site gives its own sizes, and retailers disagree by about an inch on height).
+The legs' inside faces are **9¾″ apart** from the top of the legs down to the bottom of the X, which is the tight spot. A filter's lowest section has to fit there. Filter sizes are the makers' published figures, rounded (the Berkey site gives its own sizes, and retailers disagree by about an inch on height). BOROUX heights are read from its diagram (overall height on the stand minus the 33¾″ shelf), not from a filter spec.
 
-| Filter | Dia. | Height | Gap to apron, each side | Total height, floor stand | Total height, countertop |
+| Filter | Base dia. | Height | Slack each side | Total height, floor stand | Total height, countertop |
 |---|---|---|---|---|---|
-| Travel Berkey (1.5 gal) | 7½″ | 18″ | 2½″ | 42″ | 26″ |
-| **Big Berkey (2.25 gal)** | 8½″ | 19¼″ | 2″ | 43¼″ | 27¼″ |
-| Royal Berkey (3.25 gal) | 9½″ | 23″ | 1½″ | 47″ | 31″ |
-| Imperial Berkey (4.5 gal) | 10″ | 26″ | 1¼″ | 50″ | 34″ |
-| British Berkefeld stainless 8.5 L (~2.25 gal) | 10¼″ (260 mm; Doulton lists 224 mm) | ~19¼″ | 1⅛″ | 43⅜″ | 27⅜″ |
-| British Berkefeld stainless 12 L | 9¾″ (246 mm) | ~23¾″ | 1⅜″ | 47¾″ | 31¾″ |
-| Crown Berkey (6 gal) | 11″ | 30″ | ¾″ | 54″ | 38″ |
+| BOROUX 1.8-Gallon | 9½″ | 17½″ (derived) | ⅛″ | 51¼″ | 25½″ |
+| **BOROUX 3-Gallon** | 9½″ (body not published; measure) | 23″ (derived) | ⅛″ | **56¾″** | **31″** |
+| Travel Berkey (1.5 gal) | 7½″ | 18″ | 1⅛″ | 51¾″ | 26″ |
+| Big Berkey (2.25 gal) | 8½″ | 19¼″ | ⅝″ | 53″ | 27¼″ |
+| Royal Berkey (3.25 gal) | 9½″ | 23″ | ⅛″ | 56¾″ | 31″ |
+| Imperial Berkey (4.5 gal) | 10″ | 26″ | **does not fit** | 59¾″ | 34″ |
+| British Berkefeld stainless 8.5 L (~2.25 gal) | 10¼″ (260 mm; Doulton lists 224 mm) | ~19¼″ | **does not fit** | 53″ | 27¼″ |
+| British Berkefeld stainless 12 L | 9¾″ (246 mm) | ~23¾″ | 0 (no slack) | 57½″ | 31¾″ |
+| Crown Berkey (6 gal) | 11″ | 30″ | **does not fit** | 63¾″ | 38″ |
 
-- **Up to the Royal / British Berkefeld 12 L** fits as drawn. **Crown and Imperial** are tight on width and very tall on the floor stand: widen the frame by 1″ (move the legs out ½″ each way: `IN_HALF = 6.25`) and, for the floor stand, drop the plate height to 20″ so the top lid stays under about 50″. The black base ring on a Berkey flares about ¼″ wider than the body, so check that too.
-- **Why the 1″+ gap matters:** the filter should drop in without scraping, and the base ring and spigot need room. The posts, not the gap, keep it from walking, so a loose fit is fine.
+- **Up to the BOROUX 3-Gallon, Royal Berkey and the Travel and Big Berkeys** fit as drawn. The Berkefeld 12 L has no slack: widen a little. For **Imperial, Crown or the 8.5 L Berkefeld**, set `GAP` in the script to the filter's base plus ¼″ and re-run. That widens the tops, the feet and the bars (the shelf stays fixed, so check that the cup still lands on it; the script asserts this), so re-read every number it prints. The Crown and Imperial also go to 60–64″ tall on the floor stand: drop the X to about 24″ (`F_BAR_TOP`).
+- **The BOROUX 3-Gallon's body is wider than its base.** BOROUX publishes only the 9½″ base limit; the width above the base ring is not given. The legs stand **2″ above the X**, so the filter's lowest 2″ must fit between them; above that nothing constrains it. Measure the lowest 2″ of yours.
+- **Why the ¼″ matters:** the filter should drop in without scraping and the base ring needs room. The legs, not the gap, keep it from walking, so a loose fit is fine.
 
 ## Drawings (true scale)
 
 **Floor stand — front and side**
 
-[![Front and side elevations of the floor stand with every height and width dimensioned; a dashed Big Berkey and a dashed tumbler show the fit](/static/woodworking/water-stand-floor-elevations.svg)](/static/woodworking/water-stand-floor-elevations.svg)
+[![Front and side elevations of the floor stand: one leg pair face-on and the other edge-on, the X, the corner shelf, and a dashed BOROUX 3-Gallon and tumbler, with heights and widths dimensioned](/static/woodworking/water-stand-floor-elevations.svg)](/static/woodworking/water-stand-floor-elevations.svg)
 
 **Floor stand — plan**
 
-[![Plan of the floor stand: legs, aprons, the plate with clipped corners, cleats, the shelf with its leg notches and front tongue, and the filter and cup circles](/static/woodworking/water-stand-floor-plan.svg)](/static/woodworking/water-stand-floor-plan.svg)
+[![Plan of the floor stand: four legs at the compass points, the half-lapped X, the filter ring on it, the corner shelf, the spigot pointing at the cup](/static/woodworking/water-stand-floor-plan.svg)](/static/woodworking/water-stand-floor-plan.svg)
 
 **Floor stand — parts and joinery**
 
-[![Leg with mortise positions and taper, the leg section showing the two mortises that stop short of each other, apron and rail tenons, plate, cleat and shelf with dimensions](/static/woodworking/water-stand-floor-parts.svg)](/static/woodworking/water-stand-floor-parts.svg)
+[![Vertical leg outline with its plumb inside face, the taper below the X, and the Domino mortises, the leg section, the two cross members with their Domino mortises and half-lap notches, and the corner shelf](/static/woodworking/water-stand-floor-parts.svg)](/static/woodworking/water-stand-floor-parts.svg)
 
 **Countertop stand — front and side**
 
-[![Front and side elevations of the countertop stand: the same legs and aprons at 8-inch height with an open front](/static/woodworking/water-stand-counter-elevations.svg)](/static/woodworking/water-stand-counter-elevations.svg)
+[![Front and side elevations of the countertop stand: the same vertical legs and an X at 8 inches (legs 10 inches) with a tumbler on the counter](/static/woodworking/water-stand-counter-elevations.svg)](/static/woodworking/water-stand-counter-elevations.svg)
 
 **Countertop stand — plan**
 
-[![Plan of the countertop stand: three aprons and an open front, the plate on its cleats, filter and cup](/static/woodworking/water-stand-counter-plan.svg)](/static/woodworking/water-stand-counter-plan.svg)
+[![Plan of the countertop stand: four legs, the X, the filter ring and the cup on the counter](/static/woodworking/water-stand-counter-plan.svg)](/static/woodworking/water-stand-counter-plan.svg)
 
 ## The numbers
 
 | Item | Floor stand | Countertop stand |
 |---|---|---|
-| Leg | 1½″ square × **27¾″** | 1½″ square × **11¼″** |
-| Outside / between legs | **14½″ / 11½″** (chosen) | same |
-| Plate top above floor/counter | **24″** (chosen) | **8″** (chosen) |
-| Apron top (¾″ above the plate) | **24¾″** | **8¾″** |
-| Apron | ¾″ × **3″** (underside at 21¾″) | ¾″ × **2½″** (underside at 6¼″); **no front apron** |
-| Posts above the apron top | **3″** | **2½″** |
-| Lower rails / shelf top | rails 6½–8½″, shelf top **9¼″** | none |
-| Under the spigot | shelf 9¼″ to the front apron's underside 21¾″ = **12½″** clear | **8″** plate + the spigot's height on the filter (est. 2″) = about **9½″** clear |
-| Foot | tapers to 1″ square from 6″ up | tapers to 1″ square from 5½″ up |
-| Inside faces are in | 5¾″ from the centre | same |
+| Leg height (vertical) | **35¾″** | **10″** |
+| Leg width at the top / at the foot | **2″ / 1⅛″** | **2″ / 1⅞″** |
+| Leg thickness | **1¼″** | **1¼″** |
+| Outside, all the way down | **13¾″** (the legs are vertical) | **13¾″** |
+| Inside faces | **9¾″** apart, plumb down to **31¼″** (bottom of the X), then tapering outward to **11½″** apart at the feet | plumb down to **5½″**, then **10 1/16″** apart at the feet |
+| Top of the X (filter base) | **33¾″** | **8″** |
+| Posts above the X | **2″** | **2″** |
+| Cross members | 1″ × 2½″ × **9¾″**, butting the legs | same |
+| Domino mortises in each leg (8×40) | two, centred **32½″** up and 1 3/16″ apart | two, centred **6¾″** up |
+| Shelf top | **23″** | none |
+| Shelf | ¾″ × **8⅜″ × 8⅜″**, outer corner chamfered 2½″ | none |
+| Under the spigot | shelf 23″ to the nozzle at 34″ = about **11″** clear | counter to the nozzle at 8¼″ = about **8¼″** clear: a 30 oz tumbler (7½″) fits, a tall one does not; raise `C_BAR_TOP` for those |
 
 How the pieces close:
 
 | Derived | Working | Result |
 |---|---|---|
-| Leg outside | 2 × (5¾″ + 1½″) | **14½″** |
-| Apron outside face | leg outside − ¼″ setback | **14″** (¼″ reveal on each side) |
-| Apron inside face | 14″ − 2 × ¾″ | **12½″** between aprons |
-| Apron length | 11½″ between legs + 2 × ⅝″ tenons | **12¾″** |
-| Mortise position | ¼″ setback + (¾″ − ⅜″) ÷ 2 | **7/16″** from the outside arris |
-| Plate | 12½″ − 2 × 1/16″ clearance | **12⅜″** square, ¾″ thick |
-| Corner clip | leaves about 3/16″ between the clip and the leg's inside corner | **1⅛″** at 45° |
-| Plate top | apron top − ¾″ | **24″** (floor) / **8″** (counter) |
-| Cleat top | plate top − ¾″ | **23¼″** / **7¼″** |
-| Leg length (floor) | 24¾″ + 3″ | **27¾″** |
-| Leg length (counter) | 8¾″ + 2½″ | **11¼″** |
-
-Both mortises in a leg are cut ⅝″ + 1/16″ deep into adjacent faces. The apron setback puts them 7/16″ from the outside arris, so the two cavities touch at one corner point but never overlap. **All four legs are identical.**
+| Outside width | 9¾″ between + 2 × 2″ leg width | **13¾″** |
+| Leg height | 33¾″ X top + 2″ post | **35¾″** |
+| Inside edge below the kink | 2″ − 1⅛″ = ⅞″ outward over 31¼″ | **1.6°** from vertical |
+| Between legs at the feet | 9¾″ + 2 × ⅞″ | **11½″** |
+| Bar length | equals the gap between the legs | **9¾″** (the Dominos are 20 mm into the bar and 20 mm into the leg) |
+| Domino mortise depth | 8×40 Domino ÷ 2 | **20 mm (13/16″)**, leaving about 1⅜″ of leg beyond it (the leg is 2″ wide at 32½″) |
 
 ## Cut list: floor stand
 
-Stock: cherry, walnut, white oak or maple (the photos are cherry). Finished sizes; mill a little long and trim to length after the joinery is cut.
+Stock: white oak (the oak Berkey stand is the model), cherry, walnut or maple. Finished sizes; mill a little long and trim after the joinery is cut.
 
 | Part | Qty | T × W × L | Notes |
 |---|---|---|---|
-| Legs | 4 | 1½″ × 1½″ × **27¾″** | Cut blanks 28¼″. Two mortises each (see the parts drawing); taper the inside faces below 6″; ease all arrises 3/16″ |
-| Top aprons | 4 | ¾″ × **3″** × **12¾″** | Tenon ⅜″ × 2″ × ⅝″ both ends, centred. Same four, front and back included |
-| Lower rails | 4 | ¾″ × **2″** × **12¾″** | Tenon ⅜″ × 1¼″ × ⅝″, centred. Top edge at 8½″ |
-| Plate | 1 | ¾″ × **12⅜″** × 12⅜″ | Corners clipped 1⅛″ × 1⅛″ at 45° |
-| Plate cleats | 4 | ¾″ × ¾″ × **10″** | Glued on each apron's inside face, top 1½″ below the apron top (at 23¼″) |
-| Shelf | 1 | ¾″ × **14″** × 16½″ | Four leg notches (cut 1/16″ oversize), front corners chamfered 1¼″; see the parts drawing |
+| Legs | 4 | 1¼″ × **2¼″** blank × **36¼″** | Square top and foot. **Two 8×40 Domino mortises** each on the jointed (plumb) inside edge; the two legs that meet the shelf also get **one 5×30 mortise** on the face that looks into the shelf corner. Then one straight taper on the inside edge from 31¼″ down to the foot, taking the leg from 2″ to 1⅛″ wide. Ease the arrises 3/16″ |
+| Cross members | 2 | 1″ × 2½″ × **9¾″** | Square ends, **two 8×40 Domino mortises in each end**. Half-lap at the centre: 1″ wide × 1¼″ deep, **bar A notched from the underside, bar B from the top** |
+| Shelf | 1 | ¾″ × **8⅜″** × 8⅜″ | Outer corner chamfered 2½″. **One 5×30 Domino mortise** in each of the two edges that meet the legs |
+| Dominos | 10 | 8 × 40 (8) and 5 × 30 (2) | Beech is fine indoors; buy a few spares of each |
 
-**Board feet:** about 7½ net; buy **about 10 bd ft** (8/4 for the legs, 4/4 for the rest). The countertop stand is about 3 net, so buy **4–5 bd ft**.
+**Board feet:** about 4 net; buy **about 6 bd ft** (6/4 for the 2¼″-wide leg blanks, straight and quartersawn or rift, because they are long and thin; 5/4 for the 1″ bars, since 4/4 mills to only about ⅞″; 4/4 for the shelf). The countertop stand is about 1 net, so buy **2 bd ft**.
 
 ## Cut list: countertop stand
 
-The same parts, with the front apron and lower rail frame left out and the legs and aprons shortened.
+The same parts without the shelf, and shorter legs.
 
 | Part | Qty | T × W × L | Notes |
 |---|---|---|---|
-| Legs | 4 | 1½″ × 1½″ × **11¼″** | Mortise ⅜″ × 1½″ × ¹¹⁄₁₆″, centre 7½″ up; taper from 5½″ up to 1″ |
-| Aprons (left, right, back) | 3 | ¾″ × **2½″** × **12¾″** | Tenon ⅜″ × 1½″ × ⅝″. **No front apron** |
-| Plate | 1 | ¾″ × 12⅜″ × 12⅜″ | Same shape as the floor stand's. Plywood glued down braces the open front; see *Plate* below |
-| Plate cleats | 3 | ¾″ × ¾″ × **10″** | Under the plate on the left, right and back aprons. Cleat top at 7¼″ |
-| Feet | 4 | felt or rubber pads | Protects the counter. A small dab of bumper adhesive is enough |
+| Legs | 4 | 1¼″ × **2¼″** blank × **10½″** | 2″ wide at the top, 1⅞″ at the foot; inside edge plumb down to 5½″ (the bottom of the X), then a short taper. Two 8×40 Domino mortises on the plumb face, centred 6¾″ up |
+| Cross members | 2 | 1″ × 2½″ × **9¾″** | Same as the floor stand |
+| Dominos | 8 | 8 × 40 | |
+| Feet | 4 | felt or rubber pads | Protect the counter |
 
 ## Build sequence
 
-1. **Mill** the legs to 1½″ square (glue up 8/4 or laminate two 4/4 pieces if you only have thin stock; the grain shows on all four faces, so quartersawn or rift stock looks best). Mill the aprons, rails, plate, cleats and shelf stock to ¾″.
-2. **Lay out all mortises on one leg and copy to the others.** Both inside faces get one; they sit **7/16″ from the outside arris** on each face. Use a story stick so the four legs come out identical. Cut the mortises ⅜″ wide × the heights in the cut list × 11/16″ deep (router and a fence, a hollow-chisel mortiser, or drill and chisel).
-3. **Cut the tenons on the table saw.** Make cheek cuts with a tenoning jig (the [miter-slot tenoning jig](/docs/woodworking/tenoning-jig/) on this site works) or a stack dado, then the shoulders on a crosscut sled with a stop block. Cut them ⅜″ thick, ⅝″ long. Fit to the mortise and ease the tenon's edges so the apron seats fully.
-4. **Taper the feet.** Mark the line 6″ up the inside faces (5½″ for the counter stand) and the 1″ square at the foot. Use a table-saw taper jig for each inside face, or the band saw, and finish with a plane. Do this after the mortises, since the taper is below them.
-5. **Cut the plate and shelf.** Clip the plate's corners 1⅛″ at 45° with the miter gauge. Cut the shelf to 14″ × 16½″, notch the four leg corners with a crosscut and a rip (or a jigsaw), and chamfer the front corners 1¼″. Notch 1/16″ oversize so it never binds on the legs.
-6. **Glue the cleats** to the apron inside faces, ¾″ × ¾″ × 10″, with their top edge **1½″ below the apron top** (floor stand) or at **7¼″** (counter stand). Do this before assembly while the aprons are flat on the bench.
-7. **Dry-fit, then assemble in two stages.** Glue the two **side frames** first (two legs, top apron, lower rail each), check them square and identical, then join them with the **front and back aprons and rails**. Check the diagonals of the top frame between the apron inside faces: they should match at about 17⅝″ (12½″ × √2). Clamp across the legs. A drawbore pin (⅛″ dowel) in each tenon is cheap insurance for a stand that gets bumped.
-8. **Fit the plate.** Set it on the cleats and check the gap (1/16″ each side). Fasten it as described below. On the floor stand, fasten the shelf to the lower rails the same way.
+1. **Mill** the leg blanks to 1¼″ × 2¼″ × 36¼″ with one **jointed, square edge** (it becomes the plumb inside face), and the bars to 1″ × 2½″ × 9¾″, ends dead square. A 36″ leg is long and thin: pick straight, quartersawn or rift stock, and let it rest a day after milling. Cut the legs to final length with **square** ends.
+2. **Domino the legs while they are still square blanks.** Cut the **two 8×40 mortises** in the jointed edge, centred **32½″ above the foot end** and 1 3/16″ apart (set the machine's fence height to centre them on the 1¼″ thickness, about 16 mm; clamp a scrap beside the blank to widen the machine's footing on the narrow edge). On the two legs that meet the shelf, also cut the **one 5×30 mortise** on the face that looks into the shelf corner: **22⅝″ above the foot end**, centred on the leg's width at that height (about 1⅛″ in from the jointed edge). Mark all four legs' foot ends and cut every mortise from a stop or a story stick so the four match. Cutting them before the taper means no mortise is ever cut on a sloped face.
+3. **Taper the inside edge.** One straight cut on each leg, from **31¼″ above the foot** (the bottom of the X) down to the foot, removing ⅞″ at the foot: a taper jig on the table saw, or the band saw and a plane. Everything above 31¼″ stays plumb. Make a pattern from the parts drawing (it is a 1:1 template if printed full size) and check each leg against it.
+4. **Cut the bars.** Crosscut to **9¾″** exactly, the length that sets the gap at the tops, then cut the **two 8×40 mortises in each end** (1″ bar: centre the 8 mm slot, about 13 mm from each face). The bars butt the legs square; dry-fit with Dominos and check the gap is 9¾″.
+5. **Cut the half-laps.** Mark the centre of each bar. Notch **bar A from its underside** and **bar B from its top**, each **1″ wide × 1¼″ deep** (half the 2½″ height), with a dado stack or several passes. Dry-fit them: the tops of both bars should come out flush, the X flat, with no rocking. Pare the notch to a snug but not tight fit.
+6. **Glue the two panels.** Glue **panel B** first: two legs and bar B with four 8×40 Dominos, Titebond III, clamped across the legs. The bar holds the tops exactly 9¾″ apart and the legs are vertical, so the frame comes out square; check it is flat. Glue **panel A** the same way. Use the standard (narrow) mortise width for these joints, so the Dominos index exactly and the bars stay on their marks.
+7. **Engage the X.** The panels are two flat frames; lower **panel A onto panel B** from above so the half-laps engage. Leave the lap unglued (or add one screw through each lap if you want it fixed).
+8. **Glue the shelf (floor stand).** Chamfer the outer corner 2½″ and cut the **5×30 mortise in each of the two edges that meet the legs**, centred on each leg face, so the edges butt the leg faces with no gap. Glue the shelf in with Dominos into both legs, check the legs stay square to each other, and clamp until dry. The glued shelf also **ties the two frames together**, so the stand no longer comes apart (see *Stability*).
 9. **Sand and finish** before the filter goes on (see *Finish*).
 10. **Check for rock.** Stand it on a flat floor or counter and shim or sand a foot if it rocks. Then wall-anchor it (see *Stability*).
 
-### Plate
-
-The plate needs to stay put without trapping seasonal movement:
-
-- **Plywood** (¾″ hardwood-faced ply, edges banded or just oiled): **glue and screw** it to the cleats. It doesn't move, and on the countertop stand it braces the open front.
-- **Solid wood** moves roughly ⅛″ across 12″ over a year. Screw it down with **slotted holes** in the cleats' long direction, never glue it, and keep 1/16″ clear of the aprons. The countertop stand's open front then relies on its glued and drawbored tenons alone. That is plenty for an 11″-tall stand, because there is little leverage to rack it, and a stretcher in the front would block the cup, so don't add one.
-
 ## Finish
 
-Water **will** drip on this stand. Use something water-resistant: wipe-on or spray polyurethane, spar varnish, or a hardwax oil, with at least three coats on the plate, the shelf and the top edge of the aprons. Seal the **underside of the plate and shelf** as well as the top, or the unfinished side will cup. A stainless filter also sweats in a humid room; a thin cork or felt disk under the base ring keeps the finish from marking.
+Water **will** drip on this stand. Use something water-resistant: wipe-on or spray polyurethane, spar varnish, or a hardwax oil, with at least three coats on the top of the X, the shelf and the leg tops. Seal the **underside of the shelf** as well as the top, or the unfinished side will cup. A stainless filter also sweats in a humid room; a thin cork or felt disk on the X under the base ring keeps the finish from marking.
 
 ## Stability and safety
 
-- **Load:** a full filter plus its water is roughly 30–65 lb depending on size (**est.**). The plate is ¾″ hardwood on cleats around all four edges; at that load it is plenty stiff. Don't build it thinner.
-- **Tipping:** with a full Big Berkey on the plate (centre of mass about 32″ up), the floor stand tips at about **13°** from vertical, so a hard shove at the top could do it. **Anchor it to the wall:** two small L-brackets (or a ⅛″ brass strap) from a back leg to the wall stud.
-- **Countertop:** it is low and stable on its own, but the total height is 27–34″, so check the clearance under any wall cabinet before choosing it. A Big Berkey is just over 27″ on it.
-- **Posts:** the 3″ posts are retainers, not a restraint. A child can pull a filter off by the spigot; if that matters in your house, anchor the stand and add a strap or a bracket.
+- **Load:** a full filter plus its water is roughly 30–65 lb depending on size (**est.**); BOROUX rates its stand at **50 lb**, and a full 3-Gallon is about 35 lb (**est.**). The X is two 1″ × 2½″ bars spanning about 11″, tenoned into the legs: at that load it is plenty stiff. Don't build it thinner than 1″ × 2½″.
+- **Tipping:** with a full 3-Gallon on the X (centre of mass about 44″ up, **est.**), the floor stand tips at about **9°** from vertical along a leg axis and about **7°** across the open diagonals. **That is noticeably less stable than BOROUX's splayed stand** (13° and 10°): vertical legs on a 13¾″ footprint are the price of the cleaner look. A hard shove at the top could do it, and a child could pull on the spigot. **Anchor it to the wall:** two small L-brackets (or a ⅛″ brass strap) from a back leg to the wall stud. Do this for the floor stand every time, not as an option. If you want more margin without splaying the legs, widen the footprint by raising `GAP` and `W_TOP`, or add a thin base plate under the feet.
+- **Knockdown (optional):** with Dominos the shelf is glued to one leg of each frame, which **locks the frames together**, so the floor stand is a permanent assembly. If you want BOROUX's knockdown stand, leave the shelf out of the glue-up and attach it with 1/4-20 threaded inserts in its edges and black machine screws through the legs instead (two per leg, as BOROUX's four bolts); the two frames then lift apart at the unglued lap. The countertop stand has no shelf, so only the filter's weight pins its lap: add one screw through each lap there if it is moved with the filter on. Don't lift either stand by the X with the filter on it.
+- **Countertop:** it is low and stable on its own, but the total height is 25½–38″ (31″ with a 3-Gallon) **on top of the counter**, so with a 36″ counter it reaches 67″: it does not fit under a standard 54″ wall cabinet.
+- **Posts:** the 2″ posts above the X are retainers, not a restraint. A child can pull a filter off by the spigot; if that matters in your house, anchor the stand and add a strap or a bracket.
 
 ## Open questions
 
-- **Spigot height and reach (est.):** I used a spigot that sticks out about 2⅝″ and whose underside is about 2″ above the filter's base. The front-apron top is ¾″ above the plate, which leaves about 1¼″ under the spigot. Measure yours with the filter in hand. If the spigot's underside is **less than about ½″** above the apron top, lower the front apron on the floor stand (make it 2″, or leave it out like the countertop stand).
-- **Filter diameter and base ring:** the table is the makers' figures, rounded, and a base ring wider than the body can eat a ¼″ of the gap. Measure the widest point of your base.
-- **Which filter and where it lives:** the Imperial and Crown on the floor stand put the lid at 50–54″. If you refill from a standing position, drop the plate to 20″ (move the aprons, cleats and shelf with it), or choose a 6 gallon-class filter for the counter stand.
-- **Tumbler under the spigot:** the floor stand fits vessels up to **12½″ tall** (to the underside of the front apron); the cup circle in the drawings is a 30 oz tumbler, 3¼″ across.
-- **Shelf overhang:** the shelf's front tongue reaches 2½″ past the front rail so a cup can sit under the spigot. It is ¾″ hardwood, fine for a cup or a pitcher, but don't load a gallon jug at the very edge.
-- **Is the leg taper worth it?** It is the only shaped cut. Skip it (straight 1½″ legs) and the stand is a little heavier-looking but no weaker.
-- **Hardware:** wall brackets, felt pads, plate screws and slotted-hole washers are not in the cut list.
+- **BOROUX spigot height and reach:** BOROUX says its stand "lifts your spigot to 34″" with the filter base at 33¾″, so I put the nozzle's underside at 34″ (¼″ above the X; `SPIGOT_UP`). The nozzle's reach (about 2⅝″) is my estimate. With the filter in hand, measure both and check that the cup circle (30 oz tumbler, 3¼″ across) lands on the shelf under it.
+- **BOROUX 3-Gallon diameter:** only the 9½″ base limit is published ("compatible with systems with a base diameter of 9.5″ or less"). Measure the lowest 2″ of the body and the base ring before cutting; if the lowest 2″ is over 9½″, widen `GAP`.
+- **Height and where it lives:** the 3-Gallon on this stand is **56¾″**, over a 54″ wall-cabinet underside, and the countertop stand is taller still once it is on the counter. If you refill from a pitcher or want it under a cabinet, lower `F_BAR_TOP` and `F_H` and re-run, or choose the 1.8-Gallon (51¼″). Imperial and Crown put the lid at 60–64″ on the floor stand.
+- **BOROUX's joinery is inferred.** Its page says only "interlocking joinery" and a bolted lower shelf; the X and the half-lap come from the product photos, not from the maker. The Domino sizes and spacing, the half-lap and the leg section here are mine (a Festool 8×40, about 22 mm wide, is about as strong in shear and glue area as the ½″ × 1¾″ tenon it replaces).
+- **Where the inside face stops being plumb:** I read "tapered to vertical" as the inside face being plumb at the top and "tapered leg" as the leg narrowing toward the foot. The plan carries the plumb face down to the *bottom* of the X (31¼″) so the bar shoulders stay square (**chosen**). If the transition should be higher, lower or a curve, change `kink()` in the script (and bevel the bar shoulders if you move it above the bar's bottom edge).
+- **Leg proportions:** the 2″ top width, 1⅛″ foot width and 1¼″ thickness are read off a photo of an oak Berkey stand, scaled against a stand of about 36″. The photo shows the taper beginning just below the X and a short post above it; if yours should differ, change `W_TOP`, `FOOT_W`, `LEG_T` and `F_POST` and re-run. A 1¼″-thick leg 36″ tall is slender: use 1½″ if it feels light.
+- **The shelf is optional.** BOROUX has one; the Berkey oak stand in the photo does not. Without it the stand needs no corner Dominos and the two frames can knock down (the lap is unglued). Set the cup on the floor or counter instead; the spigot is at 34″, so a tall tumbler fits under it on the floor stand with the shelf removed.
+- **Shelf attachment:** four 5×30 Dominos, glued, two per leg along the leg's width. For heavier use (a full pitcher), glue a ¾″ × ¾″ cleat under the shelf along each leg-side edge or add a screw from below.
+- **Footprint:** the legs are vertical, so the footprint is just 13¾″ square. The diagonal tips first (about 7°). A wall anchor is required; for a free-standing stand, add a base plate or splay the legs as BOROUX does.
+- **Hardware:** wall brackets and felt pads aren't in the cut list. The Dominos are, but not the glue (Titebond III; epoxy if the stand lives somewhere damp).

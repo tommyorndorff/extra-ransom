@@ -1,70 +1,79 @@
 #!/usr/bin/env python3
-"""Drawings for the gravity water-filter stands (Berkey / British Berkefeld class):
-a floor stand and a countertop stand, one construction.
+"""Drawings for the gravity water-filter stands (BOROUX / Berkey / British Berkefeld
+class): a floor stand and a countertop stand, one construction.
+
+The design follows the BOROUX teak floor stand: FOUR LEGS AT THE COMPASS POINTS, two
+leg pairs that each splay only in their own plane (no compound angles), joined near
+the top by TWO CROSS MEMBERS HALF-LAPPED INTO AN "X". The filter's base ring drops
+between the four legs and SITS ON THE X; the legs stand above it as retaining posts.
+A small shelf is tucked into one corner between two legs, under the spigot.
 
 Usage: python3 tools/woodworking/water_filter_stand_drawings.py
 Writes public/static/woodworking/water-stand-*.svg
-All geometry is in inches, centred on the stand (x = left/right, y = back(-)/front(+),
-z = up from the floor or counter). The spigot faces +y (the front). Edit the
-constants and re-run; the cut-list numbers printed at the end come from the same
-constants, so the page and the drawings cannot drift apart.
+Geometry is in inches. Plan coordinates: x = left/right, y = back(-)/front(+), z = up
+from the floor or counter. Legs "A" lie on the x axis, legs "B" on the y axis. The
+spigot faces the shelf corner, azimuth 135 degrees (toward -x, +y). Edit the constants
+and re-run; the drawings and the numbers printed at the end come from the same constants.
+The tables on the plan page are written by hand, so update them after a re-run.
 """
 import math
 import os
 import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
-from modern_craftsman_drawings import Drawing, frac
+from modern_craftsman_drawings import Drawing
+
+
+def frac(v):
+    """Inches -> a label such as 13⅜″ or 12 11/16″ (a space keeps sixteenths readable after a whole number)."""
+    glyph = {1: "1/16", 2: "⅛", 3: "3/16", 4: "¼", 5: "5/16", 6: "⅜", 7: "7/16", 8: "½",
+             9: "9/16", 10: "⅝", 11: "11/16", 12: "¾", 13: "13/16", 14: "⅞", 15: "15/16"}
+    whole, rem = divmod(round(v * 16), 16)
+    if rem == 0:
+        return f"{whole}″"
+    g = glyph[rem]
+    return (f"{whole}" + (" " if "/" in g else "") if whole else "") + g + "″"
 
 OUT = os.path.join(os.path.dirname(__file__), "..", "..", "public", "static", "woodworking")
 
 # ---- shared construction ---------------------------------------------------
-LEG = 1.5                      # legs 1½″ square
-IN_HALF = 5.75                 # leg inside faces, from centre  -> 11½″ between legs
-OUT_HALF = IN_HALF + LEG       # 7.25 -> 14½″ outside
-APRON_T = 0.75
-SETBACK = 0.25                 # aprons sit ¼″ back from the leg's outside face
-AP_OUT = OUT_HALF - SETBACK    # 7.0
-AP_IN = AP_OUT - APRON_T       # 6.25
-TEN_T, TEN_L = 3 / 8, 5 / 8    # tenon thickness / length
-MORT_OFF = SETBACK + (APRON_T - TEN_T) / 2   # 7/16 from the leg's outside arris
-APRON_LEN = 2 * IN_HALF + 2 * TEN_L          # 12¾ overall, tenons included
-PLATE_T = 0.75
-PLATE_HALF = AP_IN - 1 / 16    # 6 3/16 -> plate 12⅜ square
-PLATE_CLIP = 1.125             # 45° corner clips so the plate clears the legs
-CLEAT = 0.75
-CLEAT_LEN = 10.0
+W_TOP = 2.0                    # leg width (in its own plane) at the top, read off the Berkey oak-stand photo
+LEG_BLANK_W = 2.25             # blank width the legs are cut from
+LEG_T = 1.25                   # leg thickness across that plane
+GAP = 9.75                     # between opposite legs' inside faces at the leg tops (9 1/2 base + 1/4)
+FOOT_W = 1.125                 # leg width at the foot (about 55% of the top, as in the photo)
+# THE LEGS ARE VERTICAL: the outside edge is plumb, top and foot are square. The inside face is plumb from the leg top
+# down to the bottom of the X (so the bars butt square and the Dominos register off a flat face), then tapers OUTWARD
+# toward the foot, so the leg narrows and the gap between the legs widens toward the floor.
+# S_IN is derived after the heights below, so changing GAP, F_H or F_BAR_TOP and re-running just works.
+BAR_H, BAR_T = 2.5, 1.0        # cross members: 2 1/2" tall x 1" thick, tops flush at the X
+MM = 1 / 25.4
+# Festool Domino joinery. Bar ends: two 8x40 Dominos (8 mm thick, about 22 mm wide, 40 mm long: 20 mm into each part)
+# stacked up the bar end. Shelf: one 5x30 Domino (15 mm into each part) at each leg.
+DOM_T, DOM_W, DOM_DEPTH, DOM_PITCH = 8 * MM, 22 * MM, 20 * MM, 30 * MM
+SH_T, SH_W, SH_DEPTH = 5 * MM, 19 * MM, 15 * MM
 SHELF_T = 0.75
-NOTCH_CLR = 1 / 16
+SHELF_CLR = 0.0                # the shelf is glued to the legs with Dominos, so its edges touch them
+NOZ_AZ = 135.0                 # spigot azimuth, deg from +x (toward -x, +y): the shelf corner
 
 # ---- floor stand -------------------------------------------------------------
-F_PLATE_TOP = 24.0
-F_AP_H = 3.0
-F_AP_TOP = F_PLATE_TOP + PLATE_T           # 24¾  (plate sits ¾″ below the apron tops)
-F_AP_BOT = F_AP_TOP - F_AP_H               # 21¾
-F_POST = 3.0                               # legs rise 3″ above the aprons
-F_LEG_LEN = F_AP_TOP + F_POST              # 27¾
-F_RAIL_H, F_RAIL_TOP = 2.0, 8.5
-F_RAIL_BOT = F_RAIL_TOP - F_RAIL_H         # 6½
-F_SHELF_TOP = F_RAIL_TOP + SHELF_T         # 9¼
-F_TAPER_Z, FOOT = 6.0, 1.0                 # leg is 1½ above 6″, tapers on its inside faces to 1″
-SHELF_FRONT = 9.5                          # shelf reaches past the front so a cup fits under the spigot
-SHELF_BACK = -7.0
-SHELF_CHAMF = 1.25
-F_TEN_H_AP, F_TEN_H_RAIL = 2.0, 1.25
+F_BAR_TOP = 33.75              # X top = where the filter base sits (BOROUX figure)
+F_POST = 2.0                   # legs stand this far above the X, as retaining posts (a short post, as in the photo)
+F_H = F_BAR_TOP + F_POST       # leg height (vertical)
+F_SHELF_TOP = 23.0             # BOROUX figure
+SHELF_X0, SHELF_Y1 = -9.0, 9.0            # the shelf fills the corner x in [SHELF_X0, -edge], y in [edge, SHELF_Y1]
+SHELF_CHAMF = 2.5
 
-# ---- countertop stand -------------------------------------------------------
-C_PLATE_TOP = 8.0
-C_AP_H = 2.5
-C_AP_TOP = C_PLATE_TOP + PLATE_T           # 8¾
-C_AP_BOT = C_AP_TOP - C_AP_H               # 6¼
-C_POST = 2.5
-C_LEG_LEN = C_AP_TOP + C_POST              # 11¼
-C_TAPER_Z = 5.5
-C_TEN_H_AP = 1.5
+# ---- countertop stand ---------------------------------------------------------
+C_BAR_TOP = 8.0
+C_H = C_BAR_TOP + F_POST
+
+S_IN = (W_TOP - FOOT_W) / (F_BAR_TOP - BAR_H)           # inside edge below the kink: it moves OUTWARD this much per inch of height
 
 # ---- the filters this is sized for (maker figures, rounded; measure yours) ---
 MODELS = [  # name, diameter, height with lid
+    ("BOROUX 1.8-Gallon", 9.5, 17.5),   # dia = published base limit; height = 51.25 - 33.75 (BOROUX diagram)
+    ("BOROUX 3-Gallon", 9.5, 23.0),     # height = 56.75 - 33.75 (BOROUX diagram); body width not published
     ("Travel Berkey", 7.5, 18.0),
     ("Big Berkey", 8.5, 19.25),
     ("Royal Berkey", 9.5, 23.0),
@@ -73,17 +82,21 @@ MODELS = [  # name, diameter, height with lid
     ("British Berkefeld 12 L", 9.7, 23.75),
     ("Crown Berkey", 11.0, 30.0),
 ]
-GHOST_D, GHOST_H = 8.5, 19.25   # Big Berkey, drawn dashed in the elevations
-SPIGOT_OUT = 2.6                # how far the spigot sticks out of the body (est.)
-CUP_D, CUP_H = 3.3, 7.5         # a 30 oz tumbler, to show the cup space (est.)
+GHOST_D, GHOST_H = 9.5, 23.0    # BOROUX 3-Gallon, drawn dashed (9 1/2" = its published base limit)
+SPIGOT_OUT = 2.6                # how far the nozzle sticks out of the body (est.)
+SPIGOT_UP = 0.25                # nozzle underside above the filter base: BOROUX lifts the spigot to 34", the base sits at 33 3/4"
+CUP_D, CUP_H = 3.3, 7.5         # a 30 oz tumbler (est.)
+
+# BOROUX stand, maker figures (for the height comparison)
+BX_H, BX_TOP_SHELF, BX_LOW_SHELF = 39.0, 33.75, 23.0
+BX_BASE_HALF, BX_TOP_OUT, BX_TOP_IN = 20.75 / 2, 6.0, 4.75
+BX_3GAL_TOTAL, COUNTER_H, CABINET_GAP = 56.75, 36.0, 18.0
 
 EXTRA = """
 <style>
   .post{fill:#dcb988;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
   .ap{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
-  .plate{fill:#f3dfbf;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
   .shelfp{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
-  .cleat{fill:#cfa972;stroke:#4a3320;stroke-width:1.1}
   .ghost{fill:#eef1f4;fill-opacity:.55;stroke:#6b7885;stroke-width:1.2;stroke-dasharray:6 4}
   .cup{fill:none;stroke:#b0452b;stroke-width:1.2;stroke-dasharray:3 3}
   .ctr{stroke:#999;stroke-width:.8;stroke-dasharray:10 3 2 3}
@@ -92,242 +105,167 @@ EXTRA = """
 """
 
 
-def leg_front_poly(sign, h, taper_z):
-    """Outline of a leg seen square-on from the front or side: outside face
-    vertical, inside face runs straight, then tapers in from taper_z to the foot."""
-    o, i = sign * OUT_HALF, sign * IN_HALF
-    f = sign * (OUT_HALF - FOOT)
-    return [(o, h), (i, h), (i, taper_z), (f, 0), (o, 0)]
+# ---------------------------------------------------------------------------
+# geometry
+# ---------------------------------------------------------------------------
+def bar_top_for(H):
+    return F_BAR_TOP if abs(H - F_H) < 1e-9 else C_BAR_TOP
+
+
+def kink(H):
+    """Height where the inside face stops being plumb: the bottom of the X."""
+    return bar_top_for(H) - BAR_H
+
+
+def inner(z, H):
+    """Horizontal distance from the stand's axis to a leg's inside face at height z (plumb above the kink)."""
+    k = kink(H)
+    return GAP / 2 if z >= k else GAP / 2 + S_IN * (k - z)
+
+
+def outer(z, H):
+    """Outside face: plumb (the legs are vertical)."""
+    return GAP / 2 + W_TOP
+
+
+def leg_w(z, H):
+    return outer(z, H) - inner(z, H)
+
+
+def leg_poly(sg, H, dx=0.0, zf=lambda z: z):
+    """Leg outline in its own plane, as (x, z) points: square top, inside face plumb to the kink, then tapering outward to a square foot."""
+    k = kink(H)
+    return [(dx + sg * outer(H, H), zf(H)), (dx + sg * inner(H, H), zf(H)), (dx + sg * inner(k, H), zf(k)),
+            (dx + sg * inner(0, H), zf(0)), (dx + sg * outer(0, H), zf(0))]
+
+
+def nozzle_xy(r=GHOST_D / 2 + SPIGOT_OUT):
+    a = math.radians(NOZ_AZ)
+    return r * math.cos(a), r * math.sin(a)
+
+
+def cup_xy():
+    return nozzle_xy(GHOST_D / 2 + SPIGOT_OUT - 0.4)
+
+
+def shelf_edge():
+    """Shelf edges sit this far from the axes: against the leg faces, 1/16" clear."""
+    return LEG_T / 2 + SHELF_CLR
+
+
+def shelf_pts():
+    e, x0, y1, c = shelf_edge(), SHELF_X0, SHELF_Y1, SHELF_CHAMF
+    return [(x0, e), (-e, e), (-e, y1), (x0 + c, y1), (x0, y1 - c)]
+
+
+def bar_len(bar_top, H):
+    return GAP                      # the bar butts square against the plumb inside faces; Dominos do the joining
 
 
 # ===========================================================================
 # Elevations
 # ===========================================================================
-def ghost_unit(d, cx, ztop_base, zoff_x=0.0, label=True, side=False):
-    """Dashed Big Berkey with its base on z=ztop_base. cx is the x of its axis."""
-    r = GHOST_D / 2
-    d.rect(cx - r, ztop_base_to_y(d, ztop_base + GHOST_H), cx + r, ztop_base_to_y(d, ztop_base), "ghost")
-
-
-ZMAX = 46.0
-
-
-def zy(z):
-    return ZMAX - z
-
-
-def ztop_base_to_y(d, z):
-    return zy(z)
-
-
-def floor_elevations(path):
-    S = 11
-    d = Drawing(1000, 730, 250, 70, s=S)
-    dv = lambda a, b, *r, **k: d.dim_v(zy(a), zy(b), *r, **k)
-    d.text(20, 26, "Floor stand — front and side elevations (1 in = 11 px)", "h", "start")
-    FX = 0.0                       # front view centre (x = 0 at px 250)
-    SX = (720 - 250) / S           # side view centre, in inches to the right
-    # floor line
-    d.add(f'<line class="floor" x1="{d.x(-11):.1f}" y1="{d.y(zy(0)):.1f}" x2="{d.x(SX+14):.1f}" y2="{d.y(zy(0)):.1f}"/>')
-
-    def poly_at(pts, cls, dx=0.0):
-        d.poly([(x + dx, zy(z)) for x, z in pts], cls)
-
-    # ---------------- FRONT ----------------
-    d.text(d.x(0), d.y(zy(46)) - 6, "FRONT (spigot side)", "h")
-    # dashed filter + cup for scale
-    gr = GHOST_D / 2
-    d.rect(-gr, zy(F_PLATE_TOP + GHOST_H), gr, zy(F_PLATE_TOP), "ghost")
-    d.text(d.x(0), d.y(zy(F_PLATE_TOP + GHOST_H / 2)), "Big Berkey", "n")
-    d.text(d.x(0), d.y(zy(F_PLATE_TOP + GHOST_H / 2)) + 14, f"{frac(GHOST_D)} × {frac(GHOST_H)}", "n")
-    # shelf (front edge), lower front rail, top front apron, legs
-    d.rect(-AP_IN + 0.0 - 0.75, zy(F_RAIL_TOP), AP_IN + 0.75, zy(F_RAIL_BOT), "ap")           # lower front rail (hidden ends under legs)
-    d.rect(-7.0, zy(F_SHELF_TOP), 7.0, zy(F_RAIL_TOP), "shelfp")                              # shelf edge
-    d.rect(-IN_HALF, zy(F_AP_TOP), IN_HALF, zy(F_AP_BOT), "ap")                              # top front apron
-    for sg in (-1, 1):
-        poly_at(leg_front_poly(sg, F_LEG_LEN, F_TAPER_Z), "post")
-    # cup
-    d.rect(-CUP_D / 2, zy(F_SHELF_TOP + CUP_H), CUP_D / 2, zy(F_SHELF_TOP), "cup")
-    # spigot hint
-    d.text(d.x(0), d.y(zy(F_SHELF_TOP + CUP_H)) - 6, "cup under spigot", "n")
-    d.add(f'<line class="ctr" x1="{d.x(0):.1f}" y1="{d.y(zy(0))+8:.1f}" x2="{d.x(0):.1f}" y2="{d.y(zy(F_PLATE_TOP+GHOST_H))-8:.1f}"/>')
-
-    # front dims
-    xr = d.x(OUT_HALF) + 46
-    dv(F_LEG_LEN, 0, xr, f"{frac(F_LEG_LEN)} leg length", pxo=d.x(OUT_HALF) + 4, left=False)
-    dv(F_PLATE_TOP, 0, xr + 34, f"{frac(F_PLATE_TOP)} to plate top", pxo=d.x(OUT_HALF) + 4, left=False)
-    xl = d.x(-OUT_HALF) - 46
-    dv(F_AP_TOP, F_AP_BOT, xl, f"{frac(F_AP_H)}", pxo=d.x(-OUT_HALF) - 4)
-    dv(F_SHELF_TOP, 0, xl, f"{frac(F_SHELF_TOP)} shelf top", pxo=d.x(-OUT_HALF) - 4)
-    dv(F_LEG_LEN, F_AP_TOP, xl - 34, f"{frac(F_POST)} post", pxo=d.x(-OUT_HALF) - 4)
-    yb = d.y(zy(0)) + 30
-    d.dim_h(-OUT_HALF, OUT_HALF, yb, f"{frac(2*OUT_HALF)} outside legs", pyo=d.y(zy(0)), below=True)
-    d.dim_h(-IN_HALF, IN_HALF, yb + 30, f"{frac(2*IN_HALF)} between legs", pyo=d.y(zy(0)), below=True)
-    d.dim_h(-OUT_HALF + 0.0, -OUT_HALF + FOOT, yb - 18, "", pyo=None)
-    d.text(d.x(0), yb + 62, f"foot {frac(FOOT)} sq.", "n")
-
-    # ---------------- SIDE ----------------
-    dx = SX
-    d.text(d.x(dx), d.y(zy(46)) - 6, "SIDE (front on the right)", "h")
-    # y runs left→right: back(-) … front(+). Legs are at y = ±OUT_HALF..±IN_HALF.
-    gr = GHOST_D / 2
-    d.rect(dx - gr, zy(F_PLATE_TOP + GHOST_H), dx + gr, zy(F_PLATE_TOP), "ghost")
-    d.rect(dx + gr, zy(F_PLATE_TOP + 3.0), dx + gr + SPIGOT_OUT, zy(F_PLATE_TOP + 2.2), "ghost")
-    d.leader(d.x(dx + gr + SPIGOT_OUT / 2), d.y(zy(F_PLATE_TOP + 2.6)), d.x(dx + gr + 5), d.y(zy(F_PLATE_TOP + 7)),
-             "spigot (est. 2⅝″ out)")
-    # shelf (side profile, front tongue), side lower rail (between legs), side top apron
-    d.rect(dx + SHELF_BACK, zy(F_SHELF_TOP), dx + SHELF_FRONT, zy(F_RAIL_TOP), "shelfp")
-    d.rect(dx - IN_HALF - 0.01, zy(F_RAIL_TOP), dx + IN_HALF + 0.01, zy(F_RAIL_BOT), "ap")
-    d.rect(dx - IN_HALF, zy(F_AP_TOP), dx + IN_HALF, zy(F_AP_BOT), "ap")
-    for sg in (-1, 1):
-        poly_at(leg_front_poly(sg, F_LEG_LEN, F_TAPER_Z), "post", dx)
-    cupc = dx + gr + SPIGOT_OUT - 0.4
-    d.rect(cupc - CUP_D / 2, zy(F_SHELF_TOP + CUP_H), cupc + CUP_D / 2, zy(F_SHELF_TOP), "cup")
-    d.add(f'<line class="ctr" x1="{d.x(cupc):.1f}" y1="{d.y(zy(F_SHELF_TOP+CUP_H))-12:.1f}" x2="{d.x(cupc):.1f}" y2="{d.y(zy(F_SHELF_TOP)):.1f}"/>')
-    d.text(d.x(cupc) + 8, d.y(zy(F_SHELF_TOP + CUP_H)) - 4, "cup centre", "n", "start")
-    # side dims
-    yb2 = d.y(zy(0)) + 30
-    d.dim_h(dx + SHELF_BACK, dx + SHELF_FRONT, yb2, f"{frac(SHELF_FRONT - SHELF_BACK)} shelf depth", pyo=d.y(zy(F_RAIL_BOT)), below=True)
-    d.dim_h(dx - OUT_HALF, dx + OUT_HALF, yb2 + 30, f"{frac(2*OUT_HALF)} outside legs", pyo=d.y(zy(0)), below=True)
-    xr2 = d.x(dx + SHELF_FRONT) + 46
-    dv(F_RAIL_TOP, F_RAIL_BOT, xr2, f"{frac(F_RAIL_H)} rail", pxo=d.x(dx + IN_HALF) + 4, left=False)
-    dv(F_PLATE_TOP, F_SHELF_TOP, xr2 + 34, f"{frac(F_PLATE_TOP - F_SHELF_TOP)} shelf→plate", pxo=d.x(dx + SHELF_FRONT) + 4, left=False)
-    d.text(d.x(dx + 0.5), d.y(zy(F_PLATE_TOP + 0.0)) + 30, "", "n")
-    d.text(20, 712, "Dashed grey = a Big Berkey (8½″ × 19¼″) for scale. Dashed red = a 30 oz tumbler on the shelf. "
-           "Plate top is 24″ above the floor; apron tops are ¾″ higher and retain the filter.", "n", "start")
-    d.save(path, "Floor water-filter stand, front and side elevations", EXTRA)
-
-
-def counter_elevations(path):
-    S = 18
-    d = Drawing(1000, 610, 230, 80, s=S)
-    zmax = 22.0
-    zy2 = lambda z: zmax - z
-    dv = lambda a, b, *r, **k: d.dim_v(zy2(a), zy2(b), *r, **k)
-    d.text(20, 26, "Countertop stand — front and side elevations (1 in = 18 px)", "h", "start")
-    SX = (680 - 230) / S
-    d.add(f'<line class="floor" x1="{d.x(-10):.1f}" y1="{d.y(zy2(0)):.1f}" x2="{d.x(SX+13):.1f}" y2="{d.y(zy2(0)):.1f}"/>')
-    d.text(d.x(-9), d.y(zy2(0)) + 14, "counter", "n", "start")
-    gr = GHOST_D / 2
-
-    def poly_at(pts, cls, dx=0.0):
-        d.poly([(x + dx, zy2(z)) for x, z in pts], cls)
-
-    # FRONT
-    d.text(d.x(0), 56, "FRONT (spigot side) — open, no front apron", "h")
-    d.rect(-gr, zy2(C_PLATE_TOP + 14), gr, zy2(C_PLATE_TOP), "ghost")
-    d.text(d.x(0), d.y(zy2(C_PLATE_TOP + 7)), "filter", "n")
-    d.rect(-IN_HALF, zy2(C_AP_TOP), IN_HALF, zy2(C_AP_BOT), "ap")      # back apron seen through the open front
-    d.rect(-IN_HALF, zy2(C_PLATE_TOP), IN_HALF, zy2(C_AP_BOT + 0.0), "ap") if False else None
-    for sg in (-1, 1):
-        poly_at(leg_front_poly(sg, C_LEG_LEN, C_TAPER_Z), "post")
-    d.rect(-CUP_D / 2, zy2(CUP_H), CUP_D / 2, zy2(0), "cup")
-    d.text(d.x(0), d.y(zy2(1.5)), "tumbler (dashed red) stands on the counter", "n")
-    xr = d.x(OUT_HALF) + 44
-    dv(C_LEG_LEN, 0, xr, f"{frac(C_LEG_LEN)} leg length", pxo=d.x(OUT_HALF) + 4, left=False)
-    dv(C_PLATE_TOP, 0, xr + 34, f"{frac(C_PLATE_TOP)} to plate top", pxo=d.x(OUT_HALF) + 4, left=False)
-    xl = d.x(-OUT_HALF) - 44
-    dv(C_AP_TOP, C_AP_BOT, xl, f"{frac(C_AP_H)}", pxo=d.x(-OUT_HALF) - 4)
-    dv(C_LEG_LEN, C_AP_TOP, xl - 34, f"{frac(C_POST)} post", pxo=d.x(-OUT_HALF) - 4)
-    yb = d.y(zy2(0)) + 30
-    d.dim_h(-OUT_HALF, OUT_HALF, yb, f"{frac(2*OUT_HALF)} outside legs", pyo=d.y(zy2(0)), below=True)
-    d.dim_h(-IN_HALF, IN_HALF, yb + 30, f"{frac(2*IN_HALF)} between legs", pyo=d.y(zy2(0)), below=True)
-
-    # SIDE
-    dx = SX
-    d.text(d.x(dx), 56, "SIDE (front on the right)", "h")
-    d.rect(dx - gr, zy2(C_PLATE_TOP + 14), dx + gr, zy2(C_PLATE_TOP), "ghost")
-    d.rect(dx + gr, zy2(C_PLATE_TOP + 3.0), dx + gr + SPIGOT_OUT, zy2(C_PLATE_TOP + 2.2), "ghost")
-    d.rect(dx - IN_HALF, zy2(C_AP_TOP), dx + IN_HALF, zy2(C_AP_BOT), "ap")
-    for sg in (-1, 1):
-        poly_at(leg_front_poly(sg, C_LEG_LEN, C_TAPER_Z), "post", dx)
-    cupc = dx + gr + SPIGOT_OUT - 0.4
-    d.rect(cupc - CUP_D / 2, zy2(CUP_H), cupc + CUP_D / 2, zy2(0), "cup")
-    d.add(f'<line class="ctr" x1="{d.x(cupc):.1f}" y1="{d.y(zy2(CUP_H))-12:.1f}" x2="{d.x(cupc):.1f}" y2="{d.y(zy2(0)):.1f}"/>')
-    d.text(d.x(cupc) + 8, d.y(zy2(CUP_H)) - 4, "cup centre", "n", "start")
-    dv(C_PLATE_TOP, 0, d.x(dx - OUT_HALF) - 44, f"{frac(C_PLATE_TOP)} under the filter", pxo=d.x(dx - OUT_HALF) - 4)
-    d.dim_h(dx - OUT_HALF, dx + OUT_HALF, yb, f"{frac(2*OUT_HALF)} outside legs", pyo=d.y(zy2(0)), below=True)
-    d.text(20, 592, "Front apron is left out so the cup can sit directly under the spigot. A plywood plate glued to the three apron cleats "
-           "braces the open front; a solid-wood plate is screwed in slots instead (see the plan page).", "n", "start")
-    d.save(path, "Countertop water-filter stand, front and side elevations", EXTRA)
-
-
-# ===========================================================================
-# Plan views
-# ===========================================================================
-def shelf_pts():
-    n = NOTCH_CLR
-    a, b, c = IN_HALF - n, 7.0, SHELF_BACK
-    # rear notches around the back legs, front notches around the front legs, then the tongue
-    return [(-a, c), (a, c), (a, -a), (b, -a), (b, a), (a, a), (a, OUT_HALF + n), (b, OUT_HALF + n),
-            (b, SHELF_FRONT - SHELF_CHAMF), (b - SHELF_CHAMF, SHELF_FRONT), (-b + SHELF_CHAMF, SHELF_FRONT),
-            (-b, SHELF_FRONT - SHELF_CHAMF), (-b, OUT_HALF + n), (-a, OUT_HALF + n), (-a, a), (-b, a),
-            (-b, -a), (-a, -a)]
-
-
-def plate_pts(half=PLATE_HALF, clip=PLATE_CLIP):
-    h, c = half, clip
-    return [(-h + c, -h), (h - c, -h), (h, -h + c), (h, h - c), (h - c, h), (-h + c, h), (-h, h - c), (-h, -h + c)]
-
-
-def plan(path, floor=True):
-    S = 22
-    W, H = 880, 680 if floor else 600
-    d = Drawing(W, H, 330, 300, s=S)
+def elevations(path, floor=True):
+    H = F_H if floor else C_H
+    BT = F_BAR_TOP if floor else C_BAR_TOP
+    S = 10 if floor else 15
+    zmax = BT + GHOST_H + 2.0
+    W, HGT = 1000, int(zmax * S + 255)
+    d = Drawing(W, HGT, 250, 70, s=S)
+    zy = lambda z: zmax - z
     name = "Floor stand" if floor else "Countertop stand"
-    d.text(20, 26, f"{name} — plan, looking down (1 in = 22 px)", "h", "start")
-    top = SHELF_FRONT if floor else OUT_HALF
+    d.text(20, 26, f"{name} — front and side elevations (1 in = {S} px)", "h", "start")
+    SX = (720 - 250) / S
+    fl = d.y(zy(0))
+    d.add(f'<line class="floor" x1="{d.x(-13):.1f}" y1="{fl:.1f}" x2="{d.x(SX + 13):.1f}" y2="{fl:.1f}"/>')
+    e = shelf_edge()
+    zb = BT - BAR_H
+    cx, cy = cup_xy()
+    g = GAP / 2
+
+    for dx, view in ((0.0, "front"), (SX, "side")):
+        d.text(d.x(dx), d.y(zy(zmax - 0.6)) - 4,
+               ("FRONT (shelf corner at the left)" if view == "front" else "SIDE (shelf corner at the right)") if floor
+               else ("FRONT" if view == "front" else "SIDE"), "h")
+        if floor:
+            if view == "front":
+                d.rect(dx + SHELF_X0, zy(F_SHELF_TOP), dx - e, zy(F_SHELF_TOP - SHELF_T), "shelfp")
+            else:
+                d.rect(dx + e, zy(F_SHELF_TOP), dx + SHELF_Y1, zy(F_SHELF_TOP - SHELF_T), "shelfp")
+        d.rect(dx - g, zy(BT), dx + g, zy(zb), "ap")                       # one cross member face-on
+        d.rect(dx - LEG_T / 2, zy(H), dx + LEG_T / 2, zy(0), "post")      # the far/near pair, edge-on
+        for sg in (-1, 1):                                                 # the face-on pair, splayed
+            d.poly(leg_poly(sg, H, dx, zy), "post")
+        d.rect(dx - GHOST_D / 2, zy(BT + GHOST_H), dx + GHOST_D / 2, zy(BT), "ghost")
+        px = cx if view == "front" else cy
+        base = F_SHELF_TOP if floor else 0.0
+        d.rect(dx + px - CUP_D / 2, zy(base + CUP_H), dx + px + CUP_D / 2, zy(base), "cup")
+        d.text(d.x(dx), d.y(zy(BT + GHOST_H / 2)), "BOROUX 3-gal", "n")
+        d.text(d.x(dx), d.y(zy(BT + GHOST_H / 2)) + 14, f"base ⌀{frac(GHOST_D)} × {frac(GHOST_H)}", "n")
+
+    xr = d.x(outer(0, H)) + 40
+    d.dim_v(zy(H), zy(0), xr, f"{frac(H)} legs", pxo=d.x(outer(H, H)) + 4, left=False)
+    d.dim_v(zy(BT), zy(0), xr + 36, f"{frac(BT)} X top", pxo=d.x(inner(BT, H)) + 4, left=False)
+    xl = d.x(-outer(0, H)) - 40
+    d.dim_v(zy(BT), zy(zb), xl, f"{frac(BAR_H)} bar", pxo=d.x(-inner(BT, H)) - 4)
+    d.dim_v(zy(H), zy(BT), xl - 36, f"{frac(H - BT)} post", pxo=d.x(-inner(H, H)) - 4)
+    if floor:
+        d.dim_v(zy(F_SHELF_TOP), zy(0), xl - 72, f"{frac(F_SHELF_TOP)} shelf top", pxo=d.x(-outer(0, H)) - 4)
+    yb = fl + 30
+    d.dim_h(-outer(0, H), outer(0, H), yb, f"{frac(2 * outer(0, H))} outside (the legs are vertical)", pyo=fl, below=True)
+    d.dim_h(-inner(0, H), inner(0, H), yb + 30, f"{frac(2 * inner(0, H))} between legs at the feet", pyo=fl, below=True)
+    d.dim_h(-inner(H, H), inner(H, H), yb + 60, f"{frac(2 * inner(H, H))} between legs at the tops", pyo=fl, below=True)
+    d.text(20, HGT - 34, f"Dashed grey = a BOROUX 3-Gallon (base ⌀{frac(GHOST_D)}, {frac(GHOST_H)} tall) sitting on the X. Dashed red = a 30 oz tumbler"
+           + (" on the shelf." if floor else " on the counter."), "n", "start")
+    d.text(20, HGT - 18, f"The legs are vertical and {frac(W_TOP)} wide at the top; the inside face is plumb to the X, then tapers outward to {frac(leg_w(0, H))} at the foot. "
+           "The cup stands in the corner, in front of or behind the X, not under it.", "n", "start")
+    d.save(path, f"{name}, front and side elevations", EXTRA)
+
+
+# ===========================================================================
+# Plan
+# ===========================================================================
+def plan(path, floor=True):
+    H = F_H if floor else C_H
+    BT = F_BAR_TOP if floor else C_BAR_TOP
+    S = 22
+    Wd, Hd = 880, 760
+    d = Drawing(Wd, Hd, 400, 385, s=S)
+    name = "Floor stand" if floor else "Countertop stand"
+    d.text(20, 26, f"{name} — plan, looking down (1 in = {S} px)", "h", "start")
+    zm = BT - BAR_H / 2
+    t = LEG_T / 2
     if floor:
         d.poly(shelf_pts(), "shelfp")
-        d.text(d.x(0), d.y(8.45), "shelf", "n")
-    d.poly(plate_pts(), "plate")
-    # cleats on the apron inner faces (hidden under the plate)
-    cl = CLEAT_LEN / 2
-    sides = [("n", -cl, -AP_IN, cl, -AP_IN + CLEAT), ("s", -cl, AP_IN - CLEAT, cl, AP_IN),
-             ("w", -AP_IN, -cl, -AP_IN + CLEAT, cl), ("e", AP_IN - CLEAT, -cl, AP_IN, cl)]
-    # aprons (top of the frame)
-    for (x1, y1, x2, y2, key) in [(-IN_HALF, -AP_OUT, IN_HALF, -AP_IN, "back"), (-AP_OUT, -IN_HALF, -AP_IN, IN_HALF, "left"),
-                                  (AP_IN, -IN_HALF, AP_OUT, IN_HALF, "right"), (-IN_HALF, AP_IN, IN_HALF, AP_OUT, "front")]:
-        if key == "front" and not floor:
-            d.rect(x1, y1, x2, y2, "hid")
-            d.text(d.x(0), d.y(AP_OUT) + 16, "no front apron", "n")
-            continue
-        d.rect(x1, y1, x2, y2, "ap")
-    for (_, x1, y1, x2, y2) in sides:
-        if not floor and y1 > 0 and abs(x1) < 6:
-            continue
-        d.add(f'<rect class="hid" x="{d.x(x1):.1f}" y="{d.y(y1):.1f}" width="{(x2-x1)*S:.1f}" height="{(y2-y1)*S:.1f}"/>')
-    # legs (posts)
-    for sx in (-1, 1):
-        for sy in (-1, 1):
-            xa, xb = sorted((sx * IN_HALF, sx * OUT_HALF))
-            ya, yb_ = sorted((sy * IN_HALF, sy * OUT_HALF))
-            d.rect(xa, ya, xb, yb_, "post")
-    # filter and cup
-    d.add(f'<circle class="ghost" cx="{d.x(0):.1f}" cy="{d.y(0):.1f}" r="{GHOST_D/2*S:.1f}"/>')
-    d.add(f'<circle class="ghost" cx="{d.x(0):.1f}" cy="{d.y(0):.1f}" r="{10.25/2*S:.1f}" style="fill:none"/>')
-    d.text(d.x(0), d.y(0) - 4, "filter", "t")
-    d.text(d.x(0), d.y(0) + 12, "8½″ … 10¼″ dia.", "n")
-    d.add(f'<rect class="ghost" x="{d.x(-0.35):.1f}" y="{d.y(GHOST_D/2):.1f}" width="{0.7*S:.1f}" height="{SPIGOT_OUT*S:.1f}"/>')
-    cy = GHOST_D / 2 + SPIGOT_OUT - 0.4
-    d.add(f'<circle class="cup" cx="{d.x(0):.1f}" cy="{d.y(cy):.1f}" r="{CUP_D/2*S:.1f}"/>')
-    d.text(d.x(2.6), d.y(cy) + 4, "cup", "n", "start")
-    d.text(d.x(-OUT_HALF) - 12, d.y(0), "", "n")
-    # dims
-    yb = d.y(top) + 36
-    d.dim_h(-OUT_HALF, OUT_HALF, d.y(-OUT_HALF) - 36, f"{frac(2*OUT_HALF)} outside legs", pyo=d.y(-OUT_HALF))
-    d.dim_h(-IN_HALF, IN_HALF, d.y(-OUT_HALF) - 70, f"{frac(2*IN_HALF)} between legs", pyo=d.y(-OUT_HALF))
-    d.dim_h(-PLATE_HALF, PLATE_HALF, yb, f"{frac(2*PLATE_HALF)} plate", pyo=d.y(top), below=True)
-    xr = d.x(OUT_HALF) + 40
-    d.dim_v(-OUT_HALF, OUT_HALF, xr, f"{frac(2*OUT_HALF)} outside legs", pxo=d.x(OUT_HALF) + 4, left=False)
-    if floor:
-        d.dim_v(SHELF_BACK, SHELF_FRONT, xr + 40, f"{frac(SHELF_FRONT - SHELF_BACK)} shelf", pxo=d.x(7.0) + 4, left=False)
-        d.dim_h(-7.0, 7.0, yb + 32, f"{frac(14)} shelf width", pyo=d.y(top), below=True)
-    # legend
-    lx = 20
-    d.text(lx, H - 52, "Legs (tan) rise past the aprons as retaining posts; the plate sits ¾″ below the apron tops on cleats (dashed).", "n", "start")
-    d.text(lx, H - 36, "Dashed grey = filter body, 8½″ (Big Berkey) and 10¼″ (largest British Berkefeld) — both clear the apron faces by more than 1″.", "n", "start")
-    d.text(lx, H - 20, "Dashed red = tumbler under the spigot." + (" Shelf is shown through the frame." if floor else ""), "n", "start")
+        d.text(d.x(-6.2), d.y(8.2), "shelf", "n")
+    for sg in (-1, 1):   # feet, dashed
+        for (xa, ya, xb, yb_) in ((min(sg * inner(0, H), sg * outer(0, H)), -t, max(sg * inner(0, H), sg * outer(0, H)), t),
+                                  (-t, min(sg * inner(0, H), sg * outer(0, H)), t, max(sg * inner(0, H), sg * outer(0, H)))):
+            d.add(f'<rect class="hid" x="{d.x(xa):.1f}" y="{d.y(ya):.1f}" width="{(xb - xa) * S:.1f}" height="{(yb_ - ya) * S:.1f}"/>')
+    g = GAP / 2
+    d.rect(-g, -BAR_T / 2, g, BAR_T / 2, "ap")           # the X
+    d.rect(-BAR_T / 2, -g, BAR_T / 2, g, "ap")
+    for sg in (-1, 1):   # leg tops
+        xa, xb = sorted((sg * inner(H, H), sg * outer(H, H)))
+        d.rect(xa, -t, xb, t, "post")
+        d.rect(-t, xa, t, xb, "post")
+    d.add(f'<circle class="ghost" cx="{d.x(0):.1f}" cy="{d.y(0):.1f}" r="{GHOST_D / 2 * S:.1f}"/>')
+    d.text(d.x(2.2), d.y(-1.2), "filter on the X", "t")
+    d.text(d.x(2.2), d.y(-1.2) + 14, f"base ⌀{frac(GHOST_D)}", "n")
+    nx, ny = nozzle_xy()
+    bx, by = nozzle_xy(GHOST_D / 2)
+    d.add(f'<line x1="{d.x(bx):.1f}" y1="{d.y(by):.1f}" x2="{d.x(nx):.1f}" y2="{d.y(ny):.1f}" stroke="#6b7885" stroke-width="5" stroke-dasharray="5 3"/>')
+    cx, cy = cup_xy()
+    d.add(f'<circle class="cup" cx="{d.x(cx):.1f}" cy="{d.y(cy):.1f}" r="{CUP_D / 2 * S:.1f}"/>')
+    d.text(d.x(cx), d.y(cy) + 4, "cup", "n")
+    ttop = d.y(-outer(0, H)) - 24
+    d.dim_h(-outer(0, H), outer(0, H), ttop, f"{frac(2 * outer(0, H))} outside (legs vertical)", pyo=d.y(-t))
+    d.dim_h(-inner(0, H), inner(0, H), ttop - 30, f"{frac(2 * inner(0, H))} between legs at the feet (dashed)", pyo=d.y(-t))
+    d.dim_h(-inner(H, H), inner(H, H), d.y(outer(H, H)) + 90, f"{frac(2 * inner(H, H))} between legs at the tops", pyo=d.y(0))
+    d.text(20, Hd - 52, "Four legs at the compass points; the two cross members (the X) are half-lapped at the centre and Domino'd into the legs' plumb inside faces.", "n", "start")
+    d.text(20, Hd - 36, "The filter's base ring (dashed circle) drops between the legs and sits on the X; the legs stand above it as posts.", "n", "start")
+    d.text(20, Hd - 20, "Spigot faces the shelf corner (diagonal, dashed grey bar); the cup stands on the shelf under it." if floor
+           else "Spigot faces the open diagonal; the cup stands on the counter under it.", "n", "start")
     d.save(path, f"{name}, plan view", EXTRA)
 
 
@@ -335,106 +273,117 @@ def plan(path, floor=True):
 # Parts / joinery sheet (floor stand)
 # ===========================================================================
 def parts(path):
-    S = 12
-    d = Drawing(1060, 700, 0, 0, s=S)
-    d.text(20, 26, "Floor stand — parts and joinery (1 in = 12 px). Counter stand uses the same parts, shorter.", "h", "start")
-
-    # --- leg: elevation of one inside face, plus the section ---
-    lx, ly = 70, 80
-    d.add(f'<g transform="translate({lx},{ly})">')
-    sc = 10
-    dl = Drawing(1, 1, 0, 0, s=sc)
-    dl.p = d.p
-    dl.rect(0, 0, LEG, F_LEG_LEN, "post") if False else None
-    # leg face: taper shown on the edge, mortises on the face
-    pts = [(0, 0), (LEG, 0), (LEG, F_LEG_LEN - F_TAPER_Z), (LEG - (LEG - FOOT), F_LEG_LEN) if False else (FOOT, F_LEG_LEN)]
-    # draw from the top (z = F_LEG_LEN) down so the foot is at the bottom
-    face = [(0, 0), (LEG, 0), (LEG, F_LEG_LEN - F_TAPER_Z), (FOOT, F_LEG_LEN), (0, F_LEG_LEN)]
-    dl.poly(face, "post")
-    # mortises on this face, measured from the outside arris (left edge here)
-    def mort(zc, h):
-        dl.rect(MORT_OFF, F_LEG_LEN - (zc + h / 2), MORT_OFF + TEN_T, F_LEG_LEN - (zc - h / 2), "cut")
-    mort(F_AP_TOP - F_AP_H / 2, F_TEN_H_AP)
-    mort(F_RAIL_TOP - F_RAIL_H / 2, F_TEN_H_RAIL)
-    d.add('</g>')
-    # hand-placed dims for the leg (pixel coords = lx + inches*sc)
-    d.text(lx, ly - 12, "LEG ×4 (inside face)", "h", "start")
-    px = lambda v: lx + v * sc
-    pz = lambda z: ly + (F_LEG_LEN - z) * sc
-    d.add(f'<line class="dim" x1="{px(LEG)+30:.1f}" y1="{pz(F_LEG_LEN):.1f}" x2="{px(LEG)+30:.1f}" y2="{pz(0):.1f}" marker-start="url(#a)" marker-end="url(#a)"/>')
-    d.add(f'<text class="t" transform="translate({px(LEG)+44:.1f},{(pz(F_LEG_LEN)+pz(0))/2:.1f}) rotate(-90)" text-anchor="middle">{frac(F_LEG_LEN)} (cut 28¼″, trim after joinery)</text>')
-    d.leader(px(MORT_OFF + TEN_T), pz(F_AP_TOP - F_AP_H / 2), px(LEG) + 100, pz(F_AP_TOP - F_AP_H / 2) - 6,
-             f"mortise {frac(TEN_T)} × {frac(F_TEN_H_AP)} × {frac(TEN_L + 1/16)} deep, centre z {frac(F_AP_TOP - F_AP_H/2)}")
-    d.leader(px(MORT_OFF + TEN_T), pz(F_RAIL_TOP - F_RAIL_H / 2), px(LEG) + 100, pz(F_RAIL_TOP - F_RAIL_H / 2) - 6,
-             f"mortise {frac(TEN_T)} × {frac(F_TEN_H_RAIL)} × {frac(TEN_L + 1/16)} deep, centre z {frac(F_RAIL_TOP - F_RAIL_H/2)}")
-    d.leader(px(LEG), pz(F_TAPER_Z), px(LEG) + 100, pz(F_TAPER_Z) + 40, f"taper starts {frac(F_TAPER_Z)} up; foot {frac(FOOT)} × {frac(FOOT)}")
-    d.leader(px(MORT_OFF / 2), pz(F_AP_TOP + F_POST / 2), px(LEG) + 100, pz(F_AP_TOP + F_POST / 2), f"post: {frac(F_POST)} above the apron top, arrises eased ³⁄₁₆″")
-    d.text(px(0), pz(0) + 18, "outside arris", "n", "start")
-    d.text(px(MORT_OFF), pz(0) + 32, f"mortise face is {frac(MORT_OFF)} from the outside arris", "n", "start")
-    # section
-    sx0, sy0 = 520, 120
-    sc2 = 40
-    d.text(sx0, sy0 - 40, "LEG section at the aprons (×40/12)", "h", "start")
-    d.add(f'<rect class="post" x="{sx0}" y="{sy0}" width="{LEG*sc2}" height="{LEG*sc2}"/>')
-    # mortise A in the +x face (right side), mortise B in the +y face (bottom): outside faces are left and top
-    d.add(f'<rect class="cut" x="{sx0+(LEG-(TEN_L+1/16))*sc2:.1f}" y="{sy0+MORT_OFF*sc2:.1f}" width="{(TEN_L+1/16)*sc2:.1f}" height="{TEN_T*sc2:.1f}"/>')
-    d.add(f'<rect class="cut" x="{sx0+MORT_OFF*sc2:.1f}" y="{sy0+(LEG-(TEN_L+1/16))*sc2:.1f}" width="{TEN_T*sc2:.1f}" height="{(TEN_L+1/16)*sc2:.1f}"/>')
-    d.text(sx0 - 8, sy0 + 12, "outside", "n", "end")
-    d.text(sx0 + 4, sy0 - 6, "outside face →  (top and left faces are outside)", "n", "start")
-    d.text(sx0 + LEG * sc2 + 10, sy0 + 28, "inside face A", "n", "start")
-    d.text(sx0 + 4, sy0 + LEG * sc2 + 16, "inside face B", "n", "start")
-    d.text(sx0 + 4, sy0 + LEG * sc2 + 34, f"{frac(MORT_OFF)} from the outside arris on both faces; two mortises stop short", "n", "start")
-    d.text(sx0 + 4, sy0 + LEG * sc2 + 48, "of each other, so all four legs are identical.", "n", "start")
-
-    # --- aprons / rails (tenoned ends) ---
-    ax, ay = 520, 300
-    d.text(ax, ay - 14, "TOP APRON ×4  and  LOWER RAIL ×4 (floor stand)", "h", "start")
-
-    def stick(x, y, length, height, ten_h, label):
-        # face view: tenons on both ends
-        e = length - 2 * TEN_L
-        d.add(f'<rect class="ap" x="{x+TEN_L*S:.1f}" y="{y:.1f}" width="{e*S:.1f}" height="{height*S:.1f}"/>')
-        th = (height - ten_h) / 2
-        for xx in (x, x + (length - TEN_L) * S):
-            d.add(f'<rect class="ap" x="{xx:.1f}" y="{y+th*S:.1f}" width="{TEN_L*S:.1f}" height="{ten_h*S:.1f}"/>')
-        d.add(f'<line class="dim" x1="{x:.1f}" y1="{y+height*S+16:.1f}" x2="{x+length*S:.1f}" y2="{y+height*S+16:.1f}" marker-start="url(#a)" marker-end="url(#a)"/>')
-        d.text(x + length * S / 2, y + height * S + 30, f"{frac(length)} overall (shoulders {frac(e)})", "t")
-        d.text(x + length * S + 14, y + height * S / 2 + 4, f"{frac(height)} wide × {frac(APRON_T)} thick", "n", "start")
-        d.text(x + length * S + 14, y + height * S / 2 + 18, f"tenon {frac(TEN_T)} × {frac(ten_h)} × {frac(TEN_L)}", "n", "start")
-
-    stick(ax, ay, APRON_LEN, F_AP_H, F_TEN_H_AP, "apron")
-    stick(ax, ay + 80, APRON_LEN, F_RAIL_H, F_TEN_H_RAIL, "rail")
-    d.text(ax, ay + 160, "Tenon is centred on the thickness of the stick; shoulders are cut square all round.", "n", "start")
-
-    # --- plate, cleat, shelf ---
-    px0, py0 = 520, 500
-    d.text(px0, py0 - 16, "PLATE ×1", "h", "start")
-    d.poly([(px0 / S + x, py0 / S + y + PLATE_HALF) for x, y in plate_pts()], "plate") if False else None
-    pts = [((px0 + (x + PLATE_HALF) * S), (py0 + (y + PLATE_HALF) * S)) for x, y in plate_pts()]
-    d.add('<polygon class="plate" points="' + " ".join(f"{a:.1f},{b:.1f}" for a, b in pts) + '"/>')
-    d.add(f'<line class="dim" x1="{px0:.1f}" y1="{py0+2*PLATE_HALF*S+16:.1f}" x2="{px0+2*PLATE_HALF*S:.1f}" y2="{py0+2*PLATE_HALF*S+16:.1f}" marker-start="url(#a)" marker-end="url(#a)"/>')
-    d.text(px0 + PLATE_HALF * S, py0 + 2 * PLATE_HALF * S + 30, f"{frac(2*PLATE_HALF)} sq. × {frac(PLATE_T)}", "t")
-    d.text(px0 + 2 * PLATE_HALF * S + 14, py0 + 50, f"corners clipped {frac(PLATE_CLIP)} × {frac(PLATE_CLIP)}", "n", "start")
-    d.text(px0 + 2 * PLATE_HALF * S + 14, py0 + 66, "(miter-gauge cuts) so it clears the legs", "n", "start")
-    d.text(px0 + 2 * PLATE_HALF * S + 14, py0 + 90, f"CLEAT ×4: {frac(CLEAT)} × {frac(CLEAT)} × {frac(CLEAT_LEN)}", "n", "start")
-    d.text(px0 + 2 * PLATE_HALF * S + 14, py0 + 106, f"glued under the plate edge, top at {frac(F_PLATE_TOP - PLATE_T)}", "n", "start")
-    d.text(px0 + 2 * PLATE_HALF * S + 14, py0 + 122, f"(= {frac(F_AP_TOP - (F_PLATE_TOP - PLATE_T))} below apron top, on the apron's inside face)", "n", "start")
-
-    # shelf
-    sx0, sy0 = 70, 430
-    d.text(sx0, sy0 - 16, "SHELF ×1 (floor stand only)", "h", "start")
-    ox, oy = sx0 + 7.0 * S, sy0 - SHELF_BACK * S
-    pts = [(ox + x * S, oy + y * S) for x, y in shelf_pts()]
+    H, BT = F_H, F_BAR_TOP
+    d = Drawing(1060, 760, 0, 0, s=12)
+    d.text(20, 26, "Floor stand — parts and joinery. Countertop stand: the same parts, shorter legs.", "h", "start")
+    lx, ly, sc = 90, 80, 7.5
+    px = lambda x: lx + x * sc
+    pz = lambda z: ly + (H - z) * sc
+    lx0 = lx + 30
+    px = lambda x: lx0 + x * sc
+    pts = [(px(x - GAP / 2), pz(z)) for x, z in [(GAP / 2 + W_TOP, H), (GAP / 2, H), (GAP / 2, kink(H)),
+                                                  (inner(0, H), 0), (outer(0, H), 0)]]
+    d.add('<polygon class="post" points="' + " ".join(f"{a:.1f},{b:.1f}" for a, b in pts) + '"/>')
+    d.text(lx, ly - 14, "LEG ×4 (inside face on the left; draw it 1:1 for a template)", "h", "start")
+    zm = BT - BAR_H / 2
+    for sgn in (-1, 1):
+        zc = zm + sgn * DOM_PITCH / 2
+        d.add(f'<rect class="cut" x="{px(0):.1f}" y="{pz(zc + DOM_W / 2):.1f}" width="{DOM_DEPTH * sc:.1f}" height="{DOM_W * sc:.1f}"/>')
+    xr_ = px(outer(0, H) - GAP / 2) + 24
+    d.leader(px(DOM_DEPTH), pz(zm), xr_, pz(zm) - 4,
+             f"2 Domino mortises 8×40, centred {frac(zm)} up, {frac(DOM_PITCH)} apart (plumb face)")
+    d.leader(px(0), pz(kink(H)), xr_, pz(kink(H)) + 24, f"inside face plumb to {frac(kink(H))}, then tapers")
+    d.leader(px(outer(0, H) - GAP / 2), pz(0), xr_, pz(0) - 4, f"top and foot square; {frac(W_TOP)} wide at the top, {frac(leg_w(0, H))} at the foot")
+    d.text(lx, pz(0) + 22, f"blank {frac(LEG_BLANK_W)} × {frac(LEG_T)} × about {frac(H + 0.5)}", "n", "start")
+    d.text(lx, pz(0) + 38, "outside edge: plumb;", "n", "start")
+    d.text(lx, pz(0) + 54, "inside edge: plumb to the X, then one taper out", "n", "start")
+    sx0, sy0, sc2 = 640, 100, 40
+    d.text(sx0, sy0 - 28, "LEG section at the mortise (×40/12)", "h", "start")
+    ww = leg_w(zm, H)
+    d.add(f'<rect class="post" x="{sx0}" y="{sy0}" width="{ww * sc2:.1f}" height="{LEG_T * sc2}"/>')
+    d.add(f'<rect class="cut" x="{sx0}" y="{sy0 + (LEG_T - DOM_T) / 2 * sc2:.1f}" width="{DOM_DEPTH * sc2:.1f}" height="{DOM_T * sc2:.1f}"/>')
+    d.text(sx0, sy0 + LEG_T * sc2 + 16, f"{frac(ww)} × {frac(LEG_T)}; Domino mortise (8 mm, 20 mm deep) on the inside face (left)", "n", "start")
+    ax, ay = 460, 250
+    d.text(ax, ay - 14, "CROSS MEMBERS ×2 (the X), half-lapped at the centre", "h", "start")
+    L = bar_len(BT, H)
+    sB = 8
+    for k, (label, notch_bottom) in enumerate((("A: notch from the underside", True), ("B: notch from the top", False))):
+        y0 = ay + k * 110
+        d.add(f'<rect class="ap" x="{ax:.1f}" y="{y0:.1f}" width="{L * sB:.1f}" height="{BAR_H * sB:.1f}"/>')
+        for xx in (ax, ax + (L - DOM_DEPTH) * sB):          # the Domino mortises in the bar ends (hidden)
+            for sgn in (-1, 1):
+                zc = BAR_H / 2 + sgn * DOM_PITCH / 2
+                d.add(f'<rect class="hid" x="{xx:.1f}" y="{y0 + (zc - DOM_W / 2) * sB:.1f}" width="{DOM_DEPTH * sB:.1f}" height="{DOM_W * sB:.1f}"/>')
+        nx0 = ax + (L / 2 - BAR_T / 2) * sB
+        ny0 = y0 + BAR_H / 2 * sB if notch_bottom else y0
+        d.add(f'<rect class="cut" x="{nx0:.1f}" y="{ny0:.1f}" width="{BAR_T * sB:.1f}" height="{BAR_H / 2 * sB:.1f}"/>')
+        d.text(ax, y0 + BAR_H * sB + 16, f"{label}: lap {frac(BAR_T)} wide × {frac(BAR_H / 2)} deep, centred", "n", "start")
+    d.text(ax, ay + 110 + BAR_H * sB + 34, f"{frac(BAR_T)} × {frac(BAR_H)} × {frac(L)}; two 8×40 Dominos in each end (dashed), {frac(DOM_PITCH)} apart", "n", "start")
+    d.text(ax, ay + 110 + BAR_H * sB + 50, "square ends butt the plumb inside faces", "n", "start")
+    sx, sy, s3 = 90, 470, 18
+    d.text(sx, sy - 18, "SHELF ×1 (floor stand only)", "h", "start")
+    e = shelf_edge()
+    pts = [(sx + (x - SHELF_X0) * s3, sy + (SHELF_Y1 - y) * s3) for x, y in shelf_pts()]
     d.add('<polygon class="shelfp" points="' + " ".join(f"{a:.1f},{b:.1f}" for a, b in pts) + '"/>')
-    d.add(f'<line class="dim" x1="{ox-7*S:.1f}" y1="{oy+SHELF_FRONT*S+16:.1f}" x2="{ox+7*S:.1f}" y2="{oy+SHELF_FRONT*S+16:.1f}" marker-start="url(#a)" marker-end="url(#a)"/>')
-    d.text(ox, oy + SHELF_FRONT * S + 30, f"{frac(14)} wide × {frac(SHELF_FRONT - SHELF_BACK)} deep × {frac(SHELF_T)}", "t")
-    d.add(f'<line class="dim" x1="{ox+7*S+18:.1f}" y1="{oy+SHELF_BACK*S:.1f}" x2="{ox+7*S+18:.1f}" y2="{oy+SHELF_FRONT*S:.1f}" marker-start="url(#a)" marker-end="url(#a)"/>')
-    d.text(ox + 7 * S + 22, oy + 4, f"leg notches {frac(IN_HALF-NOTCH_CLR*0)} clear, 1/16″ slack", "n", "start") if False else None
-    d.text(sx0 + 14 * S + 40, sy0 + 40, f"front corners chamfered {frac(SHELF_CHAMF)}", "n", "start")
-    d.text(sx0 + 14 * S + 40, sy0 + 56, "four leg notches cut 1/16″ oversize", "n", "start")
-    d.text(sx0 + 14 * S + 40, sy0 + 72, "back edge ≈ flush with the back rail", "n", "start")
-    d.text(sx0 + 14 * S + 40, sy0 + 88, "front tongue reaches under the spigot", "n", "start")
+    w, h = -e - SHELF_X0, SHELF_Y1 - e
+    d.add(f'<line class="dim" x1="{sx:.1f}" y1="{sy + h * s3 + 16:.1f}" x2="{sx + w * s3:.1f}" y2="{sy + h * s3 + 16:.1f}" marker-start="url(#a)" marker-end="url(#a)"/>')
+    d.text(sx + w * s3 / 2, sy + h * s3 + 32, f"{frac(w)} × {frac(h)} × {frac(SHELF_T)}", "t")
+    d.text(sx + w * s3 + 20, sy + 30, "bottom edge butts the leg on the x axis,", "n", "start")
+    d.text(sx + w * s3 + 20, sy + 46, "right edge butts the leg on the y axis;", "n", "start")
+    d.text(sx + w * s3 + 20, sy + 62, "one 5×30 Domino in each of those edges,", "n", "start")
+    d.text(sx + w * s3 + 20, sy + 78, "centred on the leg, into mortises in the leg face; glued", "n", "start")
+    d.text(sx + w * s3 + 20, sy + 94, f"chamfer {frac(SHELF_CHAMF)} on the outer corner", "n", "start")
     d.save(path, "Floor stand parts and joinery", EXTRA)
+
+
+# ===========================================================================
+# Height comparison against the BOROUX teak floor stand (maker diagram)
+# ===========================================================================
+def height_compare(path):
+    S = 11
+    d = Drawing(1000, 800, 500, 70, s=S)
+    zmax = 60.0
+    zq = lambda z: zmax - z
+    X1, X2 = -17.0, 17.0
+    d.text(20, 26, "Height comparison, floor stand: BOROUX teak stand (maker figures) vs this plan (1 in = 11 px)", "h", "start")
+    fl = d.y(zq(0))
+    d.add(f'<line class="floor" x1="{d.x(-33):.1f}" y1="{fl:.1f}" x2="{d.x(33):.1f}" y2="{fl:.1f}"/>')
+    for z, label in ((COUNTER_H, f"counter {frac(COUNTER_H)}"), (COUNTER_H + CABINET_GAP, f"wall cabinet underside {frac(COUNTER_H + CABINET_GAP)} (18″ above the counter)")):
+        d.add(f'<line class="ctr" x1="{d.x(-33):.1f}" y1="{d.y(zq(z)):.1f}" x2="{d.x(33):.1f}" y2="{d.y(zq(z)):.1f}"/>')
+        d.text(d.x(-33), d.y(zq(z)) - 5, label, "n", "start")
+
+    def filt(cx, base_z):
+        d.rect(cx - GHOST_D / 2, zq(base_z + GHOST_H), cx + GHOST_D / 2, zq(base_z), "ghost")
+        d.text(d.x(cx), d.y(zq(base_z + GHOST_H / 2)), "3-gal", "n")
+
+    for sg in (-1, 1):   # BOROUX (maker; the diagram shows the inside face plumb to the top of the cross piece)
+        d.poly([(X1 + sg * BX_TOP_OUT, zq(BX_H)), (X1 + sg * BX_TOP_IN, zq(BX_H)), (X1 + sg * BX_TOP_IN, zq(BX_TOP_SHELF)),
+                (X1 + sg * (BX_BASE_HALF - 2.75), zq(0)), (X1 + sg * BX_BASE_HALF, zq(0))], "post")
+    d.rect(X1 - BX_TOP_IN, zq(BX_TOP_SHELF), X1 + BX_TOP_IN, zq(BX_TOP_SHELF - 2.5), "ap")
+    d.rect(X1 - 8.6, zq(BX_LOW_SHELF), X1 - 0.7, zq(BX_LOW_SHELF - SHELF_T), "shelfp")
+    filt(X1, BX_TOP_SHELF)
+    d.text(d.x(X1), fl + 22, "BOROUX teak stand", "t")
+    d.text(d.x(X1), fl + 38, "20¾″ base · 12″ top · 9½″ between legs", "n")
+    H, BT = F_H, F_BAR_TOP   # this plan
+    for sg in (-1, 1):
+        d.poly(leg_poly(sg, H, X2, zq), "post")
+    d.rect(X2 - GAP / 2, zq(BT), X2 + GAP / 2, zq(BT - BAR_H), "ap")
+    d.rect(X2 - 8.6, zq(F_SHELF_TOP), X2 - 0.7, zq(F_SHELF_TOP - SHELF_T), "shelfp")
+    filt(X2, BT)
+    d.text(d.x(X2), fl + 22, "this plan (floor stand, vertical legs)", "t")
+    d.text(d.x(X2), fl + 38, f"{frac(2 * outer(0, H))} wide · {frac(2 * inner(H, H))} between legs at the top, {frac(2 * inner(0, H))} at the feet", "n")
+    xl = d.x(X1 - BX_BASE_HALF) - 44
+    d.dim_v(zq(BX_TOP_SHELF), zq(0), xl, f"{frac(BX_TOP_SHELF)} top shelf", pxo=d.x(X1 - BX_BASE_HALF) + 4)
+    d.dim_v(zq(BX_LOW_SHELF), zq(0), xl - 34, f"{frac(BX_LOW_SHELF)} lower shelf", pxo=d.x(X1 - BX_BASE_HALF) + 4)
+    d.dim_v(zq(BX_TOP_SHELF), zq(BX_LOW_SHELF), xl - 68, f"{frac(BX_TOP_SHELF - BX_LOW_SHELF)} between", pxo=d.x(X1 - BX_BASE_HALF) + 4)
+    xm = d.x((X1 + X2) / 2)
+    d.dim_v(zq(BX_3GAL_TOTAL), zq(0), xm - 18, f"{frac(BX_3GAL_TOTAL)} overall", pxo=d.x(X1 + 5) + 4, left=False)
+    xr = d.x(X2 + outer(0, H)) + 44
+    d.dim_v(zq(H), zq(0), xr, f"{frac(H)} legs", pxo=d.x(X2 + outer(H, H)) + 4, left=False)
+    d.dim_v(zq(BT), zq(0), xr + 34, f"{frac(BT)} X top", pxo=d.x(X2 + inner(BT, H)) + 4, left=False)
+    d.dim_v(zq(F_SHELF_TOP), zq(0), xr + 68, f"{frac(F_SHELF_TOP)} shelf top", pxo=d.x(X2 + outer(F_SHELF_TOP, H)) + 4, left=False)
+    d.text(20, 782, "Dashed grey = BOROUX 3-Gallon (23″ tall). Its 56¾″ overall height (maker figure) is 2¾″ taller than a 54″ wall-cabinet underside; the 1.8-Gallon (51¼″) fits.", "n", "start")
+    d.save(path, "Floor stand height comparison, BOROUX stand against this plan", EXTRA)
 
 
 # ===========================================================================
@@ -482,8 +431,8 @@ class Iso:
             n = len(pts)
             for i in range(n):
                 (xa, ya), (xb, yb) = pts[i], pts[(i + 1) % n]
-                nx, ny = (yb - ya), -(xb - xa)          # outward normal for CCW polygon
-                if nx + ny > 1e-9:                      # faces +x/+y side → visible
+                nx, ny = (yb - ya), -(xb - xa)
+                if nx + ny > 1e-9:
                     f = .78 if nx > ny else .90
                     out += self._poly([(xa, ya, z0), (xb, yb, z0), (xb, yb, z1), (xa, ya, z1)], shade(color, f))
             out += self._poly([(x, y, z1) for x, y in pts], shade(color, 1.05))
@@ -521,103 +470,94 @@ WOOD = "#c98b57"       # cherry-ish
 WOOD2 = "#d9a06a"
 
 
-def tapered_leg(iso, sx, sy, leg_len, taper_z, ap_top, key):
-    """One leg: outside faces stay vertical; the two inside faces taper to FOOT below taper_z."""
-    x_o, y_o = sx * OUT_HALF, sy * OUT_HALF
-    x_i, y_i = sx * IN_HALF, sy * IN_HALF
-    xf, yf = sx * (OUT_HALF - FOOT), sy * (OUT_HALF - FOOT)
-    xs, ys = sorted((x_o, x_i)), sorted((y_o, y_i))
-    # tapered foot piece
-    xf0, xf1 = sorted((x_o, xf))
-    yf0, yf1 = sorted((y_o, yf))
-    bot = [(xf0, yf0, 0), (xf1, yf0, 0), (xf1, yf1, 0), (xf0, yf1, 0)]
-    top = [(xs[0], ys[0], taper_z), (xs[1], ys[0], taper_z), (xs[1], ys[1], taper_z), (xs[0], ys[1], taper_z)]
-    iso.hexa(bot, top, WOOD, key)
-    iso.box(xs[0], xs[1], ys[0], ys[1], taper_z, leg_len, WOOD, key + 0.01)
+def leg3d(iso, axis, sg, H):
+    """One tapered leg, in two pieces: plumb inside face above the kink, tapered below."""
+    t = LEG_T / 2
+    k = kink(H)
+
+    def corners(a, b, z):
+        lo, hi = sorted((a, b))
+        if axis == "x":
+            return [(lo, -t, z), (hi, -t, z), (hi, t, z), (lo, t, z)]
+        return [(-t, lo, z), (t, lo, z), (t, hi, z), (-t, hi, z)]
+    key = sg * (inner(H, H) + outer(H, H)) / 2
+    iso.hexa(corners(sg * inner(0, H), sg * outer(0, H), 0), corners(sg * inner(k, H), sg * outer(k, H), k), WOOD, key)
+    iso.hexa(corners(sg * inner(k, H), sg * outer(k, H), k), corners(sg * inner(H, H), sg * outer(H, H), H), WOOD, key + 0.001)
 
 
-def berkey(iso, cx, cy, z0, r=4.25, h=19.25):
-    key = cx + cy - 0.5
-    iso.cylinder(cx, cy, z0, z0 + 1.0, r + 0.2, "#26292c", key, stroke="#111")           # black base ring
-    iso.cylinder(cx, cy, z0 + 1.0, z0 + h, r, "url(#steel)", key + 0.01, r_top=r)
-    # spigot (box, pointing +y, with a drip nozzle)
-    iso.box(cx - 0.35, cx + 0.35, cy + r - 0.2, cy + r + SPIGOT_OUT, z0 + 2.3, z0 + 3.1, "#2a2d30", cy + r + 20)
-    iso.box(cx - 0.3, cx + 0.3, cy + r + SPIGOT_OUT - 0.7, cy + r + SPIGOT_OUT, z0 + 1.7, z0 + 2.3, "#2a2d30", cy + r + 20.01)
-
-
-def tumbler(iso, cx, cy, z0, key):
-    iso.cylinder(cx, cy, z0, z0 + CUP_H, CUP_D / 2, "url(#steel)", key, r_top=CUP_D / 2 + 0.2)
-
-
-def render_floor(path):
-    iso = Iso(780, 740, 390, 575, 12.0)
-    # shelf and lower rails
-    iso.prism(shelf_pts(), F_RAIL_TOP, F_SHELF_TOP, WOOD2, 0.2)
-    for key, (x0, x1, y0, y1) in {"b": (-IN_HALF, IN_HALF, -AP_OUT, -AP_IN), "l": (-AP_OUT, -AP_IN, -IN_HALF, IN_HALF),
-                                  "r": (AP_IN, AP_OUT, -IN_HALF, IN_HALF), "f": (-IN_HALF, IN_HALF, AP_IN, AP_OUT)}.items():
-        iso.box(x0, x1, y0, y1, F_RAIL_BOT, F_RAIL_TOP, WOOD2, (x0 + x1) / 2 + (y0 + y1) / 2 - 0.1)
-        iso.box(x0, x1, y0, y1, F_AP_BOT, F_AP_TOP, WOOD2, (x0 + x1) / 2 + (y0 + y1) / 2 + 0.05)
-    iso.prism(plate_pts(), F_PLATE_TOP - PLATE_T, F_PLATE_TOP, "#e5c08e", -0.5)
-    for sx in (-1, 1):
-        for sy in (-1, 1):
-            tapered_leg(iso, sx, sy, F_LEG_LEN, F_TAPER_Z, F_AP_TOP, sx * IN_HALF + sy * IN_HALF)
-    tumbler(iso, 0, GHOST_D / 2 + SPIGOT_OUT - 0.4, F_SHELF_TOP, 3.0)
-    berkey(iso, 0, 0, F_PLATE_TOP)
-    iso.save(path, "Floor water-filter stand with a Big Berkey, three-quarter concept view",
+def build_iso(path, floor):
+    H = F_H if floor else C_H
+    BT = F_BAR_TOP if floor else C_BAR_TOP
+    iso = Iso(780, 760 if floor else 640, 390, 650 if floor else 500, 9.5 if floor else 15.0)
+    zm = BT - BAR_H / 2
+    g = GAP / 2
+    iso.box(-g, g, -BAR_T / 2, BAR_T / 2, BT - BAR_H, BT, WOOD2, 0.01)
+    iso.box(-BAR_T / 2, BAR_T / 2, -g, g, BT - BAR_H, BT, WOOD2, 0.02)
+    for sg in (-1, 1):
+        leg3d(iso, "x", sg, H)
+        leg3d(iso, "y", sg, H)
+    cx, cy = cup_xy()
+    if floor:
+        iso.prism(shelf_pts(), F_SHELF_TOP - SHELF_T, F_SHELF_TOP, "#e5c08e", 0.0)
+        iso.cylinder(cx, cy, F_SHELF_TOP, F_SHELF_TOP + CUP_H, CUP_D / 2, "url(#steel)", cx + cy + 0.5, r_top=CUP_D / 2 + 0.2)
+    else:
+        iso.prism([(-9.5, -9), (9.5, -9), (9.5, 11), (-9.5, 11)], -0.6, 0, "#d8dce0", -40)
+        iso.cylinder(cx, cy, 0, CUP_H, CUP_D / 2, "url(#steel)", cx + cy + 0.5, r_top=CUP_D / 2 + 0.2)
+    r = GHOST_D / 2
+    iso.cylinder(0, 0, BT, BT + 1.0, min(r + 0.1, GAP / 2 - 0.02), "#26292c", 0.5, stroke="#111")
+    iso.cylinder(0, 0, BT + 1.0, BT + GHOST_H, r, "url(#steel)", 0.51)
+    nx, ny = nozzle_xy()
+    bx, by = nozzle_xy(r - 0.2)
+    iso.box(min(bx, nx) - 0.35, max(bx, nx) + 0.35, min(by, ny) - 0.35, max(by, ny) + 0.35,
+            BT + SPIGOT_UP - 0.4, BT + SPIGOT_UP + 0.4, "#2a2d30", 0.52)
+    ttl = "Floor" if floor else "Countertop"
+    iso.save(path, f"{ttl} water-filter stand with a BOROUX 3-Gallon, three-quarter concept view",
              ["Concept rendering drawn from the plan dimensions — cherry-toned; not a photograph.",
-              "Plate top 24″, legs 27¾″, shelf with a tumbler under the spigot. Filter shown: Big Berkey 8½″ × 19¼″."])
-
-
-def render_counter(path):
-    iso = Iso(780, 720, 390, 520, 15.0)
-    for key, (x0, x1, y0, y1) in {"b": (-IN_HALF, IN_HALF, -AP_OUT, -AP_IN), "l": (-AP_OUT, -AP_IN, -IN_HALF, IN_HALF),
-                                  "r": (AP_IN, AP_OUT, -IN_HALF, IN_HALF)}.items():
-        iso.box(x0, x1, y0, y1, C_AP_BOT, C_AP_TOP, WOOD2, (x0 + x1) / 2 + (y0 + y1) / 2 + 0.05)
-    iso.prism(plate_pts(), C_PLATE_TOP - PLATE_T, C_PLATE_TOP, "#e5c08e", -0.5)
-    for sx in (-1, 1):
-        for sy in (-1, 1):
-            tapered_leg(iso, sx, sy, C_LEG_LEN, C_TAPER_Z, C_AP_TOP, sx * IN_HALF + sy * IN_HALF)
-    # counter surface hint
-    iso.prism([(-9.5, -9), (9.5, -9), (9.5, 11), (-9.5, 11)], -0.6, 0, "#d8dce0", -40)
-    tumbler(iso, 0, GHOST_D / 2 + SPIGOT_OUT - 0.4, 0, 3.0)
-    berkey(iso, 0, 0, C_PLATE_TOP)
-    iso.save(path, "Countertop water-filter stand with a Big Berkey, three-quarter concept view",
-             ["Concept rendering drawn from the plan dimensions — cherry-toned; not a photograph.",
-              "Plate top 8″, legs 11¼″, open front so a tumbler stands on the counter under the spigot."])
+              (f"Filter on the X at {frac(BT)}, legs {frac(H)}, shelf at {frac(F_SHELF_TOP)} with a tumbler under the spigot. BOROUX 3-Gallon, 23″ tall."
+               if floor else f"Filter on the X at {frac(BT)}, legs {frac(H)}; a tumbler stands on the counter under the spigot.")])
 
 
 # ===========================================================================
 def report():
-    print("Floor stand")
-    print(f"  leg {frac(LEG)} sq x {frac(F_LEG_LEN)}; top aprons 4 @ {frac(APRON_T)} x {frac(F_AP_H)} x {frac(APRON_LEN)}")
-    print(f"  lower rails 4 @ {frac(APRON_T)} x {frac(F_RAIL_H)} x {frac(APRON_LEN)}; plate {frac(2*PLATE_HALF)} sq")
-    print(f"  shelf {frac(14)} x {frac(SHELF_FRONT-SHELF_BACK)}; apron top {frac(F_AP_TOP)}; shelf top {frac(F_SHELF_TOP)}")
-    print("Counter stand")
-    print(f"  leg {frac(C_LEG_LEN)}; aprons 3 @ {frac(C_AP_H)}; apron top {frac(C_AP_TOP)}")
+    for nm, H, BT in (("Floor", F_H, F_BAR_TOP), ("Counter", C_H, C_BAR_TOP)):
+        print(f"{nm} stand: legs {frac(LEG_T)} thick, {frac(W_TOP)} wide at the top, {frac(leg_w(0, H))} wide at the foot, {frac(H)} vertical, inside face plumb above {frac(kink(H))}")
+        print(f"  tops: {frac(GAP)} between, {frac(2 * outer(H, H))} outside; feet: {frac(2 * inner(0, H))} between, {frac(2 * outer(0, H))} outside")
+        print(f"  X top {frac(BT)}, bars {frac(BAR_T)} x {frac(BAR_H)} x {frac(bar_len(BT, H))} long, butts the legs; two 8x40 Dominos per end centred {frac(BT - BAR_H / 2)} up")
+        print(f"  legs vertical; inside edge below the kink tapers outward {math.degrees(math.atan(S_IN)):.2f} deg")
+    e = shelf_edge()
+    print(f"Shelf: {frac(-e - SHELF_X0)} x {frac(SHELF_Y1 - e)} x {frac(SHELF_T)}, top {frac(F_SHELF_TOP)}")
+    com = F_BAR_TOP + 10
+    diag = (outer(0, F_H) + LEG_T / 2) / math.sqrt(2)      # distance to the line joining adjacent feet's outer corners
+    print(f"Tip: floor stand, CoM ~{com:.0f}: along a leg axis {math.degrees(math.atan(outer(0, F_H) / com)):.1f} deg, diagonal {math.degrees(math.atan(diag / com)):.1f} deg")
     for name, dia, h in MODELS:
-        gap = AP_IN - dia / 2
-        print(f"  {name:26s} dia {dia:5.2f} h {h:5.2f}  gap to apron {gap:4.2f}  total on floor {F_PLATE_TOP+h:5.1f}  on counter {C_PLATE_TOP+h:5.1f}")
+        gap = (GAP - dia) / 2
+        gapt = gap
+        print(f"  {name:26s} dia {dia:5.2f} h {h:5.2f}  slack each side {gap:5.2f}  total on floor {F_BAR_TOP+h:5.1f}  on counter {C_BAR_TOP+h:5.1f}")
 
 
 def main():
     os.makedirs(OUT, exist_ok=True)
-    # sanity: geometry closes
-    assert abs(2 * OUT_HALF - 14.5) < 1e-9 and abs(APRON_LEN - 12.75) < 1e-9
-    assert abs(F_LEG_LEN - 27.75) < 1e-9 and abs(C_LEG_LEN - 11.25) < 1e-9
-    assert abs(F_SHELF_TOP - 9.25) < 1e-9 and abs(F_AP_BOT - 21.75) < 1e-9
-    # plate clip chord must clear the leg inside corner
-    assert 2 * PLATE_HALF - PLATE_CLIP > 0 and (2 * PLATE_HALF - PLATE_CLIP) * 2 / 2 < 2 * IN_HALF - 0.1
-    # tenons from the two faces must not meet inside the leg
-    assert IN_HALF + TEN_L + 1 / 16 <= IN_HALF + MORT_OFF + 1e-9 + 0.0 or True
-    assert (TEN_L + 1 / 16) <= (LEG - MORT_OFF) + 1e-9
+    assert abs(inner(F_H, F_H) * 2 - GAP) < 1e-9
+    assert inner(0, F_H) > GAP / 2 and leg_w(0, F_H) < W_TOP, "the legs must narrow toward the foot"
+    cx, cy = cup_xy()          # the cup must sit on the shelf and clear both leg lines
+    assert -cx + CUP_D / 2 <= -SHELF_X0 and cy + CUP_D / 2 <= SHELF_Y1, "cup hangs off the shelf"
+    assert -cx - CUP_D / 2 >= shelf_edge() and cy - CUP_D / 2 >= shelf_edge(), "cup overlaps a leg line"
+    assert GHOST_D <= GAP + 1e-9, "filter ring does not fit between the legs"
+    for nm, H, BT in (("floor", F_H, F_BAR_TOP), ("countertop", C_H, C_BAR_TOP)):
+        wmin = leg_w(BT - BAR_H / 2 - (DOM_PITCH + DOM_W) / 2, H)       # narrowest leg section a Domino mortise passes through
+        assert DOM_DEPTH < wmin - 0.75, f"{nm}: Domino mortise leaves too little wood in the leg"
+        assert DOM_PITCH + DOM_W < BAR_H, f"{nm}: two Dominos don't fit the bar's height"
+        assert DOM_T < BAR_T / 2 and DOM_T < LEG_T / 2, "Domino too thick for the bar or leg"
+    assert SH_W + 0.5 < leg_w(F_SHELF_TOP, F_H), "the shelf Domino doesn't fit across the leg face"
     w = lambda n: os.path.join(OUT, n)
-    floor_elevations(w("water-stand-floor-elevations.svg"))
-    counter_elevations(w("water-stand-counter-elevations.svg"))
+    elevations(w("water-stand-floor-elevations.svg"), True)
+    elevations(w("water-stand-counter-elevations.svg"), False)
     plan(w("water-stand-floor-plan.svg"), True)
     plan(w("water-stand-counter-plan.svg"), False)
     parts(w("water-stand-floor-parts.svg"))
-    render_floor(w("water-stand-floor-render.svg"))
-    render_counter(w("water-stand-counter-render.svg"))
+    build_iso(w("water-stand-floor-render.svg"), True)
+    build_iso(w("water-stand-counter-render.svg"), False)
+    height_compare(w("water-stand-heights.svg"))
     report()
 
 
