@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
-"""Drawings for the gravity water-filter stands (BOROUX / Berkey / British Berkefeld
-class): a floor stand and a countertop stand, one construction.
+"""Drawings for the gravity water-filter floor stand (BOROUX / Berkey / British Berkefeld
+class sized filters).
 
-The design follows the BOROUX teak floor stand: FOUR LEGS AT THE COMPASS POINTS, two
-leg pairs that each splay only in their own plane (no compound angles), joined near
-the top by TWO CROSS MEMBERS HALF-LAPPED INTO AN "X". The filter's base ring drops
-between the four legs and SITS ON THE X; the legs stand above it as retaining posts.
-A small shelf is tucked into one corner between two legs, under the spigot.
+FOUR VERTICAL LEGS AT THE COMPASS POINTS, joined by TWO CROSS MEMBERS HALF-LAPPED INTO AN "X".
+The filter's base ring drops between the four legs and SITS ON THE X; the legs stand above it
+as retaining posts. A small shelf is tucked into one corner between two legs, under the spigot.
 
 Usage: python3 tools/woodworking/water_filter_stand_drawings.py
 Writes public/static/woodworking/water-stand-*.svg
@@ -86,11 +84,6 @@ GHOST_D, GHOST_H = 9.5, 23.0    # BOROUX 3-Gallon, drawn dashed (9 1/2" = its pu
 SPIGOT_OUT = 2.6                # how far the nozzle sticks out of the body (est.)
 SPIGOT_UP = 0.25                # nozzle underside above the filter base: BOROUX lifts the spigot to 34", the base sits at 33 3/4"
 CUP_D, CUP_H = 3.3, 7.5         # a 30 oz tumbler (est.)
-
-# BOROUX stand, maker figures (for the height comparison)
-BX_H, BX_TOP_SHELF, BX_LOW_SHELF = 39.0, 33.75, 23.0
-BX_BASE_HALF, BX_TOP_OUT, BX_TOP_IN = 20.75 / 2, 6.0, 4.75
-BX_3GAL_TOTAL, COUNTER_H, CABINET_GAP = 56.75, 36.0, 18.0
 
 EXTRA = """
 <style>
@@ -337,56 +330,6 @@ def parts(path):
 
 
 # ===========================================================================
-# Height comparison against the BOROUX teak floor stand (maker diagram)
-# ===========================================================================
-def height_compare(path):
-    S = 11
-    d = Drawing(1000, 800, 500, 70, s=S)
-    zmax = 60.0
-    zq = lambda z: zmax - z
-    X1, X2 = -17.0, 17.0
-    d.text(20, 26, "Height comparison, floor stand: BOROUX teak stand (maker figures) vs this plan (1 in = 11 px)", "h", "start")
-    fl = d.y(zq(0))
-    d.add(f'<line class="floor" x1="{d.x(-33):.1f}" y1="{fl:.1f}" x2="{d.x(33):.1f}" y2="{fl:.1f}"/>')
-    for z, label in ((COUNTER_H, f"counter {frac(COUNTER_H)}"), (COUNTER_H + CABINET_GAP, f"wall cabinet underside {frac(COUNTER_H + CABINET_GAP)} (18″ above the counter)")):
-        d.add(f'<line class="ctr" x1="{d.x(-33):.1f}" y1="{d.y(zq(z)):.1f}" x2="{d.x(33):.1f}" y2="{d.y(zq(z)):.1f}"/>')
-        d.text(d.x(-33), d.y(zq(z)) - 5, label, "n", "start")
-
-    def filt(cx, base_z):
-        d.rect(cx - GHOST_D / 2, zq(base_z + GHOST_H), cx + GHOST_D / 2, zq(base_z), "ghost")
-        d.text(d.x(cx), d.y(zq(base_z + GHOST_H / 2)), "3-gal", "n")
-
-    for sg in (-1, 1):   # BOROUX (maker; the diagram shows the inside face plumb to the top of the cross piece)
-        d.poly([(X1 + sg * BX_TOP_OUT, zq(BX_H)), (X1 + sg * BX_TOP_IN, zq(BX_H)), (X1 + sg * BX_TOP_IN, zq(BX_TOP_SHELF)),
-                (X1 + sg * (BX_BASE_HALF - 2.75), zq(0)), (X1 + sg * BX_BASE_HALF, zq(0))], "post")
-    d.rect(X1 - BX_TOP_IN, zq(BX_TOP_SHELF), X1 + BX_TOP_IN, zq(BX_TOP_SHELF - 2.5), "ap")
-    d.rect(X1 - 8.6, zq(BX_LOW_SHELF), X1 - 0.7, zq(BX_LOW_SHELF - SHELF_T), "shelfp")
-    filt(X1, BX_TOP_SHELF)
-    d.text(d.x(X1), fl + 22, "BOROUX teak stand", "t")
-    d.text(d.x(X1), fl + 38, "20¾″ base · 12″ top · 9½″ between legs", "n")
-    H, BT = F_H, F_BAR_TOP   # this plan
-    for sg in (-1, 1):
-        d.poly(leg_poly(sg, H, X2, zq), "post")
-    d.rect(X2 - GAP / 2, zq(BT), X2 + GAP / 2, zq(BT - BAR_H), "ap")
-    d.rect(X2 - 8.6, zq(F_SHELF_TOP), X2 - 0.7, zq(F_SHELF_TOP - SHELF_T), "shelfp")
-    filt(X2, BT)
-    d.text(d.x(X2), fl + 22, "this plan (floor stand, vertical legs)", "t")
-    d.text(d.x(X2), fl + 38, f"{frac(2 * outer(0, H))} wide · {frac(2 * inner(H, H))} between legs at the top, {frac(2 * inner(0, H))} at the feet", "n")
-    xl = d.x(X1 - BX_BASE_HALF) - 44
-    d.dim_v(zq(BX_TOP_SHELF), zq(0), xl, f"{frac(BX_TOP_SHELF)} top shelf", pxo=d.x(X1 - BX_BASE_HALF) + 4)
-    d.dim_v(zq(BX_LOW_SHELF), zq(0), xl - 34, f"{frac(BX_LOW_SHELF)} lower shelf", pxo=d.x(X1 - BX_BASE_HALF) + 4)
-    d.dim_v(zq(BX_TOP_SHELF), zq(BX_LOW_SHELF), xl - 68, f"{frac(BX_TOP_SHELF - BX_LOW_SHELF)} between", pxo=d.x(X1 - BX_BASE_HALF) + 4)
-    xm = d.x((X1 + X2) / 2)
-    d.dim_v(zq(BX_3GAL_TOTAL), zq(0), xm - 18, f"{frac(BX_3GAL_TOTAL)} overall", pxo=d.x(X1 + 5) + 4, left=False)
-    xr = d.x(X2 + outer(0, H)) + 44
-    d.dim_v(zq(H), zq(0), xr, f"{frac(H)} legs", pxo=d.x(X2 + outer(H, H)) + 4, left=False)
-    d.dim_v(zq(BT), zq(0), xr + 34, f"{frac(BT)} X top", pxo=d.x(X2 + inner(BT, H)) + 4, left=False)
-    d.dim_v(zq(F_SHELF_TOP), zq(0), xr + 68, f"{frac(F_SHELF_TOP)} shelf top", pxo=d.x(X2 + outer(F_SHELF_TOP, H)) + 4, left=False)
-    d.text(20, 782, "Dashed grey = BOROUX 3-Gallon (23″ tall). Its 56¾″ overall height (maker figure) is 2¾″ taller than a 54″ wall-cabinet underside; the 1.8-Gallon (51¼″) fits.", "n", "start")
-    d.save(path, "Floor stand height comparison, BOROUX stand against this plan", EXTRA)
-
-
-# ===========================================================================
 # Isometric renderings (concept views from the plan dimensions)
 # ===========================================================================
 def shade(hex_, f):
@@ -519,7 +462,7 @@ def build_iso(path, floor):
 
 # ===========================================================================
 def report():
-    for nm, H, BT in (("Floor", F_H, F_BAR_TOP), ("Counter", C_H, C_BAR_TOP)):
+    for nm, H, BT in (("Floor", F_H, F_BAR_TOP),):
         print(f"{nm} stand: legs {frac(LEG_T)} thick, {frac(W_TOP)} wide at the top, {frac(leg_w(0, H))} wide at the foot, {frac(H)} vertical, inside face plumb above {frac(kink(H))}")
         print(f"  tops: {frac(GAP)} between, {frac(2 * outer(H, H))} outside; feet: {frac(2 * inner(0, H))} between, {frac(2 * outer(0, H))} outside")
         print(f"  X top {frac(BT)}, bars {frac(BAR_T)} x {frac(BAR_H)} x {frac(bar_len(BT, H))} long, butts the legs; two 8x40 Dominos per end centred {frac(BT - BAR_H / 2)} up")
@@ -532,7 +475,7 @@ def report():
     for name, dia, h in MODELS:
         gap = (GAP - dia) / 2
         gapt = gap
-        print(f"  {name:26s} dia {dia:5.2f} h {h:5.2f}  slack each side {gap:5.2f}  total on floor {F_BAR_TOP+h:5.1f}  on counter {C_BAR_TOP+h:5.1f}")
+        print(f"  {name:26s} dia {dia:5.2f} h {h:5.2f}  slack each side {gap:5.2f}  total on floor {F_BAR_TOP+h:5.1f}")
 
 
 def main():
@@ -543,7 +486,7 @@ def main():
     assert -cx + CUP_D / 2 <= -SHELF_X0 and cy + CUP_D / 2 <= SHELF_Y1, "cup hangs off the shelf"
     assert -cx - CUP_D / 2 >= shelf_edge() and cy - CUP_D / 2 >= shelf_edge(), "cup overlaps a leg line"
     assert GHOST_D <= GAP + 1e-9, "filter ring does not fit between the legs"
-    for nm, H, BT in (("floor", F_H, F_BAR_TOP), ("countertop", C_H, C_BAR_TOP)):
+    for nm, H, BT in (("floor", F_H, F_BAR_TOP),):
         wmin = leg_w(BT - BAR_H / 2 - (DOM_PITCH + DOM_W) / 2, H)       # narrowest leg section a Domino mortise passes through
         assert DOM_DEPTH < wmin - 0.75, f"{nm}: Domino mortise leaves too little wood in the leg"
         assert DOM_PITCH + DOM_W < BAR_H, f"{nm}: two Dominos don't fit the bar's height"
@@ -551,13 +494,9 @@ def main():
     assert SH_W + 0.5 < leg_w(F_SHELF_TOP, F_H), "the shelf Domino doesn't fit across the leg face"
     w = lambda n: os.path.join(OUT, n)
     elevations(w("water-stand-floor-elevations.svg"), True)
-    elevations(w("water-stand-counter-elevations.svg"), False)
     plan(w("water-stand-floor-plan.svg"), True)
-    plan(w("water-stand-counter-plan.svg"), False)
     parts(w("water-stand-floor-parts.svg"))
     build_iso(w("water-stand-floor-render.svg"), True)
-    build_iso(w("water-stand-counter-render.svg"), False)
-    height_compare(w("water-stand-heights.svg"))
     report()
 
 
