@@ -8,31 +8,33 @@
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 var(--body); }
 .top, main { max-width: 900px; margin: 0 auto; padding: 0 16px; }
-.top { padding-top: 16px; }
+.top { padding-top: 10px; }
 .top a { color: var(--accent); }
 h1, h2 { font-family: var(--head); line-height: 1.2; }
-h1 { margin: .4em 0 .2em; }
-h2 { font-size: 1.15rem; margin: 0 0 .6em; }
+h1 { margin: .2em 0 .1em; font-size: 1.6rem; }
+h2 { font-size: 1rem; margin: 0 0 .3em; }
 .lede, .hint, .muted { color: var(--muted); }
-.hint { font-size: .85rem; margin: .4em 0 0; }
-.card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; margin: 12px 0; }
-label { display: block; font-size: .9rem; margin: 6px 0; flex: 1 1 140px; }
-.row { display: flex; gap: 12px; flex-wrap: wrap; }
+.hint { font-size: .8rem; margin: .3em 0 0; line-height: 1.35; }
+.lede { margin: .2em 0 .4em; font-size: .9rem; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; margin: 0; }
+label { display: block; font-size: .8rem; margin: 3px 0; flex: 1 1 90px; min-width: 0; }
+.row { display: flex; gap: 8px 10px; flex-wrap: wrap; }
+.row label.wide { flex: 1 1 240px; }
 input[type=text], input:not([type]), input[inputmode], select {
-  display: block; width: 100%; padding: 8px; font: inherit; color: var(--ink); background: var(--bg);
+  display: block; width: 100%; padding: 5px 8px; margin-top: 2px; font: inherit; color: var(--ink); background: var(--bg);
   border: 1px solid var(--line); border-radius: 6px;
 }
-label.check { display: flex; align-items: center; gap: 8px; padding: 6px 0; min-height: 44px; flex-wrap: wrap; }
+label.check { display: flex; align-items: center; gap: 8px; padding: 2px 0; min-height: 32px; flex-wrap: wrap; font-size: .9rem; }
 label.check input[type=checkbox] { width: 20px; height: 20px; }
 label.check input[inputmode] { display: inline-block; width: 4.5em; }
 #matFields[hidden] { display: none; }
-button.primary { font: inherit; padding: 10px 18px; background: var(--btn); color: var(--btn-ink); border: 0; border-radius: 6px; cursor: pointer; }
+button.primary { font: inherit; padding: 8px 18px; white-space: nowrap; background: var(--btn); color: var(--btn-ink); border: 0; border-radius: 6px; cursor: pointer; }
 .errors { color: var(--bad); margin: 8px auto; max-width: 900px; padding: 0 16px; }
 .errors:not(:empty) { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 2px solid var(--bad); padding-top: 8px; padding-bottom: 8px; }
 .errors p { margin: 2px 0; }
 .warn { color: var(--accent); }
 
-.sheet { background: #fff; color: #111; border: 1px solid var(--line); border-radius: 8px; padding: 20px 24px; margin: 16px 0 40px; }
+.sheet { background: #fff; color: #111; border: 1px solid var(--line); border-radius: 8px; padding: 16px 20px; margin: 12px 0 32px; }
 .sheet h2 { font-size: 1.4rem; margin: 0; }
 .sheet h3 { font-family: var(--head); font-size: 1rem; margin: 1.2em 0 .4em; border-bottom: 1px solid #ccc; }
 .sheet-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
@@ -50,7 +52,7 @@ button.primary { font: inherit; padding: 10px 18px; background: var(--btn); colo
 .sheet-inputs div { break-inside: avoid; }
 
 input[type=file] { font: inherit; color: var(--ink); }
-.summary { margin: 12px 0 0; padding: 10px 14px; background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 6px; }
+.summary { margin: 0; flex: 1 1 260px; padding: 7px 12px; font-size: .92rem; background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 6px; }
 .summary a { color: var(--accent); white-space: nowrap; }
 .sheet td:first-child { white-space: nowrap; }
 .sheet table.bom td:nth-child(2) { white-space: nowrap; }
@@ -77,3 +79,22 @@ input[type=file] { font: inherit; color: var(--ink); }
 .sheet table.bom td:first-child { white-space: nowrap; }
 .sheet table.bom td:nth-child(3) { white-space: nowrap; font-variant-numeric: tabular-nums; }
 .sheet table.bom tbody tr:nth-child(even) td { background: #f8f7f3; }
+
+/* compact form layout */
+main { max-width: 960px; }
+.top { max-width: 960px; }
+.fgrid { display: grid; grid-template-columns: 1fr 1.5fr; gap: 10px; margin-top: 8px; }
+.fgrid .span { grid-column: 1 / -1; }
+.row.r4 > label { flex: 1 1 70px; }
+.row.r3 > label { flex: 1 1 90px; }
+.row.r2 > label { flex: 1 1 200px; }
+.mathead { display: flex; align-items: center; gap: 16px; }
+.mathead h2 { margin: 0; }
+.mathead label.check { margin: 0; min-height: 0; }
+#matFields { margin-top: 2px; }
+#matFields .row.r2 { align-items: end; }
+.actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin: 10px 0; }
+.reloadbox { margin: 0; padding: 6px 14px; }
+.reloadbox summary { cursor: pointer; font-size: .9rem; color: var(--muted); }
+.reloadbox[open] summary { margin-bottom: 4px; }
+@media (max-width: 720px) { .fgrid { grid-template-columns: 1fr; } .row.r4 > label { flex-basis: 40%; } }
