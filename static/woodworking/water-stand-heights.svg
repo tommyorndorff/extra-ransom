@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" width="1000" height="800" role="img" aria-label="Floor stand height comparison, BOROUX stand against this plan">
+<title>Floor stand height comparison, BOROUX stand against this plan</title>
+<style>
+  .bg{fill:#fff}
+  .wood{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .leg{fill:#dcb988;stroke:#4a3320;stroke-width:1.3}
+  .face{fill:#f3dfbf;stroke:#4a3320;stroke-width:1.3}
+  .pull{fill:#5a3b26;stroke:#2b1a0f;stroke-width:1}
+  .shelf{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3}
+  .hid{fill:none;stroke:#7a6a5a;stroke-width:1.1;stroke-dasharray:5 3}
+  .spacer{fill:#cfc3b4;stroke:#6b5b4b;stroke-width:1}
+  .floor{stroke:#333;stroke-width:1.6}
+  .dim{stroke:#1f5fa8;stroke-width:1;fill:none}
+  .ext{stroke:#8fb0d8;stroke-width:.8}
+  .t{font:12px 'Helvetica Neue',Arial,sans-serif;fill:#1f3a5f}
+  .n{font:11px 'Helvetica Neue',Arial,sans-serif;fill:#444}
+  .h{font:600 15px 'Helvetica Neue',Arial,sans-serif;fill:#222}
+</style>
+<defs>
+  <marker id="a" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#1f5fa8"/>
+  </marker>
+</defs>
+
+<style>
+  .post{fill:#dcb988;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .ap{fill:#ecd2ac;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .shelfp{fill:#e6c79c;stroke:#4a3320;stroke-width:1.3;stroke-linejoin:round}
+  .ghost{fill:#eef1f4;fill-opacity:.55;stroke:#6b7885;stroke-width:1.2;stroke-dasharray:6 4}
+  .cup{fill:none;stroke:#b0452b;stroke-width:1.2;stroke-dasharray:3 3}
+  .ctr{stroke:#999;stroke-width:.8;stroke-dasharray:10 3 2 3}
+  .cut{fill:#fff;stroke:#4a3320;stroke-width:1.3}
+</style>
+<rect class="bg" width="1000" height="800"/>
+<text class="h" x="20.0" y="26.0" text-anchor="start">Height comparison, floor stand: BOROUX teak stand (maker figures) vs this plan (1 in = 11 px)</text>
+<line class="floor" x1="137.0" y1="730.0" x2="863.0" y2="730.0"/>
+<line class="ctr" x1="137.0" y1="334.0" x2="863.0" y2="334.0"/>
+<text class="n" x="137.0" y="329.0" text-anchor="start">counter 36″</text>
+<line class="ctr" x1="137.0" y1="136.0" x2="863.0" y2="136.0"/>
+<text class="n" x="137.0" y="131.0" text-anchor="start">wall cabinet underside 54″ (18″ above the counter)</text>
+<polygon class="post" points="247.0,301.0 260.8,301.0 260.8,358.8 229.1,730.0 198.9,730.0"/>
+<polygon class="post" points="379.0,301.0 365.2,301.0 365.2,358.8 396.9,730.0 427.1,730.0"/>
+<rect class="ap" x="260.75" y="358.75" width="104.50" height="27.50"/>
+<rect class="shelfp" x="218.40" y="477.00" width="86.90" height="8.25"/>
+<rect class="ghost" x="260.75" y="105.75" width="104.50" height="253.00"/>
+<text class="n" x="313.0" y="232.2" text-anchor="middle">3-gal</text>
+<text class="t" x="313.0" y="752.0" text-anchor="middle">BOROUX teak stand</text>
+<text class="n" x="313.0" y="768.0" text-anchor="middle">20¾″ base · 12″ top · 9½″ between legs</text>
+<polygon class="post" points="611.4,336.8 633.4,336.8 633.4,386.2 623.8,730.0 611.4,730.0"/>
+<polygon class="post" points="762.6,336.8 740.6,336.8 740.6,386.2 750.2,730.0 762.6,730.0"/>
+<rect class="ap" x="633.38" y="358.75" width="107.25" height="27.50"/>
+<rect class="shelfp" x="592.40" y="477.00" width="86.90" height="8.25"/>
+<rect class="ghost" x="634.75" y="105.75" width="104.50" height="253.00"/>
+<text class="n" x="687.0" y="232.2" text-anchor="middle">3-gal</text>
+<text class="t" x="687.0" y="752.0" text-anchor="middle">this plan (floor stand, vertical legs)</text>
+<text class="n" x="687.0" y="768.0" text-anchor="middle">13¾″ wide · 9¾″ between legs at the top, 11½″ at the feet</text>
+<line class="ext" x1="154.9" y1="358.8" x2="202.9" y2="358.8"/>
+<line class="ext" x1="154.9" y1="730.0" x2="202.9" y2="730.0"/>
+<line class="dim" x1="154.9" y1="358.8" x2="154.9" y2="730.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(148.9,544.4) rotate(-90)" text-anchor="middle">33¾″ top shelf</text>
+<line class="ext" x1="120.9" y1="477.0" x2="202.9" y2="477.0"/>
+<line class="ext" x1="120.9" y1="730.0" x2="202.9" y2="730.0"/>
+<line class="dim" x1="120.9" y1="477.0" x2="120.9" y2="730.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(114.9,603.5) rotate(-90)" text-anchor="middle">23″ lower shelf</text>
+<line class="ext" x1="86.9" y1="358.8" x2="202.9" y2="358.8"/>
+<line class="ext" x1="86.9" y1="477.0" x2="202.9" y2="477.0"/>
+<line class="dim" x1="86.9" y1="358.8" x2="86.9" y2="477.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(80.9,417.9) rotate(-90)" text-anchor="middle">10¾″ between</text>
+<line class="ext" x1="482.0" y1="105.8" x2="372.0" y2="105.8"/>
+<line class="ext" x1="482.0" y1="730.0" x2="372.0" y2="730.0"/>
+<line class="dim" x1="482.0" y1="105.8" x2="482.0" y2="730.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(496.0,417.9) rotate(-90)" text-anchor="middle">56¾″ overall</text>
+<line class="ext" x1="806.6" y1="336.8" x2="766.6" y2="336.8"/>
+<line class="ext" x1="806.6" y1="730.0" x2="766.6" y2="730.0"/>
+<line class="dim" x1="806.6" y1="336.8" x2="806.6" y2="730.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(820.6,533.4) rotate(-90)" text-anchor="middle">35¾″ legs</text>
+<line class="ext" x1="840.6" y1="358.8" x2="744.6" y2="358.8"/>
+<line class="ext" x1="840.6" y1="730.0" x2="744.6" y2="730.0"/>
+<line class="dim" x1="840.6" y1="358.8" x2="840.6" y2="730.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(854.6,544.4) rotate(-90)" text-anchor="middle">33¾″ X top</text>
+<line class="ext" x1="874.6" y1="477.0" x2="766.6" y2="477.0"/>
+<line class="ext" x1="874.6" y1="730.0" x2="766.6" y2="730.0"/>
+<line class="dim" x1="874.6" y1="477.0" x2="874.6" y2="730.0" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="t" transform="translate(888.6,603.5) rotate(-90)" text-anchor="middle">23″ shelf top</text>
+<text class="n" x="20.0" y="782.0" text-anchor="start">Dashed grey = BOROUX 3-Gallon (23″ tall). Its 56¾″ overall height (maker figure) is 2¾″ taller than a 54″ wall-cabinet underside; the 1.8-Gallon (51¼″) fits.</text>
+</svg>
