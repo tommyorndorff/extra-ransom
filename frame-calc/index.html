@@ -7,85 +7,90 @@
 <title>Picture Frame Calculator</title>
 <meta name="description" content="Mitered picture-frame calculator: member lengths (outside and inside), cut list, and mat sizes, printable to PDF.">
 <meta name="color-scheme" content="light dark">
-<link rel="stylesheet" href="css/styles.css?v=20261125">
+<link rel="stylesheet" href="css/styles.css?v=20261127">
 </head>
 <body>
 <header class="top noprint">
   <a href="/docs/woodworking/furniture-plans/picture-frame/">&larr; Picture frame plan</a>
   <h1>Picture Frame Calculator</h1>
-  <p class="lede">Enter the art, mat and stock. Get the length of each frame member, point to point, plus a cut list and mat BOM. Use <strong>Print / Save PDF</strong> to keep a copy. Inches; type decimals or fractions (<code>15 5/8</code>).</p>
+  <p class="lede">Art, mat and stock in; member lengths, cut list and mat BOM out. Inches; decimals or fractions (<code>15 5/8</code>).</p>
 </header>
 
 <main>
 <div id="errors" class="errors noprint" role="alert"></div>
 
 <form id="form" class="noprint" autocomplete="off" onsubmit="return false">
-  <section class="card">
-    <h2>Preset</h2>
-    <label>Start from
-      <select id="preset"></select>
-    </label>
-    <label>Project name (printed on the sheet)
-      <input id="name" type="text" placeholder="e.g. Lake photo, hallway">
-    </label>
-  </section>
-
-  <section class="card">
-    <h2>Art / picture</h2>
-    <div class="row">
-      <label>Width <input id="artW" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
-      <label>Height <input id="artH" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
-    </div>
-    <p class="hint">The size of the picture itself. With no mat, glass is this size.</p>
-  </section>
-
-  <section class="card">
-    <h2>Mat</h2>
-    <label class="check"><input id="mat" type="checkbox"> Use a mat</label>
-    <div id="matFields">
+  <div class="fgrid">
+    <section class="card span">
       <div class="row">
-        <label>Top <input id="bT" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
-        <label>Bottom <input id="bB" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
+        <label class="wide">Start from
+          <select id="preset"></select>
+        </label>
+        <label class="wide">Project name (printed on the sheet)
+          <input id="name" type="text" placeholder="e.g. Lake photo, hallway">
+        </label>
       </div>
+    </section>
+
+    <section class="card">
+      <h2>Art / picture</h2>
       <div class="row">
-        <label>Left <input id="bL" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
-        <label>Right <input id="bR" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
+        <label>Width <input id="artW" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
+        <label>Height <input id="artH" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
       </div>
-      <div class="row">
-        <label>Art overlap under mat, each side <input id="overlap" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
-        <label class="check"><input id="bBauto" type="checkbox"> Bottom = top + <input id="bBextra" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false" size="4" aria-label="Extra added to the top border for the bottom border"></label>
+      <p class="hint">The picture itself. With no mat, glass is this size.</p>
+    </section>
+
+    <section class="card">
+      <h2>Frame stock</h2>
+      <div class="row r4">
+        <label>Face width <input id="face" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
+        <label>Thickness <input id="thick" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
+        <label>Rabbet width <input id="rabW" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
+        <label>Rabbet depth <input id="rabD" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
       </div>
-      <p class="hint">Borders are the visible mat widths. Mat opening = art &minus; 2 &times; overlap. Mat exterior = opening + borders, and is also the glass and backing size.</p>
-    </div>
-  </section>
+      <div class="row r3">
+        <label>Glass clearance / side <input id="clear" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
+        <label>Saw kerf <input id="kerf" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
+        <label>Stick length <input id="stick" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
+      </div>
+    </section>
 
-  <section class="card">
-    <h2>Frame stock</h2>
-    <div class="row">
-      <label>Face width <input id="face" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
-      <label>Thickness <input id="thick" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
-    </div>
-    <div class="row">
-      <label>Rabbet width <input id="rabW" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
-      <label>Rabbet depth <input id="rabD" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
-    </div>
-    <div class="row">
-      <label>Glass clearance, each side <input id="clear" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
-      <label>Saw kerf <input id="kerf" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
-      <label>Stick length <input id="stick" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
-    </div>
-  </section>
+    <section class="card span">
+      <div class="mathead">
+        <h2>Mat</h2>
+        <label class="check"><input id="mat" type="checkbox"> Use a mat</label>
+      </div>
+      <div id="matFields">
+        <div class="row r4">
+          <label>Top <input id="bT" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
+          <label>Bottom <input id="bB" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
+          <label>Left <input id="bL" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
+          <label>Right <input id="bR" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
+        </div>
+        <div class="row r2">
+          <label>Art overlap under mat, each side <input id="overlap" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false"></label>
+          <label class="check"><input id="bBauto" type="checkbox"> Bottom = top + <input id="bBextra" inputmode="text" enterkeyhint="next" autocapitalize="off" spellcheck="false" size="4" aria-label="Extra added to the top border for the bottom border"></label>
+        </div>
+        <p class="hint">Borders are the visible mat widths. Opening = art &minus; 2 &times; overlap. Exterior = opening + borders (also the glass and backing size).</p>
+      </div>
+    </section>
+  </div>
 
-  <button type="button" id="print" class="primary">Print / Save PDF</button>
-  <p id="summary" class="summary" hidden></p>
+  <div class="actions">
+    <button type="button" id="print" class="primary">Print / Save PDF</button>
+    <p id="summary" class="summary" hidden></p>
+  </div>
 
-  <section class="card">
-    <h2>Reload a saved sheet</h2>
+  <details class="card reloadbox">
+    <summary>Reload a saved sheet</summary>
     <p class="hint">Every printed sheet ends with a reload code. Pick a saved PDF, or paste the code, to restore its inputs.</p>
-    <label>Saved PDF <input id="pdfFile" type="file" accept="application/pdf,.pdf"></label>
-    <label>Or paste reload code <input id="codeIn" type="text" placeholder="FC1.…~"></label>
+    <div class="row">
+      <label class="wide">Saved PDF <input id="pdfFile" type="file" accept="application/pdf,.pdf"></label>
+      <label class="wide">Or paste reload code <input id="codeIn" type="text" placeholder="FC1.…~"></label>
+    </div>
     <p id="importMsg" class="hint" role="status"></p>
-  </section>
+  </details>
 </form>
 
 <article id="sheet" class="sheet">
@@ -97,7 +102,7 @@
 </article>
 </main>
 
-<script src="js/calc.js?v=20261125"></script>
-<script src="js/app.js?v=20261125"></script>
+<script src="js/calc.js?v=20261127"></script>
+<script src="js/app.js?v=20261127"></script>
 </body>
 </html>
