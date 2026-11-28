@@ -168,6 +168,12 @@ A flange with two screw holes, a 28 mm post and a rounded top. Screw it to the b
 
 ---
 
+## Overarm dust-collection arm
+
+The 90° elbows for the [Overarm Dust-Collection Arm](/docs/woodworking/overarm-dust-arm/): a clamp-on sleeve elbow for 1¼″ Sch 80 pipe, printed in two identical halves with no supports. [`dust_elbow_half.stl`](/static/woodworking-3d/dust_elbow_half.stl) · print 4 · hardware: M4 × 12 hex bolts and nuts. See that page for the design and hardware list.
+
+---
+
 ## Not yet designed
 
 The plans also call for these printed parts; none of them has an STL yet:
