@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
 Parametric STL generator for the 3D-printed parts called for by the woodworking
-plans (Adjustable Scarf Jig) plus generic table-saw accessories
-that fit any SawStop (standard 3/4" x 3/8" miter slot). All dimensions in mm.
+plans (Adjustable Scarf Jig), generic table-saw accessories that fit any SawStop
+(standard 3/4" x 3/8" miter slot), and the 90-degree elbows of the overarm
+dust-collection arm (1-1/4" Schedule 80 pipe). All dimensions in mm.
 Parts are exported in print orientation.
 
 Requirements:  pip install manifold3d trimesh numpy matplotlib
@@ -42,6 +43,28 @@ RUNNER_H = SLOT_D - 0.7                  # 8.8 -- stays below the table surface
 CRUSH_RIB = 0.35             # featherboard friction ribs, per side
 M5_NUT_AF, M5_NUT_T = 8.3, 4.8           # M5 nut pocket for sled-runner screws
 SETUP_HEIGHTS_IN = [1/8, 1/4, 3/8, 1/2, 5/8, 3/4, 7/8, 1.0]
+
+# -- overarm dust-collection arm: 90-degree elbow for 1-1/4" Schedule 80 pipe --
+# 1-1/4" Sch 80: OD 1.660" (42.16 mm), wall 0.191" (4.85 mm), ID 1.278" (32.46 mm).
+# The elbow is a sleeve OVER the pipe (socket bore = pipe OD + clearance) with a
+# ledge at the bottom of the socket the pipe butts against, so the airway is
+# exactly the pipe's bore -- no step for chips to catch on.  It is printed as two
+# IDENTICAL halves split on the bend plane, clamped to the pipe by M4 bolts.
+PIPE_OD = 1.660 * IN
+PIPE_WALL = 0.191 * IN
+PIPE_ID = PIPE_OD - 2 * PIPE_WALL
+SOCK_CLEAR = 0.15            # radial clearance, pipe OD to socket bore (PVC OD varies +-0.005")
+CLAMP_RELIEF = 0.40          # each half's socket faces are cut back this far; bolts close the gap
+ELBOW_R = 3.0 * IN           # bend radius to the airway centreline (1.8 x pipe OD)
+ELBOW_RO = PIPE_OD / 2 + 3.0 # outer radius of the whole elbow (3 mm wall around the socket)
+SOCK_LEN = 45.0              # pipe insertion depth
+LEG_LEN = SOCK_LEN + 6.0     # straight leg beyond the arc: 6 mm of plain bore behind the ledge
+EAR_T = 8.0                  # clamp-ear / lug thickness per half
+EAR_OUT = 12.5               # ear reach beyond the outer radius
+M4_HEX_AF = 7.3              # M4 nut / hex-head pocket (7.0 AF + clearance)
+M4_POCKET = 3.4              # pocket depth
+M4_HOLE = 4.5
+DOWEL_D = 2.0                # holes for short pieces of 1.75 mm filament used as locating pins
 
 
 def box(x0, x1, y0, y1, z0, z1):
@@ -233,6 +256,63 @@ def part_jig_handle():
     return m
 
 
+# ---------------------------------------------------------------------------
+# Overarm dust-collection arm
+# ---------------------------------------------------------------------------
+
+def part_dust_elbow_half():
+    """One half of a 90-degree sweep elbow for 1-1/4" Sch 80 pipe, split on the bend
+    plane. Both halves are identical. Print with the flat mating face DOWN, no
+    supports. Bend plane = XY, arc centre at the origin, arc from (R,0) to (0,R)."""
+    R, RO = ELBOW_R, ELBOW_RO
+    RB = PIPE_ID / 2
+    RS = PIPE_OD / 2 + SOCK_CLEAR
+    nut = hexagon_z(M4_POCKET + 1, M4_HEX_AF)
+
+    def ring(r):
+        return Manifold.revolve(CrossSection.circle(r, SEG).translate((R, 0)), SEG, 90)
+
+    def leg_b(r, y0, y1):          # cylinder on axis x=R from y0 to y1
+        return cyl_z(y1 - y0, 2 * r).rotate((-90, 0, 0)).translate((R, y0, 0))
+
+    def bolt(x, y):                # M4 hole + hex pocket on the outer face (z = EAR_T)
+        return (cyl_z(EAR_T + 2, M4_HOLE, 48).translate((x, y, -1))
+                + nut.translate((x, y, EAR_T - M4_POCKET)))
+
+    # leg B (axis x = R, tip at y = -LEG_LEN); leg A is its mirror across the diagonal
+    yb = -LEG_LEN + SOCK_LEN / 2
+    add_b = None
+    sub_b = leg_b(RB, -LEG_LEN - 1, 1) + leg_b(RS, -LEG_LEN - 1, -LEG_LEN + SOCK_LEN)
+    for sgn in (-1, 1):
+        x_in, x_out = RO - 4.0, RO + EAR_OUT
+        e = box(R + min(sgn * x_in, sgn * x_out), R + max(sgn * x_in, sgn * x_out),
+                yb - 9, yb + 9, 0, EAR_T)
+        add_b = e if add_b is None else add_b + e
+        sub_b = sub_b + bolt(R + sgn * (RO + EAR_OUT / 2 + 0.5), yb)
+    relief_b = box(R - 60, R + 60, -LEG_LEN - 1, -LEG_LEN + SOCK_LEN + 1, -1, CLAMP_RELIEF)
+
+    diag = (1 / math.sqrt(2), -1 / math.sqrt(2), 0)
+    mir = lambda m: m.mirror(diag)
+
+    body = ring(RO) + leg_b(RO, -LEG_LEN, 0.01) + mir(leg_b(RO, -LEG_LEN, 0.01))
+    body += add_b + mir(add_b)
+    # two lugs on the sweep (inside and outside of the bend at 45 degrees)
+    sub = sub_b + mir(sub_b) + ring(RB)
+    for rad in (R + RO + 3.5, R - RO - 3.5):
+        cx, cy = rad * math.cos(math.pi / 4), rad * math.sin(math.pi / 4)
+        body += cyl_z(EAR_T, 17.0).translate((cx, cy, 0))
+        sub += bolt(cx, cy)
+    # locating-pin holes in the mating face (1.75 mm filament offcuts)
+    for ang, rad in ((22.0, R + RB + 4.0), (68.0, R + RB + 4.0)):   # symmetric about the diagonal, so identical halves mate
+        a = math.radians(ang)
+        sub += cyl_z(6.0, DOWEL_D, 24).translate((rad * math.cos(a), rad * math.sin(a), -1))
+
+    half = body - sub
+    half = half ^ box(-200, 200, -200, 200, 0, 100)                    # keep z >= 0
+    half -= relief_b + mir(relief_b)
+    return half
+
+
 PARTS = {
     "ratio_gauge":       (part_ratio_gauge,       1),
     "hold_down_bar":     (part_hold_down_bar,     1),
@@ -248,6 +328,7 @@ PARTS = {
     "tenon_shims":       (part_tenon_shims,       2),
     "jig_bracket":       (part_jig_bracket,       2),
     "jig_handle":        (part_jig_handle,        1),
+    "dust_elbow_half":   (part_dust_elbow_half,   4),
 }
 
 
@@ -302,6 +383,12 @@ def main():
               f"{man.genus():>5}  {dims:<26} {'yes' if wt else 'NO <-- BAD'}")
         tm.export(os.path.join(HERE, f"{name}.stl"))
         render_preview(tm, name)
+    # assembled-elbow preview: the second half is the first rotated 180 deg about the diagonal
+    half = part_dust_elbow_half()
+    flip = half.transform(np.array([[0, 1, 0, 0], [1, 0, 0, 0], [0, 0, -1, 0]], dtype=float))
+    asm = to_trimesh(half + flip)
+    asm.apply_translation(-asm.bounds[0])
+    render_preview(asm, "dust_elbow_assembled")
     print("\nAll parts watertight." if ok else "\nSOME PARTS FAILED VALIDATION")
     return 0 if ok else 1
 
